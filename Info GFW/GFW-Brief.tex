@@ -1,4 +1,6 @@
 \documentclass[11pt]{article}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
 \title{GFW: Protection or censorship?\\ \large A brief overview on China's Great Firewall system}
 \author{Hengyi Li}
 \newcommand{\name}{Hengyi Li}
@@ -14,6 +16,7 @@
 \usepackage{upquote}
 \usepackage{multicol}
 \usepackage{hyperref}
+\usepackage{xeCJK}
 
 \begin{document}
 \maketitle
@@ -85,34 +88,69 @@ discuss its technical aspects here, and we would start by discussing the network
 architecture legacy.
 
 \section{China's internet architecture}
-In China, the Internet architecture consists of layers and layers of NATs, and
-most people do not have public IPs. there are only three Internet Service
-Providers (ISPs) in China, China Mobile, China Unicom and China Telecom, all of
-which are state-owned enterprises. All three are state-owned enterprises. All
-three companies are state-owned and have a monopoly on the supply of cell phones,
-TV, and Internet services in China. The reason for these three providers to use
-Carrier Grade NAT is that China has too many network devices, and IPV4 addresses
-are limited, coupled with a large population base, which makes China face the
-problem of insufficient IPV4 addresses earlier than other countries in the world.
-The use of carrier grade NAT can be a very convenient solution to this problem
-and also brings more convenient network device management mechanism.
 
+Because of the limited number of IPv4 addresses and China's large population
+base, China is facing the problem of running out of IPv4 addresses earlier than
+other countries in the world. At that time, IPv6 protocol had not yet been
+proposed. As a response, the three major carriers in China coincidentally chose
+carrier-grade NAT when setting up their networks, which effectively reduced the
+use of public IPv4 addresses by converting a large number of private IPv4
+addresses into a small number of public IPv4 addresses \cite{CISCONAT}.
 
+Therefore, the Chinese network architecture now becomes based on NAT technology.
+Normal people will not have a public IP address, but all private IP
+addresses provided by ISPs, and, because China's Internet, cell phone and TV
+services are monopolized by three state-owned companies, China Mobile, China
+Telecom and China Unicom. The network architecture has become an onion-like NAT
+bridging model. Because of this bridging model, network providers can isolate
+intranet access requests from international access requests very easily. In
+order to meet the demand for international access, China has set up
+international line servers in three major cities, Beijing, Shanghai and
+Guangzhou, and deployed GFWs on them, which can be interpreted as network
+outbound customs, so that all outbound traffic must pass through the servers in
+one of the three cities and go through the GFWs' scrutinizing process before
+going out of the country \cite{GlobalNetServer}.
+
+Let's simulate a situation for better understanding. Suppose we have a laptop in
+Chengdu trying to access the ucdavis.edu website, then the request will go
+through the following process
+\begin{align*} &Laptop \rightarrow \text{Home Router} \rightarrow
+\text{Community Server} \rightarrow \text{Distinct Server}\\ &\rightarrow
+\text{City Datacenter} \rightarrow \text{Province Datacenter} \rightarrow
+\text{Guangzhou Datacenter}\\ &\rightarrow \text{GFW server} \rightarrow
+\text{UCDavis server} \end{align*}
+As you can see, it takes a long way from Chengdu to connect to the server at UCDavis.
+At the same time, keep in mind that each hop is accomplished by IP conversion
+through NAT layer by layer. And in the final pass through the GFW is also like
+going through customs, the GFW will review the legal compliance of the
+destination address, and whether it is on the blacklist. If the address is on
+GFW's blacklist (e.g.\ Youtube.com), GFW will reject the connection and send a
+reset request to both parties or wait until the connection times out. I'll
+discuss GFW's blocking patterns further in the next section.
+
+\section{GFW's Working Principle}
 
 \newpage
 \bibliography{GFW-Brief.bib}
 \begin{thebibliography}{9}
-	\bibitem{DetectBlockShadowSocks} Anonymous, et al. \textit{``How China Detects
-		and Blocks Shadowsocks.''} GFW Report, 29 Dec. 2019, gfw.
-	report/blog/gfw\_shadowsocks. Accessed 11 Jan. 2024.
+\bibitem{DetectBlockShadowSocks} Anonymous, et al. \textit{"How China Detects
+and Blocks Shadowsocks."} GFW Report, 29 Dec. 2019, gfw.
+report/blog/gfw\_shadowsocks. Accessed 11 Jan. 2024.
 
-	\bibitem{GFWReport} Great Firewall Report. \textit{``Great Firewall Report.''}
+	\bibitem{CISCONAT} Cisco.com. "Carrier Grade Network Address Translation."
+	\textit{Information About Carrier Grade Network Address Translation}, www.cisco.com/c/en/us/td/docs/routers
+	en/us/td/docs/routers/ios/config/17-x/ip-addressing/b-ip-addressing/m\_iadnat-cgn.pdf. Accessed 11 Jan. 2024
+
+	\bibitem{GFWReport} Great Firewall Report. \textit{"Great Firewall Report."}
 	Great Firewall Repor, Dec. 2019, gfw.report. Accessed 11 Jan. 2024.
 
 	\bibitem{CISCO}
-	Schaack, Beth Van. \textit{``China's Golden Shield: Is Cisco Systems Complicit?''} Center
+	Schaack, Beth Van. \textit{"China's Golden Shield: Is Cisco Systems Complicit?"} Center
 	for Internet and Society, 24 Mar. 2015, cyberlaw.stanford.edu/blog/2015/03/china\%E2\%80\%99s-golden-shield-cisco-systems-complicit.
 	Accessed 11 Jan. 2024.
+
+	\bibitem{GlobalNetServer}
+	聿纾. \textit{"国内主流网络运营商国际连接线路简谈."} 知乎专栏, zhuanlan.zhihu.com/p/64467370.
 
 \end{thebibliography}
 \end{document}
