@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.21)  11 JAN 2024 15:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.21)  11 JAN 2024 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -461,12 +461,7 @@ Package hyperref Info: Link coloring OFF on input line 18.
 
  [1
 
-]
-No file GFW-Brief.bbl.
-
-LaTeX Warning: Empty `thebibliography' environment on input line 40.
-
-[2] (GFW-Brief.aux)
+] (GFW-Brief.bbl) [2] (GFW-Brief.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -475,11 +470,11 @@ Package rerunfilecheck Info: File `GFW-Brief.out' has not changed.
 (rerunfilecheck)             Checksum: A84C71BE49EE3C9DFB8776C036F8CC51;196.
  ) 
 Here is how much of TeX's memory you used:
- 10077 strings out of 409955
- 153028 string characters out of 5785477
- 1920674 words of memory out of 5000000
- 31731 multiletter control sequences out of 15000+600000
- 561887 words of font info for 55 fonts, out of 8000000 for 9000
+ 10085 strings out of 409955
+ 153180 string characters out of 5785477
+ 1921674 words of memory out of 5000000
+ 31734 multiletter control sequences out of 15000+600000
+ 561895 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,11n,67p,588b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
