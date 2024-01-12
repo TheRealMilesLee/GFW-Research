@@ -33,14 +33,32 @@ subject of this article - The Great Firewall.
 
 \section{Background}
 Great Firewall (hereinafter referred to as GFW) is a traffic censorship and
-attack defense system based on Cisco's intrusion detection system \cite{Cisco}.
-
+attack defense system based on Cisco's intrusion detection system \cite{CISCO}.
+This defense system combines active and passive detection capabilities to censor
+China's Internet traffic. As far as we know from our testing, the system is
+running on IPV4, but we have no way of knowing if the system is compatible with
+IPV6 as well. The main reason for this is that IPV6 is not very popular in China,
+and even if we could ask the carriers to enable it, they would not be very
+willing to do so for security reasons, and it would require a series of very
+complicated procedures to complete. What's worse, the GFW is still a black box
+system for outsiders and researchers, and the existence of the system is not
+recognized at the national level, and there is no official documentation about
+the system. All research into the system is currently in the ``poke around and
+see what happend'' phase, so most of the results and findings below come from
+community organizations and web forum members. We would like to thank the
+members and contributors of the gfw.repot \cite{GFWReport} website for providing a wealth of
+documentation and experimental data without which we would not have been able to
+gain such a deep understanding of GFW.
 \newpage
 \bibliography{GFW-Brief.bib}
 \begin{thebibliography}{9}
-\bibitem{Cisco}
+\bibitem{CISCO}
 Schaack, Beth Van. \textit{``China's Golden Shield: Is Cisco Systems Complicit?''} Center
 for Internet and Society, 24 Mar. 2015, cyberlaw.stanford.edu/blog/2015/03/china\%E2\%80\%99s-golden-shield-cisco-systems-complicit.
 Accessed 11 Jan. 2024.
+
+\bibitem{GFWReport}
+Great Firewall Report. \textit{``Great Firewall Report.''} Great Firewall Repor, Dec. 2019,
+gfw.report. Accessed 11 Jan. 2024.
 \end{thebibliography}
 \end{document}
