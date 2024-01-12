@@ -35,22 +35,54 @@ subject of this article - The Great Firewall.
 Great Firewall (hereinafter referred to as GFW) is a traffic censorship and
 attack defense system based on Cisco's intrusion detection system \cite{CISCO}.
 This defense system combines active and passive detection capabilities to censor
-China's Internet traffic \cite{DetectBlockShadowSocks}.
-As far as we know from our testing, the system is running on IPV4, but we have no way of knowing if the system is compatible with
-IPV6 as well. The main reason for this is that IPV6 is not very popular in China,
-and even if we could ask the carriers to enable it, they would not be very
-willing to do so for security reasons, and it would require a series of very
-complicated procedures to complete. What's worse, the GFW is still a black box
-system for outsiders and researchers, and the existence of the system is not
-recognized at the national level, and there is no official documentation about
-the system. All research into the system is currently in the ``poke around and
-see what happend'' phase, so most of the results and findings below come from
-community organizations and web forum members. We would like to thank the
-members and contributors of the gfw.repot \cite{GFWReport} website for providing a wealth of
-documentation and experimental data without which we would not have been able to
-gain such a deep understanding of GFW. In order to begin to understand how the
-GFW network in China works, we need to first understand the composition of the
-network structure in China, which has a huge difference with here in the U.S.
+China's Internet traffic \cite{DetectBlockShadowSocks}. As far as we know from
+our testing, the system is running on IPV4, but we have no way of knowing if the
+system is compatible with IPV6 as well. The main reason for this is that IPV6 is
+not very popular in China, and even if we could ask the carriers to enable it,
+they would not be very willing to do so for security reasons, and it would
+require a series of very complicated procedures to complete.
+
+What's worse, the GFW is still a black box system for outsiders and researchers,
+and the existence of the system is not recognized at the national level, and
+there is no official documentation about the system. All research into the
+system is currently in the ``poke around and see what happend'' phase, so most
+of the results and findings below come from community organizations and web
+forum members. We would like to thank the members and contributors of the gfw.
+repot \cite{GFWReport} website for providing a wealth of documentation and
+experimental data without which we would not have been able to gain such a deep
+understanding of GFW. In order to begin to understand how the GFW network in
+China works, we need to first understand the composition of the network
+structure in China, which has a huge difference with here in the U.S.
+
+Now, China's Internet is divided into two parts, the national intranet and the
+international network. Since 2013, China's internet technology companies have
+grown and expanded into a wide range of industries, creating an ecosystem of
+apps for every need and an internal loop. For example, we have Bilibili, which
+is the Chinese version of Youtube. We have Baidu, which is the Chinese version
+of Google We have Weibo to replace the Twitter, we have WeChat to replace the
+Facebook and WhatsApp and the alternate to Apple Pay/Google Pay and a series of
+other payment tools in China is Alipay and WeChat Pay. Every application you
+know, we have a alternative version and it's optimized just for Chinese market.
+Everything we need is in the intranet, so most of people choose to live in a
+environment like this. But what it brings is the information cocoon. Because the
+Chinese language is so special, learning English can be much more difficult for
+Chinese people than it is for Americans learning Spanish. The rising cost of
+learning means that most people won't bother to learn the language, and thus the
+breadth of the information stream they receive on a daily basis will become
+narrower and narrower. Unfortunately, because of the speciality of the Chinese
+language and its strong historical and cultural ties, the Chinese language media
+is mostly limited to the territory of China and the GFW exacerbates this
+situation by making it more difficult to access foreign media.
+
+That's not what we want, and it's not what we want to see the Internet will
+become. Information should flow freely, and anyone should be able to access as
+much information as they want without compromising national security.
+Communication between people should not be hindered by the advent of technology,
+and unfortunately, GFW is one of the technologies that builds barriers. It
+didn't come about by accident, but because of a combination of historical
+legacies and improvisational decisions. For the sake of safety, we will only
+discuss its technical aspects here, and we would start by discussing the network
+architecture legacy.
 
 \section{China's internet architecture}
 In China, the Internet architecture consists of layers and layers of NATs, and
@@ -65,17 +97,7 @@ problem of insufficient IPV4 addresses earlier than other countries in the world
 The use of carrier grade NAT can be a very convenient solution to this problem
 and also brings more convenient network device management mechanism.
 
-Now, China's Internet is divided into two parts, the national intranet and the
-international network. Since 2013, China's Internet companies have had a very
-significant development, the people's daily life can be satisfied with
-everything, at the same time, the application of international social media
-platforms China's Internet companies have also launched its replacement products.
-For example, the Chinese version of Youtube is Bilibili, the Chinese version of
-Google is Baidu, the Chinese version of Twitter is Weibo, the alternate to
-Facebook and WhatsApp is WeChat, and the alternate to Apple Pay/Google Pay and a
-series of other payment tools in China is Alipay and WeChat Pay. It can be said
-that there is a Chinese app for all the daily needs of the Chinese people, which
-makes most of the people's online activities only within the Chinese intranet.
+
 
 \newpage
 \bibliography{GFW-Brief.bib}
