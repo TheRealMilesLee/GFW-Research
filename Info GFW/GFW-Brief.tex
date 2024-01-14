@@ -114,11 +114,11 @@ going out of the country \cite{GlobalNetServer}.
 Let's simulate a situation for better understanding. Suppose we have a laptop in
 Chengdu trying to access the ucdavis.edu website, then the request will go
 through the following process
-\begin{align*} &Laptop \rightarrow \text{Home Router} \rightarrow
-\text{Community Server} \rightarrow \text{Distinct Server}\\ &\rightarrow
-\text{City Datacenter} \rightarrow \text{Province Datacenter} \rightarrow
-\text{Guangzhou Datacenter}\\ &\rightarrow \text{GFW server} \rightarrow
-\text{UCDavis server} \end{align*}
+\begin{align*}  & Laptop \rightarrow \text{Home Router} \rightarrow
+               \text{Community Server} \rightarrow \text{Distinct Server} \\ &\rightarrow
+               \text{City Datacenter} \rightarrow \text{Province Datacenter} \rightarrow
+               \text{Guangzhou Datacenter}                                \\ &\rightarrow \text{GFW server} \rightarrow
+               \text{UCDavis server}\end{align*}
 As you can see, it takes a long way from Chengdu to connect to the server at UCDavis.
 At the same time, keep in mind that each hop is accomplished by IP conversion
 through NAT layer by layer. And in the final pass through the GFW is also like
@@ -129,15 +129,23 @@ reset request to both parties or wait until the connection times out. I'll
 discuss GFW's blocking patterns further in the next section.
 
 \section{GFW's Working Principle}
-From what we know so far, GFW is able to block both http and https traffic. The
-specific implementation is different, we will expand on this
+Since the the way that https and http protocol works, the GFW would also behave differently
+on those website who use those protocol. Since the content of the http protocol
+is visible in plaintext, it is possible for the GFW to look at the content of
+the request and find out if there are any blacklisted keywords \cite{HTTPBlockSource}.
+Once the keywords are found, the system determines that the user is accessing a
+site that belongs to the disallowed list and blocks the connection. The
+following shows the test we did
 
+\subsection{Experiment 1: Http connect situation}
+In this test, we will use a host in Chengdu, Sichuan, China to try to connect to
+port 80 of google.com without any proxies, that is, using http protocol.
 \newpage
 \bibliography{GFW-Brief.bib}
 \begin{thebibliography}{9}
-\bibitem{DetectBlockShadowSocks} Anonymous, et al. \textit{"How China Detects
-and Blocks Shadowsocks."} GFW Report, 29 Dec. 2019, gfw.
-report/blog/gfw\_shadowsocks. Accessed 11 Jan. 2024.
+	\bibitem{DetectBlockShadowSocks} Anonymous, et al. \textit{"How China Detects
+		and Blocks Shadowsocks."} GFW Report, 29 Dec. 2019, gfw.
+	report/blog/gfw\_shadowsocks. Accessed 11 Jan. 2024.
 
 	\bibitem{CISCONAT} Cisco.com. "Carrier Grade Network Address Translation."
 	\textit{Information About Carrier Grade Network Address Translation}, www.cisco.com/c/en/us/td/docs/routers
@@ -145,6 +153,9 @@ report/blog/gfw\_shadowsocks. Accessed 11 Jan. 2024.
 
 	\bibitem{GFWReport} Great Firewall Report. \textit{"Great Firewall Report."}
 	Great Firewall Repor, Dec. 2019, gfw.report. Accessed 11 Jan. 2024.
+
+	\bibitem{HTTPBlockSource} Hoochanlon. \textit{"Fq-book/Docs/Abc/gfw.md at Master ·
+		Hoochanlon/Fq-book."} GitHub, 13 Apr. 2020, github.com/hoochanlon/fq-book/blob/master/docs/abc/gfw.md. Accessed 14 Jan. 2024.
 
 	\bibitem{CISCO}
 	Schaack, Beth Van. \textit{"China's Golden Shield: Is Cisco Systems Complicit?"} Center
