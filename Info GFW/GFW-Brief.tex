@@ -4,6 +4,7 @@
 \title{GFW: Protection or censorship?\\ \large A brief overview on China's Great Firewall system}
 \author{Hengyi Li}
 \newcommand{\name}{Hengyi Li}
+\newcommand{\SubItem}[1]{ {\setlength\itemindent{15pt} \item[-] #1} }
 \usepackage[paper=letterpaper, margin=1in, headheight=13.6pt]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -114,11 +115,11 @@ going out of the country \cite{GlobalNetServer}.
 Let's simulate a situation for better understanding. Suppose we have a laptop in
 Chengdu trying to access the ucdavis.edu website, then the request will go
 through the following process
-\begin{align*}  & Laptop \rightarrow \text{Home Router} \rightarrow
-               \text{Community Server} \rightarrow \text{Distinct Server} \\ &\rightarrow
-               \text{City Datacenter} \rightarrow \text{Province Datacenter} \rightarrow
-               \text{Guangzhou Datacenter}                                \\ &\rightarrow \text{GFW server} \rightarrow
-               \text{UCDavis server}\end{align*}
+\begin{align*}      & Laptop \rightarrow \text{Home Router} \rightarrow
+                   \text{Community Server} \rightarrow \text{Distinct Server} \\ &\rightarrow
+                   \text{City Datacenter} \rightarrow \text{Province Datacenter} \rightarrow
+                   \text{Guangzhou Datacenter}                                \\ &\rightarrow \text{GFW server} \rightarrow
+                   \text{UCDavis server}\end{align*}
 As you can see, it takes a long way from Chengdu to connect to the server at UCDavis.
 At the same time, keep in mind that each hop is accomplished by IP conversion
 through NAT layer by layer. And in the final pass through the GFW is also like
@@ -129,17 +130,92 @@ reset request to both parties or wait until the connection times out. I'll
 discuss GFW's blocking patterns further in the next section.
 
 \section{GFW's Working Principle}
-Since the the way that https and http protocol works, the GFW would also behave differently
-on those website who use those protocol. Since the content of the http protocol
-is visible in plaintext, it is possible for the GFW to look at the content of
-the request and find out if there are any blacklisted keywords \cite{HTTPBlockSource}.
-Once the keywords are found, the system determines that the user is accessing a
-site that belongs to the disallowed list and blocks the connection. The
-following shows the test we did
+The core function of GFW is to block traffic. As a carrier-grade firewall, it
+mainly uses DNS hijacking and connection reset to prevent users from accessing
+websites on the banned list. Due to the differences between HTTP and HTTPS, GFW
+handles these two types of requests differently.
 
-\subsection{Experiment 1: Http connect situation}
-In this test, we will use a host in Chengdu, Sichuan, China to try to connect to
-port 80 of google.com without any proxies, that is, using http protocol.
+For the HTTP protocol, since the data was being transferred in clear text
+\cite{HTTPBlockSource}., which meansthe GFW could just be a middle man and look
+into the data being transferred, compare it with the black list and see if any
+of them matched. For the https request, the blacklist change from the keywords
+to the destination IP address, it works as the same, look into the header to
+find if the destination IP was on the list, if it founds a match, blocking
+performed.
+
+Now, there has two types of blocking that the GFW usually used: connection reset
+and the connection timeout. The connection reset was to send the destination and
+sender both a connection reset request to end the connection, and the connection
+timeout, which was the most common one, was to using DNS hijacking to rediect
+the destination site to some other place that does not exist at all, caused a
+connection time out error message on the sender side.
+
+\subsection{Experiment 1: http connect situation}
+In this test, we will use a host machine located in Chengdu, Sichuan Province,
+China to trying to connect to a site using http protocol and it's banned in
+China. Here is what we found:
+
+todo: Insert results here
+
+\subsection{Experiment 2: https connect situation}
+In this test, we will use a host machine located in Chengdu, Sichuan Province, China to
+trying to connect to Youtube.com, googl.com and facebook.com. All of those websites were
+using https protocol to establish the connection and here is our results:
+
+todo: insert results here
+
+\section{Solutions to bypass the GFW}
+The most direct way to solve the problem of GFW blocking is to use a VPN for
+proxy services, but this is a legal risk in China. According to China's "Interim
+Provisions on the Administration of International Networking of Computer
+Information Networks": Computer information networks directly for international
+networking, must use the Ministry of Posts and Telecommunications, the national
+public telecommunication network to provide the international entrance and exit
+channels. No unit or individual may establish or use any other channel for
+international networking, and in case of violation, the public security
+authorities shall order the cessation of networking, give a warning, and may
+impose a fine of not more than 15,000 yuan; if there is any illegal income, the
+illegal income shall be confiscated \cite{ChinaNetworkOffice}.
+
+There is already a precedent for such behavior in the form of judgments. In 2023,
+a programmer in Chengde, Hebei province, was convicted of confiscating illegal
+proceeds for using a VPN to connect to Github for an open source project
+\cite{HeBeiPolice}.
+
+Of course, there are legal ways around this policy, and this is the solution for
+most companies in China that require offshore connectivity - purchase a
+dedicated line for offshore connectivity from a carrier, and this line is
+subject to scrutiny by both the carrier and the government. This way the traffic
+out of the country is legal. For individuals, however, this solution is very
+expensive and bandwidth is limited. So most of the individuals who go over the
+wall do so by going through a gray area --- VPS for traffic proxy. At present,
+China does not have explicit legal provisions VPS can not be used in China, so
+the practice of many people is to set up a VPS proxy server in Hong Kong, China,
+through which the proxy for access to foreign websites. But one thing to
+remember is that, because this is an activity in the gray area, so all the
+behavior may become illegal evidence in the future and be punished, so there is
+a certain risk.
+
+Another method can also be used to bypass GFW, but it only works for DNS
+hijacking. That is to bypass the DNS service of the operator by modifying the
+hosts file in the local machine to connect to the external network. Here is an
+experiment to show how this can be accomplished
+
+\subsection{Experiment 3. DNS Hijacking bypass}
+todo: fill the experimence here.
+
+
+\section{Conclusion}
+The current architecture of GFW is not as complex as we think. Its cyber-binding
+effect on citizens comes mainly from the laws and the tedious steps required to
+bypass this firewall. In the beginning, GFW existed as a politically correct
+vetting mechanism, but now in today's China, due to the language and the
+emergence of better, localized alternatives, Chinese people don't need platforms
+like Twitter, Facebook, etc to get information, and due to the boom of
+homegrown software, young Chinese people nowadays probably don't know what's
+going on in the internet. "GFW's influence in China is diminishing as the new
+generation of Chinese domestic software companies grows, and it will probably be
+completely forgotten in the near future.
 \newpage
 \bibliography{GFW-Brief.bib}
 \begin{thebibliography}{9}
@@ -165,5 +241,13 @@ port 80 of google.com without any proxies, that is, using http protocol.
 	\bibitem{GlobalNetServer}
 	聿纾. \textit{"国内主流网络运营商国际连接线路简谈."} 知乎专栏, zhuanlan.zhihu.com/p/64467370.
 
+	\bibitem{ChinaNetworkOffice}
+	中华人民共和国国务院. \textit{"中华人民共和国计算机信息网络国际联网管理暂行规定."} 中央网信办, 20 May 1997, www.12377.
+	cn/xzfg/2020/7f441527\_web.html. Accessed 21 Jan. 2024.
+
+	\bibitem{HeBeiPolice}
+	承德市公安局双桥分局. \textit{承德市公安局双桥分局 行政处罚决定书.} Sunshine Police Law Enforcement Inquiry
+	System, 18 Aug. 2023, 111.63.208.144/laws/web/infoqueryxzcf/xzcf/detail/0380da828a06bd69018a07d2be7c530c/1.
+	Accessed 21 Jan. 2024.
 \end{thebibliography}
 \end{document}
