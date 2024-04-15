@@ -1,70 +1,76 @@
 package com.hengyili.ucdavis.edu.androidnotificationpushergfw;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.LinearLayout;
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity
 {
-  private LinearLayout container;
-  @Override
-  protected void onCreate(Bundle savedInstanceState)
-  {
-    super.onCreate(savedInstanceState);
-    EdgeToEdge.enable(this);
-    setContentView(R.layout.activity_main);
-    ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) ->
+    private LinearLayout container;
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
     {
-      Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-      v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-      return insets;
-    });
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        container = findViewById(R.id.container);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
+        navigation.setOnNavigationItemSelectedListener(item ->
+        {
+          if (item.getItemId() == R.id.navigation_home)
+          {
+            addCardViewWithText();
+            return true;
+            // Handle other navigation items if needed
+          }
+          else if (item.getItemId() == R.id.navigation_feature)
+          {
+              addCardViewWithText();
+              return true;
+          }
+          else if (item.getItemId() == R.id.navigation_search)
+          {
+              addCardViewWithText();
+              return true;
+          }
+          else if (item.getItemId() == R.id.navigation_settings)
+          {
+            Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+            startActivity(intent);
+            return true;
+          }
+            return false;
+        });
+    }
 
-    container = findViewById(R.id.container);
-    FloatingActionButton AddNewPostButton = findViewById(R.id.floatingActionButton);
-    AddNewPostButton.setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View v)
-      {
-        addCardViewWithText();
-      }
-    });
-  }
-  private void addCardViewWithText() {
-    // Create a new CardView
-    CardView cardView = new CardView(this);
-    cardView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-    cardView.setCardBackgroundColor(getResources().getColor(R.color.md_blue_grey_500));
-    cardView.setRadius(getResources().getDimension(R.dimen.card_corner_radius));
-    cardView.setCardElevation(getResources().getDimension(R.dimen.card_elevation));
+    @SuppressLint("SetTextI18n")
+    private void addCardViewWithText() {
+        // Create a new CardView
+        CardView cardView = new CardView(this);
+        cardView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        cardView.setCardBackgroundColor(getResources().getColor(R.color.md_grey_500));
+        cardView.setRadius(getResources().getDimension(R.dimen.card_corner_radius));
+        cardView.setCardElevation(getResources().getDimension(R.dimen.card_elevation));
 
-    // Create a new TextView inside the CardView
-    TextView textView = new TextView(this);
-    textView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-    textView.setText(getString(R.string.new_text_view_text));
-    textView.setPadding(
-      getResources().getDimensionPixelSize(R.dimen.card_text_padding),
-      getResources().getDimensionPixelSize(R.dimen.card_text_padding),
-      getResources().getDimensionPixelSize(R.dimen.card_text_padding),
-      getResources().getDimensionPixelSize(R.dimen.card_text_padding)
-                       );
+        // Create a new TextView inside the CardView
+        TextView textView = new TextView(this);
+        textView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        textView.setText("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales.");
+        textView.setPadding(
+                getResources().getDimensionPixelSize(R.dimen.card_text_padding),
+                getResources().getDimensionPixelSize(R.dimen.card_text_padding),
+                getResources().getDimensionPixelSize(R.dimen.card_text_padding),
+                getResources().getDimensionPixelSize(R.dimen.card_text_padding)
+        );
 
-    // Add the TextView to the CardView
-    cardView.addView(textView);
+        // Add the TextView to the CardView
+        cardView.addView(textView);
 
-    // Add the CardView to the layout
-    container.addView(cardView);
-  }
-
+        // Add the CardView to the layout
+        container.addView(cardView);
+    }
 }
