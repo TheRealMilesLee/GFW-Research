@@ -7,4 +7,9 @@
     <string name="add_new_rss_source">Add New RSS Source</string>
     <string name="my_profile">My Profile</string>
     <string name="back_to_main">Back to Main</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="Avatar" />
 </resources>
