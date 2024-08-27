@@ -97,72 +97,75 @@ domains = [
     "www.periscope.tv",
 ]
 
+
 # DNS servers to query
-dns_servers_China = {
-    "114DNS - China": "114.114.114.114",
-    "114DNS - China (Secondary)": "114.114.115.115",
-    "AliDNS - China": "223.5.5.5",
-    "AliDNS - China (Secondary)": "223.6.6.6",
-    "China Telecom DNS": "202.96.128.86",
-    "China Unicom DNS": "210.21.196.6",
-    "DNSPod - China": "119.29.29.29",
-    "Baidu Public DNS": "180.76.76.76",
-    "CUCC DNS - China": "218.30.118.6",
-    "China Mobile DNS": "211.136.17.107",
-    "OneDNS - China": "117.50.11.11",
+dns_servers = {
+    'china': [
+        '114.114.114.114',  # 114DNS
+        '114.114.115.115',  # 114 Alternative
+        '223.5.5.5',        # AliDNS
+        '119.29.29.29',     # DNSPod
+        '180.76.76.76',     # Baidu
+        '202.96.128.86',    # China Telecom
+        '210.21.196.6',     # China Unicom
+        '218.30.118.6',     # CUCC DNS
+        '211.136.17.107',   # China Mobile
+        '117.50.11.11',     # One DNS
+
+    ],
+    'global': [
+        '8.8.8.8',          # Google
+        '8.8.4.4',          # Google Alternative
+        '1.1.1.1',          # Cloudflare
+        '1.0.0.1',          # Cloudflare Alternative
+        '9.9.9.9',          # Quad9
+        '149.112.112.112',  # Quad9 Alternative
+        '208.67.222.222',   # OpenDNS
+        '208.67.220.220',   # OpenDNS Alternative
+        '8.26.56.26',       # Comodo Secure DNS
+        '8.20.247.20',      # Comodo Secure DNS Alternative
+        '199.85.126.10',    # Norton ConnectSafe DNS
+        '199.85.127.10',    # Norton ConnectSafe DNS Alternative
+        '77.88.8.8',        # Yandex DNS
+        '77.88.8.1',        # Yandex DNS Alternative
+        '94.140.14.14',     # AdGuard DNS
+        '94.140.15.15',     # AdGuard DNS Alternative
+    ]
 }
-
-dns_servers_global = {
-    "Google Public DNS": "8.8.8.8",
-    "Google Public DNS (Secondary)": "8.8.4.4",
-    "Cloudflare DNS": "1.1.1.1",
-    "Cloudflare DNS (Secondary)": "1.0.0.1",
-    "Quad9 DNS": "9.9.9.9",
-    "Quad9 DNS (Secondary)": "149.112.112.112",
-    "OpenDNS": "208.67.222.222",
-    "OpenDNS (Secondary)": "208.67.220.220",
-    "Comodo Secure DNS": "8.26.56.26",
-    "Comodo Secure DNS (Secondary)": "8.20.247.20",
-    "Norton ConnectSafe DNS": "199.85.126.10",
-    "Norton ConnectSafe DNS (Secondary)": "199.85.127.10",
-    "Yandex DNS": "77.88.8.8",
-    "Yandex DNS (Secondary)": "77.88.8.1",
-    "AdGuard DNS": "94.140.14.14",
-    "AdGuard DNS (Secondary)": "94.140.15.15",
-}
-
-
 def query_dns(domain, dns_server):
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
     try:
-        answers = resolver.resolve(domain, "A")
+        answers = resolver.resolve(domain, 'A')
         return [answer.address for answer in answers]
     except Exception as e:
         return str(e)
-
 
 def check_poisoning():
     results = []
     timestamp = datetime.now().isoformat()
 
     for domain in domains:
-        china_result = query_dns(domain, dns_servers_China)
-        global_result = query_dns(domain, dns_servers_global)
+        china_results = []
+        for china_dns in dns_servers['china']:
+            china_results.extend(query_dns(domain, china_dns))
 
-        is_poisoned = china_result != global_result
+        global_results = []
+        for global_dns in dns_servers['global']:
+            global_results.extend(query_dns(domain, global_dns))
 
-        results.append(
-            {
-                "timestamp": timestamp,
-                "domain": domain,
-                "china_result": china_result,
-                "global_result": global_result,
-                "is_poisoned": is_poisoned,
-            }
-        )
+        is_poisoned = set(china_results) != set(global_results)
+
+        results.append({
+            'timestamp': timestamp,
+            'domain': domain,
+            'china_result': china_results,
+            'global_result': global_results,
+            'is_poisoned': is_poisoned
+        })
 
     return results
+
 
 
 def save_results(results):
