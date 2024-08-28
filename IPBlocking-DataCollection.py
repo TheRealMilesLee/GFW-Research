@@ -1,6 +1,13 @@
-from DNSPoisoning_DataCollection import domains, dns_servers, socket, time, datetime, csv, dns, concurrent
+import concurrent.futures
+import csv
+import socket
+import time
 from datetime import datetime
-import csv, dns.resolver
+
+import dns.resolver
+
+from DNSPoisoning_DataCollection import dns_servers, domains
+
 
 def get_ips_from_domains(domains):
   ip_dict = {}
