@@ -8,12 +8,12 @@ import dns.resolver
 
 # List of domains to check
 domains = [
-  "baidu.com",
-  "bing.com",
-  "github.com",
-  "docker.io",
-  "ucdavis.edu",
-  "truman.edu",
+  "www.baidu.com",
+  "www.bing.com",
+  "www.github.com",
+  "www.docker.io",
+  "www.ucdavis.edu",
+  "www.truman.edu",
   "ipv6.google.com",
   "ipv6.test-ipv6.com",
   "www.kame.net",
