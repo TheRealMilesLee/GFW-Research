@@ -174,7 +174,7 @@ def run_checks():
         is_accessible = future.result()
       except Exception as exc:
         is_accessible = False
-
+      print(f"Checked {ip} for domain {domain} on port {port}: {is_accessible}, writing back to results")
       results.append({
         'timestamp': timestamp,
         'domain': domain,
