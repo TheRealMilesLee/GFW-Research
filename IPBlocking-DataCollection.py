@@ -71,7 +71,7 @@ def main():
   while True:
     results = run_checks()
     save_results(results)
-    print(f"DNS and IP blocking check completed at {datetime.now()}")
+    print(f"IP blocking check completed at {datetime.now()}")
     time.sleep(3600)  # Wait for 1 hour before next check
 
 if __name__ == "__main__":
