@@ -157,7 +157,7 @@ def run_checks():
   # First, get IPs for all domains
   ip_dict = get_ips_from_domains(domains)
 
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     future_to_check = {}
     for domain, ips in ip_dict.items():
       for ip_type in ['ipv4', 'ipv6']:
