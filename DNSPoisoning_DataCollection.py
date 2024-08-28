@@ -1,7 +1,8 @@
-import dns.resolver
 import csv
-from datetime import datetime
 import time
+from datetime import datetime
+
+import dns.resolver
 
 # List of domains to check
 domains = [
@@ -160,6 +161,7 @@ def query_dns(domain, dns_server):
   return results
 
 def check_poisoning():
+  print(f"Starting check at {datetime.now()} for domains: {domains}")
   results = []
   timestamp = datetime.now().isoformat()
 
@@ -180,6 +182,7 @@ def check_poisoning():
     is_poisoned_ipv6 = set(china_results['ipv6']) != set(global_results['ipv6'])
     is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
 
+    print(f"Domain: {domain} check completed")
     results.append({
       'timestamp': timestamp,
       'domain': domain,
