@@ -6,7 +6,7 @@ from datetime import datetime
 
 import dns.resolver
 
-from DNSPoisoning_DataCollection import dns_servers, domains
+from DNSPoisoning_DataCollection import domains
 
 def get_ips_from_domains(domains):
   ip_dict = {}
@@ -23,8 +23,20 @@ def get_ips_from_domains(domains):
       ip_dict[domain] = {'ipv4': [], 'ipv6': []}
   return ip_dict
 
-# Ports to check
-ports_to_check = [80, 443]  # HTTP and HTTPS
+# scan what ports are open on the IP addresses
+def scan_ports(ip):
+    start_port = 1
+    end_port = 65535
+    open_ports = []
+    for port in range(start_port, end_port + 1):
+        # Create a socket object
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(1)  # Set timeout to 1 second
+        result = sock.connect_ex((ip, port))
+        if result == 0:
+            open_ports.append(port)
+        sock.close()
+    return open_ports
 
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 5
@@ -46,11 +58,12 @@ def run_checks():
   # First, get IPs for all domains
   ip_dict = get_ips_from_domains(domains)
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     future_to_check = {}
     for domain, ips in ip_dict.items():
       for ip_type in ['ipv4', 'ipv6']:
         for ip in ips[ip_type]:
+          ports_to_check = scan_ports(ip)
           for port in ports_to_check:
             future = executor.submit(check_ip, ip, port)
             future_to_check[future] = (domain, ip, port, ip_type)
