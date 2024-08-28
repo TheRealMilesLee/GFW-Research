@@ -163,6 +163,7 @@ def run_checks():
       for ip_type in ['ipv4', 'ipv6']:
         for ip in ips[ip_type]:
           ports_to_check = scan_ports(ip)
+          print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
           for port in ports_to_check:
             future = executor.submit(check_ip, ip, port)
             future_to_check[future] = (domain, ip, port, ip_type)
