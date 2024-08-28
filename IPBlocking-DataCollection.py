@@ -135,6 +135,7 @@ def scan_ports(ip):
         if result == 0:
             open_ports.append(port)
         sock.close()
+    print(f"Found open ports on {ip}: {open_ports}")
     return open_ports
 
 # Timeout for connection attempts (in seconds)
@@ -146,17 +147,20 @@ def check_ip(ip, port):
     family = socket.AF_INET6 if ':' in ip else socket.AF_INET
     sock = socket.create_connection((ip, port), timeout=TIMEOUT, family=family)
     sock.close()
+    print(f"Connection to {ip} on port {port} successful")
     return True
   except (socket.timeout, socket.error):
+    print(f"Connection to {ip} on port {port} failed")
     return False
 
 def run_checks():
+  print(f"Starting IP blocking check at {datetime.now()}")
   results = []
   timestamp = datetime.now().isoformat()
 
   # First, get IPs for all domains
   ip_dict = get_ips_from_domains(domains)
-
+  print(f"Got IPs for all domains: {ip_dict}")
   with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     future_to_check = {}
     for domain, ips in ip_dict.items():
@@ -167,14 +171,13 @@ def run_checks():
           for port in ports_to_check:
             future = executor.submit(check_ip, ip, port)
             future_to_check[future] = (domain, ip, port, ip_type)
-
+    print(f"Submitted all checks, waiting for results")
     for future in concurrent.futures.as_completed(future_to_check):
       domain, ip, port, ip_type = future_to_check[future]
       try:
         is_accessible = future.result()
       except Exception as exc:
         is_accessible = False
-      print(f"Checked {ip} for domain {domain} on port {port}: {is_accessible}, writing back to results")
       results.append({
         'timestamp': timestamp,
         'domain': domain,
@@ -183,6 +186,7 @@ def run_checks():
         'port': port,
         'is_accessible': is_accessible
       })
+  print(f"IP blocking check completed at {datetime.now()}")
   return results
 
 def save_results(results):
