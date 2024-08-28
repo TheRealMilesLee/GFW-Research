@@ -160,20 +160,28 @@ def run_checks():
 
   # First, get IPs for all domains
   ip_dict = get_ips_from_domains(domains)
+
+  # Then cleanup the IP dictionary, deleted the domains that did not resolve or have no IPs
+  ip_dict = {domain: ips for domain, ips in ip_dict.items() if ips['ipv4'] or ips['ipv6']}
+  # Output to the file for the domains that has problem IP or have problem on resolving IP
+  with open('problem_domains.txt', 'w') as f:
+    for domain in domains:
+      if domain not in ip_dict:
+        f.write(f"{domain} did not resolve\n")
+      elif not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
+        f.write(f"{domain} has no IPs\n")
+
   print(f"Got IPs for all domains: {ip_dict}")
   with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     future_to_check = {}
     for domain, ips in ip_dict.items():
       for ip_type in ['ipv4', 'ipv6']:
         for ip in ips[ip_type]:
-          if ip == '':
-            continue
-          else:
-            ports_to_check = scan_ports(ip)
-            print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
-            for port in ports_to_check:
-              future = executor.submit(check_ip, ip, port)
-              future_to_check[future] = (domain, ip, port, ip_type)
+          ports_to_check = scan_ports(ip)
+          print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
+          for port in ports_to_check:
+            future = executor.submit(check_ip, ip, port)
+            future_to_check[future] = (domain, ip, port, ip_type)
     print(f"Submitted all checks, waiting for results")
     for future in concurrent.futures.as_completed(future_to_check):
       domain, ip, port, ip_type = future_to_check[future]
