@@ -122,22 +122,6 @@ def get_ips_from_domains(domains):
       ip_dict[domain] = {'ipv4': [], 'ipv6': []}
   return ip_dict
 
-# # scan what ports are open on the IP addresses
-# def scan_ports(ip):
-#     start_port = 1
-#     end_port = 65535
-#     open_ports = []
-#     for port in range(start_port, end_port + 1):
-#         # Create a socket object
-#         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-#         sock.settimeout(1)  # Set timeout to 1 second
-#         result = sock.connect_ex((ip, port))
-#         if result == 0:
-#             open_ports.append(port)
-#         sock.close()
-#     print(f"Found open ports on {ip}: {open_ports}")
-#     return open_ports
-
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 5
 
@@ -170,33 +154,25 @@ def run_checks():
         f.write(f"{domain} did not resolve\n")
       elif not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
         f.write(f"{domain} has no IPs\n")
-  with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-    future_to_check = {}
-    for domain, ips in ip_dict.items():
-      print(f"Checking domain {domain}, IPs: {ips}")
-      for ip_type in ['ipv4', 'ipv6']:
-        for ip in ips[ip_type]:
-          ports_to_check = ['80', '443']
-          print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
-          for port in ports_to_check:
-            future = executor.submit(check_ip, ip, int(port))
-            future_to_check[future] = (domain, ip, port, ip_type)
-    print(f"Submitted all checks, waiting for results")
-    for future in concurrent.futures.as_completed(future_to_check):
-      domain, ip, port, ip_type = future_to_check[future]
-      try:
-        is_accessible = future.result()
-      except Exception as exc:
-        is_accessible = False
-      results.append({
-        'timestamp': timestamp,
-        'domain': domain,
-        'ip': ip,
-        'ip_type': ip_type,
-        'port': port,
-        'is_accessible': is_accessible
-      })
-    print(f"IP blocking check completed at {datetime.now()}")
+
+  for domain, ips in ip_dict.items():
+    print(f"Checking domain {domain}, IPs: {ips}")
+    for ip_type in ['ipv4', 'ipv6']:
+      for ip in ips[ip_type]:
+        ports_to_check = ['80', '443']
+        print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
+        for port in ports_to_check:
+          is_accessible = check_ip(ip, int(port))
+          results.append({
+            'timestamp': timestamp,
+            'domain': domain,
+            'ip': ip,
+            'ip_type': ip_type,
+            'port': port,
+            'is_accessible': is_accessible
+          })
+
+  print(f"IP blocking check completed at {datetime.now()}")
   return results
 
 def save_results(results):
