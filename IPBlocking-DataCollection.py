@@ -171,10 +171,10 @@ def run_checks():
       elif not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
         f.write(f"{domain} has no IPs\n")
 
-  print(f"Got IPs for all domains: {ip_dict}")
   with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
     future_to_check = {}
     for domain, ips in ip_dict.items():
+      print(f"Checking domain {domain}, IPs: {ips}")
       for ip_type in ['ipv4', 'ipv6']:
         for ip in ips[ip_type]:
           ports_to_check = scan_ports(ip)
