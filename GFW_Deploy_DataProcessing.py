@@ -120,4 +120,4 @@ def main(input_file, output_file):
   print(f"Processed data saved to {csv_output}")
 
 if __name__ == "__main__":
-  main("gfw_results.txt", "gfw_detection_map.html")
+  main(f"ExperimentResult/{filename}.txt", "gfw_detection_map.html")
