@@ -71,7 +71,7 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
         print(f"{domain} generated an exception: {exc}")
 
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
-  with open(f"ExperimentResult/{filename}", "w") as f:
+  with open(f"ExperimentResult/GFWLocation/{filename}", "w") as f:
     for result in results:
       f.write(f"{result}\n")
 

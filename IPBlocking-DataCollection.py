@@ -177,7 +177,7 @@ def run_checks():
 
 def save_results(results):
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  with open(f'ExperimentResult/{filename}', 'w', newline='') as csvfile:
+  with open(f'ExperimentResult/IPBlocking/{filename}', 'w', newline='') as csvfile:
     fieldnames = ['timestamp', 'domain', 'ip', 'ip_type', 'port', 'is_accessible']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

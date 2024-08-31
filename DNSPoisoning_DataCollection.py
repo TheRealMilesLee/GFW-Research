@@ -199,7 +199,7 @@ def check_poisoning():
 
 def save_results(results):
   filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  with open(f'ExperimentResult/{filename}', "w", newline="") as csvfile:
+  with open(f'ExperimentResult/DNSPoisoning/{filename}', "w", newline="") as csvfile:
     fieldnames = [
       "timestamp",
       "domain",
