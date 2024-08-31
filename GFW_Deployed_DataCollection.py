@@ -78,5 +78,5 @@ if __name__ == "__main__":
   while True:
     main(domains, timeout=30, max_hops=30, max_workers=8)
     print(f"Check completed at {datetime.now()}")
-    time.sleep(3600)
+    time.sleep(28800)  # Wait for 8 hours before next check
 
