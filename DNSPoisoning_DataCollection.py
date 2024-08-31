@@ -8,7 +8,7 @@ import dns.resolver
 domains = [
   "www.baidu.com",
   "www.bing.com",
-  "www.github.com",
+  "github.com",
   "www.docker.io",
   "www.ucdavis.edu",
   "www.truman.edu",
@@ -198,8 +198,8 @@ def check_poisoning():
   return results
 
 def save_results(results):
-  filename = f'dns_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  with open(filename, "w", newline="") as csvfile:
+  filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+  with open(f'ExperimentResult/{filename}', "w", newline="") as csvfile:
     fieldnames = [
       "timestamp",
       "domain",
