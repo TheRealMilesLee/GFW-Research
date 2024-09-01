@@ -4,6 +4,7 @@ import requests
 import concurrent.futures
 import platform
 import time
+import os
 from DNSPoisoning_DataCollection import domains
 from datetime import datetime
 

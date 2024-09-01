@@ -2,6 +2,7 @@ import concurrent.futures
 import csv
 import socket
 import time
+import os
 from datetime import datetime
 
 import dns.resolver
