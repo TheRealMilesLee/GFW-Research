@@ -8,17 +8,21 @@ from DNSPoisoning_DataCollection import domains
 from datetime import datetime
 
 def traceroute(domain, timeout=30, max_hops=30):
-  command = "tracert" if platform.system().lower() == "windows" else "traceroute"
-  param = "-h" if platform.system().lower() == "windows" else "-m"
+  system = platform.system().lower()
+  if system == "windows":
+    command = ["tracert", "-h", str(max_hops), domain]
+  else:  # Linux
+    command = ["tracepath", "-m", str(max_hops), domain]
+
   try:
-    output = subprocess.check_output([command, param, str(max_hops), domain],
-                     stderr=subprocess.STDOUT,
-                     universal_newlines=True,
-                     timeout=timeout)
+    output = subprocess.check_output(command,
+             stderr=subprocess.STDOUT,
+             universal_newlines=True,
+             timeout=timeout)
     return output
-  except subprocess.TimeoutExpired:
+  except subprocess.TimeoutExpired as e:
     # Check if "timed out" occurs 10 times consecutively
-    if "timed out" * 10 in output:
+    if "timed out" * 10 in e.output:
       raise Exception("Traceroute timed out")
     else:
       return "Traceroute timed out"
@@ -28,12 +32,18 @@ def traceroute(domain, timeout=30, max_hops=30):
 def parse_traceroute(output):
   lines = output.split('\n')
   last_successful_ip = None
-  ip_pattern = r'\d+\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(\d+\.\d+\.\d+\.\d+)'
+
+  system = platform.system().lower()
+  if system == "windows":
+    ip_pattern = r'\d+\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(\d+\.\d+\.\d+\.\d+)'
+  else:  # Linux
+    ip_pattern = r'\s*\d+:\s+(\d+\.\d+\.\d+\.\d+)'
+
   for line in lines[4:]:  # Skip the first few lines as they're usually headers
     match = re.search(ip_pattern, line)
     if match:
       last_successful_ip = match.group(1)
-    elif '*' in line and last_successful_ip:
+    elif ('*' in line or 'no reply' in line.lower()) and last_successful_ip:
       return last_successful_ip
   return None
 
@@ -84,4 +94,3 @@ if __name__ == "__main__":
     main(domains, timeout=120, max_hops=60, max_workers=8)
     print(f"Check completed at {datetime.now()}")
     time.sleep(28800)  # Wait for 8 hours before next check
-
