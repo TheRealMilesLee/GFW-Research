@@ -1,0 +1,28 @@
+www.baidu.com: No GFW detected (reached destination)
+www.ucdavis.edu: No GFW detected (reached destination)
+www.kame.net: No GFW detected (reached destination)
+ipv6.test-ipv6.com: No GFW detected (reached destination)
+ipv6.he.net: No GFW detected (reached destination)
+ipv6.ripe.net: Traceroute failed
+ipv6.microsite.prod.nic.ad.jp: Traceroute failed
+www.isc.org: No GFW detected (reached destination)
+www.sixxs.net: No GFW detected (reached destination)
+ipv6.netflix.com: Traceroute failed
+ipv6.juniper.net: Traceroute failed
+ipv6.baidu.com: No GFW detected (reached destination)
+ipv6.wipo.int: Traceroute failed
+ipv6.cloudflare.com: Traceroute failed
+ipv6.sina.com.cn: No GFW detected (reached destination)
+ipv6.apple.com: Traceroute failed
+ipv6.microsoft.com: Traceroute failed
+ipv6.ibm.com: Traceroute failed
+ipv6.amazon.com: No GFW detected (reached destination)
+ipv6.cisco.com: No GFW detected (reached destination)
+ipv6.yandex.com: No GFW detected (reached destination)
+www.whatsapp.com: No GFW detected (reached destination)
+www.whatsapp.com: No GFW detected (reached destination)
+www.weibo.com: No GFW detected (reached destination)
+www.douyin.com: No GFW detected (reached destination)
+www.kuaishou.com: No GFW detected (reached destination)
+www.qq.com: No GFW detected (reached destination)
+www.meetup.com: Possible GFW detected at 223.87.26.29 (IP lookup failed)
