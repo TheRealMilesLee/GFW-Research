@@ -17,7 +17,11 @@ def traceroute(domain, timeout=30, max_hops=30):
                      timeout=timeout)
     return output
   except subprocess.TimeoutExpired:
-    return "Traceroute timed out"
+    # Check if "timed out" occurs 10 times consecutively
+    if "timed out" * 10 in output:
+      raise Exception("Traceroute timed out")
+    else:
+      return "Traceroute timed out"
   except subprocess.CalledProcessError:
     return "Traceroute failed"
 
@@ -41,7 +45,7 @@ def ip_lookup(ip):
   except:
     return "IP lookup failed"
 
-def process_domain(domain, timeout=30, max_hops=30):
+def process_domain(domain, timeout=120, max_hops=60):
   print(f"Processing {domain}...")
   traceroute_output = traceroute(domain, timeout, max_hops)
 
@@ -77,7 +81,7 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
 
 if __name__ == "__main__":
   while True:
-    main(domains, timeout=30, max_hops=30, max_workers=8)
+    main(domains, timeout=120, max_hops=60, max_workers=8)
     print(f"Check completed at {datetime.now()}")
     time.sleep(28800)  # Wait for 8 hours before next check
 
