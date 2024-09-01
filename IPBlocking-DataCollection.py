@@ -3,6 +3,7 @@ import csv
 import socket
 import time
 import os
+import platform
 from datetime import datetime
 
 import dns.resolver

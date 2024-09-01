@@ -2,7 +2,7 @@ import csv
 import time
 from datetime import datetime
 import os
-
+import platform
 import dns.resolver
 
 # List of domains to check
