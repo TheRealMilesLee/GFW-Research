@@ -176,8 +176,14 @@ def run_checks():
   return results
 
 def save_results(results):
+  folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  with open(f'ExperimentResult/IPBlocking/{filename}', 'w', newline='') as csvfile:
+  os.makedirs(folder_path, exist_ok=True)
+  if platform.system().lower() == "linux":
+    filepath = f"{folder_path}/{filename}"
+  else:
+    filepath = f"ExperimentResult/IPBlocking/{filename}"
+  with open(filepath, 'w', newline='') as csvfile:
     fieldnames = ['timestamp', 'domain', 'ip', 'ip_type', 'port', 'is_accessible']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

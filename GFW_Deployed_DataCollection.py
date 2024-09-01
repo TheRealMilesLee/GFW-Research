@@ -83,9 +83,14 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
         print(result)
       except Exception as exc:
         print(f"{domain} generated an exception: {exc}")
-
+  folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'
+  os.makedirs(folder_path, exist_ok=True)
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
-  with open(f"ExperimentResult/GFWLocation/{filename}", "w") as f:
+  if platform.system().lower() == "linux":
+    filepath = f"{folder_path}/{filename}"
+  else:
+    filepath = f"ExperimentResult/GFWLocation/{filename}"
+  with open(filepath, "w") as f:
     for result in results:
       f.write(f"{result}\n")
 

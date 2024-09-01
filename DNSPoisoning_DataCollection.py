@@ -1,6 +1,7 @@
 import csv
 import time
 from datetime import datetime
+import os
 
 import dns.resolver
 
@@ -198,8 +199,14 @@ def check_poisoning():
   return results
 
 def save_results(results):
+  folder_path = 'ExperimentResult/CompareGroup/DNSPoisoning'
   filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  with open(f'ExperimentResult/DNSPoisoning/{filename}', "w", newline="") as csvfile:
+  os.makedirs(folder_path, exist_ok=True)
+  if platform.system().lower() == "linux":
+    filepath = f"{folder_path}/{filename}"
+  else:
+    filepath = f"ExperimentResult/GFWLocation/{filename}"
+  with open(filepath, "w", newline="") as csvfile:
     fieldnames = [
       "timestamp",
       "domain",
