@@ -204,6 +204,9 @@ def save_results(results):
   os.makedirs(folder_path, exist_ok=True)
   if platform.system().lower() == "linux":
     filepath = f"{folder_path}/{filename}"
+  elif platform.system().lower() == "darwin":
+    folder_path = 'ExperimentResult/Mac/DNSPoisoning'
+    filepath = f"{folder_path}/{filename}"
   else:
     filepath = f"ExperimentResult/GFWLocation/{filename}"
   with open(filepath, "w", newline="") as csvfile:
