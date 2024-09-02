@@ -12,8 +12,12 @@ def traceroute(domain, timeout=30, max_hops=30):
   system = platform.system().lower()
   if system == "windows":
     command = ["tracert", "-h", str(max_hops), domain]
-  else:  # Linux
+  elif system == "linux":
     command = ["tracepath", "-m", str(max_hops), domain]
+  elif system == "darwin":  # macOS
+    command = ["traceroute", "-m", str(max_hops), domain]
+  else:
+    raise Exception("Unsupported operating system")
 
   try:
     output = subprocess.check_output(command,
@@ -37,6 +41,8 @@ def parse_traceroute(output):
   system = platform.system().lower()
   if system == "windows":
     ip_pattern = r'\d+\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(\d+\.\d+\.\d+\.\d+)'
+  elif system == "darwin":  # macOS
+    ip_pattern = r'\s*\d+\s+(\d+\.\d+\.\d+\.\d+)'
   else:  # Linux
     ip_pattern = r'\s*\d+:\s+(\d+\.\d+\.\d+\.\d+)'
 
@@ -84,13 +90,19 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
         print(result)
       except Exception as exc:
         print(f"{domain} generated an exception: {exc}")
-  folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'
-  os.makedirs(folder_path, exist_ok=True)
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
-  if platform.system().lower() == "linux":
+  system = platform.system().lower()
+  if system == "linux":
+    folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'
+    os.makedirs(folder_path, exist_ok=True)
+    filepath = f"{folder_path}/{filename}"
+  elif system == "darwin":  # macOS
+    folder_path = f'ExperimentResult/Mac/GFWDeployed/{filename}'
+    os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   else:
     filepath = f"ExperimentResult/GFWLocation/{filename}"
+    os.makedirs(folder_path, exist_ok=True)
   with open(filepath, "w") as f:
     for result in results:
       f.write(f"{result}\n")
