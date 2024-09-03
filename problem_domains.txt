@@ -15,8 +15,11 @@ ipv6.cloudflare.com did not resolve
 ipv6.apple.com did not resolve
 ipv6.ibm.com did not resolve
 ipv6.microsoft.com did not resolve
+<<<<<<< HEAD
+=======
 www.reddit.com did not resolve
 www.twitter.com did not resolve
+>>>>>>> 2a15c24817926a3470e32e3b083bfabf00ac51fa
 www.linkedin.com did not resolve
 www.wordpress.com did not resolve
 www.slack.com did not resolve
@@ -26,7 +29,6 @@ www.meetup.com did not resolve
 www.twitter.com did not resolve
 www.linkedin.com did not resolve
 www.snapchat.com did not resolve
-www.reddit.com did not resolve
 www.wechat.com did not resolve
 www.vk.com did not resolve
 www.meetup.com did not resolve
