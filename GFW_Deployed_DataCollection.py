@@ -22,9 +22,8 @@ def traceroute(domain, timeout=30, max_hops=30):
   try:
     output = subprocess.check_output(command,
              stderr=subprocess.STDOUT,
-             universal_newlines=True,
              timeout=timeout)
-    return output
+    return output.decode('utf-8')  # Decode the output as UTF-8
   except subprocess.TimeoutExpired as e:
     # Check if "timed out" occurs 10 times consecutively
     if "timed out" * 10 in e.output:
@@ -111,4 +110,4 @@ if __name__ == "__main__":
   while True:
     main(domains, timeout=120, max_hops=60, max_workers=8)
     print(f"Check completed at {datetime.now()}")
-    time.sleep(28800)  # Wait for 8 hours before next check
+    time.sleep(1440)  # Wait for 4 hours before next check
