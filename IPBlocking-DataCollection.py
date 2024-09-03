@@ -1,9 +1,9 @@
 import concurrent.futures
 import csv
-import socket
-import time
 import os
 import platform
+import socket
+import time
 from datetime import datetime
 
 import dns.resolver
@@ -150,7 +150,13 @@ def run_checks():
   # Then cleanup the IP dictionary, deleted the domains that did not resolve or have no IPs
   ip_dict = {domain: ips for domain, ips in ip_dict.items() if ips['ipv4'] or ips['ipv6']}
   # Output to the file for the domains that has problem IP or have problem on resolving IP
-  with open('problem_domains.txt', 'w') as f:
+  if platform.system().lower() == "linux":
+    folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
+  elif platform.system().lower() == "darwin":
+    folder_path = 'ExperimentResult/Mac'
+  else:
+    folder_path = 'ExperimentResult/IPBlocking'
+  with open(f"{folder_path}/problem_domains.txt", 'w') as f:
     for domain in domains:
       if domain not in ip_dict:
         f.write(f"{domain} did not resolve\n")
@@ -179,6 +185,7 @@ def run_checks():
 
 def save_results(results):
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+  filepath = ""
   if platform.system().lower() == "linux":
     folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
     os.makedirs(folder_path, exist_ok=True)

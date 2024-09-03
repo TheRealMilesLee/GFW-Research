@@ -90,6 +90,7 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
       except Exception as exc:
         print(f"{domain} generated an exception: {exc}")
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
+  folder_path = ""
   system = platform.system().lower()
   if system == "linux":
     folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'

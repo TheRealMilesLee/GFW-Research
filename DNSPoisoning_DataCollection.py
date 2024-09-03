@@ -1,8 +1,9 @@
 import csv
-import time
-from datetime import datetime
 import os
 import platform
+import time
+from datetime import datetime
+
 import dns.resolver
 
 # List of domains to check
@@ -200,7 +201,7 @@ def check_poisoning():
 
 def save_results(results):
   filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-
+  filepath = ""
   if platform.system().lower() == "linux":
     folder_path = 'ExperimentResult/CompareGroup/DNSPoisoning'
     os.makedirs(folder_path, exist_ok=True)
