@@ -23,7 +23,7 @@ def traceroute(domain, timeout=30, max_hops=30):
     output = subprocess.check_output(command,
              stderr=subprocess.STDOUT,
              timeout=timeout)
-    return output.decode('utf-8')  # Decode the output as UTF-8
+    return output.decode('utf-8', errors='ignore')  # Decode the output as UTF-8 with ignoring errors
   except subprocess.TimeoutExpired as e:
     # Check if "timed out" occurs 10 times consecutively
     if "timed out" * 10 in e.output:
