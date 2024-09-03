@@ -199,16 +199,16 @@ def check_poisoning():
   return results
 
 def save_results(results):
-  folder_path = 'ExperimentResult/CompareGroup/DNSPoisoning'
   filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
   os.makedirs(folder_path, exist_ok=True)
   if platform.system().lower() == "linux":
+    folder_path = 'ExperimentResult/CompareGroup/DNSPoisoning'
     filepath = f"{folder_path}/{filename}"
   elif platform.system().lower() == "darwin":
     folder_path = 'ExperimentResult/Mac/DNSPoisoning'
     filepath = f"{folder_path}/{filename}"
   else:
-    filepath = f"ExperimentResult/GFWLocation/{filename}"
+    filepath = f"ExperimentResult/DNSPoisoning/{filename}"
   with open(filepath, "w", newline="") as csvfile:
     fieldnames = [
       "timestamp",
