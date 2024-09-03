@@ -207,6 +207,7 @@ def save_results(results):
     filepath = f"{folder_path}/{filename}"
   elif platform.system().lower() == "darwin":
     folder_path = 'ExperimentResult/Mac/DNSPoisoning'
+    os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   else:
     filepath = f"ExperimentResult/DNSPoisoning/{filename}"

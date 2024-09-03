@@ -23,7 +23,7 @@ def traceroute(domain, timeout=30, max_hops=30):
     output = subprocess.check_output(command,
              stderr=subprocess.STDOUT,
              timeout=timeout)
-    return output.decode('utf-8', errors='ignore')  # Decode the output as UTF-8 with ignoring errors
+    return output.encode('utf-8').decode('utf-8', errors='ignore')  # Encode the output as bytes and then decode it as UTF-8 with ignoring errors
   except subprocess.TimeoutExpired as e:
     # Check if "timed out" occurs 10 times consecutively
     if "timed out" * 10 in e.output:
@@ -94,14 +94,13 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
   if system == "linux":
     folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'
     os.makedirs(folder_path, exist_ok=True)
-    filepath = f"{folder_path}/{filename}"
   elif system == "darwin":  # macOS
-    folder_path = f'ExperimentResult/Mac/GFWDeployed/{filename}'
+    folder_path = f'ExperimentResult/Mac/GFWDeployed/'
     os.makedirs(folder_path, exist_ok=True)
-    filepath = f"{folder_path}/{filename}"
   else:
-    filepath = f"ExperimentResult/GFWLocation/{filename}"
+    folder_path = f"ExperimentResult/GFWLocation/"
     os.makedirs(folder_path, exist_ok=True)
+  filepath = f"{folder_path}/{filename}"
   with open(filepath, "w") as f:
     for result in results:
       f.write(f"{result}\n")
