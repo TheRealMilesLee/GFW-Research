@@ -1,9 +1,9 @@
 import concurrent.futures
 import csv
-import socket
-import time
 import os
 import platform
+import socket
+import time
 from datetime import datetime
 
 import dns.resolver
@@ -185,6 +185,7 @@ def run_checks():
 
 def save_results(results):
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+  filepath = ""
   if platform.system().lower() == "linux":
     folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
     os.makedirs(folder_path, exist_ok=True)
