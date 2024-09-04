@@ -10,3 +10,90 @@ Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.
 Domain: www.baidu.com
 Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:208.67.220.220@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
