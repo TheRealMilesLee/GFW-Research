@@ -8,6 +8,7 @@ import dns.resolver
 
 # List of domains to check
 domains = [
+  "store.steampowered.com",
   "www.baidu.com",
   "www.bing.com",
   "github.com",
