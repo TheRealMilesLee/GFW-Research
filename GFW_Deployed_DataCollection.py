@@ -13,9 +13,9 @@ def traceroute(domain, timeout=30, max_hops=30):
     raise Exception("Unsupported operating system")
 
   try:
-    output = subprocess.check_output(command,
-             stderr=subprocess.STDOUT,
-             timeout=timeout)
+    output = subprocess.check_output([c.encode('utf-8') for c in command],
+                 stderr=subprocess.STDOUT,
+                 timeout=timeout)
     return output.decode('utf-8', errors='ignore')  # Decode the output as UTF-8 with ignoring errors
   except subprocess.TimeoutExpired as e:
     # Check if "timed out" occurs 30 times consecutively
