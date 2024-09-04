@@ -1,26 +1,27 @@
 import subprocess, re, requests, concurrent.futures, platform, time, os
 from datetime import datetime
 
-
 def traceroute(domain, timeout=30, max_hops=30):
   system = platform.system().lower()
   if system == "windows":
-    command = [b"tracert", b"-h", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
+    # Windows 使用 tracert
+    command = ["tracert", "-h", str(max_hops), domain]
   elif system == "linux":
-    command = [b"tracepath", b"-m", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
+    # Linux 使用 tracepath
+    command = ["tracepath", "-m", str(max_hops), domain]
   elif system == "darwin":  # macOS
-    command = [b"traceroute", b"-m", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
+    # macOS 使用 traceroute
+    command = ["traceroute", "-m", str(max_hops), domain]
   else:
     raise Exception("Unsupported operating system")
+  # 将命令和参数编码为字节
+  command = [arg.encode('utf-8') for arg in command]
 
   try:
-    output = subprocess.check_output(command,
-                 stderr=subprocess.STDOUT,
-                 timeout=timeout)
-    return output.decode('utf-8', errors='ignore')  # Decode the output as UTF-8 with ignoring errors
+    output = subprocess.check_output(command, stderr=subprocess.STDOUT, timeout=timeout)
+    return output.decode('utf-8', errors='ignore')  # 解码输出为 UTF-8 字符串
   except subprocess.TimeoutExpired as e:
-    # Check if "timed out" occurs 30 times consecutively
-    if "timed out" * 30 in e.output:
+    if b"timed out" * 30 in e.output:  # 检查是否超时
       raise Exception("Traceroute timed out")
     else:
       return "Traceroute timed out"
@@ -37,13 +38,11 @@ def parse_traceroute(output):
   else:  # Linux or macOS
     ip_pattern = r'\s*\d+:\s+(\d+\.\d+\.\d+\.\d+)'
 
-  for line in lines[4:]:  # Skip the first few lines as they're usually headers
+  for line in lines[4:]:  # 跳过前三行
     match = re.search(ip_pattern, line)
     if match:
       last_successful_ip = match.group(1)
-    elif ('*' in line or 'no reply' in line.lower()) and last_successful_ip:
-      return last_successful_ip
-  return None
+  return last_successful_ip
 
 def ip_lookup(ip):
   max_retries = 5
