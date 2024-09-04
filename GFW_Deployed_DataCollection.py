@@ -5,7 +5,6 @@ import concurrent.futures
 import platform
 import time
 import os
-from DNSPoisoning_DataCollection import domains
 from datetime import datetime
 
 def traceroute(domain, timeout=30, max_hops=30):
@@ -107,6 +106,10 @@ def main(domains, timeout=30, max_hops=30, max_workers=8):
       f.write(f"{result}\n")
 
 if __name__ == "__main__":
+    # read domains from file
+  file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
+  with open(file_path, 'r') as file:
+      domains = [line.strip() for line in file]
   while True:
     main(domains, timeout=120, max_hops=60, max_workers=8)
     print(f"Check completed at {datetime.now()}")

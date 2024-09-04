@@ -8,107 +8,6 @@ from datetime import datetime
 
 import dns.resolver
 
-# List of domains to check
-domains = [
-  "www.baidu.com",
-  "www.bing.com",
-  "github.com",
-  "www.docker.io",
-  "www.ucdavis.edu",
-  "www.truman.edu",
-  "ipv6.google.com",
-  "ipv6.test-ipv6.com",
-  "www.kame.net",
-  "ipv6.he.net",
-  "ipv6.eurov6.org",
-  "www.sixxs.net",
-  "ipv6.ripe.net",
-  "www.isc.org",
-  "ipv6.facebook.com",
-  "ipv6.bbc.co.uk",
-  "ipv6.microsite.prod.nic.ad.jp",
-  "www.v6.facebook.com",
-  "ipv6.youtube.com",
-  "ipv6.twitter.com",
-  "ipv6.reddit.com",
-  "ipv6.xnxx.com",
-  "ipv6.netflix.com",
-  "ipv6.apnic.net",
-  "ipv6.baidu.com",
-  "ipv6.sina.com.cn",
-  "ipv6.taobao.com",
-  "ipv6.juniper.net",
-  "ipv6.cisco.com",
-  "ipv6.yandex.com",
-  "ipv6.wipo.int",
-  "ipv6.cloudflare.com",
-  "ipv6.amazon.com",
-  "ipv6.apple.com",
-  "ipv6.ibm.com",
-  "ipv6.microsoft.com",
-  "www.reddit.com",
-  "www.twitter.com",
-  "www.facebook.com",
-  "www.instagram.com",
-  "www.google.com",
-  "www.youtube.com",
-  "www.dropbox.com",
-  "www.wikipedia.org",
-  "www.linkedin.com",
-  "www.whatsapp.com",
-  "www.telegram.org",
-  "www.medium.com",
-  "www.blogspot.com",
-  "www.wordpress.com",
-  "www.vimeo.com",
-  "www.tumblr.com",
-  "www.slack.com",
-  "www.github.com",
-  "www.netflix.com",
-  "www.flickr.com",
-  "www.soundcloud.com",
-  "www.quora.com",
-  "www.pinterest.com",
-  "www.snapchat.com",
-  "www.twitch.tv",
-  "www.periscope.tv",
-  "www.disqus.com",
-  "www.dailymotion.com",
-  "www.meetup.com",
-  "www.tiktok.com",
-  "www.facebook.com",
-  "www.twitter.com",
-  "www.instagram.com",
-  "www.linkedin.com",
-  "www.tiktok.com",
-  "www.snapchat.com",
-  "www.reddit.com",
-  "www.pinterest.com",
-  "www.tumblr.com",
-  "www.quora.com",
-  "www.medium.com",
-  "www.whatsapp.com",
-  "www.telegram.org",
-  "www.wechat.com",
-  "www.youtube.com",
-  "www.vimeo.com",
-  "www.dailymotion.com",
-  "www.twitch.tv",
-  "www.discord.com",
-  "www.vk.com",
-  "www.line.me",
-  "www.weibo.com",
-  "www.douyin.com",
-  "www.kuaishou.com",
-  "www.qq.com",
-  "www.signal.org",
-  "www.clubhouse.com",
-  "www.meetup.com",
-  "www.viber.com",
-  "www.periscope.tv",
-]
-
-
 def get_ips_from_domains(domains):
   ip_dict = {}
   for domain in domains:
@@ -140,6 +39,10 @@ def check_ip(ip, port):
     return False
 
 def run_checks():
+    # read domains from file
+  file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
+  with open(file_path, 'r') as file:
+      domains = [line.strip() for line in file]
   print(f"Starting IP blocking check at {datetime.now()}")
   results = []
   timestamp = datetime.now().isoformat()
