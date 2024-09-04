@@ -1,6 +1,11 @@
-import csv, os, platform, time, dns.resolver, concurrent.futures
+import csv
+import os
+import platform
+import time
 from datetime import datetime
 
+import dns.resolver
+import concurrent.futures
 
 # DNS servers to query
 dns_servers = {
@@ -59,52 +64,58 @@ def query_dns(domain, dns_server):
 def check_poisoning():
   # read domains from file
   file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
-  with open(file_path, 'r') as file:
-      domains = [line.strip() for line in file]
   results = []
   timestamp = datetime.now().isoformat()
 
   with concurrent.futures.ThreadPoolExecutor() as executor:
-    # Submit the query_dns function for each domain and DNS server combination
-    futures = [executor.submit(query_dns, domain, dns_server) for domain in domains for dns_server in dns_servers['china'] + dns_servers['global']]
+    with open(file_path, 'r') as file:
+      reader = csv.reader(file)
+      domains = []
+      for i, row in enumerate(reader):
+        if i >= 1000:
+          break
+        domains.append(row[0].strip())
 
-    # Collect the results as they become available
-    for future in concurrent.futures.as_completed(futures):
-      dns_results = future.result()
-      domain = dns_results['domain']
-      dns_server = dns_results['dns_server']
-      is_china_dns = dns_server in dns_servers['china']
-      is_poisoned_ipv4 = set(dns_results['ipv4']) != set(dns_results['ipv4'])
-      is_poisoned_ipv6 = set(dns_results['ipv6']) != set(dns_results['ipv6'])
-      is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
+      # Submit the query_dns function for each domain and DNS server combination
+      futures = [executor.submit(query_dns, domain, dns_server) for domain in domains for dns_server in dns_servers['china'] + dns_servers['global']]
 
-      # Find the existing result for the domain
-      existing_result = next((result for result in results if result['domain'] == domain), None)
+      # Collect the results as they become available
+      for future in concurrent.futures.as_completed(futures):
+        dns_results = future.result()
+        domain = dns_results['domain']
+        dns_server = dns_results['dns_server']
+        is_china_dns = dns_server in dns_servers['china']
+        is_poisoned_ipv4 = set(dns_results['ipv4']) != set(dns_results['ipv4'])
+        is_poisoned_ipv6 = set(dns_results['ipv6']) != set(dns_results['ipv6'])
+        is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
 
-      # If the result exists, update it with the new data
-      if existing_result:
-        if is_china_dns:
-          existing_result['china_result_ipv4'].extend(dns_results['ipv4'])
-          existing_result['china_result_ipv6'].extend(dns_results['ipv6'])
+        # Find the existing result for the domain
+        existing_result = next((result for result in results if result['domain'] == domain), None)
+
+        # If the result exists, update it with the new data
+        if existing_result:
+          if is_china_dns:
+            existing_result['china_result_ipv4'].extend(dns_results['ipv4'])
+            existing_result['china_result_ipv6'].extend(dns_results['ipv6'])
+          else:
+            existing_result['global_result_ipv4'].extend(dns_results['ipv4'])
+            existing_result['global_result_ipv6'].extend(dns_results['ipv6'])
+          existing_result['is_poisoned_ipv4'] = existing_result['is_poisoned_ipv4'] or is_poisoned_ipv4
+          existing_result['is_poisoned_ipv6'] = existing_result['is_poisoned_ipv6'] or is_poisoned_ipv6
+          existing_result['is_poisoned'] = existing_result['is_poisoned'] or is_poisoned
         else:
-          existing_result['global_result_ipv4'].extend(dns_results['ipv4'])
-          existing_result['global_result_ipv6'].extend(dns_results['ipv6'])
-        existing_result['is_poisoned_ipv4'] = existing_result['is_poisoned_ipv4'] or is_poisoned_ipv4
-        existing_result['is_poisoned_ipv6'] = existing_result['is_poisoned_ipv6'] or is_poisoned_ipv6
-        existing_result['is_poisoned'] = existing_result['is_poisoned'] or is_poisoned
-      else:
-        # Create a new result entry
-        results.append({
-          'timestamp': timestamp,
-          'domain': domain,
-          'china_result_ipv4': dns_results['ipv4'] if is_china_dns else [],
-          'china_result_ipv6': dns_results['ipv6'] if is_china_dns else [],
-          'global_result_ipv4': dns_results['ipv4'] if not is_china_dns else [],
-          'global_result_ipv6': dns_results['ipv6'] if not is_china_dns else [],
-          'is_poisoned': is_poisoned,
-          'is_poisoned_ipv4': is_poisoned_ipv4,
-          'is_poisoned_ipv6': is_poisoned_ipv6
-        })
+          # Create a new result entry
+          results.append({
+            'timestamp': timestamp,
+            'domain': domain,
+            'china_result_ipv4': dns_results['ipv4'] if is_china_dns else [],
+            'china_result_ipv6': dns_results['ipv6'] if is_china_dns else [],
+            'global_result_ipv4': dns_results['ipv4'] if not is_china_dns else [],
+            'global_result_ipv6': dns_results['ipv6'] if not is_china_dns else [],
+            'is_poisoned': is_poisoned,
+            'is_poisoned_ipv4': is_poisoned_ipv4,
+            'is_poisoned_ipv6': is_poisoned_ipv6
+          })
 
   return results
 
