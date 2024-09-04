@@ -180,6 +180,17 @@ def query_dns(domain, dns_server):
         file.write(f"Domain: {domain}\n")
         file.write(f"Exception: {str(e)}\n\n")
     print(f"Exception occurred: {e}. Program will continue running.")
+  except dns.resolver.NoAnswer as e:
+    results['ipv6'] = str(e)
+    # Save exception details to a file
+    if platform.system().lower() == "darwin":
+      folder_path = 'ExperimentResult/Mac/DNSPoisoning/Exceptions'
+      os.makedirs(folder_path, exist_ok=True)
+      filepath = f"{folder_path}/exceptionOccured.txt"
+      with open(filepath, "a") as file:
+        file.write(f"Domain: {domain}\n")
+        file.write(f"Exception: {str(e)}\n\n")
+    print(f"Exception occurred: {e}. Program will continue running.")
 
   return results
 
