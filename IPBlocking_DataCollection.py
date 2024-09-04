@@ -1,10 +1,6 @@
-import concurrent.futures
-import csv
-import os
-import platform
-import socket
-import time
+import csv, os, platform, socket, time
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
 
 import dns.resolver
 
@@ -39,10 +35,10 @@ def check_ip(ip, port):
     return False
 
 def run_checks():
-    # read domains from file
+  # read domains from file
   file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
   with open(file_path, 'r') as file:
-      domains = [line.strip() for line in file]
+    domains = [line.strip() for line in file]
   print(f"Starting IP blocking check at {datetime.now()}")
   results = []
   timestamp = datetime.now().isoformat()
@@ -66,22 +62,24 @@ def run_checks():
       elif not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
         f.write(f"{domain} has no IPs\n")
 
-  for domain, ips in ip_dict.items():
-    print(f"Checking domain {domain}, IPs: {ips}")
-    for ip_type in ['ipv4', 'ipv6']:
-      for ip in ips[ip_type]:
-        ports_to_check = ['80', '443']
-        print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
-        for port in ports_to_check:
-          is_accessible = check_ip(ip, int(port))
-          results.append({
-            'timestamp': timestamp,
-            'domain': domain,
-            'ip': ip,
-            'ip_type': ip_type,
-            'port': port,
-            'is_accessible': is_accessible
-          })
+  with ThreadPoolExecutor() as executor:
+    for domain, ips in ip_dict.items():
+      print(f"Checking domain {domain}, IPs: {ips}")
+      for ip_type in ['ipv4', 'ipv6']:
+        for ip in ips[ip_type]:
+          ports_to_check = ['80', '443']
+          print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
+          futures = [executor.submit(check_ip, ip, int(port)) for port in ports_to_check]
+          for index, future in enumerate(futures):
+            is_accessible = future.result()
+            results.append({
+              'timestamp': timestamp,
+              'domain': domain,
+              'ip': ip,
+              'ip_type': ip_type,
+              'port': ports_to_check[index],
+              'is_accessible': is_accessible
+            })
 
   print(f"IP blocking check completed at {datetime.now()}")
   return results
@@ -100,11 +98,18 @@ def save_results(results):
   else:
     filepath = f"ExperimentResult/IPBlocking/{filename}"
     os.makedirs('ExperimentResult/IPBlocking', exist_ok=True)
+
+  # Remove duplicate results
+  unique_results = []
+  for result in results:
+    if result not in unique_results:
+      unique_results.append(result)
+
   with open(filepath, 'w', newline='') as csvfile:
     fieldnames = ['timestamp', 'domain', 'ip', 'ip_type', 'port', 'is_accessible']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-    for row in results:
+    for row in unique_results:
       writer.writerow(row)
 
 def main():

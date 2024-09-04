@@ -1,10 +1,4 @@
-import subprocess
-import re
-import requests
-import concurrent.futures
-import platform
-import time
-import os
+import subprocess, re, requests, concurrent.futures, platform, time, os
 from datetime import datetime
 
 def traceroute(domain, timeout=30, max_hops=30):
@@ -24,8 +18,8 @@ def traceroute(domain, timeout=30, max_hops=30):
              timeout=timeout)
     return output.encode('utf-8').decode('utf-8', errors='ignore')  # Encode the output as bytes and then decode it as UTF-8 with ignoring errors
   except subprocess.TimeoutExpired as e:
-    # Check if "timed out" occurs 10 times consecutively
-    if "timed out" * 10 in e.output:
+    # Check if "timed out" occurs 30 times consecutively
+    if "timed out" * 30 in e.output:
       raise Exception("Traceroute timed out")
     else:
       return "Traceroute timed out"
@@ -39,9 +33,7 @@ def parse_traceroute(output):
   system = platform.system().lower()
   if system == "windows":
     ip_pattern = r'\d+\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(?:\d+\s+ms|\*)\s+(\d+\.\d+\.\d+\.\d+)'
-  elif system == "darwin":  # macOS
-    ip_pattern = r'\s*\d+\s+(\d+\.\d+\.\d+\.\d+)'
-  else:  # Linux
+  else:  # Linux or macOS
     ip_pattern = r'\s*\d+:\s+(\d+\.\d+\.\d+\.\d+)'
 
   for line in lines[4:]:  # Skip the first few lines as they're usually headers
@@ -53,12 +45,16 @@ def parse_traceroute(output):
   return None
 
 def ip_lookup(ip):
-  try:
-    response = requests.get(f"http://ip-api.com/json/{ip}")
-    data = response.json()
-    return f"{data['country']}, {data['regionName']}, {data['city']}"
-  except:
-    return "IP lookup failed"
+  max_retries = 5
+  retries = 0
+  while retries < max_retries:
+    try:
+      response = requests.get(f"http://ip-api.com/json/{ip}")
+      data = response.json()
+      return f"{data['country']}, {data['regionName']}, {data['city']}"
+    except:
+      retries += 1
+  return "IP lookup failed"
 
 def process_domain(domain, timeout=120, max_hops=60):
   print(f"Processing {domain}...")
@@ -76,9 +72,9 @@ def process_domain(domain, timeout=120, max_hops=60):
   location = ip_lookup(last_ip)
   return f"{domain}: Possible GFW detected at {last_ip} ({location})"
 
-def main(domains, timeout=30, max_hops=30, max_workers=8):
+def main(domains, timeout=30, max_hops=30):
   results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
     for future in concurrent.futures.as_completed(future_to_domain):
       domain = future_to_domain[future]
@@ -111,6 +107,6 @@ if __name__ == "__main__":
   with open(file_path, 'r') as file:
       domains = [line.strip() for line in file]
   while True:
-    main(domains, timeout=120, max_hops=60, max_workers=8)
+    main(domains, timeout=120, max_hops=60)
     print(f"Check completed at {datetime.now()}")
     time.sleep(1440)  # Wait for 4 hours before next check

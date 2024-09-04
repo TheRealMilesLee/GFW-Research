@@ -1,4 +1,4 @@
-import csv, os, platform, time, dns.resolver
+import csv, os, platform, time, dns.resolver, concurrent.futures
 from datetime import datetime
 
 
@@ -37,56 +37,24 @@ dns_servers = {
 }
 
 def query_dns(domain, dns_server):
-  resolver = dns.resolver.Resolver()
-  resolver.timeout = 10  # Increase the timeout value to 10 seconds
-  resolver.nameservers = [dns_server]
-  results = {'ipv4': [], 'ipv6': []}
   try:
-    # Query for IPv4 addresses
-    answers = resolver.resolve(domain, 'A')
-    results['ipv4'] = [answer.address for answer in answers]
+    resolver = dns.resolver.Resolver()
+    resolver.nameservers = [dns_server]
+    answers = resolver.resolve(domain)
+    return {
+      'domain': domain,
+      'dns_server': dns_server,
+      'ipv4': [answer.address for answer in answers if answer.version == 4],
+      'ipv6': [answer.address for answer in answers if answer.version == 6]
+    }
   except Exception as e:
-    results['ipv4'] = str(e)
-
-  try:
-    # Query for IPv6 addresses
-    answers = resolver.resolve(domain, 'AAAA')
-    results['ipv6'] = [answer.address for answer in answers]
-  except dns.resolver.NoResolverConfiguration as e:
-    results['ipv6'] = str(e)
-    # Save exception details to a file
-    if platform.system().lower() == "darwin":
-      folder_path = 'ExperimentResult/Mac/DNSPoisoning/Exceptions'
-      os.makedirs(folder_path, exist_ok=True)
-      filepath = f"{folder_path}/exceptionOccured.txt"
-      with open(filepath, "a") as file:
-        file.write(f"Domain: {domain}\n")
-        file.write(f"Exception: {str(e)}\n\n")
-    print(f"Exception occurred: {e}. Program will continue running.")
-  except dns.resolver.LifetimeTimeout as e:
-    results['ipv6'] = str(e)
-    # Save exception details to a file
-    if platform.system().lower() == "darwin":
-      folder_path = 'ExperimentResult/Mac/DNSPoisoning/Exceptions'
-      os.makedirs(folder_path, exist_ok=True)
-      filepath = f"{folder_path}/exceptionOccured.txt"
-      with open(filepath, "a") as file:
-        file.write(f"Domain: {domain}\n")
-        file.write(f"Exception: {str(e)}\n\n")
-    print(f"Exception occurred: {e}. Program will continue running.")
-  except dns.resolver.NoAnswer as e:
-    results['ipv6'] = str(e)
-    # Save exception details to a file
-    if platform.system().lower() == "darwin":
-      folder_path = 'ExperimentResult/Mac/DNSPoisoning/Exceptions'
-      os.makedirs(folder_path, exist_ok=True)
-      filepath = f"{folder_path}/exceptionOccured.txt"
-      with open(filepath, "a") as file:
-        file.write(f"Domain: {domain}\n")
-        file.write(f"Exception: {str(e)}\n\n")
-    print(f"Exception occurred: {e}. Program will continue running.")
-
-  return results
+    print(f"Error resolving {domain} on {dns_server}: {e}")
+    return {
+      'domain': domain,
+      'dns_server': dns_server,
+      'ipv4': [],
+      'ipv6': []
+    }
 
 def check_poisoning():
   # read domains from file
@@ -97,35 +65,47 @@ def check_poisoning():
   results = []
   timestamp = datetime.now().isoformat()
 
-  for domain in domains:
-    china_results = {'ipv4': [], 'ipv6': []}
-    for china_dns in dns_servers['china']:
-      dns_results = query_dns(domain, china_dns)
-      china_results['ipv4'].extend(dns_results['ipv4'])
-      china_results['ipv6'].extend(dns_results['ipv6'])
+  with concurrent.futures.ThreadPoolExecutor() as executor:
+    # Submit the query_dns function for each domain and DNS server combination
+    futures = [executor.submit(query_dns, domain, dns_server) for domain in domains for dns_server in dns_servers['china'] + dns_servers['global']]
 
-    global_results = {'ipv4': [], 'ipv6': []}
-    for global_dns in dns_servers['global']:
-      dns_results = query_dns(domain, global_dns)
-      global_results['ipv4'].extend(dns_results['ipv4'])
-      global_results['ipv6'].extend(dns_results['ipv6'])
+    # Collect the results as they become available
+    for future in concurrent.futures.as_completed(futures):
+      dns_results = future.result()
+      domain = dns_results['domain']
+      dns_server = dns_results['dns_server']
+      is_china_dns = dns_server in dns_servers['china']
+      is_poisoned_ipv4 = set(dns_results['ipv4']) != set(dns_results['ipv4'])
+      is_poisoned_ipv6 = set(dns_results['ipv6']) != set(dns_results['ipv6'])
+      is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
 
-    is_poisoned_ipv4 = set(china_results['ipv4']) != set(global_results['ipv4'])
-    is_poisoned_ipv6 = set(china_results['ipv6']) != set(global_results['ipv6'])
-    is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
+      # Find the existing result for the domain
+      existing_result = next((result for result in results if result['domain'] == domain), None)
 
-    print(f"Domain: {domain} check completed")
-    results.append({
-      'timestamp': timestamp,
-      'domain': domain,
-      'china_result_ipv4': china_results['ipv4'],
-      'china_result_ipv6': china_results['ipv6'],
-      'global_result_ipv4': global_results['ipv4'],
-      'global_result_ipv6': global_results['ipv6'],
-      'is_poisoned': is_poisoned,
-      'is_poisoned_ipv4': is_poisoned_ipv4,
-      'is_poisoned_ipv6': is_poisoned_ipv6
-    })
+      # If the result exists, update it with the new data
+      if existing_result:
+        if is_china_dns:
+          existing_result['china_result_ipv4'].extend(dns_results['ipv4'])
+          existing_result['china_result_ipv6'].extend(dns_results['ipv6'])
+        else:
+          existing_result['global_result_ipv4'].extend(dns_results['ipv4'])
+          existing_result['global_result_ipv6'].extend(dns_results['ipv6'])
+        existing_result['is_poisoned_ipv4'] = existing_result['is_poisoned_ipv4'] or is_poisoned_ipv4
+        existing_result['is_poisoned_ipv6'] = existing_result['is_poisoned_ipv6'] or is_poisoned_ipv6
+        existing_result['is_poisoned'] = existing_result['is_poisoned'] or is_poisoned
+      else:
+        # Create a new result entry
+        results.append({
+          'timestamp': timestamp,
+          'domain': domain,
+          'china_result_ipv4': dns_results['ipv4'] if is_china_dns else [],
+          'china_result_ipv6': dns_results['ipv6'] if is_china_dns else [],
+          'global_result_ipv4': dns_results['ipv4'] if not is_china_dns else [],
+          'global_result_ipv6': dns_results['ipv6'] if not is_china_dns else [],
+          'is_poisoned': is_poisoned,
+          'is_poisoned_ipv4': is_poisoned_ipv4,
+          'is_poisoned_ipv6': is_poisoned_ipv6
+        })
 
   return results
 
@@ -157,6 +137,11 @@ def save_results(results):
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
     for row in results:
+      # Remove duplicate data before writing to file
+      row['china_result_ipv4'] = list(set(row['china_result_ipv4']))
+      row['china_result_ipv6'] = list(set(row['china_result_ipv6']))
+      row['global_result_ipv4'] = list(set(row['global_result_ipv4']))
+      row['global_result_ipv6'] = list(set(row['global_result_ipv6']))
       writer.writerow(row)
 
 def main():
