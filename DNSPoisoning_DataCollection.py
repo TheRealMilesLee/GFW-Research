@@ -169,7 +169,7 @@ def query_dns(domain, dns_server):
         file.write(f"Domain: {domain}\n")
         file.write(f"Exception: {str(e)}\n\n")
     print(f"Exception occurred: {e}. Program will continue running.")
-  except TimeoutError as e:
+  except dns.resolver.LifetimeTimeout as e:
     results['ipv6'] = str(e)
     # Save exception details to a file
     if platform.system().lower() == "darwin":
