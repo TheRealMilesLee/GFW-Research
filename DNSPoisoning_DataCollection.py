@@ -61,7 +61,6 @@ def check_poisoning():
   file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
   with open(file_path, 'r') as file:
       domains = [line.strip() for line in file]
-  print(f"Starting check at {datetime.now()} for domains: {domains}")
   results = []
   timestamp = datetime.now().isoformat()
 
