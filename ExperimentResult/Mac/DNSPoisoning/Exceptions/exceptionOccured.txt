@@ -1,0 +1,12 @@
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
