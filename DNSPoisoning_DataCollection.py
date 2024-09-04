@@ -144,6 +144,7 @@ dns_servers = {
 
 def query_dns(domain, dns_server):
   resolver = dns.resolver.Resolver()
+  resolver.timeout = 10  # Increase the timeout value to 10 seconds
   resolver.nameservers = [dns_server]
   results = {'ipv4': [], 'ipv6': []}
   try:
