@@ -1,19 +1,20 @@
 import subprocess, re, requests, concurrent.futures, platform, time, os
 from datetime import datetime
 
+
 def traceroute(domain, timeout=30, max_hops=30):
   system = platform.system().lower()
   if system == "windows":
-    command = ["tracert", "-h", str(max_hops), domain]
+    command = [b"tracert", b"-h", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
   elif system == "linux":
-    command = ["tracepath", "-m", str(max_hops), domain]
+    command = [b"tracepath", b"-m", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
   elif system == "darwin":  # macOS
-    command = ["traceroute", "-m", str(max_hops), domain]
+    command = [b"traceroute", b"-m", str(max_hops).encode('utf-8'), domain.encode('utf-8')]
   else:
     raise Exception("Unsupported operating system")
 
   try:
-    output = subprocess.check_output([c.encode('utf-8') for c in command],
+    output = subprocess.check_output(command,
                  stderr=subprocess.STDOUT,
                  timeout=timeout)
     return output.decode('utf-8', errors='ignore')  # Decode the output as UTF-8 with ignoring errors
