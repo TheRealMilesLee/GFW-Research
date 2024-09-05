@@ -13,6 +13,7 @@ dns_servers = {
     '114.114.114.114',  # 114DNS
     '114.114.115.115',  # 114 Alternative
     '223.5.5.5',        # AliDNS
+    '223.6.6.6',        # AliDNS Alternative
     '119.29.29.29',     # DNSPod
     '180.76.76.76',     # Baidu
     '202.96.128.86',    # China Telecom
