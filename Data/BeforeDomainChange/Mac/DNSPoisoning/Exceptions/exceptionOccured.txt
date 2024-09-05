@@ -1,0 +1,651 @@
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:208.67.220.220@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.116 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:208.67.222.222@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.baidu.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:77.88.8.8@53 answered The DNS operation timed out.
+
+Domain: www.baidu.com
+Exception: The DNS response does not contain an answer to the question: www.baidu.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:208.67.222.222@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:77.88.8.8@53 answered The DNS operation timed out.
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: www.bing.com
+Exception: The DNS response does not contain an answer to the question: www.bing.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:208.67.222.222@53 answered The DNS operation timed out.
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The DNS response does not contain an answer to the question: github.com. IN AAAA
+
+Domain: github.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:94.140.15.15@53 answered The DNS operation timed out.
+
+Domain: www.docker.io
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.docker.io
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.docker.io
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.docker.io
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: www.docker.io
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:8.20.247.20@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:9.9.9.9@53 answered The DNS operation timed out.
+
+Domain: www.ucdavis.edu
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:8.20.247.20@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:208.67.220.220@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The DNS response does not contain an answer to the question: www.truman.edu. IN AAAA
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:94.140.14.14@53 answered The DNS operation timed out.
+
+Domain: www.truman.edu
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:94.140.15.15@53 answered The DNS operation timed out.
+
+Domain: ipv6.google.com
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.google.com
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.google.com
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.google.com
+Exception: The DNS response does not contain an answer to the question: ipv6.google.com. IN AAAA
+
+Domain: ipv6.test-ipv6.com
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.test-ipv6.com
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.test-ipv6.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.test-ipv6.com
+Exception: The resolution lifetime expired after 5.153 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: www.kame.net
+Exception: The resolution lifetime expired after 5.107 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.kame.net
+Exception: The resolution lifetime expired after 5.107 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.kame.net
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.kame.net
+Exception: The resolution lifetime expired after 5.107 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.kame.net
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:208.67.220.220@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.103 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.101 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:8.20.247.20@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:199.85.127.10@53 answered The DNS operation timed out.
+
+Domain: ipv6.he.net
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:94.140.15.15@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The resolution lifetime expired after 5.107 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The resolution lifetime expired after 5.102 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:208.67.222.222@53 answered The DNS operation timed out.
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: ipv6.eurov6.org
+Exception: The DNS response does not contain an answer to the question: ipv6.eurov6.org. IN AAAA
+
+Domain: www.sixxs.net
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.sixxs.net
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.sixxs.net
+Exception: The resolution lifetime expired after 5.106 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.111 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.108 seconds: Server Do53:77.88.8.8@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.111 seconds: Server Do53:77.88.8.1@53 answered The DNS operation timed out.
+
+Domain: ipv6.ripe.net
+Exception: The DNS response does not contain an answer to the question: ipv6.ripe.net. IN AAAA
+
+Domain: ipv6.ripe.net
+Exception: The resolution lifetime expired after 5.110 seconds: Server Do53:94.140.15.15@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.107 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.110 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:208.67.220.220@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:8.26.56.26@53 answered The DNS operation timed out.
+
+Domain: www.isc.org
+Exception: The resolution lifetime expired after 5.109 seconds: Server Do53:199.85.127.10@53 answered The DNS operation timed out.
+
+Domain: ipv6.facebook.com
+Exception: The resolution lifetime expired after 5.112 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.facebook.com
+Exception: The resolution lifetime expired after 5.104 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.facebook.com
+Exception: The resolution lifetime expired after 5.111 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
+Domain: ipv6.bbc.co.uk
+Exception: The resolution lifetime expired after 5.111 seconds: Server Do53:202.96.128.86@53 answered The DNS operation timed out.
+
+Domain: ipv6.bbc.co.uk
+Exception: The resolution lifetime expired after 5.111 seconds: Server Do53:210.21.196.6@53 answered The DNS operation timed out.
+
+Domain: ipv6.bbc.co.uk
+Exception: The resolution lifetime expired after 5.105 seconds: Server Do53:211.136.17.107@53 answered The DNS operation timed out.
+
