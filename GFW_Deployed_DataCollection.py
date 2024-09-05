@@ -74,7 +74,7 @@ def process_domain(domain, timeout=120, max_hops=60):
 
 def main(domains, timeout=30, max_hops=30):
   results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
     for future in concurrent.futures.as_completed(future_to_domain):
       domain = future_to_domain[future]
@@ -110,4 +110,5 @@ if __name__ == "__main__":
   while True:
     main(domains, timeout=120, max_hops=60)
     print(f"Check completed at {datetime.now()}")
+    del domains  # Delete the domains list to free up memory
     time.sleep(1440)  # Wait for 4 hours before next check
