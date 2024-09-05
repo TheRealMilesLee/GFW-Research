@@ -1,0 +1,14 @@
+ipv6.test-ipv6.com: Traceroute failed
+ipv6.ripe.net: Traceroute failed
+ipv6.microsite.prod.nic.ad.jp: Traceroute failed
+ipv6.twitter.com: Traceroute failed
+ipv6.netflix.com: Traceroute failed
+ipv6.apnic.net: Traceroute failed
+ipv6.sina.com.cn: Traceroute failed
+ipv6.taobao.com: Traceroute failed
+ipv6.juniper.net: Traceroute failed
+ipv6.wipo.int: Traceroute failed
+ipv6.cloudflare.com: Traceroute failed
+ipv6.apple.com: Traceroute failed
+ipv6.microsoft.com: Traceroute failed
+ipv6.ibm.com: Traceroute failed
