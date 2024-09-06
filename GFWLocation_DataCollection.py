@@ -108,6 +108,7 @@ def process_domain(domain, timeout=60, max_hops=30):
 # Main function and other parts of the script remain the same
 
 def main(domains, timeout=120, max_hops=60):
+  download_geoip_database()
   results = []
   with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
