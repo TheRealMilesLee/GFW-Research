@@ -86,8 +86,6 @@ def check_poisoning():
       reader = csv.reader(file)
       domains = []
       for i, row in enumerate(reader):
-        if i >= 1000:
-          break
         domains.append(row[0].strip())
 
       # Submit the query_dns function for each domain and DNS server combination
