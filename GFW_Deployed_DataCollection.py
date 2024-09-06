@@ -1,5 +1,13 @@
-import subprocess, re, requests, concurrent.futures, platform, time, os
+import concurrent.futures
+import os
+import platform
+import re
+import subprocess
+import time
 from datetime import datetime
+
+import requests
+
 
 def traceroute(domain, timeout=30, max_hops=30):
   system = platform.system().lower()
@@ -74,7 +82,7 @@ def process_domain(domain, timeout=120, max_hops=60):
 
 def main(domains, timeout=30, max_hops=30):
   results = []
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=256) as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
     for future in concurrent.futures.as_completed(future_to_domain):
       domain = future_to_domain[future]
