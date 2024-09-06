@@ -13,6 +13,7 @@ dns_servers = {
     '114.114.114.114',  # 114DNS
     '114.114.115.115',  # 114 Alternative
     '223.5.5.5',        # AliDNS
+    '223.6.6.6',        # AliDNS Alternative
     '119.29.29.29',     # DNSPod
     '180.76.76.76',     # Baidu
     '202.96.128.86',    # China Telecom
@@ -45,12 +46,25 @@ def query_dns(domain, dns_server):
   try:
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
-    answers = resolver.resolve(domain)
+
+    ipv4_answers = []
+    ipv6_answers = []
+
+    try:
+      ipv4_answers = resolver.resolve(domain, 'A')
+    except dns.resolver.NoAnswer:
+      print(f"No IPv4 records found for {domain}")
+
+    try:
+      ipv6_answers = resolver.resolve(domain, 'AAAA')
+    except dns.resolver.NoAnswer:
+      print(f"No IPv6 records found for {domain}")
+
     return {
       'domain': domain,
       'dns_server': dns_server,
-      'ipv4': [answer.address for answer in answers if answer.version == 4],
-      'ipv6': [answer.address for answer in answers if answer.version == 6]
+      'ipv4': [answer.to_text() for answer in ipv4_answers],
+      'ipv6': [answer.to_text() for answer in ipv6_answers]
     }
   except Exception as e:
     print(f"Error resolving {domain} on {dns_server}: {e}")
@@ -67,7 +81,7 @@ def check_poisoning():
   results = []
   timestamp = datetime.now().isoformat()
 
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=256) as executor:
     with open(file_path, 'r') as file:
       reader = csv.reader(file)
       domains = []
