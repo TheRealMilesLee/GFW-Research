@@ -1,4 +1,8 @@
-import csv, os, platform, socket, time
+import csv
+import os
+import platform
+import socket
+import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
@@ -8,15 +12,23 @@ def get_ips_from_domains(domains):
   ip_dict = {}
   for domain in domains:
     try:
-      ipv4_answers = dns.resolver.resolve(domain, 'A')
-      ipv6_answers = dns.resolver.resolve(domain, 'AAAA')
-      ip_dict[domain] = {
-        'ipv4': [answer.address for answer in ipv4_answers],
-        'ipv6': [answer.address for answer in ipv6_answers]
-      }
+      ip_dict[domain] = {'ipv4': [], 'ipv6': []}
+      try:
+        ipv4_answers = dns.resolver.resolve(domain, 'A')
+        ip_dict[domain]['ipv4'] = [answer.address for answer in ipv4_answers]
+      except dns.resolver.NoAnswer:
+        print(f"No IPv4 address found for {domain}")
+
+      try:
+        ipv6_answers = dns.resolver.resolve(domain, 'AAAA')
+        ip_dict[domain]['ipv6'] = [answer.address for answer in ipv6_answers]
+      except dns.resolver.NoAnswer:
+        print(f"No IPv6 address found for {domain}")
+
+      if not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
+        print(f"No IP addresses found for {domain}")
     except Exception as e:
       print(f"Error resolving {domain}: {e}")
-      ip_dict[domain] = {'ipv4': [], 'ipv6': []}
   return ip_dict
 
 # Timeout for connection attempts (in seconds)
@@ -48,14 +60,18 @@ def run_checks():
 
   # Then cleanup the IP dictionary, deleted the domains that did not resolve or have no IPs
   ip_dict = {domain: ips for domain, ips in ip_dict.items() if ips['ipv4'] or ips['ipv6']}
+
   # Output to the file for the domains that has problem IP or have problem on resolving IP
   if platform.system().lower() == "linux":
     folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
   elif platform.system().lower() == "darwin":
-    folder_path = 'ExperimentResult/Mac'
+    folder_path = 'ExperimentResult/Mac/IPBlocking'
   else:
     folder_path = 'ExperimentResult/IPBlocking'
-  with open(f"{folder_path}/problem_domains.txt", 'w') as f:
+
+  os.makedirs(folder_path, exist_ok=True)
+
+  with open(os.path.join(folder_path, "problem_domains.txt"), 'w') as f:
     for domain in domains:
       if domain not in ip_dict:
         f.write(f"{domain} did not resolve\n")
@@ -86,18 +102,15 @@ def run_checks():
 
 def save_results(results):
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  filepath = ""
   if platform.system().lower() == "linux":
     folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
-    os.makedirs(folder_path, exist_ok=True)
-    filepath = f"{folder_path}/{filename}"
   elif platform.system().lower() == "darwin":
     folder_path = 'ExperimentResult/Mac/IPBlocking'
-    os.makedirs(folder_path, exist_ok=True)
-    filepath = f"{folder_path}/{filename}"
   else:
-    filepath = f"ExperimentResult/IPBlocking/{filename}"
-    os.makedirs('ExperimentResult/IPBlocking', exist_ok=True)
+    folder_path = 'ExperimentResult/IPBlocking'
+
+  os.makedirs(folder_path, exist_ok=True)
+  filepath = os.path.join(folder_path, filename)
 
   # Remove duplicate results
   unique_results = []
