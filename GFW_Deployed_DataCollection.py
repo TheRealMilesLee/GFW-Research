@@ -38,14 +38,11 @@ def traceroute(domain, timeout=30, max_hops=30):
 def parse_traceroute(output):
   lines = output.split('\n')
   last_successful_ip = None
-
   ip_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
-
   for line in lines:
     ips = re.findall(ip_pattern, line)
     if ips:
       last_successful_ip = ips[-1]
-
   return last_successful_ip
 
 def ip_lookup(ip):
@@ -66,42 +63,38 @@ def process_domain(domain, timeout=120, max_hops=60):
   print(f"Processing {domain}...")
   traceroute_output = traceroute(domain, timeout, max_hops)
 
-  if "timed out" in traceroute_output.lower():
+  if "timed out" in traceroute_output.lower() or "failed" in traceroute_output.lower():
     last_ip = parse_traceroute(traceroute_output)
     if last_ip:
       location = ip_lookup(last_ip)
-      return f"{domain}: Possible GFW detection (Traceroute timed out) at {last_ip} ({location})"
+      return f"{domain}: Possible GFW detection at {last_ip} ({location})"
     else:
-      return f"{domain}: Possible GFW detection (Traceroute timed out)"
-  elif "failed" in traceroute_output.lower():
-    return f"{domain}: Possible GFW detection (Traceroute failed)"
+      return f"{domain}: Possible GFW detection (No IP found)"
 
   last_ip = parse_traceroute(traceroute_output)
   if not last_ip:
-    return None  # No GFW detected, don't record this result
+    return f"{domain}: No GFW detected (Traceroute completed)"
 
-  # Check if the last IP is not the destination (which would indicate no GFW interference)
   try:
     destination_ip = socket.gethostbyname(domain)
     if last_ip == destination_ip:
-      return None  # No GFW detected, don't record this result
+      return f"{domain}: No GFW detected (Reached destination)"
   except:
-    pass  # If we can't resolve the domain, assume it might be GFW interference
+    pass
 
   location = ip_lookup(last_ip)
   return f"{domain}: Possible GFW detected at {last_ip} ({location})"
 
-def main(domains, timeout=30, max_hops=30):
+def main(domains, timeout=120, max_hops=60):
   results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=256) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
     for future in concurrent.futures.as_completed(future_to_domain):
       domain = future_to_domain[future]
       try:
         result = future.result()
-        if result:  # Only append and print if result is not None
-          results.append(result)
-          print(result)
+        results.append(result)
+        print(result)
       except Exception as exc:
         print(f"{domain} generated an exception: {exc}")
 
@@ -122,7 +115,6 @@ def main(domains, timeout=30, max_hops=30):
       f.write(f"{result}\n")
 
 if __name__ == "__main__":
-
   file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
   with open(file_path, 'r') as file:
     domains = [line.strip() for line in file]
