@@ -1,12 +1,17 @@
-import concurrent.futures
-import os
-import platform
-import re
-import subprocess
-import time
-import socket
-import requests
+import concurrent.futures, os, platform, re, subprocess, time, socket, requests, geoip2.database, os
+from urllib.request import urlretrieve
 from datetime import datetime
+# Constants
+GEOIP_DB_URL = "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb"
+GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), "GeoLite2-City.mmdb")
+
+def download_geoip_database():
+  """Download the GeoIP database if it doesn't exist."""
+  if not os.path.exists(GEOIP_DB_PATH):
+    print("Downloading GeoIP database...")
+    urlretrieve(GEOIP_DB_URL, GEOIP_DB_PATH)
+    print("GeoIP database downloaded successfully.")
+
 
 def traceroute(domain, timeout=30, max_hops=30):
   system = platform.system().lower()
@@ -37,53 +42,70 @@ def traceroute(domain, timeout=30, max_hops=30):
 
 def parse_traceroute(output):
   lines = output.split('\n')
-  last_successful_ip = None
   ip_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+  ips = []
   for line in lines:
-    ips = re.findall(ip_pattern, line)
-    if ips:
-      last_successful_ip = ips[-1]
-  return last_successful_ip
+    found_ips = re.findall(ip_pattern, line)
+    if found_ips:
+      ips.extend(found_ips)
+  return ips
 
-def ip_lookup(ip):
+def ip_lookup_with_fallback(ip):
+  """Perform IP geolocation with fallback to local GeoIP database."""
+  # Try online lookup first
+  online_result = ip_lookup_online(ip)
+  if online_result != "IP lookup failed":
+    return online_result
+  # Fallback to local database
+  return ip_lookup_local(ip)
+
+def ip_lookup_online(ip):
+  """Perform online IP lookup (existing implementation)."""
   retries = 0
-  while retries < 30:
+  while retries < 3:
     try:
-      response = requests.get(f"http://ip-api.com/json/{ip}")
+      response = requests.get(f"http://ip-api.com/json/{ip}", timeout=5)
       data = response.json()
       if data['status'] == 'success':
         return f"{data.get('country', 'Unknown')}, {data.get('regionName', 'Unknown')}, {data.get('city', 'Unknown')}"
       else:
         return "IP lookup failed"
-    except:
+    except requests.RequestException:
       retries += 1
+      time.sleep(1)
   return "IP lookup failed"
 
-def process_domain(domain, timeout=120, max_hops=60):
+def ip_lookup_local(ip):
+  """Perform IP lookup using local GeoIP database."""
+  try:
+    with geoip2.database.Reader(GEOIP_DB_PATH) as reader:
+      response = reader.city(ip)
+      country = response.country.name
+      region = response.subdivisions.most_specific.name if response.subdivisions else "Unknown"
+      city = response.city.name if response.city.name else "Unknown"
+      return f"{country}, {region}, {city}"
+  except geoip2.errors.AddressNotFoundError:
+    return "IP not found in local database"
+  except Exception as e:
+    return f"Local IP lookup failed: {str(e)}"
+
+# Modified process_domain function
+def process_domain(domain, timeout=60, max_hops=30):
   print(f"Processing {domain}...")
   traceroute_output = traceroute(domain, timeout, max_hops)
-
-  if "timed out" in traceroute_output.lower() or "failed" in traceroute_output.lower():
-    last_ip = parse_traceroute(traceroute_output)
-    if last_ip:
-      location = ip_lookup(last_ip)
-      return f"{domain}: Possible GFW detection at {last_ip} ({location})"
-    else:
-      return f"{domain}: Possible GFW detection (No IP found)"
-
-  last_ip = parse_traceroute(traceroute_output)
-  if not last_ip:
-    return f"{domain}: No GFW detected (Traceroute completed)"
-
+  ips = parse_traceroute(traceroute_output)
+  if not ips:
+    return f"{domain}: No IP addresses found in traceroute"
   try:
     destination_ip = socket.gethostbyname(domain)
-    if last_ip == destination_ip:
-      return f"{domain}: No GFW detected (Reached destination)"
-  except:
-    pass
-
-  location = ip_lookup(last_ip)
-  return f"{domain}: Possible GFW detected at {last_ip} ({location})"
+  except socket.gaierror:
+    return f"{domain}: Unable to resolve domain"
+  if destination_ip in ips:
+    return f"{domain}: No GFW detected (Reached destination {destination_ip})"
+  last_ip = ips[-1]
+  location = ip_lookup_with_fallback(last_ip)
+  return f"{domain}: Possible GFW detection at {last_ip} ({location})"
+# Main function and other parts of the script remain the same
 
 def main(domains, timeout=120, max_hops=60):
   results = []
