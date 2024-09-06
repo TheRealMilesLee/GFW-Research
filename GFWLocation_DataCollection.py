@@ -87,7 +87,7 @@ def process_domain(domain, timeout=120, max_hops=60):
 
 def main(domains, timeout=120, max_hops=60):
   results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
     future_to_domain = {executor.submit(process_domain, domain, timeout, max_hops): domain for domain in domains}
     for future in concurrent.futures.as_completed(future_to_domain):
       domain = future_to_domain[future]
