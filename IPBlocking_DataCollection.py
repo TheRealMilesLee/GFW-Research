@@ -78,7 +78,7 @@ def run_checks():
       elif not ip_dict[domain]['ipv4'] and not ip_dict[domain]['ipv6']:
         f.write(f"{domain} has no IPs\n")
 
-  with ThreadPoolExecutor(max_workers=256) as executor:
+  with ThreadPoolExecutor(max_workers=32) as executor:
     for domain, ips in ip_dict.items():
       print(f"Checking domain {domain}, IPs: {ips}")
       for ip_type in ['ipv4', 'ipv6']:

@@ -81,7 +81,7 @@ def check_poisoning():
   results = []
   timestamp = datetime.now().isoformat()
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=256) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
     with open(file_path, 'r') as file:
       reader = csv.reader(file)
       domains = []
