@@ -103,6 +103,7 @@ amsoveasea.com did not resolve
 amzndns.co.uk did not resolve
 amzndns.com did not resolve
 amzndns.net did not resolve
+animerulz.pro did not resolve
 anrdoezrs.net did not resolve
 antigena.com did not resolve
 anythinktech.com did not resolve
@@ -214,6 +215,7 @@ beanywhere.com did not resolve
 becasbenitojuarez.gob.mx did not resolve
 beelinegprs.ru did not resolve
 beian.gov.cn did not resolve
+betflag.it did not resolve
 beyla.site did not resolve
 beyondtrustcloud.com did not resolve
 bgdns.net did not resolve
@@ -230,7 +232,6 @@ bldrdoc.gov did not resolve
 blockdh100b.net did not resolve
 blockdh100c.co did not resolve
 bmw.cloud did not resolve
-bnf.fr did not resolve
 boltdns.net did not resolve
 bose.io did not resolve
 boxif.xyz did not resolve
@@ -446,7 +447,6 @@ dropboxapi.com did not resolve
 dropboxusercontent.com did not resolve
 dropz-k.com did not resolve
 dsnwdc.net did not resolve
-dssedge.com did not resolve
 dssott.com did not resolve
 dtscdn.com did not resolve
 dtvce.com did not resolve
@@ -530,7 +530,6 @@ filesusr.com did not resolve
 firebaseio.com did not resolve
 firstbytedns.net did not resolve
 firstbytedns.ru did not resolve
-firstvds.ru did not resolve
 firwinds.site did not resolve
 fmovies24.to did not resolve
 fn-pz.com did not resolve
@@ -706,7 +705,6 @@ jcplatform.dev did not resolve
 jdcache.com did not resolve
 jimdofree.com did not resolve
 jimdosite.com did not resolve
-jino.ru did not resolve
 jitsi.net did not resolve
 jiveip.net did not resolve
 jjofd16dhf.com did not resolve
@@ -1270,7 +1268,6 @@ topdns.com did not resolve
 topdns.me did not resolve
 topgirl.co did not resolve
 toponadss.com did not resolve
-toppr.com did not resolve
 tplinknbu.com did not resolve
 tplinkra.com did not resolve
 trackwilltrk.com did not resolve
