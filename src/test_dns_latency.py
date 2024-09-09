@@ -59,10 +59,32 @@ def import_domains() -> list:
     domains = [domain.strip() for domain in domains]
   return domains
 
+
+def check_latency(server: str, domains: list, results: list) -> None:
+  resolver = dns.resolver.Resolver()
+  resolver.nameservers = [server]
+  resolver.timeout = 1
+  resolver.lifetime = 1
+
+  try:
+    for domain in domains:
+      try:
+        resolver.resolve(domain)
+        print(f"Resolved {domain} on {server}")
+        results.append((server, domain))
+      except dns.resolver.NXDOMAIN:
+        print(f"Domain {domain} does not exist on {server}")
+      except dns.resolver.Timeout:
+        print(f"Timeout resolving domain {domain} on {server}")
+      except dns.exception.DNSException as e:
+        print(f"Error resolving domain {domain} on {server}: {e}")
+  except dns.exception.DNSException as e:
+    print(f"Error occurred while resolving domains on {server}: {e}")
+
 def test_dns_latency() -> None:
   domains_to_check = import_domains()
   results = []
-  block_size = 256
+  block_size = 512
 
   for i in range(0, len(domains_to_check), block_size):
     block_domains = domains_to_check[i:i+block_size]
@@ -93,30 +115,5 @@ def test_dns_latency() -> None:
       if latency == float('inf'):
         f.write(f"Domain resolution failed for server {server}\n")
 
-def check_latency(server: str, domains: list, results: list) -> None:
-  resolver = dns.resolver.Resolver()
-  resolver.nameservers = [server]
-  resolver.timeout = 1
-  resolver.lifetime = 1
-
-  try:
-    start_time = time.time()
-    for domain in domains:
-      resolver.resolve(domain)
-      print(f"Resolved {domain} on {server}")
-    end_time = time.time()
-    latency = end_time - start_time
-    results.append((server, latency))
-  except dns.resolver.NoAnswer:
-    results.append((server, float('inf')))
-  except dns.resolver.NXDOMAIN:
-    results.append((server, float('inf')))
-  except dns.resolver.NoNameservers:
-    results.append((server, float('inf')))
-  except dns.resolver.Timeout:
-    results.append((server, float('inf')))
-  except dns.exception.DNSException as e:
-    results.append((server, float('inf')))
-
-test_dns_latency()
-
+if __name__ == '__main__':
+  test_dns_latency()
