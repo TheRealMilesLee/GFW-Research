@@ -51,7 +51,7 @@ def test_dns_latency() -> None:
     block_domains = domains_to_check[i:i+block_size]
     threads = []
 
-    for region, servers in dns_servers.items():
+    for servers in dns_servers:
       for server in servers:
         thread = threading.Thread(target=check_latency, args=(server, block_domains, results))
         thread.start()
