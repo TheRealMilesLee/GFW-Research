@@ -340,6 +340,7 @@ cloudwaysapps.com did not resolve
 clover.network did not resolve
 cmediahub.ru did not resolve
 cmoa.jp did not resolve
+cnki.net did not resolve
 cnn.io did not resolve
 codebig2.net did not resolve
 codefi.network did not resolve
@@ -409,6 +410,7 @@ discountsurveys.com did not resolve
 disney-plus.net did not resolve
 disquscdn.com did not resolve
 dkinternal.com did not resolve
+dmdiao.com did not resolve
 dmxleo.com did not resolve
 dns-parking.com did not resolve
 dns-servers.vn did not resolve
@@ -447,6 +449,7 @@ dropboxapi.com did not resolve
 dropboxusercontent.com did not resolve
 dropz-k.com did not resolve
 dsnwdc.net did not resolve
+dssedge.com did not resolve
 dssott.com did not resolve
 dtscdn.com did not resolve
 dtvce.com did not resolve
@@ -1118,6 +1121,7 @@ samsungrs.com did not resolve
 samsungvisioncloud.com did not resolve
 sbcglobal.net did not resolve
 sbdv.ru did not resolve
+sbercloud.ru did not resolve
 sbisec.co.jp did not resolve
 sbixby.com did not resolve
 sc-cdn.net did not resolve
@@ -1158,6 +1162,7 @@ shopifycs.com did not resolve
 shopifykloud.com did not resolve
 shopifysvc.com did not resolve
 shukwai.com did not resolve
+simplyhired-staging.com did not resolve
 sinaedge.com did not resolve
 sinajs.cn did not resolve
 siteimproveanalytics.io did not resolve
@@ -1190,6 +1195,7 @@ spectraguard.net did not resolve
 splunkdev.net did not resolve
 spo-msedge.net did not resolve
 spotifycdn.com did not resolve
+spotxchange.com did not resolve
 spov-dc-msedge.net did not resolve
 spov-msedge.net did not resolve
 squarespace-cdn.com did not resolve
