@@ -1,5 +1,6 @@
 import threading
 import time
+import logging
 
 import dns.resolver
 
@@ -69,8 +70,14 @@ def test_dns_latency() -> None:
       thread.join()
 
   sorted_results = sorted(results, key=lambda x: x[1])
-  for server, latency in sorted_results:
+  top_servers = sorted_results[:10]
+  for server, latency in top_servers:
     print(f"{server}: {latency} seconds")
+
+  with open('error.log', 'w') as f:
+    for server, latency in results:
+      if latency == float('inf'):
+        f.write(f"Domain resolution failed for server {server}\n")
 
 def check_latency(server: str, domains: list, results: list) -> None:
   resolver = dns.resolver.Resolver()
@@ -82,6 +89,7 @@ def check_latency(server: str, domains: list, results: list) -> None:
     start_time = time.time()
     for domain in domains:
       resolver.resolve(domain)
+      print(f"Resolved {domain} on {server}")
     end_time = time.time()
     latency = end_time - start_time
     results.append((server, latency))
