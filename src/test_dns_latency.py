@@ -54,7 +54,7 @@ def import_domains() -> list:
 def test_dns_latency() -> None:
   domains_to_check = import_domains()
   results = []
-  block_size = 64
+  block_size = 256
 
   for i in range(0, len(domains_to_check), block_size):
     block_domains = domains_to_check[i:i+block_size]
