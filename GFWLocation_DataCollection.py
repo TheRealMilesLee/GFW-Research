@@ -124,11 +124,11 @@ def main(domains, timeout=120, max_hops=60):
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
   system = platform.system().lower()
   if system == "linux":
-    folder_path = 'ExperimentResult/CompareGroup/GFWLocation/'
+    folder_path = 'Data/AfterDomainChange/openSUSE/GFWLocation/'
   elif system == "darwin":
-    folder_path = 'ExperimentResult/Mac/GFWDeployed/'
+    folder_path = 'Data/AfterDomainChange/Mac/GFWDeployed/'
   else:
-    folder_path = "ExperimentResult/GFWLocation/"
+    folder_path = "Data/AfterDomainChange/Mechrevo/GFWLocation/"
 
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)

@@ -135,15 +135,15 @@ def save_results(results):
   filename = f'DNS_poisoning_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
   filepath = ""
   if platform.system().lower() == "linux":
-    folder_path = 'ExperimentResult/CompareGroup/DNSPoisoning'
+    folder_path = 'Data/AfterDomainChange/openSUSE/DNSPoisoning'
     os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   elif platform.system().lower() == "darwin":
-    folder_path = 'ExperimentResult/Mac/DNSPoisoning'
+    folder_path = 'Dad/AfterDomainChange/Mac/DNSPoisoning'
     os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   else:
-    filepath = f"ExperimentResult/DNSPoisoning/{filename}"
+    filepath = f"Data/AfterDomainChange/Mechrevo/DNSPoisoning/{filename}"
   with open(filepath, "w", newline="") as csvfile:
     fieldnames = [
       "timestamp",

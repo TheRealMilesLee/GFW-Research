@@ -63,11 +63,11 @@ def run_checks():
 
   # Output to the file for the domains that has problem IP or have problem on resolving IP
   if platform.system().lower() == "linux":
-    folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/openSUSE/IPBlocking'
   elif platform.system().lower() == "darwin":
-    folder_path = 'ExperimentResult/Mac/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/Mac/IPBlocking'
   else:
-    folder_path = 'ExperimentResult/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/Mechrevo/IPBlocking'
 
   os.makedirs(folder_path, exist_ok=True)
 
@@ -103,11 +103,11 @@ def run_checks():
 def save_results(results):
   filename = f'IP_blocking_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
   if platform.system().lower() == "linux":
-    folder_path = 'ExperimentResult/CompareGroup/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/openSUSE/IPBlocking'
   elif platform.system().lower() == "darwin":
-    folder_path = 'ExperimentResult/Mac/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/Mac/IPBlocking'
   else:
-    folder_path = 'ExperimentResult/IPBlocking'
+    folder_path = 'Data/AfterDomainChange/Mechrevo/IPBlocking'
 
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
