@@ -1,6 +1,7 @@
 import threading
 import time
 import logging
+import csv
 
 import dns.resolver
 
@@ -45,6 +46,13 @@ dns_servers = {
 
 sorted_dns_servers = {region: sorted(servers) for region, servers in dns_servers.items()}
 
+def get_provider(server: str) -> str:
+  for region, servers in dns_servers.items():
+    if server in servers:
+      return region
+
+  return 'Unknown'
+
 def import_domains() -> list:
   with open('domains_list.csv', 'r') as f:
     domains = f.readlines()
@@ -71,8 +79,14 @@ def test_dns_latency() -> None:
 
   sorted_results = sorted(results, key=lambda x: x[1])
   top_servers = sorted_results[:10]
-  for server, latency in top_servers:
-    print(f"{server}: {latency} seconds")
+
+  with open('fastest_dns_servers.csv', 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(['DNS Server', 'Latency (seconds)', 'Provider'])
+    for server, latency in top_servers:
+      if latency != float('inf'):
+        provider = get_provider(server)
+        writer.writerow([server, latency, provider])
 
   with open('error.log', 'w') as f:
     for server, latency in results:
