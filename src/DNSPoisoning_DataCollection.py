@@ -3,44 +3,10 @@ import os
 import platform
 import time
 from datetime import datetime
-
+from get_dns_servers import get_dns_servers
 import dns.resolver
 import concurrent.futures
 
-# DNS servers to query
-dns_servers = {
-  'china': [
-    '114.114.114.114',  # 114DNS
-    '114.114.115.115',  # 114 Alternative
-    '223.5.5.5',        # AliDNS
-    '223.6.6.6',        # AliDNS Alternative
-    '119.29.29.29',     # DNSPod
-    '180.76.76.76',     # Baidu
-    '202.96.128.86',    # China Telecom
-    '210.21.196.6',     # China Unicom
-    '218.30.118.6',     # CUCC DNS
-    '211.136.17.107',   # China Mobile
-    '117.50.11.11',     # One DNS
-  ],
-  'global': [
-    '8.8.8.8',          # Google
-    '8.8.4.4',          # Google Alternative
-    '1.1.1.1',          # Cloudflare
-    '1.0.0.1',          # Cloudflare Alternative
-    '9.9.9.9',          # Quad9
-    '149.112.112.112',  # Quad9 Alternative
-    '208.67.222.222',   # OpenDNS
-    '208.67.220.220',   # OpenDNS Alternative
-    '8.26.56.26',       # Comodo Secure DNS
-    '8.20.247.20',      # Comodo Secure DNS Alternative
-    '199.85.126.10',    # Norton ConnectSafe DNS
-    '199.85.127.10',    # Norton ConnectSafe DNS Alternative
-    '77.88.8.8',        # Yandex DNS
-    '77.88.8.1',        # Yandex DNS Alternative
-    '94.140.14.14',     # AdGuard DNS
-    '94.140.15.15',     # AdGuard DNS Alternative
-  ]
-}
 
 def query_dns(domain, dns_server):
   try:
@@ -76,6 +42,7 @@ def query_dns(domain, dns_server):
     }
 
 def check_poisoning():
+  dns_servers = get_dns_servers()
   # read domains from file
   file_path = os.path.join(os.path.dirname(__file__), 'domains_list.csv')
   results = []

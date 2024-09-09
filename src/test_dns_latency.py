@@ -1,57 +1,17 @@
 import csv
-import logging
 import threading
-import time
 
 import dns.resolver
 
-# DNS servers to query
-dns_servers = {
-  'china': [
-    '114.114.114.114',  # 114DNS
-    '114.114.115.115',  # 114 Alternative
-    '223.5.5.5',        # AliDNS
-    '223.6.6.6',        # AliDNS Alternative
-    '119.29.29.29',     # DNSPod
-    '180.76.76.76',     # Baidu
-    '202.96.128.86',    # China Telecom
-    '210.21.196.6',     # China Unicom
-    '218.30.118.6',     # CUCC DNS
-    '211.136.17.107',   # China Mobile
-    '117.50.11.11',     # One DNS
-    '123.125.81.6',     # Baidu DNS
-    '101.226.4.6',      # Tencent DNS
-    '123.125.81.7',     # Baidu DNS Alternative
-    '101.226.4.7',      # Tencent DNS Alternative
-  ],
-  'global': [
-    '8.8.8.8',          # Google
-    '8.8.4.4',          # Google Alternative
-    '1.1.1.1',          # Cloudflare
-    '1.0.0.1',          # Cloudflare Alternative
-    '9.9.9.9',          # Quad9
-    '149.112.112.112',  # Quad9 Alternative
-    '208.67.222.222',   # OpenDNS
-    '208.67.220.220',   # OpenDNS Alternative
-    '8.26.56.26',       # Comodo Secure DNS
-    '8.20.247.20',      # Comodo Secure DNS Alternative
-    '199.85.126.10',    # Norton ConnectSafe DNS
-    '199.85.127.10',    # Norton ConnectSafe DNS Alternative
-    '77.88.8.8',        # Yandex DNS
-    '77.88.8.1',        # Yandex DNS Alternative
-    '94.140.14.14',     # AdGuard DNS
-    '94.140.15.15',     # AdGuard DNS Alternative
-  ]
-}
+from get_dns_servers import get_dns_servers, get_dns_servers_and_providers
 
-sorted_dns_servers = {region: sorted(servers) for region, servers in dns_servers.items()}
 
-def get_provider(server: str) -> str:
-  for region, servers in sorted_dns_servers.items():
-    if server in servers:
-      return region
-
-  return 'Unknown'
+def get_DNS_provider(server: str) -> str:
+  dns_servers_and_providers = get_dns_servers_and_providers()
+  for region, servers in dns_servers_and_providers.items():
+    for server, provider in servers.items():
+      if server == server:
+        return provider
 
 def import_domains() -> list:
   with open('domains_list.csv', 'r') as f:
@@ -82,6 +42,7 @@ def check_latency(server: str, domains: list, results: list) -> None:
     print(f"Error occurred while resolving domains on {server}: {e}")
 
 def test_dns_latency() -> None:
+  dns_servers = get_dns_servers()
   domains_to_check = import_domains()
   results = []
   block_size = 16
@@ -107,7 +68,7 @@ def test_dns_latency() -> None:
     writer.writerow(['DNS Server', 'Latency (seconds)', 'Provider'])
     for server, latency in top_servers:
       if latency != float('inf'):
-        provider = get_provider(server)
+        provider = get_DNS_provider(server)
         writer.writerow([server, latency, provider])
 
   with open('error.log', 'w') as f:
