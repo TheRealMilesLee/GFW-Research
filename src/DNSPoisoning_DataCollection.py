@@ -3,23 +3,9 @@ import os
 import platform
 import time
 from datetime import datetime
-from get_dns_servers import get_dns_servers, get_dns_servers_and_providers
+from get_dns_servers import get_dns_servers
 import dns.resolver
 import concurrent.futures
-
-def get_DNS_provider(server: str) -> str:
-  dns_servers_and_providers = get_dns_servers_and_providers()
-  for region, servers in dns_servers_and_providers.items():
-    for server, provider in servers.items():
-      if server == server:
-        return provider
-
-def get_DNS_region(server: str) -> str:
-  dns_servers_and_providers = get_dns_servers_and_providers()
-  for region, servers in dns_servers_and_providers.items():
-    for server, provider in servers.items():
-      if server == server:
-        return region
 
 def query_dns(domain, dns_server):
   try:
