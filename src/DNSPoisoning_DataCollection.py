@@ -3,7 +3,7 @@ import os
 import platform
 import time
 from datetime import datetime
-from get_dns_servers import get_dns_servers
+from get_dns_servers import get_dns_servers, get_dns_servers_and_providers
 import dns.resolver
 import concurrent.futures
 
@@ -56,14 +56,13 @@ def check_poisoning():
         domains.append(row[0].strip())
 
       # Submit the query_dns function for each domain and DNS server combination
-      futures = [executor.submit(query_dns, domain, dns_server) for domain in domains for dns_server in dns_servers['china'] + dns_servers['global']]
+      futures = [executor.submit(query_dns, domain, dns_server) for domain in domains for dns_server in dns_servers]
 
       # Collect the results as they become available
       for future in concurrent.futures.as_completed(futures):
         dns_results = future.result()
         domain = dns_results['domain']
         dns_server = dns_results['dns_server']
-        is_china_dns = dns_server in dns_servers['china']
         is_poisoned_ipv4 = set(dns_results['ipv4']) != set(dns_results['ipv4'])
         is_poisoned_ipv6 = set(dns_results['ipv6']) != set(dns_results['ipv6'])
         is_poisoned = is_poisoned_ipv4 or is_poisoned_ipv6
@@ -73,12 +72,8 @@ def check_poisoning():
 
         # If the result exists, update it with the new data
         if existing_result:
-          if is_china_dns:
-            existing_result['china_result_ipv4'].extend(dns_results['ipv4'])
-            existing_result['china_result_ipv6'].extend(dns_results['ipv6'])
-          else:
-            existing_result['global_result_ipv4'].extend(dns_results['ipv4'])
-            existing_result['global_result_ipv6'].extend(dns_results['ipv6'])
+          existing_result['china_result_ipv4'].extend(dns_results['ipv4'])
+          existing_result['china_result_ipv6'].extend(dns_results['ipv6'])
           existing_result['is_poisoned_ipv4'] = existing_result['is_poisoned_ipv4'] or is_poisoned_ipv4
           existing_result['is_poisoned_ipv6'] = existing_result['is_poisoned_ipv6'] or is_poisoned_ipv6
           existing_result['is_poisoned'] = existing_result['is_poisoned'] or is_poisoned
@@ -87,10 +82,8 @@ def check_poisoning():
           results.append({
             'timestamp': timestamp,
             'domain': domain,
-            'china_result_ipv4': dns_results['ipv4'] if is_china_dns else [],
-            'china_result_ipv6': dns_results['ipv6'] if is_china_dns else [],
-            'global_result_ipv4': dns_results['ipv4'] if not is_china_dns else [],
-            'global_result_ipv6': dns_results['ipv6'] if not is_china_dns else [],
+            'china_result_ipv4': dns_results['ipv4'],
+            'china_result_ipv6': dns_results['ipv6'],
             'is_poisoned': is_poisoned,
             'is_poisoned_ipv4': is_poisoned_ipv4,
             'is_poisoned_ipv6': is_poisoned_ipv6
@@ -106,7 +99,7 @@ def save_results(results):
     os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   elif platform.system().lower() == "darwin":
-    folder_path = 'Dad/AfterDomainChange/Mac/DNSPoisoning'
+    folder_path = 'Data/AfterDomainChange/Mac/DNSPoisoning'
     os.makedirs(folder_path, exist_ok=True)
     filepath = f"{folder_path}/{filename}"
   else:
