@@ -1,7 +1,7 @@
+import csv
+import logging
 import threading
 import time
-import logging
-import csv
 
 import dns.resolver
 
@@ -47,7 +47,7 @@ dns_servers = {
 sorted_dns_servers = {region: sorted(servers) for region, servers in dns_servers.items()}
 
 def get_provider(server: str) -> str:
-  for region, servers in dns_servers.items():
+  for region, servers in sorted_dns_servers.items():
     if server in servers:
       return region
 
@@ -84,7 +84,7 @@ def check_latency(server: str, domains: list, results: list) -> None:
 def test_dns_latency() -> None:
   domains_to_check = import_domains()
   results = []
-  block_size = 512
+  block_size = 16
 
   for i in range(0, len(domains_to_check), block_size):
     block_domains = domains_to_check[i:i+block_size]
