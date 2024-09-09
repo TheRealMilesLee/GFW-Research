@@ -20,7 +20,7 @@ def update_domains_list(domains_file):
     if check_domain_existence(domain):
       valid_domains.append(line)
 
-  with open(domains_file, 'w') as f:
+  with open('fixed_domains_list.csv', 'w') as f:
     f.writelines(valid_domains)
 
 
