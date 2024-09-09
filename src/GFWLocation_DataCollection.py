@@ -1,6 +1,16 @@
-import concurrent.futures, os, platform, re, subprocess, time, socket, requests, geoip2.database, os
-from urllib.request import urlretrieve
+import concurrent.futures
+import os
+import platform
+import re
+import socket
+import subprocess
+import time
 from datetime import datetime
+from urllib.request import urlretrieve
+
+import geoip2.database
+import requests
+
 # Constants
 GEOIP_DB_URL = "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb"
 GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), "GeoLite2-City.mmdb")
