@@ -7,7 +7,6 @@
 import concurrent.futures
 import csv
 import os
-import platform
 import time
 from datetime import datetime, timedelta
 
