@@ -1,3 +1,9 @@
+"""
+@brief This file is to check the DNS poisoning of a list of domains on multiple DNS servers.
+@author: Hengyi Li
+@date: 2024-09-12
+@Copyright: Hengyi Li @2024 All Rights Reserved.
+"""
 import concurrent.futures
 import csv
 import os
