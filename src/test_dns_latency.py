@@ -3,7 +3,7 @@ import threading
 
 import dns.resolver
 
-from get_dns_servers import get_dns_servers, get_dns_servers_and_providers
+from Helper.get_dns_servers import get_dns_servers, get_dns_servers_and_providers
 
 
 def get_DNS_provider(server: str) -> str:

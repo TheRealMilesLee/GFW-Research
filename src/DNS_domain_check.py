@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 
 import dns.resolver
 
-from get_dns_servers import get_dns_servers
+from Helper.get_dns_servers import get_dns_servers
 
 
 def check_poisoning() -> None:
