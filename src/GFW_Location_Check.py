@@ -1,4 +1,7 @@
-###### TODO: Please refactor the code to make it more readable and maintainable.#################
+'''
+# TODO: Please refactor the code, a lot of IP is missing and please fix it
+'''
+
 import concurrent.futures
 import os
 import platform
