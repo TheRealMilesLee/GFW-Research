@@ -190,12 +190,14 @@ def ip_accessable_check(results: dict) -> list:
   print(f"IP blocking check completed at {datetime.now()}")
   return ip_check_results
 
-def check_ip(ip: str, port: str) -> bool:
+def check_ip(ip: str, port: int) -> bool:
   """
   @brief: Check if a connection can be established to the specified IP address and port.
 
   @param ip: The IP address to connect to.
   @param port: The port number to connect to.
+  @type ip: str
+  @type port: int
   @return: True if the connection is successful, False otherwise.
   """
   try:
