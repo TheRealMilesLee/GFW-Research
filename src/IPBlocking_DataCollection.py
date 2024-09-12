@@ -3,10 +3,14 @@ import os
 import platform
 import socket
 import time
-from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta
 
 import dns.resolver
+
+# Timeout for connection attempts (in seconds) Current set to 120 seconds for slow connections networks or multi-hop connections
+TIMEOUT = 120
+
 
 def get_ips_from_domains(domains):
   ip_dict = {}
@@ -31,8 +35,6 @@ def get_ips_from_domains(domains):
       print(f"Error resolving {domain}: {e}")
   return ip_dict
 
-# Timeout for connection attempts (in seconds)
-TIMEOUT = 5
 
 def check_ip(ip, port):
   try:
@@ -125,13 +127,12 @@ def save_results(results):
     for row in unique_results:
       writer.writerow(row)
 
-def main():
-  while True:
+if __name__ == "__main__":
+  start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+  end_time = start_time + timedelta(days=7)
+
+  while datetime.now() < end_time:
     results = run_checks()
     save_results(results)
     print(f"IP blocking check completed at {datetime.now()}")
-    del results  # Delete the results variable to free up memory
     time.sleep(3600)  # Wait for 1 hour before next check
-
-if __name__ == "__main__":
-  main()
