@@ -1,0 +1,9 @@
+# For mapping the location of the IP address
+geoip2
+
+# For the web service
+requests
+dnspython
+
+
+
