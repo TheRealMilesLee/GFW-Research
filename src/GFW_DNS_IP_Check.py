@@ -134,7 +134,7 @@ def save_results(results: dict) -> None:
   # File formate as DNS_Checking_Result_YYYY_MM_DD_HH_MM.csv
   filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d_%H_%M")}.csv'
 
-  # Create a folder to store the results
+  # Create a folder to store the results, modify the path to switch to another carrier provider
   folder_path = '../Data/AfterDomainChange/China-Mobile/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
@@ -218,7 +218,7 @@ def save_ip_check_results(ip_check_results: list) -> None:
   @return: None
   """
   filename = f'IP_Checking_Reslt_{datetime.now().strftime("%Y_%m_%d_%H_%M")}.csv'
-
+  # Create a folder to store the results, modify the path to switch to another carrier provider
   folder_path = '../Data/AfterDomainChange/China-Mobile/IPBlocking'
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
