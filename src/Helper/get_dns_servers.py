@@ -1,7 +1,14 @@
 import csv
 
 def get_dns_servers() -> list:
-    csv_file = 'dns_servers.csv'
+    """
+    @brief Retrieves a list of DNS servers from a CSV file.
+
+    @return A list of DNS servers.
+
+    @details This function reads a CSV file containing DNS server information and returns a list of DNS servers.
+    """
+    csv_file = '../db/dns_servers.csv'
     dns_servers = []
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
@@ -11,7 +18,13 @@ def get_dns_servers() -> list:
     return dns_servers
 
 def get_dns_servers_and_providers() -> dict:
-    csv_file = 'dns_servers.csv'
+    """
+    @brief: Retrieves a dictionary of DNS servers and their providers.
+
+    @return:
+        dict: A dictionary containing DNS servers and their providers, grouped by region.
+    """
+    csv_file = '../db/dns_servers.csv'
     dns_servers = {}
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
