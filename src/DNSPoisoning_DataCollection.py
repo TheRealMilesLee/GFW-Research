@@ -1,17 +1,11 @@
-import csv
-import os
-import platform
-import time
+import csv, os, platform, time, dns.resolver, concurrent.futures
 from datetime import datetime
 from get_dns_servers import get_dns_servers
-import dns.resolver
-import concurrent.futures
 
-def query_dns(domain, dns_server):
+def query_dns(domain: str, dns_server: list) -> dict:
   try:
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
-
     ipv4_answers = []
     ipv6_answers = []
 
