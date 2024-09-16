@@ -35,3 +35,4 @@ def get_dns_servers_and_providers() -> dict:
                 dns_servers[region] = {}
             dns_servers[region][dns_server] = provider
     return dns_servers
+
