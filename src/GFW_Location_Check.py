@@ -3,7 +3,7 @@ import os
 import re
 import socket
 import subprocess
-from datetime import datetime
+from datetime import datetime, time, timedelta
 from urllib.request import urlretrieve
 
 import geoip2.database
@@ -233,6 +233,12 @@ def save_to_file(results: dict) -> None:
       f.write(f"{result}\n")
 
 if __name__ == "__main__":
-  download_geoip_database()
-  results = process_domain()
-  save_to_file(results)
+  start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+  end_time = start_time + timedelta(days=7)
+
+  while datetime.now() < end_time:
+    download_geoip_database()
+    results = process_domain()
+    save_to_file(results)
+    print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    time.sleep(3600)  # Wait for 1 hour before next check
