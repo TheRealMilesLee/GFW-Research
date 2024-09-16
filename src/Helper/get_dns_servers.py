@@ -1,5 +1,6 @@
 import csv
 
+CSV_FILE = '$HOME/Developer/SourceRepo/GFW-Research/src/db/dns_servers.csv'
 def get_dns_servers() -> list:
     """
     @brief Retrieves a list of DNS servers from a CSV file.
@@ -8,7 +9,7 @@ def get_dns_servers() -> list:
 
     @details This function reads a CSV file containing DNS server information and returns a list of DNS servers.
     """
-    csv_file = '../db/dns_servers.csv'
+    csv_file = CSV_FILE
     dns_servers = []
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
@@ -24,7 +25,7 @@ def get_dns_servers_and_providers() -> dict:
     @return:
         dict: A dictionary containing DNS servers and their providers, grouped by region.
     """
-    csv_file = '../db/dns_servers.csv'
+    csv_file = CSV_FILE
     dns_servers = {}
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
