@@ -172,48 +172,59 @@ def ip_lookup(ips: dict) -> dict:
 
   return result
 
-def process_domain() -> str:
+def process_domain() -> list:
   """
-  @brief Processes a list of domains to check for IPv6 support and perform traceroute.
+  @brief Processes a list of domains to check for IPv6 support and perform traceroute concurrently.
 
-  This function retrieves a list of domains, checks each domain for IPv6 support,
-  performs a traceroute using either IPv6 or IPv4, parses the traceroute output
-  to extract IP addresses, and checks if the destination IP is reached. If the
-  destination IP is not reached, it performs an IP lookup to determine the location
-  of the IP addresses found in the traceroute.
+  This function retrieves a list of domains, splits them into chunks of 128, and processes each chunk
+  concurrently using multiple threads. It checks each domain for IPv6 support, performs a traceroute
+  using either IPv6 or IPv4, parses the traceroute output to extract IP addresses, and checks if the
+  destination IP is reached. If the destination IP is not reached, it performs an IP lookup to determine
+  the location of the IP addresses found in the traceroute.
 
-  @return A string indicating the result of the domain processing. If the destination
-  IP is reached, it returns a message indicating no GFW detected. If the domain cannot
-  be resolved, it returns an error message. If no IP addresses are found in the traceroute,
-  it prints a message and continues to the next domain.
+  @return A list of dictionaries indicating the result of the domain processing. Each dictionary contains
+  the domain, IP addresses found, and their geographical location.
   """
+  def process_chunk(domains_chunk):
+    chunk_results = []
+    for domain in domains_chunk:
+      result = check_domain_ipv6_support(domain)
+      if result:
+        traceroute_output = traceroute(domain, use_ipv6=True)
+      else:
+        traceroute_output = traceroute(domain, use_ipv6=False)
+      ips = parse_traceroute(traceroute_output)
+      if not ips:
+        print(f"{domain}: No IP addresses found in traceroute")
+        continue
+      else:
+        try:
+          destination_ip = socket.gethostbyname(domain)
+        except socket.gaierror:
+          chunk_results.append({"domain": domain, "error": "Unable to resolve domain"})
+          continue
+        if destination_ip in ips["ipv4"] or destination_ip in ips["ipv6"]:
+          chunk_results.append({"domain": domain, "result": f"No GFW detected (Reached destination {destination_ip})"})
+        else:
+          location = ip_lookup(ips)
+          chunk_results.append({
+            "domain": domain,
+            "ips": ips,
+            "location": location
+          })
+    return chunk_results
+
   domains = get_domains_list()
+  chunk_size = 128
+  chunks = [domains[i:i + chunk_size] for i in range(0, len(domains), chunk_size)]
   traceroute_results = []
-  for domain in domains:
-    result = check_domain_ipv6_support(domain)
-    if result:
-      traceroute_output = traceroute(domain, use_ipv6=True)
-    else:
-      traceroute_output = traceroute(domain, use_ipv6=False)
-    ips = parse_traceroute(traceroute_output)
-    if not ips:
-      print( f"{domain}: No IP addresses found in traceroute")
-      continue
-    else:
-      try:
-        destination_ip = socket.gethostbyname(domain)
-      except socket.gaierror:
-        return f"{domain}: Unable to resolve domain"
-      if destination_ip in ips:
-        return f"{domain}: No GFW detected (Reached destination {destination_ip})"
-      location = ip_lookup(ips)
-      construct_result = {
-        "domain": domain,
-        "ips": ips,
-        "location": location
-      }
-      traceroute_results.append(construct_result)
-  return construct_result
+
+  with concurrent.futures.ThreadPoolExecutor() as executor:
+    futures = [executor.submit(process_chunk, chunk) for chunk in chunks]
+    for future in concurrent.futures.as_completed(futures):
+      traceroute_results.extend(future.result())
+
+  return traceroute_results
 
 def save_to_file(results: dict) -> None:
   """
