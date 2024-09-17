@@ -43,7 +43,7 @@ def download_geoip_database() -> None:
     urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
 
 
-def traceroute(domain: str, use_ipv6: bool = False) -> str:
+def traceroute(domain: str, use_ipv6: bool) -> str:
   """
   @brief Executes a TCP traceroute to the specified domain.
 
@@ -56,7 +56,7 @@ def traceroute(domain: str, use_ipv6: bool = False) -> str:
 
   @exception subprocess.CalledProcessError If the `tcptraceroute` command fails.
   """
-  command = ["traceroute6", domain] if use_ipv6 else ["traceroute", "-I", domain]
+  command = ["traceroute6", domain] if use_ipv6 else ["traceroute", "-I", "-n", domain]
   try:
     output = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True)
     lines = output.split('\n')
@@ -189,10 +189,11 @@ def process_domain() -> list:
     chunk_results = []
     for domain in domains_chunk:
       result = check_domain_ipv6_support(domain)
+      checkDomain = f"www.{domain}"
       if result:
-        traceroute_output = traceroute(domain, use_ipv6=True)
+        traceroute_output = traceroute(checkDomain, use_ipv6=True)
       else:
-        traceroute_output = traceroute(domain, use_ipv6=False)
+        traceroute_output = traceroute(checkDomain, use_ipv6=False)
       ips = parse_traceroute(traceroute_output)
       if not ips:
         print(f"{domain}: No IP addresses found in traceroute")
