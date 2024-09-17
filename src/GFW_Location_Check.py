@@ -1,10 +1,10 @@
+import concurrent.futures
 import csv
 import os
 import re
 import shutil
 import socket
 import subprocess
-import concurrent.futures
 from datetime import datetime, time, timedelta
 from urllib.request import urlretrieve
 
@@ -62,35 +62,49 @@ def check_domain_exists(domain: str) -> bool:
     return False
 
 def traceroute(domain: str, use_ipv6: bool = False) -> list:
-    """
-    Executes a traceroute to the specified domain.
+  """
+  Executes a traceroute to the specified domain.
 
-    @param domain The domain to trace the route to.
-    @param use_ipv6 Whether to use IPv6 for the traceroute.
-    @return A list of IP addresses in the route.
-    @exception subprocess.CalledProcessError If the traceroute command fails.
-    """
-    if use_ipv6:
-        if shutil.which('traceroute6'):
-            command = ['traceroute6', domain]
-        else:
-            command = ['traceroute', '-6', domain]
+  @param domain The domain to trace the route to.
+  @param use_ipv6 Whether to use IPv6 for the traceroute.
+  @return A list of IP addresses in the route.
+  @exception subprocess.CalledProcessError If the traceroute command fails.
+  """
+  if use_ipv6:
+    if shutil.which('traceroute6'):
+      command = ['traceroute6', domain]
     else:
-        command = ['traceroute', domain]
+      return []  # 如果traceroute6不可用，则返回空列表
+  else:
+    command = ['traceroute', domain]
 
-    try:
-        output = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True, timeout=300)
-        lines = output.split('\n')
-        ip_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})' if use_ipv6 else r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
-        ip_addresses = [re.findall(ip_pattern, line) for line in lines]
-        ip_addresses = [item for sublist in ip_addresses for item in sublist]  # Flatten the list
-        return ip_addresses
-    except subprocess.CalledProcessError as e:
-        print(f"Error running traceroute for {domain}: {e}")
-        return []
-    except subprocess.TimeoutExpired:
-        print(f"Traceroute command timed out for {domain}")
-        return []
+  try:
+    output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300)
+    lines = output.split('\n')
+    ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+    ipv6_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})'
+    ips = {
+        "ipv4": [],
+        "ipv6": []
+    }
+    for line in lines:
+      found_ipv4 = re.findall(ipv4_pattern, line)
+      found_ipv6 = re.findall(ipv6_pattern, line)
+      if found_ipv4:
+        ips["ipv4"].extend(found_ipv4)
+      if found_ipv6 and use_ipv6:  # 如果use_ipv6为True，则检测ipv6
+        ips["ipv6"].extend(found_ipv6)
+    if use_ipv6 and not ips["ipv4"]:
+      # If traceroute6 has results but no IPv4 addresses found, perform traceroute with IPv4
+      ipv4_ips = traceroute(domain, use_ipv6=False)
+      ips["ipv4"].extend(ipv4_ips["ipv4"])
+    return ips
+  except subprocess.CalledProcessError as e:
+    print(f"Error running traceroute for {domain}: {e}")
+    return []
+  except subprocess.TimeoutExpired:
+    print(f"Traceroute command timed out for {domain}")
+    return []
 
 def check_domain_ipv6_support(domain: str) -> bool:
   """
@@ -113,34 +127,6 @@ def check_domain_ipv6_support(domain: str) -> bool:
       return True
   except socket.gaierror:
     return False
-
-def parse_traceroute(traceroute_result: str) -> dict:
-  """
-  @brief Parses the result of a traceroute command to extract IP addresses.
-
-  This function takes the output of a traceroute command as a string,
-  splits it into lines, and uses regular expressions to find both IPv4
-  and IPv6 addresses in each line. It returns a dictionary with lists
-  of found IPv4 and IPv6 addresses.
-
-  @param traceroute_result The string output of a traceroute command.
-  @return A dictionary with lists of IPv4 and IPv6 addresses found in the traceroute result.
-  """
-  lines = traceroute_result.split('\n')
-  ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
-  ipv6_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})'
-  ips = {
-    "ipv4": [],
-    "ipv6": []
-  }
-  for line in lines:
-    found_ipv4 = re.findall(ipv4_pattern, line)
-    found_ipv6 = re.findall(ipv6_pattern, line)
-    if found_ipv4:
-      ips["ipv4"].extend(found_ipv4)
-    if found_ipv6:
-      ips["ipv6"].extend(found_ipv6)
-  return ips
 
 def lookup_ip(ip: str) -> str:
   """
@@ -207,7 +193,7 @@ def process_chunk(domains_chunk):
         traceroute_output = traceroute(domain, use_ipv6=True)
       else:
         traceroute_output = traceroute(domain, use_ipv6=False)
-      ips = parse_traceroute(traceroute_output)
+      ips = traceroute_output
       if not ips:
         print(f"{domain}: No IP addresses found in traceroute")
         continue
