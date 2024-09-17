@@ -5,7 +5,8 @@ import re
 import shutil
 import socket
 import subprocess
-from datetime import datetime, time, timedelta
+from datetime import datetime, timedelta
+import time
 from urllib.request import urlretrieve
 
 import geoip2.database
