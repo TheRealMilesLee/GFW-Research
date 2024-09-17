@@ -252,8 +252,8 @@ def save_to_file(results: dict) -> None:
 
   @return None
   """
-  filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
-  folder_path = "Data/AfterDomainChange/China-Mobile/GFWLocation/"
+  filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+  folder_path = "../Data/AfterDomainChange/China-Mobile/GFWLocation/"
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
   with open(filepath, "w") as f:
