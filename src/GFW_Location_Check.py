@@ -56,7 +56,7 @@ def traceroute(domain: str, use_ipv6: bool) -> str:
 
   @exception subprocess.CalledProcessError If the `tcptraceroute` command fails.
   """
-  command = ["traceroute6", domain] if use_ipv6 else ["traceroute", "-I", "-n", domain]
+  command = ["traceroute6", domain] if use_ipv6 else ["traceroute", "-I", domain]
   try:
     output = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True)
     lines = output.split('\n')
