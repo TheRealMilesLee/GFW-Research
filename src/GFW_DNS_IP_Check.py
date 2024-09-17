@@ -164,19 +164,12 @@ def ip_accessable_check(results: dict) -> list:
   @return: A list of dictionaries containing the results of IP accessibility checks.
   """
   timestamp = datetime.now().isoformat()
-  # Strip the results to get the IP addresses
-  ip_dict = {}
-  for result in results:
-    domain = result['domain']
-    ip_dict[domain] = {
-      'ipv4': result['result_ipv4'],
-      'ipv6': result['result_ipv6']
-    }
   ip_check_results = []
-  with concurrent.futures.ThreadPoolExecutor() as executor:
-    for domain, ips in ip_dict.items():
+  with concurrent.futures.ThreadPoolExecutor(max_workers=128) as executor:
+    for result in results:
+      domain = result['domain']
       for ip_type in ['ipv4', 'ipv6']:
-        for ip in ips[ip_type]:
+        for ip in result[f'result_{ip_type}']:
           ports_to_check = ['80', '443']
           print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
           futures = [executor.submit(check_ip, ip, int(port)) for port in ports_to_check]
