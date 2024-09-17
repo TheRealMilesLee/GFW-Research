@@ -196,11 +196,10 @@ def process_chunk(domains_chunk):
     exist = check_domain_exists(domain)
     if exist == True:
       result = check_domain_ipv6_support(domain)
-      checkDomain = f"www.{domain}"
       if result:
-        traceroute_output = traceroute(checkDomain, use_ipv6=True)
+        traceroute_output = traceroute(domain, use_ipv6=True)
       else:
-        traceroute_output = traceroute(checkDomain, use_ipv6=False)
+        traceroute_output = traceroute(domain, use_ipv6=False)
       ips = parse_traceroute(traceroute_output)
       if not ips:
         print(f"{domain}: No IP addresses found in traceroute")
