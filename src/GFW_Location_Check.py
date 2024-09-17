@@ -1,6 +1,7 @@
 import csv
 import os
 import re
+import shutil
 import socket
 import subprocess
 import concurrent.futures
@@ -60,30 +61,36 @@ def check_domain_exists(domain: str) -> bool:
   except socket.gaierror:
     return False
 
+def traceroute(domain: str, use_ipv6: bool = False) -> list:
+    """
+    Executes a traceroute to the specified domain.
 
-def traceroute(domain: str, use_ipv6: bool) -> str:
-  """
-  @brief Executes a TCP traceroute to the specified domain.
+    @param domain The domain to trace the route to.
+    @param use_ipv6 Whether to use IPv6 for the traceroute.
+    @return A list of IP addresses in the route.
+    @exception subprocess.CalledProcessError If the traceroute command fails.
+    """
+    if use_ipv6:
+        if shutil.which('traceroute6'):
+            command = ['traceroute6', domain]
+        else:
+            command = ['traceroute', '-6', domain]
+    else:
+        command = ['traceroute', domain]
 
-  This function runs the `tcptraceroute` command to trace the route to the given domain.
-  It captures and returns the output of the command.
-
-  @param domain The domain to trace the route to.
-  @param use_ipv6 Whether to use IPv6 for the traceroute.
-  @return The output of the `tcptraceroute` command as a string.
-
-  @exception subprocess.CalledProcessError If the `tcptraceroute` command fails.
-  """
-  command = ["traceroute6", domain] if use_ipv6 else ["traceroute", domain]
-  try:
-    output = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True)
-    lines = output.split('\n')
-    ip_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})' if use_ipv6 else r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
-    ip_addresses = [re.findall(ip_pattern, line) for line in lines]
-    ip_addresses = [item for sublist in ip_addresses for item in sublist]  # Flatten the list
-    return ip_addresses[-1] if ip_addresses else None
-  except subprocess.CalledProcessError as e:
-    print(f"Error running {'traceroute6' if use_ipv6 else 'tcptraceroute'} for {domain}: {e}")
+    try:
+        output = subprocess.check_output(command, stderr=subprocess.STDOUT, text=True, timeout=300)
+        lines = output.split('\n')
+        ip_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})' if use_ipv6 else r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+        ip_addresses = [re.findall(ip_pattern, line) for line in lines]
+        ip_addresses = [item for sublist in ip_addresses for item in sublist]  # Flatten the list
+        return ip_addresses
+    except subprocess.CalledProcessError as e:
+        print(f"Error running traceroute for {domain}: {e}")
+        return []
+    except subprocess.TimeoutExpired:
+        print(f"Traceroute command timed out for {domain}")
+        return []
 
 def check_domain_ipv6_support(domain: str) -> bool:
   """
