@@ -43,6 +43,24 @@ def download_geoip_database() -> None:
     urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
 
 
+def check_domain_exists(domain: str) -> bool:
+  """
+  @brief Checks if the specified domain exists.
+
+  This function checks if the specified domain exists by attempting to resolve
+  the domain to an IP address. If the domain resolves to an IP address, the
+  function returns True; otherwise, it returns False.
+
+  @param domain The domain to check for existence.
+  @return True if the domain exists, False otherwise.
+  """
+  try:
+    ip_address = socket.gethostbyname(domain)
+    return True
+  except socket.gaierror:
+    return False
+
+
 def traceroute(domain: str, use_ipv6: bool) -> str:
   """
   @brief Executes a TCP traceroute to the specified domain.
@@ -172,22 +190,11 @@ def ip_lookup(ips: dict) -> dict:
 
   return result
 
-def process_domain() -> list:
-  """
-  @brief Processes a list of domains to check for IPv6 support and perform traceroute concurrently.
-
-  This function retrieves a list of domains, splits them into chunks of 128, and processes each chunk
-  concurrently using multiple threads. It checks each domain for IPv6 support, performs a traceroute
-  using either IPv6 or IPv4, parses the traceroute output to extract IP addresses, and checks if the
-  destination IP is reached. If the destination IP is not reached, it performs an IP lookup to determine
-  the location of the IP addresses found in the traceroute.
-
-  @return A list of dictionaries indicating the result of the domain processing. Each dictionary contains
-  the domain, IP addresses found, and their geographical location.
-  """
-  def process_chunk(domains_chunk):
-    chunk_results = []
-    for domain in domains_chunk:
+def process_chunk(domains_chunk):
+  chunk_results = []
+  for domain in domains_chunk:
+    exist = check_domain_exists(domain)
+    if exist == True:
       result = check_domain_ipv6_support(domain)
       checkDomain = f"www.{domain}"
       if result:
@@ -213,7 +220,23 @@ def process_domain() -> list:
             "ips": ips,
             "location": location
           })
-    return chunk_results
+    else:
+      chunk_results.append({"domain": domain, "error": "Domain does not exist"})
+  return chunk_results
+
+def process_domain() -> list:
+  """
+  @brief Processes a list of domains to check for IPv6 support and perform traceroute concurrently.
+
+  This function retrieves a list of domains, splits them into chunks of 128, and processes each chunk
+  concurrently using multiple threads. It checks each domain for IPv6 support, performs a traceroute
+  using either IPv6 or IPv4, parses the traceroute output to extract IP addresses, and checks if the
+  destination IP is reached. If the destination IP is not reached, it performs an IP lookup to determine
+  the location of the IP addresses found in the traceroute.
+
+  @return A list of dictionaries indicating the result of the domain processing. Each dictionary contains
+  the domain, IP addresses found, and their geographical location.
+  """
 
   domains = get_domains_list()
   chunk_size = 128
@@ -224,7 +247,6 @@ def process_domain() -> list:
     futures = [executor.submit(process_chunk, chunk) for chunk in chunks]
     for future in concurrent.futures.as_completed(futures):
       traceroute_results.extend(future.result())
-
   return traceroute_results
 
 def save_to_file(results: dict) -> None:
@@ -248,9 +270,9 @@ def save_to_file(results: dict) -> None:
 if __name__ == "__main__":
   start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
   end_time = start_time + timedelta(days=7)
+  download_geoip_database()
 
   while datetime.now() < end_time:
-    download_geoip_database()
     results = process_domain()
     save_to_file(results)
     print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
