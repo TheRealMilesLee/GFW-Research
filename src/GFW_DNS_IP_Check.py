@@ -15,7 +15,7 @@ import dns.resolver
 
 from Helper.get_dns_servers import get_dns_servers
 
-# Timeout for connection attempts (in seconds) Current set to 120 seconds for slow connections networks or multi-hop connections
+# Timeout for connection attempts (in seconds) Current set to 240 seconds for slow connections networks or multi-hop connections
 TIMEOUT = 120
 
 def check_poisoning() -> None:
@@ -48,8 +48,9 @@ def check_poisoning() -> None:
     # Query each domain on each DNS server
     futures = []
     for domain in domains:
-      future = executor.submit(query_dns, domain, dns_servers)
-      futures.append(future)
+      for dns_server in dns_servers:
+        future = executor.submit(query_dns, domain, dns_server)
+        futures.append(future)
 
       # Collect the results as they become available
       for future in concurrent.futures.as_completed(futures):
@@ -66,8 +67,7 @@ def check_poisoning() -> None:
           'result_ipv6': dns_results['ipv6'],
         })
   return results
-
-def query_dns(domain: str, dns_servers: list) -> dict:
+def query_dns(domain: str, dns_server: str) -> dict:
   """
   @brief Query DNS for A and AAAA records of a domain using specified DNS servers.
 
@@ -87,7 +87,9 @@ def query_dns(domain: str, dns_servers: list) -> dict:
   """
   try:
     resolver = dns.resolver.Resolver()
-    resolver.nameservers = dns_servers
+    resolver.nameservers = [dns_server]
+    resolver.timeout = TIMEOUT  # Set timeout to 120 seconds
+    resolver.lifetime = TIMEOUT  # Set lifetime to 120 seconds
     ipv4_answers = []
     ipv6_answers = []
 
@@ -97,7 +99,7 @@ def query_dns(domain: str, dns_servers: list) -> dict:
     except dns.resolver.NoAnswer:
       # If no IPv4 records are found, Output to IPV4NOTFOUND.txt
       with open("./Error/IPV4NOTFOUND.txt", "a") as f:
-        f.write(f"No IPv4 records found for {domain} on {', '.join(dns_servers)}\n")
+        f.write(f"No IPv4 records found for {domain} on {dns_server}\n")
       ipv4_answers = []
 
     # Query on IPv6
@@ -106,19 +108,20 @@ def query_dns(domain: str, dns_servers: list) -> dict:
     except dns.resolver.NoAnswer:
       # If no IPv6 records are found, Output to IPV6NOTFOUND.txt
       with open("./Error/IPV6NOTFOUND.txt", "a") as f:
-        f.write(f"No IPv6 records found for {domain} on {','.join(dns_servers)}\n")
+        f.write(f"No IPv6 records found for {domain} on {dns_server}\n")
       ipv6_answers = []
 
     return {
       'domain': domain,
-      'dns_server': dns_servers,
+      'dns_server': dns_server,
       'ipv4': [answer.to_text() for answer in ipv4_answers],
-      'ipv6': [answer.to_text() for answer in ipv6_answers]}
+      'ipv6': [answer.to_text() for answer in ipv6_answers]
+      }
   except Exception as e:
-    print(f"Error resolving {domain} on {dns_servers}: {e}")
+    print(f"Error resolving {domain} on {dns_server}: {e}")
     return {
       'domain': domain,
-      'dns_server': dns_servers,
+      'dns_server': dns_server,
       'ipv4': [],
       'ipv6': []
     }
