@@ -15,8 +15,8 @@ import dns.resolver
 
 from Helper.get_dns_servers import get_dns_servers
 
-# Timeout for connection attempts (in seconds) Current set to 240 seconds for slow connections networks or multi-hop connections
-TIMEOUT = 120
+# Timeout for connection attempts (in seconds) Current set to 60 seconds for slow connections networks or multi-hop connections
+TIMEOUT = 60
 
 def check_poisoning() -> None:
   """
@@ -38,7 +38,7 @@ def check_poisoning() -> None:
   timestamp = datetime.now().isoformat()
 
   # Query DNS servers concurrently
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=len(domains)/2) as executor:
     with open(file_path, 'r') as file:
       reader = csv.reader(file)
       domains = []
