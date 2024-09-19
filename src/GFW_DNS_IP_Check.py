@@ -165,7 +165,7 @@ def ip_accessable_check(results: dict) -> list:
   """
   timestamp = datetime.now().isoformat()
   ip_check_results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=128) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=len(results)/2) as executor:
     for result in results:
       domain = result['domain']
       for ip_type in ['ipv4', 'ipv6']:
