@@ -15,8 +15,8 @@ import dns.resolver
 
 from Helper.get_dns_servers import get_dns_servers
 
-# Timeout for connection attempts (in seconds) Current set to 60 seconds for slow connections networks or multi-hop connections
-TIMEOUT = 60
+# Timeout for connection attempts (in seconds) Current set to 30 seconds for slow connections networks or multi-hop connections
+TIMEOUT = 30
 
 def check_poisoning() -> None:
   """
@@ -86,8 +86,8 @@ def query_dns(domain: str, dns_server: str) -> dict:
   try:
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
-    resolver.timeout = TIMEOUT  # Set timeout to 120 seconds
-    resolver.lifetime = TIMEOUT  # Set lifetime to 120 seconds
+    resolver.timeout = TIMEOUT  # Set timeout to 30 seconds
+    resolver.lifetime = TIMEOUT * 2  # Set lifetime to 60 seconds
     ipv4_answers = []
     ipv6_answers = []
 
