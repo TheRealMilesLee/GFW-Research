@@ -36,17 +36,15 @@ def check_poisoning() -> None:
   file_path = os.path.join(os.path.dirname(__file__), './db/domains_list.csv')
   results = []
   timestamp = datetime.now().isoformat()
-
+  with open(file_path, 'r') as file:
+    reader = csv.reader(file)
+    domains = []
+    for i, row in enumerate(reader):
+      domains.append(row[0].strip())
+  # Query each domain on each DNS server
+  futures = []
   # Query DNS servers concurrently
   with concurrent.futures.ThreadPoolExecutor(max_workers=len(domains)/2) as executor:
-    with open(file_path, 'r') as file:
-      reader = csv.reader(file)
-      domains = []
-      for i, row in enumerate(reader):
-        domains.append(row[0].strip())
-
-    # Query each domain on each DNS server
-    futures = []
     for domain in domains:
       for dns_server in dns_servers:
         future = executor.submit(query_dns, domain, dns_server)
