@@ -221,7 +221,7 @@ def process_domain() -> list:
   """
   @brief Processes a list of domains to check for IPv6 support and perform traceroute concurrently.
 
-  This function retrieves a list of domains, splits them into chunks of 128, and processes each chunk
+  This function retrieves a list of domains, splits them into chunks of 512, and processes each chunk
   concurrently using multiple threads. It checks each domain for IPv6 support, performs a traceroute
   using either IPv6 or IPv4, parses the traceroute output to extract IP addresses, and checks if the
   destination IP is reached. If the destination IP is not reached, it performs an IP lookup to determine
@@ -232,7 +232,7 @@ def process_domain() -> list:
   """
 
   domains = get_domains_list()
-  chunk_size = 128
+  chunk_size = 512
   chunks = [domains[i:i + chunk_size] for i in range(0, len(domains), chunk_size)]
   traceroute_results = []
 
