@@ -15,8 +15,8 @@ import dns.resolver
 
 from Helper.get_dns_servers import get_dns_servers
 
-# Timeout for connection attempts (in seconds) Current set to 30 seconds for slow connections networks or multi-hop connections
-TIMEOUT = 30
+# Timeout for connection attempts (in seconds) Current set to 10 seconds for slow connections networks or multi-hop connections
+TIMEOUT = 10
 
 def check_poisoning() -> None:
   """
@@ -44,7 +44,7 @@ def check_poisoning() -> None:
   # Query each domain on each DNS server
   futures = []
   # Query DNS servers concurrently
-  with concurrent.futures.ThreadPoolExecutor(max_workers=len(domains)) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
     for domain in domains:
       for dns_server in dns_servers:
         future = executor.submit(query_dns, domain, dns_server)
@@ -86,8 +86,8 @@ def query_dns(domain: str, dns_server: str) -> dict:
   try:
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
-    resolver.timeout = TIMEOUT  # Set timeout to 30 seconds
-    resolver.lifetime = TIMEOUT * 2  # Set lifetime to 60 seconds
+    resolver.timeout = TIMEOUT  # Set timeout to 10 seconds
+    resolver.lifetime = TIMEOUT * 2  # Set lifetime to 20 seconds
     ipv4_answers = []
     ipv6_answers = []
 
@@ -163,7 +163,7 @@ def ip_accessable_check(results: dict) -> list:
   """
   timestamp = datetime.now().isoformat()
   ip_check_results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=len(results)) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
     for result in results:
       domain = result['domain']
       for ip_type in ['ipv4', 'ipv6']:
