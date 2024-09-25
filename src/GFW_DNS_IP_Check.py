@@ -8,8 +8,7 @@ import concurrent.futures
 import csv
 import os
 import socket
-import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 import dns.resolver
 
@@ -33,7 +32,7 @@ def check_poisoning() -> None:
   # Get a list of DNS servers
   dns_servers = get_dns_servers()
   # read domains from file
-  file_path = os.path.join(os.path.dirname(__file__), './db/domains_list.csv')
+  file_path = os.path.join(os.path.dirname(__file__), './db/test_domains.csv')
   results = []
   timestamp = datetime.now().isoformat()
   with open(file_path, 'r') as file:
@@ -225,13 +224,19 @@ def save_ip_check_results(ip_check_results: list) -> None:
       writer.writerow(row)
 
 if __name__ == "__main__":
-  start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-  end_time = start_time + timedelta(days=7)
+  # start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+  # end_time = start_time + timedelta(days=7)
 
-  while datetime.now() < end_time:
-    results = check_poisoning()
-    ip_check_results = ip_accessable_check(results)
-    save_results(results)
-    save_ip_check_results(ip_check_results)
-    print(f"Check completed at {datetime.now()}")
-    time.sleep(3600)  # Wait for 1 hour before next check
+  # while datetime.now() < end_time:
+  #   results = check_poisoning()
+  #   ip_check_results = ip_accessable_check(results)
+  #   save_results(results)
+  #   save_ip_check_results(ip_check_results)
+  #   print(f"Check completed at {datetime.now()}")
+  #   time.sleep(3600)  # Wait for 1 hour before next check
+
+  results = check_poisoning()
+  ip_check_results = ip_accessable_check(results)
+  save_results(results)
+  save_ip_check_results(ip_check_results)
+  print(f"Check completed at {datetime.now()}")
