@@ -43,7 +43,7 @@ def check_poisoning() -> None:
   # Query each domain on each DNS server
   futures = []
   # Query DNS servers concurrently
-  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     for domain in domains:
       for dns_server in dns_servers:
         future = executor.submit(query_dns, domain, dns_server)
@@ -162,7 +162,7 @@ def ip_accessable_check(results: dict) -> list:
   """
   timestamp = datetime.now().isoformat()
   ip_check_results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     for result in results:
       domain = result['domain']
       for ip_type in ['ipv4', 'ipv6']:
