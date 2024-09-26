@@ -11,13 +11,8 @@ import logging
 import os
 import os.path
 import re
-from math import e
-import time
-from typing import Collection
-
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
-from requests import delete
 
 # Set up the logger
 logging.basicConfig(level=logging.INFO)
@@ -34,12 +29,13 @@ except OperationFailure as e:
 CM_DNSP = BDC_db['China-Mobile-DNSPoisoning']
 CM_GFWL = BDC_db['China-Mobile-GFWLocation']
 CM_IPB = BDC_db['China-Mobile-IPBlocking']
-CT_DNSP = BDC_db['China-Telecom-DNSPoisoning']
-CT_GFWL = BDC_db['China-Telecom-GFWLocation']
 CT_IPB = BDC_db['China-Telecom-IPBlocking']
-UCD_CG = BDC_db['UCDavis-CompareGroup']
+UCD_CG_DNSP = BDC_db['UCDavis-CompareGroup-DNSPoisoning']
+UCD_CG_GFWL = BDC_db['UCDavis-CompareGroup-GFWLocation']
+UCD_CG_IPB = BDC_db['UCDavis-CompareGroup-IPBlocking']
 
 BeforeDomainChangeFolder = '../Data/BeforeDomainChange/'
+AfterDomainChangeFolder = '../Data/AfterDomainChange/'
 # Define the function to dump the data to the mongo database
 def find_one_and_update(collection, data) -> None:
   # search this data in the collection, if found it, update it, if not found, insert it
@@ -54,12 +50,15 @@ def delete_all(collection) -> None:
   collection.delete_many({})
   logger.info("Delete all the data in the collection")
 
-def DNSPoisoning_BeforeDomainChange(folder: str, collection: str) -> None:
-  CM_DNSPoisoningFolder = folder + 'DNSPoisoning/'
+def DNSPoisoning_BeforeDomainChange(folder: str, collection: str, compareGroup: bool) -> None:
+  if compareGroup:
+    FileFolderLocation = folder + 'CompareGroup/DNSPoisoning/'
+  else:
+    FileFolderLocation = folder + 'DNSPoisoning/'
   #get all the csv files in the folder
-  for file in os.listdir(CM_DNSPoisoningFolder):
+  for file in os.listdir(FileFolderLocation):
     if file.endswith('.csv'):
-      with open(CM_DNSPoisoningFolder+file, 'r') as csvfile:
+      with open(FileFolderLocation+file, 'r') as csvfile:
         print('Working on file:', file)
         reader = csv.DictReader(csvfile)
         for row in reader:
@@ -163,13 +162,16 @@ def GFWLocation_BeforeDomainChange(folder: str, collection: str) -> None:
           }
           find_one_and_update(collection, data)
 
-def IPBlocking_BeforeDomainChange(folder: str, collection: str, CM: bool) -> None:
-  if CM:
+def IPBlocking_BeforeDomainChange(folder: str, collection: str, CM: bool, CompareGroup: bool) -> None:
+  if CM and not CompareGroup:
     CM_IPBlockingFolder = folder + 'IPBlocking/'
     fileFolder = CM_IPBlockingFolder
-  else:
+  elif not CM and not CompareGroup:
     CT_IPBlockingFolder = folder + 'Mac/IPBlocking/'
     fileFolder = CT_IPBlockingFolder
+  elif not CM and CompareGroup:
+    UCD_IPBlockingFolder = folder + 'CompareGroup/IPBlocking/'
+    fileFolder = UCD_IPBlockingFolder
   #get all the csv files in the folder
   for file in os.listdir(fileFolder):
     if file.endswith('.csv'):
@@ -200,7 +202,9 @@ def IPBlocking_BeforeDomainChange(folder: str, collection: str, CM: bool) -> Non
 if __name__ == '__main__':
   #dump the data to the collection
   DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, CM_DNSP)
+  DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, UCD_CG, True)
   GFWLocation_BeforeDomainChange(BeforeDomainChangeFolder, CM_GFWL)
   IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CM_IPB, True)
+  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, UCD_CG, False, True)
   IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CT_IPB, False)
   client.close()
