@@ -13,6 +13,7 @@ import os.path
 import re
 from math import e
 import time
+from typing import Collection
 
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
@@ -48,6 +49,10 @@ def find_one_and_update(collection, data) -> None:
   else:
     collection.insert_one(data)
     logger.info("Insert the data to the collection")
+
+def delete_all(collection) -> None:
+  collection.delete_many({})
+  logger.info("Delete all the data in the collection")
 
 def DNSPoisoning_BeforeDomainChange(folder: str, collection: str) -> None:
   CM_DNSPoisoningFolder = folder + 'DNSPoisoning/'
@@ -158,12 +163,17 @@ def GFWLocation_BeforeDomainChange(folder: str, collection: str) -> None:
           }
           find_one_and_update(collection, data)
 
-def IPBlocking_BeforeDomainChange(folder: str, collection: str) -> None:
-  CM_IPBlockingFolder = folder + 'IPBlocking/'
+def IPBlocking_BeforeDomainChange(folder: str, collection: str, CM: bool) -> None:
+  if CM:
+    CM_IPBlockingFolder = folder + 'IPBlocking/'
+    fileFolder = CM_IPBlockingFolder
+  else:
+    CT_IPBlockingFolder = folder + 'Mac/IPBlocking/'
+    fileFolder = CT_IPBlockingFolder
   #get all the csv files in the folder
-  for file in os.listdir(CM_IPBlockingFolder):
+  for file in os.listdir(fileFolder):
     if file.endswith('.csv'):
-      with open(CM_IPBlockingFolder+file, 'r') as csvfile:
+      with open(fileFolder+file, 'r') as csvfile:
         print('Working on file:', file)
         reader = csv.DictReader(csvfile)
         for row in reader:
@@ -189,7 +199,8 @@ def IPBlocking_BeforeDomainChange(folder: str, collection: str) -> None:
 
 if __name__ == '__main__':
   #dump the data to the collection
-  # DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, CM_DNSP)
-  # GFWLocation_BeforeDomainChange(BeforeDomainChangeFolder, CM_GFWL)
-  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CM_IPB)
+  DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, CM_DNSP)
+  GFWLocation_BeforeDomainChange(BeforeDomainChangeFolder, CM_GFWL)
+  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CM_IPB, True)
+  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CT_IPB, False)
   client.close()
