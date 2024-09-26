@@ -16,7 +16,7 @@ from pymongo.errors import ConnectionFailure, OperationFailure
 from concurrent.futures import ThreadPoolExecutor
 
 # Set up the logger
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 # Connect to local mongodb server and connect to the BeforeDocmainChange database
 try:
