@@ -13,6 +13,7 @@ import os.path
 import re
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
+from concurrent.futures import ThreadPoolExecutor
 
 # Set up the logger
 logging.basicConfig(level=logging.INFO)
@@ -138,12 +139,17 @@ def cleanup_csv(row: dict) -> list:
     return cleanuped_china_result_ipv4,cleanuped_china_result_ipv6,cleanuped_global_result_ipv4,cleanuped_global_result_ipv6
 
 
-def GFWLocation_BeforeDomainChange(folder: str, collection: str) -> None:
-  CM_GFWLocationFolder = folder + 'GFWLocation/'
+def GFWLocation_BeforeDomainChange(folder: str, collection: str, CompareGroup: bool) -> None:
+  if CompareGroup:
+    UCD_GFWLocationFolder = folder + 'CompareGroup/GFWLocation/'
+    fileFolder = UCD_GFWLocationFolder
+  else:
+    CM_GFWLocationFolder = folder + 'GFWLocation/'
+    fileFolder = CM_GFWLocationFolder
   #get all the csv files in the folder
-  for file in os.listdir(CM_GFWLocationFolder):
+  for file in os.listdir(fileFolder):
     if file.endswith('.txt'):
-      with open(CM_GFWLocationFolder+file, 'r') as txtfile:
+      with open(fileFolder+file, 'r') as txtfile:
         print('Working on file:', file)
         # get timestamp from the file name, filename format: GFW_Location_results_20240904_163512.txt, wanted timestamp: 20240904_163512 and convert it to 2024-09-04 16:35:12
         timestamp = file.split('_')[3]
@@ -201,10 +207,20 @@ def IPBlocking_BeforeDomainChange(folder: str, collection: str, CM: bool, Compar
 
 if __name__ == '__main__':
   #dump the data to the collection
-  DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, CM_DNSP)
-  DNSPoisoning_BeforeDomainChange(BeforeDomainChangeFolder, UCD_CG, True)
-  GFWLocation_BeforeDomainChange(BeforeDomainChangeFolder, CM_GFWL)
-  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CM_IPB, True)
-  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, UCD_CG, False, True)
-  IPBlocking_BeforeDomainChange(BeforeDomainChangeFolder, CT_IPB, False)
+  with ThreadPoolExecutor() as executor:
+    futures = [
+      executor.submit(DNSPoisoning_BeforeDomainChange, BeforeDomainChangeFolder, CM_DNSP, False),
+      executor.submit(DNSPoisoning_BeforeDomainChange, BeforeDomainChangeFolder, UCD_CG_DNSP, True),
+      executor.submit(GFWLocation_BeforeDomainChange, BeforeDomainChangeFolder, CM_GFWL, False),
+      executor.submit(GFWLocation_BeforeDomainChange, BeforeDomainChangeFolder, UCD_CG_GFWL, True),
+      executor.submit(IPBlocking_BeforeDomainChange, BeforeDomainChangeFolder, CM_IPB, True, False),
+      executor.submit(IPBlocking_BeforeDomainChange, BeforeDomainChangeFolder, UCD_CG_IPB, False, True),
+      executor.submit(IPBlocking_BeforeDomainChange, BeforeDomainChangeFolder, CT_IPB, False, False)
+    ]
+
+    for future in futures:
+      try:
+        future.result()
+      except Exception as e:
+        logger.error(f"An error occurred: {e}")
   client.close()
