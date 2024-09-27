@@ -58,13 +58,14 @@ class FileProcessingHandler:
     reached_destination = 'reached destination' in parts[1]
     return domain, gfw_detected, reached_destination
 
-  def DNSPoisoning_dump(self, folder: str, collectionName:str, compareGroup: bool) -> None:
+  def DNSPoisoning_dump(self, folder: str, collectionName: str, compareGroup: bool) -> None:
     mongodbOP_DNS = MongoDBHandler(collectionName)
     if compareGroup:
       FileFolderLocation = folder + 'CompareGroup/DNSPoisoning/'
     else:
       FileFolderLocation = folder + 'DNSPoisoning/'
-    for file in os.listdir(FileFolderLocation):
+
+    def process_file(file):
       if file.endswith('.csv'):
         with open(os.path.join(FileFolderLocation, file), 'r') as csvfile:
           logger.info(f'Processing file: {file}')
@@ -90,6 +91,14 @@ class FileProcessingHandler:
             }
             logger.info(f"Inserting DNSPoisoning data into mongodb with domain: {row['domain']}")
             mongodbOP_DNS.find_one_and_update(cleaned_data)
+
+    with ThreadPoolExecutor(max_workers=1024) as executor:
+      futures = [executor.submit(process_file, file) for file in os.listdir(FileFolderLocation)]
+      for future in futures:
+        try:
+          future.result()
+        except Exception as e:
+          logger.error(f"An error occurred while processing file: {e}")
 
 
   def IPBlocking_dump(self, folder: str, collection: str, CM: bool, CompareGroup: bool) -> None:
