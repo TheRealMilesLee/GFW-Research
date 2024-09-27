@@ -6,7 +6,6 @@ import logging
 import os
 import os.path
 import re
-
 from db_operations import ADC_db, MongoDBHandler
 from dump_to_mongo_before_domain_change import FileProcessingHandler
 
@@ -145,8 +144,7 @@ def main():
 
     logger.info('***********Dumping data DNS Poisoning***********')
     futures.append(executor.submit(CT_Dump.DNSPoisoning_dump, f'{AfterDomainChangeFolder}/China-Telecom/', CT_DNSP_ADC, False))
-    futures.append(executor.submit(CT_Dump.DNSPoisoning_dump, f'{AfterDomainChangeFolder}/UCDavis-Server/', UCD_DNSP_ADC, True))
-
+    futures.append(executor.submit(CT_Dump.DNSPoisoning_dump, f'{AfterDomainChangeFolder}UCDavis-Server/', UCD_DNSP_ADC, False))
     # Wait for all threads to complete
     concurrent.futures.wait(futures)
 
