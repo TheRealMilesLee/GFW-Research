@@ -26,14 +26,12 @@ class MongoDBHandler:
   def find_one_and_update(self, data: dict) -> None:
     if self.collection.find_one(data):
       self.collection.update_one(data, {"$set": data})
-      logger.info("Updated the data in the collection")
     else:
       self.collection.insert_one(data)
-      logger.info("Inserted the data into the collection")
+
 
   def delete_many(self, data: dict) -> None:
     self.collection.delete_many(data)
-    logger.info("Deleted the data from the collection")
 
   def lookup(self, data: dict) -> bool:
     if self.collection.find_one(data):
@@ -42,12 +40,12 @@ class MongoDBHandler:
 
   def insert_one(self, data: dict) -> None:
     self.collection.insert_one(data)
-    logger.info("Inserted the data into the collection")
+
 
   def delete_one(self, data: dict) -> None:
     self.collection.delete_one(data)
-    logger.info("Deleted the data from the collection")
+
 
   def update_one(self, data: dict) -> None:
     self.collection.update_one(data, {"$set": data})
-    logger.info("Updated the data in the collection")
+
