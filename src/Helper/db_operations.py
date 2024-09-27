@@ -1,8 +1,8 @@
 import logging
-from pymongo import MongoClient
-from pymongo.errors import ConnectionFailure, OperationFailure
 from concurrent.futures import ThreadPoolExecutor
 
+from pymongo import MongoClient
+from pymongo.errors import ConnectionFailure, OperationFailure
 from requests import delete
 
 # Set up the logger
@@ -18,14 +18,6 @@ except ConnectionFailure as e:
 except OperationFailure as e:
   logger.error(f"Could not connect to the server: {e}")
 #connect to collection
-
-
-CT_DNSP_ADC = ADC_db['China-Telecom-DNSPoisoning']
-CT_GFWL_ADC = ADC_db['China-Telecom-GFWLocation']
-CT_IPB_ADC = ADC_db['China-Telecom-IPBlocking']
-
-
-AfterDomainChangeFolder = '../Data/AfterDomainChange/'
 
 class MongoDBHandler:
   def __init__(self, collection):
