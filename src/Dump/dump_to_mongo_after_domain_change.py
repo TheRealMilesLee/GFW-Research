@@ -6,6 +6,7 @@ import logging
 import os
 import os.path
 import re
+
 from db_operations import ADC_db, MongoDBHandler
 from dump_to_mongo_before_domain_change import FileProcessingHandler
 
@@ -41,7 +42,8 @@ class DumpingData:
       FileFolderLocation = folder + 'China-Telecom/GFWDeployed/'
     else:
       FileFolderLocation = folder + 'UCDavis-Server/GFWLocation/'
-    for file in os.listdir(FileFolderLocation):
+
+    def process_file(file):
       if file.endswith('.txt'):
         with open(os.path.join(FileFolderLocation, file), 'r') as txtfile:
           logger.info(f'Processing file: {file}')
@@ -68,6 +70,10 @@ class DumpingData:
               }
               logger.info(f'Inserting GFWLocation data into mongodb with domain: {domain}')
               mongodbOP_GFWL_ADC.insert_one(data)
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
+      futures = [executor.submit(process_file, file) for file in os.listdir(FileFolderLocation)]
+      concurrent.futures.wait(futures)
 
   def extract_timestamp(self, filename: str) -> str:
     return filename.split('_')[0]
