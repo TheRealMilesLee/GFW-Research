@@ -16,7 +16,7 @@ from concurrent.futures import ThreadPoolExecutor
 from db_operations import BDC_db, MongoDBHandler
 
 # Constants
-BeforeDomainChangeFolder = '../Data/BeforeDomainChange/'
+BeforeDomainChangeFolder = '../../Data/BeforeDomainChange/'
 # China Mobile Database
 CM_DNSP = BDC_db['China-Mobile-DNSPoisoning']
 CM_GFWL = BDC_db['China-Mobile-GFWLocation']
@@ -88,6 +88,7 @@ class FileProcessingHandler:
               'is_poisoned_ipv4': row['is_poisoned_ipv4'],
               'is_poisoned_ipv6': row['is_poisoned_ipv6'],
             }
+            logger.info(f"Inserting DNSPoisoning data into mongodb with domain: {row['domain']}")
             mongodbOP_DNS.find_one_and_update(cleaned_data)
 
 
@@ -107,6 +108,7 @@ class FileProcessingHandler:
           reader = csv.DictReader(csvfile)
           for row in reader:
             row['timestamp'] = row['timestamp'].replace('T', ' ')[:19]
+            logger.info(f'Inserting IPBlocking data into mongodb with domain: {row["domain"]}')
             mongodbOP_IP.find_one_and_update(row)
 
   def GFWLocation_dump(self, folder: str, collection: str, CompareGroup: bool) -> None:
@@ -128,13 +130,21 @@ class FileProcessingHandler:
               'gfw_detected': gfw_detected,
               'reached_destination': reached_destination
             }
+            logger.info(f'Inserting GFWLocation data into mongodb with domain: {domain}')
             mongodbOP_Location.find_one_and_update(data)
 
 if __name__ == '__main__':
-  MongodbExecutor = MongoDBHandler()
   processData = FileProcessingHandler()
+  CM_DNSP.delete_many({})
+  UCD_CG_DNSP.delete_many({})
+  CM_GFWL.delete_many({})
+  UCD_CG_GFWL.delete_many({})
+  CM_IPB.delete_many({})
+  UCD_CG_IPB.delete_many({})
+  CT_IPB.delete_many({})
+  logger.info('Start dumping data to the database')
   #dump the data to the collection
-  with ThreadPoolExecutor(max_workers=12) as executor:
+  with ThreadPoolExecutor(max_workers=1024) as executor:
     futures = [
       executor.submit(processData.DNSPoisoning_dump, BeforeDomainChangeFolder, CM_DNSP, False), # China Mobile DNS Poisoning Check
       executor.submit(processData.DNSPoisoning_dump, BeforeDomainChangeFolder, UCD_CG_DNSP, True), # UCD Compare Group DNS Poisoning Check

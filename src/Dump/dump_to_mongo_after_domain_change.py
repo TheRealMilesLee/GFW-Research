@@ -131,7 +131,7 @@ def main():
   UCD_DNSP_ADC.delete_many({})
   logger.info('Data dump to MongoDB started')
 
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
     futures = []
     logger.info('***********Dumping data GFW Location***********')
     futures.append(executor.submit(dump.GFWLocation_ADC_dump_CM, AfterDomainChangeFolder, CM_GFWL_ADC))
