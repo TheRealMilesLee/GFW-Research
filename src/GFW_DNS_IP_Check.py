@@ -18,7 +18,7 @@ from Helper.get_dns_servers import get_dns_servers
 # Timeout for connection attempts (in seconds) Current set to 30 seconds for slow connections networks or multi-hop connections
 TIMEOUT = 30
 
-def check_poisoning() -> None:
+def check_poisoning() -> list:
   """
   @brief Checks for DNS poisoning by querying a list of domains on multiple DNS servers.
 
@@ -32,39 +32,46 @@ def check_poisoning() -> None:
   """
   # Get a list of DNS servers
   dns_servers = get_dns_servers()
-  # read domains from file
+
+  # Read domains from file
   file_path = os.path.join(os.path.dirname(__file__), './db/domains_list.csv')
   results = []
   timestamp = datetime.now().isoformat()
+
   with open(file_path, 'r') as file:
     reader = csv.reader(file)
-    domains = []
-    for i, row in enumerate(reader):
-      domains.append(row[0].strip())
-  # Query each domain on each DNS server
-  futures = []
-  # Query DNS servers concurrently
-  with concurrent.futures.ThreadPoolExecutor(max_workers=len(domains)) as executor:
-    for domain in domains:
-      for dns_server in dns_servers:
-        future = executor.submit(query_dns, domain, dns_server)
-        futures.append(future)
+    domains = [row[0].strip() for row in reader]
 
-      # Collect the results as they become available
-      for future in concurrent.futures.as_completed(futures):
-        dns_results = future.result()
-        domain = dns_results['domain']
-        result_dns_servers = dns_results['dns_server']
+  # Set a reasonable max_workers based on the machine configuration
+  max_workers = min(32, len(domains) * len(dns_servers))
 
-        # Create a new result entry
-        results.append({
-          'timestamp': timestamp,
-          'domain': domain,
-          'dns_servers': result_dns_servers,
-          'result_ipv4': dns_results['ipv4'],
-          'result_ipv6': dns_results['ipv6'],
-        })
+  # Query each domain on each DNS server concurrently
+  with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+    futures = {
+      executor.submit(query_dns, domain, dns_server): (domain, dns_server)
+      for domain in domains
+        for dns_server in dns_servers
+    }
+
+    # Collect the results as they become available
+    for future in concurrent.futures.as_completed(futures):
+        try:
+          dns_results = future.result()
+          result_dns_servers = futures[future][1]
+
+          # Create a new result entry
+          results.append({
+            'timestamp': timestamp,
+            'domain': dns_results['domain'],
+            'dns_servers': result_dns_servers,
+            'result_ipv4': dns_results['ipv4'],
+            'result_ipv6': dns_results['ipv6'],
+          })
+        except Exception as e:
+          print(f"Error querying {futures[future][0]} with {futures[future][1]}: {e}")
+
   return results
+
 def query_dns(domain: str, dns_server: str) -> dict:
   """
   @brief Query DNS for A and AAAA records of a domain using specified DNS servers.
@@ -163,26 +170,48 @@ def ip_accessable_check(results: dict) -> list:
   """
   timestamp = datetime.now().isoformat()
   ip_check_results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=len(results)) as executor:
+
+  # Set a reasonable number of workers
+  max_workers = min(16, len(results) * 2)  # Assuming we check two ports per IP
+
+  # Use ThreadPoolExecutor for concurrency
+  with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+    futures = []
+
+    # Submit tasks for each IP and port
     for result in results:
       domain = result['domain']
       for ip_type in ['ipv4', 'ipv6']:
         for ip in result[f'result_{ip_type}']:
-          ports_to_check = ['80', '443']
-          print(f"Checking {ip} for domain {domain} with ports {ports_to_check}")
-          futures = [executor.submit(check_ip, ip, int(port)) for port in ports_to_check]
-          for index, future in enumerate(futures):
-            is_accessible = future.result()
-            ip_check_results.append({
-              'timestamp': timestamp,
-              'domain': domain,
-              'ip': ip,
-              'ip_type': ip_type,
-              'port': ports_to_check[index],
-              'is_accessible': is_accessible
-            })
-  print(f"IP blocking check completed at {datetime.now()}")
+          ports_to_check = [80, 443]
+
+          # Submit accessibility checks for both ports
+          for port in ports_to_check:
+            futures.append(
+              executor.submit(check_ip, ip, port)
+            )
+
+          # Collect the results as soon as they are ready
+          for index, future in enumerate(concurrent.futures.as_completed(futures)):
+            try:
+              is_accessible = future.result()
+              ip_check_results.append({
+                  'timestamp': timestamp,
+                  'domain': domain,
+                  'ip': ip,
+                  'ip_type': ip_type,
+                  'port': ports_to_check[index],
+                  'is_accessible': is_accessible
+              })
+            except Exception as e:
+              print(f"Error checking IP {ip} on port {ports_to_check[index]}: {e}")
+
+            # Clear futures for the next IP
+            futures.clear()
+
+  print(f"IP accessibility check completed at {datetime.now()}")
   return ip_check_results
+
 
 def check_ip(ip: str, port: int) -> bool:
   """
