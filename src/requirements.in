@@ -5,5 +5,9 @@ geoip2
 requests
 dnspython
 
+#dumping the data
+pymongo
+
+
 
 

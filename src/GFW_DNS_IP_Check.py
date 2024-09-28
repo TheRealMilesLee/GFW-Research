@@ -8,15 +8,14 @@ import concurrent.futures
 import csv
 import os
 import socket
-import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 import dns.resolver
 
 from Helper.get_dns_servers import get_dns_servers
 
-# Timeout for connection attempts (in seconds) Current set to 30 seconds for slow connections networks or multi-hop connections
-TIMEOUT = 30
+# Timeout for connection attempts (in seconds) Current set to 10 seconds for slow connections networks or multi-hop connections
+TIMEOUT = 10
 
 def check_poisoning() -> list:
   """
@@ -93,8 +92,8 @@ def query_dns(domain: str, dns_server: str) -> dict:
   try:
     resolver = dns.resolver.Resolver()
     resolver.nameservers = [dns_server]
-    resolver.timeout = TIMEOUT  # Set timeout to 30 seconds
-    resolver.lifetime = TIMEOUT * 2  # Set lifetime to 60 seconds
+    resolver.timeout = TIMEOUT  # Set timeout to 10 seconds
+    resolver.lifetime = TIMEOUT * 2  # Set lifetime to 20 seconds
     ipv4_answers = []
     ipv6_answers = []
 
@@ -254,13 +253,19 @@ def save_ip_check_results(ip_check_results: list) -> None:
       writer.writerow(row)
 
 if __name__ == "__main__":
-  start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-  end_time = start_time + timedelta(days=7)
+  # start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+  # end_time = start_time + timedelta(days=7)
 
-  while datetime.now() < end_time:
-    results = check_poisoning()
-    ip_check_results = ip_accessable_check(results)
-    save_results(results)
-    save_ip_check_results(ip_check_results)
-    print(f"Check completed at {datetime.now()}")
-    time.sleep(3600)  # Wait for 1 hour before next check
+  # while datetime.now() < end_time:
+  #   results = check_poisoning()
+  #   ip_check_results = ip_accessable_check(results)
+  #   save_results(results)
+  #   save_ip_check_results(ip_check_results)
+  #   print(f"Check completed at {datetime.now()}")
+  #   time.sleep(3600)  # Wait for 1 hour before next check
+
+  results = check_poisoning()
+  ip_check_results = ip_accessable_check(results)
+  save_results(results)
+  save_ip_check_results(ip_check_results)
+  print(f"Check completed at {datetime.now()}")
