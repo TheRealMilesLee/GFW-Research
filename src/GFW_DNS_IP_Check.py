@@ -3,7 +3,6 @@ import csv
 import os
 from datetime import datetime
 
-import aiohttp
 import dns.asyncresolver
 
 from Helper.get_dns_servers import get_dns_servers
@@ -71,8 +70,14 @@ async def check_poisoning() -> list:
     reader = csv.reader(file)
     domains = [row[0].strip() for row in reader]
 
+  semaphore = asyncio.Semaphore(100)  # Limit to 100 concurrent tasks
+
+  async def sem_query_dns(domain, dns_server):
+    async with semaphore:
+      return await query_dns(domain, dns_server)
+
   tasks = [
-    query_dns(domain, dns_server)
+    sem_query_dns(domain, dns_server)
     for domain in domains
     for dns_server in dns_servers
   ]
