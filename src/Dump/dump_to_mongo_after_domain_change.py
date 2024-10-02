@@ -6,10 +6,6 @@ import logging
 import os
 import os.path
 import re
-import time
-
-import dns
-
 from db_operations import ADC_db, MongoDBHandler
 from dump_to_mongo_before_domain_change import FileProcessingHandler
 
