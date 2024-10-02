@@ -6,12 +6,15 @@ import logging
 import os
 import os.path
 import re
+import time
+
+import dns
 
 from db_operations import ADC_db, MongoDBHandler
 from dump_to_mongo_before_domain_change import FileProcessingHandler
 
 # Constants
-CM_DNSP_ADC = ADC_db['China-Mobile-DNSPoisoning-IPBlocking']
+CM_DNSP_ADC = ADC_db['China-Mobile-DNSPoisoning']
 CM_GFWL_ADC = ADC_db['China-Mobile-GFWLocation']
 
 CT_DNSP_ADC = ADC_db['China-Telecom-DNSPoisoning']
@@ -36,6 +39,30 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 class DumpingData:
+  def GFW_DNSP_CM_dump(self, folder: str, collection: str) -> None:
+    mongodbOP_CM_DNSP = MongoDBHandler(collection)
+    FileFolderLocation = folder + 'China-Mobile/DNSPoisoning/'
+    for file in os.listdir(FileFolderLocation):
+      if file.endswith('.csv'):
+        with open(os.path.join(FileFolderLocation, file), 'r') as csvfile:
+          logger.info(f'Processing file: {file}')
+          reader = csv.DictReader(csvfile)
+          for row in reader:
+            timestamp = row['timestamp']
+            domain = row['domain']
+            dns_server = row['dns_server']
+            result_ipv4 = row['result_ipv4']
+            result_ipv6 = row['result_ipv6']
+            data = {
+              'timestamp': timestamp,
+              'domain': domain,
+              'dns_server': dns_server,
+              'result_ipv4': result_ipv4,
+              'result_ipv6': result_ipv6
+            }
+            logger.info(f'Inserting DNSPoisoning data into mongodb with domain: {domain}')
+            mongodbOP_CM_DNSP.insert_one(data)
+
   def GFWLocation_ADC_dump_CT(self, folder: str, collection: str, compareGroup: bool) -> None:
     mongodbOP_GFWL_ADC = MongoDBHandler(collection)
     if not compareGroup:
@@ -151,6 +178,7 @@ def main():
     logger.info('***********Dumping data DNS Poisoning***********')
     futures.append(executor.submit(CT_Dump.DNSPoisoning_dump, f'{AfterDomainChangeFolder}/China-Telecom/', CT_DNSP_ADC, False))
     futures.append(executor.submit(CT_Dump.DNSPoisoning_dump, f'{AfterDomainChangeFolder}UCDavis-Server/', UCD_DNSP_ADC, False))
+    futures.append(executor.submit(dump.GFW_DNSP_CM_dump, AfterDomainChangeFolder, CM_DNSP_ADC))
     # Wait for all threads to complete
     concurrent.futures.wait(futures)
 
