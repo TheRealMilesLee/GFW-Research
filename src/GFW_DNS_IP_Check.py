@@ -1,7 +1,7 @@
 import asyncio
 import csv
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import dns.asyncresolver
 
@@ -93,7 +93,12 @@ async def check_poisoning() -> list:
         'result_ipv6': dns_results['ipv6'],
       })
     except Exception as e:
-      print(f"Error querying {dns_results['domain']} with {dns_results['dns_server']}: {e}")
+      error_folder_path = '../Data/AfterDomainChange/China-Mobile/Error'
+      os.makedirs(error_folder_path, exist_ok=True)
+      error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
+      error_filepath = os.path.join(error_folder_path, error_filename)
+      with open(error_filepath, "a") as error_file:
+        error_file.write(f"Error querying {dns_results['domain']} with {dns_results['dns_server']}: {e}\n")
 
   return results
 
@@ -122,7 +127,13 @@ def save_results(results: list) -> None:
     for row in results:
       writer.writerow(row)
 
+async def main():
+  end_time = datetime.now() + timedelta(days=7)
+  while datetime.now() < end_time:
+    results = await check_poisoning()
+    save_results(results)
+    print(f"Check completed at {datetime.now()}")
+    await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+
 if __name__ == "__main__":
-  results = asyncio.run(check_poisoning())
-  save_results(results)
-  print(f"Check completed at {datetime.now()}")
+  asyncio.run(main())
