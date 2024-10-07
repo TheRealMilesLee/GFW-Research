@@ -6,6 +6,7 @@ import logging
 import os
 import os.path
 import re
+
 from db_operations import ADC_db, MongoDBHandler
 from dump_to_mongo_before_domain_change import FileProcessingHandler
 
@@ -94,7 +95,7 @@ class DumpingData:
               logger.info(f'Inserting GFWLocation data into mongodb with domain: {domain}')
               mongodbOP_GFWL_ADC.insert_one(data)
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
       futures = [executor.submit(process_file, file) for file in os.listdir(FileFolderLocation)]
       concurrent.futures.wait(futures)
 
@@ -160,7 +161,7 @@ def main():
   UCD_DNSP_ADC.delete_many({})
   logger.info('Data dump to MongoDB started')
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=1024) as executor:
+  with concurrent.futures.ThreadPoolExecutor() as executor:
     futures = []
     logger.info('***********Dumping data GFW Location***********')
     futures.append(executor.submit(dump.GFWLocation_ADC_dump_CM, AfterDomainChangeFolder, CM_GFWL_ADC))
