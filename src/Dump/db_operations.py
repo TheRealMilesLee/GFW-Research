@@ -1,14 +1,11 @@
 import logging
-from concurrent.futures import ThreadPoolExecutor
-
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
-from requests import delete
 
 # Set up the logger
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
-# Connect to local mongodb server and connect to the BeforeDocmainChange database
+# Connect to local mongodb server and connect to the BeforeDomainChange database
 try:
   client = MongoClient('localhost', 27017)
   BDC_db = client.BeforeDomainChange
@@ -48,4 +45,7 @@ class MongoDBHandler:
 
   def update_one(self, data: dict) -> None:
     self.collection.update_one(data, {"$set": data})
+
+  def aggregate(self, pipeline: list) -> list:
+    return self.collection.aggregate(pipeline)
 
