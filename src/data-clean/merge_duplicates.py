@@ -1,5 +1,6 @@
 import logging
-from Dump.db_operations import MongoDBHandler, ADC_db, BDC_db
+
+from Dump.db_operations import ADC_db, BDC_db, MongoDBHandler
 
 # Set up the logger
 logging.basicConfig(level=logging.INFO)
@@ -88,3 +89,6 @@ def cleanUP_BeforeDomainChange():
       print(f"对于{domain}, 已合并 {count} 个文档")
   except Exception as e:
       print(f"发生错误: {str(e)}")
+
+if __name__ == '__main__':
+  cleanUP_BeforeDomainChange()
