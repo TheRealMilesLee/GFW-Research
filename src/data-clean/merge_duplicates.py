@@ -1,5 +1,7 @@
 import logging
 
+from sympy import Q
+
 from Dump.db_operations import ADC_db, BDC_db, MongoDBHandler
 
 # 移除所有现有的处理程序
@@ -138,6 +140,54 @@ def cleanUP_BeforeDomainChange():
       print(f"对于{domain}, 已合并 {count} 个文档")
   except Exception as e:
     print(f"发生错误: {str(e)}")
+
+  # Next, clean up China-Mobile IPBlocking
+  logger.info('Cleaning up China-Mobile IPBlocking')
+  mongodbCM_IPB_Before = MongoDBHandler(CM_IPB)
+  pipeline = [
+        {
+            '$group': {
+                '_id': '$domain',
+                'count': {'$sum': 1},
+                'document_ids': {'$push': '$_id'}
+            }
+        },
+        {
+            '$match': {
+                'count': {'$gt': 1}
+            }
+        }
+    ]
+  try:
+    domains_results = list(mongodbCM_IPB_Before.aggregate(pipeline))
+    print(f"找到 {len(domains_results)} 个重复的domains\n")
+    for domain_info in domains_results:
+      domain = domain_info['_id']
+      count = domain_info['count']
+      print(f"\nDomain: {domain} (出现 {count} 次)")
+      documents = mongodbCM_IPB_Before.find({'domain': domain})
+      aggregated_doc = {
+        "domain": domain,
+        "results": []
+      }
+      for doc in documents:
+        timestamp = doc['timestamp']
+        result = {
+          "timestamp": timestamp,
+          "ip": doc.get("ip"),
+          "ip_type": doc.get("ip_type"),
+          "port": doc.get("port"),
+          "is_accessible": doc.get("is_accessible")
+        }
+        aggregated_doc["results"].append(result)
+
+      mongodbCM_IPB_Before.delete_many({'domain': domain})
+
+      mongodbCM_IPB_Before.insert_one(aggregated_doc)
+      print(f"对于{domain}, 已合并 {count} 个文档")
+  except Exception as e:
+    print(f"发生错误: {str(e)}")
+
 
 if __name__ == '__main__':
   cleanUP_BeforeDomainChange()
