@@ -48,8 +48,13 @@ class FileProcessingHandler:
     return ip_addresses
 
   def extract_timestamp(self, filename: str) -> str:
-    timestamp = filename.split('_')[3]
-    return f"{timestamp[:4]}-{timestamp[4:6]}-{timestamp[6:8]} {timestamp[9:11]}:{timestamp[11:13]}:{timestamp[13:15]}"
+    match = re.search(r'(\d{8}_\d{6})', filename)
+    if match:
+      timestamp = match.group(1)
+      return f"{timestamp[:4]}-{timestamp[4:6]}-{timestamp[6:8]} {timestamp[9:11]}:{timestamp[11:13]}:{timestamp[13:15]}"
+    else:
+      logger.error(f"Timestamp not found in filename: {filename}")
+      return None
 
   def parse_txt_line(self, line: str) -> tuple:
     parts = line.strip().split(':')
