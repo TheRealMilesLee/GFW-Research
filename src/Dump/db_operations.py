@@ -1,4 +1,5 @@
 import logging
+
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
 
@@ -49,3 +50,5 @@ class MongoDBHandler:
   def aggregate(self, pipeline: list) -> list:
     return self.collection.aggregate(pipeline)
 
+  def find(self, data: dict) -> list:
+    return self.collection.find(data)
