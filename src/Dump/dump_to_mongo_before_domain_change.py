@@ -30,8 +30,13 @@ UCD_CG_IPB = BDC_db['UCDavis-CompareGroup-IPBlocking']
 # Regex for IPv4 and v6 pattern
 ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
 ipv6_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})'
-# Set up the logger
-logging.basicConfig(level=logging.WARNING)
+# 移除所有现有的处理程序
+for handler in logging.root.handlers[:]:
+    logging.root.removeHandler(handler)
+
+# 设置基本配置
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# 创建 logger
 logger = logging.getLogger(__name__)
 
 class FileProcessingHandler:

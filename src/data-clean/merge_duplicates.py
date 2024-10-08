@@ -2,8 +2,13 @@ import logging
 
 from Dump.db_operations import ADC_db, BDC_db, MongoDBHandler
 
-# Set up the logger
-logging.basicConfig(level=logging.INFO)
+# 移除所有现有的处理程序
+for handler in logging.root.handlers[:]:
+    logging.root.removeHandler(handler)
+
+# 设置基本配置
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# 创建 logger
 logger = logging.getLogger(__name__)
 
 
