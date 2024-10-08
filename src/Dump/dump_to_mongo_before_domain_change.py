@@ -92,7 +92,7 @@ class FileProcessingHandler:
             logger.info(f"Inserting DNSPoisoning data into mongodb with domain: {row['domain']}")
             mongodbOP_DNS.find_one_and_update(cleaned_data)
 
-    with ThreadPoolExecutor(max_workers=1024) as executor:
+    with ThreadPoolExecutor() as executor:
       futures = [executor.submit(process_file, file) for file in os.listdir(FileFolderLocation)]
       for future in futures:
         try:
@@ -153,7 +153,7 @@ if __name__ == '__main__':
   CT_IPB.delete_many({})
   logger.info('Start dumping data to the database')
   #dump the data to the collection
-  with ThreadPoolExecutor(max_workers=1024) as executor:
+  with ThreadPoolExecutor() as executor:
     futures = [
       executor.submit(processData.DNSPoisoning_dump, BeforeDomainChangeFolder, CM_DNSP, False), # China Mobile DNS Poisoning Check
       executor.submit(processData.DNSPoisoning_dump, BeforeDomainChangeFolder, UCD_CG_DNSP, True), # UCD Compare Group DNS Poisoning Check
