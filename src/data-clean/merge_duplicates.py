@@ -64,13 +64,12 @@ def cleanUP_BeforeDomainChange():
       documents = mongodbCM_DNSP_Before.find({'domain': domain})
       aggregated_doc = {
         "domain": domain,
-        "timestamp": [],
         "results": []
       }
       for doc in documents:
         timestamp = doc['timestamp']
-        aggregated_doc["timestamp"].append(timestamp)
         result = {
+          "timestamp": timestamp,
           "china_result_ipv4": doc.get("china_result_ipv4"),
           "china_result_ipv6": doc.get("china_result_ipv6"),
           "global_result_ipv4": doc.get("global_result_ipv4"),
