@@ -36,157 +36,106 @@ UCD_CG_GFWL = BDC_db['UCDavis-CompareGroup-GFWLocation']
 UCD_CG_IPB = BDC_db['UCDavis-CompareGroup-IPBlocking']
 
 
+class DomainCleaner:
+  def __init__(self, db_handler, collection, logger):
+    self.db_handler = db_handler
+    self.collection = collection
+    self.logger = logger
+
+  def clean(self):
+    self.logger.info(f'Cleaning up {self.collection.name}')
+    mongodb_handler = MongoDBHandler(self.collection)
+    pipeline = [
+      {
+        '$group': {
+          '_id': '$domain',
+          'count': {'$sum': 1},
+          'document_ids': {'$push': '$_id'}
+        }
+      },
+      {
+        '$match': {
+          'count': {'$gt': 1}
+        }
+      }
+    ]
+    try:
+      domains_results = list(mongodb_handler.aggregate(pipeline))
+      self.logger.info(f"Found {len(domains_results)} duplicate domains")
+      for domain_info in domains_results:
+        domain = domain_info['_id']
+        count = domain_info['count']
+        self.logger.info(f"Domain: {domain} (appeared {count} times)")
+        documents = mongodb_handler.find({'domain': domain})
+        aggregated_doc = self.aggregate_documents(domain, documents)
+        mongodb_handler.delete_many({'domain': domain})
+        mongodb_handler.insert_one(aggregated_doc)
+        self.logger.info(f"Merged {count} documents for domain {domain}")
+    except Exception as e:
+      self.logger.error(f"Error occurred: {str(e)}")
+
+  def aggregate_documents(self, domain, documents):
+    aggregated_doc = {
+      "domain": domain,
+      "results": []
+    }
+    for doc in documents:
+      result = self.extract_result(doc)
+      aggregated_doc["results"].append(result)
+    return aggregated_doc
+
+  def extract_result(self, doc):
+    raise NotImplementedError("Subclasses should implement this method")
+
+
+class DNSPoisoningCleaner(DomainCleaner):
+  def extract_result(self, doc):
+    return {
+      "timestamp": doc['timestamp'],
+      "china_result_ipv4": doc.get("china_result_ipv4"),
+      "china_result_ipv6": doc.get("china_result_ipv6"),
+      "global_result_ipv4": doc.get("global_result_ipv4"),
+      "global_result_ipv6": doc.get("global_result_ipv6"),
+      "is_poisoned": doc.get("is_poisoned"),
+      "is_poisoned_IPv4": doc.get("is_poisoned_IPv4"),
+      "is_poisoned_ipv6": doc.get("is_poisoned_ipv6")
+    }
+
+
+class GFWLocationCleaner(DomainCleaner):
+  def extract_result(self, doc):
+    return {
+      "timestamp": doc['timestamp'],
+      "gfw_detected": doc.get("gfw_detected"),
+      "reached_destination": doc.get("reached_destination")
+    }
+
+
+class IPBlockingCleaner(DomainCleaner):
+  def extract_result(self, doc):
+    return {
+      "timestamp": doc['timestamp'],
+      "ip": doc.get("ip"),
+      "ip_type": doc.get("ip_type"),
+      "port": doc.get("port"),
+      "is_accessible": doc.get("is_accessible")
+    }
+
+
 def cleanUP_BeforeDomainChange():
-  # Start with China-Mobile DNSPoisoning. First, gather all documents with the same domain
-  # and then merge them into one document
-  logger.info('Cleaning up China-Mobile DNSPoisoning')
-  mongodbCM_DNSP_Before = MongoDBHandler(CM_DNSP)
-  pipeline = [
-        # 按domain分组并计数
-        {
-            '$group': {
-                '_id': '$domain',
-                'count': {'$sum': 1},
-                'document_ids': {'$push': '$_id'}  # 收集每个domain的文档ID
-            }
-        },
-        # 筛选出现次数大于1的domain
-        {
-            '$match': {
-                'count': {'$gt': 1}
-            }
-        }
-    ]
-  try:
-    # 执行聚合查询
-    domains_results = list(mongodbCM_DNSP_Before.aggregate(pipeline))
-    # 打印结果
-    print(f"找到 {len(domains_results)} 个重复的domains\n")
-    # 对每个重复的domain查找相关文档
-    for domain_info in domains_results:
-      domain = domain_info['_id']
-      count = domain_info['count']
-      print(f"\nDomain: {domain} (出现 {count} 次)")
-      # 查找具有这个domain的所有文档
-      documents = mongodbCM_DNSP_Before.find({'domain': domain})
-      aggregated_doc = {
-        "domain": domain,
-        "results": []
-      }
-      for doc in documents:
-        timestamp = doc['timestamp']
-        result = {
-          "timestamp": timestamp,
-          "china_result_ipv4": doc.get("china_result_ipv4"),
-          "china_result_ipv6": doc.get("china_result_ipv6"),
-          "global_result_ipv4": doc.get("global_result_ipv4"),
-          "global_result_ipv6": doc.get("global_result_ipv6"),
-          "is_poisoned": doc.get("is_poisoned"),
-          "is_poisoned_IPv4": doc.get("is_poisoned_IPv4"),
-          "is_poisoned_ipv6": doc.get("is_poisoned_ipv6")
-        }
-        aggregated_doc["results"].append(result)
+  cleaners = [
+    DNSPoisoningCleaner(MongoDBHandler, CM_DNSP, logger),
+    GFWLocationCleaner(MongoDBHandler, CM_GFWL, logger),
+    IPBlockingCleaner(MongoDBHandler, CM_IPB, logger),
+    IPBlockingCleaner(MongoDBHandler, CT_IPB, logger),
+    DNSPoisoningCleaner(MongoDBHandler, UCD_CG_DNSP, logger),
+    GFWLocationCleaner(MongoDBHandler, UCD_CG_GFWL, logger),
+    IPBlockingCleaner(MongoDBHandler, UCD_CG_IPB, logger)
+  ]
 
-      # 删除原始文档
-      mongodbCM_DNSP_Before.delete_many({'domain': domain})
+  for cleaner in cleaners:
+    cleaner.clean()
 
-      # 插入聚合后的文档
-      mongodbCM_DNSP_Before.insert_one(aggregated_doc)
-      print(f"对于{domain}, 已合并 {count} 个文档")
-  except Exception as e:
-      print(f"发生错误: {str(e)}")
-
-  # Next, clean up China-Mobile GFWLocation
-  logger.info('Cleaning up China-Mobile GFWLocation')
-  mongodbCM_GFWL_Before = MongoDBHandler(CM_GFWL)
-  pipeline = [
-        {
-            '$group': {
-                '_id': '$domain',
-                'count': {'$sum': 1},
-                'document_ids': {'$push': '$_id'}
-            }
-        },
-        {
-            '$match': {
-                'count': {'$gt': 1}
-            }
-        }
-    ]
-  try:
-    domains_results = list(mongodbCM_GFWL_Before.aggregate(pipeline))
-    print(f"找到 {len(domains_results)} 个重复的domains\n")
-    for domain_info in domains_results:
-      domain = domain_info['_id']
-      count = domain_info['count']
-      print(f"\nDomain: {domain} (出现 {count} 次)")
-      documents = mongodbCM_GFWL_Before.find({'domain': domain})
-      aggregated_doc = {
-        "domain": domain,
-        "results": []
-      }
-      for doc in documents:
-        timestamp = doc['timestamp']
-        result = {
-          "timestamp": timestamp,
-          "gfw_detected": doc.get("gfw_detected"),
-          "reached_destination": doc.get("reached_destination")
-        }
-        aggregated_doc["results"].append(result)
-
-      mongodbCM_GFWL_Before.delete_many({'domain': domain})
-
-      mongodbCM_GFWL_Before.insert_one(aggregated_doc)
-      print(f"对于{domain}, 已合并 {count} 个文档")
-  except Exception as e:
-    print(f"发生错误: {str(e)}")
-
-  # Next, clean up China-Mobile IPBlocking
-  logger.info('Cleaning up China-Mobile IPBlocking')
-  mongodbCM_IPB_Before = MongoDBHandler(CM_IPB)
-  pipeline = [
-        {
-            '$group': {
-                '_id': '$domain',
-                'count': {'$sum': 1},
-                'document_ids': {'$push': '$_id'}
-            }
-        },
-        {
-            '$match': {
-                'count': {'$gt': 1}
-            }
-        }
-    ]
-  try:
-    domains_results = list(mongodbCM_IPB_Before.aggregate(pipeline))
-    print(f"找到 {len(domains_results)} 个重复的domains\n")
-    for domain_info in domains_results:
-      domain = domain_info['_id']
-      count = domain_info['count']
-      print(f"\nDomain: {domain} (出现 {count} 次)")
-      documents = mongodbCM_IPB_Before.find({'domain': domain})
-      aggregated_doc = {
-        "domain": domain,
-        "results": []
-      }
-      for doc in documents:
-        timestamp = doc['timestamp']
-        result = {
-          "timestamp": timestamp,
-          "ip": doc.get("ip"),
-          "ip_type": doc.get("ip_type"),
-          "port": doc.get("port"),
-          "is_accessible": doc.get("is_accessible")
-        }
-        aggregated_doc["results"].append(result)
-
-      mongodbCM_IPB_Before.delete_many({'domain': domain})
-
-      mongodbCM_IPB_Before.insert_one(aggregated_doc)
-      print(f"对于{domain}, 已合并 {count} 个文档")
-  except Exception as e:
-    print(f"发生错误: {str(e)}")
 
 
 if __name__ == '__main__':
