@@ -141,8 +141,8 @@ def cleanUP_BeforeDomainChange():
     IPBlockingCleaner(MongoDBHandler, UCD_CG_IPB, logger)
   ]
 
-    for cleaner in cleaners:
-        cleaner.clean()
+  for cleaner in cleaners:
+      cleaner.clean()
 
 def cleanUP_AfterDomainChange():
   cleaners = [
