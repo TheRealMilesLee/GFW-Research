@@ -113,21 +113,52 @@ class IPBlockingCleaner(DomainCleaner):
             "is_accessible": doc.get("is_accessible"),
         }
 
+class DNSPoisoningCleaner_ADC(DomainCleaner):
+  def extract_result(self, doc):
+    return {
+      "timestamp": doc['timestamp'],
+      "dns_server": doc['dns_server'],
+      "result_ipv4": doc['result_ipv4'],
+      "result_ipv6": doc['result_ipv6'],
+    }
+
+class GFWLocationCleaner_ADC(DomainCleaner):
+  def extract_result(self, doc):
+    return {
+      "timestamp": doc['timestamp'],
+      "ips": doc['ips'],
+      "location": doc['location'],
+    }
 
 def cleanUP_BeforeDomainChange():
-    cleaners = [
-        DNSPoisoningCleaner(MongoDBHandler, CM_DNSP, logger),
-        GFWLocationCleaner(MongoDBHandler, CM_GFWL, logger),
-        IPBlockingCleaner(MongoDBHandler, CM_IPB, logger),
-        IPBlockingCleaner(MongoDBHandler, CT_IPB, logger),
-        DNSPoisoningCleaner(MongoDBHandler, UCD_CG_DNSP, logger),
-        GFWLocationCleaner(MongoDBHandler, UCD_CG_GFWL, logger),
-        IPBlockingCleaner(MongoDBHandler, UCD_CG_IPB, logger),
-    ]
+  cleaners = [
+    DNSPoisoningCleaner(MongoDBHandler, CM_DNSP, logger),
+    GFWLocationCleaner(MongoDBHandler, CM_GFWL, logger),
+    IPBlockingCleaner(MongoDBHandler, CM_IPB, logger),
+    IPBlockingCleaner(MongoDBHandler, CT_IPB, logger),
+    DNSPoisoningCleaner(MongoDBHandler, UCD_CG_DNSP, logger),
+    GFWLocationCleaner(MongoDBHandler, UCD_CG_GFWL, logger),
+    IPBlockingCleaner(MongoDBHandler, UCD_CG_IPB, logger)
+  ]
 
     for cleaner in cleaners:
         cleaner.clean()
 
+def cleanUP_AfterDomainChange():
+  cleaners = [
+    DNSPoisoningCleaner_ADC(MongoDBHandler, CM_DNSP_ADC, logger),
+    GFWLocationCleaner_ADC(MongoDBHandler, CM_GFWL_ADC, logger),
+    DNSPoisoningCleaner(MongoDBHandler, CT_DNSP_ADC, logger),
+    GFWLocationCleaner(MongoDBHandler, CT_GFWL_ADC, logger),
+    IPBlockingCleaner(MongoDBHandler, CT_IPB_ADC, logger),
+    GFWLocationCleaner(MongoDBHandler, UCD_GFWL_ADC, logger),
+    IPBlockingCleaner(MongoDBHandler, UCD_IPB_ADC, logger),
+    DNSPoisoningCleaner(MongoDBHandler, UCD_DNSP_ADC, logger)
+  ]
 
-if __name__ == "__main__":
-    cleanUP_BeforeDomainChange()
+  for cleaner in cleaners:
+    cleaner.clean()
+
+if __name__ == '__main__':
+  # cleanUP_BeforeDomainChange()
+  cleanUP_AfterDomainChange()
