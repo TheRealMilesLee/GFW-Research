@@ -1,5 +1,6 @@
-from src.Dump.db_operations import ADC_db, MongodbHandler
 import logging
+
+from src.Dump.db_operations import ADC_db, MongoDBHandler
 
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:
@@ -29,13 +30,27 @@ UCD_DNSP_ADC = ADC_db['UCDavis-Server-DNSPoisoning']
 
 def process_CM_DNSP_ADC():
     logger.info("Processing China-Mobile-DNSPoisoning")
-    for domain in CM_DNSP_ADC.find():
-        result = domain['result']
-        summary = {
-            "total": len(result),
-            "poisoned": len([r for r in result if r == "poisoned"]),
-            "clean": len([r for r in result if r == "clean"]),
-            "unknown": len([r for r in result if r == "unknown"])
-        }
-        CM_DNSP_ADC.update_one({"_id": domain["_id"]}, {"$set": {"summary": summary}})
-    logger.info("China-Mobile-DNSPoisoning Done")
+    # retrieve all documents
+    documents = CM_DNSP_ADC.find()
+    for document in documents:
+        results = document['results']
+        summary = {'result_ipv4': [], 'result_ipv6': []}
+        previous_ipv4 = None
+        previous_ipv6 = None
+        for result in results:
+            dns_server = result['dns_server']
+            result_ipv4 = result['result_ipv4']
+            result_ipv6 = result['result_ipv6']
+
+            if result_ipv4 != previous_ipv4:
+                summary['result_ipv4'].append({'dns_server': dns_server, 'result': result_ipv4})
+                previous_ipv4 = result_ipv4
+
+            if result_ipv6 != previous_ipv6:
+                summary['result_ipv6'].append({'dns_server': dns_server, 'result': result_ipv6})
+                previous_ipv6 = result_ipv6
+
+        # Update the document with the summary
+        CM_DNSP_ADC.update_one({'_id': document['_id']}, {'$set': {'summary': summary}})
+
+process_CM_DNSP_ADC()
