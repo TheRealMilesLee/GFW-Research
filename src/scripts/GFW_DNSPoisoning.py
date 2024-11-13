@@ -64,7 +64,7 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
       error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
       error_filepath = os.path.join(error_folder_path, error_filename)
       with open(error_filepath, "a") as error_file:
-        error_file.write(f"Error querying {dns_results['domain']} with {dns_results['dns_server']}: {e}\n")
+        error_file.write(f"Error querying domain with server: {e}\n")
 
   return results
 
@@ -96,11 +96,13 @@ def save_results(results: list) -> None:
 
 async def main():
   ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
-  file_path = os.path.join(os.path.dirname(__file__), 'D:\Developer\GFW-Research\src\Import\domains_list.csv')
+  file_path = os.path.join(os.path.dirname(__file__), 'D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv')
 
   with open(file_path, 'r') as file:
     reader = csv.reader(file)
     domains = [row[0].strip() for row in reader]
+
+  print(f"Checking {len(domains)} domains for DNS poisoning")
 
   end_time = datetime.now() + timedelta(days=7)
   while datetime.now() < end_time:
