@@ -7,8 +7,8 @@ import os
 import os.path
 import re
 
-from db_operations import ADC_db, MongoDBHandler
-from dump_to_mongo_before_domain_change import FileProcessingHandler
+from Database.DBOperations import ADC_db, MongoDBHandler
+from Database.CSV_DB_BeforeDomainChange import FileProcessingHandler
 
 # Constants
 CM_DNSP_ADC = ADC_db['China-Mobile-DNSPoisoning']

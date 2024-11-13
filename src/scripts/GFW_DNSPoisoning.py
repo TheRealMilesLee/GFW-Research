@@ -9,13 +9,12 @@ import os
 from datetime import datetime, timedelta
 
 import dns.asyncresolver
-
-from Helper.get_dns_servers import get_dns_servers
+from get_dns_servers import get_dns_servers
 
 # Timeout for connection attempts (in seconds)
-TIMEOUT = 10
+TIMEOUT = 30
 
-async def query_dns(domain: str, dns_server: str) -> dict:
+async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   """
   @brief Query DNS for A and AAAA records of a domain using specified DNS servers.
 
@@ -30,19 +29,19 @@ async def query_dns(domain: str, dns_server: str) -> dict:
   """
   resolver = dns.asyncresolver.Resolver()
   resolver.nameservers = [dns_server]
-  resolver.timeout = TIMEOUT  # Set timeout to 10 seconds
-  resolver.lifetime = TIMEOUT * 2  # Set lifetime to 20 seconds
+  resolver.timeout = TIMEOUT  # Set timeout to 30 seconds
+  resolver.lifetime = TIMEOUT * 2  # Set lifetime to 60 seconds
 
   ipv4_answers = []
   ipv6_answers = []
 
   try:
-    ipv4_answers = await resolver.resolve(domain, 'A')
+    ipv4_answers = await resolver.resolve(domain, record_type)
   except dns.resolver.NoAnswer:
     pass
 
   try:
-    ipv6_answers = await resolver.resolve(domain, 'AAAA')
+    ipv6_answers = await resolver.resolve(domain, record_type)
   except dns.resolver.NoAnswer:
     pass
 
@@ -65,7 +64,7 @@ async def check_poisoning() -> list:
   - 'result_ipv4': The IPv4 address(es) associated with the domain.
   - 'result_ipv6': The IPv6 address(es) associated with the domain.
   """
-  dns_servers = get_dns_servers()
+  ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
 
   file_path = os.path.join(os.path.dirname(__file__), '../Import/domains_list.csv')
   results = []
@@ -77,14 +76,18 @@ async def check_poisoning() -> list:
 
   semaphore = asyncio.Semaphore(100)  # Limit to 100 concurrent tasks
 
-  async def sem_query_dns(domain, dns_server):
+  async def sem_query_dns(domain, dns_server, record_type):
     async with semaphore:
-      return await query_dns(domain, dns_server)
+      return await query_dns(domain, dns_server, record_type)
 
   tasks = [
-    sem_query_dns(domain, dns_server)
-    for domain in domains
-    for dns_server in dns_servers
+        sem_query_dns(domain, dns_server, 'A')
+        for domain in domains
+        for dns_server in ipv4_dns_servers
+    ] + [
+        sem_query_dns(domain, dns_server, 'AAAA')
+        for domain in domains
+        for dns_server in ipv6_dns_servers
   ]
 
   for future in asyncio.as_completed(tasks):
@@ -115,7 +118,7 @@ def save_results(results: list) -> None:
   @return: None
   """
   filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d_%H_%M")}.csv'
-  folder_path = '../Lib/AfterDomainChange/China-Mobile/DNSPoisoning'
+  folder_path = '../Lib/Data-2024-11-12/China-Mobile/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
 

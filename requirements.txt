@@ -44,6 +44,8 @@ requests==2.32.3
     # via
     #   -r requirements.in
     #   geoip2
+scapy==2.6.1
+    # via -r requirements.in
 typing-extensions==4.12.2
     # via multidict
 urllib3==2.2.3

@@ -15,6 +15,7 @@ from datetime import datetime, timedelta
 from urllib.request import urlretrieve
 
 import geoip2.database
+from scapy.all import sr1, IP, TCP
 
 
 def get_domains_list() -> list:
@@ -66,7 +67,6 @@ def check_domain_exists(domain: str) -> bool:
     return True
   except socket.gaierror:
     return False
-
 def traceroute(domain: str, use_ipv6: bool = False) -> list:
   """
   Executes a traceroute to the specified domain.
@@ -103,7 +103,19 @@ def traceroute(domain: str, use_ipv6: bool = False) -> list:
     if use_ipv6 and not ips["ipv4"]:
       # If traceroute6 has results but no IPv4 addresses found, perform traceroute with IPv4
       ipv4_ips = traceroute(domain, use_ipv6=False)
-      ips["ipv4"].extend(ipv4_ips["ipv4"])
+    # Detect TCP RST and redirection
+    rst_detected = False
+    redirection_detected = False
+    for ip in ips["ipv4"]:
+        pkt = IP(dst=ip) / TCP(dport=80, flags="S")
+        resp = sr1(pkt, timeout=2, verbose=0)
+        if resp and resp.haslayer(TCP):
+            if resp[TCP].flags == "RA":
+                rst_detected = True
+            if resp[TCP].flags == "SA" and resp[IP].src != ip:
+                redirection_detected = True
+
+    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected}
     return ips
   except subprocess.CalledProcessError as e:
     print(f"Error running traceroute for {domain}: {e}")
@@ -186,7 +198,6 @@ def ip_lookup(ips: dict) -> dict:
 
   if not result:
     return {"error": "No IP addresses available for lookup"}
-
   return result
 
 def process_chunk(domains_chunk):
@@ -199,27 +210,31 @@ def process_chunk(domains_chunk):
         traceroute_output = traceroute(domain, use_ipv6=True)
       else:
         traceroute_output = traceroute(domain, use_ipv6=False)
-      ips = traceroute_output
-      if not ips:
-        print(f"{domain}: No IP addresses found in traceroute")
-        continue
-      else:
-        try:
-          destination_ip = socket.gethostbyname(domain)
-        except socket.gaierror:
-          chunk_results.append({"domain": domain, "error": "Unable to resolve domain"})
-          continue
-        if destination_ip in ips["ipv4"] or destination_ip in ips["ipv6"]:
-          chunk_results.append({"domain": domain, "result": f"No GFW detected (Reached destination {destination_ip})"})
-        else:
-          location = ip_lookup(ips)
-          chunk_results.append({
-            "domain": domain,
-            "ips": ips,
-            "location": location
-          })
+      ips = traceroute_output["ips"]
+      rst_detected = traceroute_output["rst_detected"]
+      redirection_detected = traceroute_output["redirection_detected"]
+      chunk_results.append({
+        "domain": domain,
+        "ips": ips,
+        "location": ip_lookup(ips),
+        "rst_detected": rst_detected,
+        "redirection_detected": redirection_detected
+      })
     else:
-      chunk_results.append({"domain": domain, "error": "Domain does not exist"})
+      try:
+        destination_ip = socket.gethostbyname(domain)
+      except socket.gaierror:
+        chunk_results.append({"domain": domain, "error": "Unable to resolve domain"})
+        continue
+      if destination_ip in ips["ipv4"] or destination_ip in ips["ipv6"]:
+        chunk_results.append({"domain": domain, "result": f"No GFW detected (Reached destination {destination_ip})"})
+      else:
+        location = ip_lookup(ips)
+        chunk_results.append({
+          "domain": domain,
+          "ips": ips,
+          "location": location
+        })
   return chunk_results
 
 def process_domain() -> list:
@@ -258,7 +273,7 @@ def save_to_file(results: dict) -> None:
   @return None
   """
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  folder_path = "../../Lib/AfterDomainChange/China-Mobile/GFWLocation/"
+  folder_path = "../../Lib/Data-2024-11-12/China-Mobile/GFWLocation/"
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
   with open(filepath, "w") as f:

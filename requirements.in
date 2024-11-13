@@ -8,6 +8,8 @@ dnspython
 #dumping the data
 pymongo
 
+#check TCP RST
+scapy
 
 
 
