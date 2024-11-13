@@ -101,7 +101,7 @@ async def check_poisoning() -> list:
         'result_ipv6': dns_results['ipv6'],
       })
     except Exception as e:
-      error_folder_path = '../Lib/AfterDomainChange/China-Mobile/Error'
+      error_folder_path = '../Lib/Data-2024-11-12/China-Mobile/Error'
       os.makedirs(error_folder_path, exist_ok=True)
       error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
       error_filepath = os.path.join(error_folder_path, error_filename)
