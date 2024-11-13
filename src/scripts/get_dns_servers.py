@@ -1,13 +1,13 @@
 import csv
 
-DNS_SERVERS = '../Import/dns_servers.csv'
-def get_dns_servers() -> list:
+DNS_SERVERS = '/Users/silverhand/Developer/SourceRepo/GFW-Research/src/Import/dns_servers.csv'
+def get_dns_servers() -> tuple:
     """
     @brief Retrieves a list of DNS servers from a CSV file.
 
-    @return A list of DNS servers.
+    @return A tuple of lists containing IPV4 and IPV6 DNS servers.
 
-    @details This function reads a CSV file containing IPV4 DNS server information and returns a list of DNS servers.
+    @details This function reads a CSV file containing IPV4 and IPV6 DNS server information and returns a tuple of lists of DNS servers.
     """
     csv_file = DNS_SERVERS
     ipv4_dns_servers = []

@@ -1,6 +1,9 @@
+import concurrent.futures
 import csv
 
 import dns.resolver as resolver
+
+from src.scripts.get_dns_servers import get_dns_servers
 
 
 # 从 CSV 文件中读取域名和 DNS 服务器列表
@@ -15,9 +18,9 @@ def query_dns(domain, dns_server, query_type):
         res = resolver.Resolver()
         res.nameservers = [dns_server]
         answers = res.resolve(domain, query_type)
-        return [answer.address for answer in answers]
-    except (resolver.NoAnswer, resolver.NXDOMAIN, resolver.Timeout):
-        return []
+        return [domain, dns_server, [answer.address for answer in answers], query_type]
+    except (resolver.NoAnswer, resolver.NXDOMAIN, resolver.Timeout, resolver.NoNameservers):
+        return [domain, dns_server, [], query_type]
 
 # 写入查询结果到 CSV 文件
 def write_results_to_csv(results, output_file="./src/Import/CorrectIPResult.csv"):
@@ -30,17 +33,27 @@ def write_results_to_csv(results, output_file="./src/Import/CorrectIPResult.csv"
 def main():
     # 读取域名列表和 DNS 服务器列表
     domain_list = read_csv("./src/Import/domains_list.csv")
-    dns_servers = read_csv("./src/Import/dns_servers.csv")
-    query_dns_servers = dns_servers[0]
+    dns_servers = get_dns_servers()
 
     results = []
 
-    for domain in domain_list:
-        for dns_server in query_dns_servers:
-            # 查询 A 记录 (IPv4)
-            ipv4_addresses = query_dns(domain, dns_server, 'A')
-            for ip in ipv4_addresses:
-                results.append([domain, dns_server, ip, "IPv4"])
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        future_to_query = {
+            executor.submit(query_dns, domain, dns_server, 'A'): (domain, dns_server)
+            for domain in domain_list
+            for dns_server in dns_servers[0]
+        }
+
+        for future in concurrent.futures.as_completed(future_to_query):
+            domain, dns_server = future_to_query[future]
+            try:
+                result = future.result()
+                if result[2]:  # If there are IP addresses
+                    for ip in result[2]:
+                        results.append([result[0], result[1], ip, "IPv4"])
+            except Exception as exc:
+                print(f'{domain} generated an exception: {exc}')
+
     # 写入结果到 output.csv
     write_results_to_csv(results)
 
