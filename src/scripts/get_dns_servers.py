@@ -1,6 +1,6 @@
 import csv
 
-DNS_SERVERS = '/Users/silverhand/Developer/SourceRepo/GFW-Research/src/Import/dns_servers.csv'
+DNS_SERVERS = 'D:\\Developer\\GFW-Research\\src\\Import\\dns_servers.csv'
 def get_dns_servers() -> tuple:
     """
     @brief Retrieves a list of DNS servers from a CSV file.
