@@ -29,21 +29,31 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   """
   resolver = dns.asyncresolver.Resolver()
   resolver.nameservers = [dns_server]
-  resolver.timeout = TIMEOUT  # Set timeout to 30 seconds
-  resolver.lifetime = TIMEOUT * 2  # Set lifetime to 60 seconds
+  resolver.timeout = TIMEOUT
+  resolver.lifetime = TIMEOUT + 5  # 保证有足够的生命周期
 
   ipv4_answers = []
   ipv6_answers = []
 
   try:
-    ipv4_answers = await resolver.resolve(domain, record_type)
+      ipv4_answers = await resolver.resolve(domain, record_type)
+  except dns.resolver.Timeout:
+      print(f"Timeout occurred for domain: {domain} on server: {dns_server}")
+      ipv4_answers = []
   except dns.resolver.NoAnswer:
-    pass
+      pass
+  except Exception as e:
+      print(f"Unexpected error querying {domain} on {dns_server}: {e}")
 
   try:
     ipv6_answers = await resolver.resolve(domain, record_type)
+  except dns.resolver.Timeout:
+      print(f"Timeout occurred for domain: {domain} on server: {dns_server}")
+      ipv4_answers = []
   except dns.resolver.NoAnswer:
-    pass
+      pass
+  except Exception as e:
+      print(f"Unexpected error querying {domain} on {dns_server}: {e}")
 
   return {
     'domain': domain,
