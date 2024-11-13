@@ -1,19 +1,4 @@
 Region,IPV4,IPV6,Provider
-China,114.114.114.114,,114DNS
-China,114.114.115.115,,114 Alternative
-China,223.5.5.5,2400:3200::1,AliDNS
-China,223.6.6.6,2400:3200:baba::1,AliDNS Alternative
-China,119.29.29.29,2402:4e00::,DNSPod
-China,180.76.76.76,,Baidu
-China,202.96.128.86,,China Telecom
-China,210.21.196.6,,China Unicom
-China,218.30.118.6,,CUCC DNS
-China,211.136.17.107,,China Mobile
-China,117.50.11.11,2400:da00::6666,One DNS
-China,123.125.81.6,,Baidu DNS
-China,101.226.4.6,,Tencent DNS
-China,123.125.81.7,,Baidu DNS Alternative
-China,101.226.4.7,,Tencent DNS Alternative
 Global,8.8.8.8,2001:4860:4860::8888,Google
 Global,8.8.4.4,2001:4860:4860::8844,Google Alternative
 Global,1.1.1.1,2606:4700:4700::1111,Cloudflare
@@ -34,3 +19,18 @@ Global,208.67.222.220,2620:0:ccc::2,
 Global,208.67.220.222,2620:0:ccd::2,
 Global,94.140.14.14,2a10:50c0::ad1:ff,AdGuard DNS
 Global,94.140.15.15,2a10:50c0::ad2:ff,AdGuard DNS Alternative
+China,114.114.114.114,,114DNS
+China,114.114.115.115,,114 Alternative
+China,223.5.5.5,2400:3200::1,AliDNS
+China,223.6.6.6,2400:3200:baba::1,AliDNS Alternative
+China,119.29.29.29,2402:4e00::,DNSPod
+China,180.76.76.76,,Baidu
+China,202.96.128.86,,China Telecom
+China,210.21.196.6,,China Unicom
+China,218.30.118.6,,CUCC DNS
+China,211.136.17.107,,China Mobile
+China,117.50.11.11,2400:da00::6666,One DNS
+China,123.125.81.6,,Baidu DNS
+China,101.226.4.6,,Tencent DNS
+China,123.125.81.7,,Baidu DNS Alternative
+China,101.226.4.7,,Tencent DNS Alternative
