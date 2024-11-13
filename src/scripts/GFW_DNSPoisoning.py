@@ -66,7 +66,7 @@ async def check_poisoning() -> list:
   """
   ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
 
-  file_path = os.path.join(os.path.dirname(__file__), '../Import/domains_list.csv')
+  file_path = os.path.join(os.path.dirname(__file__), 'D:\Developer\GFW-Research\src\Import\domains_list.csv')
   results = []
   timestamp = datetime.now().isoformat()
 

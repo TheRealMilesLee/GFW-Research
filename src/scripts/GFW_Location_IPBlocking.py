@@ -26,7 +26,7 @@ def get_domains_list() -> list:
 
     @details This function reads a CSV file containing domain information and returns a list of domains.
     """
-    csv_file = "../Import/domains_list.csv"
+    csv_file = "D:\Developer\GFW-Research\src\Import\domains_list.csv"
     domains = []
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
