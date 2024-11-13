@@ -18,22 +18,43 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   resolver.lifetime = TIMEOUT + 5
 
   answers = []
+  error_code = None
+  error_reason = None
 
   try:
     print(f"Querying {domain} on {dns_server} for {record_type}")
     answers = await resolver.resolve(domain, record_type)
   except dns.resolver.Timeout:
-    print(f"Timeout occurred for domain: {domain} on server: {dns_server}")
+    error_code = 'Timeout'
+    error_reason = f"Timeout occurred for domain: {domain} on server: {dns_server}"
+    print(error_reason)
   except dns.resolver.NoAnswer:
-    pass
+    error_code = 'NoAnswer'
+    error_reason = f"No answer for domain: {domain} on server: {dns_server}"
+  except dns.resolver.NXDOMAIN:
+    error_code = 'NXDOMAIN'
+    error_reason = f"Non-existent domain: {domain} on server: {dns_server}"
+  except dns.resolver.YXDOMAIN:
+    error_code = 'YXDOMAIN'
+    error_reason = f"Domain name should not exist: {domain} on server: {dns_server}"
+  except dns.resolver.NoNameservers:
+    error_code = 'NoNameservers'
+    error_reason = f"No nameservers for domain: {domain} on server: {dns_server}"
+  except dns.resolver.ServFail:
+    error_code = 'ServFail'
+    error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
   except Exception as e:
-    print(f"Unexpected error querying {domain} on {dns_server}: {e}")
+    error_code = 'UnknownError'
+    error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
+    print(error_reason)
 
   return {
     'domain': domain,
     'dns_server': dns_server,
     'record_type': record_type,
-    'answers': [answer.to_text() for answer in answers]
+    'answers': [answer.to_text() for answer in answers],
+    'error_code': error_code,
+    'error_reason': error_reason
   }
 
 async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_servers: list) -> list:
@@ -82,6 +103,8 @@ def save_results(results: list) -> None:
       "dns_server",
       "record_type",
       "answers",
+      "error_code",
+      "error_reason"
     ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
@@ -92,6 +115,8 @@ def save_results(results: list) -> None:
         "dns_server": row['dns_server'],
         "record_type": row['record_type'],
         "answers": row['answers'],
+        "error_code": row['error_code'],
+        "error_reason": row['error_reason']
       })
 
 async def main():
