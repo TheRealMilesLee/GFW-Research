@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-15T04:09:34.388813,aiv-delivery.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.388813,aj2615.bid,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.388813,ajax.systems,2a0c:a9c7:8::1,AAAA,"['2600:9000:2375:7800:f:aadd:1480:93a1', '2600:9000:2375:d200:f:aadd:1480:93a1', '2600:9000:2375:7600:f:aadd:1480:93a1', '2600:9000:2375:2400:f:aadd:1480:93a1', '2600:9000:2375:6e00:f:aadd:1480:93a1', '2600:9000:2375:ee00:f:aadd:1480:93a1', '2600:9000:2375:7c00:f:aadd:1480:93a1', '2600:9000:2375:ec00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.388813,aiv-delivery.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.388813,aj2615.bid,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.388813,aiv-cdn.net,1.1.1.1,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 1.1.1.1
+2024-11-15T04:09:34.388813,aj2555.bid,208.67.220.220,A,['135.181.113.178'],,
+2024-11-15T04:09:34.388813,ajax.systems,101.226.4.6,A,"['99.84.203.90', '99.84.203.33', '99.84.203.75', '99.84.203.104']",,
+2024-11-15T04:09:34.388813,aj2555.bid,114.114.114.114,A,['135.181.113.178'],,
+2024-11-15T04:09:34.388813,ajax.systems,2001:6d0:d6::2001,AAAA,"['2600:9000:2375:5800:f:aadd:1480:93a1', '2600:9000:2375:5200:f:aadd:1480:93a1', '2600:9000:2375:5e00:f:aadd:1480:93a1', '2600:9000:2375:be00:f:aadd:1480:93a1', '2600:9000:2375:8600:f:aadd:1480:93a1', '2600:9000:2375:fe00:f:aadd:1480:93a1', '2600:9000:2375:2600:f:aadd:1480:93a1', '2600:9000:2375:7800:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.388813,aiv-delivery.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.389802,aiv-cdn.net,195.208.5.1,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 195.208.5.1
+2024-11-15T04:09:34.389802,ajc.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.389802,aiv-cdn.net,9.9.9.10,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 9.9.9.10
+2024-11-15T04:09:34.389802,aiv-delivery.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.389802,ajc.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.389802,aj2615.bid,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:0:ccc::2
+2024-11-15T04:09:34.389802,aj2555.bid,195.208.4.1,A,['135.181.113.178'],,
+2024-11-15T04:09:34.389802,aiv-delivery.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.389802,ajc.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.389802,aj2615.bid,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:0:ccd::2
+2024-11-15T04:09:34.389802,aj2555.bid,9.9.9.10,A,['49.12.122.118'],,
+2024-11-15T04:09:34.389802,airtel.in,123.125.81.6,A,['125.16.74.90'],,
+2024-11-15T04:09:34.389802,aiv-delivery.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.389802,ajax.systems,180.76.76.76,A,"['99.84.203.75', '99.84.203.90', '99.84.203.104', '99.84.203.33']",,
+2024-11-15T04:09:34.389802,aiv-delivery.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.389802,aiv-cdn.net,195.208.4.1,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 195.208.4.1
+2024-11-15T04:09:34.389802,aj2615.bid,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:119:53::53
+2024-11-15T04:09:34.389802,aiv-cdn.net,208.67.220.222,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 208.67.220.222
+2024-11-15T04:09:34.389802,aiv-cdn.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2400:3200::1
+2024-11-15T04:09:34.389802,aj2555.bid,208.67.222.222,A,['49.12.122.118'],,
+2024-11-15T04:09:34.389802,aj2555.bid,195.208.5.1,A,['135.181.113.178'],,
+2024-11-15T04:09:34.389802,ajc.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.389802,aj2615.bid,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.389802,aiv-cdn.net,94.140.15.15,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 94.140.15.15
+2024-11-15T04:09:34.389802,aiv-cdn.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2402:4e00::
+2024-11-15T04:09:34.389802,aiv-cdn.net,208.67.222.220,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 208.67.222.220
+2024-11-15T04:09:34.389802,ajc.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.389802,aiv-delivery.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.389802,aj2555.bid,94.140.15.15,A,['0.0.0.0'],,
+2024-11-15T04:09:34.389802,aj2615.bid,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.390799,aiv-cdn.net,94.140.14.14,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 94.140.14.14
+2024-11-15T04:09:34.390799,ajax.systems,2a03:90c0:9992::1,AAAA,"['2600:9000:2755:ae00:f:aadd:1480:93a1', '2600:9000:2755:6800:f:aadd:1480:93a1', '2600:9000:2755:e200:f:aadd:1480:93a1', '2600:9000:2755:8800:f:aadd:1480:93a1', '2600:9000:2755:8a00:f:aadd:1480:93a1', '2600:9000:2755:6600:f:aadd:1480:93a1', '2600:9000:2755:2000:f:aadd:1480:93a1', '2600:9000:2755:9200:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.390799,ajc.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.390799,ajc.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.390799,aj2555.bid,94.140.14.14,A,['0.0.0.0'],,
+2024-11-15T04:09:34.390799,aiv-delivery.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.390799,aiv-cdn.net,208.67.222.222,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 208.67.222.222
+2024-11-15T04:09:34.390799,ajc.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.390799,aiv-cdn.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.390799,aj2615.bid,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.390799,aiv-cdn.net,208.67.220.220,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 208.67.220.220
+2024-11-15T04:09:34.390799,aj2615.bid,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2402:4e00::
+2024-11-15T04:09:34.390799,aiv-cdn.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.390799,aj2555.bid,208.67.220.222,A,['49.12.122.118'],,
+2024-11-15T04:09:34.390799,ajc.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.390799,ajc.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.390799,aj2555.bid,2.56.220.2,A,['49.12.122.118'],,
+2024-11-15T04:09:34.390799,aj2555.bid,77.88.8.8,A,['49.12.122.118'],,
+2024-11-15T04:09:34.390799,ajc.com,77.88.8.1,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.390799,ajax.systems,2606:4700:4700::1111,AAAA,"['2600:9000:20c5:3a00:f:aadd:1480:93a1', '2600:9000:20c5:4a00:f:aadd:1480:93a1', '2600:9000:20c5:9400:f:aadd:1480:93a1', '2600:9000:20c5:9a00:f:aadd:1480:93a1', '2600:9000:20c5:9c00:f:aadd:1480:93a1', '2600:9000:20c5:b000:f:aadd:1480:93a1', '2600:9000:20c5:c400:f:aadd:1480:93a1', '2600:9000:20c5:ea00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.391854,ajc.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.391854,aj2555.bid,208.67.222.220,A,['135.181.113.178'],,
+2024-11-15T04:09:34.391854,ajc.com,1.0.0.1,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.391854,aiv-delivery.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.391854,aj2615.bid,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.391854,aiv-cdn.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 9.9.9.9
+2024-11-15T04:09:34.391854,aj2555.bid,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 123.125.81.7
+2024-11-15T04:09:34.391854,aiv-cdn.net,62.76.62.76,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 62.76.62.76
+2024-11-15T04:09:34.391854,aj2555.bid,62.76.62.76,A,['49.12.122.118'],,
+2024-11-15T04:09:34.391854,aiv-cdn.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:119:53::53
+2024-11-15T04:09:34.391854,ajax.systems,117.50.11.11,A,"['99.84.203.75', '99.84.203.90', '99.84.203.104', '99.84.203.33']",,
+2024-11-15T04:09:34.391854,aj2615.bid,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:fe::10
+2024-11-15T04:09:34.391854,ajc.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.391854,aiv-cdn.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.391854,aj2555.bid,123.125.81.6,A,['135.181.113.178'],,
+2024-11-15T04:09:34.391854,ajax.systems,2620:0:ccc::2,AAAA,"['2600:9000:2200:e400:f:aadd:1480:93a1', '2600:9000:2200:f400:f:aadd:1480:93a1', '2600:9000:2200:200:f:aadd:1480:93a1', '2600:9000:2200:4000:f:aadd:1480:93a1', '2600:9000:2200:a400:f:aadd:1480:93a1', '2600:9000:2200:c400:f:aadd:1480:93a1', '2600:9000:2200:c600:f:aadd:1480:93a1', '2600:9000:2200:d600:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.391854,aj2615.bid,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:119:35::35
+2024-11-15T04:09:34.391854,aiv-cdn.net,77.88.8.1,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 77.88.8.1
+2024-11-15T04:09:34.391854,aj2555.bid,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 9.9.9.9
+2024-11-15T04:09:34.391854,aj2555.bid,101.226.4.6,A,['135.181.113.178'],,
+2024-11-15T04:09:34.391854,aiv-cdn.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:fe::10
+2024-11-15T04:09:34.391854,aj2615.bid,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.391854,ajax.systems,2402:4e00::,AAAA,"['2600:9000:20c5:9a00:f:aadd:1480:93a1', '2600:9000:20c5:9c00:f:aadd:1480:93a1', '2600:9000:20c5:ea00:f:aadd:1480:93a1', '2600:9000:20c5:b000:f:aadd:1480:93a1', '2600:9000:20c5:c400:f:aadd:1480:93a1', '2600:9000:20c5:9400:f:aadd:1480:93a1', '2600:9000:20c5:4a00:f:aadd:1480:93a1', '2600:9000:20c5:3a00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.391854,aj2555.bid,211.136.17.107,A,['135.181.113.178'],,
+2024-11-15T04:09:34.391854,aiv-cdn.net,62.76.76.62,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 62.76.76.62
+2024-11-15T04:09:34.392808,aiv-cdn.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:119:35::35
+2024-11-15T04:09:34.392808,airtel.in,123.125.81.7,A,[],Timeout,Timeout occurred for domain: airtel.in on server: 123.125.81.7
+2024-11-15T04:09:34.392808,aj2615.bid,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2620:fe::fe
+2024-11-15T04:09:34.392808,aiv-cdn.net,8.8.8.8,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 8.8.8.8
+2024-11-15T04:09:34.392808,aiv-cdn.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 2400:da00::6666
+2024-11-15T04:09:34.392808,ajax.systems,2400:3200::1,AAAA,"['2600:9000:20c5:b000:f:aadd:1480:93a1', '2600:9000:20c5:3400:f:aadd:1480:93a1', '2600:9000:20c5:2e00:f:aadd:1480:93a1', '2600:9000:20c5:2800:f:aadd:1480:93a1', '2600:9000:20c5:6e00:f:aadd:1480:93a1', '2600:9000:20c5:ae00:f:aadd:1480:93a1', '2600:9000:20c5:d000:f:aadd:1480:93a1', '2600:9000:20c5:6a00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.392808,aj2555.bid,117.50.11.11,A,['135.181.113.178'],,
+2024-11-15T04:09:34.392808,ajc.com,1.1.1.1,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.392808,ajax.systems,2400:3200:baba::1,AAAA,"['2600:9000:20c5:e400:f:aadd:1480:93a1', '2600:9000:20c5:fe00:f:aadd:1480:93a1', '2600:9000:20c5:9000:f:aadd:1480:93a1', '2600:9000:20c5:4400:f:aadd:1480:93a1', '2600:9000:20c5:2600:f:aadd:1480:93a1', '2600:9000:20c5:ac00:f:aadd:1480:93a1', '2600:9000:20c5:a00:f:aadd:1480:93a1', '2600:9000:20c5:4c00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.392808,aiv-cdn.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.392808,aiv-cdn.net,8.8.4.4,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 8.8.4.4
+2024-11-15T04:09:34.392808,ajc.com,8.8.8.8,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.392808,airtel.in,101.226.4.7,A,[],Timeout,Timeout occurred for domain: airtel.in on server: 101.226.4.7
+2024-11-15T04:09:34.392808,ajax.systems,2a10:50c0::ad2:ff,AAAA,"['2600:9000:2755:ac00:f:aadd:1480:93a1', '2600:9000:2755:1200:f:aadd:1480:93a1', '2600:9000:2755:1400:f:aadd:1480:93a1', '2600:9000:2755:4e00:f:aadd:1480:93a1', '2600:9000:2755:2a00:f:aadd:1480:93a1', '2600:9000:2755:9a00:f:aadd:1480:93a1', '2600:9000:2755:c400:f:aadd:1480:93a1', '2600:9000:2755:6c00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.392808,aiv-cdn.net,223.5.5.5,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 223.5.5.5
+2024-11-15T04:09:34.392808,aj2615.bid,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.392808,aj2615.bid,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.392808,aiv-cdn.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2620:fe::fe
+2024-11-15T04:09:34.392808,aj2555.bid,218.30.118.6,A,['135.181.113.178'],,
+2024-11-15T04:09:34.392808,ajc.com,2.56.220.2,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.392808,aiv-cdn.net,223.6.6.6,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 223.6.6.6
+2024-11-15T04:09:34.392808,aj2615.bid,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.392808,ajax.systems,2001:6d0:6d0::2001,AAAA,"['2600:9000:2646:b200:f:aadd:1480:93a1', '2600:9000:2646:6600:f:aadd:1480:93a1', '2600:9000:2646:2000:f:aadd:1480:93a1', '2600:9000:2646:5400:f:aadd:1480:93a1', '2600:9000:2646:ca00:f:aadd:1480:93a1', '2600:9000:2646:3000:f:aadd:1480:93a1', '2600:9000:2646:200:f:aadd:1480:93a1', '2600:9000:2646:8c00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.392808,ajax.systems,211.136.17.107,A,"['99.84.203.104', '99.84.203.75', '99.84.203.90', '99.84.203.33']",,
+2024-11-15T04:09:34.392808,aj2615.bid,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 2400:da00::6666
+2024-11-15T04:09:34.392808,aiv-cdn.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.392808,ajax.systems,2a02:6b8:0:1::feed:0ff,AAAA,"['2600:9000:2395:2600:f:aadd:1480:93a1', '2600:9000:2395:fc00:f:aadd:1480:93a1', '2600:9000:2395:2a00:f:aadd:1480:93a1', '2600:9000:2395:c400:f:aadd:1480:93a1', '2600:9000:2395:e00:f:aadd:1480:93a1', '2600:9000:2395:a800:f:aadd:1480:93a1', '2600:9000:2395:a600:f:aadd:1480:93a1', '2600:9000:2395:5800:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.392808,aj2555.bid,95.85.95.85,A,['135.181.113.178'],,
+2024-11-15T04:09:34.393851,aiv-cdn.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.393851,ajax.systems,2a10:50c0::ad1:ff,AAAA,"['2600:9000:2755:1400:f:aadd:1480:93a1', '2600:9000:2755:4e00:f:aadd:1480:93a1', '2600:9000:2755:2a00:f:aadd:1480:93a1', '2600:9000:2755:9a00:f:aadd:1480:93a1', '2600:9000:2755:c400:f:aadd:1480:93a1', '2600:9000:2755:6c00:f:aadd:1480:93a1', '2600:9000:2755:ac00:f:aadd:1480:93a1', '2600:9000:2755:1200:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.393851,aj2615.bid,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.393851,aj2555.bid,223.5.5.5,A,['135.181.113.178'],,
+2024-11-15T04:09:34.393851,aiv-cdn.net,114.114.115.115,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 114.114.115.115
+2024-11-15T04:09:34.393851,ajax.systems,2a02:6b8::feed:0ff,AAAA,"['2600:9000:2375:f600:f:aadd:1480:93a1', '2600:9000:2375:3600:f:aadd:1480:93a1', '2600:9000:2375:6800:f:aadd:1480:93a1', '2600:9000:2375:1200:f:aadd:1480:93a1', '2600:9000:2375:1400:f:aadd:1480:93a1', '2600:9000:2375:a200:f:aadd:1480:93a1', '2600:9000:2375:3000:f:aadd:1480:93a1', '2600:9000:2375:400:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.393851,ajc.com,77.88.8.8,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.393851,ajax.systems,2620:119:53::53,AAAA,"['2600:9000:2200:f400:f:aadd:1480:93a1', '2600:9000:2200:200:f:aadd:1480:93a1', '2600:9000:2200:4000:f:aadd:1480:93a1', '2600:9000:2200:a400:f:aadd:1480:93a1', '2600:9000:2200:c400:f:aadd:1480:93a1', '2600:9000:2200:c600:f:aadd:1480:93a1', '2600:9000:2200:d600:f:aadd:1480:93a1', '2600:9000:2200:e400:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.393851,aj2555.bid,223.6.6.6,A,['135.181.113.178'],,
+2024-11-15T04:09:34.393851,aiv-cdn.net,77.88.8.8,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 77.88.8.8
+2024-11-15T04:09:34.393851,ajax.systems,218.30.118.6,A,"['99.84.203.104', '99.84.203.33', '99.84.203.75', '99.84.203.90']",,
+2024-11-15T04:09:34.393851,aiv-cdn.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.393851,ajax.systems,2620:0:ccd::2,AAAA,"['2600:9000:2200:200:f:aadd:1480:93a1', '2600:9000:2200:4000:f:aadd:1480:93a1', '2600:9000:2200:a400:f:aadd:1480:93a1', '2600:9000:2200:c400:f:aadd:1480:93a1', '2600:9000:2200:c600:f:aadd:1480:93a1', '2600:9000:2200:d600:f:aadd:1480:93a1', '2600:9000:2200:e400:f:aadd:1480:93a1', '2600:9000:2200:f400:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.393851,ajax.systems,2606:4700:4700::1001,AAAA,"['2600:9000:20c5:2800:f:aadd:1480:93a1', '2600:9000:20c5:2e00:f:aadd:1480:93a1', '2600:9000:20c5:3400:f:aadd:1480:93a1', '2600:9000:20c5:6a00:f:aadd:1480:93a1', '2600:9000:20c5:6e00:f:aadd:1480:93a1', '2600:9000:20c5:ae00:f:aadd:1480:93a1', '2600:9000:20c5:b000:f:aadd:1480:93a1', '2600:9000:20c5:d000:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.393851,aiv-cdn.net,114.114.114.114,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 114.114.114.114
+2024-11-15T04:09:34.393851,aj2555.bid,77.88.8.1,A,['49.12.122.118'],,
+2024-11-15T04:09:34.393851,aiv-cdn.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.393851,ajax.systems,2a03:90c0:999d::1,AAAA,"['2600:9000:2755:ac00:f:aadd:1480:93a1', '2600:9000:2755:c400:f:aadd:1480:93a1', '2600:9000:2755:1200:f:aadd:1480:93a1', '2600:9000:2755:6c00:f:aadd:1480:93a1', '2600:9000:2755:2a00:f:aadd:1480:93a1', '2600:9000:2755:9a00:f:aadd:1480:93a1', '2600:9000:2755:1400:f:aadd:1480:93a1', '2600:9000:2755:4e00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,ajax.systems,2620:119:35::35,AAAA,"['2600:9000:2200:4000:f:aadd:1480:93a1', '2600:9000:2200:a400:f:aadd:1480:93a1', '2600:9000:2200:c400:f:aadd:1480:93a1', '2600:9000:2200:c600:f:aadd:1480:93a1', '2600:9000:2200:d600:f:aadd:1480:93a1', '2600:9000:2200:e400:f:aadd:1480:93a1', '2600:9000:2200:f400:f:aadd:1480:93a1', '2600:9000:2200:200:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,aiv-cdn.net,2.56.220.2,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2.56.220.2
+2024-11-15T04:09:34.394852,aj2555.bid,62.76.76.62,A,['135.181.113.178'],,
+2024-11-15T04:09:34.394852,ajc.com,95.85.95.85,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.394852,aiv-cdn.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.394852,ajax.systems,2001:4860:4860::8888,AAAA,"['2600:9000:244d:5800:f:aadd:1480:93a1', '2600:9000:244d:c200:f:aadd:1480:93a1', '2600:9000:244d:b400:f:aadd:1480:93a1', '2600:9000:244d:b000:f:aadd:1480:93a1', '2600:9000:244d:6200:f:aadd:1480:93a1', '2600:9000:244d:5400:f:aadd:1480:93a1', '2600:9000:244d:3a00:f:aadd:1480:93a1', '2600:9000:244d:6a00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,airtel.in,101.226.4.6,A,['125.16.74.90'],,
+2024-11-15T04:09:34.394852,aj2555.bid,119.29.29.29,A,['49.12.122.118'],,
+2024-11-15T04:09:34.394852,ajc.com,8.8.4.4,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.394852,aiv-cdn.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.394852,ajax.systems,2001:4860:4860::8844,AAAA,"['2600:9000:2200:6a00:f:aadd:1480:93a1', '2600:9000:2200:7800:f:aadd:1480:93a1', '2600:9000:2200:9400:f:aadd:1480:93a1', '2600:9000:2200:4400:f:aadd:1480:93a1', '2600:9000:2200:3200:f:aadd:1480:93a1', '2600:9000:2200:1200:f:aadd:1480:93a1', '2600:9000:2200:b400:f:aadd:1480:93a1', '2600:9000:2200:ee00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,ajax.systems,2620:fe::fe,AAAA,"['2600:9000:20c5:a400:f:aadd:1480:93a1', '2600:9000:20c5:7800:f:aadd:1480:93a1', '2600:9000:20c5:5c00:f:aadd:1480:93a1', '2600:9000:20c5:5e00:f:aadd:1480:93a1', '2600:9000:20c5:c00:f:aadd:1480:93a1', '2600:9000:20c5:6400:f:aadd:1480:93a1', '2600:9000:20c5:9c00:f:aadd:1480:93a1', '2600:9000:20c5:4a00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,aiv-cdn.net,1.0.0.1,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 1.0.0.1
+2024-11-15T04:09:34.394852,aj2555.bid,180.76.76.76,A,['135.181.113.178'],,
+2024-11-15T04:09:34.394852,ajax.systems,123.125.81.6,A,"['99.84.203.104', '99.84.203.33', '99.84.203.90', '99.84.203.75']",,
+2024-11-15T04:09:34.394852,aiv-delivery.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.394852,aj2615.bid,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2400:3200::1
+2024-11-15T04:09:34.394852,ajax.systems,2620:fe::10,AAAA,"['2600:9000:20c5:3800:f:aadd:1480:93a1', '2600:9000:20c5:de00:f:aadd:1480:93a1', '2600:9000:20c5:9a00:f:aadd:1480:93a1', '2600:9000:20c5:fe00:f:aadd:1480:93a1', '2600:9000:20c5:0:f:aadd:1480:93a1', '2600:9000:20c5:2200:f:aadd:1480:93a1', '2600:9000:20c5:7e00:f:aadd:1480:93a1', '2600:9000:20c5:e00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.394852,aiv-cdn.net,95.85.95.85,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 95.85.95.85
+2024-11-15T04:09:34.394852,aj2555.bid,114.114.115.115,A,['135.181.113.178'],,
+2024-11-15T04:09:34.394852,ajc.com,62.76.76.62,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.394852,aiv-delivery.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.394852,aj2615.bid,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2400:3200:baba::1
+2024-11-15T04:09:34.394852,ajax.systems,2a0c:a9c7:9::1,AAAA,"['2600:9000:20a0:8600:f:aadd:1480:93a1', '2600:9000:20a0:e400:f:aadd:1480:93a1', '2600:9000:20a0:6e00:f:aadd:1480:93a1', '2600:9000:20a0:1600:f:aadd:1480:93a1', '2600:9000:20a0:e00:f:aadd:1480:93a1', '2600:9000:20a0:e000:f:aadd:1480:93a1', '2600:9000:20a0:9c00:f:aadd:1480:93a1', '2600:9000:20a0:be00:f:aadd:1480:93a1']",,
+2024-11-15T04:09:34.395852,airtel.in,2001:4860:4860::8844,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.395852,akadns99.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.395852,akagtm.org,208.67.220.222,A,[],NoAnswer,No answer for domain: akagtm.org on server: 208.67.220.222
+2024-11-15T04:09:34.395852,akadns99.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.395852,akagtm.org,208.67.220.220,A,[],NoAnswer,No answer for domain: akagtm.org on server: 208.67.220.220
+2024-11-15T04:09:34.395852,akadns99.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.395852,akagtm.org,208.67.222.220,A,[],NoAnswer,No answer for domain: akagtm.org on server: 208.67.222.220
+2024-11-15T04:09:34.395852,akadns99.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.395852,airtel.in,2606:4700:4700::1111,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.395852,akadns99.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.395852,akadns99.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.395852,akadns99.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:fe::10
+2024-11-15T04:09:34.395852,airtel.in,2001:4860:4860::8888,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.395852,ajax.systems,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ajax.systems on server: 2400:da00::6666
+2024-11-15T04:09:34.395852,akagtm.org,114.114.114.114,A,[],NoAnswer,No answer for domain: akagtm.org on server: 114.114.114.114
+2024-11-15T04:09:34.395852,akadns99.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.395852,akadns88.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.395852,akagtm.org,94.140.14.14,A,[],NoAnswer,No answer for domain: akagtm.org on server: 94.140.14.14
+2024-11-15T04:09:34.395852,akadns88.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2402:4e00::
+2024-11-15T04:09:34.395852,akagtm.org,94.140.15.15,A,[],NoAnswer,No answer for domain: akagtm.org on server: 94.140.15.15
+2024-11-15T04:09:34.395852,akadns88.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.395852,ajax.systems,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ajax.systems on server: 101.226.4.7
+2024-11-15T04:09:34.395852,akadns88.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2400:3200::1
+2024-11-15T04:09:34.395852,ajax.systems,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ajax.systems on server: 202.96.128.86
+2024-11-15T04:09:34.395852,akadns88.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.395852,akagtm.org,123.125.81.6,A,[],NoAnswer,No answer for domain: akagtm.org on server: 123.125.81.6
+2024-11-15T04:09:34.395852,akadns88.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.395852,akagtm.org,101.226.4.6,A,[],NoAnswer,No answer for domain: akagtm.org on server: 101.226.4.6
+2024-11-15T04:09:34.395852,akagtm.org,211.136.17.107,A,[],NoAnswer,No answer for domain: akagtm.org on server: 211.136.17.107
+2024-11-15T04:09:34.396855,akagtm.org,117.50.11.11,A,[],NoAnswer,No answer for domain: akagtm.org on server: 117.50.11.11
+2024-11-15T04:09:34.396855,aj2555.bid,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 210.21.196.6
+2024-11-15T04:09:34.396855,akadns99.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.396855,akadns99.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:fe::fe
+2024-11-15T04:09:34.396855,aj2555.bid,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 202.96.128.86
+2024-11-15T04:09:34.396855,akagtm.org,218.30.118.6,A,[],NoAnswer,No answer for domain: akagtm.org on server: 218.30.118.6
+2024-11-15T04:09:34.396855,akadns99.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.396855,ajax.systems,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ajax.systems on server: 210.21.196.6
+2024-11-15T04:09:34.396855,akadns99.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.396855,akadns99.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.396855,akagtm.org,180.76.76.76,A,[],NoAnswer,No answer for domain: akagtm.org on server: 180.76.76.76
+2024-11-15T04:09:34.396855,akagtm.org,223.6.6.6,A,[],NoAnswer,No answer for domain: akagtm.org on server: 223.6.6.6
+2024-11-15T04:09:34.396855,akagtm.org,119.29.29.29,A,[],NoAnswer,No answer for domain: akagtm.org on server: 119.29.29.29
+2024-11-15T04:09:34.396855,akadns88.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:119:35::35
+2024-11-15T04:09:34.396855,akagtm.org,114.114.115.115,A,[],NoAnswer,No answer for domain: akagtm.org on server: 114.114.115.115
+2024-11-15T04:09:34.396855,akadns88.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.396855,akagtm.org,223.5.5.5,A,[],NoAnswer,No answer for domain: akagtm.org on server: 223.5.5.5
+2024-11-15T04:09:34.396855,akadns99.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.396855,akadns88.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:fe::10
+2024-11-15T04:09:34.396855,akadns88.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:119:53::53
+2024-11-15T04:09:34.396855,akagtm.org,208.67.222.222,A,[],NoAnswer,No answer for domain: akagtm.org on server: 208.67.222.222
+2024-11-15T04:09:34.396855,akagtm.org,9.9.9.10,A,[],NoAnswer,No answer for domain: akagtm.org on server: 9.9.9.10
+2024-11-15T04:09:34.396855,akagtm.org,195.208.5.1,A,[],NoAnswer,No answer for domain: akagtm.org on server: 195.208.5.1
+2024-11-15T04:09:34.396855,akadns88.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.396855,akadns88.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2620:fe::fe
+2024-11-15T04:09:34.396855,akadns88.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.396855,ajax.systems,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ajax.systems on server: 123.125.81.7
+2024-11-15T04:09:34.396855,akadns88.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.396855,aiv-delivery.net,1.1.1.1,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 1.1.1.1
+2024-11-15T04:09:34.396855,ajax.systems,195.208.4.1,A,"['18.165.122.29', '18.165.122.64', '18.165.122.48', '18.165.122.45']",,
+2024-11-15T04:09:34.397853,aka.ms,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.397853,aiv-delivery.net,1.0.0.1,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 1.0.0.1
+2024-11-15T04:09:34.397853,aj2615.bid,8.8.8.8,A,['65.21.224.187'],,
+2024-11-15T04:09:34.397853,ajax.systems,2.56.220.2,A,"['108.156.133.58', '108.156.133.121', '108.156.133.21', '108.156.133.42']",,
+2024-11-15T04:09:34.397853,airtel.in,2606:4700:4700::1001,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.397853,aiv-delivery.net,195.208.4.1,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 195.208.4.1
+2024-11-15T04:09:34.397853,aj2615.bid,2.56.220.2,A,['157.90.183.70'],,
+2024-11-15T04:09:34.397853,ajax.systems,195.208.5.1,A,"['18.239.36.3', '18.239.36.111', '18.239.36.30', '18.239.36.28']",,
+2024-11-15T04:09:34.397853,akadns.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.397853,aiv-delivery.net,195.208.5.1,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 195.208.5.1
+2024-11-15T04:09:34.397853,ajax.systems,1.0.0.1,A,"['3.162.112.14', '3.162.112.81', '3.162.112.88', '3.162.112.97']",,
+2024-11-15T04:09:34.397853,akadns.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.397853,aiv-delivery.net,62.76.62.76,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 62.76.62.76
+2024-11-15T04:09:34.397853,aj2615.bid,208.67.220.222,A,['65.21.224.187'],,
+2024-11-15T04:09:34.397853,aj2615.bid,117.50.11.11,A,['157.90.183.70'],,
+2024-11-15T04:09:34.397853,akadns.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.397853,aiv-delivery.net,9.9.9.10,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 9.9.9.10
+2024-11-15T04:09:34.397853,aj2615.bid,94.140.15.15,A,['65.21.224.187'],,
+2024-11-15T04:09:34.397853,ajax.systems,1.1.1.1,A,"['13.227.62.36', '13.227.62.71', '13.227.62.119', '13.227.62.127']",,
+2024-11-15T04:09:34.397853,akadns.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.397853,aiv-delivery.net,8.8.8.8,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 8.8.8.8
+2024-11-15T04:09:34.397853,aj2615.bid,208.67.222.220,A,['65.21.224.187'],,
+2024-11-15T04:09:34.397853,ajax.systems,95.85.95.85,A,"['108.156.133.58', '108.156.133.121', '108.156.133.21', '108.156.133.42']",,
+2024-11-15T04:09:34.397853,aka.ms,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:fe::10
+2024-11-15T04:09:34.397853,aiv-delivery.net,8.8.4.4,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 8.8.4.4
+2024-11-15T04:09:34.397853,aj2615.bid,94.140.14.14,A,['65.21.224.187'],,
+2024-11-15T04:09:34.397853,ajax.systems,77.88.8.8,A,"['108.157.229.103', '108.157.229.23', '108.157.229.37', '108.157.229.24']",,
+2024-11-15T04:09:34.397853,aka.ms,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:119:35::35
+2024-11-15T04:09:34.398851,aj2615.bid,62.76.76.62,A,['157.90.183.70'],,
+2024-11-15T04:09:34.398851,ajax.systems,77.88.8.1,A,"['108.157.229.23', '108.157.229.24', '108.157.229.103', '108.157.229.37']",,
+2024-11-15T04:09:34.398851,aka.ms,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.398851,aiv-delivery.net,62.76.76.62,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 62.76.76.62
+2024-11-15T04:09:34.398851,aj2615.bid,8.8.4.4,A,['65.21.224.187'],,
+2024-11-15T04:09:34.398851,aj2615.bid,123.125.81.6,A,['65.21.224.187'],,
+2024-11-15T04:09:34.398851,aka.ms,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.398851,aiv-delivery.net,77.88.8.8,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 77.88.8.8
+2024-11-15T04:09:34.398851,aj2615.bid,195.208.4.1,A,['65.21.224.187'],,
+2024-11-15T04:09:34.398851,aj2615.bid,101.226.4.6,A,['65.21.224.187'],,
+2024-11-15T04:09:34.398851,aka.ms,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.398851,aiv-delivery.net,77.88.8.1,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 77.88.8.1
+2024-11-15T04:09:34.398851,aj2615.bid,62.76.62.76,A,['157.90.183.70'],,
+2024-11-15T04:09:34.398851,ajax.systems,8.8.8.8,A,"['54.192.18.39', '54.192.18.97', '54.192.18.58', '54.192.18.105']",,
+2024-11-15T04:09:34.398851,akadns88.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akadns88.net on server: 2400:da00::6666
+2024-11-15T04:09:34.398851,aka.ms,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.398851,aiv-delivery.net,95.85.95.85,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 95.85.95.85
+2024-11-15T04:09:34.398851,ajax.systems,8.8.4.4,A,"['54.192.18.39', '54.192.18.97', '54.192.18.58', '54.192.18.105']",,
+2024-11-15T04:09:34.398851,aj2615.bid,195.208.5.1,A,['157.90.183.70'],,
+2024-11-15T04:09:34.398851,aka.ms,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.398851,aiv-delivery.net,2.56.220.2,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2.56.220.2
+2024-11-15T04:09:34.398851,aj2615.bid,77.88.8.1,A,['65.21.224.187'],,
+2024-11-15T04:09:34.398851,ajax.systems,223.5.5.5,A,"['99.84.203.90', '99.84.203.104', '99.84.203.33', '99.84.203.75']",,
+2024-11-15T04:09:34.398851,aka.ms,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.398851,aj2615.bid,211.136.17.107,A,['157.90.183.70'],,
+2024-11-15T04:09:34.398851,ajax.systems,119.29.29.29,A,"['99.84.203.90', '99.84.203.104', '99.84.203.33', '99.84.203.75']",,
+2024-11-15T04:09:34.398851,aka.ms,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.398851,akagtm.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akagtm.org on server: 123.125.81.7
+2024-11-15T04:09:34.398851,aj2615.bid,95.85.95.85,A,['157.90.183.70'],,
+2024-11-15T04:09:34.398851,ajax.systems,208.67.220.222,A,"['54.192.18.105', '54.192.18.39', '54.192.18.58', '54.192.18.97']",,
+2024-11-15T04:09:34.398851,aka.ms,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.399851,aiv-delivery.net,94.140.14.14,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 94.140.14.14
+2024-11-15T04:09:34.399851,aj2615.bid,218.30.118.6,A,['157.90.183.70'],,
+2024-11-15T04:09:34.399851,ajax.systems,223.6.6.6,A,"['3.168.86.78', '3.168.86.119', '3.168.86.99', '3.168.86.97']",,
+2024-11-15T04:09:34.399851,aka.ms,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.399851,aiv-delivery.net,208.67.222.220,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 208.67.222.220
+2024-11-15T04:09:34.399851,aj2615.bid,1.1.1.1,A,['157.90.183.70'],,
+2024-11-15T04:09:34.399851,ajax.systems,208.67.220.220,A,"['54.192.18.105', '54.192.18.39', '54.192.18.58', '54.192.18.97']",,
+2024-11-15T04:09:34.399851,aka.ms,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.399851,aiv-cdn.net,119.29.29.29,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 119.29.29.29
+2024-11-15T04:09:34.399851,aj2615.bid,180.76.76.76,A,['65.21.224.187'],,
+2024-11-15T04:09:34.399851,ajax.systems,208.67.222.220,A,"['54.192.18.105', '54.192.18.39', '54.192.18.58', '54.192.18.97']",,
+2024-11-15T04:09:34.400797,akagtm.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akagtm.org on server: 101.226.4.7
+2024-11-15T04:09:34.400797,aiv-delivery.net,208.67.220.222,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 208.67.220.222
+2024-11-15T04:09:34.400797,akagtm.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akagtm.org on server: 210.21.196.6
+2024-11-15T04:09:34.400797,aka.ms,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.400797,aiv-cdn.net,123.125.81.6,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 123.125.81.6
+2024-11-15T04:09:34.400797,aj2615.bid,208.67.222.222,A,['157.90.183.70'],,
+2024-11-15T04:09:34.400797,ajax.systems,208.67.222.222,A,"['54.192.18.97', '54.192.18.105', '54.192.18.39', '54.192.18.58']",,
+2024-11-15T04:09:34.400797,akagtm.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akagtm.org on server: 202.96.128.86
+2024-11-15T04:09:34.400797,aiv-cdn.net,101.226.4.6,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 101.226.4.6
+2024-11-15T04:09:34.400797,aj2615.bid,208.67.220.220,A,['157.90.183.70'],,
+2024-11-15T04:09:34.400797,aj2615.bid,77.88.8.8,A,['65.21.224.187'],,
+2024-11-15T04:09:34.400797,akadns.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.400797,aiv-cdn.net,211.136.17.107,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 211.136.17.107
+2024-11-15T04:09:34.400797,aj2615.bid,119.29.29.29,A,['65.21.224.187'],,
+2024-11-15T04:09:34.400797,akagtm.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akagtm.org on server: 9.9.9.9
+2024-11-15T04:09:34.400797,aka.ms,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2400:3200::1
+2024-11-15T04:09:34.400797,aiv-cdn.net,117.50.11.11,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 117.50.11.11
+2024-11-15T04:09:34.400797,aiv-cdn.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 123.125.81.7
+2024-11-15T04:09:34.400797,aiv-cdn.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 101.226.4.7
+2024-11-15T04:09:34.400797,aka.ms,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2402:4e00::
+2024-11-15T04:09:34.400797,ak-is2.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 2400:da00::6666
+2024-11-15T04:09:34.400797,aj2615.bid,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 210.21.196.6
+2024-11-15T04:09:34.401799,ajax.systems,9.9.9.10,A,"['18.245.60.84', '18.245.60.7', '18.245.60.107', '18.245.60.40']",,
+2024-11-15T04:09:34.401799,aka.ms,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.401799,aiv-cdn.net,218.30.118.6,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 218.30.118.6
+2024-11-15T04:09:34.401799,aj2615.bid,9.9.9.10,A,['157.90.183.70'],,
+2024-11-15T04:09:34.401799,ajax.systems,114.114.114.114,A,"['99.84.203.75', '99.84.203.90', '99.84.203.104']",,
+2024-11-15T04:09:34.401799,aka.ms,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2400:3200:baba::1
+2024-11-15T04:09:34.401799,aiv-cdn.net,180.76.76.76,A,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 180.76.76.76
+2024-11-15T04:09:34.401799,aj2615.bid,223.5.5.5,A,['157.90.183.70'],,
+2024-11-15T04:09:34.401799,ajax.systems,114.114.115.115,A,"['99.84.203.90', '99.84.203.104', '99.84.203.33']",,
+2024-11-15T04:09:34.401799,aka.ms,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:0:ccd::2
+2024-11-15T04:09:34.401799,aka.ms,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aka.ms on server: 2400:da00::6666
+2024-11-15T04:09:34.401799,aj2615.bid,223.6.6.6,A,['65.21.224.187'],,
+2024-11-15T04:09:34.401799,ajax.systems,62.76.62.76,A,"['18.239.36.111', '18.239.36.28', '18.239.36.3', '18.239.36.30']",,
+2024-11-15T04:09:34.401799,aka.ms,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.401799,aiv-delivery.net,208.67.222.222,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 208.67.222.222
+2024-11-15T04:09:34.401799,aj2615.bid,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 123.125.81.7
+2024-11-15T04:09:34.401799,aj2615.bid,1.0.0.1,A,['157.90.183.70'],,
+2024-11-15T04:09:34.401799,ajax.systems,94.140.15.15,A,"['99.84.203.33', '99.84.203.90', '99.84.203.104', '99.84.203.75']",,
+2024-11-15T04:09:34.401799,aka.ms,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:119:53::53
+2024-11-15T04:09:34.401799,aj2615.bid,114.114.115.115,A,['65.21.224.187'],,
+2024-11-15T04:09:34.401799,aj2615.bid,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 101.226.4.7
+2024-11-15T04:09:34.401799,aka.ms,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:0:ccc::2
+2024-11-15T04:09:34.401799,aiv-delivery.net,208.67.220.220,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 208.67.220.220
+2024-11-15T04:09:34.401799,aj2615.bid,114.114.114.114,A,['65.21.224.187'],,
+2024-11-15T04:09:34.401799,aj2615.bid,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 202.96.128.86
+2024-11-15T04:09:34.401799,ajax.systems,62.76.76.62,A,"['108.157.229.24', '108.157.229.103', '108.157.229.23', '108.157.229.37']",,
+2024-11-15T04:09:34.401799,ajax.systems,94.140.14.14,A,"['99.84.203.33', '99.84.203.90', '99.84.203.104', '99.84.203.75']",,
+2024-11-15T04:09:34.401799,aka.ms,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aka.ms on server: 2620:fe::fe
+2024-11-15T04:09:34.401799,aj1907.online,77.88.8.8,A,"['65.21.224.61', '65.21.89.92', '65.21.196.34']",,
+2024-11-15T04:09:34.401799,aj1907.online,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.401799,ak-is2.net,62.76.76.62,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 62.76.76.62
+2024-11-15T04:09:34.401799,aiv-delivery.net,94.140.15.15,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 94.140.15.15
+2024-11-15T04:09:34.401799,ak-is2.net,208.67.220.220,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 208.67.220.220
+2024-11-15T04:09:34.401799,aiv-delivery.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2400:3200::1
+2024-11-15T04:09:34.401799,aj1907.online,2.56.220.2,A,"['65.21.224.61', '65.21.89.92', '65.21.196.34']",,
+2024-11-15T04:09:34.402790,ak-is2.net,8.8.8.8,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 8.8.8.8
+2024-11-15T04:09:34.402790,aiv-delivery.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.402790,aj1907.online,9.9.9.10,A,"['65.21.89.92', '65.21.224.61', '65.21.196.34']",,
+2024-11-15T04:09:34.402790,aiv-delivery.net,180.76.76.76,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 180.76.76.76
+2024-11-15T04:09:34.402790,ak-is2.net,8.8.4.4,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 8.8.4.4
+2024-11-15T04:09:34.402790,aiv-delivery.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.402790,ak-is2.net,208.67.222.220,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 208.67.222.220
+2024-11-15T04:09:34.402790,aj1907.online,62.76.76.62,A,"['23.88.0.239', '23.88.0.234', '148.251.134.111']",,
+2024-11-15T04:09:34.402790,aiv-delivery.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.402790,ak-is2.net,94.140.15.15,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 94.140.15.15
+2024-11-15T04:09:34.402790,aiv-delivery.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.402790,aj1907.online,77.88.8.1,A,"['65.21.89.92', '65.21.196.34', '65.21.224.61']",,
+2024-11-15T04:09:34.402790,ak-is2.net,195.208.5.1,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 195.208.5.1
+2024-11-15T04:09:34.402790,aiv-delivery.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.402790,aiv-delivery.net,114.114.114.114,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 114.114.114.114
+2024-11-15T04:09:34.402790,aiv-delivery.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:119:35::35
+2024-11-15T04:09:34.402790,ak-is2.net,208.67.220.222,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 208.67.220.222
+2024-11-15T04:09:34.402790,aiv-delivery.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:119:53::53
+2024-11-15T04:09:34.402790,aiv-delivery.net,218.30.118.6,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 218.30.118.6
+2024-11-15T04:09:34.402790,ak-is2.net,94.140.14.14,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 94.140.14.14
+2024-11-15T04:09:34.402790,aj1907.online,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:119:53::53
+2024-11-15T04:09:34.402790,ajax.systems,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ajax.systems on server: 9.9.9.9
+2024-11-15T04:09:34.402790,aiv-cdn.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 210.21.196.6
+2024-11-15T04:09:34.402790,aj1907.online,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:0:ccc::2
+2024-11-15T04:09:34.402790,aiv-delivery.net,211.136.17.107,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 211.136.17.107
+2024-11-15T04:09:34.402790,aj2615.bid,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aj2615.bid on server: 9.9.9.9
+2024-11-15T04:09:34.402790,aj1907.online,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:fe::10
+2024-11-15T04:09:34.402790,aj1907.online,8.8.8.8,A,"['65.21.224.61', '65.21.196.34', '65.21.89.92']",,
+2024-11-15T04:09:34.402790,ak-is2.net,9.9.9.10,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 9.9.9.10
+2024-11-15T04:09:34.402790,aj1907.online,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:119:35::35
+2024-11-15T04:09:34.402790,aiv-delivery.net,114.114.115.115,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 114.114.115.115
+2024-11-15T04:09:34.402790,ak-is2.net,208.67.222.222,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 208.67.222.222
+2024-11-15T04:09:34.402790,aj1907.online,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.402790,aj1907.online,195.208.5.1,A,"['65.21.89.92', '65.21.196.34', '65.21.224.61']",,
+2024-11-15T04:09:34.402790,ajio.com,123.125.81.6,A,['49.40.59.11'],,
+2024-11-15T04:09:34.402790,aj1907.online,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:fe::fe
+2024-11-15T04:09:34.402790,aiv-delivery.net,119.29.29.29,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 119.29.29.29
+2024-11-15T04:09:34.402790,ajio.com,101.226.4.6,A,['49.40.59.11'],,
+2024-11-15T04:09:34.402790,aj1907.online,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.402790,aj1907.online,62.76.62.76,A,"['23.88.0.234', '148.251.134.111', '23.88.0.239']",,
+2024-11-15T04:09:34.402790,aiv-cdn.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aiv-cdn.net on server: 202.96.128.86
+2024-11-15T04:09:34.403793,ak-is2.net,2.56.220.2,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 2.56.220.2
+2024-11-15T04:09:34.403793,aj1907.online,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.403793,aj1907.online,195.208.4.1,A,"['65.21.89.92', '65.21.224.61', '65.21.196.34']",,
+2024-11-15T04:09:34.403793,ak-is2.net,77.88.8.8,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 77.88.8.8
+2024-11-15T04:09:34.403793,aiv-delivery.net,117.50.11.11,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 117.50.11.11
+2024-11-15T04:09:34.403793,ak-is2.net,77.88.8.1,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 77.88.8.1
+2024-11-15T04:09:34.403793,aj1907.online,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.403793,aiv-delivery.net,223.5.5.5,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 223.5.5.5
+2024-11-15T04:09:34.403793,ak-is2.net,195.208.4.1,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 195.208.4.1
+2024-11-15T04:09:34.403793,aiv-delivery.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 9.9.9.9
+2024-11-15T04:09:34.403793,aj1907.online,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.403793,aj1907.online,95.85.95.85,A,"['65.21.196.34', '65.21.89.92', '65.21.224.61']",,
+2024-11-15T04:09:34.403793,ak-is2.net,1.0.0.1,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 1.0.0.1
+2024-11-15T04:09:34.403793,aiv-delivery.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2402:4e00::
+2024-11-15T04:09:34.403793,ak-is2.net,95.85.95.85,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 95.85.95.85
+2024-11-15T04:09:34.403793,ak-is2.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 9.9.9.9
+2024-11-15T04:09:34.403793,aj1907.online,1.1.1.1,A,"['23.88.0.239', '23.88.0.234', '148.251.134.111']",,
+2024-11-15T04:09:34.403793,ajio.com,180.76.76.76,A,['49.40.59.11'],,
+2024-11-15T04:09:34.403793,aj1907.online,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.403793,aj1907.online,1.0.0.1,A,"['148.251.134.111', '23.88.0.239', '23.88.0.234']",,
+2024-11-15T04:09:34.403793,aj1907.online,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.403793,aj1907.online,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aj1907.online on server: 9.9.9.9
+2024-11-15T04:09:34.403793,aj1907.online,8.8.4.4,A,"['65.21.196.34', '65.21.224.61', '65.21.89.92']",,
+2024-11-15T04:09:34.403793,ajio.com,211.136.17.107,A,['49.40.59.11'],,
+2024-11-15T04:09:34.403793,aiv-delivery.net,223.6.6.6,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 223.6.6.6
+2024-11-15T04:09:34.403793,aj1907.online,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.403793,aj1907.online,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.403793,ajio.com,117.50.11.11,A,['49.40.59.11'],,
+2024-11-15T04:09:34.403793,ak-is2.net,62.76.62.76,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 62.76.62.76
+2024-11-15T04:09:34.403793,aiv-delivery.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:fe::10
+2024-11-15T04:09:34.403793,airtel.in,8.8.8.8,A,['125.16.74.90'],,
+2024-11-15T04:09:34.403793,aiv-delivery.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 202.96.128.86
+2024-11-15T04:09:34.403793,ak-is2.net,1.1.1.1,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 1.1.1.1
+2024-11-15T04:09:34.403793,aj1907.online,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.403793,airtel.in,8.8.4.4,A,['125.16.74.90'],,
+2024-11-15T04:09:34.403793,aiv-delivery.net,123.125.81.6,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 123.125.81.6
+2024-11-15T04:09:34.403793,ajio.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ajio.com on server: 123.125.81.7
+2024-11-15T04:09:34.403793,aiv-delivery.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 2620:fe::fe
+2024-11-15T04:09:34.403793,aiv-delivery.net,101.226.4.6,A,[],NoAnswer,No answer for domain: aiv-delivery.net on server: 101.226.4.6
+2024-11-15T04:09:34.403793,ajio.com,218.30.118.6,A,['49.40.59.11'],,
+2024-11-15T04:09:34.403793,aj1907.online,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.403793,aj1907.online,223.5.5.5,A,"['148.251.134.111', '23.88.0.234', '23.88.0.239']",,
+2024-11-15T04:09:34.403793,ajio.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ajio.com on server: 101.226.4.7
+2024-11-15T04:09:34.403793,ajc.com,195.208.4.1,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.403793,aj1907.online,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2400:3200:baba::1
+2024-11-15T04:09:34.403793,aka.ms,95.85.95.85,A,['96.16.25.182'],,
+2024-11-15T04:09:34.404790,ajio.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.404790,aj1907.online,117.50.11.11,A,"['65.21.224.61', '65.21.89.92', '65.21.196.34']",,
+2024-11-15T04:09:34.404790,ajc.com,123.125.81.6,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.404790,aj2396.online,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-15T04:09:34.404790,aka.ms,195.208.4.1,A,['23.45.53.206'],,
+2024-11-15T04:09:34.404790,aj1907.online,208.67.222.222,A,"['65.21.224.61', '65.21.89.92', '65.21.196.34']",,
+2024-11-15T04:09:34.404790,aiv-delivery.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 2400:da00::6666
+2024-11-15T04:09:34.404790,aiv-delivery.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 210.21.196.6
+2024-11-15T04:09:34.404790,ajio.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.404790,aj1907.online,114.114.114.114,A,"['23.88.0.239', '148.251.134.111', '23.88.0.234']",,
+2024-11-15T04:09:34.404790,ajc.com,117.50.11.11,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.404790,ajio.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ajio.com on server: 202.96.128.86
+2024-11-15T04:09:34.404790,aj1907.online,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-15T04:09:34.404790,aka.ms,2.56.220.2,A,['96.16.25.182'],,
+2024-11-15T04:09:34.404790,aj1907.online,114.114.115.115,A,"['23.88.0.239', '148.251.134.111', '23.88.0.234']",,
+2024-11-15T04:09:34.404790,ajc.com,101.226.4.6,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.404790,ajio.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:119:53::53
+2024-11-15T04:09:34.404790,aka.ms,62.76.62.76,A,['184.51.135.128'],,
+2024-11-15T04:09:34.404790,ajio.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:0:ccc::2
+2024-11-15T04:09:34.404790,aj2396.online,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2402:4e00::
+2024-11-15T04:09:34.404790,ajc.com,114.114.115.115,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.404790,aj1907.online,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2400:3200::1
+2024-11-15T04:09:34.404790,aj1907.online,211.136.17.107,A,"['65.21.224.61', '65.21.89.92', '65.21.196.34']",,
+2024-11-15T04:09:34.404790,ajc.com,223.5.5.5,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.404790,aiv-delivery.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 123.125.81.7
+2024-11-15T04:09:34.404790,aka.ms,195.208.5.1,A,['23.202.118.57'],,
+2024-11-15T04:09:34.404790,aj2396.online,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.404790,ajc.com,218.30.118.6,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.404790,ajio.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.404790,aj2396.online,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2400:3200:baba::1
+2024-11-15T04:09:34.404790,ajc.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2400:3200::1
+2024-11-15T04:09:34.404790,aiv-delivery.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aiv-delivery.net on server: 101.226.4.7
+2024-11-15T04:09:34.404790,aka.ms,77.88.8.1,A,['23.212.233.145'],,
+2024-11-15T04:09:34.404790,ajc.com,211.136.17.107,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.404790,aj1907.online,218.30.118.6,A,"['23.88.0.234', '148.251.134.111', '23.88.0.239']",,
+2024-11-15T04:09:34.404790,ajc.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2400:3200:baba::1
+2024-11-15T04:09:34.404790,aj2396.online,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:fe::fe
+2024-11-15T04:09:34.404790,aka.ms,62.76.76.62,A,['23.45.53.206'],,
+2024-11-15T04:09:34.404790,aj1907.online,94.140.14.14,A,['0.0.0.0'],,
+2024-11-15T04:09:34.404790,aka.ms,1.0.0.1,A,['23.3.86.151'],,
+2024-11-15T04:09:34.404790,ajio.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:fe::10
+2024-11-15T04:09:34.404790,aj1907.online,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2402:4e00::
+2024-11-15T04:09:34.404790,aj1907.online,94.140.15.15,A,['0.0.0.0'],,
+2024-11-15T04:09:34.404790,aka.ms,77.88.8.8,A,['23.37.17.215'],,
+2024-11-15T04:09:34.404790,ajio.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ajio.com on server: 210.21.196.6
+2024-11-15T04:09:34.404790,aj2396.online,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:119:35::35
+2024-11-15T04:09:34.405792,ajio.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:119:35::35
+2024-11-15T04:09:34.405792,ajc.com,94.140.15.15,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.405792,aj1907.online,180.76.76.76,A,"['148.251.134.111', '23.88.0.234', '23.88.0.239']",,
+2024-11-15T04:09:34.405792,aka.ms,8.8.4.4,A,['184.85.109.247'],,
+2024-11-15T04:09:34.405792,ajio.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:fe::fe
+2024-11-15T04:09:34.405792,ajc.com,114.114.114.114,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.405792,aka.ms,1.1.1.1,A,['92.122.18.57'],,
+2024-11-15T04:09:34.405792,aj2396.online,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:0:ccd::2
+2024-11-15T04:09:34.405792,aj1907.online,223.6.6.6,A,"['148.251.134.111', '23.88.0.234', '23.88.0.239']",,
+2024-11-15T04:09:34.405792,ajc.com,119.29.29.29,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.405792,ajio.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.405792,aj1907.online,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-15T04:09:34.405792,ajc.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.405792,aj1907.online,119.29.29.29,A,"['65.21.196.34', '65.21.89.92', '65.21.224.61']",,
+2024-11-15T04:09:34.405792,ajc.com,180.76.76.76,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.405792,aka.ms,8.8.8.8,A,['184.85.109.247'],,
+2024-11-15T04:09:34.405792,aj2396.online,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.405792,ajc.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.405792,aj2396.online,77.88.8.1,A,['212.124.124.38'],,
+2024-11-15T04:09:34.405792,ajc.com,223.6.6.6,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.405792,ak-is2.net,101.226.4.6,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 101.226.4.6
+2024-11-15T04:09:34.405792,aj2396.online,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.405792,ajio.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.405792,aj2396.online,62.76.76.62,A,['199.80.53.148'],,
+2024-11-15T04:09:34.405792,ajc.com,62.76.62.76,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.405792,ajc.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ajc.com on server: 123.125.81.7
+2024-11-15T04:09:34.405792,aj2396.online,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.405792,ajio.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.405792,aj2396.online,2.56.220.2,A,['199.80.53.148'],,
+2024-11-15T04:09:34.405792,ajc.com,208.67.220.222,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.405792,ak-is2.net,117.50.11.11,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 117.50.11.11
+2024-11-15T04:09:34.405792,aj2396.online,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:0:ccc::2
+2024-11-15T04:09:34.405792,aj1907.online,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aj1907.online on server: 2400:da00::6666
+2024-11-15T04:09:34.405792,ajc.com,94.140.14.14,A,"['3.214.1.229', '44.216.118.98']",,
+2024-11-15T04:09:34.405792,aj2396.online,77.88.8.8,A,['212.124.124.38'],,
+2024-11-15T04:09:34.405792,ak-is2.net,123.125.81.6,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 123.125.81.6
+2024-11-15T04:09:34.405792,aj2396.online,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.405792,ajio.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.405792,aj2396.online,95.85.95.85,A,['199.80.53.148'],,
+2024-11-15T04:09:34.405792,ajc.com,195.208.5.1,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.405792,ak-is2.net,218.30.118.6,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 218.30.118.6
+2024-11-15T04:09:34.405792,aj2396.online,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.405792,ajc.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2402:4e00::
+2024-11-15T04:09:34.405792,aj1907.online,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aj1907.online on server: 210.21.196.6
+2024-11-15T04:09:34.405792,aj1907.online,208.67.220.220,A,"['148.251.134.111', '23.88.0.234', '23.88.0.239']",,
+2024-11-15T04:09:34.406791,ak-is2.net,211.136.17.107,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 211.136.17.107
+2024-11-15T04:09:34.406791,aj2396.online,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2400:3200::1
+2024-11-15T04:09:34.406791,ajio.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.406791,ajc.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ajc.com on server: 202.96.128.86
+2024-11-15T04:09:34.406791,ajio.com,8.8.4.4,A,['49.40.59.11'],,
+2024-11-15T04:09:34.406791,aj2396.online,8.8.4.4,A,['212.124.124.38'],,
+2024-11-15T04:09:34.406791,aj1907.online,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aj1907.online on server: 2620:0:ccd::2
+2024-11-15T04:09:34.406791,ajc.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:119:35::35
+2024-11-15T04:09:34.406791,ajc.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ajc.com on server: 210.21.196.6
+2024-11-15T04:09:34.406791,aj2396.online,1.0.0.1,A,['199.80.53.148'],,
+2024-11-15T04:09:34.406791,aj2396.online,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-15T04:09:34.406791,ajc.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:119:53::53
+2024-11-15T04:09:34.406791,ak-is2.net,114.114.114.114,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 114.114.114.114
+2024-11-15T04:09:34.406791,aj2396.online,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.406791,ajc.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:0:ccc::2
+2024-11-15T04:09:34.406791,aj2396.online,8.8.8.8,A,['212.124.124.38'],,
+2024-11-15T04:09:34.406791,aj1907.online,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aj1907.online on server: 202.96.128.86
+2024-11-15T04:09:34.406791,ak-is2.net,114.114.115.115,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 114.114.115.115
+2024-11-15T04:09:34.406791,ajc.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:0:ccd::2
+2024-11-15T04:09:34.406791,aj2396.online,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.406791,aj1907.online,123.125.81.6,A,"['23.88.0.234', '148.251.134.111', '23.88.0.239']",,
+2024-11-15T04:09:34.406791,ak-is2.net,180.76.76.76,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 180.76.76.76
+2024-11-15T04:09:34.406791,aj2396.online,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.406791,ak-is2.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 101.226.4.7
+2024-11-15T04:09:34.406791,aj1907.online,208.67.222.220,A,"['65.21.89.92', '65.21.196.34', '65.21.224.61']",,
+2024-11-15T04:09:34.406791,ajc.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:fe::fe
+2024-11-15T04:09:34.406791,ajio.com,8.8.8.8,A,['49.40.59.11'],,
+2024-11-15T04:09:34.406791,aj2396.online,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:119:53::53
+2024-11-15T04:09:34.406791,ajc.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ajc.com on server: 2620:fe::10
+2024-11-15T04:09:34.406791,ak-is2.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 123.125.81.7
+2024-11-15T04:09:34.406791,ajc.com,208.67.220.220,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.406791,ak-is2.net,119.29.29.29,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 119.29.29.29
+2024-11-15T04:09:34.406791,aj2396.online,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.406791,ajio.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.406791,aj1907.online,208.67.220.222,A,"['23.88.0.234', '23.88.0.239', '148.251.134.111']",,
+2024-11-15T04:09:34.406791,ajc.com,208.67.222.220,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.406791,aj2396.online,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.406791,ajio.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.406791,ajc.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ajc.com on server: 2400:da00::6666
+2024-11-15T04:09:34.406791,ajc.com,9.9.9.10,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.406791,ak-is2.net,223.5.5.5,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 223.5.5.5
+2024-11-15T04:09:34.406791,aj2396.online,1.1.1.1,A,['199.80.53.148'],,
+2024-11-15T04:09:34.406791,ajio.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.406791,aj1907.online,101.226.4.6,A,"['65.21.89.92', '65.21.196.34', '65.21.224.61']",,
+2024-11-15T04:09:34.406791,ajc.com,208.67.222.222,A,"['44.216.118.98', '3.214.1.229']",,
+2024-11-15T04:09:34.406791,ak-is2.net,223.6.6.6,A,[],NoAnswer,No answer for domain: ak-is2.net on server: 223.6.6.6
+2024-11-15T04:09:34.406791,aj2396.online,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2620:fe::10
+2024-11-15T04:09:34.406791,ajio.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.407789,airtel.in,211.136.17.107,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,aka.ms,94.140.14.14,A,['23.62.178.151'],,
+2024-11-15T04:09:34.407789,akadns99.net,211.136.17.107,A,[],NoAnswer,No answer for domain: akadns99.net on server: 211.136.17.107
+2024-11-15T04:09:34.407789,akadns99.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.407789,airtel.in,117.50.11.11,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,aka.ms,94.140.15.15,A,['23.62.178.151'],,
+2024-11-15T04:09:34.407789,akagtm.org,62.76.62.76,A,[],NoAnswer,No answer for domain: akagtm.org on server: 62.76.62.76
+2024-11-15T04:09:34.407789,akadns99.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.407789,ajc.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ajc.com on server: 9.9.9.9
+2024-11-15T04:09:34.407789,aka.ms,208.67.222.220,A,['23.45.53.206'],,
+2024-11-15T04:09:34.407789,akagtm.org,195.208.4.1,A,[],NoAnswer,No answer for domain: akagtm.org on server: 195.208.4.1
+2024-11-15T04:09:34.407789,akadns99.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.407789,airtel.in,218.30.118.6,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,aka.ms,208.67.220.222,A,['23.219.73.130'],,
+2024-11-15T04:09:34.407789,akagtm.org,77.88.8.8,A,[],NoAnswer,No answer for domain: akagtm.org on server: 77.88.8.8
+2024-11-15T04:09:34.407789,akadns99.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:119:53::53
+2024-11-15T04:09:34.407789,ak-is2.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 210.21.196.6
+2024-11-15T04:09:34.407789,aka.ms,208.67.222.222,A,['23.219.73.130'],,
+2024-11-15T04:09:34.407789,akagtm.org,77.88.8.1,A,[],NoAnswer,No answer for domain: akagtm.org on server: 77.88.8.1
+2024-11-15T04:09:34.407789,aj1907.online,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aj1907.online on server: 101.226.4.7
+2024-11-15T04:09:34.407789,aka.ms,208.67.220.220,A,['23.219.73.130'],,
+2024-11-15T04:09:34.407789,akagtm.org,1.1.1.1,A,[],NoAnswer,No answer for domain: akagtm.org on server: 1.1.1.1
+2024-11-15T04:09:34.407789,akadns99.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2620:119:35::35
+2024-11-15T04:09:34.407789,airtel.in,2.56.220.2,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,akagtm.org,2.56.220.2,A,[],NoAnswer,No answer for domain: akagtm.org on server: 2.56.220.2
+2024-11-15T04:09:34.407789,akagtm.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.407789,ajc.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ajc.com on server: 101.226.4.7
+2024-11-15T04:09:34.407789,aka.ms,9.9.9.10,A,['72.246.170.70'],,
+2024-11-15T04:09:34.407789,ak-is2.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ak-is2.net on server: 202.96.128.86
+2024-11-15T04:09:34.407789,aj1907.online,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aj1907.online on server: 123.125.81.7
+2024-11-15T04:09:34.407789,akagtm.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.407789,akadns.net,2.56.220.2,A,[],NoAnswer,No answer for domain: akadns.net on server: 2.56.220.2
+2024-11-15T04:09:34.407789,airtel.in,62.76.76.62,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,akagtm.org,95.85.95.85,A,[],NoAnswer,No answer for domain: akagtm.org on server: 95.85.95.85
+2024-11-15T04:09:34.407789,akagtm.org,62.76.76.62,A,[],NoAnswer,No answer for domain: akagtm.org on server: 62.76.76.62
+2024-11-15T04:09:34.407789,akagtm.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.407789,akagtm.org,1.0.0.1,A,[],NoAnswer,No answer for domain: akagtm.org on server: 1.0.0.1
+2024-11-15T04:09:34.407789,airtel.in,208.67.222.220,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,akadns.net,1.0.0.1,A,[],NoAnswer,No answer for domain: akadns.net on server: 1.0.0.1
+2024-11-15T04:09:34.407789,akagtm.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.407789,akadns99.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2402:4e00::
+2024-11-15T04:09:34.407789,airtel.in,94.140.14.14,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,akadns.net,95.85.95.85,A,[],NoAnswer,No answer for domain: akadns.net on server: 95.85.95.85
+2024-11-15T04:09:34.407789,aj2396.online,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aj2396.online on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.407789,airtel.in,77.88.8.8,A,['125.16.74.90'],,
+2024-11-15T04:09:34.407789,akadns.net,1.1.1.1,A,[],NoAnswer,No answer for domain: akadns.net on server: 1.1.1.1
+2024-11-15T04:09:34.408791,akadns99.net,218.30.118.6,A,[],NoAnswer,No answer for domain: akadns99.net on server: 218.30.118.6
+2024-11-15T04:09:34.408791,akagtm.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:fe::10
+2024-11-15T04:09:34.408791,airtel.in,1.1.1.1,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,akadns99.net,94.140.15.15,A,[],NoAnswer,No answer for domain: akadns99.net on server: 94.140.15.15
+2024-11-15T04:09:34.408791,akagtm.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:119:35::35
+2024-11-15T04:09:34.408791,airtel.in,95.85.95.85,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,akadns.net,8.8.8.8,A,[],NoAnswer,No answer for domain: akadns.net on server: 8.8.8.8
+2024-11-15T04:09:34.408791,akagtm.org,8.8.8.8,A,[],NoAnswer,No answer for domain: akagtm.org on server: 8.8.8.8
+2024-11-15T04:09:34.408791,akagtm.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.408791,airtel.in,1.0.0.1,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,akadns.net,8.8.4.4,A,[],NoAnswer,No answer for domain: akadns.net on server: 8.8.4.4
+2024-11-15T04:09:34.408791,airtel.in,210.21.196.6,A,[],Timeout,Timeout occurred for domain: airtel.in on server: 210.21.196.6
+2024-11-15T04:09:34.408791,akagtm.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:fe::fe
+2024-11-15T04:09:34.408791,airtel.in,114.114.115.115,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,117.50.11.11,A,['23.203.106.183'],,
+2024-11-15T04:09:34.408791,akadns99.net,117.50.11.11,A,[],NoAnswer,No answer for domain: akadns99.net on server: 117.50.11.11
+2024-11-15T04:09:34.408791,akadns99.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2400:3200::1
+2024-11-15T04:09:34.408791,airtel.in,208.67.220.222,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,airtel.in,195.208.4.1,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,akadns99.net,119.29.29.29,A,[],NoAnswer,No answer for domain: akadns99.net on server: 119.29.29.29
+2024-11-15T04:09:34.408791,akadns99.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.408791,airtel.in,180.76.76.76,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,123.125.81.6,A,['23.219.73.130'],,
+2024-11-15T04:09:34.408791,aka.ms,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aka.ms on server: 9.9.9.9
+2024-11-15T04:09:34.408791,akadns99.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: akadns99.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.408791,airtel.in,9.9.9.9,A,[],Timeout,Timeout occurred for domain: airtel.in on server: 9.9.9.9
+2024-11-15T04:09:34.408791,aka.ms,101.226.4.6,A,['23.219.73.130'],,
+2024-11-15T04:09:34.408791,akadns99.net,101.226.4.6,A,[],NoAnswer,No answer for domain: akadns99.net on server: 101.226.4.6
+2024-11-15T04:09:34.408791,akagtm.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:119:53::53
+2024-11-15T04:09:34.408791,airtel.in,119.29.29.29,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aka.ms on server: 123.125.81.7
+2024-11-15T04:09:34.408791,akadns99.net,180.76.76.76,A,[],NoAnswer,No answer for domain: akadns99.net on server: 180.76.76.76
+2024-11-15T04:09:34.408791,akagtm.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.408791,akadns99.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akadns99.net on server: 210.21.196.6
+2024-11-15T04:09:34.408791,aka.ms,218.30.118.6,A,['23.217.173.215'],,
+2024-11-15T04:09:34.408791,akadns99.net,223.6.6.6,A,[],NoAnswer,No answer for domain: akadns99.net on server: 223.6.6.6
+2024-11-15T04:09:34.408791,akagtm.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.408791,akadns99.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akadns99.net on server: 2400:da00::6666
+2024-11-15T04:09:34.408791,aka.ms,180.76.76.76,A,['23.46.197.94'],,
+2024-11-15T04:09:34.408791,akagtm.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:0:ccc::2
+2024-11-15T04:09:34.408791,airtel.in,223.6.6.6,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,211.136.17.107,A,['184.25.222.17'],,
+2024-11-15T04:09:34.408791,akagtm.org,8.8.4.4,A,[],NoAnswer,No answer for domain: akagtm.org on server: 8.8.4.4
+2024-11-15T04:09:34.408791,airtel.in,77.88.8.1,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,akagtm.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2620:0:ccd::2
+2024-11-15T04:09:34.408791,airtel.in,114.114.114.114,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,223.6.6.6,A,['23.46.197.94'],,
+2024-11-15T04:09:34.408791,akadns99.net,94.140.14.14,A,[],NoAnswer,No answer for domain: akadns99.net on server: 94.140.14.14
+2024-11-15T04:09:34.408791,airtel.in,223.5.5.5,A,['125.16.74.90'],,
+2024-11-15T04:09:34.408791,aka.ms,119.29.29.29,A,['23.219.73.130'],,
+2024-11-15T04:09:34.409789,akagtm.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.409789,akadns99.net,123.125.81.6,A,[],NoAnswer,No answer for domain: akadns99.net on server: 123.125.81.6
+2024-11-15T04:09:34.409789,airtel.in,9.9.9.10,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,aka.ms,223.5.5.5,A,['23.46.197.94'],,
+2024-11-15T04:09:34.409789,airtel.in,94.140.15.15,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,akagtm.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.409789,akagtm.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.409789,akadns99.net,223.5.5.5,A,[],NoAnswer,No answer for domain: akadns99.net on server: 223.5.5.5
+2024-11-15T04:09:34.409789,akagtm.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.409789,aka.ms,114.114.114.114,A,['23.200.198.117'],,
+2024-11-15T04:09:34.409789,airtel.in,195.208.5.1,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,airtel.in,62.76.62.76,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,airtel.in,208.67.220.220,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,aka.ms,114.114.115.115,A,['23.46.197.94'],,
+2024-11-15T04:09:34.409789,akagtm.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.409789,akadns99.net,114.114.114.114,A,[],NoAnswer,No answer for domain: akadns99.net on server: 114.114.114.114
+2024-11-15T04:09:34.409789,airtel.in,208.67.222.222,A,['125.16.74.90'],,
+2024-11-15T04:09:34.409789,akagtm.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.409789,akadns99.net,114.114.115.115,A,[],NoAnswer,No answer for domain: akadns99.net on server: 114.114.115.115
+2024-11-15T04:09:34.409789,akagtm.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.409789,aj2396.online,62.76.62.76,A,['212.124.124.38'],,
+2024-11-15T04:09:34.409789,akadns99.net,195.208.4.1,A,[],NoAnswer,No answer for domain: akadns99.net on server: 195.208.4.1
+2024-11-15T04:09:34.409789,akadns.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:119:35::35
+2024-11-15T04:09:34.409789,akadns99.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akadns99.net on server: 202.96.128.86
+2024-11-15T04:09:34.409789,akadns99.net,195.208.5.1,A,[],NoAnswer,No answer for domain: akadns99.net on server: 195.208.5.1
+2024-11-15T04:09:34.409789,akadns.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:119:53::53
+2024-11-15T04:09:34.409789,aj2396.online,9.9.9.10,A,['199.80.53.148'],,
+2024-11-15T04:09:34.409789,akadns99.net,77.88.8.1,A,[],NoAnswer,No answer for domain: akadns99.net on server: 77.88.8.1
+2024-11-15T04:09:34.409789,akadns.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2402:4e00::
+2024-11-15T04:09:34.409789,aj2396.online,195.208.4.1,A,['199.80.53.148'],,
+2024-11-15T04:09:34.409789,akadns99.net,1.1.1.1,A,[],NoAnswer,No answer for domain: akadns99.net on server: 1.1.1.1
+2024-11-15T04:09:34.409789,aj2396.online,195.208.5.1,A,['199.80.53.148'],,
+2024-11-15T04:09:34.409789,aka.ms,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aka.ms on server: 101.226.4.7
+2024-11-15T04:09:34.409789,akadns.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.409789,akadns99.net,77.88.8.8,A,[],NoAnswer,No answer for domain: akadns99.net on server: 77.88.8.8
+2024-11-15T04:09:34.409789,aj2555.bid,1.0.0.1,A,['49.12.122.118'],,
+2024-11-15T04:09:34.409789,akadns99.net,2.56.220.2,A,[],NoAnswer,No answer for domain: akadns99.net on server: 2.56.220.2
+2024-11-15T04:09:34.409789,akadns.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2400:3200::1
+2024-11-15T04:09:34.409789,aj2555.bid,8.8.4.4,A,['135.181.113.178'],,
+2024-11-15T04:09:34.409789,akadns99.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akadns99.net on server: 101.226.4.7
+2024-11-15T04:09:34.409789,akadns.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.409789,aj2555.bid,1.1.1.1,A,['49.12.122.118'],,
+2024-11-15T04:09:34.409789,airtel.in,202.96.128.86,A,[],Timeout,Timeout occurred for domain: airtel.in on server: 202.96.128.86
+2024-11-15T04:09:34.409789,akadns.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.409789,aka.ms,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aka.ms on server: 210.21.196.6
+2024-11-15T04:09:34.409789,akadns99.net,208.67.222.220,A,[],NoAnswer,No answer for domain: akadns99.net on server: 208.67.222.220
+2024-11-15T04:09:34.410789,akadns88.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.410789,aj2555.bid,8.8.8.8,A,['135.181.113.178'],,
+2024-11-15T04:09:34.410789,akadns99.net,208.67.222.222,A,[],NoAnswer,No answer for domain: akadns99.net on server: 208.67.222.222
+2024-11-15T04:09:34.410789,akadns.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.410789,aj2396.online,101.226.4.6,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns88.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.410789,akadns99.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akadns99.net on server: 123.125.81.7
+2024-11-15T04:09:34.410789,akadns88.net,211.136.17.107,A,[],NoAnswer,No answer for domain: akadns88.net on server: 211.136.17.107
+2024-11-15T04:09:34.410789,akadns88.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.410789,aj2396.online,117.50.11.11,A,['212.124.124.38'],,
+2024-11-15T04:09:34.410789,akadns99.net,208.67.220.222,A,[],NoAnswer,No answer for domain: akadns99.net on server: 208.67.220.222
+2024-11-15T04:09:34.410789,akadns.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.410789,aj2396.online,123.125.81.6,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns99.net,1.0.0.1,A,[],NoAnswer,No answer for domain: akadns99.net on server: 1.0.0.1
+2024-11-15T04:09:34.410789,aka.ms,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aka.ms on server: 202.96.128.86
+2024-11-15T04:09:34.410789,akadns88.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.410789,aj2396.online,218.30.118.6,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns88.net,218.30.118.6,A,[],NoAnswer,No answer for domain: akadns88.net on server: 218.30.118.6
+2024-11-15T04:09:34.410789,akadns.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.410789,aj2396.online,211.136.17.107,A,['212.124.124.38'],,
+2024-11-15T04:09:34.410789,akadns99.net,8.8.4.4,A,[],NoAnswer,No answer for domain: akadns99.net on server: 8.8.4.4
+2024-11-15T04:09:34.410789,aj2396.online,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aj2396.online on server: 9.9.9.9
+2024-11-15T04:09:34.410789,akadns.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.410789,akadns88.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akadns88.net on server: 210.21.196.6
+2024-11-15T04:09:34.410789,akadns88.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akadns88.net on server: 202.96.128.86
+2024-11-15T04:09:34.410789,akadns88.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.410789,aj2396.online,119.29.29.29,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns99.net,208.67.220.220,A,[],NoAnswer,No answer for domain: akadns99.net on server: 208.67.220.220
+2024-11-15T04:09:34.410789,akadns.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:fe::10
+2024-11-15T04:09:34.410789,aj2396.online,180.76.76.76,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.410789,akagtm.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2400:3200::1
+2024-11-15T04:09:34.410789,aj2396.online,223.5.5.5,A,['212.124.124.38'],,
+2024-11-15T04:09:34.410789,akadns99.net,8.8.8.8,A,[],NoAnswer,No answer for domain: akadns99.net on server: 8.8.8.8
+2024-11-15T04:09:34.410789,akadns88.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.410789,akagtm.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2400:3200:baba::1
+2024-11-15T04:09:34.410789,aj2396.online,223.6.6.6,A,['212.124.124.38'],,
+2024-11-15T04:09:34.410789,akadns88.net,123.125.81.6,A,[],NoAnswer,No answer for domain: akadns88.net on server: 123.125.81.6
+2024-11-15T04:09:34.410789,akadns.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.410789,akadns99.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akadns99.net on server: 9.9.9.9
+2024-11-15T04:09:34.410789,aj2396.online,114.114.114.114,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,akadns99.net,95.85.95.85,A,[],NoAnswer,No answer for domain: akadns99.net on server: 95.85.95.85
+2024-11-15T04:09:34.410789,aj2396.online,114.114.115.115,A,['199.80.53.148'],,
+2024-11-15T04:09:34.410789,aj2396.online,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aj2396.online on server: 101.226.4.7
+2024-11-15T04:09:34.410789,aj2396.online,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aj2396.online on server: 123.125.81.7
+2024-11-15T04:09:34.411791,akadns.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.411791,aj2396.online,94.140.14.14,A,['0.0.0.0'],,
+2024-11-15T04:09:34.411791,akadns88.net,117.50.11.11,A,[],NoAnswer,No answer for domain: akadns88.net on server: 117.50.11.11
+2024-11-15T04:09:34.411791,aj2396.online,94.140.15.15,A,['0.0.0.0'],,
+2024-11-15T04:09:34.411791,akadns.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.411791,akadns88.net,101.226.4.6,A,[],NoAnswer,No answer for domain: akadns88.net on server: 101.226.4.6
+2024-11-15T04:09:34.411791,akadns.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.411791,aj2396.online,208.67.222.220,A,['212.124.124.38'],,
+2024-11-15T04:09:34.411791,akadns88.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.411791,aj2396.online,208.67.220.222,A,['212.124.124.38'],,
+2024-11-15T04:09:34.411791,akadns99.net,9.9.9.10,A,[],NoAnswer,No answer for domain: akadns99.net on server: 9.9.9.10
+2024-11-15T04:09:34.411791,akadns.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akadns.net on server: 2620:fe::fe
+2024-11-15T04:09:34.411791,akagtm.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akagtm.org on server: 2402:4e00::
+2024-11-15T04:09:34.411791,akadns99.net,62.76.76.62,A,[],NoAnswer,No answer for domain: akadns99.net on server: 62.76.76.62
+2024-11-15T04:09:34.411791,aj2396.online,208.67.222.222,A,['212.124.124.38'],,
+2024-11-15T04:09:34.411791,akadns99.net,62.76.62.76,A,[],NoAnswer,No answer for domain: akadns99.net on server: 62.76.62.76
+2024-11-15T04:09:34.411791,aj2396.online,208.67.220.220,A,['199.80.53.148'],,
+2024-11-15T04:09:34.411791,akadns88.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.411791,akadns88.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akadns88.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.411791,ajio.com,2.56.220.2,A,['49.40.59.11'],,
+2024-11-15T04:09:34.411791,akadns.net,123.125.81.6,A,[],NoAnswer,No answer for domain: akadns.net on server: 123.125.81.6
+2024-11-15T04:09:34.411791,airtel.in,2400:3200::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.411791,aj2555.bid,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2400:3200::1
+2024-11-15T04:09:34.411791,akadns88.net,180.76.76.76,A,[],NoAnswer,No answer for domain: akadns88.net on server: 180.76.76.76
+2024-11-15T04:09:34.411791,ajio.com,62.76.76.62,A,['49.40.59.11'],,
+2024-11-15T04:09:34.411791,akadns.net,101.226.4.6,A,[],NoAnswer,No answer for domain: akadns.net on server: 101.226.4.6
+2024-11-15T04:09:34.411791,akadns88.net,77.88.8.8,A,[],NoAnswer,No answer for domain: akadns88.net on server: 77.88.8.8
+2024-11-15T04:09:34.411791,airtel.in,2a10:50c0::ad2:ff,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.411791,aj2555.bid,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2400:3200:baba::1
+2024-11-15T04:09:34.411791,ak-is2.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2400:3200:baba::1
+2024-11-15T04:09:34.411791,akadns.net,94.140.14.14,A,[],NoAnswer,No answer for domain: akadns.net on server: 94.140.14.14
+2024-11-15T04:09:34.411791,airtel.in,2400:3200:baba::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.411791,aj2396.online,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aj2396.online on server: 202.96.128.86
+2024-11-15T04:09:34.411791,ak-is2.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2402:4e00::
+2024-11-15T04:09:34.411791,aj2555.bid,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.411791,akadns88.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akadns88.net on server: 101.226.4.7
+2024-11-15T04:09:34.411791,ajio.com,9.9.9.10,A,['49.40.59.11'],,
+2024-11-15T04:09:34.411791,akadns.net,62.76.76.62,A,[],NoAnswer,No answer for domain: akadns.net on server: 62.76.76.62
+2024-11-15T04:09:34.411791,airtel.in,2620:0:ccc::2,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.411791,akadns88.net,2.56.220.2,A,[],NoAnswer,No answer for domain: akadns88.net on server: 2.56.220.2
+2024-11-15T04:09:34.411791,aj2555.bid,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.411791,akadns88.net,1.1.1.1,A,[],NoAnswer,No answer for domain: akadns88.net on server: 1.1.1.1
+2024-11-15T04:09:34.411791,akadns.net,9.9.9.10,A,[],NoAnswer,No answer for domain: akadns.net on server: 9.9.9.10
+2024-11-15T04:09:34.411791,ajio.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2402:4e00::
+2024-11-15T04:09:34.411791,airtel.in,2a10:50c0::ad1:ff,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.411791,aj2555.bid,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-15T04:09:34.411791,ak-is2.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.411791,ajio.com,195.208.5.1,A,['49.40.59.11'],,
+2024-11-15T04:09:34.411791,akadns.net,77.88.8.8,A,[],NoAnswer,No answer for domain: akadns.net on server: 77.88.8.8
+2024-11-15T04:09:34.411791,akadns88.net,95.85.95.85,A,[],NoAnswer,No answer for domain: akadns88.net on server: 95.85.95.85
+2024-11-15T04:09:34.411791,ak-is2.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.411791,aiv-cdn.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.411791,akadns.net,211.136.17.107,A,[],NoAnswer,No answer for domain: akadns.net on server: 211.136.17.107
+2024-11-15T04:09:34.412787,aj2615.bid,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.412787,aiv-cdn.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.412787,ajio.com,119.29.29.29,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns88.net,1.0.0.1,A,[],NoAnswer,No answer for domain: akadns88.net on server: 1.0.0.1
+2024-11-15T04:09:34.412787,ak-is2.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2400:3200::1
+2024-11-15T04:09:34.412787,akadns.net,117.50.11.11,A,[],NoAnswer,No answer for domain: akadns.net on server: 117.50.11.11
+2024-11-15T04:09:34.412787,aj2555.bid,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:0:ccd::2
+2024-11-15T04:09:34.412787,ajio.com,77.88.8.1,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns88.net,77.88.8.1,A,[],NoAnswer,No answer for domain: akadns88.net on server: 77.88.8.1
+2024-11-15T04:09:34.412787,ak-is2.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:0:ccc::2
+2024-11-15T04:09:34.412787,aj2555.bid,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-15T04:09:34.412787,akadns88.net,62.76.62.76,A,[],NoAnswer,No answer for domain: akadns88.net on server: 62.76.62.76
+2024-11-15T04:09:34.412787,ajio.com,62.76.62.76,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,ak-is2.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.412787,ajio.com,114.114.114.114,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns.net,195.208.4.1,A,[],NoAnswer,No answer for domain: akadns.net on server: 195.208.4.1
+2024-11-15T04:09:34.412787,airtel.in,2620:119:53::53,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,aiv-cdn.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.412787,akadns88.net,195.208.4.1,A,[],NoAnswer,No answer for domain: akadns88.net on server: 195.208.4.1
+2024-11-15T04:09:34.412787,ajio.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2620:0:ccd::2
+2024-11-15T04:09:34.412787,ajio.com,77.88.8.8,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns88.net,223.5.5.5,A,[],NoAnswer,No answer for domain: akadns88.net on server: 223.5.5.5
+2024-11-15T04:09:34.412787,aj2396.online,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aj2396.online on server: 210.21.196.6
+2024-11-15T04:09:34.412787,aj2555.bid,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:0:ccc::2
+2024-11-15T04:09:34.412787,ajio.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:09:34.412787,ajio.com,95.85.95.85,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns.net,208.67.222.222,A,[],NoAnswer,No answer for domain: akadns.net on server: 208.67.222.222
+2024-11-15T04:09:34.412787,akadns88.net,223.6.6.6,A,[],NoAnswer,No answer for domain: akadns88.net on server: 223.6.6.6
+2024-11-15T04:09:34.412787,airtel.in,2620:fe::fe,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,aj2555.bid,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2001:6d0:6d0::2001
+2024-11-15T04:09:34.412787,ak-is2.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:119:53::53
+2024-11-15T04:09:34.412787,ajio.com,208.67.222.222,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akagtm.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akagtm.org on server: 2400:da00::6666
+2024-11-15T04:09:34.412787,akadns88.net,119.29.29.29,A,[],NoAnswer,No answer for domain: akadns88.net on server: 119.29.29.29
+2024-11-15T04:09:34.412787,aj2555.bid,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:119:35::35
+2024-11-15T04:09:34.412787,ak-is2.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:0:ccd::2
+2024-11-15T04:09:34.412787,ajio.com,1.0.0.1,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns.net,77.88.8.1,A,[],NoAnswer,No answer for domain: akadns.net on server: 77.88.8.1
+2024-11-15T04:09:34.412787,akadns88.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akadns88.net on server: 123.125.81.7
+2024-11-15T04:09:34.412787,airtel.in,2620:fe::10,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,ajio.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2400:3200::1
+2024-11-15T04:09:34.412787,ajio.com,223.6.6.6,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akadns.net on server: 2400:da00::6666
+2024-11-15T04:09:34.412787,akadns88.net,195.208.5.1,A,[],NoAnswer,No answer for domain: akadns88.net on server: 195.208.5.1
+2024-11-15T04:09:34.412787,airtel.in,2620:119:35::35,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,aj2555.bid,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:fe::10
+2024-11-15T04:09:34.412787,ajio.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2400:3200:baba::1
+2024-11-15T04:09:34.412787,akadns.net,218.30.118.6,A,[],NoAnswer,No answer for domain: akadns.net on server: 218.30.118.6
+2024-11-15T04:09:34.412787,airtel.in,2a0c:a9c7:8::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,aj2555.bid,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:119:53::53
+2024-11-15T04:09:34.412787,ak-is2.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:fe::10
+2024-11-15T04:09:34.412787,ajio.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ajio.com on server: 2400:da00::6666
+2024-11-15T04:09:34.412787,ajio.com,94.140.14.14,A,['49.40.59.11'],,
+2024-11-15T04:09:34.412787,akadns.net,195.208.5.1,A,[],NoAnswer,No answer for domain: akadns.net on server: 195.208.5.1
+2024-11-15T04:09:34.412787,aj2555.bid,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.412787,airtel.in,2a0c:a9c7:9::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.412787,aj2555.bid,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.412787,aj2555.bid,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.412787,ak-is2.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:119:35::35
+2024-11-15T04:09:34.412787,akadns88.net,208.67.222.222,A,[],NoAnswer,No answer for domain: akadns88.net on server: 208.67.222.222
+2024-11-15T04:09:34.413787,ajio.com,1.1.1.1,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,aj2555.bid,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2620:fe::fe
+2024-11-15T04:09:34.413787,airtel.in,2a02:6b8::feed:0ff,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,ajio.com,208.67.220.220,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,akadns.net,208.67.220.222,A,[],NoAnswer,No answer for domain: akadns.net on server: 208.67.220.222
+2024-11-15T04:09:34.413787,ak-is2.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:09:34.413787,aiv-cdn.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.413787,akadns88.net,62.76.76.62,A,[],NoAnswer,No answer for domain: akadns88.net on server: 62.76.76.62
+2024-11-15T04:09:34.413787,aj2555.bid,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.413787,ak-is2.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2620:fe::fe
+2024-11-15T04:09:34.413787,akadns.net,62.76.62.76,A,[],NoAnswer,No answer for domain: akadns.net on server: 62.76.62.76
+2024-11-15T04:09:34.413787,airtel.in,2001:6d0:d6::2001,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,aj2555.bid,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.413787,ak-is2.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2001:6d0:d6::2001
+2024-11-15T04:09:34.413787,ajio.com,208.67.222.220,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,akadns.net,114.114.115.115,A,[],NoAnswer,No answer for domain: akadns.net on server: 114.114.115.115
+2024-11-15T04:09:34.413787,akadns88.net,94.140.14.14,A,[],NoAnswer,No answer for domain: akadns88.net on server: 94.140.14.14
+2024-11-15T04:09:34.413787,aj2555.bid,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.413787,ak-is2.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:09:34.413787,ajio.com,114.114.115.115,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,akadns.net,223.5.5.5,A,[],NoAnswer,No answer for domain: akadns.net on server: 223.5.5.5
+2024-11-15T04:09:34.413787,akadns88.net,94.140.15.15,A,[],NoAnswer,No answer for domain: akadns88.net on server: 94.140.15.15
+2024-11-15T04:09:34.413787,airtel.in,2001:6d0:6d0::2001,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,aj2555.bid,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.413787,ak-is2.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:09:34.413787,ajio.com,223.5.5.5,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,akadns.net,180.76.76.76,A,[],NoAnswer,No answer for domain: akadns.net on server: 180.76.76.76
+2024-11-15T04:09:34.413787,akadns88.net,208.67.220.220,A,[],NoAnswer,No answer for domain: akadns88.net on server: 208.67.220.220
+2024-11-15T04:09:34.413787,airtel.in,2620:0:ccd::2,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,aj2615.bid,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.413787,ak-is2.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:09:34.413787,akadns.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akadns.net on server: 9.9.9.9
+2024-11-15T04:09:34.413787,airtel.in,2a03:90c0:999d::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,akadns.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akadns.net on server: 101.226.4.7
+2024-11-15T04:09:34.413787,ak-is2.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a03:90c0:999d::1
+2024-11-15T04:09:34.413787,akadns.net,208.67.220.220,A,[],NoAnswer,No answer for domain: akadns.net on server: 208.67.220.220
+2024-11-15T04:09:34.413787,akadns88.net,8.8.8.8,A,[],NoAnswer,No answer for domain: akadns88.net on server: 8.8.8.8
+2024-11-15T04:09:34.413787,airtel.in,2a03:90c0:9992::1,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,akadns.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akadns.net on server: 210.21.196.6
+2024-11-15T04:09:34.413787,aj2555.bid,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2402:4e00::
+2024-11-15T04:09:34.413787,akadns.net,208.67.222.220,A,[],NoAnswer,No answer for domain: akadns.net on server: 208.67.222.220
+2024-11-15T04:09:34.413787,ak-is2.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2a03:90c0:9992::1
+2024-11-15T04:09:34.413787,akadns88.net,9.9.9.10,A,[],NoAnswer,No answer for domain: akadns88.net on server: 9.9.9.10
+2024-11-15T04:09:34.413787,ajio.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ajio.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:09:34.413787,ajio.com,208.67.220.222,A,['49.40.59.11'],,
+2024-11-15T04:09:34.413787,akadns.net,223.6.6.6,A,[],NoAnswer,No answer for domain: akadns.net on server: 223.6.6.6
+2024-11-15T04:09:34.413787,akadns88.net,208.67.222.220,A,[],NoAnswer,No answer for domain: akadns88.net on server: 208.67.222.220
+2024-11-15T04:09:34.413787,airtel.in,2402:4e00::,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.413787,aiv-cdn.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.413787,akadns.net,119.29.29.29,A,[],NoAnswer,No answer for domain: akadns.net on server: 119.29.29.29
+2024-11-15T04:09:34.413787,akadns88.net,208.67.220.222,A,[],NoAnswer,No answer for domain: akadns88.net on server: 208.67.220.222
+2024-11-15T04:09:34.413787,aiv-cdn.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.413787,aj2615.bid,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aj2615.bid on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.413787,ak-is2.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2606:4700:4700::1111
+2024-11-15T04:09:34.413787,akadns.net,94.140.15.15,A,[],NoAnswer,No answer for domain: akadns.net on server: 94.140.15.15
+2024-11-15T04:09:34.413787,akadns88.net,114.114.114.114,A,[],NoAnswer,No answer for domain: akadns88.net on server: 114.114.114.114
+2024-11-15T04:09:34.413787,aj2555.bid,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 101.226.4.7
+2024-11-15T04:09:34.413787,aj2555.bid,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.414788,ak-is2.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2606:4700:4700::1001
+2024-11-15T04:09:34.414788,ajio.com,195.208.4.1,A,['49.40.59.11'],,
+2024-11-15T04:09:34.414788,akadns88.net,114.114.115.115,A,[],NoAnswer,No answer for domain: akadns88.net on server: 114.114.115.115
+2024-11-15T04:09:34.414788,aiv-cdn.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aiv-cdn.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.414788,aj2555.bid,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aj2555.bid on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.414788,ak-is2.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2001:4860:4860::8888
+2024-11-15T04:09:34.414788,ajio.com,94.140.15.15,A,['49.40.59.11'],,
+2024-11-15T04:09:34.414788,akadns.net,114.114.114.114,A,[],NoAnswer,No answer for domain: akadns.net on server: 114.114.114.114
+2024-11-15T04:09:34.414788,akadns88.net,8.8.4.4,A,[],NoAnswer,No answer for domain: akadns88.net on server: 8.8.4.4
+2024-11-15T04:09:34.414788,airtel.in,2a02:6b8:0:1::feed:0ff,AAAA,['2404:a800:ff00:1::101'],,
+2024-11-15T04:09:34.414788,ak-is2.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ak-is2.net on server: 2001:4860:4860::8844
+2024-11-15T04:09:34.414788,akadns88.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akadns88.net on server: 9.9.9.9
+2024-11-15T04:09:34.414788,akadns.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akadns.net on server: 123.125.81.7
+2024-11-15T04:09:34.414788,akadns.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akadns.net on server: 202.96.128.86
+2024-11-15T04:09:34.414788,aj2555.bid,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aj2555.bid on server: 2400:da00::6666
+2024-11-15T04:09:34.414788,ajio.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ajio.com on server: 9.9.9.9
+2024-11-15T04:09:34.414788,airtel.in,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: airtel.in on server: 2400:da00::6666
+2024-11-15T04:09:34.414788,aj2396.online,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aj2396.online on server: 2400:da00::6666

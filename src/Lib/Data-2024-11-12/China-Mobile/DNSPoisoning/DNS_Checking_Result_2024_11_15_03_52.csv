@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-15T03:52:58.326793,agoda.com,208.67.220.220,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agoda.com,114.114.114.114,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agora.io,101.226.4.6,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,agoda.com,9.9.9.10,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,aftvrsys.com,123.125.81.6,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 123.125.81.6
+2024-11-15T03:52:58.326793,agora.io,180.76.76.76,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,agoda.com,195.208.4.1,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agoda.com,208.67.222.222,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,1.1.1.1,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,9.9.9.10,A,"['54.252.75.26', '13.236.242.190', '54.206.239.18']",,
+2024-11-15T03:52:58.326793,agoda.com,195.208.5.1,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agoda.com,94.140.15.15,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,94.140.15.15,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,94.140.14.14,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,195.208.5.1,A,"['54.206.239.18', '13.236.242.190', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,agoda.com,94.140.14.14,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agoda.com,208.67.220.222,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,208.67.222.222,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,208.67.220.220,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,208.67.222.220,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,agoda.com,2.56.220.2,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,208.67.220.222,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,agoda.com,77.88.8.8,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ahacdn.me,77.88.8.1,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agoda.com,208.67.222.220,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ahacdn.me,1.0.0.1,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agoda.com,62.76.62.76,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agora.io,117.50.11.11,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,agoda.com,123.125.81.6,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,62.76.62.76,A,"['54.206.239.18', '13.236.242.190', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,agoda.com,101.226.4.6,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,77.88.8.1,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,195.208.4.1,A,"['54.252.75.26', '13.236.242.190', '54.206.239.18']",,
+2024-11-15T03:52:58.326793,agoda.com,211.136.17.107,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 9.9.9.9
+2024-11-15T03:52:58.326793,agoda.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agoda.com on server: 123.125.81.7
+2024-11-15T03:52:58.326793,agoda.com,117.50.11.11,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ahacdn.me,1.1.1.1,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,ag.gov.au,8.8.8.8,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,8.8.4.4,A,"['54.206.239.18', '54.252.75.26', '13.236.242.190']",,
+2024-11-15T03:52:58.326793,ahacdn.me,8.8.8.8,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agoda.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agoda.com on server: 9.9.9.9
+2024-11-15T03:52:58.326793,agoda.com,218.30.118.6,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,223.5.5.5,A,"['54.206.239.18', '13.236.242.190', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ag.gov.au,223.6.6.6,A,"['54.206.239.18', '13.236.242.190', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ahacdn.me,2.56.220.2,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agora.io,211.136.17.107,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,ag.gov.au,62.76.76.62,A,"['54.206.239.18', '54.252.75.26', '13.236.242.190']",,
+2024-11-15T03:52:58.326793,agoda.com,95.85.95.85,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,aftvrsys.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 123.125.81.7
+2024-11-15T03:52:58.326793,agoda.com,223.5.5.5,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,aftvrsys.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 101.226.4.7
+2024-11-15T03:52:58.326793,ahacdn.me,77.88.8.8,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agoda.com,223.6.6.6,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agora.io,218.30.118.6,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,ag.gov.au,77.88.8.8,A,"['13.236.242.190', '54.252.75.26', '54.206.239.18']",,
+2024-11-15T03:52:58.326793,agoda.com,77.88.8.1,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agora.io,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agora.io on server: 101.226.4.7
+2024-11-15T03:52:58.326793,ag.gov.au,114.114.114.114,A,"['13.236.242.190', '54.252.75.26', '54.206.239.18']",,
+2024-11-15T03:52:58.326793,ag.gov.au,114.114.115.115,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,ahacdn.me,95.85.95.85,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,aftvrsys.com,101.226.4.6,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 101.226.4.6
+2024-11-15T03:52:58.326793,agoda.com,62.76.76.62,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ahacdn.me,8.8.4.4,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,agoda.com,119.29.29.29,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ag.gov.au,2.56.220.2,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.326793,agoda.com,180.76.76.76,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,agora.io,123.125.81.6,A,['47.100.183.150'],,
+2024-11-15T03:52:58.326793,agoda.com,114.114.115.115,A,['103.6.182.20'],,
+2024-11-15T03:52:58.326793,ahacdn.me,62.76.76.62,A,['88.208.5.12'],,
+2024-11-15T03:52:58.326793,ag.gov.au,95.85.95.85,A,"['54.252.75.26', '54.206.239.18', '13.236.242.190']",,
+2024-11-15T03:52:58.326793,ahacdn.me,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:0:ccd::2
+2024-11-15T03:52:58.326793,ag.gov.au,1.0.0.1,A,"['13.236.242.190', '54.252.75.26', '54.206.239.18']",,
+2024-11-15T03:52:58.326793,agones.gr,2001:4860:4860::8888,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.326793,ahnlab.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.326793,ahen.me,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2400:3200:baba::1
+2024-11-15T03:52:58.326793,ahagamecenter.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.326793,ahen.me,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2402:4e00::
+2024-11-15T03:52:58.326793,ahacdn.me,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.326793,agoda.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.326793,ahen.me,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.326793,ahacdn.me,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.326793,ahen.me,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2400:3200::1
+2024-11-15T03:52:58.326793,agoda.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.326793,ahagamecenter.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.327794,ahen.me,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:0:ccd::2
+2024-11-15T03:52:58.327794,ahen.me,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.327794,agones.gr,2606:4700:4700::1111,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.327794,agones.gr,2a03:90c0:9992::1,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.327794,ahnlab.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.327794,agones.gr,2606:4700:4700::1001,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.327794,ahagamecenter.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.327794,ahnlab.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.327794,agones.gr,2001:4860:4860::8844,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.327794,ahagamecenter.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.327794,ahnlab.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,agoda.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.327794,ahagamecenter.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.327794,ahnlab.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:119:35::35
+2024-11-15T03:52:58.327794,agoda.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:fe::10
+2024-11-15T03:52:58.327794,ahnlab.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:fe::10
+2024-11-15T03:52:58.327794,agones.gr,2a03:90c0:999d::1,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.327794,ahagamecenter.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.327794,ahnlab.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.327794,agoda.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:fe::fe
+2024-11-15T03:52:58.327794,ahagamecenter.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:fe::fe
+2024-11-15T03:52:58.327794,agoda.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.327794,ahagamecenter.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.327794,ahnlab.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.327794,agoda.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:119:35::35
+2024-11-15T03:52:58.327794,ahacdn.me,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2400:3200::1
+2024-11-15T03:52:58.327794,ahnlab.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:fe::fe
+2024-11-15T03:52:58.327794,agoda.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:119:53::53
+2024-11-15T03:52:58.327794,ahagamecenter.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.327794,ahagamecenter.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.327794,ahnlab.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.327794,agora.io,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agora.io on server: 202.96.128.86
+2024-11-15T03:52:58.327794,ahnlab.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2620:119:53::53
+2024-11-15T03:52:58.327794,agoda.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.327794,agoda.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,ahacdn.me,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2400:3200:baba::1
+2024-11-15T03:52:58.327794,ahnlab.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.327794,agoda.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.327794,ahacdn.me,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2402:4e00::
+2024-11-15T03:52:58.327794,ahnlab.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.327794,agoda.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.327794,ahagamecenter.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.327794,ahnlab.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.327794,agoda.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2400:3200::1
+2024-11-15T03:52:58.327794,ahagamecenter.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.327794,agoda.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agoda.com on server: 210.21.196.6
+2024-11-15T03:52:58.327794,agoda.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.327794,ahacdn.me,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,ahnlab.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.327794,agoda.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.327794,agoda.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.327794,ahacdn.me,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:fe::fe
+2024-11-15T03:52:58.327794,agoda.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agoda.com on server: 202.96.128.86
+2024-11-15T03:52:58.327794,agoda.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.327794,ahnlab.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.327794,agora.io,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agora.io on server: 210.21.196.6
+2024-11-15T03:52:58.327794,agoda.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2402:4e00::
+2024-11-15T03:52:58.327794,ahacdn.me,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:119:35::35
+2024-11-15T03:52:58.327794,agoda.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.327794,ahacdn.me,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:fe::10
+2024-11-15T03:52:58.327794,ahacdn.me,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2620:119:53::53
+2024-11-15T03:52:58.327794,ahnlab.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.327794,ahnlab.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.327794,ahcdn.com,223.5.5.5,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,agora.io,195.208.4.1,A,['52.8.151.151'],,
+2024-11-15T03:52:58.327794,aftvrsys.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2402:4e00::
+2024-11-15T03:52:58.327794,agoda.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,1.1.1.1,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,agones.gr,8.8.8.8,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.327794,agora.io,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agora.io on server: 123.125.81.7
+2024-11-15T03:52:58.327794,agora.io,2.56.220.2,A,['47.100.183.150'],,
+2024-11-15T03:52:58.327794,ahcdn.com,114.114.114.114,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,1.0.0.1,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,agkn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:119:53::53
+2024-11-15T03:52:58.327794,ahrefs.com,9.9.9.10,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.327794,agora.io,195.208.5.1,A,['52.8.151.151'],,
+2024-11-15T03:52:58.327794,ahcdn.com,114.114.115.115,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,195.208.4.1,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,aftvrsys.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:fe::10
+2024-11-15T03:52:58.327794,agkn.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-15T03:52:58.327794,ahrefs.com,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,195.208.5.1,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,agones.gr,2.56.220.2,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.327794,agones.gr,77.88.8.8,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.327794,agora.io,1.0.0.1,A,['52.8.151.151'],,
+2024-11-15T03:52:58.327794,ahcdn.com,94.140.14.14,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,agoda.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agoda.com on server: 2400:da00::6666
+2024-11-15T03:52:58.327794,agkn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,aftvrsys.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.327794,ahrefs.com,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-15T03:52:58.327794,agones.gr,208.67.220.222,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.327794,ahcdn.com,94.140.15.15,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,62.76.62.76,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,agones.gr,117.50.11.11,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.327794,ahrefs.com,62.76.76.62,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,9.9.9.10,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,ag.gov.au,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.327794,agora.io,1.1.1.1,A,['47.75.155.102'],,
+2024-11-15T03:52:58.327794,agones.gr,94.140.15.15,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.327794,ahcdn.com,119.29.29.29,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,ahrefs.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-15T03:52:58.327794,aftvrsys.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,agones.gr,208.67.222.220,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.327794,ahcdn.com,223.6.6.6,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,ahrefs.com,208.67.222.222,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,8.8.8.8,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,agkn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:119:35::35
+2024-11-15T03:52:58.327794,aibixby.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.327794,agora.io,95.85.95.85,A,['47.100.183.150'],,
+2024-11-15T03:52:58.327794,agones.gr,94.140.14.14,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,8.8.4.4,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,ahacdn.me,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 2400:da00::6666
+2024-11-15T03:52:58.327794,ahen.me,95.85.95.85,A,['45.87.3.111'],,
+2024-11-15T03:52:58.327794,ahrefs.com,208.67.220.220,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.327794,agora.io,77.88.8.8,A,['52.8.151.151'],,
+2024-11-15T03:52:58.327794,aibixby.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2402:4e00::
+2024-11-15T03:52:58.327794,agkn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.327794,agones.gr,62.76.76.62,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.327794,agora.io,77.88.8.1,A,['52.8.151.151'],,
+2024-11-15T03:52:58.327794,ag.gov.au,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.327794,ahrefs.com,180.76.76.76,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.327794,ahen.me,77.88.8.8,A,['45.87.3.111'],,
+2024-11-15T03:52:58.327794,agkn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.327794,agones.gr,8.8.4.4,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.327794,agenciatributaria.gob.es,62.76.76.62,A,['195.77.198.16'],,
+2024-11-15T03:52:58.327794,ahcdn.com,208.67.222.220,A,['88.208.5.14'],,
+2024-11-15T03:52:58.327794,ahnlab.com,101.226.4.6,A,"['114.108.184.200', '114.108.184.201', '211.233.80.200', '211.233.80.201']",,
+2024-11-15T03:52:58.327794,ag.gov.au,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:0:ccc::2
+2024-11-15T03:52:58.327794,agoda.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.327794,ag.gov.au,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.328826,agones.gr,123.125.81.6,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agones.gr,101.226.4.6,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,ahcdn.com,208.67.220.222,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,77.88.8.8,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agones.gr,195.208.4.1,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,ahrefs.com,119.29.29.29,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,agoda.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.328826,ag.gov.au,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.328826,agora.io,8.8.8.8,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,agones.gr,62.76.62.76,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,ahen.me,1.0.0.1,A,['45.87.3.111'],,
+2024-11-15T03:52:58.328826,ahnlab.com,123.125.81.6,A,"['211.233.80.201', '114.108.184.200', '114.108.184.201', '211.233.80.200']",,
+2024-11-15T03:52:58.328826,agoda.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: agoda.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,77.88.8.1,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,ag.gov.au,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.328826,agora.io,8.8.4.4,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,agones.gr,195.208.5.1,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,aftvrsys.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.328826,ahen.me,2.56.220.2,A,['45.87.3.111'],,
+2024-11-15T03:52:58.328826,agones.gr,77.88.8.1,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agora.io,223.5.5.5,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahen.me,8.8.4.4,A,['45.87.3.111'],,
+2024-11-15T03:52:58.328826,ahrefs.com,223.6.6.6,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,95.85.95.85,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,ag.gov.au,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.328826,agkn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,2.56.220.2,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agora.io,119.29.29.29,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahen.me,1.1.1.1,A,['45.87.3.111'],,
+2024-11-15T03:52:58.328826,agones.gr,211.136.17.107,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,ahrefs.com,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.328826,agkn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.328826,ahagamecenter.com,2a02:6b8::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.328826,agora.io,208.67.220.222,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahen.me,8.8.8.8,A,['45.87.3.111'],,
+2024-11-15T03:52:58.328826,ahrefs.com,223.5.5.5,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.328826,agkn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.328826,agones.gr,95.85.95.85,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,94.140.14.14,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agora.io,223.6.6.6,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,agones.gr,218.30.118.6,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:fe::10
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,208.67.222.220,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agones.gr,1.1.1.1,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agora.io,208.67.220.220,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahcdn.com,208.67.222.222,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahrefs.com,77.88.8.1,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:0:ccd::2
+2024-11-15T03:52:58.328826,ahen.me,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahen.me on server: 2400:da00::6666
+2024-11-15T03:52:58.328826,ag.gov.au,119.29.29.29,A,"['54.252.75.26', '54.206.239.18', '13.236.242.190']",,
+2024-11-15T03:52:58.328826,ahrefs.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 9.9.9.9
+2024-11-15T03:52:58.328826,agones.gr,180.76.76.76,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,agora.io,208.67.222.220,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahcdn.com,208.67.220.220,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahrefs.com,95.85.95.85,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,agkn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.328826,ag.gov.au,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:fe::fe
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,208.67.220.222,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,aibixby.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aibixby.com on server: 2400:da00::6666
+2024-11-15T03:52:58.328826,ahrefs.com,2.56.220.2,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,aftvrsys.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2400:3200::1
+2024-11-15T03:52:58.328826,agkn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2400:3200::1
+2024-11-15T03:52:58.328826,ag.gov.au,123.125.81.6,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.328826,agones.gr,208.67.222.222,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,agora.io,208.67.222.222,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,aftvrsys.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 2400:da00::6666
+2024-11-15T03:52:58.328826,ahrefs.com,1.1.1.1,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.328826,agkn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2402:4e00::
+2024-11-15T03:52:58.328826,ag.gov.au,101.226.4.6,A,"['54.252.75.26', '13.236.242.190', '54.206.239.18']",,
+2024-11-15T03:52:58.328826,agones.gr,208.67.220.220,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,ag.gov.au,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 123.125.81.7
+2024-11-15T03:52:58.328826,ahcdn.com,101.226.4.6,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahrefs.com,1.0.0.1,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,ag.gov.au,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 101.226.4.7
+2024-11-15T03:52:58.328826,agkn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:fe::fe
+2024-11-15T03:52:58.328826,ag.gov.au,211.136.17.107,A,"['54.252.75.26', '13.236.242.190', '54.206.239.18']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.328826,agones.gr,119.29.29.29,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,ahrefs.com,8.8.8.8,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:119:53::53
+2024-11-15T03:52:58.328826,agkn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:fe::10
+2024-11-15T03:52:58.328826,ahnlab.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 101.226.4.7
+2024-11-15T03:52:58.328826,ag.gov.au,117.50.11.11,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.328826,agkn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agkn.com on server: 2400:da00::6666
+2024-11-15T03:52:58.328826,ahcdn.com,117.50.11.11,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahrefs.com,8.8.4.4,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.328826,agkn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.328826,agones.gr,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agones.gr on server: 210.21.196.6
+2024-11-15T03:52:58.328826,ahcdn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 123.125.81.7
+2024-11-15T03:52:58.328826,agora.io,9.9.9.10,A,['52.8.151.151'],,
+2024-11-15T03:52:58.328826,ahcdn.com,123.125.81.6,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahcdn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 101.226.4.7
+2024-11-15T03:52:58.328826,ag.gov.au,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2620:119:35::35
+2024-11-15T03:52:58.328826,agkn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.328826,ag.gov.au,218.30.118.6,A,"['54.206.239.18', '54.252.75.26', '13.236.242.190']",,
+2024-11-15T03:52:58.328826,agones.gr,9.9.9.10,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agora.io,114.114.114.114,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,agones.gr,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agones.gr on server: 123.125.81.7
+2024-11-15T03:52:58.328826,ahrefs.com,114.114.115.115,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,ahcdn.com,218.30.118.6,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,agkn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.328826,ag.gov.au,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.328826,agones.gr,223.5.5.5,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,agora.io,114.114.115.115,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahcdn.com,211.136.17.107,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahrefs.com,94.140.15.15,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,ag.gov.au,180.76.76.76,A,"['13.236.242.190', '54.206.239.18', '54.252.75.26']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.328826,agones.gr,223.6.6.6,A,"['104.27.203.89', '104.27.204.89']",,
+2024-11-15T03:52:58.328826,agora.io,62.76.62.76,A,['52.8.151.151'],,
+2024-11-15T03:52:58.328826,agones.gr,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agones.gr on server: 101.226.4.7
+2024-11-15T03:52:58.328826,ahrefs.com,114.114.114.114,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,ag.gov.au,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.328826,agkn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,208.67.222.222,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agones.gr,1.0.0.1,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agora.io,94.140.15.15,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahrefs.com,208.67.220.222,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,aftvrsys.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.328826,agkn.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-15T03:52:58.328826,agones.gr,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agones.gr on server: 202.96.128.86
+2024-11-15T03:52:58.328826,agora.io,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agora.io on server: 9.9.9.9
+2024-11-15T03:52:58.328826,agora.io,62.76.76.62,A,['52.8.151.151'],,
+2024-11-15T03:52:58.328826,ahcdn.com,180.76.76.76,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,agones.gr,114.114.115.115,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,ahrefs.com,94.140.14.14,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.328826,aftvrsys.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:119:35::35
+2024-11-15T03:52:58.328826,agkn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.328826,agones.gr,114.114.114.114,A,"['104.27.204.89', '104.27.203.89']",,
+2024-11-15T03:52:58.328826,agenciatributaria.gob.es,208.67.220.220,A,['195.77.198.16'],,
+2024-11-15T03:52:58.328826,agora.io,94.140.14.14,A,['47.100.183.150'],,
+2024-11-15T03:52:58.328826,ahrefs.com,208.67.222.220,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.328826,aftvrsys.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:119:53::53
+2024-11-15T03:52:58.328826,agkn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.328826,agenziaentrate.gov.it,77.88.8.8,A,"['95.100.107.93', '95.100.107.77']",,
+2024-11-15T03:52:58.328826,ahcdn.com,77.88.8.1,A,['88.208.5.14'],,
+2024-11-15T03:52:58.328826,ahajournals.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.329825,ag.gov.au,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 210.21.196.6
+2024-11-15T03:52:58.329825,ahcdn.com,8.8.4.4,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,2.56.220.2,A,"['104.103.73.75', '104.103.73.67']",,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,94.140.15.15,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.329825,ahajournals.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,9.9.9.10,A,"['195.22.200.138', '79.140.81.145', '195.22.200.182']",,
+2024-11-15T03:52:58.329825,ahcdn.com,9.9.9.10,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahajournals.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,180.76.76.76,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,agones.gr,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agones.gr on server: 9.9.9.9
+2024-11-15T03:52:58.329825,ahajournals.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:fe::fe
+2024-11-15T03:52:58.329825,ahnlab.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 123.125.81.7
+2024-11-15T03:52:58.329825,ahcdn.com,8.8.8.8,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahajournals.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,62.76.76.62,A,"['2.20.143.107', '2.20.143.72']",,
+2024-11-15T03:52:58.329825,ahajournals.org,101.226.4.6,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,ahajournals.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,77.88.8.1,A,"['95.100.107.77', '95.100.107.93']",,
+2024-11-15T03:52:58.329825,ag.gov.au,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 202.96.128.86
+2024-11-15T03:52:58.329825,ahcdn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 210.21.196.6
+2024-11-15T03:52:58.329825,ahajournals.org,117.50.11.11,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,114.114.114.114,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,123.125.81.6,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.329825,ahajournals.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.329825,ahajournals.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.329825,ahajournals.org,180.76.76.76,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,218.30.118.6,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 9.9.9.9
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,211.136.17.107,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahcdn.com,195.208.4.1,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,8.8.8.8,A,['88.221.196.137'],,
+2024-11-15T03:52:58.329825,ahcdn.com,195.208.5.1,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,114.114.115.115,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,218.30.118.6,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,195.208.5.1,A,"['95.100.107.93', '95.100.107.77']",,
+2024-11-15T03:52:58.329825,ahajournals.org,211.136.17.107,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,ahcdn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 202.96.128.86
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,119.29.29.29,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,119.29.29.29,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,62.76.62.76,A,"['92.123.135.74', '92.123.135.69']",,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:119:53::53
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,195.208.4.1,A,"['92.123.135.74', '92.123.135.69']",,
+2024-11-15T03:52:58.329825,ahajournals.org,223.5.5.5,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,ahajournals.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.329825,ahcdn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 9.9.9.9
+2024-11-15T03:52:58.329825,ahajournals.org,223.6.6.6,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,117.50.11.11,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.329825,aftvrsys.com,8.8.4.4,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 8.8.4.4
+2024-11-15T03:52:58.329825,ahajournals.org,114.114.114.114,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,223.5.5.5,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahajournals.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.329825,ahajournals.org,114.114.115.115,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.329825,ahajournals.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,95.85.95.85,A,"['104.103.73.75', '104.103.73.67']",,
+2024-11-15T03:52:58.329825,ahcdn.com,62.76.62.76,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahajournals.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 101.226.4.7
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,1.1.1.1,A,"['2.22.248.16', '2.22.248.15']",,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,1.0.0.1,A,"['95.100.86.220', '95.100.86.215']",,
+2024-11-15T03:52:58.329825,ahcdn.com,77.88.8.8,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2402:4e00::
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,8.8.4.4,A,"['195.22.200.182', '195.22.200.195']",,
+2024-11-15T03:52:58.329825,ahcdn.com,62.76.76.62,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,223.6.6.6,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahcdn.com,95.85.95.85,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2400:3200::1
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 9.9.9.9
+2024-11-15T03:52:58.329825,ahcdn.com,2.56.220.2,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.329825,aftvrsys.com,8.8.8.8,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 8.8.8.8
+2024-11-15T03:52:58.329825,ahajournals.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 123.125.81.7
+2024-11-15T03:52:58.329825,ahcdn.com,1.1.1.1,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:119:35::35
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,123.125.81.6,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahcdn.com,1.0.0.1,A,['88.208.5.14'],,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,101.226.4.6,A,['195.77.198.16'],,
+2024-11-15T03:52:58.329825,ahagamecenter.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahagamecenter.com on server: 2620:fe::10
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,223.5.5.5,A,"['95.101.23.98', '95.101.23.65']",,
+2024-11-15T03:52:58.329825,ahacdn.me,94.140.15.15,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,ahen.me,119.29.29.29,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:119:53::53
+2024-11-15T03:52:58.329825,aibixby.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,117.50.11.11,A,"['88.221.196.186', '88.221.196.162', '88.221.196.130', '88.221.196.137']",,
+2024-11-15T03:52:58.329825,agenciatributaria.gob.es,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 202.96.128.86
+2024-11-15T03:52:58.329825,ahajournals.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 202.96.128.86
+2024-11-15T03:52:58.329825,aibixby.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,208.67.222.222,A,"['95.100.107.93', '95.100.107.77']",,
+2024-11-15T03:52:58.329825,ahen.me,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:0:ccc::2
+2024-11-15T03:52:58.329825,ahen.me,223.5.5.5,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,180.76.76.76,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahacdn.me,195.208.5.1,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,ahen.me,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.329825,ahen.me,223.6.6.6,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,aibixby.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.329825,ahen.me,114.114.114.114,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,114.114.114.114,A,"['195.22.200.182', '79.140.81.145']",,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,114.114.115.115,A,"['195.22.200.182', '79.140.81.145']",,
+2024-11-15T03:52:58.329825,ahen.me,114.114.115.115,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,aibixby.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:119:35::35
+2024-11-15T03:52:58.329825,ahen.me,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.329825,ahen.me,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.329825,ahacdn.me,208.67.222.220,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,aibixby.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.329825,ahen.me,94.140.14.14,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.329825,aibixby.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.329825,ahacdn.me,208.67.222.222,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,211.136.17.107,A,"['195.22.200.182', '79.140.81.145']",,
+2024-11-15T03:52:58.329825,ahen.me,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:119:35::35
+2024-11-15T03:52:58.329825,ahen.me,94.140.15.15,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,aibixby.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.329825,ahacdn.me,223.5.5.5,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,ahen.me,208.67.222.220,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,218.30.118.6,A,"['104.115.83.24', '104.115.83.104']",,
+2024-11-15T03:52:58.329825,aibixby.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.329825,ahacdn.me,208.67.220.220,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,ahen.me,208.67.220.222,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahrefs.com,2400:3200:baba::1,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.329825,ahacdn.me,119.29.29.29,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,94.140.14.14,A,"['2.21.134.71', '2.21.134.83']",,
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,94.140.15.15,A,"['2.21.134.71', '2.21.134.83']",,
+2024-11-15T03:52:58.329825,ahen.me,208.67.222.222,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:fe::10
+2024-11-15T03:52:58.329825,ahrefs.com,2402:4e00::,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.329825,ahacdn.me,114.114.115.115,A,['88.208.5.12'],,
+2024-11-15T03:52:58.329825,ahen.me,208.67.220.220,A,['45.87.3.111'],,
+2024-11-15T03:52:58.329825,ahen.me,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.329825,aibixby.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.329825,agenziaentrate.gov.it,180.76.76.76,A,"['79.140.81.145', '195.22.200.182']",,
+2024-11-15T03:52:58.329825,ahacdn.me,62.76.62.76,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,211.136.17.107,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahajournals.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 210.21.196.6
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,223.6.6.6,A,"['92.123.133.76', '92.123.133.113']",,
+2024-11-15T03:52:58.330826,ahcdn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2402:4e00::
+2024-11-15T03:52:58.330826,ahen.me,218.30.118.6,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahen.me,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.330826,aibixby.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:119:53::53
+2024-11-15T03:52:58.330826,ahacdn.me,117.50.11.11,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahagamecenter.com,8.8.8.8,A,"['13.33.183.52', '13.33.183.114', '13.33.183.98', '13.33.183.25']",,
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,119.29.29.29,A,"['95.100.135.82', '95.100.135.32']",,
+2024-11-15T03:52:58.330826,ahen.me,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2620:fe::fe
+2024-11-15T03:52:58.330826,aibixby.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.330826,ahacdn.me,195.208.4.1,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,agkn.com,77.88.8.1,A,[],NoAnswer,No answer for domain: agkn.com on server: 77.88.8.1
+2024-11-15T03:52:58.330826,ahnlab.com,8.8.4.4,A,"['211.233.80.200', '211.233.80.201', '114.108.184.200', '114.108.184.201']",,
+2024-11-15T03:52:58.330826,ahen.me,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.330826,aibixby.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.330826,agkn.com,62.76.76.62,A,[],NoAnswer,No answer for domain: agkn.com on server: 62.76.76.62
+2024-11-15T03:52:58.330826,ahacdn.me,223.6.6.6,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,123.125.81.6,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahen.me,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.330826,agkn.com,2.56.220.2,A,[],NoAnswer,No answer for domain: agkn.com on server: 2.56.220.2
+2024-11-15T03:52:58.330826,agenciatributaria.gob.es,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 210.21.196.6
+2024-11-15T03:52:58.330826,ahen.me,101.226.4.6,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,aibixby.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.330826,ahagamecenter.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 2400:da00::6666
+2024-11-15T03:52:58.330826,agkn.com,77.88.8.8,A,[],NoAnswer,No answer for domain: agkn.com on server: 77.88.8.8
+2024-11-15T03:52:58.330826,ahacdn.me,101.226.4.6,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahcdn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2400:3200::1
+2024-11-15T03:52:58.330826,agenciatributaria.gob.es,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 123.125.81.7
+2024-11-15T03:52:58.330826,agkn.com,95.85.95.85,A,[],NoAnswer,No answer for domain: agkn.com on server: 95.85.95.85
+2024-11-15T03:52:58.330826,ahacdn.me,9.9.9.10,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahnlab.com,8.8.8.8,A,"['211.233.80.201', '114.108.184.201', '211.233.80.200', '114.108.184.200']",,
+2024-11-15T03:52:58.330826,ahcdn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.330826,aibixby.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:fe::fe
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,208.67.220.220,A,"['95.100.107.77', '95.100.107.93']",,
+2024-11-15T03:52:58.330826,ahacdn.me,208.67.220.222,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,agenciatributaria.gob.es,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 101.226.4.7
+2024-11-15T03:52:58.330826,ahcdn.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.330826,aibixby.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2620:fe::10
+2024-11-15T03:52:58.330826,agkn.com,8.8.4.4,A,[],NoAnswer,No answer for domain: agkn.com on server: 8.8.4.4
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 210.21.196.6
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 202.96.128.86
+2024-11-15T03:52:58.330826,ahcdn.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.330826,agkn.com,1.0.0.1,A,[],NoAnswer,No answer for domain: agkn.com on server: 1.0.0.1
+2024-11-15T03:52:58.330826,ahacdn.me,180.76.76.76,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,117.50.11.11,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahcdn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.330826,ahen.me,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahen.me on server: 123.125.81.7
+2024-11-15T03:52:58.330826,ahacdn.me,94.140.14.14,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,aibixby.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.330826,agkn.com,8.8.8.8,A,[],NoAnswer,No answer for domain: agkn.com on server: 8.8.8.8
+2024-11-15T03:52:58.330826,aibixby.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.330826,ahen.me,62.76.62.76,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahcdn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:119:53::53
+2024-11-15T03:52:58.330826,aibixby.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.330826,ahacdn.me,114.114.114.114,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,123.125.81.6,A,"['95.100.135.227', '95.100.135.176']",,
+2024-11-15T03:52:58.330826,ahen.me,195.208.4.1,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahcdn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:0:ccc::2
+2024-11-15T03:52:58.330826,ahacdn.me,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 123.125.81.7
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,208.67.222.220,A,"['95.100.107.93', '95.100.107.77']",,
+2024-11-15T03:52:58.330826,ahacdn.me,211.136.17.107,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahen.me on server: 101.226.4.7
+2024-11-15T03:52:58.330826,ahen.me,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.330826,aibixby.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.330826,ahen.me,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahen.me on server: 202.96.128.86
+2024-11-15T03:52:58.330826,ahacdn.me,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 9.9.9.9
+2024-11-15T03:52:58.330826,ahen.me,9.9.9.10,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahen.me,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.330826,ahrefs.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,208.67.220.222,A,"['95.100.107.93', '95.100.107.77']",,
+2024-11-15T03:52:58.330826,ahacdn.me,218.30.118.6,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,77.88.8.1,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahen.me,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahen.me on server: 210.21.196.6
+2024-11-15T03:52:58.330826,ahrefs.com,2400:3200::1,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.330826,agkn.com,1.1.1.1,A,[],NoAnswer,No answer for domain: agkn.com on server: 1.1.1.1
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 101.226.4.7
+2024-11-15T03:52:58.330826,ahen.me,62.76.76.62,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,ahen.me,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahen.me on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.330826,aibixby.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,101.226.4.6,A,"['95.101.181.51', '95.101.181.88']",,
+2024-11-15T03:52:58.330826,ahacdn.me,123.125.81.6,A,['88.208.5.12'],,
+2024-11-15T03:52:58.330826,ahen.me,195.208.5.1,A,['45.87.3.111'],,
+2024-11-15T03:52:58.330826,aibixby.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aibixby.com on server: 2400:3200::1
+2024-11-15T03:52:58.330826,ahacdn.me,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 210.21.196.6
+2024-11-15T03:52:58.330826,aftvrsys.com,211.136.17.107,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 211.136.17.107
+2024-11-15T03:52:58.330826,aibixby.com,1.0.0.1,A,[],NoAnswer,No answer for domain: aibixby.com on server: 1.0.0.1
+2024-11-15T03:52:58.330826,ahcdn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:fe::10
+2024-11-15T03:52:58.330826,aftvrsys.com,117.50.11.11,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 117.50.11.11
+2024-11-15T03:52:58.330826,ahcdn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:119:35::35
+2024-11-15T03:52:58.330826,ahrefs.com,117.50.11.11,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.330826,ahrefs.com,123.125.81.6,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.330826,aftvrsys.com,218.30.118.6,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 218.30.118.6
+2024-11-15T03:52:58.330826,ahrefs.com,218.30.118.6,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.330826,ahrefs.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 2400:da00::6666
+2024-11-15T03:52:58.330826,aftvrsys.com,195.208.5.1,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 195.208.5.1
+2024-11-15T03:52:58.330826,ahrefs.com,211.136.17.107,A,"['104.18.39.141', '172.64.148.115']",,
+2024-11-15T03:52:58.330826,ahcdn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.330826,aibixby.com,2.56.220.2,A,[],NoAnswer,No answer for domain: aibixby.com on server: 2.56.220.2
+2024-11-15T03:52:58.330826,ahajournals.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2400:3200:baba::1
+2024-11-15T03:52:58.330826,aftvrsys.com,1.0.0.1,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 1.0.0.1
+2024-11-15T03:52:58.330826,ahen.me,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahen.me on server: 9.9.9.9
+2024-11-15T03:52:58.330826,aibixby.com,95.85.95.85,A,[],NoAnswer,No answer for domain: aibixby.com on server: 95.85.95.85
+2024-11-15T03:52:58.330826,aftvrsys.com,9.9.9.10,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 9.9.9.10
+2024-11-15T03:52:58.330826,ahajournals.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2402:4e00::
+2024-11-15T03:52:58.330826,ahajournals.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2400:3200::1
+2024-11-15T03:52:58.330826,aibixby.com,8.8.4.4,A,[],NoAnswer,No answer for domain: aibixby.com on server: 8.8.4.4
+2024-11-15T03:52:58.330826,aibixby.com,1.1.1.1,A,[],NoAnswer,No answer for domain: aibixby.com on server: 1.1.1.1
+2024-11-15T03:52:58.330826,aftvrsys.com,77.88.8.8,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 77.88.8.8
+2024-11-15T03:52:58.330826,ahcdn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.330826,agenziaentrate.gov.it,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 123.125.81.7
+2024-11-15T03:52:58.330826,aibixby.com,8.8.8.8,A,[],NoAnswer,No answer for domain: aibixby.com on server: 8.8.8.8
+2024-11-15T03:52:58.330826,aftvrsys.com,62.76.62.76,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 62.76.62.76
+2024-11-15T03:52:58.330826,ahcdn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.330826,aftvrsys.com,94.140.14.14,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 94.140.14.14
+2024-11-15T03:52:58.330826,ahcdn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.330826,aftvrsys.com,1.1.1.1,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 1.1.1.1
+2024-11-15T03:52:58.330826,ahacdn.me,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 101.226.4.7
+2024-11-15T03:52:58.330826,ahcdn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.330826,aftvrsys.com,208.67.220.220,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 208.67.220.220
+2024-11-15T03:52:58.330826,aibixby.com,94.140.15.15,A,[],NoAnswer,No answer for domain: aibixby.com on server: 94.140.15.15
+2024-11-15T03:52:58.330826,ahcdn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.330826,aftvrsys.com,62.76.76.62,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 62.76.76.62
+2024-11-15T03:52:58.330826,aibixby.com,114.114.114.114,A,[],NoAnswer,No answer for domain: aibixby.com on server: 114.114.114.114
+2024-11-15T03:52:58.330826,ahcdn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.330826,aftvrsys.com,77.88.8.1,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 77.88.8.1
+2024-11-15T03:52:58.330826,aibixby.com,208.67.220.222,A,[],NoAnswer,No answer for domain: aibixby.com on server: 208.67.220.222
+2024-11-15T03:52:58.330826,ahajournals.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.330826,aftvrsys.com,114.114.115.115,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 114.114.115.115
+2024-11-15T03:52:58.330826,aibixby.com,94.140.14.14,A,[],NoAnswer,No answer for domain: aibixby.com on server: 94.140.14.14
+2024-11-15T03:52:58.330826,aftvrsys.com,95.85.95.85,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 95.85.95.85
+2024-11-15T03:52:58.330826,aibixby.com,208.67.220.220,A,[],NoAnswer,No answer for domain: aibixby.com on server: 208.67.220.220
+2024-11-15T03:52:58.330826,ahcdn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.330826,aftvrsys.com,180.76.76.76,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 180.76.76.76
+2024-11-15T03:52:58.330826,aibixby.com,208.67.222.220,A,[],NoAnswer,No answer for domain: aibixby.com on server: 208.67.222.220
+2024-11-15T03:52:58.330826,ahcdn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2620:fe::fe
+2024-11-15T03:52:58.330826,ahcdn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahcdn.com on server: 2400:da00::6666
+2024-11-15T03:52:58.330826,aibixby.com,9.9.9.10,A,[],NoAnswer,No answer for domain: aibixby.com on server: 9.9.9.10
+2024-11-15T03:52:58.330826,ahcdn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.330826,aftvrsys.com,119.29.29.29,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 119.29.29.29
+2024-11-15T03:52:58.331827,aibixby.com,208.67.222.222,A,[],NoAnswer,No answer for domain: aibixby.com on server: 208.67.222.222
+2024-11-15T03:52:58.331827,ahcdn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.331827,aftvrsys.com,208.67.222.222,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 208.67.222.222
+2024-11-15T03:52:58.331827,aibixby.com,195.208.5.1,A,[],NoAnswer,No answer for domain: aibixby.com on server: 195.208.5.1
+2024-11-15T03:52:58.331827,ahajournals.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:fe::10
+2024-11-15T03:52:58.331827,aftvrsys.com,2.56.220.2,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2.56.220.2
+2024-11-15T03:52:58.331827,ahacdn.me,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahacdn.me on server: 202.96.128.86
+2024-11-15T03:52:58.331827,ahajournals.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:119:35::35
+2024-11-15T03:52:58.331827,aftvrsys.com,223.6.6.6,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 223.6.6.6
+2024-11-15T03:52:58.331827,aibixby.com,62.76.62.76,A,[],NoAnswer,No answer for domain: aibixby.com on server: 62.76.62.76
+2024-11-15T03:52:58.331827,ahcdn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.331827,aftvrsys.com,114.114.114.114,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 114.114.114.114
+2024-11-15T03:52:58.331827,aibixby.com,195.208.4.1,A,[],NoAnswer,No answer for domain: aibixby.com on server: 195.208.4.1
+2024-11-15T03:52:58.331827,ahcdn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahcdn.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.331827,aftvrsys.com,223.5.5.5,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 223.5.5.5
+2024-11-15T03:52:58.331827,aibixby.com,77.88.8.1,A,[],NoAnswer,No answer for domain: aibixby.com on server: 77.88.8.1
+2024-11-15T03:52:58.331827,ahajournals.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.331827,aftvrsys.com,94.140.15.15,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 94.140.15.15
+2024-11-15T03:52:58.331827,aibixby.com,62.76.76.62,A,[],NoAnswer,No answer for domain: aibixby.com on server: 62.76.76.62
+2024-11-15T03:52:58.331827,aftvrsys.com,195.208.4.1,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 195.208.4.1
+2024-11-15T03:52:58.331827,ahajournals.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:0:ccc::2
+2024-11-15T03:52:58.331827,aftvrsys.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 210.21.196.6
+2024-11-15T03:52:58.331827,aibixby.com,77.88.8.8,A,[],NoAnswer,No answer for domain: aibixby.com on server: 77.88.8.8
+2024-11-15T03:52:58.331827,ahajournals.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:0:ccd::2
+2024-11-15T03:52:58.331827,aftvrsys.com,208.67.220.222,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 208.67.220.222
+2024-11-15T03:52:58.331827,ahrefs.com,101.226.4.6,A,"['172.64.148.115', '104.18.39.141']",,
+2024-11-15T03:52:58.331827,ahajournals.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ahajournals.org on server: 2620:119:53::53
+2024-11-15T03:52:58.331827,aftvrsys.com,208.67.222.220,A,[],NoAnswer,No answer for domain: aftvrsys.com on server: 208.67.222.220
+2024-11-15T03:52:58.331827,ahajournals.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 2400:da00::6666
+2024-11-15T03:52:58.331827,agkn.com,62.76.62.76,A,[],NoAnswer,No answer for domain: agkn.com on server: 62.76.62.76
+2024-11-15T03:52:58.331827,ahnlab.com,208.67.220.220,A,"['114.108.184.201', '211.233.80.200', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.331827,ahrefs.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 101.226.4.7
+2024-11-15T03:52:58.331827,agora.io,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.331827,ahrefs.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 202.96.128.86
+2024-11-15T03:52:58.331827,ahrefs.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 210.21.196.6
+2024-11-15T03:52:58.331827,agkn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.331827,ahnlab.com,195.208.5.1,A,"['211.233.80.200', '114.108.184.200', '114.108.184.201', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,agora.io,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.331827,agkn.com,9.9.9.10,A,[],NoAnswer,No answer for domain: agkn.com on server: 9.9.9.10
+2024-11-15T03:52:58.331827,ahnlab.com,208.67.222.220,A,"['211.233.80.201', '114.108.184.200', '114.108.184.201', '211.233.80.200']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2a03:90c0:999d::1,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.331827,agora.io,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.331827,ahrefs.com,2606:4700:4700::1001,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,agkn.com,195.208.4.1,A,[],NoAnswer,No answer for domain: agkn.com on server: 195.208.4.1
+2024-11-15T03:52:58.331827,ahnlab.com,62.76.76.62,A,"['211.233.80.201', '114.108.184.200', '211.233.80.200', '114.108.184.201']",,
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.331827,ahnlab.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2400:3200::1
+2024-11-15T03:52:58.331827,agora.io,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.331827,agkn.com,195.208.5.1,A,[],NoAnswer,No answer for domain: agkn.com on server: 195.208.5.1
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:0:ccc::2
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.331827,agora.io,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.331827,ahnlab.com,62.76.62.76,A,"['211.233.80.200', '114.108.184.201', '114.108.184.200', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-15T03:52:58.331827,ahnlab.com,95.85.95.85,A,"['211.233.80.201', '114.108.184.201', '211.233.80.200', '114.108.184.200']",,
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2400:3200:baba::1
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.331827,ahrefs.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,agora.io,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.331827,agoda.com,1.0.0.1,A,['103.6.182.20'],,
+2024-11-15T03:52:58.331827,ahnlab.com,2.56.220.2,A,"['114.108.184.201', '211.233.80.200', '114.108.184.200', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2402:4e00::
+2024-11-15T03:52:58.331827,ahrefs.com,2620:0:ccd::2,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.331827,agoda.com,8.8.4.4,A,['103.6.182.20'],,
+2024-11-15T03:52:58.331827,agora.io,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.331827,ahnlab.com,195.208.4.1,A,"['211.233.80.200', '114.108.184.201', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.331827,agkn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: agkn.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.331827,agora.io,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.331827,agoda.com,1.1.1.1,A,['103.6.182.20'],,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.331827,agones.gr,2620:0:ccd::2,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.331827,aftvrsys.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 202.96.128.86
+2024-11-15T03:52:58.331827,ahrefs.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3122:e000::b', '2a06:98c1:3123:e000::b']",,
+2024-11-15T03:52:58.331827,ahnlab.com,114.114.114.114,A,"['114.108.184.200', '211.233.80.200', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:119:35::35
+2024-11-15T03:52:58.331827,agoda.com,8.8.8.8,A,['103.6.182.20'],,
+2024-11-15T03:52:58.331827,ahnlab.com,114.114.115.115,A,"['211.233.80.200', '211.233.80.201', '114.108.184.201']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:119:53::53
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:0:ccc::2
+2024-11-15T03:52:58.331827,agones.gr,2620:119:53::53,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2620:0:ccc::2,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,agkn.com,101.226.4.6,A,[],NoAnswer,No answer for domain: agkn.com on server: 101.226.4.6
+2024-11-15T03:52:58.331827,ahnlab.com,94.140.14.14,A,"['114.108.184.200', '211.233.80.200', '114.108.184.201', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,aibixby.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aibixby.com on server: 9.9.9.9
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.331827,agones.gr,2620:0:ccc::2,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:fe::10
+2024-11-15T03:52:58.331827,ahrefs.com,2a03:90c0:9992::1,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.331827,ahnlab.com,94.140.15.15,A,"['114.108.184.200', '211.233.80.200', '114.108.184.201', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:119:53::53
+2024-11-15T03:52:58.331827,agones.gr,2620:119:35::35,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2001:4860:4860::8888,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.331827,agkn.com,117.50.11.11,A,['42.236.73.28'],,
+2024-11-15T03:52:58.331827,ahnlab.com,218.30.118.6,A,"['211.233.80.201', '211.233.80.200', '114.108.184.201', '114.108.184.200']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.331827,ahrefs.com,2606:4700:4700::1111,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,agkn.com,123.125.81.6,A,[],NoAnswer,No answer for domain: agkn.com on server: 123.125.81.6
+2024-11-15T03:52:58.331827,ahnlab.com,211.136.17.107,A,"['114.108.184.201', '211.233.80.201', '211.233.80.200', '114.108.184.200']",,
+2024-11-15T03:52:58.331827,agenciatributaria.gob.es,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:fe::10
+2024-11-15T03:52:58.331827,agones.gr,2620:fe::fe,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2620:119:53::53,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,agkn.com,218.30.118.6,A,[],NoAnswer,No answer for domain: agkn.com on server: 218.30.118.6
+2024-11-15T03:52:58.331827,ahnlab.com,208.67.222.222,A,"['211.233.80.200', '211.233.80.201', '114.108.184.200', '114.108.184.201']",,
+2024-11-15T03:52:58.331827,ag.gov.au,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2402:4e00::
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:119:35::35
+2024-11-15T03:52:58.331827,agones.gr,2620:fe::10,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-15T03:52:58.331827,agkn.com,211.136.17.107,A,[],NoAnswer,No answer for domain: agkn.com on server: 211.136.17.107
+2024-11-15T03:52:58.331827,ahnlab.com,208.67.220.222,A,"['114.108.184.200', '114.108.184.201', '211.233.80.200', '211.233.80.201']",,
+2024-11-15T03:52:58.331827,aftvrsys.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aftvrsys.com on server: 9.9.9.9
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.331827,agones.gr,2001:6d0:6d0::2001,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.331827,ahrefs.com,2620:119:35::35,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.331827,ahrefs.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahrefs.com on server: 123.125.81.7
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agenziaentrate.gov.it on server: 2400:da00::6666
+2024-11-15T03:52:58.331827,ag.gov.au,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2400:3200::1
+2024-11-15T03:52:58.331827,agones.gr,2001:6d0:d6::2001,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.331827,agkn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: agkn.com on server: 9.9.9.9
+2024-11-15T03:52:58.331827,ahrefs.com,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-15T03:52:58.331827,ag.gov.au,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ag.gov.au on server: 2400:3200:baba::1
+2024-11-15T03:52:58.331827,agenziaentrate.gov.it,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.331827,agones.gr,2a0c:a9c7:8::1,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.331827,agkn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agkn.com on server: 101.226.4.7
+2024-11-15T03:52:58.331827,agkn.com,119.29.29.29,A,[],NoAnswer,No answer for domain: agkn.com on server: 119.29.29.29
+2024-11-15T03:52:58.331827,ahnlab.com,117.50.11.11,A,"['211.233.80.201', '114.108.184.201', '114.108.184.200', '211.233.80.200']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2402:4e00::
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:fe::fe
+2024-11-15T03:52:58.332825,agones.gr,2a0c:a9c7:9::1,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.332825,ahrefs.com,2001:4860:4860::8844,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.332825,agkn.com,180.76.76.76,A,[],NoAnswer,No answer for domain: agkn.com on server: 180.76.76.76
+2024-11-15T03:52:58.332825,ahnlab.com,223.6.6.6,A,"['114.108.184.201', '211.233.80.201', '211.233.80.200', '114.108.184.200']",,
+2024-11-15T03:52:58.332825,agkn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: agkn.com on server: 123.125.81.7
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.332825,agones.gr,2a02:6b8::feed:0ff,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.332825,ahnlab.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2402:4e00::
+2024-11-15T03:52:58.332825,agkn.com,223.5.5.5,A,[],NoAnswer,No answer for domain: agkn.com on server: 223.5.5.5
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2400:3200::1
+2024-11-15T03:52:58.332825,agones.gr,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.332825,agkn.com,223.6.6.6,A,[],NoAnswer,No answer for domain: agkn.com on server: 223.6.6.6
+2024-11-15T03:52:58.332825,ahnlab.com,223.5.5.5,A,"['211.233.80.200', '114.108.184.201', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2620:0:ccd::2
+2024-11-15T03:52:58.332825,agora.io,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.332825,ahrefs.com,2620:fe::fe,AAAA,"['2606:4700:4400::ac40:9473', '2606:4700:4400::6812:278d']",,
+2024-11-15T03:52:58.332825,agkn.com,114.114.114.114,A,[],NoAnswer,No answer for domain: agkn.com on server: 114.114.114.114
+2024-11-15T03:52:58.332825,ag.gov.au,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ag.gov.au on server: 2400:da00::6666
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.332825,agora.io,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.332825,ahrefs.com,2620:fe::10,AAAA,"['2606:4700:4400::6812:278d', '2606:4700:4400::ac40:9473']",,
+2024-11-15T03:52:58.332825,agkn.com,114.114.115.115,A,[],NoAnswer,No answer for domain: agkn.com on server: 114.114.115.115
+2024-11-15T03:52:58.332825,ahnlab.com,9.9.9.10,A,"['211.233.80.200', '114.108.184.201', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.332825,agones.gr,2402:4e00::,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.332825,ahnlab.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.332825,agkn.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-15T03:52:58.332825,ahnlab.com,119.29.29.29,A,"['114.108.184.201', '211.233.80.200', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:0:ccd::2
+2024-11-15T03:52:58.332825,agkn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: agkn.com on server: 202.96.128.86
+2024-11-15T03:52:58.332825,ahnlab.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 202.96.128.86
+2024-11-15T03:52:58.332825,ahnlab.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.332825,agkn.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-15T03:52:58.332825,ahnlab.com,180.76.76.76,A,"['211.233.80.200', '211.233.80.201', '114.108.184.200', '114.108.184.201']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.332825,agones.gr,2400:3200:baba::1,AAAA,"['2606:4700:21::681b:cb59', '2606:4700:21::681b:cc59']",,
+2024-11-15T03:52:58.332825,agkn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: agkn.com on server: 210.21.196.6
+2024-11-15T03:52:58.332825,agkn.com,208.67.222.220,A,[],NoAnswer,No answer for domain: agkn.com on server: 208.67.222.220
+2024-11-15T03:52:58.332825,ahrefs.com,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2400:3200::1
+2024-11-15T03:52:58.332825,ahnlab.com,1.1.1.1,A,"['114.108.184.201', '211.233.80.201', '114.108.184.200', '211.233.80.200']",,
+2024-11-15T03:52:58.332825,agkn.com,208.67.220.222,A,[],NoAnswer,No answer for domain: agkn.com on server: 208.67.220.222
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2400:3200:baba::1
+2024-11-15T03:52:58.332825,ahnlab.com,1.0.0.1,A,"['114.108.184.201', '211.233.80.200', '211.233.80.201', '114.108.184.200']",,
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.332825,ahnlab.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ahnlab.com on server: 2400:3200:baba::1
+2024-11-15T03:52:58.332825,agkn.com,208.67.222.222,A,[],NoAnswer,No answer for domain: agkn.com on server: 208.67.222.222
+2024-11-15T03:52:58.332825,agones.gr,2a10:50c0::ad2:ff,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.332825,ahnlab.com,77.88.8.8,A,"['114.108.184.201', '114.108.184.200', '211.233.80.200', '211.233.80.201']",,
+2024-11-15T03:52:58.332825,agones.gr,2400:3200::1,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.332825,ahrefs.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.332825,ahnlab.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 210.21.196.6
+2024-11-15T03:52:58.332825,agkn.com,208.67.220.220,A,[],NoAnswer,No answer for domain: agkn.com on server: 208.67.220.220
+2024-11-15T03:52:58.332825,agones.gr,2a10:50c0::ad1:ff,AAAA,"['2606:4700:21::681b:cc59', '2606:4700:21::681b:cb59']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,208.67.220.220,A,"['13.33.183.25', '13.33.183.52', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,ahajournals.org,208.67.222.220,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: agenciatributaria.gob.es on server: 2620:fe::fe
+2024-11-15T03:52:58.332825,ahagamecenter.com,208.67.222.222,A,"['13.33.183.25', '13.33.183.52', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,ahnlab.com,77.88.8.1,A,"['114.108.184.200', '211.233.80.201', '211.233.80.200', '114.108.184.201']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,211.136.17.107,A,"['13.33.183.25', '13.33.183.98', '13.33.183.114', '13.33.183.52']",,
+2024-11-15T03:52:58.332825,ahacdn.me,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.332825,aftvrsys.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.332825,aftvrsys.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.332825,ahacdn.me,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.332825,ahajournals.org,77.88.8.1,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,ahajournals.org,2.56.220.2,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.332825,ahacdn.me,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.332825,ahajournals.org,77.88.8.8,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.332825,ahacdn.me,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.332825,ahagamecenter.com,8.8.4.4,A,"['13.33.183.98', '13.33.183.52', '13.33.183.114', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,ahnlab.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 2400:da00::6666
+2024-11-15T03:52:58.332825,aftvrsys.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:0:ccd::2
+2024-11-15T03:52:58.332825,ahacdn.me,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.332825,ahagamecenter.com,95.85.95.85,A,"['13.33.183.98', '13.33.183.52', '13.33.183.114', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,ahajournals.org,9.9.9.10,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a02:6b8::feed:0ff
+2024-11-15T03:52:58.332825,ahacdn.me,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2001:6d0:6d0::2001
+2024-11-15T03:52:58.332825,ahagamecenter.com,9.9.9.10,A,"['143.204.215.115', '143.204.215.9', '143.204.215.119', '143.204.215.63']",,
+2024-11-15T03:52:58.332825,ahajournals.org,195.208.4.1,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,agenciatributaria.gob.es,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agenciatributaria.gob.es on server: 2400:da00::6666
+2024-11-15T03:52:58.332825,ahacdn.me,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.332825,ahagamecenter.com,195.208.5.1,A,"['3.164.206.66', '3.164.206.101', '3.164.206.25', '3.164.206.35']",,
+2024-11-15T03:52:58.332825,ahajournals.org,195.208.5.1,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.332825,ahacdn.me,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2001:6d0:d6::2001
+2024-11-15T03:52:58.332825,ahagamecenter.com,223.5.5.5,A,"['13.33.183.114', '13.33.183.52', '13.33.183.98', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,ahajournals.org,62.76.76.62,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.332825,ahacdn.me,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.332825,ahagamecenter.com,208.67.222.220,A,"['13.33.183.52', '13.33.183.98', '13.33.183.114', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,ahajournals.org,62.76.62.76,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,aibixby.com,114.114.115.115,A,[],NoAnswer,No answer for domain: aibixby.com on server: 114.114.115.115
+2024-11-15T03:52:58.332825,agora.io,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:fe::fe
+2024-11-15T03:52:58.332825,ahagamecenter.com,94.140.14.14,A,"['3.168.167.95', '3.168.167.30', '3.168.167.20', '3.168.167.118']",,
+2024-11-15T03:52:58.332825,ahnlab.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahnlab.com on server: 9.9.9.9
+2024-11-15T03:52:58.332825,ahajournals.org,94.140.14.14,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,aibixby.com,223.5.5.5,A,[],NoAnswer,No answer for domain: aibixby.com on server: 223.5.5.5
+2024-11-15T03:52:58.332825,ahajournals.org,94.140.15.15,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,77.88.8.1,A,"['143.204.215.63', '143.204.215.115', '143.204.215.119', '143.204.215.9']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,208.67.220.222,A,"['13.33.183.25', '13.33.183.52', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,agora.io,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a0c:a9c7:9::1
+2024-11-15T03:52:58.332825,ahajournals.org,208.67.222.222,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,ahajournals.org,208.67.220.220,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2606:4700:4700::1111
+2024-11-15T03:52:58.332825,ahagamecenter.com,223.6.6.6,A,"['99.86.38.40', '99.86.38.56', '99.86.38.70', '99.86.38.65']",,
+2024-11-15T03:52:58.332825,ahacdn.me,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.332825,ahagamecenter.com,218.30.118.6,A,"['13.33.183.98', '13.33.183.114', '13.33.183.52', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2606:4700:4700::1001
+2024-11-15T03:52:58.332825,ahacdn.me,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2a03:90c0:999d::1
+2024-11-15T03:52:58.332825,ahagamecenter.com,119.29.29.29,A,"['13.33.183.114', '13.33.183.98', '13.33.183.52', '13.33.183.25']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,123.125.81.6,A,"['13.33.183.52', '13.33.183.25', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,aftvrsys.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.332825,agenziaentrate.gov.it,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: agenziaentrate.gov.it on server: 2a03:90c0:9992::1
+2024-11-15T03:52:58.332825,aftvrsys.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2001:4860:4860::8844
+2024-11-15T03:52:58.332825,ahacdn.me,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ahacdn.me on server: 2001:4860:4860::8888
+2024-11-15T03:52:58.332825,ahagamecenter.com,62.76.76.62,A,"['3.164.206.101', '3.164.206.35', '3.164.206.25', '3.164.206.66']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,117.50.11.11,A,"['13.33.183.25', '13.33.183.52', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,agones.gr,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agones.gr on server: 2400:da00::6666
+2024-11-15T03:52:58.332825,agora.io,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2400:3200:baba::1
+2024-11-15T03:52:58.332825,ahagamecenter.com,180.76.76.76,A,"['13.33.183.25', '13.33.183.52', '13.33.183.98', '13.33.183.114']",,
+2024-11-15T03:52:58.332825,ahagamecenter.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 9.9.9.9
+2024-11-15T03:52:58.333827,ahagamecenter.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 210.21.196.6
+2024-11-15T03:52:58.333827,agora.io,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2402:4e00::
+2024-11-15T03:52:58.333827,ahagamecenter.com,2.56.220.2,A,"['13.33.183.98', '13.33.183.52', '13.33.183.25', '13.33.183.114']",,
+2024-11-15T03:52:58.333827,ahajournals.org,8.8.8.8,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.333827,aibixby.com,180.76.76.76,A,[],NoAnswer,No answer for domain: aibixby.com on server: 180.76.76.76
+2024-11-15T03:52:58.333827,agora.io,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a10:50c0::ad2:ff
+2024-11-15T03:52:58.333827,ahajournals.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ahajournals.org on server: 9.9.9.9
+2024-11-15T03:52:58.333827,ahagamecenter.com,94.140.15.15,A,"['3.168.167.95', '3.168.167.30', '3.168.167.20', '3.168.167.118']",,
+2024-11-15T03:52:58.333827,ahagamecenter.com,101.226.4.6,A,"['13.33.183.98', '13.33.183.114', '13.33.183.52', '13.33.183.25']",,
+2024-11-15T03:52:58.333827,agora.io,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2400:3200::1
+2024-11-15T03:52:58.333827,ahagamecenter.com,114.114.114.114,A,"['143.204.215.119', '143.204.215.63', '143.204.215.9']",,
+2024-11-15T03:52:58.333827,aftvrsys.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T03:52:58.333827,aibixby.com,123.125.81.6,A,[],NoAnswer,No answer for domain: aibixby.com on server: 123.125.81.6
+2024-11-15T03:52:58.333827,agora.io,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a10:50c0::ad1:ff
+2024-11-15T03:52:58.333827,ahagamecenter.com,1.1.1.1,A,"['3.166.216.126', '3.166.216.53', '3.166.216.118', '3.166.216.77']",,
+2024-11-15T03:52:58.333827,aibixby.com,101.226.4.6,A,[],NoAnswer,No answer for domain: aibixby.com on server: 101.226.4.6
+2024-11-15T03:52:58.333827,agoda.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: agoda.com on server: 101.226.4.7
+2024-11-15T03:52:58.333827,aibixby.com,211.136.17.107,A,[],NoAnswer,No answer for domain: aibixby.com on server: 211.136.17.107
+2024-11-15T03:52:58.333827,agora.io,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:0:ccc::2
+2024-11-15T03:52:58.333827,agora.io,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: agora.io on server: 2400:da00::6666
+2024-11-15T03:52:58.333827,ahagamecenter.com,195.208.4.1,A,"['108.157.214.59', '108.157.214.94', '108.157.214.77', '108.157.214.25']",,
+2024-11-15T03:52:58.333827,agora.io,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:0:ccd::2
+2024-11-15T03:52:58.333827,aibixby.com,117.50.11.11,A,[],NoAnswer,No answer for domain: aibixby.com on server: 117.50.11.11
+2024-11-15T03:52:58.333827,ahagamecenter.com,1.0.0.1,A,"['3.167.192.115', '3.167.192.12', '3.167.192.38', '3.167.192.30']",,
+2024-11-15T03:52:58.333827,ahajournals.org,208.67.220.222,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.333827,agora.io,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:119:35::35
+2024-11-15T03:52:58.333827,ahajournals.org,1.0.0.1,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.333827,aibixby.com,218.30.118.6,A,[],NoAnswer,No answer for domain: aibixby.com on server: 218.30.118.6
+2024-11-15T03:52:58.333827,agora.io,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:119:53::53
+2024-11-15T03:52:58.333827,ahagamecenter.com,77.88.8.8,A,"['143.204.215.119', '143.204.215.115', '143.204.215.63', '143.204.215.9']",,
+2024-11-15T03:52:58.333827,ahajournals.org,95.85.95.85,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.333827,aibixby.com,223.6.6.6,A,[],NoAnswer,No answer for domain: aibixby.com on server: 223.6.6.6
+2024-11-15T03:52:58.333827,agora.io,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2620:fe::10
+2024-11-15T03:52:58.333827,ahagamecenter.com,62.76.62.76,A,"['108.157.214.25', '108.157.214.77', '108.157.214.94', '108.157.214.59']",,
+2024-11-15T03:52:58.333827,ahajournals.org,8.8.4.4,A,"['172.64.150.155', '104.18.37.101']",,
+2024-11-15T03:52:58.333827,aibixby.com,119.29.29.29,A,[],NoAnswer,No answer for domain: aibixby.com on server: 119.29.29.29
+2024-11-15T03:52:58.333827,ahagamecenter.com,114.114.115.115,A,"['143.204.215.63', '143.204.215.9', '143.204.215.115']",,
+2024-11-15T03:52:58.333827,ahajournals.org,1.1.1.1,A,"['104.18.37.101', '172.64.150.155']",,
+2024-11-15T03:52:58.333827,aftvrsys.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aftvrsys.com on server: 2620:fe::fe
+2024-11-15T03:52:58.333827,agora.io,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: agora.io on server: 2a0c:a9c7:8::1
+2024-11-15T03:52:58.333827,aibixby.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aibixby.com on server: 123.125.81.7
+2024-11-15T03:52:58.333827,ahagamecenter.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 101.226.4.7
+2024-11-15T03:52:58.333827,aibixby.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aibixby.com on server: 101.226.4.7
+2024-11-15T03:52:58.333827,aibixby.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aibixby.com on server: 202.96.128.86
+2024-11-15T03:52:58.333827,ahagamecenter.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 123.125.81.7
+2024-11-15T03:52:58.333827,ahagamecenter.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ahagamecenter.com on server: 202.96.128.86
+2024-11-15T03:52:58.333827,aibixby.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aibixby.com on server: 210.21.196.6
