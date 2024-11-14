@@ -2,9 +2,8 @@ import logging
 from datetime import datetime
 from typing import Any, Dict, List, Tuple
 
+from DBOperations import BDC_db, MongoDBHandler
 from pymongo.collection import Collection
-
-from ..Utils.db_operations import BDC_db, MongoDBHandler
 
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:

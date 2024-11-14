@@ -1,6 +1,6 @@
 import logging
 
-from ..Utils.db_operations import ADC_db, MongoDBHandler
+from DBOperations import ADC_db, MongoDBHandler
 
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:

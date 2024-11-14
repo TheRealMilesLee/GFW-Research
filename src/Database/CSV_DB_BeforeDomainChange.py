@@ -13,7 +13,7 @@ import os.path
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-from Database.DBOperations import BDC_db, MongoDBHandler
+from DBOperations import BDC_db, MongoDBHandler
 
 # Constants
 BeforeDomainChangeFolder = '../../Data/BeforeDomainChange/'
