@@ -22,31 +22,42 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   error_reason = None
 
   try:
-    print(f"Querying {domain} on {dns_server} for {record_type}")
-    answers = await resolver.resolve(domain, record_type)
+      print(f"Querying {domain} on {dns_server} for {record_type}")
+      answers = await resolver.resolve(domain, record_type)
   except dns.resolver.Timeout:
-    error_code = 'Timeout'
-    error_reason = f"Timeout occurred for domain: {domain} on server: {dns_server}"
-    print(error_reason)
+      error_code = 'Timeout'
+      error_reason = f"Timeout occurred for domain: {domain} on server: {dns_server}"
+
   except dns.resolver.NoAnswer:
-    error_code = 'NoAnswer'
-    error_reason = f"No answer for domain: {domain} on server: {dns_server}"
+      error_code = 'NoAnswer'
+      error_reason = f"No answer for domain: {domain} on server: {dns_server}"
+
   except dns.resolver.NXDOMAIN:
-    error_code = 'NXDOMAIN'
-    error_reason = f"Non-existent domain: {domain} on server: {dns_server}"
+      error_code = 'NXDOMAIN'
+      error_reason = f"Non-existent domain: {domain} on server: {dns_server}"
+
   except dns.resolver.YXDOMAIN:
-    error_code = 'YXDOMAIN'
-    error_reason = f"Domain name should not exist: {domain} on server: {dns_server}"
+      error_code = 'YXDOMAIN'
+      error_reason = f"Domain name should not exist: {domain} on server: {dns_server}"
+
   except dns.resolver.NoNameservers:
-    error_code = 'NoNameservers'
-    error_reason = f"No nameservers for domain: {domain} on server: {dns_server}"
+      error_code = 'NoNameservers'
+      error_reason = f"No nameservers for domain: {domain} on server: {dns_server}"
+
   except dns.resolver.ServFail:
-    error_code = 'ServFail'
-    error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
+      error_code = 'ServFail'
+      error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
+
   except Exception as e:
-    error_code = 'UnknownError'
-    error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
-    print(error_reason)
+      error_code = 'UnknownError'
+      error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
+
+
+  # 直接输出 answers 结果
+  else:
+      for rdata in answers:
+          print(f"Record: {rdata}")
+
 
   return {
     'domain': domain,
