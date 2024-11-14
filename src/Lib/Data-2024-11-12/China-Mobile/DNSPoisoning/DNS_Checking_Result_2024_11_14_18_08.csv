@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T18:08:12.160704,alamy.com,208.67.220.220,A,"['52.31.239.83', '52.48.179.136', '54.72.175.45']",,
+2024-11-14T18:08:12.160704,alarm.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:119:35::35
+2024-11-14T18:08:12.160704,alarabiya.net,211.136.17.107,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarabiya.net,218.30.118.6,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,ala.org,94.140.15.15,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarm.com,195.208.5.1,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,alamy.com,208.67.222.222,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.160704,alarm.com,1.0.0.1,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,alarabiya.net,119.29.29.29,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarm.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:fe::10
+2024-11-14T18:08:12.160704,ala.org,101.226.4.6,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarabiya.net,223.6.6.6,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarm.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.160704,alarm.com,62.76.62.76,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,akstat.io,195.208.5.1,A,[],NoAnswer,No answer for domain: akstat.io on server: 195.208.5.1
+2024-11-14T18:08:12.160704,akstat.io,195.208.4.1,A,[],NoAnswer,No answer for domain: akstat.io on server: 195.208.4.1
+2024-11-14T18:08:12.160704,alarm.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.160704,alarm.com,77.88.8.1,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,alarmnet.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.160704,ala.org,223.5.5.5,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,akstat.io,208.67.222.220,A,[],NoAnswer,No answer for domain: akstat.io on server: 208.67.222.220
+2024-11-14T18:08:12.160704,alarm.com,62.76.76.62,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,ala.org,114.114.114.114,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,ala.org,114.114.115.115,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarm.com,2.56.220.2,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,alarabiya.net,180.76.76.76,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarm.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.160704,alarm.com,77.88.8.8,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,ala.org,117.50.11.11,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,akstat.io,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T18:08:12.160704,ala.org,123.125.81.6,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarm.com,95.85.95.85,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,akismet.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 117.50.11.11
+2024-11-14T18:08:12.160704,akstat.io,62.76.76.62,A,[],NoAnswer,No answer for domain: akstat.io on server: 62.76.76.62
+2024-11-14T18:08:12.160704,akstat.io,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akstat.io on server: 9.9.9.9
+2024-11-14T18:08:12.160704,alarabiya.net,123.125.81.6,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarm.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2402:4e00::
+2024-11-14T18:08:12.160704,ala.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ala.org on server: 101.226.4.7
+2024-11-14T18:08:12.160704,alarabiya.net,101.226.4.6,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,akstat.io,62.76.62.76,A,[],NoAnswer,No answer for domain: akstat.io on server: 62.76.62.76
+2024-11-14T18:08:12.160704,alarbda.com,211.136.17.107,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.160704,akismet.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 123.125.81.7
+2024-11-14T18:08:12.160704,ala.org,211.136.17.107,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarmnet.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.160704,alarabiya.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 210.21.196.6
+2024-11-14T18:08:12.160704,alarm.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2400:3200::1
+2024-11-14T18:08:12.160704,akstat.io,77.88.8.8,A,[],NoAnswer,No answer for domain: akstat.io on server: 77.88.8.8
+2024-11-14T18:08:12.160704,alarabiya.net,208.67.220.220,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alarbda.com,117.50.11.11,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.160704,alarabiya.net,208.67.222.220,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,akstat.io,77.88.8.1,A,[],NoAnswer,No answer for domain: akstat.io on server: 77.88.8.1
+2024-11-14T18:08:12.160704,alarm.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.160704,akstat.io,208.67.222.222,A,[],NoAnswer,No answer for domain: akstat.io on server: 208.67.222.222
+2024-11-14T18:08:12.160704,alarabiya.net,223.5.5.5,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,ala.org,119.29.29.29,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,ala.org,218.30.118.6,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarabiya.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 202.96.128.86
+2024-11-14T18:08:12.160704,akstat.io,208.67.220.222,A,[],NoAnswer,No answer for domain: akstat.io on server: 208.67.220.222
+2024-11-14T18:08:12.160704,alarm.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:119:53::53
+2024-11-14T18:08:12.160704,ala.org,8.8.4.4,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarm.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.160704,alarabiya.net,117.50.11.11,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,ala.org,1.0.0.1,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,ala.org,180.76.76.76,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,akismet.com,211.136.17.107,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.160704,alarm.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarm.com on server: 2400:da00::6666
+2024-11-14T18:08:12.160704,alarm.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.160704,alarbda.com,218.30.118.6,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.160704,akstat.io,9.9.9.10,A,[],NoAnswer,No answer for domain: akstat.io on server: 9.9.9.10
+2024-11-14T18:08:12.160704,ala.org,77.88.8.8,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alamy.com,9.9.9.10,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.160704,alarabiya.net,208.67.222.222,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,akstat.io,2.56.220.2,A,[],NoAnswer,No answer for domain: akstat.io on server: 2.56.220.2
+2024-11-14T18:08:12.160704,ala.org,62.76.76.62,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarabiya.net,114.114.114.114,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,alamy.com,195.208.5.1,A,"['52.31.239.83', '54.72.175.45', '52.48.179.136']",,
+2024-11-14T18:08:12.160704,alarbda.com,180.76.76.76,A,"['104.26.1.55', '172.67.68.73', '104.26.0.55']",,
+2024-11-14T18:08:12.160704,alarm.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.160704,akismet.com,123.125.81.6,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.160704,ala.org,223.6.6.6,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarabiya.net,114.114.115.115,A,['35.189.113.23'],,
+2024-11-14T18:08:12.160704,ala.org,195.208.4.1,A,['23.185.0.1'],,
+2024-11-14T18:08:12.160704,alarm.com,195.208.4.1,A,['216.36.42.11'],,
+2024-11-14T18:08:12.160704,alarm.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.161709,akstat.io,1.0.0.1,A,[],NoAnswer,No answer for domain: akstat.io on server: 1.0.0.1
+2024-11-14T18:08:12.161709,ala.org,77.88.8.1,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alamy.com,62.76.62.76,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.161709,alarabiya.net,195.208.5.1,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alarm.com,1.1.1.1,A,['216.36.42.11'],,
+2024-11-14T18:08:12.161709,akstat.io,95.85.95.85,A,[],NoAnswer,No answer for domain: akstat.io on server: 95.85.95.85
+2024-11-14T18:08:12.161709,alarm.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.161709,ala.org,62.76.62.76,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alamy.com,195.208.4.1,A,"['54.72.175.45', '52.48.179.136', '52.31.239.83']",,
+2024-11-14T18:08:12.161709,alarbda.com,223.6.6.6,A,"['104.26.0.55', '172.67.68.73', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,alarabiya.net,9.9.9.10,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,akstat.io,8.8.4.4,A,[],NoAnswer,No answer for domain: akstat.io on server: 8.8.4.4
+2024-11-14T18:08:12.161709,alarm.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:fe::fe
+2024-11-14T18:08:12.161709,ala.org,94.140.14.14,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alarabiya.net,94.140.15.15,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alamy.com,77.88.8.1,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.161709,akstat.io,1.1.1.1,A,[],NoAnswer,No answer for domain: akstat.io on server: 1.1.1.1
+2024-11-14T18:08:12.161709,alarm.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.161709,ala.org,195.208.5.1,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alarbda.com,223.5.5.5,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,alamy.com,62.76.76.62,A,"['54.72.175.45', '52.48.179.136', '52.31.239.83']",,
+2024-11-14T18:08:12.161709,alarm.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.161709,ala.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ala.org on server: 202.96.128.86
+2024-11-14T18:08:12.161709,ala.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ala.org on server: 210.21.196.6
+2024-11-14T18:08:12.161709,alarbda.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarbda.com on server: 210.21.196.6
+2024-11-14T18:08:12.161709,alamy.com,77.88.8.8,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.161709,alarabiya.net,208.67.220.222,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alarm.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.161709,akstat.io,8.8.8.8,A,[],NoAnswer,No answer for domain: akstat.io on server: 8.8.8.8
+2024-11-14T18:08:12.161709,alarbda.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarbda.com on server: 202.96.128.86
+2024-11-14T18:08:12.161709,alarbda.com,119.29.29.29,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,alarm.com,8.8.4.4,A,['216.36.42.11'],,
+2024-11-14T18:08:12.161709,alarabiya.net,94.140.14.14,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,akstat.io,208.67.220.220,A,[],NoAnswer,No answer for domain: akstat.io on server: 208.67.220.220
+2024-11-14T18:08:12.161709,alamy.com,2.56.220.2,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.161709,alamy.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alamy.com on server: 9.9.9.9
+2024-11-14T18:08:12.161709,alarabiya.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 9.9.9.9
+2024-11-14T18:08:12.161709,alarm.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.161709,alarbda.com,114.114.115.115,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,akismet.com,101.226.4.6,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.161709,alarabiya.net,77.88.8.1,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,ala.org,9.9.9.10,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,akstat.io,223.5.5.5,A,[],NoAnswer,No answer for domain: akstat.io on server: 223.5.5.5
+2024-11-14T18:08:12.161709,ala.org,95.85.95.85,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alamy.com,95.85.95.85,A,"['52.48.179.136', '52.31.239.83', '54.72.175.45']",,
+2024-11-14T18:08:12.161709,alamy.com,1.1.1.1,A,"['52.31.239.83', '52.48.179.136', '54.72.175.45']",,
+2024-11-14T18:08:12.161709,alarabiya.net,62.76.76.62,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alarm.com,8.8.8.8,A,['216.36.42.11'],,
+2024-11-14T18:08:12.161709,akstat.io,223.6.6.6,A,[],NoAnswer,No answer for domain: akstat.io on server: 223.6.6.6
+2024-11-14T18:08:12.161709,alarabiya.net,2.56.220.2,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alarmnet.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.161709,ala.org,208.67.220.222,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alamy.com,1.0.0.1,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.161709,alarm.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.161709,alarabiya.net,77.88.8.8,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,ala.org,2.56.220.2,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,akstat.io,114.114.114.114,A,[],NoAnswer,No answer for domain: akstat.io on server: 114.114.114.114
+2024-11-14T18:08:12.161709,alamy.com,8.8.8.8,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.161709,alarabiya.net,62.76.62.76,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,ala.org,208.67.222.222,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,akstat.io,114.114.115.115,A,[],NoAnswer,No answer for domain: akstat.io on server: 114.114.115.115
+2024-11-14T18:08:12.161709,alarbda.com,101.226.4.6,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,alarm.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.161709,alamy.com,8.8.4.4,A,"['52.31.239.83', '54.72.175.45', '52.48.179.136']",,
+2024-11-14T18:08:12.161709,ala.org,208.67.220.220,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alarabiya.net,195.208.4.1,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,akstat.io,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T18:08:12.161709,ala.org,1.1.1.1,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alarabiya.net,95.85.95.85,A,['35.189.113.23'],,
+2024-11-14T18:08:12.161709,alarbda.com,123.125.81.6,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-adtech.com,208.67.222.222,A,"['198.185.159.145', '198.49.23.144', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.161709,al-array.com,180.76.76.76,A,[],NoAnswer,No answer for domain: al-array.com on server: 180.76.76.76
+2024-11-14T18:08:12.161709,ala.org,208.67.222.220,A,['23.185.0.1'],,
+2024-11-14T18:08:12.161709,alarbda.com,77.88.8.8,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,al-adtech.com,208.67.222.220,A,"['198.49.23.145', '198.185.159.144', '198.185.159.145', '198.49.23.144']",,
+2024-11-14T18:08:12.161709,alarbda.com,2.56.220.2,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-array.com,223.6.6.6,A,[],NoAnswer,No answer for domain: al-array.com on server: 223.6.6.6
+2024-11-14T18:08:12.161709,al-adtech.com,9.9.9.10,A,"['198.185.159.145', '198.49.23.144', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.161709,alarbda.com,94.140.15.15,A,"['104.26.1.55', '104.26.0.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,al-array.com,2.56.220.2,A,[],NoAnswer,No answer for domain: al-array.com on server: 2.56.220.2
+2024-11-14T18:08:12.161709,alarbda.com,114.114.114.114,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-array.com,119.29.29.29,A,[],NoAnswer,No answer for domain: al-array.com on server: 119.29.29.29
+2024-11-14T18:08:12.161709,al-array.com,123.125.81.6,A,[],NoAnswer,No answer for domain: al-array.com on server: 123.125.81.6
+2024-11-14T18:08:12.161709,alarbda.com,1.0.0.1,A,"['104.26.1.55', '104.26.0.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,al-adtech.com,208.67.220.220,A,"['198.185.159.144', '198.185.159.145', '198.49.23.144', '198.49.23.145']",,
+2024-11-14T18:08:12.161709,alarbda.com,95.85.95.85,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-array.com,62.76.62.76,A,[],NoAnswer,No answer for domain: al-array.com on server: 62.76.62.76
+2024-11-14T18:08:12.161709,akismet.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 101.226.4.7
+2024-11-14T18:08:12.161709,al-array.com,8.8.4.4,A,[],NoAnswer,No answer for domain: al-array.com on server: 8.8.4.4
+2024-11-14T18:08:12.161709,al-array.com,1.1.1.1,A,[],NoAnswer,No answer for domain: al-array.com on server: 1.1.1.1
+2024-11-14T18:08:12.161709,ala.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ala.org on server: 9.9.9.9
+2024-11-14T18:08:12.161709,alarbda.com,1.1.1.1,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,alarbda.com,8.8.8.8,A,"['172.67.68.73', '104.26.1.55', '104.26.0.55']",,
+2024-11-14T18:08:12.161709,al-array.com,62.76.76.62,A,[],NoAnswer,No answer for domain: al-array.com on server: 62.76.76.62
+2024-11-14T18:08:12.161709,alarbda.com,8.8.4.4,A,"['172.67.68.73', '104.26.1.55', '104.26.0.55']",,
+2024-11-14T18:08:12.161709,alaskaair.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.161709,al-array.com,8.8.8.8,A,[],NoAnswer,No answer for domain: al-array.com on server: 8.8.8.8
+2024-11-14T18:08:12.161709,al-array.com,101.226.4.6,A,[],NoAnswer,No answer for domain: al-array.com on server: 101.226.4.6
+2024-11-14T18:08:12.161709,alarbda.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarbda.com on server: 123.125.81.7
+2024-11-14T18:08:12.161709,al-array.com,77.88.8.8,A,[],NoAnswer,No answer for domain: al-array.com on server: 77.88.8.8
+2024-11-14T18:08:12.161709,al.com,8.8.4.4,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.161709,alarbda.com,208.67.220.222,A,"['104.26.1.55', '172.67.68.73', '104.26.0.55']",,
+2024-11-14T18:08:12.161709,alarbda.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarbda.com on server: 101.226.4.7
+2024-11-14T18:08:12.161709,al-array.com,77.88.8.1,A,[],NoAnswer,No answer for domain: al-array.com on server: 77.88.8.1
+2024-11-14T18:08:12.161709,al.com,1.1.1.1,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.161709,alarbda.com,94.140.14.14,A,"['104.26.1.55', '104.26.0.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,al.com,8.8.8.8,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.161709,al-array.com,1.0.0.1,A,[],NoAnswer,No answer for domain: al-array.com on server: 1.0.0.1
+2024-11-14T18:08:12.161709,al-array.com,95.85.95.85,A,[],NoAnswer,No answer for domain: al-array.com on server: 95.85.95.85
+2024-11-14T18:08:12.161709,al-array.com,195.208.5.1,A,[],NoAnswer,No answer for domain: al-array.com on server: 195.208.5.1
+2024-11-14T18:08:12.161709,alarbda.com,208.67.222.222,A,"['104.26.1.55', '172.67.68.73', '104.26.0.55']",,
+2024-11-14T18:08:12.161709,ala.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ala.org on server: 123.125.81.7
+2024-11-14T18:08:12.161709,al-adtech.com,101.226.4.6,A,"['198.185.159.144', '198.49.23.145', '198.185.159.145', '198.49.23.144']",,
+2024-11-14T18:08:12.161709,al-array.com,208.67.220.220,A,[],NoAnswer,No answer for domain: al-array.com on server: 208.67.220.220
+2024-11-14T18:08:12.161709,alarabsex.net,211.136.17.107,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.161709,al-array.com,195.208.4.1,A,[],NoAnswer,No answer for domain: al-array.com on server: 195.208.4.1
+2024-11-14T18:08:12.161709,al-array.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: al-array.com on server: 202.96.128.86
+2024-11-14T18:08:12.161709,alarabsex.net,101.226.4.6,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.161709,al-array.com,223.5.5.5,A,[],NoAnswer,No answer for domain: al-array.com on server: 223.5.5.5
+2024-11-14T18:08:12.161709,alaskaair.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.161709,al-adtech.com,211.136.17.107,A,"['198.49.23.144', '198.185.159.145', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.161709,alarabsex.net,123.125.81.6,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.161709,al-adtech.com,218.30.118.6,A,"['198.49.23.145', '198.49.23.144', '198.185.159.144', '198.185.159.145']",,
+2024-11-14T18:08:12.161709,alaskaair.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.161709,al-adtech.com,117.50.11.11,A,"['198.185.159.145', '198.49.23.144', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.161709,alarbda.com,208.67.222.220,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.161709,alaskaair.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:119:53::53
+2024-11-14T18:08:12.161709,al-array.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: al-array.com on server: 123.125.81.7
+2024-11-14T18:08:12.161709,al-adtech.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 101.226.4.7
+2024-11-14T18:08:12.161709,al-array.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: al-array.com on server: 210.21.196.6
+2024-11-14T18:08:12.161709,al-adtech.com,223.5.5.5,A,"['198.49.23.145', '198.185.159.145', '198.185.159.144', '198.49.23.144']",,
+2024-11-14T18:08:12.161709,al-array.com,114.114.115.115,A,[],NoAnswer,No answer for domain: al-array.com on server: 114.114.115.115
+2024-11-14T18:08:12.161709,al-adtech.com,123.125.81.6,A,"['198.185.159.145', '198.49.23.145', '198.185.159.144', '198.49.23.144']",,
+2024-11-14T18:08:12.161709,alaskaair.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:fe::10
+2024-11-14T18:08:12.161709,alarbda.com,9.9.9.10,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-adtech.com,180.76.76.76,A,"['198.185.159.144', '198.185.159.145', '198.49.23.144', '198.49.23.145']",,
+2024-11-14T18:08:12.161709,alarabsex.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 101.226.4.7
+2024-11-14T18:08:12.161709,alarbda.com,208.67.220.220,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,alaskaair.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:119:35::35
+2024-11-14T18:08:12.161709,al-array.com,117.50.11.11,A,[],NoAnswer,No answer for domain: al-array.com on server: 117.50.11.11
+2024-11-14T18:08:12.161709,alarbda.com,195.208.5.1,A,"['104.26.0.55', '172.67.68.73', '104.26.1.55']",,
+2024-11-14T18:08:12.161709,al-array.com,218.30.118.6,A,[],NoAnswer,No answer for domain: al-array.com on server: 218.30.118.6
+2024-11-14T18:08:12.161709,al-array.com,9.9.9.10,A,[],NoAnswer,No answer for domain: al-array.com on server: 9.9.9.10
+2024-11-14T18:08:12.162746,alarabsex.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 123.125.81.7
+2024-11-14T18:08:12.162746,al-adtech.com,114.114.114.114,A,"['198.185.159.145', '198.49.23.144', '198.49.23.145']",,
+2024-11-14T18:08:12.162746,al-array.com,94.140.15.15,A,[],NoAnswer,No answer for domain: al-array.com on server: 94.140.15.15
+2024-11-14T18:08:12.162746,al-adtech.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 123.125.81.7
+2024-11-14T18:08:12.162746,alarbda.com,195.208.4.1,A,"['172.67.68.73', '104.26.0.55', '104.26.1.55']",,
+2024-11-14T18:08:12.162746,al-adtech.com,114.114.115.115,A,"['198.49.23.144', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.162746,alaskaair.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2402:4e00::
+2024-11-14T18:08:12.162746,al-array.com,114.114.114.114,A,[],NoAnswer,No answer for domain: al-array.com on server: 114.114.114.114
+2024-11-14T18:08:12.162746,al-adtech.com,223.6.6.6,A,"['198.185.159.144', '198.49.23.144', '198.185.159.145', '198.49.23.145']",,
+2024-11-14T18:08:12.162746,al-array.com,208.67.220.222,A,[],NoAnswer,No answer for domain: al-array.com on server: 208.67.220.222
+2024-11-14T18:08:12.162746,alaskaair.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2620:fe::fe
+2024-11-14T18:08:12.162746,alaskaair.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.162746,alarbda.com,62.76.76.62,A,"['104.26.0.55', '104.26.1.55', '172.67.68.73']",,
+2024-11-14T18:08:12.162746,al-adtech.com,119.29.29.29,A,"['198.185.159.144', '198.185.159.145', '198.49.23.145', '198.49.23.144']",,
+2024-11-14T18:08:12.162746,al-array.com,94.140.14.14,A,[],NoAnswer,No answer for domain: al-array.com on server: 94.140.14.14
+2024-11-14T18:08:12.162746,alarbda.com,62.76.62.76,A,"['104.26.1.55', '104.26.0.55', '172.67.68.73']",,
+2024-11-14T18:08:12.162746,al-adtech.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T18:08:12.162746,al-array.com,211.136.17.107,A,[],NoAnswer,No answer for domain: al-array.com on server: 211.136.17.107
+2024-11-14T18:08:12.162746,al-array.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: al-array.com on server: 101.226.4.7
+2024-11-14T18:08:12.162746,alarabsex.net,218.30.118.6,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,al-adtech.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T18:08:12.162746,al-array.com,208.67.222.222,A,[],NoAnswer,No answer for domain: al-array.com on server: 208.67.222.222
+2024-11-14T18:08:12.162746,alaskaair.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2400:3200::1
+2024-11-14T18:08:12.162746,alaskaair.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.162746,al-array.com,208.67.222.220,A,[],NoAnswer,No answer for domain: al-array.com on server: 208.67.222.220
+2024-11-14T18:08:12.162746,alarbda.com,77.88.8.1,A,"['104.26.0.55', '172.67.68.73', '104.26.1.55']",,
+2024-11-14T18:08:12.162746,al-adtech.com,208.67.220.222,A,"['198.185.159.145', '198.49.23.144', '198.49.23.145', '198.185.159.144']",,
+2024-11-14T18:08:12.162746,alarabsex.net,117.50.11.11,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 117.50.11.11
+2024-11-14T18:08:12.162746,alaskaair.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.162746,akismet.com,1.0.0.1,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alarabsex.net,2.56.220.2,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alaskaair.com,195.208.5.1,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alarabiya.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2400:3200::1
+2024-11-14T18:08:12.162746,al-array.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: al-array.com on server: 9.9.9.9
+2024-11-14T18:08:12.162746,alarm.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.162746,aktuality.sk,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:fe::10
+2024-11-14T18:08:12.162746,akismet.com,218.30.118.6,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alaska.gov,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2402:4e00::
+2024-11-14T18:08:12.162746,alarabsex.net,1.1.1.1,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alarm.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alarm.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.162746,al-adtech.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 202.96.128.86
+2024-11-14T18:08:12.162746,alaskaair.com,62.76.62.76,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alarabsex.net,2620:0:ccc::2,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.162746,alarabsex.net,1.0.0.1,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,akismet.com,2.56.220.2,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.162746,alarabsex.net,2606:4700:4700::1001,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.162746,alarbda.com,2402:4e00::,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:137', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.162746,alaska.gov,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2400:3200:baba::1
+2024-11-14T18:08:12.162746,alaskaair.com,195.208.4.1,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,al-adtech.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 210.21.196.6
+2024-11-14T18:08:12.162746,aktuality.sk,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.162746,alarabsex.net,2001:4860:4860::8888,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.162746,alarabsex.net,95.85.95.85,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alarbda.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarbda.com on server: 9.9.9.9
+2024-11-14T18:08:12.162746,aktuality.sk,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.162746,alaskaair.com,8.8.8.8,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.162746,alarabsex.net,2606:4700:4700::1111,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.162746,alarbda.com,2400:3200::1,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:37', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.162746,alaska.gov,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:fe::fe
+2024-11-14T18:08:12.162746,akismet.com,1.1.1.1,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alarabsex.net,119.29.29.29,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alaskaair.com,62.76.76.62,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.162746,alaskaair.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 2400:da00::6666
+2024-11-14T18:08:12.162746,alarbda.com,2400:3200:baba::1,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::ac43:4449', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.162746,alaska.gov,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:fe::10
+2024-11-14T18:08:12.162746,akismet.com,9.9.9.10,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alaska.gov,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alaska.gov on server: 2400:da00::6666
+2024-11-14T18:08:12.162746,alaskaair.com,208.67.222.222,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,akismet.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 202.96.128.86
+2024-11-14T18:08:12.162746,alaska.gov,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alaska.gov on server: 101.226.4.7
+2024-11-14T18:08:12.162746,alarabsex.net,2001:4860:4860::8844,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.162746,alarbda.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarbda.com on server: 2400:da00::6666
+2024-11-14T18:08:12.162746,akismet.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 210.21.196.6
+2024-11-14T18:08:12.162746,alarbda.com,2606:4700:4700::1001,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::ac43:4449', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.162746,alaska.gov,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.162746,alarabsex.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 210.21.196.6
+2024-11-14T18:08:12.162746,alarabiya.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2402:4e00::
+2024-11-14T18:08:12.162746,aktuality.sk,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.162746,akismet.com,180.76.76.76,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.162746,akismet.com,208.67.220.220,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alarabsex.net,114.114.115.115,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,alaskaair.com,77.88.8.1,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alarbda.com,2606:4700:4700::1111,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::681a:137', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.162746,alarabsex.net,180.76.76.76,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alaska.gov,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2400:3200::1
+2024-11-14T18:08:12.162746,akstat.io,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:0:ccc::2
+2024-11-14T18:08:12.162746,alarabiya.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2400:3200:baba::1
+2024-11-14T18:08:12.162746,alaskaair.com,2.56.220.2,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,akismet.com,95.85.95.85,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.162746,alaska.gov,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.162746,alarabsex.net,77.88.8.1,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,akstat.io,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:0:ccd::2
+2024-11-14T18:08:12.162746,alarbda.com,2a03:90c0:999d::1,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:137', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.162746,alarbda.com,2001:4860:4860::8888,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::ac43:4449', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.162746,akismet.com,208.67.220.222,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.162746,alarabsex.net,62.76.76.62,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,alaska.gov,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.162746,alaskaair.com,77.88.8.8,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.162746,alarbda.com,2001:4860:4860::8844,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:37', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.162746,alaskaair.com,1.0.0.1,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.162746,alaska.gov,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.162746,alarabsex.net,8.8.4.4,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,alarabsex.net,2402:4e00::,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.162746,aktuality.sk,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.162746,akismet.com,223.6.6.6,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alarabsex.net,114.114.114.114,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,alaskaair.com,95.85.95.85,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alaska.gov,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:0:ccd::2
+2024-11-14T18:08:12.162746,alarabsex.net,2400:3200::1,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.162746,alaskaair.com,8.8.4.4,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alarbda.com,2620:0:ccd::2,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::681a:137', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.162746,akismet.com,8.8.4.4,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alarabsex.net,8.8.8.8,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,alaskaair.com,1.1.1.1,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.162746,alarabsex.net,2400:3200:baba::1,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.162746,alaskaair.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.162746,alarbda.com,2620:fe::10,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::681a:137', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.162746,akismet.com,223.5.5.5,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,alaska.gov,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:0:ccc::2
+2024-11-14T18:08:12.162746,alarabsex.net,208.67.222.222,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:0:ccd::2
+2024-11-14T18:08:12.162746,aktuality.sk,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:0:ccc::2
+2024-11-14T18:08:12.162746,alarbda.com,2620:0:ccc::2,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::ac43:4449', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.162746,alarabsex.net,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:119:35::35
+2024-11-14T18:08:12.162746,alarabsex.net,208.67.220.222,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.162746,akismet.com,62.76.62.76,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.162746,aktuality.sk,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:119:53::53
+2024-11-14T18:08:12.163745,alaskaair.com,9.9.9.10,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,alaska.gov,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:119:35::35
+2024-11-14T18:08:12.163745,alarbda.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:37', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.163745,alarabiya.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 2400:da00::6666
+2024-11-14T18:08:12.163745,akstat.io,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2402:4e00::
+2024-11-14T18:08:12.163745,alarabsex.net,2620:0:ccd::2,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,akismet.com,77.88.8.1,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alaska.gov,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2620:119:53::53
+2024-11-14T18:08:12.163745,alarbda.com,2620:fe::fe,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:37', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.163745,alaska.gov,101.226.4.6,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,akismet.com,94.140.14.14,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alarabsex.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 202.96.128.86
+2024-11-14T18:08:12.163745,alarabsex.net,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::ac43:4449', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.163745,alaska.gov,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.163745,akismet.com,77.88.8.8,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alarabsex.net,223.6.6.6,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.163745,akstat.io,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2400:3200::1
+2024-11-14T18:08:12.163745,alarabsex.net,2620:119:35::35,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,alaska.gov,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.163745,akismet.com,195.208.5.1,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.163745,alarabsex.net,208.67.222.220,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,alaska.gov,123.125.81.6,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,akstat.io,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2400:3200:baba::1
+2024-11-14T18:08:12.163745,alarabsex.net,2620:119:53::53,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::ac43:4449', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.163745,akismet.com,8.8.8.8,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alarabsex.net,223.5.5.5,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,alaska.gov,218.30.118.6,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,akstat.io,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T18:08:12.163745,alarabiya.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 123.125.81.7
+2024-11-14T18:08:12.163745,alarabsex.net,2620:fe::fe,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::681a:37', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.163745,akismet.com,208.67.222.222,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.163745,alarabsex.net,208.67.220.220,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,akstat.io,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T18:08:12.163745,alarabsex.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 2400:da00::6666
+2024-11-14T18:08:12.163745,alarbda.com,2620:119:35::35,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::ac43:4449', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.163745,alaska.gov,211.136.17.107,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,alarabsex.net,2620:fe::10,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,akismet.com,119.29.29.29,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.163745,alarabsex.net,94.140.14.14,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,akstat.io,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:119:35::35
+2024-11-14T18:08:12.163745,alaskaair.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 9.9.9.9
+2024-11-14T18:08:12.163745,alarbda.com,2620:119:53::53,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::681a:137', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.163745,akismet.com,208.67.222.220,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.163745,alarabsex.net,94.140.15.15,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,alarabsex.net,2a0c:a9c7:8::1,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,akstat.io,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:119:53::53
+2024-11-14T18:08:12.163745,alaskaair.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.163745,alarabsex.net,2a0c:a9c7:9::1,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.163745,alarbda.com,2001:6d0:6d0::2001,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::681a:137', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.163745,akismet.com,114.114.114.114,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alaskaair.com,94.140.14.14,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,alarabsex.net,62.76.62.76,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T18:08:12.163745,aktuality.sk,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.163745,alarabsex.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,akismet.com,114.114.115.115,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.163745,alarabsex.net,9.9.9.10,A,"['188.114.97.4', '188.114.96.4']",,
+2024-11-14T18:08:12.163745,alarbda.com,2001:6d0:d6::2001,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:37', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.163745,alarabiya.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarabiya.net on server: 101.226.4.7
+2024-11-14T18:08:12.163745,alaska.gov,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alaska.gov on server: 123.125.81.7
+2024-11-14T18:08:12.163745,akstat.io,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akstat.io on server: 2400:da00::6666
+2024-11-14T18:08:12.163745,aktuality.sk,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2620:fe::fe
+2024-11-14T18:08:12.163745,alaskaair.com,114.114.114.114,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,akismet.com,94.140.15.15,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alarabsex.net,2001:6d0:d6::2001,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:20::681a:37', '2606:4700:20::ac43:4449', '2606:4700:20::681a:137']",,
+2024-11-14T18:08:12.163745,alaskaair.com,208.67.220.222,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.163745,alaskaair.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.163745,alarabsex.net,77.88.8.8,A,"['104.21.56.54', '172.67.178.130']",,
+2024-11-14T18:08:12.163745,alarabsex.net,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,aktuality.sk,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.163745,alaskaair.com,94.140.15.15,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,akismet.com,195.208.4.1,A,"['192.0.78.24', '192.0.78.25']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.163745,alarabsex.net,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3120::3', '2a06:98c1:3121::3']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a03:90c0:9992::1,AAAA,"['2606:4700:20::681a:137', '2606:4700:20::681a:37', '2606:4700:20::ac43:4449']",,
+2024-11-14T18:08:12.163745,alaskaair.com,208.67.220.220,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.163745,akismet.com,62.76.76.62,A,"['192.0.78.25', '192.0.78.24']",,
+2024-11-14T18:08:12.163745,alarbda.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:20::ac43:4449', '2606:4700:20::681a:137', '2606:4700:20::681a:37']",,
+2024-11-14T18:08:12.163745,alarabsex.net,2a03:90c0:999d::1,AAAA,"['2606:4700:3036::6815:3836', '2606:4700:3033::ac43:b282']",,
+2024-11-14T18:08:12.163745,alaskaair.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alaskaair.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.163745,alarabsex.net,195.208.4.1,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.163745,aktuality.sk,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.163745,alaskaair.com,208.67.222.220,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.163745,alarabsex.net,195.208.5.1,A,"['172.67.178.130', '104.21.56.54']",,
+2024-11-14T18:08:12.163745,alarabsex.net,2a03:90c0:9992::1,AAAA,"['2606:4700:3033::ac43:b282', '2606:4700:3036::6815:3836']",,
+2024-11-14T18:08:12.163745,aktuality.sk,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.163745,al.com,101.226.4.6,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,117.50.11.11,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,195.208.4.1,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,2.56.220.2,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,62.76.76.62,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,62.76.62.76,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,218.30.118.6,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,77.88.8.8,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,95.85.95.85,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,77.88.8.1,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,211.136.17.107,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,123.125.81.6,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,119.29.29.29,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,180.76.76.76,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,223.5.5.5,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,223.6.6.6,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,114.114.114.114,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,114.114.115.115,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,al.com,94.140.14.14,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,alaska.gov,117.50.11.11,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,al.com,94.140.15.15,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,195.208.5.1,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,alaska.gov,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alaska.gov on server: 202.96.128.86
+2024-11-14T18:08:12.163745,al.com,208.67.220.222,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,1.0.0.1,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,alaska.gov,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alaska.gov on server: 210.21.196.6
+2024-11-14T18:08:12.163745,al.com,208.67.220.220,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,208.67.222.220,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,al.com,208.67.222.222,A,"['99.83.138.34', '75.2.53.215']",,
+2024-11-14T18:08:12.163745,ala.org,8.8.8.8,A,['23.185.0.1'],,
+2024-11-14T18:08:12.163745,al.com,9.9.9.10,A,"['75.2.53.215', '99.83.138.34']",,
+2024-11-14T18:08:12.163745,aktuality.sk,208.67.222.220,A,['91.235.52.35'],,
+2024-11-14T18:08:12.163745,alarabixxx.com,114.114.115.115,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.163745,alarmnet.com,218.30.118.6,A,['204.141.56.44'],,
+2024-11-14T18:08:12.163745,alaska.gov,208.67.222.222,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,ala.org,2400:3200:baba::1,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.163745,alarabsex.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarabsex.net on server: 9.9.9.9
+2024-11-14T18:08:12.163745,alarabixxx.com,180.76.76.76,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.163745,aktuality.sk,208.67.220.222,A,['91.235.52.35'],,
+2024-11-14T18:08:12.163745,alaska.gov,9.9.9.10,A,['158.145.65.37'],,
+2024-11-14T18:08:12.163745,alamy.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:119:35::35
+2024-11-14T18:08:12.163745,aktuality.sk,9.9.9.10,A,['91.235.52.35'],,
+2024-11-14T18:08:12.163745,akismet.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: akismet.com on server: 9.9.9.9
+2024-11-14T18:08:12.164743,alarmnet.com,180.76.76.76,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,114.114.115.115,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,al.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: al.com on server: 210.21.196.6
+2024-11-14T18:08:12.164743,al.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: al.com on server: 202.96.128.86
+2024-11-14T18:08:12.164743,alarmnet.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.164743,ala.org,2402:4e00::,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,akstat.io,119.29.29.29,A,[],NoAnswer,No answer for domain: akstat.io on server: 119.29.29.29
+2024-11-14T18:08:12.164743,ala.org,2a0c:a9c7:8::1,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,alaska.gov,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.164743,alarmnet.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.164743,aktuality.sk,77.88.8.1,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarmnet.com,94.140.14.14,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,ala.org,2a0c:a9c7:9::1,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.164743,al.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: al.com on server: 101.226.4.7
+2024-11-14T18:08:12.164743,al.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: al.com on server: 9.9.9.9
+2024-11-14T18:08:12.164743,alarabixxx.com,119.29.29.29,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,al.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: al.com on server: 123.125.81.7
+2024-11-14T18:08:12.164743,alaska.gov,114.114.114.114,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alamy.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.164743,alarmnet.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.164743,aktuality.sk,1.1.1.1,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alaska.gov,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.164743,alarabixxx.com,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T18:08:12.164743,alarmnet.com,208.67.220.222,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alamy.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:fe::10
+2024-11-14T18:08:12.164743,alaska.gov,119.29.29.29,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarabixxx.com,94.140.15.15,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,akstat.io,180.76.76.76,A,[],NoAnswer,No answer for domain: akstat.io on server: 180.76.76.76
+2024-11-14T18:08:12.164743,alamy.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.164743,alaska.gov,180.76.76.76,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.164743,alarabixxx.com,114.114.114.114,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alarabixxx.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 9.9.9.9
+2024-11-14T18:08:12.164743,alaska.gov,223.5.5.5,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarmnet.com,208.67.220.220,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.164743,alarabixxx.com,223.5.5.5,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alarmnet.com,208.67.222.220,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,223.6.6.6,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,aktuality.sk,195.208.5.1,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,aktuality.sk,208.67.220.220,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarabixxx.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 202.96.128.86
+2024-11-14T18:08:12.164743,alarmnet.com,223.6.6.6,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alarmnet.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 210.21.196.6
+2024-11-14T18:08:12.164743,alaska.gov,8.8.8.8,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alaska.gov,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.164743,alarabixxx.com,223.6.6.6,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.164743,alamy.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.164743,alamy.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:fe::fe
+2024-11-14T18:08:12.164743,alaska.gov,8.8.4.4,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarmnet.com,119.29.29.29,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alamy.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.164743,aktuality.sk,8.8.8.8,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.164743,alarabixxx.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 210.21.196.6
+2024-11-14T18:08:12.164743,alarmnet.com,114.114.115.115,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,aktuality.sk,208.67.222.222,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alaska.gov,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.164743,aktuality.sk,8.8.4.4,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarabixxx.com,208.67.222.220,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.164743,alarmnet.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.164743,alamy.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.164743,alarmnet.com,223.5.5.5,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.164743,akstat.io,218.30.118.6,A,[],NoAnswer,No answer for domain: akstat.io on server: 218.30.118.6
+2024-11-14T18:08:12.164743,alarabixxx.com,94.140.14.14,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alarmnet.com,94.140.15.15,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,94.140.14.14,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alamy.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.164743,aktuality.sk,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 9.9.9.9
+2024-11-14T18:08:12.164743,alarmnet.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 202.96.128.86
+2024-11-14T18:08:12.164743,alarabixxx.com,123.125.81.6,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.164743,alarmnet.com,114.114.114.114,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,94.140.15.15,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,ala.org,2620:0:ccd::2,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,alaska.gov,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.164743,alamy.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.164743,alarabixxx.com,101.226.4.6,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alarmnet.com,9.9.9.10,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,208.67.220.222,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alamy.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.164743,alarmnet.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.164743,alaska.gov,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.164743,alarabixxx.com,208.67.220.220,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.164743,alarmnet.com,208.67.222.222,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,208.67.222.220,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alamy.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.164743,alaska.gov,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.164743,akstat.io,123.125.81.6,A,[],NoAnswer,No answer for domain: akstat.io on server: 123.125.81.6
+2024-11-14T18:08:12.164743,alarabixxx.com,208.67.220.222,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.164743,alarabixxx.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 123.125.81.7
+2024-11-14T18:08:12.164743,alarmnet.com,195.208.5.1,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,208.67.220.220,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alamy.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.164743,alaska.gov,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alaska.gov on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.164743,akstat.io,101.226.4.6,A,[],NoAnswer,No answer for domain: akstat.io on server: 101.226.4.6
+2024-11-14T18:08:12.164743,alarabiya.net,8.8.4.4,A,['35.189.113.23'],,
+2024-11-14T18:08:12.164743,alamy.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.164743,alarabixxx.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 101.226.4.7
+2024-11-14T18:08:12.164743,alarmnet.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2402:4e00::
+2024-11-14T18:08:12.164743,alarmnet.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 123.125.81.7
+2024-11-14T18:08:12.164743,alarabiya.net,1.0.0.1,A,['35.189.113.23'],,
+2024-11-14T18:08:12.164743,aktuality.sk,62.76.62.76,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alamy.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.164743,alarmnet.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 101.226.4.7
+2024-11-14T18:08:12.164743,alaska.gov,195.208.5.1,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarmnet.com,62.76.62.76,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alarabixxx.com,9.9.9.10,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T18:08:12.164743,aktuality.sk,195.208.4.1,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarmnet.com,195.208.4.1,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2400:3200::1
+2024-11-14T18:08:12.164743,ala.org,2620:fe::fe,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.164743,alarabixxx.com,208.67.222.222,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,aktuality.sk,62.76.76.62,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarmnet.com,123.125.81.6,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,62.76.62.76,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,alarmnet.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.164743,akstat.io,202.96.128.86,A,[],Timeout,Timeout occurred for domain: akstat.io on server: 202.96.128.86
+2024-11-14T18:08:12.164743,alarabixxx.com,218.30.118.6,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alarmnet.com,101.226.4.6,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,195.208.4.1,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,ala.org,2620:119:35::35,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,alarmnet.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.164743,akstat.io,211.136.17.107,A,[],NoAnswer,No answer for domain: akstat.io on server: 211.136.17.107
+2024-11-14T18:08:12.164743,alarabiya.net,1.1.1.1,A,['35.189.113.23'],,
+2024-11-14T18:08:12.164743,alarmnet.com,62.76.76.62,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,77.88.8.1,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,ala.org,2620:0:ccc::2,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,alarmnet.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.164743,akstat.io,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T18:08:12.164743,alaska.gov,62.76.76.62,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,ala.org,2a10:50c0::ad2:ff,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.164743,alarmnet.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:119:53::53
+2024-11-14T18:08:12.164743,aktuality.sk,2.56.220.2,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarabiya.net,8.8.8.8,A,['35.189.113.23'],,
+2024-11-14T18:08:12.164743,alarmnet.com,77.88.8.1,A,['204.141.56.44'],,
+2024-11-14T18:08:12.164743,alaska.gov,2.56.220.2,A,['158.145.65.37'],,
+2024-11-14T18:08:12.164743,ala.org,2400:3200::1,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.164743,alarmnet.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.164743,aktuality.sk,77.88.8.8,A,['91.235.52.35'],,
+2024-11-14T18:08:12.164743,alarabixxx.com,211.136.17.107,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.164743,alaska.gov,77.88.8.8,A,['158.145.65.37'],,
+2024-11-14T18:08:12.165743,ala.org,2a10:50c0::ad1:ff,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.165743,alarmnet.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:fe::10
+2024-11-14T18:08:12.165743,akstat.io,123.125.81.7,A,[],Timeout,Timeout occurred for domain: akstat.io on server: 123.125.81.7
+2024-11-14T18:08:12.165743,alarmnet.com,211.136.17.107,A,['204.141.56.44'],,
+2024-11-14T18:08:12.165743,alaska.gov,1.0.0.1,A,['158.145.65.37'],,
+2024-11-14T18:08:12.165743,alarmnet.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.165743,aktuality.sk,95.85.95.85,A,['91.235.52.35'],,
+2024-11-14T18:08:12.165743,alarmnet.com,117.50.11.11,A,['204.141.56.44'],,
+2024-11-14T18:08:12.165743,alaska.gov,95.85.95.85,A,['158.145.65.37'],,
+2024-11-14T18:08:12.165743,ala.org,2620:fe::10,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.165743,alarmnet.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:fe::fe
+2024-11-14T18:08:12.165743,aktuality.sk,1.0.0.1,A,['91.235.52.35'],,
+2024-11-14T18:08:12.165743,alaska.gov,1.1.1.1,A,['158.145.65.37'],,
+2024-11-14T18:08:12.165743,ala.org,2620:119:53::53,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.165743,alarmnet.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alarmnet.com on server: 2620:119:35::35
+2024-11-14T18:08:12.165743,alarabixxx.com,1.0.0.1,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,al-adtech.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.165743,al-array.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:fe::fe
+2024-11-14T18:08:12.165743,akstat.io,101.226.4.7,A,[],Timeout,Timeout occurred for domain: akstat.io on server: 101.226.4.7
+2024-11-14T18:08:12.165743,alarabiya.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.165743,alarabixxx.com,8.8.4.4,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.165743,akismet.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2400:3200::1
+2024-11-14T18:08:12.165743,al-adtech.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.165743,al-array.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.165743,alarabixxx.com,2001:4860:4860::8888,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:0:ccd::2
+2024-11-14T18:08:12.165743,alarabixxx.com,1.1.1.1,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.165743,al-adtech.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.165743,alarmnet.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 9.9.9.9
+2024-11-14T18:08:12.165743,al-array.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.165743,alarabiya.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.165743,alarmnet.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarmnet.com on server: 2400:da00::6666
+2024-11-14T18:08:12.165743,akismet.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.165743,alaska.gov,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alaska.gov on server: 9.9.9.9
+2024-11-14T18:08:12.165743,al-array.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:119:53::53
+2024-11-14T18:08:12.165743,alarabixxx.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabixxx.com,8.8.8.8,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,al-adtech.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2402:4e00::
+2024-11-14T18:08:12.165743,al-array.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.165743,alarabixxx.com,2606:4700:4700::1111,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:0:ccc::2
+2024-11-14T18:08:12.165743,alamy.com,223.5.5.5,A,"['54.72.175.45', '52.31.239.83', '52.51.227.204']",,
+2024-11-14T18:08:12.165743,akismet.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.165743,ala.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ala.org on server: 2400:da00::6666
+2024-11-14T18:08:12.165743,akstat.io,210.21.196.6,A,[],Timeout,Timeout occurred for domain: akstat.io on server: 210.21.196.6
+2024-11-14T18:08:12.165743,al-array.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:119:35::35
+2024-11-14T18:08:12.165743,alamy.com,223.6.6.6,A,"['54.72.175.45', '52.31.239.83', '52.51.227.204']",,
+2024-11-14T18:08:12.165743,al-adtech.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2400:3200::1
+2024-11-14T18:08:12.165743,alarabiya.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.165743,akstat.io,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.165743,alarabixxx.com,2001:4860:4860::8844,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.165743,al-adtech.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.165743,alamy.com,101.226.4.6,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.165743,alarabixxx.com,2606:4700:4700::1001,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:119:35::35
+2024-11-14T18:08:12.165743,al-adtech.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T18:08:12.165743,akstat.io,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.165743,al-adtech.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T18:08:12.165743,al-array.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2620:fe::10
+2024-11-14T18:08:12.165743,alamy.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.165743,alarabiya.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:119:53::53
+2024-11-14T18:08:12.165743,alamy.com,114.114.114.114,A,"['54.72.175.45', '52.48.179.136', '52.31.239.83']",,
+2024-11-14T18:08:12.165743,al-array.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.165743,al-array.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.165743,alamy.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2402:4e00::
+2024-11-14T18:08:12.165743,alarabiya.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.165743,alamy.com,114.114.115.115,A,"['52.48.179.136', '52.31.239.83', '54.72.175.45']",,
+2024-11-14T18:08:12.165743,akismet.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.165743,al-adtech.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.165743,alarabixxx.com,2620:119:53::53,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:fe::10
+2024-11-14T18:08:12.165743,alarabixxx.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 117.50.11.11
+2024-11-14T18:08:12.165743,akismet.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.165743,al-adtech.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.165743,al-array.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.165743,alarabixxx.com,2620:fe::fe,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.165743,alamy.com,123.125.81.6,A,"['54.72.175.45', '52.48.179.136', '52.31.239.83']",,
+2024-11-14T18:08:12.165743,al-array.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.165743,alarabixxx.com,2620:119:35::35,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,akismet.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2402:4e00::
+2024-11-14T18:08:12.165743,aktuality.sk,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2400:3200::1
+2024-11-14T18:08:12.165743,al-array.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.165743,alarabiya.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.165743,alarabixxx.com,195.208.4.1,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,akstat.io,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:fe::fe
+2024-11-14T18:08:12.165743,aktuality.sk,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2400:3200:baba::1
+2024-11-14T18:08:12.165743,alarabixxx.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,alamy.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alamy.com on server: 2400:da00::6666
+2024-11-14T18:08:12.165743,alarabixxx.com,62.76.76.62,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,akstat.io,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2620:fe::10
+2024-11-14T18:08:12.165743,al-adtech.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.165743,al-array.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.165743,alarabixxx.com,2620:fe::10,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alarabixxx.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alarabiya.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.165743,alarabixxx.com,62.76.62.76,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.165743,akstat.io,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.165743,al-array.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.165743,alamy.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2400:3200::1
+2024-11-14T18:08:12.165743,alarabiya.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2620:fe::fe
+2024-11-14T18:08:12.165743,alarabixxx.com,2.56.220.2,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.165743,akismet.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:119:35::35
+2024-11-14T18:08:12.165743,al-adtech.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.165743,al-array.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.165743,alarabiya.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.165743,alarabixxx.com,77.88.8.1,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,akstat.io,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.165743,al.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.165743,al-array.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.165743,aktuality.sk,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aktuality.sk on server: 2402:4e00::
+2024-11-14T18:08:12.165743,alamy.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.165743,alarabixxx.com,95.85.95.85,A,"['104.21.35.57', '172.67.214.28']",,
+2024-11-14T18:08:12.165743,akstat.io,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.165743,alarabiya.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.165743,al-array.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.165743,al.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.165743,alarabixxx.com,2400:3200::1,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alamy.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alamy.com on server: 101.226.4.7
+2024-11-14T18:08:12.165743,alarabixxx.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alarabixxx.com,77.88.8.8,A,"['172.67.214.28', '104.21.35.57']",,
+2024-11-14T18:08:12.165743,al-adtech.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:fe::fe
+2024-11-14T18:08:12.165743,akstat.io,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.165743,al.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.165743,alarabixxx.com,2400:3200:baba::1,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.165743,alarabixxx.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.165743,akstat.io,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.165743,alamy.com,211.136.17.107,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.165743,al-array.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.165743,al-adtech.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.165743,alarabixxx.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,alamy.com,208.67.220.222,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.166743,akismet.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:fe::10
+2024-11-14T18:08:12.166743,alarabixxx.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3121::3', '2a06:98c1:3120::3']",,
+2024-11-14T18:08:12.166743,al-array.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.166743,al-adtech.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.166743,alamy.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.166743,alarabixxx.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,akismet.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:119:53::53
+2024-11-14T18:08:12.166743,al.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.166743,alamy.com,218.30.118.6,A,"['52.48.179.136', '52.31.239.83', '54.72.175.45']",,
+2024-11-14T18:08:12.166743,alamy.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.166743,al-adtech.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.166743,alamy.com,208.67.222.220,A,"['52.31.239.83', '52.48.179.136', '54.72.175.45']",,
+2024-11-14T18:08:12.166743,alarabiya.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.166743,al.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.166743,akstat.io,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.166743,al-adtech.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.166743,alarabixxx.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3037::6815:2339', '2606:4700:3033::ac43:d61c']",,
+2024-11-14T18:08:12.166743,akstat.io,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.166743,alamy.com,117.50.11.11,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.166743,al-adtech.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.166743,alamy.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alamy.com on server: 123.125.81.7
+2024-11-14T18:08:12.166743,akstat.io,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.166743,al-adtech.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 2400:da00::6666
+2024-11-14T18:08:12.166743,alamy.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:119:53::53
+2024-11-14T18:08:12.166743,alarabiya.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.166743,al-adtech.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:fe::10
+2024-11-14T18:08:12.166743,alamy.com,119.29.29.29,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.166743,akismet.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:fe::fe
+2024-11-14T18:08:12.166743,al-array.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2400:3200::1
+2024-11-14T18:08:12.166743,al-adtech.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.166743,alamy.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alamy.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.166743,alarabixxx.com,2402:4e00::,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,alamy.com,180.76.76.76,A,"['52.48.179.136', '54.72.175.45', '52.31.239.83']",,
+2024-11-14T18:08:12.166743,akstat.io,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.166743,al-array.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2402:4e00::
+2024-11-14T18:08:12.166743,al-adtech.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.166743,alarabiya.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.166743,alamy.com,94.140.14.14,A,"['52.31.239.83', '52.48.179.136', '54.72.175.45']",,
+2024-11-14T18:08:12.166743,alarabixxx.com,2a03:90c0:9992::1,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,al-adtech.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:119:35::35
+2024-11-14T18:08:12.166743,al-array.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.166743,alarabixxx.com,2620:0:ccc::2,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,alamy.com,94.140.15.15,A,"['54.72.175.45', '52.31.239.83', '52.48.179.136']",,
+2024-11-14T18:08:12.166743,akstat.io,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akstat.io on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.166743,al-adtech.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: al-adtech.com on server: 2620:119:53::53
+2024-11-14T18:08:12.166743,al-array.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: al-array.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.166743,alarabixxx.com,2620:0:ccd::2,AAAA,"['2606:4700:3033::ac43:d61c', '2606:4700:3037::6815:2339']",,
+2024-11-14T18:08:12.166743,aktuality.sk,211.136.17.107,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarabiya.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alarabiya.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.166743,aktuality.sk,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 2400:da00::6666
+2024-11-14T18:08:12.166743,ala.org,2606:4700:4700::1001,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.166743,al-adtech.com,95.85.95.85,A,"['198.185.159.145', '198.49.23.144', '198.185.159.144', '198.49.23.145']",,
+2024-11-14T18:08:12.166743,alarmnet.com,95.85.95.85,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,alaskaair.com,180.76.76.76,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.166743,ala.org,2a03:90c0:999d::1,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,al-adtech.com,2.56.220.2,A,"['198.49.23.144', '198.185.159.144', '198.49.23.145', '198.185.159.145']",,
+2024-11-14T18:08:12.166743,alarm.com,223.5.5.5,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,al.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a10:50c0::ad2:ff
+2024-11-14T18:08:12.166743,alamy.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alamy.com on server: 202.96.128.86
+2024-11-14T18:08:12.166743,alaskaair.com,223.6.6.6,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.166743,al.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a10:50c0::ad1:ff
+2024-11-14T18:08:12.166743,al-array.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: al-array.com on server: 2400:da00::6666
+2024-11-14T18:08:12.166743,alarmnet.com,1.0.0.1,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,alaskaair.com,119.29.29.29,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.166743,alarabixxx.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alarabixxx.com on server: 2400:da00::6666
+2024-11-14T18:08:12.166743,alamy.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alamy.com on server: 210.21.196.6
+2024-11-14T18:08:12.166743,ala.org,2001:6d0:d6::2001,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,akismet.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2606:4700:4700::1001
+2024-11-14T18:08:12.166743,alarmnet.com,2.56.220.2,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,al.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.166743,alarm.com,94.140.15.15,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,ala.org,2606:4700:4700::1111,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.166743,aktuality.sk,218.30.118.6,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarmnet.com,77.88.8.8,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,alaskaair.com,114.114.115.115,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.166743,aktuality.sk,117.50.11.11,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,akismet.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: akismet.com on server: 2400:da00::6666
+2024-11-14T18:08:12.166743,alaskaair.com,223.5.5.5,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.166743,alarm.com,211.136.17.107,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,ala.org,2a02:6b8::feed:0ff,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,al-adtech.com,195.208.5.1,A,"['198.49.23.144', '198.185.159.144', '198.49.23.145', '198.185.159.145']",,
+2024-11-14T18:08:12.166743,alarm.com,208.67.220.220,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,akismet.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.166743,ala.org,2001:6d0:6d0::2001,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.166743,alarm.com,208.67.222.220,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,ala.org,2a03:90c0:9992::1,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,aktuality.sk,180.76.76.76,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarm.com,208.67.220.222,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,akismet.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.166743,ala.org,2a02:6b8:0:1::feed:0ff,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,alarm.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 123.125.81.7
+2024-11-14T18:08:12.166743,alarm.com,94.140.14.14,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,alaskaair.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 101.226.4.7
+2024-11-14T18:08:12.166743,aktuality.sk,223.6.6.6,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,akismet.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.166743,ala.org,2001:4860:4860::8844,AAAA,"['2620:12a:8000::1', '2620:12a:8001::1']",,
+2024-11-14T18:08:12.166743,aktuality.sk,119.29.29.29,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarm.com,123.125.81.6,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,akismet.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2001:4860:4860::8844
+2024-11-14T18:08:12.166743,al.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2001:6d0:d6::2001
+2024-11-14T18:08:12.166743,al-adtech.com,77.88.8.1,A,"['198.185.159.144', '198.49.23.145', '198.49.23.144', '198.185.159.145']",,
+2024-11-14T18:08:12.166743,al-adtech.com,1.0.0.1,A,"['198.49.23.145', '198.49.23.144', '198.185.159.144', '198.185.159.145']",,
+2024-11-14T18:08:12.166743,alarm.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 117.50.11.11
+2024-11-14T18:08:12.166743,akismet.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.166743,al.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.166743,alarmnet.com,8.8.8.8,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,akismet.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2001:4860:4860::8888
+2024-11-14T18:08:12.166743,al.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:119:53::53
+2024-11-14T18:08:12.166743,al-adtech.com,195.208.4.1,A,"['198.49.23.144', '198.49.23.145', '198.185.159.145', '198.185.159.144']",,
+2024-11-14T18:08:12.166743,al-adtech.com,62.76.76.62,A,"['198.185.159.145', '198.49.23.145', '198.49.23.144', '198.185.159.144']",,
+2024-11-14T18:08:12.166743,alarm.com,9.9.9.10,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,al.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.166743,al-adtech.com,62.76.62.76,A,"['198.49.23.145', '198.185.159.145', '198.49.23.144', '198.185.159.144']",,
+2024-11-14T18:08:12.166743,alarm.com,114.114.114.114,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,akismet.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a03:90c0:9992::1
+2024-11-14T18:08:12.166743,ala.org,2001:4860:4860::8888,AAAA,"['2620:12a:8001::1', '2620:12a:8000::1']",,
+2024-11-14T18:08:12.166743,aktuality.sk,94.140.14.14,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarm.com,119.29.29.29,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,alaskaair.com,101.226.4.6,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.166743,aktuality.sk,114.114.114.114,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,alarm.com,101.226.4.6,A,['216.36.42.11'],,
+2024-11-14T18:08:12.166743,aktuality.sk,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 210.21.196.6
+2024-11-14T18:08:12.166743,aktuality.sk,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 123.125.81.7
+2024-11-14T18:08:12.166743,aktuality.sk,114.114.115.115,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,al-adtech.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: al-adtech.com on server: 9.9.9.9
+2024-11-14T18:08:12.166743,alaskaair.com,211.136.17.107,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.166743,al.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.166743,al.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T18:08:12.166743,alarmnet.com,1.1.1.1,A,['204.141.56.44'],,
+2024-11-14T18:08:12.166743,alaskaair.com,123.125.81.6,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.166743,al.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:119:35::35
+2024-11-14T18:08:12.166743,aktuality.sk,223.5.5.5,A,['91.235.52.35'],,
+2024-11-14T18:08:12.166743,aktuality.sk,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 202.96.128.86
+2024-11-14T18:08:12.166743,alaskaair.com,218.30.118.6,A,"['159.49.253.16', '159.49.47.135']",,
+2024-11-14T18:08:12.166743,aktuality.sk,101.226.4.6,A,['91.235.52.35'],,
+2024-11-14T18:08:12.167744,al.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:0:ccc::2
+2024-11-14T18:08:12.167744,al-adtech.com,77.88.8.8,A,"['198.49.23.145', '198.49.23.144', '198.185.159.144', '198.185.159.145']",,
+2024-11-14T18:08:12.167744,alarm.com,180.76.76.76,A,['216.36.42.11'],,
+2024-11-14T18:08:12.167744,alaskaair.com,117.50.11.11,A,"['159.49.47.135', '159.49.253.16']",,
+2024-11-14T18:08:12.167744,al-adtech.com,1.1.1.1,A,"['198.49.23.145', '198.49.23.144', '198.185.159.144', '198.185.159.145']",,
+2024-11-14T18:08:12.167744,al.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:fe::fe
+2024-11-14T18:08:12.167744,alarmnet.com,8.8.4.4,A,['204.141.56.44'],,
+2024-11-14T18:08:12.167744,al.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2620:fe::10
+2024-11-14T18:08:12.167744,aktuality.sk,123.125.81.6,A,['91.235.52.35'],,
+2024-11-14T18:08:12.167744,alarm.com,223.6.6.6,A,['216.36.42.11'],,
+2024-11-14T18:08:12.167744,alarm.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 202.96.128.86
+2024-11-14T18:08:12.167744,al.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2400:3200:baba::1
+2024-11-14T18:08:12.167744,akismet.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a03:90c0:999d::1
+2024-11-14T18:08:12.167744,alarm.com,218.30.118.6,A,['216.36.42.11'],,
+2024-11-14T18:08:12.167744,akismet.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2620:0:ccd::2
+2024-11-14T18:08:12.167744,al.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2402:4e00::
+2024-11-14T18:08:12.167744,al-adtech.com,8.8.8.8,A,"['198.185.159.145', '198.49.23.145', '198.49.23.144', '198.185.159.144']",,
+2024-11-14T18:08:12.167744,alaskaair.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 123.125.81.7
+2024-11-14T18:08:12.167744,akismet.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2a0c:a9c7:8::1
+2024-11-14T18:08:12.167744,al.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a02:6b8::feed:0ff
+2024-11-14T18:08:12.167744,aktuality.sk,94.140.15.15,A,['91.235.52.35'],,
+2024-11-14T18:08:12.167744,alarm.com,208.67.222.222,A,['216.36.42.11'],,
+2024-11-14T18:08:12.167744,akismet.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2606:4700:4700::1111
+2024-11-14T18:08:12.167744,al.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2400:3200::1
+2024-11-14T18:08:12.167744,al-adtech.com,8.8.4.4,A,"['198.49.23.145', '198.185.159.144', '198.185.159.145', '198.49.23.144']",,
+2024-11-14T18:08:12.167744,alarm.com,114.114.115.115,A,['216.36.42.11'],,
+2024-11-14T18:08:12.167744,akismet.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: akismet.com on server: 2001:6d0:6d0::2001
+2024-11-14T18:08:12.167744,al.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: al.com on server: 2a0c:a9c7:9::1
+2024-11-14T18:08:12.167744,al.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: al.com on server: 2400:da00::6666
+2024-11-14T18:08:12.167744,alarm.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 9.9.9.9
+2024-11-14T18:08:12.167744,alarm.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 101.226.4.7
+2024-11-14T18:08:12.167744,alaskaair.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 202.96.128.86
+2024-11-14T18:08:12.167744,alaskaair.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alaskaair.com on server: 210.21.196.6
+2024-11-14T18:08:12.167744,aktuality.sk,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aktuality.sk on server: 101.226.4.7
+2024-11-14T18:08:12.167744,alarm.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alarm.com on server: 210.21.196.6

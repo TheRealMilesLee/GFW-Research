@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T23:48:02.145205,aznude.com,2a03:90c0:9992::1,AAAA,['2001::adff:d12f'],,
+2024-11-14T23:48:02.145205,aznude.com,2a03:90c0:999d::1,AAAA,['2001::4532:dd14'],,
+2024-11-14T23:48:02.145205,azure-dns.com,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 208.67.220.220
+2024-11-14T23:48:02.145205,azure-dns.com,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 208.67.222.222
+2024-11-14T23:48:02.145205,azure-devices.net,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 101.226.4.6
+2024-11-14T23:48:02.145205,azure-devices.net,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 94.140.15.15
+2024-11-14T23:48:02.145205,azure-devices.net,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 223.5.5.5
+2024-11-14T23:48:02.145205,aznude.com,2620:fe::fe,AAAA,['2001::6ca0:a58d'],,
+2024-11-14T23:48:02.145205,azoramoon.com,2606:4700:4700::1001,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.145205,azure-devices.net,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 114.114.114.114
+2024-11-14T23:48:02.145205,azure-devices.net,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 114.114.115.115
+2024-11-14T23:48:02.145205,azioncdn.net,9.9.9.10,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,aznude.com,2620:fe::10,AAAA,['2001::ade7:c6b'],,
+2024-11-14T23:48:02.145205,azure-devices.net,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 117.50.11.11
+2024-11-14T23:48:02.145205,azioncdn.net,195.208.5.1,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azioncdn.net,208.67.222.220,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azureedge.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2402:4e00::
+2024-11-14T23:48:02.145205,azure-devices.net,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 123.125.81.6
+2024-11-14T23:48:02.145205,azoramoon.com,2606:4700:4700::1111,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.145205,azure-devices.net,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 218.30.118.6
+2024-11-14T23:48:02.145205,azioncdn.net,94.140.14.14,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azoramoon.com,2001:4860:4860::8844,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.145205,azure-devices.net,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 211.136.17.107
+2024-11-14T23:48:02.145205,aznude.com,2402:4e00::,AAAA,['2001::9df0:b28'],,
+2024-11-14T23:48:02.145205,azioncdn.net,62.76.62.76,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azet.sk,101.226.4.6,A,['91.235.52.77'],,
+2024-11-14T23:48:02.145205,azoramoon.com,2001:4860:4860::8888,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.145205,azioncdn.net,195.208.4.1,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azioncdn.net,77.88.8.1,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azioncdn.net,62.76.76.62,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azet.sk,117.50.11.11,A,['91.235.52.77'],,
+2024-11-14T23:48:02.145205,azioncdn.net,208.67.222.222,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azure-devices.net,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 119.29.29.29
+2024-11-14T23:48:02.145205,azioncdn.net,208.67.220.222,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,azure-devices.net,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 8.8.4.4
+2024-11-14T23:48:02.145205,azure-devices.net,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 180.76.76.76
+2024-11-14T23:48:02.145205,azoramoon.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.145205,azure-devices.net,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 1.0.0.1
+2024-11-14T23:48:02.145205,azet.sk,123.125.81.6,A,['91.235.52.77'],,
+2024-11-14T23:48:02.145205,azoramoon.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.145205,azioncdn.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 9.9.9.9
+2024-11-14T23:48:02.145205,azure-devices.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 101.226.4.7
+2024-11-14T23:48:02.145205,aznude.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aznude.com on server: 2400:da00::6666
+2024-11-14T23:48:02.145205,azet.sk,211.136.17.107,A,['91.235.52.77'],,
+2024-11-14T23:48:02.145205,azure-devices.net,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 77.88.8.8
+2024-11-14T23:48:02.145205,azureedge.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.145205,azure-devices.net,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 62.76.76.62
+2024-11-14T23:48:02.145205,azioncdn.net,77.88.8.8,A,['179.191.190.64'],,
+2024-11-14T23:48:02.145205,aznude.com,2a02:6b8::feed:0ff,AAAA,['2001::8079:92e4'],,
+2024-11-14T23:48:02.145205,azure-devices.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 202.96.128.86
+2024-11-14T23:48:02.146201,azure-dns.com,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 195.208.5.1
+2024-11-14T23:48:02.146201,azure-devices.net,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 223.6.6.6
+2024-11-14T23:48:02.146201,aznude.com,2a02:6b8:0:1::feed:0ff,AAAA,['2001::9df0:1412'],,
+2024-11-14T23:48:02.146201,azure-devices.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 210.21.196.6
+2024-11-14T23:48:02.146201,azure-devices.net,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 195.208.4.1
+2024-11-14T23:48:02.146201,azoramoon.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.146201,azioncdn.net,95.85.95.85,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-devices.net,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 77.88.8.1
+2024-11-14T23:48:02.146201,azioncdn.net,2.56.220.2,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-devices.net,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 62.76.62.76
+2024-11-14T23:48:02.146201,aznude.com,2a0c:a9c7:9::1,AAAA,['2001::629f:6c3a'],,
+2024-11-14T23:48:02.146201,azure-dns.com,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 195.208.4.1
+2024-11-14T23:48:02.146201,azure-devices.net,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 94.140.14.14
+2024-11-14T23:48:02.146201,aznude.com,2400:3200::1,AAAA,['2001::6ca0:aa21'],,
+2024-11-14T23:48:02.146201,azioncdn.net,1.1.1.1,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-dns.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 9.9.9.9
+2024-11-14T23:48:02.146201,azioncdn.net,1.0.0.1,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,aznude.com,2400:3200:baba::1,AAAA,['2001::6817:7cbd'],,
+2024-11-14T23:48:02.146201,azure-devices.net,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 195.208.5.1
+2024-11-14T23:48:02.146201,azure-dns.com,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 77.88.8.1
+2024-11-14T23:48:02.146201,azure-dns.com,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 62.76.76.62
+2024-11-14T23:48:02.146201,aznude.com,2a10:50c0::ad1:ff,AAAA,['2001::d065:152b'],,
+2024-11-14T23:48:02.146201,azioncdn.net,8.8.8.8,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-devices.net,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 208.67.220.222
+2024-11-14T23:48:02.146201,azure-dns.com,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 77.88.8.8
+2024-11-14T23:48:02.146201,aznude.com,2a10:50c0::ad2:ff,AAAA,['2001::6ca0:accc'],,
+2024-11-14T23:48:02.146201,azure-dns.com,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 2.56.220.2
+2024-11-14T23:48:02.146201,azioncdn.net,8.8.4.4,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,aznude.com,2620:0:ccc::2,AAAA,['2001::c73b:95cb'],,
+2024-11-14T23:48:02.146201,azioncdn.net,208.67.220.220,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-devices.net,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 95.85.95.85
+2024-11-14T23:48:02.146201,azure-dns.com,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 95.85.95.85
+2024-11-14T23:48:02.146201,aznude.com,2620:0:ccd::2,AAAA,['2001::453f:b00f'],,
+2024-11-14T23:48:02.146201,azureedge.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azureedge.net on server: 2400:da00::6666
+2024-11-14T23:48:02.146201,azure-devices.net,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 208.67.222.222
+2024-11-14T23:48:02.146201,azure-dns.com,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 1.1.1.1
+2024-11-14T23:48:02.146201,aznude.com,2620:119:35::35,AAAA,['2001::6ca0:a7a5'],,
+2024-11-14T23:48:02.146201,azioncdn.net,223.6.6.6,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azioncdn.net,223.5.5.5,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-dns.com,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 1.0.0.1
+2024-11-14T23:48:02.146201,azure-devices.net,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 2.56.220.2
+2024-11-14T23:48:02.146201,azureedge.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2400:3200::1
+2024-11-14T23:48:02.146201,aznude.com,2620:119:53::53,AAAA,['2001::80f2:fa9d'],,
+2024-11-14T23:48:02.146201,azure-devices.net,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 208.67.220.220
+2024-11-14T23:48:02.146201,azure-dns.com,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 8.8.8.8
+2024-11-14T23:48:02.146201,aznude.com,2001:6d0:6d0::2001,AAAA,['2001::ca35:89d1'],,
+2024-11-14T23:48:02.146201,azioncdn.net,114.114.115.115,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azioncdn.net,114.114.114.114,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,azure-devices.net,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 208.67.222.220
+2024-11-14T23:48:02.146201,azure-dns.com,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 8.8.4.4
+2024-11-14T23:48:02.146201,aznude.com,2001:6d0:d6::2001,AAAA,['2001::6ca0:a268'],,
+2024-11-14T23:48:02.146201,azure-devices.net,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 1.1.1.1
+2024-11-14T23:48:02.146201,azioncdn.net,94.140.15.15,A,['179.191.190.64'],,
+2024-11-14T23:48:02.146201,aznude.com,2a0c:a9c7:8::1,AAAA,['2001::6ca0:a7a5'],,
+2024-11-14T23:48:02.146201,azoramoon.com,208.67.222.222,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.146201,azure-api.net,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-api.net on server: 180.76.76.76
+2024-11-14T23:48:02.146201,azure-dns.info,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 114.114.115.115
+2024-11-14T23:48:02.146201,azure.us,101.226.4.6,A,[],NoAnswer,No answer for domain: azure.us on server: 101.226.4.6
+2024-11-14T23:48:02.146201,azoramoon.com,208.67.222.220,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.146201,azure-dns.com,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 9.9.9.10
+2024-11-14T23:48:02.146201,azure-dns.info,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 223.5.5.5
+2024-11-14T23:48:02.146201,azure-dns.com,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 62.76.62.76
+2024-11-14T23:48:02.146201,azure-devices.net,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 9.9.9.10
+2024-11-14T23:48:02.146201,azure-api.net,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-api.net on server: 223.6.6.6
+2024-11-14T23:48:02.146201,azet.sk,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azet.sk on server: 123.125.81.7
+2024-11-14T23:48:02.146201,azure-devices.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 9.9.9.9
+2024-11-14T23:48:02.146201,azure-api.net,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-api.net on server: 2.56.220.2
+2024-11-14T23:48:02.146201,azure-api.net,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-api.net on server: 119.29.29.29
+2024-11-14T23:48:02.146201,azure-dns.info,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 94.140.14.14
+2024-11-14T23:48:02.146201,azureedge.net,8.8.8.8,A,[],NoAnswer,No answer for domain: azureedge.net on server: 8.8.8.8
+2024-11-14T23:48:02.147315,azoramoon.com,208.67.220.220,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.147315,azet.sk,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azet.sk on server: 101.226.4.7
+2024-11-14T23:48:02.147315,azure-api.net,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-api.net on server: 123.125.81.6
+2024-11-14T23:48:02.147315,azure-dns.net,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 95.85.95.85
+2024-11-14T23:48:02.147315,azure-api.net,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-api.net on server: 62.76.62.76
+2024-11-14T23:48:02.147315,azure-dns.info,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 195.208.5.1
+2024-11-14T23:48:02.147315,azure-api.net,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-api.net on server: 8.8.4.4
+2024-11-14T23:48:02.147315,azure.us,208.67.220.220,A,[],NoAnswer,No answer for domain: azure.us on server: 208.67.220.220
+2024-11-14T23:48:02.147315,azure-dns.net,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 1.1.1.1
+2024-11-14T23:48:02.147315,azure.us,117.50.11.11,A,[],NoAnswer,No answer for domain: azure.us on server: 117.50.11.11
+2024-11-14T23:48:02.147315,azure-api.net,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-api.net on server: 1.1.1.1
+2024-11-14T23:48:02.147315,azure-api.net,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-api.net on server: 62.76.76.62
+2024-11-14T23:48:02.147315,azure-devices.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 123.125.81.7
+2024-11-14T23:48:02.147315,azure-dns.net,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 1.0.0.1
+2024-11-14T23:48:02.147315,azure.us,123.125.81.6,A,[],NoAnswer,No answer for domain: azure.us on server: 123.125.81.6
+2024-11-14T23:48:02.147315,azure-api.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-api.net on server: 202.96.128.86
+2024-11-14T23:48:02.147315,azure-dns.net,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 8.8.4.4
+2024-11-14T23:48:02.147315,azure.us,114.114.115.115,A,[],NoAnswer,No answer for domain: azure.us on server: 114.114.115.115
+2024-11-14T23:48:02.147315,azure-api.net,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-api.net on server: 8.8.8.8
+2024-11-14T23:48:02.147315,azure-api.net,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-api.net on server: 101.226.4.6
+2024-11-14T23:48:02.147315,azure.us,223.5.5.5,A,[],NoAnswer,No answer for domain: azure.us on server: 223.5.5.5
+2024-11-14T23:48:02.147315,azure-api.net,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-api.net on server: 77.88.8.8
+2024-11-14T23:48:02.147315,azure-apim.net,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 8.8.4.4
+2024-11-14T23:48:02.147315,azoramoon.com,9.9.9.10,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azure.us,208.67.222.220,A,[],NoAnswer,No answer for domain: azure.us on server: 208.67.222.220
+2024-11-14T23:48:02.147315,azure-api.net,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-api.net on server: 77.88.8.1
+2024-11-14T23:48:02.147315,azure-apim.net,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 1.1.1.1
+2024-11-14T23:48:02.147315,azure-dns.net,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 8.8.8.8
+2024-11-14T23:48:02.147315,azure.us,211.136.17.107,A,[],NoAnswer,No answer for domain: azure.us on server: 211.136.17.107
+2024-11-14T23:48:02.147315,azure-api.net,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-api.net on server: 1.0.0.1
+2024-11-14T23:48:02.147315,azure-apim.net,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 8.8.8.8
+2024-11-14T23:48:02.147315,azure-dns.net,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 2.56.220.2
+2024-11-14T23:48:02.147315,azure.us,94.140.15.15,A,[],NoAnswer,No answer for domain: azure.us on server: 94.140.15.15
+2024-11-14T23:48:02.147315,azure-api.net,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-api.net on server: 95.85.95.85
+2024-11-14T23:48:02.147315,azure-api.net,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-api.net on server: 195.208.5.1
+2024-11-14T23:48:02.147315,azure-dns.info,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 208.67.220.222
+2024-11-14T23:48:02.147315,azure.us,114.114.114.114,A,[],NoAnswer,No answer for domain: azure.us on server: 114.114.114.114
+2024-11-14T23:48:02.147315,azure.us,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure.us on server: 123.125.81.7
+2024-11-14T23:48:02.147315,azure-api.net,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-api.net on server: 208.67.220.220
+2024-11-14T23:48:02.147315,azure-dns.info,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 101.226.4.6
+2024-11-14T23:48:02.147315,azoramoon.com,101.226.4.6,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.147315,azure.us,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure.us on server: 101.226.4.7
+2024-11-14T23:48:02.147315,azure-api.net,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-api.net on server: 195.208.4.1
+2024-11-14T23:48:02.147315,azure-dns.info,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 208.67.222.222
+2024-11-14T23:48:02.147315,azure.us,218.30.118.6,A,[],NoAnswer,No answer for domain: azure.us on server: 218.30.118.6
+2024-11-14T23:48:02.147315,azoramoon.com,218.30.118.6,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azure-api.net,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-api.net on server: 223.5.5.5
+2024-11-14T23:48:02.147315,azure-dns.info,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 117.50.11.11
+2024-11-14T23:48:02.147315,azure.us,208.67.220.222,A,[],NoAnswer,No answer for domain: azure.us on server: 208.67.220.222
+2024-11-14T23:48:02.147315,azoramoon.com,211.136.17.107,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azure-dns.info,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 123.125.81.6
+2024-11-14T23:48:02.147315,azure-api.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-api.net on server: 123.125.81.7
+2024-11-14T23:48:02.147315,azoramoon.com,117.50.11.11,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.147315,azoramoon.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 101.226.4.7
+2024-11-14T23:48:02.147315,azure-api.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-api.net on server: 210.21.196.6
+2024-11-14T23:48:02.147315,azure-dns.info,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 218.30.118.6
+2024-11-14T23:48:02.147315,azure.us,180.76.76.76,A,[],NoAnswer,No answer for domain: azure.us on server: 180.76.76.76
+2024-11-14T23:48:02.147315,azure-api.net,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-api.net on server: 117.50.11.11
+2024-11-14T23:48:02.147315,azure-dns.info,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 211.136.17.107
+2024-11-14T23:48:02.147315,azoramoon.com,123.125.81.6,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azoramoon.com,223.5.5.5,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azure-api.net,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-api.net on server: 114.114.115.115
+2024-11-14T23:48:02.147315,azure-dns.info,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 101.226.4.7
+2024-11-14T23:48:02.147315,azure.us,223.6.6.6,A,[],NoAnswer,No answer for domain: azure.us on server: 223.6.6.6
+2024-11-14T23:48:02.147315,azoramoon.com,180.76.76.76,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.147315,azure-dns.info,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 123.125.81.7
+2024-11-14T23:48:02.148314,azure.us,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure.us on server: 210.21.196.6
+2024-11-14T23:48:02.148314,azure.us,119.29.29.29,A,[],NoAnswer,No answer for domain: azure.us on server: 119.29.29.29
+2024-11-14T23:48:02.148314,azoramoon.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 123.125.81.7
+2024-11-14T23:48:02.148314,azure-api.net,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-api.net on server: 218.30.118.6
+2024-11-14T23:48:02.148314,azure-dns.info,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 114.114.114.114
+2024-11-14T23:48:02.148314,azure.us,62.76.62.76,A,[],NoAnswer,No answer for domain: azure.us on server: 62.76.62.76
+2024-11-14T23:48:02.148314,azure.us,94.140.14.14,A,[],Timeout,Timeout occurred for domain: azure.us on server: 94.140.14.14
+2024-11-14T23:48:02.148314,azure-api.net,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-api.net on server: 9.9.9.10
+2024-11-14T23:48:02.148314,azure-dns.info,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 9.9.9.10
+2024-11-14T23:48:02.148314,azure-api.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-api.net on server: 101.226.4.7
+2024-11-14T23:48:02.148314,azoramoon.com,114.114.114.114,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azure-api.net,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-api.net on server: 94.140.15.15
+2024-11-14T23:48:02.148314,azure.us,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure.us on server: 202.96.128.86
+2024-11-14T23:48:02.148314,azure.us,77.88.8.1,A,[],NoAnswer,No answer for domain: azure.us on server: 77.88.8.1
+2024-11-14T23:48:02.148314,azoramoon.com,114.114.115.115,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azure-api.net,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-api.net on server: 114.114.114.114
+2024-11-14T23:48:02.148314,azure-dns.info,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 202.96.128.86
+2024-11-14T23:48:02.148314,azure.us,62.76.76.62,A,[],NoAnswer,No answer for domain: azure.us on server: 62.76.76.62
+2024-11-14T23:48:02.148314,azoramoon.com,223.6.6.6,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.148314,azure-api.net,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-api.net on server: 208.67.220.222
+2024-11-14T23:48:02.148314,azure-dns.info,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 208.67.220.220
+2024-11-14T23:48:02.148314,azure.us,9.9.9.10,A,[],NoAnswer,No answer for domain: azure.us on server: 9.9.9.10
+2024-11-14T23:48:02.148314,azure-api.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-api.net on server: 9.9.9.9
+2024-11-14T23:48:02.148314,azoramoon.com,119.29.29.29,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azure-dns.info,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 208.67.222.220
+2024-11-14T23:48:02.148314,azure.us,208.67.222.222,A,[],NoAnswer,No answer for domain: azure.us on server: 208.67.222.222
+2024-11-14T23:48:02.148314,azure-api.net,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-api.net on server: 94.140.14.14
+2024-11-14T23:48:02.148314,azure-api.net,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-api.net on server: 211.136.17.107
+2024-11-14T23:48:02.148314,azure-dns.info,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 223.6.6.6
+2024-11-14T23:48:02.148314,azoramoon.com,94.140.14.14,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azoramoon.com,94.140.15.15,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azure-api.net,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-api.net on server: 208.67.222.222
+2024-11-14T23:48:02.148314,azure.us,195.208.5.1,A,[],NoAnswer,No answer for domain: azure.us on server: 195.208.5.1
+2024-11-14T23:48:02.148314,azure-dns.info,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 180.76.76.76
+2024-11-14T23:48:02.148314,azoramoon.com,208.67.220.222,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.148314,azure-api.net,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-api.net on server: 208.67.222.220
+2024-11-14T23:48:02.148314,azure-dns.info,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 119.29.29.29
+2024-11-14T23:48:02.148314,azure.us,77.88.8.8,A,[],NoAnswer,No answer for domain: azure.us on server: 77.88.8.8
+2024-11-14T23:48:02.148314,azet.sk,1.0.0.1,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azure.cn,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.148314,azet.sk,218.30.118.6,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azet.sk,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:0:ccc::2
+2024-11-14T23:48:02.148314,azure-devices.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:fe::10
+2024-11-14T23:48:02.148314,azure.cn,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.148314,azet.sk,62.76.62.76,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azet.sk,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2400:3200:baba::1
+2024-11-14T23:48:02.148314,azure.cn,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:119:35::35
+2024-11-14T23:48:02.148314,azure-dns.info,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 210.21.196.6
+2024-11-14T23:48:02.148314,azet.sk,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.148314,azoramoon.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 202.96.128.86
+2024-11-14T23:48:02.148314,azet.sk,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.148314,azure.cn,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:fe::fe
+2024-11-14T23:48:02.148314,azet.sk,208.67.222.220,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azet.sk,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.148314,azoramoon.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 210.21.196.6
+2024-11-14T23:48:02.148314,azure-devices.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:fe::fe
+2024-11-14T23:48:02.148314,azet.sk,9.9.9.10,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azure.cn,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:fe::10
+2024-11-14T23:48:02.148314,azure.cn,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.148314,azet.sk,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.148314,azureedge.net,101.226.4.6,A,[],NoAnswer,No answer for domain: azureedge.net on server: 101.226.4.6
+2024-11-14T23:48:02.148314,azure-devices.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.148314,azet.sk,180.76.76.76,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azure.us,195.208.4.1,A,[],NoAnswer,No answer for domain: azure.us on server: 195.208.4.1
+2024-11-14T23:48:02.148314,azure.cn,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.148314,azet.sk,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:fe::10
+2024-11-14T23:48:02.148314,azet.sk,62.76.76.62,A,['91.235.52.77'],,
+2024-11-14T23:48:02.148314,azure-dns.info,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 94.140.15.15
+2024-11-14T23:48:02.148314,azure-devices.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.148314,azet.sk,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:fe::fe
+2024-11-14T23:48:02.148314,azet.sk,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.148314,azure-dns.info,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 9.9.9.9
+2024-11-14T23:48:02.148314,azure.cn,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.149314,azet.sk,94.140.14.14,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:119:35::35
+2024-11-14T23:48:02.149314,azure-devices.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.149314,azure.us,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure.us on server: 9.9.9.9
+2024-11-14T23:48:02.149314,azet.sk,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:119:53::53
+2024-11-14T23:48:02.149314,azure.cn,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2400:3200:baba::1
+2024-11-14T23:48:02.149314,azure.cn,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.149314,azet.sk,8.8.4.4,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.149314,azure.cn,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2402:4e00::
+2024-11-14T23:48:02.149314,azet.sk,195.208.5.1,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.149314,azure-devices.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.149314,azure.cn,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.149314,azet.sk,223.6.6.6,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azet.sk on server: 202.96.128.86
+2024-11-14T23:48:02.149314,azure-devices.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.149314,azure.cn,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2400:3200::1
+2024-11-14T23:48:02.149314,azet.sk,208.67.220.222,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azureedge.net,123.125.81.6,A,[],NoAnswer,No answer for domain: azureedge.net on server: 123.125.81.6
+2024-11-14T23:48:02.149314,azure-devices.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.149314,azet.sk,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azet.sk on server: 210.21.196.6
+2024-11-14T23:48:02.149314,azet.sk,77.88.8.1,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azure-devices.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.149314,azure-apim.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2402:4e00::
+2024-11-14T23:48:02.149314,azure.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.149314,azet.sk,114.114.114.114,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2400:3200::1
+2024-11-14T23:48:02.149314,azure.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.149314,azet.sk,77.88.8.8,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.149314,azure-devices.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.149314,azure.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.149314,azet.sk,2.56.220.2,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azure-devices.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.149314,azure.cn,2001:6d0:d6::2001,AAAA,[],Timeout,Timeout occurred for domain: azure.cn on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.149314,azet.sk,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azet.sk on server: 9.9.9.9
+2024-11-14T23:48:02.149314,azet.sk,208.67.220.220,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.149314,azure-devices.net,2001:6d0:d6::2001,AAAA,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.149314,azet.sk,195.208.4.1,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.149314,azure-devices.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.149314,azure.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.149314,azet.sk,119.29.29.29,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.149314,azure-apim.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.149314,azure-devices.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.149314,azure.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.149314,azet.sk,208.67.222.222,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azure-apim.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.149314,azet.sk,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.149314,azet.sk,223.5.5.5,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2620:0:ccd::2
+2024-11-14T23:48:02.149314,azure-apim.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.149314,azureedge.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azureedge.net on server: 101.226.4.7
+2024-11-14T23:48:02.149314,azet.sk,8.8.8.8,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.149314,azure.cn,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:119:53::53
+2024-11-14T23:48:02.149314,azet.sk,114.114.115.115,A,['91.235.52.77'],,
+2024-11-14T23:48:02.149314,azet.sk,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.149314,azure-apim.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.149314,azure.cn,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:0:ccc::2
+2024-11-14T23:48:02.150273,azet.sk,95.85.95.85,A,['91.235.52.77'],,
+2024-11-14T23:48:02.150273,azure-apim.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2400:3200::1
+2024-11-14T23:48:02.150273,azure.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: azure.com on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.150273,azet.sk,94.140.15.15,A,['91.235.52.77'],,
+2024-11-14T23:48:02.150273,azure.cn,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.150273,azure-apim.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.150273,azure.cn,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.150273,azet.sk,1.1.1.1,A,['91.235.52.77'],,
+2024-11-14T23:48:02.150273,azure-apim.net,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 101.226.4.6
+2024-11-14T23:48:02.150273,azure-dns.net,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 218.30.118.6
+2024-11-14T23:48:02.150273,azure.cn,101.226.4.6,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.net,2a10:50c0::ad1:ff,AAAA,"['2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.150273,azure.cn,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2620:0:ccd::2
+2024-11-14T23:48:02.150273,azureedge.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azureedge.net on server: 123.125.81.7
+2024-11-14T23:48:02.150273,azure.cn,223.6.6.6,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.net,2402:4e00::,AAAA,"['2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.150273,azure.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.150273,azure-dns.net,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 114.114.115.115
+2024-11-14T23:48:02.150273,azure.cn,208.67.222.220,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.net,2400:3200:baba::1,AAAA,"['2603:1030:20e:3::23c', '2603:1020:201:10::10f', '2603:1030:c02:8::14', '2603:1010:3:3::5b', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.150273,azure-apim.net,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 117.50.11.11
+2024-11-14T23:48:02.150273,azure-dns.net,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 195.208.4.1
+2024-11-14T23:48:02.150273,azure.cn,208.67.220.222,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure-apim.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 2400:da00::6666
+2024-11-14T23:48:02.150273,azure.cn,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.150273,azure-apim.net,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 195.208.4.1
+2024-11-14T23:48:02.150273,azure-dns.net,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 208.67.220.220
+2024-11-14T23:48:02.150273,azure.cn,208.67.220.220,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,8.8.4.4,A,"['20.231.239.246', '20.236.44.162', '20.112.250.133', '20.76.201.171', '20.70.246.20']",,
+2024-11-14T23:48:02.150273,azure.us,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.150273,azure-apim.net,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 2.56.220.2
+2024-11-14T23:48:02.150273,azure.cn,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure.cn on server: 2400:da00::6666
+2024-11-14T23:48:02.150273,azure.cn,94.140.14.14,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,1.1.1.1,A,"['20.70.246.20', '20.236.44.162', '20.76.201.171', '20.231.239.246', '20.112.250.133']",,
+2024-11-14T23:48:02.150273,azure.net,2400:3200::1,AAAA,"['2603:1030:c02:8::14', '2603:1020:201:10::10f', '2603:1030:b:3::152', '2603:1030:20e:3::23c', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.150273,azure-apim.net,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 62.76.76.62
+2024-11-14T23:48:02.150273,azure-dns.org,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 8.8.8.8
+2024-11-14T23:48:02.150273,azure.cn,208.67.222.222,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,208.67.220.220,A,"['20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.150273,azure-apim.net,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 62.76.62.76
+2024-11-14T23:48:02.150273,azure-apim.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 210.21.196.6
+2024-11-14T23:48:02.150273,azure.cn,1.1.1.1,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,208.67.222.220,A,"['20.112.250.133', '20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.150273,azure.net,2a10:50c0::ad2:ff,AAAA,"['2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14']",,
+2024-11-14T23:48:02.150273,azure-apim.net,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 218.30.118.6
+2024-11-14T23:48:02.150273,azure-dns.net,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 94.140.15.15
+2024-11-14T23:48:02.150273,azure.com,9.9.9.10,A,"['20.236.44.162', '20.76.201.171', '20.231.239.246', '20.112.250.133', '20.70.246.20']",,
+2024-11-14T23:48:02.150273,azure-apim.net,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 77.88.8.8
+2024-11-14T23:48:02.150273,azure-dns.net,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 208.67.222.222
+2024-11-14T23:48:02.150273,azure.cn,8.8.4.4,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,77.88.8.1,A,"['20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.150273,azure.us,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.150273,azure-apim.net,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 95.85.95.85
+2024-11-14T23:48:02.150273,azure-dns.net,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 77.88.8.1
+2024-11-14T23:48:02.150273,azure.cn,1.0.0.1,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,62.76.76.62,A,"['20.76.201.171', '20.70.246.20', '20.236.44.162', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.150273,azure.us,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.150273,azure-apim.net,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 77.88.8.1
+2024-11-14T23:48:02.150273,azure-dns.net,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 195.208.5.1
+2024-11-14T23:48:02.150273,azure.cn,95.85.95.85,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.com,208.67.220.222,A,"['20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.150273,azure.cn,195.208.5.1,A,['139.217.8.104'],,
+2024-11-14T23:48:02.150273,azure.net,2620:0:ccc::2,AAAA,"['2603:1030:20e:3::23c', '2603:1030:c02:8::14', '2603:1010:3:3::5b', '2603:1020:201:10::10f', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.150273,azure-apim.net,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 211.136.17.107
+2024-11-14T23:48:02.151275,azure-dns.net,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 62.76.62.76
+2024-11-14T23:48:02.151275,azure-apim.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 202.96.128.86
+2024-11-14T23:48:02.151275,azure.net,2620:0:ccd::2,AAAA,"['2603:1020:201:10::10f', '2603:1030:b:3::152', '2603:1030:20e:3::23c', '2603:1030:c02:8::14', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.151275,azure.us,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.151275,azure-apim.net,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 123.125.81.6
+2024-11-14T23:48:02.151275,azure-dns.net,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 180.76.76.76
+2024-11-14T23:48:02.151275,azure-dns.org,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 101.226.4.6
+2024-11-14T23:48:02.151275,azure.net,2620:119:35::35,AAAA,"['2603:1010:3:3::5b', '2603:1020:201:10::10f', '2603:1030:b:3::152', '2603:1030:20e:3::23c', '2603:1030:c02:8::14']",,
+2024-11-14T23:48:02.151275,azure.com,62.76.62.76,A,"['20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.151275,azure-apim.net,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 119.29.29.29
+2024-11-14T23:48:02.151275,azure-dns.net,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 114.114.114.114
+2024-11-14T23:48:02.151275,azure.cn,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure.cn on server: 101.226.4.7
+2024-11-14T23:48:02.151275,azure.net,2620:119:53::53,AAAA,"['2603:1020:201:10::10f', '2603:1030:b:3::152', '2603:1030:20e:3::23c', '2603:1030:c02:8::14', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.151275,azure-apim.net,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 180.76.76.76
+2024-11-14T23:48:02.151275,azure.cn,9.9.9.10,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.cn,62.76.62.76,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.cn,180.76.76.76,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.net,2620:fe::fe,AAAA,"['2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f']",,
+2024-11-14T23:48:02.151275,azure-apim.net,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 223.5.5.5
+2024-11-14T23:48:02.151275,azure-dns.net,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 208.67.220.222
+2024-11-14T23:48:02.151275,azure.cn,195.208.4.1,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure-dns.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 202.96.128.86
+2024-11-14T23:48:02.151275,azure.net,2620:fe::10,AAAA,"['2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1020:201:10::10f', '2603:1030:20e:3::23c', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.151275,azure-apim.net,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 223.6.6.6
+2024-11-14T23:48:02.151275,azure-dns.net,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 77.88.8.8
+2024-11-14T23:48:02.151275,azure.cn,77.88.8.1,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.cn,119.29.29.29,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure-dns.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 101.226.4.7
+2024-11-14T23:48:02.151275,azure-apim.net,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 114.114.114.114
+2024-11-14T23:48:02.151275,azure-dns.net,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 94.140.14.14
+2024-11-14T23:48:02.151275,azure.cn,62.76.76.62,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.com,208.67.222.222,A,"['20.70.246.20', '20.76.201.171', '20.112.250.133', '20.231.239.246', '20.236.44.162']",,
+2024-11-14T23:48:02.151275,azure.net,2a0c:a9c7:9::1,AAAA,"['2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f']",,
+2024-11-14T23:48:02.151275,azure-apim.net,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 114.114.115.115
+2024-11-14T23:48:02.151275,azure.cn,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure.cn on server: 9.9.9.9
+2024-11-14T23:48:02.151275,azure.cn,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure.cn on server: 202.96.128.86
+2024-11-14T23:48:02.151275,azure-dns.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 123.125.81.7
+2024-11-14T23:48:02.151275,azure.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure.com on server: 9.9.9.9
+2024-11-14T23:48:02.151275,azure-apim.net,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 94.140.14.14
+2024-11-14T23:48:02.151275,azure.us,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:fe::10
+2024-11-14T23:48:02.151275,azure-dns.net,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 123.125.81.6
+2024-11-14T23:48:02.151275,azure.cn,77.88.8.8,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure-dns.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 123.125.81.7
+2024-11-14T23:48:02.151275,azure.com,77.88.8.8,A,"['20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.151275,azure-apim.net,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 94.140.15.15
+2024-11-14T23:48:02.151275,azure-dns.net,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 223.5.5.5
+2024-11-14T23:48:02.151275,azure.us,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:119:35::35
+2024-11-14T23:48:02.151275,azure.com,8.8.8.8,A,"['20.112.250.133', '20.70.246.20', '20.236.44.162', '20.231.239.246', '20.76.201.171']",,
+2024-11-14T23:48:02.151275,azure-dns.org,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 117.50.11.11
+2024-11-14T23:48:02.151275,azure-apim.net,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 195.208.5.1
+2024-11-14T23:48:02.151275,azure-dns.net,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 223.6.6.6
+2024-11-14T23:48:02.151275,azure-dns.org,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 123.125.81.6
+2024-11-14T23:48:02.151275,azure.com,195.208.4.1,A,"['20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162', '20.112.250.133']",,
+2024-11-14T23:48:02.151275,azure.us,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:fe::fe
+2024-11-14T23:48:02.151275,azure.net,2a0c:a9c7:8::1,AAAA,"['2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f']",,
+2024-11-14T23:48:02.151275,azure-dns.net,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 119.29.29.29
+2024-11-14T23:48:02.151275,azure.cn,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure.cn on server: 210.21.196.6
+2024-11-14T23:48:02.151275,azure.com,2.56.220.2,A,"['20.112.250.133', '20.70.246.20', '20.236.44.162', '20.231.239.246', '20.76.201.171']",,
+2024-11-14T23:48:02.151275,azure-dns.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 9.9.9.9
+2024-11-14T23:48:02.151275,azure-apim.net,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 208.67.220.222
+2024-11-14T23:48:02.151275,azure.cn,2.56.220.2,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.cn,8.8.8.8,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.cn,117.50.11.11,A,['139.217.8.104'],,
+2024-11-14T23:48:02.151275,azure.us,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.151275,azure-apim.net,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 1.0.0.1
+2024-11-14T23:48:02.151275,azure-dns.net,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 117.50.11.11
+2024-11-14T23:48:02.151275,azure-dns.org,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 218.30.118.6
+2024-11-14T23:48:02.151275,azure.com,195.208.5.1,A,"['20.76.201.171', '20.70.246.20', '20.236.44.162', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.152322,azure.us,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.152322,azure-apim.net,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 208.67.220.220
+2024-11-14T23:48:02.152322,azure-dns.net,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 208.67.222.220
+2024-11-14T23:48:02.152322,azure-dns.org,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 211.136.17.107
+2024-11-14T23:48:02.152322,azure.cn,123.125.81.6,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.us,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.152322,azure-apim.net,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 208.67.222.220
+2024-11-14T23:48:02.152322,azure-dns.net,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 211.136.17.107
+2024-11-14T23:48:02.152322,azure.cn,114.114.114.114,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.com,1.0.0.1,A,"['20.236.44.162', '20.76.201.171', '20.112.250.133', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.152322,azure.us,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.152322,azure-apim.net,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 208.67.222.222
+2024-11-14T23:48:02.152322,azure.cn,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure.cn on server: 123.125.81.7
+2024-11-14T23:48:02.152322,azure.us,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.152322,azure.cn,223.5.5.5,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.cn,218.30.118.6,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.us,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.152322,azure-devices.net,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-devices.net on server: 8.8.8.8
+2024-11-14T23:48:02.152322,azure-dns.net,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 62.76.76.62
+2024-11-14T23:48:02.152322,azure.cn,94.140.15.15,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.cn,211.136.17.107,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure-apim.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 101.226.4.7
+2024-11-14T23:48:02.152322,azure-apim.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 9.9.9.9
+2024-11-14T23:48:02.152322,azure-dns.net,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 101.226.4.6
+2024-11-14T23:48:02.152322,azure.cn,114.114.115.115,A,['139.217.8.104'],,
+2024-11-14T23:48:02.152322,azure.com,95.85.95.85,A,"['20.70.246.20', '20.236.44.162', '20.231.239.246', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.152322,azure.us,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.152322,azure-dns.org,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 8.8.4.4
+2024-11-14T23:48:02.152322,azure.us,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.152322,azure.net,77.88.8.8,A,"['20.236.44.162', '20.231.239.246', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.152322,azure-dns.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.152322,azure-dns.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.152322,azure.net,2001:4860:4860::8888,AAAA,"['2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1010:3:3::5b', '2603:1030:b:3::152', '2603:1020:201:10::10f']",,
+2024-11-14T23:48:02.152322,azure-dns.org,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 1.1.1.1
+2024-11-14T23:48:02.152322,azure.net,2.56.220.2,A,"['20.236.44.162', '20.112.250.133', '20.70.246.20', '20.76.201.171', '20.231.239.246']",,
+2024-11-14T23:48:02.152322,azure-api.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.152322,azure-dns.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 101.226.4.7
+2024-11-14T23:48:02.152322,azure-dns.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.152322,azure-dns.org,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 195.208.4.1
+2024-11-14T23:48:02.152322,azure-dns.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 210.21.196.6
+2024-11-14T23:48:02.152322,azure-dns.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2400:3200::1
+2024-11-14T23:48:02.152322,azure-dns.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2400:3200::1
+2024-11-14T23:48:02.152322,azure.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2400:3200:baba::1
+2024-11-14T23:48:02.152322,azure-dns.org,195.208.5.1,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 195.208.5.1
+2024-11-14T23:48:02.152322,azure.com,101.226.4.6,A,"['20.70.246.20', '20.236.44.162', '20.112.250.133', '20.231.239.246', '20.76.201.171']",,
+2024-11-14T23:48:02.152322,azure-apim.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.152322,azure-dns.net,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-dns.net on server: 9.9.9.10
+2024-11-14T23:48:02.152322,azure-dns.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:0:ccd::2
+2024-11-14T23:48:02.152322,azure-dns.org,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 62.76.76.62
+2024-11-14T23:48:02.152322,azure-apim.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:119:53::53
+2024-11-14T23:48:02.152322,azure-dns.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.152322,azure-dns.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.152322,azure-apim.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 123.125.81.7
+2024-11-14T23:48:02.152322,azure-dns.org,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 62.76.62.76
+2024-11-14T23:48:02.152322,azure.com,117.50.11.11,A,"['20.236.44.162', '20.112.250.133', '20.231.239.246', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.152322,azure-apim.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.152322,azure-dns.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2402:4e00::
+2024-11-14T23:48:02.152322,azure-dns.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:119:53::53
+2024-11-14T23:48:02.152322,azure-dns.org,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 77.88.8.1
+2024-11-14T23:48:02.152322,azure.com,123.125.81.6,A,"['20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.152322,azure-apim.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.152322,azure-dns.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.152322,azure-dns.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:0:ccc::2
+2024-11-14T23:48:02.152322,azure-apim.net,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-apim.net on server: 9.9.9.10
+2024-11-14T23:48:02.152322,azure-dns.org,9.9.9.10,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 9.9.9.10
+2024-11-14T23:48:02.152322,azure.com,218.30.118.6,A,"['20.236.44.162', '20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20']",,
+2024-11-14T23:48:02.152322,azure-apim.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.153325,azure-dns.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:fe::fe
+2024-11-14T23:48:02.153325,azure-dns.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.153325,azure.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure.net on server: 2400:da00::6666
+2024-11-14T23:48:02.153325,azure-dns.org,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 2.56.220.2
+2024-11-14T23:48:02.153325,azure.com,211.136.17.107,A,"['20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.153325,azure-apim.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:fe::10
+2024-11-14T23:48:02.153325,azure-apim.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.153325,azure-dns.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.153325,azure-dns.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.153325,azure.net,2606:4700:4700::1111,AAAA,"['2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14']",,
+2024-11-14T23:48:02.153325,azure.com,114.114.114.114,A,"['20.231.239.246', '20.76.201.171', '20.236.44.162']",,
+2024-11-14T23:48:02.153325,azure-dns.info,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 2400:da00::6666
+2024-11-14T23:48:02.153325,azure-dns.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.153325,azure-dns.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.153325,azure.net,2606:4700:4700::1001,AAAA,"['2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14']",,
+2024-11-14T23:48:02.153325,azure-dns.org,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 94.140.15.15
+2024-11-14T23:48:02.153325,azure.com,114.114.115.115,A,"['20.231.239.246', '20.76.201.171', '20.236.44.162']",,
+2024-11-14T23:48:02.153325,azure-apim.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.153325,azure-dns.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.153325,azure.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2402:4e00::
+2024-11-14T23:48:02.153325,azure-dns.org,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 114.114.114.114
+2024-11-14T23:48:02.153325,azure.net,1.0.0.1,A,"['20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.153325,azure-api.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.153325,azure-dns.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.153325,azure-dns.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.153325,azure.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure.com on server: 123.125.81.7
+2024-11-14T23:48:02.153325,azure-dns.org,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 208.67.220.222
+2024-11-14T23:48:02.153325,azure.net,95.85.95.85,A,"['20.76.201.171', '20.70.246.20', '20.112.250.133', '20.236.44.162', '20.231.239.246']",,
+2024-11-14T23:48:02.153325,azure-api.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2402:4e00::
+2024-11-14T23:48:02.153325,azure-dns.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.153325,azure.cn,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.153325,azure.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.153325,azure-dns.org,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 94.140.14.14
+2024-11-14T23:48:02.153325,azure.net,8.8.4.4,A,"['20.112.250.133', '20.236.44.162', '20.70.246.20', '20.231.239.246', '20.76.201.171']",,
+2024-11-14T23:48:02.153325,azure-api.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.153325,azure-dns.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.153325,azure.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2400:3200::1
+2024-11-14T23:48:02.153325,azure.net,2a02:6b8::feed:0ff,AAAA,"['2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.153325,azure.net,1.1.1.1,A,"['20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.153325,azure-api.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2400:3200::1
+2024-11-14T23:48:02.153325,azure-dns.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.153325,azure-dns.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:fe::fe
+2024-11-14T23:48:02.153325,azure-dns.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.net on server: 2400:da00::6666
+2024-11-14T23:48:02.153325,azure.net,2a03:90c0:999d::1,AAAA,"['2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:20e:3::23c', '2603:1030:c02:8::14', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.153325,azure-api.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.153325,azure-dns.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.153325,azure-dns.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.153325,azure.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:0:ccc::2
+2024-11-14T23:48:02.153325,azure-dns.org,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 119.29.29.29
+2024-11-14T23:48:02.153325,azure-dns.org,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 77.88.8.8
+2024-11-14T23:48:02.153325,azure-api.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.153325,azure.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:0:ccd::2
+2024-11-14T23:48:02.153325,azure-dns.org,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 180.76.76.76
+2024-11-14T23:48:02.153325,azure.net,8.8.8.8,A,"['20.112.250.133', '20.76.201.171', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.153325,azure-api.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.153325,azure.net,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: azure.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.153325,azure.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.153325,azure-dns.org,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 223.5.5.5
+2024-11-14T23:48:02.153325,azure-dns.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.153325,azure-apim.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:119:35::35
+2024-11-14T23:48:02.153325,azure-dns.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.153325,azure.net,2001:6d0:6d0::2001,AAAA,"['2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.153325,azure-dns.org,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 223.6.6.6
+2024-11-14T23:48:02.153325,azure.net,62.76.62.76,A,"['20.231.239.246', '20.70.246.20', '20.76.201.171', '20.112.250.133', '20.236.44.162']",,
+2024-11-14T23:48:02.153325,azure-apim.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.154328,azure-api.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-api.net on server: 2400:da00::6666
+2024-11-14T23:48:02.154328,azure.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure.com on server: 2400:da00::6666
+2024-11-14T23:48:02.154328,azure-dns.org,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 114.114.115.115
+2024-11-14T23:48:02.154328,azure.net,195.208.4.1,A,"['20.70.246.20', '20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246']",,
+2024-11-14T23:48:02.154328,azure-apim.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2620:fe::fe
+2024-11-14T23:48:02.154328,azure-dns.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.154328,azure.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1020:201:10::10f', '2603:1010:3:3::5b']",,
+2024-11-14T23:48:02.154328,azure-dns.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 202.96.128.86
+2024-11-14T23:48:02.154328,azure-apim.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.154328,azure-dns.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.154328,azure.cn,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.154328,azure.net,2001:4860:4860::8844,AAAA,"['2603:1030:20e:3::23c', '2603:1030:b:3::152', '2603:1010:3:3::5b', '2603:1020:201:10::10f', '2603:1030:c02:8::14']",,
+2024-11-14T23:48:02.154328,azure-dns.org,208.67.220.220,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 208.67.220.220
+2024-11-14T23:48:02.154328,azure-dns.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 210.21.196.6
+2024-11-14T23:48:02.154328,azure.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure.net on server: 9.9.9.9
+2024-11-14T23:48:02.154328,azure-dns.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.154328,azure.cn,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure.cn on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.154328,azure.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:119:35::35
+2024-11-14T23:48:02.154328,azure-dns.org,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 208.67.222.220
+2024-11-14T23:48:02.154328,azure.com,223.6.6.6,A,"['20.236.44.162', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.112.250.133']",,
+2024-11-14T23:48:02.154328,azure.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure.com on server: 101.226.4.7
+2024-11-14T23:48:02.154328,azure-dns.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.154328,azure.net,195.208.5.1,A,"['20.70.246.20', '20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246']",,
+2024-11-14T23:48:02.154328,azure-dns.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.154328,azure.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:119:53::53
+2024-11-14T23:48:02.154328,azure-dns.org,208.67.222.222,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 208.67.222.222
+2024-11-14T23:48:02.154328,azure.com,180.76.76.76,A,"['20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.154328,azure-dns.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.154328,azure-apim.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.154328,azure.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:fe::fe
+2024-11-14T23:48:02.154328,azure.com,223.5.5.5,A,"['20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.154328,azure-api.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:119:35::35
+2024-11-14T23:48:02.154328,azure-dns.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.154328,azure-dns.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2402:4e00::
+2024-11-14T23:48:02.154328,azure.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2620:fe::10
+2024-11-14T23:48:02.154328,azure-dns.org,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 1.0.0.1
+2024-11-14T23:48:02.154328,azure.com,119.29.29.29,A,"['20.112.250.133', '20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.154328,azure-api.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:119:53::53
+2024-11-14T23:48:02.154328,azure-dns.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.154328,azure.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.154328,azure-dns.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.154328,azure-dns.org,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-dns.org on server: 95.85.95.85
+2024-11-14T23:48:02.154328,azure.com,94.140.14.14,A,"['20.76.201.171', '20.70.246.20', '20.236.44.162', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.154328,azure-dns.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.154328,azure-apim.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.154328,azure.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.154328,azure.com,94.140.15.15,A,"['20.76.201.171', '20.70.246.20', '20.236.44.162', '20.112.250.133', '20.231.239.246']",,
+2024-11-14T23:48:02.154328,azure-dns.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:119:35::35
+2024-11-14T23:48:02.154328,azure-dns.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2400:3200:baba::1
+2024-11-14T23:48:02.154328,azure.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.154328,azure.net,77.88.8.1,A,"['20.236.44.162', '20.231.239.246', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.154328,azure.net,2001:6d0:d6::2001,AAAA,"['2603:1020:201:10::10f', '2603:1010:3:3::5b', '2603:1030:c02:8::14', '2603:1030:20e:3::23c', '2603:1030:b:3::152']",,
+2024-11-14T23:48:02.154328,azure-dns.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:119:53::53
+2024-11-14T23:48:02.154328,azure-api.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:fe::fe
+2024-11-14T23:48:02.154328,azure-dns.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:fe::10
+2024-11-14T23:48:02.154328,azure.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.154328,azure.net,62.76.76.62,A,"['20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.154328,azure-api.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2620:fe::10
+2024-11-14T23:48:02.154328,azure-dns.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-dns.org on server: 2620:119:35::35
+2024-11-14T23:48:02.154328,azure-dns.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-dns.net on server: 2620:fe::10
+2024-11-14T23:48:02.154328,aznude.com,208.67.222.220,A,['162.125.18.129'],,
+2024-11-14T23:48:02.154328,azure.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure.com on server: 202.96.128.86
+2024-11-14T23:48:02.154328,azureedge.net,1.0.0.1,A,[],NoAnswer,No answer for domain: azureedge.net on server: 1.0.0.1
+2024-11-14T23:48:02.154328,azure-dns.info,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.154328,aznude.com,208.67.220.222,A,['54.234.18.200'],,
+2024-11-14T23:48:02.155320,azure.us,1.1.1.1,A,[],NoAnswer,No answer for domain: azure.us on server: 1.1.1.1
+2024-11-14T23:48:02.155320,azureedge.net,8.8.4.4,A,[],NoAnswer,No answer for domain: azureedge.net on server: 8.8.4.4
+2024-11-14T23:48:02.155320,azure-dns.info,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.155320,aznude.com,9.9.9.10,A,['154.83.14.134'],,
+2024-11-14T23:48:02.155320,azure.us,8.8.4.4,A,[],NoAnswer,No answer for domain: azure.us on server: 8.8.4.4
+2024-11-14T23:48:02.155320,azureedge.net,1.1.1.1,A,[],NoAnswer,No answer for domain: azureedge.net on server: 1.1.1.1
+2024-11-14T23:48:02.155320,azure-dns.info,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2400:3200:baba::1
+2024-11-14T23:48:02.155320,azure.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure.com on server: 210.21.196.6
+2024-11-14T23:48:02.155320,azureedge.net,211.136.17.107,A,[],NoAnswer,No answer for domain: azureedge.net on server: 211.136.17.107
+2024-11-14T23:48:02.155320,azure-dns.info,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2402:4e00::
+2024-11-14T23:48:02.155320,aznude.com,77.88.8.1,A,['162.125.32.6'],,
+2024-11-14T23:48:02.155320,azioncdn.net,119.29.29.29,A,['179.191.190.64'],,
+2024-11-14T23:48:02.155320,azureedge.net,117.50.11.11,A,[],NoAnswer,No answer for domain: azureedge.net on server: 117.50.11.11
+2024-11-14T23:48:02.155320,azure-dns.info,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.155320,azure-apim.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-apim.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.155320,azure.us,1.0.0.1,A,[],NoAnswer,No answer for domain: azure.us on server: 1.0.0.1
+2024-11-14T23:48:02.155320,azure-apim.net,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: azure-apim.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.155320,azure-dns.info,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:119:53::53
+2024-11-14T23:48:02.155320,aznude.com,1.1.1.1,A,"['104.18.51.6', '104.18.53.42']",,
+2024-11-14T23:48:02.155320,azure.us,95.85.95.85,A,[],NoAnswer,No answer for domain: azure.us on server: 95.85.95.85
+2024-11-14T23:48:02.155320,azureedge.net,218.30.118.6,A,[],NoAnswer,No answer for domain: azureedge.net on server: 218.30.118.6
+2024-11-14T23:48:02.155320,azure-dns.info,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.155320,azioncdn.net,180.76.76.76,A,['179.191.190.64'],,
+2024-11-14T23:48:02.155320,azure.us,2.56.220.2,A,[],NoAnswer,No answer for domain: azure.us on server: 2.56.220.2
+2024-11-14T23:48:02.155320,azureedge.net,119.29.29.29,A,[],NoAnswer,No answer for domain: azureedge.net on server: 119.29.29.29
+2024-11-14T23:48:02.155320,azure.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.155320,aznude.com,208.67.220.220,A,['128.242.240.61'],,
+2024-11-14T23:48:02.155320,azure-dns.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 2400:da00::6666
+2024-11-14T23:48:02.155320,azure-dns.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azure-dns.org on server: 9.9.9.9
+2024-11-14T23:48:02.155320,aznude.com,195.208.5.1,A,['108.160.163.108'],,
+2024-11-14T23:48:02.155320,azure.net,208.67.222.222,A,"['20.112.250.133', '20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.155320,azureedge.net,223.6.6.6,A,[],NoAnswer,No answer for domain: azureedge.net on server: 223.6.6.6
+2024-11-14T23:48:02.155320,azure-dns.info,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.155320,azure.net,208.67.222.220,A,"['20.76.201.171', '20.112.250.133', '20.231.239.246', '20.236.44.162', '20.70.246.20']",,
+2024-11-14T23:48:02.155320,azureedge.net,180.76.76.76,A,[],NoAnswer,No answer for domain: azureedge.net on server: 180.76.76.76
+2024-11-14T23:48:02.155320,azure-dns.info,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.155320,aznude.com,208.67.222.222,A,['156.233.67.243'],,
+2024-11-14T23:48:02.155320,azure.net,9.9.9.10,A,"['20.112.250.133', '20.231.239.246', '20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.155320,azureedge.net,114.114.115.115,A,[],NoAnswer,No answer for domain: azureedge.net on server: 114.114.115.115
+2024-11-14T23:48:02.155320,aznude.com,8.8.8.8,A,['128.242.240.221'],,
+2024-11-14T23:48:02.155320,azure.net,208.67.220.220,A,"['20.112.250.133', '20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.155320,azureedge.net,223.5.5.5,A,[],NoAnswer,No answer for domain: azureedge.net on server: 223.5.5.5
+2024-11-14T23:48:02.155320,azure-dns.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2402:4e00::
+2024-11-14T23:48:02.155320,aznude.com,8.8.4.4,A,['69.63.184.14'],,
+2024-11-14T23:48:02.155320,azure.net,223.6.6.6,A,"['20.236.44.162', '20.231.239.246', '20.112.250.133', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.155320,azureedge.net,62.76.76.62,A,[],NoAnswer,No answer for domain: azureedge.net on server: 62.76.76.62
+2024-11-14T23:48:02.155320,azure.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure.net on server: 101.226.4.7
+2024-11-14T23:48:02.155320,azioncdn.net,218.30.118.6,A,['179.191.190.64'],,
+2024-11-14T23:48:02.155320,azure.net,119.29.29.29,A,"['20.70.246.20', '20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246']",,
+2024-11-14T23:48:02.155320,azure.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure.net on server: 123.125.81.7
+2024-11-14T23:48:02.155320,azure-dns.info,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:fe::10
+2024-11-14T23:48:02.155320,aznude.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aznude.com on server: 9.9.9.9
+2024-11-14T23:48:02.155320,azure.net,223.5.5.5,A,"['20.236.44.162', '20.76.201.171', '20.70.246.20', '20.231.239.246', '20.112.250.133']",,
+2024-11-14T23:48:02.155320,azureedge.net,2.56.220.2,A,[],NoAnswer,No answer for domain: azureedge.net on server: 2.56.220.2
+2024-11-14T23:48:02.155320,azure-dns.info,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:119:35::35
+2024-11-14T23:48:02.155320,azureedge.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azureedge.net on server: 210.21.196.6
+2024-11-14T23:48:02.155320,azure.us,8.8.8.8,A,[],NoAnswer,No answer for domain: azure.us on server: 8.8.8.8
+2024-11-14T23:48:02.155320,azureedge.net,77.88.8.1,A,[],NoAnswer,No answer for domain: azureedge.net on server: 77.88.8.1
+2024-11-14T23:48:02.155320,azure-dns.info,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.155320,azure-dns.info,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.155320,azure.net,114.114.114.114,A,"['20.231.239.246', '20.76.201.171', '20.70.246.20']",,
+2024-11-14T23:48:02.155320,azureedge.net,95.85.95.85,A,[],NoAnswer,No answer for domain: azureedge.net on server: 95.85.95.85
+2024-11-14T23:48:02.155320,azure-dns.info,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:fe::fe
+2024-11-14T23:48:02.155320,azioncdn.net,123.125.81.6,A,['179.191.190.64'],,
+2024-11-14T23:48:02.155320,azure.net,114.114.115.115,A,"['20.76.201.171', '20.70.246.20', '20.236.44.162']",,
+2024-11-14T23:48:02.155320,azureedge.net,77.88.8.8,A,[],NoAnswer,No answer for domain: azureedge.net on server: 77.88.8.8
+2024-11-14T23:48:02.155320,azure-dns.info,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.155320,azioncdn.net,101.226.4.6,A,['179.191.190.64'],,
+2024-11-14T23:48:02.155320,azure.net,101.226.4.6,A,"['20.236.44.162', '20.231.239.246', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.156320,azureedge.net,94.140.15.15,A,[],NoAnswer,No answer for domain: azureedge.net on server: 94.140.15.15
+2024-11-14T23:48:02.156320,azure-dns.info,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.156320,aznude.com,62.76.62.76,A,['157.240.11.40'],,
+2024-11-14T23:48:02.156320,azure.net,94.140.15.15,A,"['20.231.239.246', '20.70.246.20', '20.76.201.171', '20.112.250.133', '20.236.44.162']",,
+2024-11-14T23:48:02.156320,azureedge.net,114.114.114.114,A,[],NoAnswer,No answer for domain: azureedge.net on server: 114.114.114.114
+2024-11-14T23:48:02.156320,aznude.com,195.208.4.1,A,['209.95.56.60'],,
+2024-11-14T23:48:02.156320,azure.net,123.125.81.6,A,"['20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.156320,azureedge.net,208.67.220.220,A,[],NoAnswer,No answer for domain: azureedge.net on server: 208.67.220.220
+2024-11-14T23:48:02.156320,azure-dns.info,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.156320,aznude.com,62.76.76.62,A,['104.244.46.165'],,
+2024-11-14T23:48:02.156320,azureedge.net,94.140.14.14,A,[],NoAnswer,No answer for domain: azureedge.net on server: 94.140.14.14
+2024-11-14T23:48:02.156320,azure-dns.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2400:3200::1
+2024-11-14T23:48:02.156320,azureedge.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azureedge.net on server: 202.96.128.86
+2024-11-14T23:48:02.156320,azure.net,211.136.17.107,A,"['20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.156320,azureedge.net,9.9.9.10,A,[],NoAnswer,No answer for domain: azureedge.net on server: 9.9.9.10
+2024-11-14T23:48:02.156320,azure-dns.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2400:3200:baba::1
+2024-11-14T23:48:02.156320,azureedge.net,62.76.62.76,A,[],NoAnswer,No answer for domain: azureedge.net on server: 62.76.62.76
+2024-11-14T23:48:02.156320,azure-dns.info,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.info on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.156320,azureedge.net,208.67.222.222,A,[],NoAnswer,No answer for domain: azureedge.net on server: 208.67.222.222
+2024-11-14T23:48:02.156320,azure-dns.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.156320,azure.net,117.50.11.11,A,"['20.112.250.133', '20.231.239.246', '20.236.44.162', '20.76.201.171', '20.70.246.20']",,
+2024-11-14T23:48:02.156320,azioncdn.net,117.50.11.11,A,['179.191.190.64'],,
+2024-11-14T23:48:02.156320,azureedge.net,195.208.5.1,A,[],NoAnswer,No answer for domain: azureedge.net on server: 195.208.5.1
+2024-11-14T23:48:02.156320,azure-dns.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.156320,aznude.com,2.56.220.2,A,['156.233.67.243'],,
+2024-11-14T23:48:02.156320,azure.net,218.30.118.6,A,"['20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20', '20.76.201.171']",,
+2024-11-14T23:48:02.156320,azioncdn.net,211.136.17.107,A,['179.191.190.64'],,
+2024-11-14T23:48:02.156320,azure-dns.info,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.156320,aznude.com,77.88.8.8,A,['162.125.2.6'],,
+2024-11-14T23:48:02.156320,azure.net,180.76.76.76,A,"['20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.156320,azure-dns.info,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2400:3200::1
+2024-11-14T23:48:02.156320,azure-dns.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 2400:da00::6666
+2024-11-14T23:48:02.156320,azureedge.net,195.208.4.1,A,[],NoAnswer,No answer for domain: azureedge.net on server: 195.208.4.1
+2024-11-14T23:48:02.156320,azure-dns.info,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:0:ccd::2
+2024-11-14T23:48:02.156320,aznude.com,95.85.95.85,A,['128.242.245.125'],,
+2024-11-14T23:48:02.156320,azure.net,208.67.220.222,A,"['20.231.239.246', '20.236.44.162', '20.70.246.20', '20.76.201.171', '20.112.250.133']",,
+2024-11-14T23:48:02.156320,azureedge.net,208.67.222.220,A,[],NoAnswer,No answer for domain: azureedge.net on server: 208.67.222.220
+2024-11-14T23:48:02.156320,azure-dns.info,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.156891,aznude.com,1.0.0.1,A,['23.234.30.58'],,
+2024-11-14T23:48:02.156891,azure.net,94.140.14.14,A,"['20.76.201.171', '20.112.250.133', '20.236.44.162', '20.231.239.246', '20.70.246.20']",,
+2024-11-14T23:48:02.156891,azureedge.net,208.67.220.222,A,[],NoAnswer,No answer for domain: azureedge.net on server: 208.67.220.222
+2024-11-14T23:48:02.156891,azure-dns.info,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.info on server: 2620:0:ccc::2
+2024-11-14T23:48:02.156891,azure-dns.info,1.0.0.1,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 1.0.0.1
+2024-11-14T23:48:02.156891,azioncdn.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.156891,azureedge.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.156891,azure-dns.info,8.8.4.4,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 8.8.4.4
+2024-11-14T23:48:02.156891,azioncdn.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.156891,azioncdn.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 202.96.128.86
+2024-11-14T23:48:02.156891,azure-dns.info,1.1.1.1,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 1.1.1.1
+2024-11-14T23:48:02.156891,azet.sk,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azet.sk on server: 2402:4e00::
+2024-11-14T23:48:02.156891,azioncdn.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 123.125.81.7
+2024-11-14T23:48:02.156891,azureedge.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.156891,aznude.com,2001:4860:4860::8844,AAAA,['2001::c73b:94e5'],,
+2024-11-14T23:48:02.156891,azureedge.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.156891,azure-dns.info,8.8.8.8,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 8.8.8.8
+2024-11-14T23:48:02.156891,aznude.com,2606:4700:4700::1111,AAAA,['2001::9df0:20e'],,
+2024-11-14T23:48:02.156891,azureedge.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.156891,azure-dns.com,223.5.5.5,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 223.5.5.5
+2024-11-14T23:48:02.156891,aznude.com,2606:4700:4700::1001,AAAA,['2001::6ca0:a370'],,
+2024-11-14T23:48:02.156891,azure.us,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.156891,azure-dns.com,223.6.6.6,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 223.6.6.6
+2024-11-14T23:48:02.156891,azioncdn.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.156891,azure.us,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2400:3200::1
+2024-11-14T23:48:02.156891,azure-dns.com,101.226.4.6,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 101.226.4.6
+2024-11-14T23:48:02.156891,azioncdn.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.156891,azure.us,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2400:3200:baba::1
+2024-11-14T23:48:02.156891,azioncdn.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 101.226.4.7
+2024-11-14T23:48:02.156891,azioncdn.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 210.21.196.6
+2024-11-14T23:48:02.156891,azure.us,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2402:4e00::
+2024-11-14T23:48:02.156891,azure-dns.com,114.114.114.114,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 114.114.114.114
+2024-11-14T23:48:02.156891,aznude.com,2001:4860:4860::8888,AAAA,['2001::c73b:9459'],,
+2024-11-14T23:48:02.156891,azure.us,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:0:ccd::2
+2024-11-14T23:48:02.156891,azure-dns.com,114.114.115.115,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 114.114.115.115
+2024-11-14T23:48:02.156891,azioncdn.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:119:35::35
+2024-11-14T23:48:02.156891,azure.us,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.156891,azure-dns.com,117.50.11.11,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 117.50.11.11
+2024-11-14T23:48:02.156891,azioncdn.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:119:53::53
+2024-11-14T23:48:02.156891,azure.us,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:119:53::53
+2024-11-14T23:48:02.156891,azure-dns.com,123.125.81.6,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 123.125.81.6
+2024-11-14T23:48:02.156891,azioncdn.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:fe::fe
+2024-11-14T23:48:02.156891,azure.us,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure.us on server: 2620:0:ccc::2
+2024-11-14T23:48:02.156891,azioncdn.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2620:fe::10
+2024-11-14T23:48:02.156891,azureedge.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.156891,azure-dns.info,195.208.4.1,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 195.208.4.1
+2024-11-14T23:48:02.156891,azure.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure.net on server: 210.21.196.6
+2024-11-14T23:48:02.156891,azioncdn.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.156891,azureedge.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.156891,azure-dns.info,62.76.76.62,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 62.76.76.62
+2024-11-14T23:48:02.156891,azureedge.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azureedge.net on server: 9.9.9.9
+2024-11-14T23:48:02.156891,azureedge.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.156891,azioncdn.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.156891,azure-dns.info,62.76.62.76,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 62.76.62.76
+2024-11-14T23:48:02.156891,azureedge.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.156891,azioncdn.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.156891,azure-dns.info,2.56.220.2,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 2.56.220.2
+2024-11-14T23:48:02.156891,azureedge.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.156891,azure.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure.net on server: 202.96.128.86
+2024-11-14T23:48:02.156891,azioncdn.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.156891,azure-dns.info,95.85.95.85,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 95.85.95.85
+2024-11-14T23:48:02.156891,azioncdn.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.156891,azureedge.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:119:53::53
+2024-11-14T23:48:02.156891,azure-dns.info,77.88.8.1,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 77.88.8.1
+2024-11-14T23:48:02.156891,azureedge.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.156891,azure-dns.com,211.136.17.107,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 211.136.17.107
+2024-11-14T23:48:02.156891,azioncdn.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.157895,azioncdn.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.157895,azure-dns.com,208.67.220.222,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 208.67.220.222
+2024-11-14T23:48:02.157895,azure-dns.info,77.88.8.8,A,[],NoAnswer,No answer for domain: azure-dns.info on server: 77.88.8.8
+2024-11-14T23:48:02.157895,azioncdn.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.157895,azureedge.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:119:35::35
+2024-11-14T23:48:02.157895,azure-dns.com,218.30.118.6,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 218.30.118.6
+2024-11-14T23:48:02.157895,azioncdn.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.157895,azure-dns.com,208.67.222.220,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 208.67.222.220
+2024-11-14T23:48:02.157895,azureedge.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.157895,azureedge.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:fe::10
+2024-11-14T23:48:02.157895,azioncdn.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2402:4e00::
+2024-11-14T23:48:02.157895,azioncdn.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.157895,azureedge.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.157895,azure.us,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure.us on server: 2400:da00::6666
+2024-11-14T23:48:02.157895,azureedge.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.157895,azure-dns.com,119.29.29.29,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 119.29.29.29
+2024-11-14T23:48:02.158895,azioncdn.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.158895,azureedge.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.158895,azure-dns.com,180.76.76.76,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 180.76.76.76
+2024-11-14T23:48:02.158895,azioncdn.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2400:3200::1
+2024-11-14T23:48:02.158895,azure-dns.com,94.140.14.14,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 94.140.14.14
+2024-11-14T23:48:02.158895,azioncdn.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.158895,azure-dns.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 101.226.4.7
+2024-11-14T23:48:02.158895,azure-dns.com,94.140.15.15,A,[],NoAnswer,No answer for domain: azure-dns.com on server: 94.140.15.15
+2024-11-14T23:48:02.158895,azioncdn.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azioncdn.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.158895,azureedge.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2620:fe::fe
+2024-11-14T23:48:02.158895,aznude.com,211.136.17.107,A,['162.125.18.133'],,
+2024-11-14T23:48:02.158895,azure-api.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.158895,azure-dns.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.158895,azoramoon.com,95.85.95.85,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.158895,azure-dns.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 123.125.81.7
+2024-11-14T23:48:02.158895,azoramoon.com,2.56.220.2,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.158895,azure-devices.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:119:35::35
+2024-11-14T23:48:02.158895,azoramoon.com,2400:3200:baba::1,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.158895,azure-devices.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:0:ccd::2
+2024-11-14T23:48:02.158895,azoramoon.com,1.0.0.1,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.158895,azoramoon.com,2402:4e00::,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.158895,aznude.com,117.50.11.11,A,['108.160.169.37'],,
+2024-11-14T23:48:02.158895,azoramoon.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.158895,azure-devices.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2400:3200::1
+2024-11-14T23:48:02.159896,azet.sk,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azet.sk on server: 2400:da00::6666
+2024-11-14T23:48:02.159896,azoramoon.com,2400:3200::1,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.159896,azure-dns.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.159896,aznude.com,218.30.118.6,A,['31.13.94.10'],,
+2024-11-14T23:48:02.159896,azure-api.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2001:4860:4860::8844
+2024-11-14T23:48:02.159896,azureedge.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.159896,azureedge.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: azureedge.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.159896,azure-dns.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 202.96.128.86
+2024-11-14T23:48:02.159896,azioncdn.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azioncdn.net on server: 2400:da00::6666
+2024-11-14T23:48:02.159896,azure-dns.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:fe::fe
+2024-11-14T23:48:02.159896,azoramoon.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.159896,azoramoon.com,195.208.5.1,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T23:48:02.159896,azure-dns.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 210.21.196.6
+2024-11-14T23:48:02.159896,azure-devices.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:48:02.159896,aznude.com,180.76.76.76,A,['119.28.87.227'],,
+2024-11-14T23:48:02.159896,azoramoon.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 2400:da00::6666
+2024-11-14T23:48:02.159896,aznude.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aznude.com on server: 210.21.196.6
+2024-11-14T23:48:02.159896,azure-dns.com,2a02:6b8::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.159896,azure-dns.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.159896,aznude.com,223.6.6.6,A,['31.13.92.5'],,
+2024-11-14T23:48:02.159896,azoramoon.com,2620:119:53::53,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.159896,azure-dns.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:0:ccd::2
+2024-11-14T23:48:02.159896,aznude.com,119.29.29.29,A,['128.242.245.125'],,
+2024-11-14T23:48:02.159896,azoramoon.com,2620:0:ccc::2,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.159896,azure-dns.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.159896,azoramoon.com,77.88.8.1,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.160893,azoramoon.com,2620:fe::10,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.160893,azure-dns.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.160893,azoramoon.com,195.208.4.1,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.160893,aznude.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aznude.com on server: 123.125.81.7
+2024-11-14T23:48:02.160893,azure-dns.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:119:53::53
+2024-11-14T23:48:02.160893,azoramoon.com,62.76.76.62,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.160893,azoramoon.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.160893,azure-dns.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.160893,azure-dns.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.160893,azure-api.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:48:02.160893,azoramoon.com,2620:fe::fe,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.160893,azoramoon.com,2620:0:ccd::2,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.160893,aznude.com,94.140.14.14,A,['202.160.130.117'],,
+2024-11-14T23:48:02.160893,azoramoon.com,62.76.62.76,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T23:48:02.160893,aznude.com,114.114.114.114,A,['116.89.243.8'],,
+2024-11-14T23:48:02.160893,azure-dns.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.160893,azure-devices.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:0:ccc::2
+2024-11-14T23:48:02.160893,aznude.com,114.114.115.115,A,['116.89.243.8'],,
+2024-11-14T23:48:02.160893,azoramoon.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.160893,aznude.com,223.5.5.5,A,['202.160.129.36'],,
+2024-11-14T23:48:02.160893,azoramoon.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.160893,azure-dns.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:0:ccc::2
+2024-11-14T23:48:02.160893,aznude.com,101.226.4.6,A,['31.13.94.10'],,
+2024-11-14T23:48:02.160893,azoramoon.com,2001:6d0:6d0::2001,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.160893,azure-devices.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:48:02.160893,azoramoon.com,77.88.8.8,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.160893,azure-api.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:48:02.160893,azoramoon.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: azoramoon.com on server: 9.9.9.9
+2024-11-14T23:48:02.160893,azoramoon.com,1.1.1.1,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.160893,azure-api.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:48:02.160893,azure-dns.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2001:4860:4860::8888
+2024-11-14T23:48:02.160893,aznude.com,123.125.81.6,A,['31.13.94.10'],,
+2024-11-14T23:48:02.160893,azure-api.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2001:6d0:d6::2001
+2024-11-14T23:48:02.160893,azure-devices.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2620:119:53::53
+2024-11-14T23:48:02.160893,azure-dns.com,2a0c:a9c7:9::1,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:48:02.160893,azure-api.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a03:90c0:999d::1
+2024-11-14T23:48:02.160893,azoramoon.com,2620:119:35::35,AAAA,"['2606:4700:3036::ac43:a567', '2606:4700:3036::6815:51e3']",,
+2024-11-14T23:48:02.160893,azure-devices.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2402:4e00::
+2024-11-14T23:48:02.160893,azoramoon.com,8.8.8.8,A,"['172.67.165.103', '104.21.81.227']",,
+2024-11-14T23:48:02.160893,azure-dns.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:119:35::35
+2024-11-14T23:48:02.160893,aznude.com,94.140.15.15,A,['108.160.165.211'],,
+2024-11-14T23:48:02.160893,azure-api.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.160893,azure-api.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2606:4700:4700::1111
+2024-11-14T23:48:02.160893,azure-dns.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: azure-dns.com on server: 2620:fe::10
+2024-11-14T23:48:02.160893,azoramoon.com,8.8.4.4,A,"['104.21.81.227', '172.67.165.103']",,
+2024-11-14T23:48:02.160893,azure-devices.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: azure-devices.net on server: 2400:3200:baba::1
+2024-11-14T23:48:02.160893,azure-api.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2606:4700:4700::1001
+2024-11-14T23:48:02.160893,aznude.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aznude.com on server: 202.96.128.86
+2024-11-14T23:48:02.160893,azoramoon.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3036::6815:51e3', '2606:4700:3036::ac43:a567']",,
+2024-11-14T23:48:02.160893,azure-api.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: azure-api.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:48:02.160893,azure-dns.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: azure-dns.com on server: 2a03:90c0:9992::1
+2024-11-14T23:48:02.160893,azure-devices.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: azure-devices.net on server: 2400:da00::6666
+2024-11-14T23:48:02.160893,aznude.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aznude.com on server: 101.226.4.7

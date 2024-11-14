@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T17:05:31.819330,adsrvr.org,101.226.4.6,A,"['13.226.61.61', '13.226.61.7', '13.226.61.94', '13.226.61.50']",,
+2024-11-14T17:05:31.819330,adtidy.org,1.1.1.1,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.819330,adswizz.com,208.67.220.220,A,['3.251.41.252'],,
+2024-11-14T17:05:31.819330,adukwai.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adukwai.com on server: 211.136.17.107
+2024-11-14T17:05:31.819330,adsrvr.org,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.819330,adscale.de,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.820327,adscale.de,117.50.11.11,A,"['52.58.46.230', '3.69.103.54', '35.156.22.115']",,
+2024-11-14T17:05:31.820327,adsco.re,195.208.5.1,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adswizz.com,208.67.222.222,A,['3.251.41.252'],,
+2024-11-14T17:05:31.820327,adtidy.org,62.76.62.76,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T17:05:31.820327,adsrvr.org,223.5.5.5,A,"['13.226.61.94', '13.226.61.61', '13.226.61.7', '13.226.61.50']",,
+2024-11-14T17:05:31.820327,adsco.re,195.208.4.1,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adukwai.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adukwai.com on server: 114.114.114.114
+2024-11-14T17:05:31.820327,adthrive.com,119.29.29.29,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.820327,adsco.re,208.67.222.220,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adsrvr.org,114.114.114.114,A,"['13.226.61.7', '13.226.61.61', '13.226.61.94']",,
+2024-11-14T17:05:31.820327,adsrvr.org,114.114.115.115,A,"['13.226.61.7', '13.226.61.94', '13.226.61.61']",,
+2024-11-14T17:05:31.820327,adukwai.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adukwai.com on server: 119.29.29.29
+2024-11-14T17:05:31.820327,adsrvr.org,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T17:05:31.820327,adtidy.org,77.88.8.8,A,"['188.114.98.233', '188.114.99.233']",,
+2024-11-14T17:05:31.820327,adthrive.com,223.6.6.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.820327,adtidy.org,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T17:05:31.820327,adsco.re,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.820327,adscale.de,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.820327,adscale.de,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.820327,adsrvr.org,218.30.118.6,A,"['13.226.61.61', '13.226.61.94', '13.226.61.50', '13.226.61.7']",,
+2024-11-14T17:05:31.820327,adsrvr.org,123.125.81.6,A,"['13.226.61.50', '13.226.61.7', '13.226.61.61', '13.226.61.94']",,
+2024-11-14T17:05:31.820327,adukwai.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adukwai.com on server: 223.6.6.6
+2024-11-14T17:05:31.820327,adtidy.org,8.8.8.8,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.820327,adsrvr.org,211.136.17.107,A,"['13.226.61.50', '13.226.61.61', '13.226.61.7', '13.226.61.94']",,
+2024-11-14T17:05:31.820327,adsco.re,62.76.76.62,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adtidy.org,8.8.4.4,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.820327,adukwai.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adukwai.com on server: 218.30.118.6
+2024-11-14T17:05:31.820327,adsco.re,62.76.62.76,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adthrive.com,114.114.115.115,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.820327,adsco.re,77.88.8.8,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adsco.re,77.88.8.1,A,['162.252.214.5'],,
+2024-11-14T17:05:31.820327,adthrive.com,223.5.5.5,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.821388,adukwai.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adukwai.com on server: 208.67.222.220
+2024-11-14T17:05:31.821388,adsco.re,208.67.222.222,A,['162.252.214.5'],,
+2024-11-14T17:05:31.821388,adsrvr.org,119.29.29.29,A,"['13.226.61.94', '13.226.61.50', '13.226.61.61', '13.226.61.7']",,
+2024-11-14T17:05:31.821388,adthrive.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.821388,adukwai.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adukwai.com on server: 208.67.220.222
+2024-11-14T17:05:31.821388,adsco.re,208.67.220.222,A,['162.252.214.5'],,
+2024-11-14T17:05:31.821388,adsrvr.org,8.8.4.4,A,"['13.226.61.7', '13.226.61.61', '13.226.61.50', '13.226.61.94']",,
+2024-11-14T17:05:31.821388,adsrvr.org,180.76.76.76,A,"['13.226.61.7', '13.226.61.50', '13.226.61.61', '13.226.61.94']",,
+2024-11-14T17:05:31.821388,adthrive.com,114.114.114.114,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.821388,adukwai.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adukwai.com on server: 101.226.4.6
+2024-11-14T17:05:31.821388,adscale.de,211.136.17.107,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.821388,adsrvr.org,1.0.0.1,A,"['13.226.228.91', '13.226.228.74', '13.226.228.118', '13.226.228.16']",,
+2024-11-14T17:05:31.821388,adthrive.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adthrive.com on server: 202.96.128.86
+2024-11-14T17:05:31.821388,adsco.re,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adsco.re on server: 9.9.9.9
+2024-11-14T17:05:31.821388,adsrvr.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 101.226.4.7
+2024-11-14T17:05:31.821388,adtidy.org,1.0.0.1,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.821388,adukwai.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 210.21.196.6
+2024-11-14T17:05:31.821388,adscale.de,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adscale.de on server: 123.125.81.7
+2024-11-14T17:05:31.821388,adsco.re,9.9.9.10,A,['162.252.214.5'],,
+2024-11-14T17:05:31.821388,adukwai.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adukwai.com on server: 123.125.81.6
+2024-11-14T17:05:31.821388,adsrvr.org,77.88.8.8,A,"['18.239.36.96', '18.239.36.87', '18.239.36.25', '18.239.36.103']",,
+2024-11-14T17:05:31.821388,adswizz.com,9.9.9.10,A,['3.251.41.252'],,
+2024-11-14T17:05:31.821388,adsco.re,2.56.220.2,A,['162.252.214.5'],,
+2024-11-14T17:05:31.821388,adtidy.org,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T17:05:31.821388,adukwai.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adukwai.com on server: 114.114.115.115
+2024-11-14T17:05:31.821388,adscale.de,123.125.81.6,A,"['35.156.22.115', '52.58.46.230', '3.69.103.54']",,
+2024-11-14T17:05:31.821388,adthrive.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.821388,adsrvr.org,223.6.6.6,A,"['13.226.61.50', '13.226.61.61', '13.226.61.7', '13.226.61.94']",,
+2024-11-14T17:05:31.821388,adswizz.com,195.208.5.1,A,['3.251.41.252'],,
+2024-11-14T17:05:31.821388,adsrvr.org,62.76.76.62,A,"['18.245.31.11', '18.245.31.47', '18.245.31.81', '18.245.31.124']",,
+2024-11-14T17:05:31.821388,adsco.re,1.0.0.1,A,['162.252.214.5'],,
+2024-11-14T17:05:31.821388,adukwai.com,94.140.15.15,A,[],NoAnswer,No answer for domain: adukwai.com on server: 94.140.15.15
+2024-11-14T17:05:31.822395,adsrvr.org,195.208.4.1,A,"['18.239.36.103', '18.239.36.87', '18.239.36.25', '18.239.36.96']",,
+2024-11-14T17:05:31.822395,adsrvr.org,77.88.8.1,A,"['18.239.36.96', '18.239.36.87', '18.239.36.25', '18.239.36.103']",,
+2024-11-14T17:05:31.822395,adthrive.com,218.30.118.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.822395,adsco.re,95.85.95.85,A,['162.252.214.5'],,
+2024-11-14T17:05:31.822395,adsrvr.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 202.96.128.86
+2024-11-14T17:05:31.822395,adthrive.com,211.136.17.107,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.822395,adscale.de,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.822395,adscale.de,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.822395,adsco.re,8.8.4.4,A,['162.252.214.5'],,
+2024-11-14T17:05:31.822395,adsrvr.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 210.21.196.6
+2024-11-14T17:05:31.822395,adsrvr.org,62.76.62.76,A,"['18.239.36.87', '18.239.36.103', '18.239.36.25', '18.239.36.96']",,
+2024-11-14T17:05:31.822395,adswizz.com,195.208.4.1,A,['3.251.41.252'],,
+2024-11-14T17:05:31.822395,adsrvr.org,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.822395,adsco.re,1.1.1.1,A,['162.252.214.5'],,
+2024-11-14T17:05:31.822395,adukwai.com,94.140.14.14,A,[],NoAnswer,No answer for domain: adukwai.com on server: 94.140.14.14
+2024-11-14T17:05:31.822395,adtidy.org,95.85.95.85,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.822395,adsrvr.org,195.208.5.1,A,"['108.156.22.5', '108.156.22.58', '108.156.22.78', '108.156.22.103']",,
+2024-11-14T17:05:31.822395,adswizz.com,77.88.8.1,A,['3.251.41.252'],,
+2024-11-14T17:05:31.822395,adswizz.com,62.76.76.62,A,['3.251.41.252'],,
+2024-11-14T17:05:31.822395,adtidy.org,2.56.220.2,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.822395,adswizz.com,77.88.8.8,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adscale.de,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.823393,adsco.re,8.8.8.8,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,208.67.220.222,A,"['13.226.61.61', '13.226.61.94', '13.226.61.7', '13.226.61.50']",,
+2024-11-14T17:05:31.823393,adswizz.com,2.56.220.2,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adscale.de,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.823393,adsco.re,208.67.220.220,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,95.85.95.85,A,"['108.158.213.70', '108.158.213.105', '108.158.213.115', '108.158.213.101']",,
+2024-11-14T17:05:31.823393,adthrive.com,208.67.222.220,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.823393,adswizz.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adswizz.com on server: 9.9.9.9
+2024-11-14T17:05:31.823393,adscale.de,101.226.4.6,A,"['52.58.46.230', '35.156.22.115', '3.69.103.54']",,
+2024-11-14T17:05:31.823393,adsrvr.org,9.9.9.10,A,"['18.245.31.81', '18.245.31.124', '18.245.31.11', '18.245.31.47']",,
+2024-11-14T17:05:31.823393,adswizz.com,95.85.95.85,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adthrive.com,208.67.220.222,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.823393,adukwai.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adukwai.com on server: 223.5.5.5
+2024-11-14T17:05:31.823393,adsco.re,223.5.5.5,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,208.67.222.222,A,"['13.225.4.114', '13.225.4.128', '13.225.4.17', '13.225.4.93']",,
+2024-11-14T17:05:31.823393,adswizz.com,1.1.1.1,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adthrive.com,117.50.11.11,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.823393,adsco.re,223.6.6.6,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,2.56.220.2,A,"['108.158.213.101', '108.158.213.115', '108.158.213.70', '108.158.213.105']",,
+2024-11-14T17:05:31.823393,adswizz.com,1.0.0.1,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adthrive.com,101.226.4.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.823393,adukwai.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adukwai.com on server: 180.76.76.76
+2024-11-14T17:05:31.823393,adsco.re,114.114.114.114,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,208.67.220.220,A,"['13.225.4.128', '13.225.4.17', '13.225.4.93', '13.225.4.114']",,
+2024-11-14T17:05:31.823393,adswizz.com,8.8.8.8,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adswizz.com,62.76.62.76,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adukwai.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 101.226.4.7
+2024-11-14T17:05:31.823393,adsco.re,114.114.115.115,A,['162.252.214.5'],,
+2024-11-14T17:05:31.823393,adsrvr.org,208.67.222.220,A,"['13.226.61.61', '13.226.61.94', '13.226.61.7', '13.226.61.50']",,
+2024-11-14T17:05:31.823393,adswizz.com,8.8.4.4,A,['3.251.41.252'],,
+2024-11-14T17:05:31.823393,adthrive.com,123.125.81.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.824394,adscale.de,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adscale.de on server: 101.226.4.7
+2024-11-14T17:05:31.824394,adsrvr.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 9.9.9.9
+2024-11-14T17:05:31.824394,adsco.re,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.824394,adsrvr.org,1.1.1.1,A,"['18.64.123.60', '18.64.123.10', '18.64.123.53', '18.64.123.40']",,
+2024-11-14T17:05:31.824394,adthrive.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adthrive.com on server: 123.125.81.7
+2024-11-14T17:05:31.824394,adthrive.com,180.76.76.76,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.824394,adsmoloco.com,180.76.76.76,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adthrive.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adthrive.com on server: 101.226.4.7
+2024-11-14T17:05:31.824394,adserv.ai,208.67.222.222,A,['62.84.121.105'],,
+2024-11-14T17:05:31.824394,adtelligent.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.824394,adukwai.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adukwai.com on server: 1.1.1.1
+2024-11-14T17:05:31.824394,adtelligent.com,114.114.115.115,A,['34.203.112.31'],,
+2024-11-14T17:05:31.824394,adserv.ai,208.67.222.220,A,['62.84.121.105'],,
+2024-11-14T17:05:31.824394,adtelligent.com,2.56.220.2,A,['34.203.112.31'],,
+2024-11-14T17:05:31.824394,adukwai.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adukwai.com on server: 8.8.4.4
+2024-11-14T17:05:31.824394,adukwai.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 202.96.128.86
+2024-11-14T17:05:31.824394,adtelligent.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.824394,adsmoloco.com,223.6.6.6,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adserv.ai,9.9.9.10,A,['62.84.121.105'],,
+2024-11-14T17:05:31.824394,adtelligent.com,114.114.114.114,A,['34.203.112.31'],,
+2024-11-14T17:05:31.824394,adsmoloco.com,119.29.29.29,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adtelligent.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.824394,adsmoloco.com,2.56.220.2,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adtelligent.com,77.88.8.8,A,['34.203.112.31'],,
+2024-11-14T17:05:31.824394,adserv.ai,208.67.220.220,A,['62.84.121.105'],,
+2024-11-14T17:05:31.824394,adsmoloco.com,123.125.81.6,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adtelligent.com,94.140.14.14,A,['94.140.14.36'],,
+2024-11-14T17:05:31.824394,adukwai.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adukwai.com on server: 8.8.8.8
+2024-11-14T17:05:31.824394,adtelligent.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.824394,adtelligent.com,94.140.15.15,A,['94.140.14.36'],,
+2024-11-14T17:05:31.824394,adsmoloco.com,62.76.62.76,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adsmoloco.com,8.8.4.4,A,['198.185.159.144'],,
+2024-11-14T17:05:31.824394,adthrive.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adthrive.com on server: 210.21.196.6
+2024-11-14T17:05:31.824394,adtelligent.com,208.67.220.220,A,['34.203.112.31'],,
+2024-11-14T17:05:31.824394,adtelligent.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.825392,adsmoloco.com,1.1.1.1,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,62.76.76.62,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,208.67.220.222,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtrafficquality.google,123.125.81.6,A,['142.250.196.196'],,
+2024-11-14T17:05:31.825392,adtdp.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2400:3200::1
+2024-11-14T17:05:31.825392,adukwai.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 117.50.11.11
+2024-11-14T17:05:31.825392,adukwai.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adtelligent.com,9.9.9.10,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtrafficquality.google,101.226.4.6,A,['142.250.198.68'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.825392,adsmoloco.com,8.8.8.8,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,101.226.4.6,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,208.67.222.220,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adukwai.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adukwai.com on server: 95.85.95.85
+2024-11-14T17:05:31.825392,adtelligent.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:119:53::53
+2024-11-14T17:05:31.825392,adsrvr.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adspower.net,8.8.4.4,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.825392,adsmoloco.com,77.88.8.8,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 202.96.128.86
+2024-11-14T17:05:31.825392,adukwai.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adukwai.com on server: 1.0.0.1
+2024-11-14T17:05:31.825392,adtelligent.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.825392,adspower.net,1.1.1.1,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.825392,adtelligent.com,208.67.222.222,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,77.88.8.1,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtdp.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.825392,adtrafficquality.google,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 101.226.4.7
+2024-11-14T17:05:31.825392,adsmoloco.com,1.0.0.1,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adspower.net,8.8.8.8,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.825392,adtelligent.com,62.76.62.76,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.825392,adukwai.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adukwai.com on server: 62.76.62.76
+2024-11-14T17:05:31.825392,adsmoloco.com,95.85.95.85,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,195.208.5.1,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,195.208.5.1,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtrafficquality.google,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adsmoloco.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adtelligent.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:fe::fe
+2024-11-14T17:05:31.825392,adsmoloco.com,208.67.220.220,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,62.76.76.62,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adserv.ai,101.226.4.6,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.825392,adukwai.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adukwai.com on server: 195.208.5.1
+2024-11-14T17:05:31.825392,adsmoloco.com,195.208.4.1,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,195.208.4.1,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adukwai.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adukwai.com on server: 9.9.9.10
+2024-11-14T17:05:31.825392,adtdp.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,223.5.5.5,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,1.0.0.1,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adukwai.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adukwai.com on server: 208.67.220.220
+2024-11-14T17:05:31.825392,adserv.ai,218.30.118.6,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:fe::10
+2024-11-14T17:05:31.825392,adserv.ai,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adserv.ai on server: 101.226.4.7
+2024-11-14T17:05:31.825392,adukwai.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adukwai.com on server: 208.67.222.222
+2024-11-14T17:05:31.825392,adserv.ai,211.136.17.107,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adtelligent.com,77.88.8.1,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.825392,adtelligent.com,8.8.8.8,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adserv.ai,117.50.11.11,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adserv.ai,123.125.81.6,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,117.50.11.11,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adukwai.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adukwai.com on server: 195.208.4.1
+2024-11-14T17:05:31.825392,adtelligent.com,1.1.1.1,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtrafficquality.google,211.136.17.107,A,['142.250.198.68'],,
+2024-11-14T17:05:31.825392,adserv.ai,223.5.5.5,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,114.114.115.115,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.825392,adtrafficquality.google,117.50.11.11,A,['142.250.196.196'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.825392,adserv.ai,180.76.76.76,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 210.21.196.6
+2024-11-14T17:05:31.825392,adtelligent.com,8.8.4.4,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtelligent.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 9.9.9.9
+2024-11-14T17:05:31.825392,adtdp.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.825392,adukwai.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adukwai.com on server: 9.9.9.9
+2024-11-14T17:05:31.825392,adsmoloco.com,218.30.118.6,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtdp.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adtdp.com on server: 218.30.118.6
+2024-11-14T17:05:31.825392,adtrafficquality.google,218.30.118.6,A,['142.250.196.196'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2620:119:35::35
+2024-11-14T17:05:31.825392,adtrafficquality.google,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 202.96.128.86
+2024-11-14T17:05:31.825392,adsmoloco.com,9.9.9.10,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adserv.ai,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adserv.ai on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adtrafficquality.google,223.5.5.5,A,['142.250.198.68'],,
+2024-11-14T17:05:31.825392,adserv.ai,114.114.114.114,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.825392,adtelligent.com,95.85.95.85,A,['34.203.112.31'],,
+2024-11-14T17:05:31.825392,adtrafficquality.google,223.6.6.6,A,['142.250.198.68'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a10:50c0::ad1:ff
+2024-11-14T17:05:31.825392,adserv.ai,114.114.115.115,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,114.114.114.114,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 101.226.4.7
+2024-11-14T17:05:31.825392,adtrafficquality.google,119.29.29.29,A,['142.250.198.68'],,
+2024-11-14T17:05:31.825392,adtdp.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 123.125.81.7
+2024-11-14T17:05:31.825392,adserv.ai,223.6.6.6,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,208.67.220.222,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtdp.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adtdp.com on server: 101.226.4.6
+2024-11-14T17:05:31.825392,adtrafficquality.google,180.76.76.76,A,['142.250.196.196'],,
+2024-11-14T17:05:31.825392,adtdp.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2402:4e00::
+2024-11-14T17:05:31.825392,adsmoloco.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 9.9.9.9
+2024-11-14T17:05:31.825392,adserv.ai,119.29.29.29,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.825392,adtelligent.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.825392,adukwai.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adukwai.com on server: 77.88.8.1
+2024-11-14T17:05:31.825392,adsmoloco.com,211.136.17.107,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adserv.ai,94.140.14.14,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adukwai.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adukwai.com on server: 62.76.76.62
+2024-11-14T17:05:31.825392,adtdp.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.825392,adserv.ai,94.140.15.15,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,208.67.222.222,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtdp.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adtdp.com on server: 123.125.81.6
+2024-11-14T17:05:31.825392,adukwai.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adukwai.com on server: 2.56.220.2
+2024-11-14T17:05:31.825392,adtdp.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.825392,adserv.ai,208.67.220.222,A,['62.84.121.105'],,
+2024-11-14T17:05:31.825392,adsmoloco.com,208.67.222.220,A,['198.185.159.144'],,
+2024-11-14T17:05:31.825392,adtdp.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adtdp.com on server: 211.136.17.107
+2024-11-14T17:05:31.825392,adukwai.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adukwai.com on server: 77.88.8.8
+2024-11-14T17:05:31.825392,adtelligent.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.825392,adscale.de,195.208.5.1,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.825392,adtng.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adtng.com on server: 1.0.0.1
+2024-11-14T17:05:31.825392,adserv.ai,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.826348,adscale.de,218.30.118.6,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtng.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adtng.com on server: 8.8.8.8
+2024-11-14T17:05:31.826348,adserv.ai,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:119:35::35
+2024-11-14T17:05:31.826348,adscale.de,1.0.0.1,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,114.114.114.114,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adtrafficquality.google,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 210.21.196.6
+2024-11-14T17:05:31.826348,adserv.ai,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adserv.ai on server: 202.96.128.86
+2024-11-14T17:05:31.826348,adserv.ai,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2402:4e00::
+2024-11-14T17:05:31.826348,adserv.ai,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adserv.ai on server: 210.21.196.6
+2024-11-14T17:05:31.826348,adtdp.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 101.226.4.7
+2024-11-14T17:05:31.826348,adscale.de,208.67.222.222,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtng.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adtng.com on server: 1.1.1.1
+2024-11-14T17:05:31.826348,adserv.ai,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:119:53::53
+2024-11-14T17:05:31.826348,adtdp.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 210.21.196.6
+2024-11-14T17:05:31.826348,adtidy.org,223.6.6.6,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:0:ccd::2
+2024-11-14T17:05:31.826348,adscale.de,180.76.76.76,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtdp.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtdp.com on server: 2400:da00::6666
+2024-11-14T17:05:31.826348,adserv.ai,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a10:50c0::ad1:ff
+2024-11-14T17:05:31.826348,adscale.de,208.67.220.220,A,"['35.156.22.115', '52.58.46.230', '3.69.103.54']",,
+2024-11-14T17:05:31.826348,adtdp.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 117.50.11.11
+2024-11-14T17:05:31.826348,adserv.ai,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2400:3200::1
+2024-11-14T17:05:31.826348,adscale.de,8.8.8.8,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,223.5.5.5,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2400:3200:baba::1
+2024-11-14T17:05:31.826348,adtidy.org,123.125.81.6,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.826348,adscale.de,208.67.222.220,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adscale.de,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adscale.de on server: 202.96.128.86
+2024-11-14T17:05:31.826348,adserv.ai,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.826348,adtng.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adtng.com on server: 8.8.4.4
+2024-11-14T17:05:31.826348,adserv.ai,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:0:ccc::2
+2024-11-14T17:05:31.826348,adscale.de,223.6.6.6,A,"['52.58.46.230', '3.69.103.54', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,114.114.115.115,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a10:50c0::ad2:ff
+2024-11-14T17:05:31.826348,adscale.de,95.85.95.85,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,117.50.11.11,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:fe::10
+2024-11-14T17:05:31.826348,adscale.de,223.5.5.5,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,101.226.4.6,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adscale.de,1.1.1.1,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adserv.ai,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.826348,adscale.de,195.208.4.1,A,"['35.156.22.115', '52.58.46.230', '3.69.103.54']",,
+2024-11-14T17:05:31.826348,adtidy.org,94.140.14.14,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2620:fe::fe
+2024-11-14T17:05:31.826348,adscale.de,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.826348,adtidy.org,94.140.15.15,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.826348,adscale.de,8.8.4.4,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,218.30.118.6,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.826348,adscale.de,77.88.8.8,A,"['3.69.103.54', '35.156.22.115', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,211.136.17.107,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adtidy.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtidy.org on server: 210.21.196.6
+2024-11-14T17:05:31.826348,adscale.de,62.76.62.76,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,208.67.222.222,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.826348,adscale.de,9.9.9.10,A,"['35.156.22.115', '52.58.46.230', '3.69.103.54']",,
+2024-11-14T17:05:31.826348,adtidy.org,208.67.222.220,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.826348,adscale.de,119.29.29.29,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,119.29.29.29,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adscale.de,2.56.220.2,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,180.76.76.76,A,"['104.18.25.57', '104.18.24.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.826348,adscale.de,114.114.114.114,A,"['35.156.22.115', '3.69.103.54', '52.58.46.230']",,
+2024-11-14T17:05:31.826348,adtidy.org,9.9.9.10,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.826348,adscale.de,114.114.115.115,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adtidy.org,208.67.220.220,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adsensecustomsearchads.com on server: 2400:3200::1
+2024-11-14T17:05:31.826348,adscale.de,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.826348,adscale.de,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adscale.de on server: 210.21.196.6
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adsensecustomsearchads.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.826348,adscale.de,208.67.220.222,A,"['35.156.22.115', '52.58.46.230', '3.69.103.54']",,
+2024-11-14T17:05:31.826348,adtidy.org,208.67.220.222,A,"['104.18.24.57', '104.18.25.57']",,
+2024-11-14T17:05:31.826348,adserv.ai,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.826348,adscale.de,77.88.8.1,A,"['3.69.103.54', '52.58.46.230', '35.156.22.115']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 2400:da00::6666
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adsensecustomsearchads.com on server: 2402:4e00::
+2024-11-14T17:05:31.826348,adtidy.org,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T17:05:31.826348,adtidy.org,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T17:05:31.826348,adscale.de,62.76.76.62,A,"['52.58.46.230', '35.156.22.115', '3.69.103.54']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.826348,adspower.net,101.226.4.6,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.826348,adsco.re,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.826348,adspower.net,2620:0:ccd::2,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.826348,adtng.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adtng.com on server: 77.88.8.8
+2024-11-14T17:05:31.826348,adscale.de,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adscale.de on server: 9.9.9.9
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2620:0:ccc::2,AAAA,"['2404:6800:4008:c05::64', '2404:6800:4008:c05::66', '2404:6800:4008:c05::71', '2404:6800:4008:c05::8a']",,
+2024-11-14T17:05:31.826348,adtng.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adtng.com on server: 77.88.8.1
+2024-11-14T17:05:31.826348,adtng.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adtng.com on server: 114.114.114.114
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2a0c:a9c7:8::1,AAAA,['2a00:1450:4026:808::200e'],,
+2024-11-14T17:05:31.826348,adspower.net,2402:4e00::,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.826348,adspower.net,117.50.11.11,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.826348,adtng.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adtng.com on server: 208.67.222.220
+2024-11-14T17:05:31.826348,adsco.re,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.826348,adsrvr.org,2a03:90c0:9992::1,AAAA,"['2600:9000:21b4:7000:12:e08a:be80:93a1', '2600:9000:21b4:da00:12:e08a:be80:93a1', '2600:9000:21b4:7400:12:e08a:be80:93a1', '2600:9000:21b4:8800:12:e08a:be80:93a1', '2600:9000:21b4:ae00:12:e08a:be80:93a1', '2600:9000:21b4:a400:12:e08a:be80:93a1', '2600:9000:21b4:2800:12:e08a:be80:93a1', '2600:9000:21b4:9400:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adspower.net,195.208.4.1,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2620:119:53::53,AAAA,"['2404:6800:4008:c05::64', '2404:6800:4008:c05::65', '2404:6800:4008:c05::66', '2404:6800:4008:c05::71']",,
+2024-11-14T17:05:31.826348,adtidy.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtidy.org on server: 123.125.81.7
+2024-11-14T17:05:31.826348,adspower.net,2.56.220.2,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.826348,adsrvr.org,2a02:6b8::feed:0ff,AAAA,"['2600:9000:2368:6000:12:e08a:be80:93a1', '2600:9000:2368:ce00:12:e08a:be80:93a1', '2600:9000:2368:e200:12:e08a:be80:93a1', '2600:9000:2368:ba00:12:e08a:be80:93a1', '2600:9000:2368:7e00:12:e08a:be80:93a1', '2600:9000:2368:2600:12:e08a:be80:93a1', '2600:9000:2368:5c00:12:e08a:be80:93a1', '2600:9000:2368:3600:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adsco.re,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:0:ccd::2
+2024-11-14T17:05:31.826348,adsrvr.org,2a03:90c0:999d::1,AAAA,"['2600:9000:260e:5400:12:e08a:be80:93a1', '2600:9000:260e:7000:12:e08a:be80:93a1', '2600:9000:260e:fa00:12:e08a:be80:93a1', '2600:9000:260e:1600:12:e08a:be80:93a1', '2600:9000:260e:e000:12:e08a:be80:93a1', '2600:9000:260e:1e00:12:e08a:be80:93a1', '2600:9000:260e:a00:12:e08a:be80:93a1', '2600:9000:260e:a600:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adtidy.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtidy.org on server: 101.226.4.7
+2024-11-14T17:05:31.826348,adtng.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.826348,adspower.net,62.76.76.62,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.826348,adsrvr.org,2606:4700:4700::1111,AAAA,"['2600:9000:2201:2c00:12:e08a:be80:93a1', '2600:9000:2201:8200:12:e08a:be80:93a1', '2600:9000:2201:5a00:12:e08a:be80:93a1', '2600:9000:2201:ce00:12:e08a:be80:93a1', '2600:9000:2201:c400:12:e08a:be80:93a1', '2600:9000:2201:fa00:12:e08a:be80:93a1', '2600:9000:2201:4200:12:e08a:be80:93a1', '2600:9000:2201:5200:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adsco.re,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:119:53::53
+2024-11-14T17:05:31.826348,adspower.net,62.76.62.76,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.826348,adsrvr.org,2606:4700:4700::1001,AAAA,"['2600:9000:2201:5a00:12:e08a:be80:93a1', '2600:9000:2201:c400:12:e08a:be80:93a1', '2600:9000:2201:fa00:12:e08a:be80:93a1', '2600:9000:2201:4200:12:e08a:be80:93a1', '2600:9000:2201:8200:12:e08a:be80:93a1', '2600:9000:2201:2c00:12:e08a:be80:93a1', '2600:9000:2201:5200:12:e08a:be80:93a1', '2600:9000:2201:ce00:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adspower.net,218.30.118.6,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.826348,adsco.re,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:0:ccc::2
+2024-11-14T17:05:31.826348,adsrvr.org,2001:4860:4860::8888,AAAA,"['2600:9000:21d1:2e00:12:e08a:be80:93a1', '2600:9000:21d1:ac00:12:e08a:be80:93a1', '2600:9000:21d1:7200:12:e08a:be80:93a1', '2600:9000:21d1:8a00:12:e08a:be80:93a1', '2600:9000:21d1:3400:12:e08a:be80:93a1', '2600:9000:21d1:3000:12:e08a:be80:93a1', '2600:9000:21d1:6400:12:e08a:be80:93a1', '2600:9000:21d1:4c00:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adtng.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adtng.com on server: 195.208.4.1
+2024-11-14T17:05:31.826348,adspower.net,77.88.8.8,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.826348,adtng.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adtng.com on server: 195.208.5.1
+2024-11-14T17:05:31.826348,adsrvr.org,2001:4860:4860::8844,AAAA,"['2600:9000:21d1:c800:12:e08a:be80:93a1', '2600:9000:21d1:f800:12:e08a:be80:93a1', '2600:9000:21d1:cc00:12:e08a:be80:93a1', '2600:9000:21d1:a200:12:e08a:be80:93a1', '2600:9000:21d1:f000:12:e08a:be80:93a1', '2600:9000:21d1:9800:12:e08a:be80:93a1', '2600:9000:21d1:3600:12:e08a:be80:93a1', '2600:9000:21d1:f200:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.826348,adspower.net,95.85.95.85,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2001:6d0:6d0::2001,AAAA,"['2607:f8b0:4023:1002::65', '2607:f8b0:4023:1002::64', '2607:f8b0:4023:1002::8b', '2607:f8b0:4023:1002::71']",,
+2024-11-14T17:05:31.826348,adtng.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adtng.com on server: 208.67.220.220
+2024-11-14T17:05:31.826348,adspower.net,2620:0:ccc::2,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.826348,adsensecustomsearchads.com,2001:6d0:d6::2001,AAAA,"['2a00:1450:4010:c07::8a', '2a00:1450:4010:c07::8b', '2a00:1450:4010:c07::71', '2a00:1450:4010:c07::66']",,
+2024-11-14T17:05:31.826348,adtng.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adtng.com on server: 114.114.115.115
+2024-11-14T17:05:31.827348,adspower.net,77.88.8.1,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a02:6b8::feed:0ff,AAAA,['2a00:1450:400f:804::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,211.136.17.107,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a00:1450:400f:804::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,2620:119:35::35,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adtng.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adtng.com on server: 62.76.76.62
+2024-11-14T17:05:31.827348,adspower.net,123.125.81.6,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adsco.re,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:fe::10
+2024-11-14T17:05:31.827348,adtng.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adtng.com on server: 62.76.62.76
+2024-11-14T17:05:31.827348,adspower.net,2620:119:53::53,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,119.29.29.29,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adsco.re,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:119:35::35
+2024-11-14T17:05:31.827348,adspower.net,2620:fe::10,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adspower.net,180.76.76.76,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adtng.com on server: 208.67.222.222
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a0c:a9c7:9::1,AAAA,['2a00:1450:4026:808::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,223.5.5.5,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adtng.com on server: 95.85.95.85
+2024-11-14T17:05:31.827348,adtidy.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtidy.org on server: 202.96.128.86
+2024-11-14T17:05:31.827348,adspower.net,2a0c:a9c7:9::1,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,223.6.6.6,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adtng.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adtng.com on server: 2.56.220.2
+2024-11-14T17:05:31.827348,adsco.re,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2400:3200:baba::1
+2024-11-14T17:05:31.827348,adspower.net,2620:fe::fe,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adspower.net,114.114.114.114,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adtng.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adtng.com on server: 218.30.118.6
+2024-11-14T17:05:31.827348,adsco.re,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2402:4e00::
+2024-11-14T17:05:31.827348,adserv.ai,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adserv.ai on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.827348,adspower.net,114.114.115.115,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adtng.com on server: 211.136.17.107
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.827348,adspower.net,2a0c:a9c7:8::1,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adspower.net,94.140.14.14,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtidy.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtidy.org on server: 9.9.9.9
+2024-11-14T17:05:31.827348,adtng.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adtng.com on server: 123.125.81.6
+2024-11-14T17:05:31.827348,adsco.re,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2400:3200::1
+2024-11-14T17:05:31.827348,adspower.net,2606:4700:4700::1001,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,94.140.15.15,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adtng.com on server: 119.29.29.29
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a03:90c0:9992::1,AAAA,"['2404:6800:4008:c1b::66', '2404:6800:4008:c1b::64', '2404:6800:4008:c1b::8b', '2404:6800:4008:c1b::71']",,
+2024-11-14T17:05:31.827348,adspower.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adspower.net on server: 210.21.196.6
+2024-11-14T17:05:31.827348,adspower.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adspower.net on server: 202.96.128.86
+2024-11-14T17:05:31.827348,adspower.net,195.208.5.1,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adtng.com on server: 208.67.220.222
+2024-11-14T17:05:31.827348,adspower.net,2400:3200:baba::1,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2620:0:ccd::2,AAAA,"['2404:6800:4008:c05::66', '2404:6800:4008:c05::8a', '2404:6800:4008:c05::64', '2404:6800:4008:c05::65']",,
+2024-11-14T17:05:31.827348,adtng.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adtng.com on server: 223.6.6.6
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2606:4700:4700::1001,AAAA,['2607:f8b0:4007:811::200e'],,
+2024-11-14T17:05:31.827348,adtng.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adtng.com on server: 9.9.9.10
+2024-11-14T17:05:31.827348,adspower.net,208.67.220.222,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtng.com on server: 9.9.9.9
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2a03:90c0:999d::1,AAAA,"['2404:6800:4008:c1b::8b', '2404:6800:4008:c1b::71', '2404:6800:4008:c1b::66', '2404:6800:4008:c1b::64']",,
+2024-11-14T17:05:31.827348,adspower.net,2a10:50c0::ad2:ff,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,1.0.0.1,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2001:4860:4860::8844,AAAA,"['2404:6800:4008:c1b::71', '2404:6800:4008:c1b::64', '2404:6800:4008:c1b::65', '2404:6800:4008:c1b::8b']",,
+2024-11-14T17:05:31.827348,adspower.net,2400:3200::1,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,208.67.220.220,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adspower.net,2001:6d0:d6::2001,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adtng.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adtng.com on server: 223.5.5.5
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2606:4700:4700::1111,AAAA,['2607:f8b0:4007:817::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,208.67.222.220,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adspower.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2620:119:35::35,AAAA,"['2404:6800:4008:c05::66', '2404:6800:4008:c05::8b', '2404:6800:4008:c05::64', '2404:6800:4008:c05::65']",,
+2024-11-14T17:05:31.827348,adspower.net,2001:6d0:6d0::2001,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adspower.net,208.67.222.222,A,"['13.229.30.129', '52.220.182.72']",,
+2024-11-14T17:05:31.827348,adsco.re,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adsco.re on server: 2400:da00::6666
+2024-11-14T17:05:31.827348,adtng.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adtng.com on server: 180.76.76.76
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2001:4860:4860::8888,AAAA,"['2404:6800:4008:c1b::64', '2404:6800:4008:c1b::71', '2404:6800:4008:c1b::8b', '2404:6800:4008:c1b::8a']",,
+2024-11-14T17:05:31.827348,adspower.net,2a03:90c0:9992::1,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adsrvr.org,8.8.8.8,A,"['13.226.61.94', '13.226.61.7', '13.226.61.61', '13.226.61.50']",,
+2024-11-14T17:05:31.827348,adspower.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adspower.net on server: 101.226.4.7
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2620:fe::fe,AAAA,['2607:f8b0:4007:815::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,2a02:6b8::feed:0ff,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,9.9.9.10,A,"['52.220.182.72', '13.229.30.129']",,
+2024-11-14T17:05:31.827348,adtng.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.827348,adsensecustomsearchads.com,2620:fe::10,AAAA,['2607:f8b0:4007:813::200e'],,
+2024-11-14T17:05:31.827348,adspower.net,2a10:50c0::ad1:ff,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.827348,adspower.net,2a03:90c0:999d::1,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.827348,adtng.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:fe::10
+2024-11-14T17:05:31.827348,adtng.com,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T17:05:31.827348,adtng.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:119:35::35
+2024-11-14T17:05:31.827348,adspower.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adspower.net on server: 9.9.9.9
+2024-11-14T17:05:31.827348,adtng.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:119:53::53
+2024-11-14T17:05:31.827348,adtarget.com.tr,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T17:05:31.827348,adspower.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adspower.net on server: 2400:da00::6666
+2024-11-14T17:05:31.827348,adtng.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:fe::fe
+2024-11-14T17:05:31.827348,adtarget.com.tr,123.125.81.6,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.827348,adtarget.com.tr,211.136.17.107,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtng.com on server: 210.21.196.6
+2024-11-14T17:05:31.827348,adtarget.com.tr,101.226.4.6,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.827348,adtarget.com.tr,218.30.118.6,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.827348,adtng.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.827348,adspower.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adspower.net on server: 123.125.81.7
+2024-11-14T17:05:31.827348,adtrafficquality.google,2001:4860:4860::8888,AAAA,['2404:6800:4012:7::2004'],,
+2024-11-14T17:05:31.827348,adtng.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.827348,adtarget.com.tr,223.6.6.6,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.827348,adtarget.com.tr,180.76.76.76,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtng.com on server: 202.96.128.86
+2024-11-14T17:05:31.827348,adtarget.com.tr,223.5.5.5,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtarget.com.tr,119.29.29.29,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.827348,adtarget.com.tr,114.114.115.115,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.827348,adtng.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2400:3200::1
+2024-11-14T17:05:31.827348,adtng.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.827348,adtarget.com.tr,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.827348,adtng.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2402:4e00::
+2024-11-14T17:05:31.827348,adtarget.com.tr,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.827348,adtng.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.827348,adtarget.com.tr,208.67.222.220,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.827348,adtng.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.827348,adtng.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.827348,adtarget.com.tr,208.67.220.220,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtarget.com.tr,208.67.220.222,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.827348,adtarget.com.tr,9.9.9.10,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T17:05:31.827348,adtarget.com.tr,208.67.222.222,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.827348,adtng.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.827348,adtng.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.827348,adtng.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.828347,adtarget.com.tr,114.114.114.114,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.828347,adtng.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.828347,adtng.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,208.67.222.220,A,"['64.233.188.100', '64.233.188.101', '64.233.188.102', '64.233.188.113', '64.233.188.138', '64.233.188.139']",,
+2024-11-14T17:05:31.828347,adtdp.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adtdp.com on server: 208.67.222.220
+2024-11-14T17:05:31.828347,adtrafficquality.google,208.67.220.222,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,208.67.220.222,A,"['64.233.188.100', '64.233.188.101', '64.233.188.102', '64.233.188.113', '64.233.188.138', '64.233.188.139']",,
+2024-11-14T17:05:31.828347,adtdp.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adtdp.com on server: 208.67.220.220
+2024-11-14T17:05:31.828347,adtng.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adtng.com on server: 101.226.4.6
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,9.9.9.10,A,['142.250.186.174'],,
+2024-11-14T17:05:31.828347,adtrafficquality.google,95.85.95.85,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2400:3200::1
+2024-11-14T17:05:31.828347,adukwai.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a10:50c0::ad2:ff
+2024-11-14T17:05:31.828347,adsco.re,119.29.29.29,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adtdp.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adtdp.com on server: 9.9.9.10
+2024-11-14T17:05:31.828347,adthrive.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2402:4e00::
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,77.88.8.1,A,['142.250.74.46'],,
+2024-11-14T17:05:31.828347,adtdp.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adtdp.com on server: 208.67.222.222
+2024-11-14T17:05:31.828347,adtarget.com.tr,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 123.125.81.7
+2024-11-14T17:05:31.828347,adthrive.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.828347,adtarget.com.tr,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 9.9.9.9
+2024-11-14T17:05:31.828347,adtdp.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adtdp.com on server: 223.5.5.5
+2024-11-14T17:05:31.828347,adtrafficquality.google,1.0.0.1,A,['142.250.189.4'],,
+2024-11-14T17:05:31.828347,adthrive.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:119:53::53
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,1.1.1.1,A,['142.250.207.46'],,
+2024-11-14T17:05:31.828347,adtdp.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adtdp.com on server: 223.6.6.6
+2024-11-14T17:05:31.828347,adtrafficquality.google,9.9.9.10,A,['142.250.184.196'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.828347,adukwai.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.828347,adsco.re,180.76.76.76,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adtdp.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adtdp.com on server: 180.76.76.76
+2024-11-14T17:05:31.828347,adthrive.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.828347,adukwai.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a10:50c0::ad1:ff
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,208.67.220.220,A,"['64.233.188.101', '64.233.188.102', '64.233.188.113', '64.233.188.138', '64.233.188.139', '64.233.188.100']",,
+2024-11-14T17:05:31.828347,adtarget.com.tr,117.50.11.11,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.828347,adtrafficquality.google,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,195.208.5.1,A,"['64.233.165.113', '64.233.165.101', '64.233.165.100', '64.233.165.138', '64.233.165.139', '64.233.165.102']",,
+2024-11-14T17:05:31.828347,adtrafficquality.google,114.114.114.114,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:fe::fe
+2024-11-14T17:05:31.828347,adukwai.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:119:53::53
+2024-11-14T17:05:31.828347,adtdp.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adtdp.com on server: 119.29.29.29
+2024-11-14T17:05:31.828347,adtrafficquality.google,8.8.4.4,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,208.67.222.222,A,"['64.233.188.139', '64.233.188.100', '64.233.188.101', '64.233.188.102', '64.233.188.113', '64.233.188.138']",,
+2024-11-14T17:05:31.828347,adtdp.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.828347,adtrafficquality.google,1.1.1.1,A,['142.250.207.36'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,8.8.8.8,A,"['64.233.188.102', '64.233.188.139', '64.233.188.138', '64.233.188.101', '64.233.188.100', '64.233.188.113']",,
+2024-11-14T17:05:31.828347,adtdp.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adtdp.com on server: 208.67.220.222
+2024-11-14T17:05:31.828347,adtng.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtng.com on server: 2400:da00::6666
+2024-11-14T17:05:31.828347,adthrive.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.828347,adtarget.com.tr,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 210.21.196.6
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,8.8.4.4,A,"['64.233.188.100', '64.233.188.102', '64.233.188.138', '64.233.188.113', '64.233.188.139', '64.233.188.101']",,
+2024-11-14T17:05:31.828347,adtdp.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.828347,adtrafficquality.google,8.8.8.8,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.828347,adukwai.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:fe::fe
+2024-11-14T17:05:31.828347,adsco.re,218.30.118.6,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adtdp.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adtdp.com on server: 114.114.115.115
+2024-11-14T17:05:31.828347,adtrafficquality.google,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.828347,adthrive.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.828347,adtarget.com.tr,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 202.96.128.86
+2024-11-14T17:05:31.828347,adukwai.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:fe::10
+2024-11-14T17:05:31.828347,adtrafficquality.google,114.114.115.115,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.828347,adukwai.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:119:35::35
+2024-11-14T17:05:31.828347,adtng.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: adtng.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.828347,adtdp.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adtdp.com on server: 114.114.114.114
+2024-11-14T17:05:31.828347,adtrafficquality.google,208.67.222.220,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.828347,adukwai.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.828347,adtrafficquality.google,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 9.9.9.9
+2024-11-14T17:05:31.828347,adtdp.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adtdp.com on server: 195.208.4.1
+2024-11-14T17:05:31.828347,adthrive.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:119:35::35
+2024-11-14T17:05:31.828347,adukwai.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.828347,adsco.re,123.125.81.6,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 9.9.9.9
+2024-11-14T17:05:31.828347,adtdp.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 202.96.128.86
+2024-11-14T17:05:31.828347,adthrive.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2620:fe::10
+2024-11-14T17:05:31.828347,adsco.re,101.226.4.6,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adtdp.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adtdp.com on server: 62.76.62.76
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,62.76.62.76,A,"['142.250.114.101', '142.250.114.102', '142.250.114.113', '142.250.114.100', '142.250.114.139', '142.250.114.138']",,
+2024-11-14T17:05:31.828347,adtdp.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adtdp.com on server: 195.208.5.1
+2024-11-14T17:05:31.828347,adthrive.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.828347,adukwai.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,195.208.4.1,A,['216.58.210.142'],,
+2024-11-14T17:05:31.828347,adtdp.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adtdp.com on server: 77.88.8.1
+2024-11-14T17:05:31.828347,adtrafficquality.google,208.67.222.222,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adthrive.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.828347,adukwai.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.828347,adtng.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtng.com on server: 101.226.4.7
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,62.76.76.62,A,"['64.233.162.139', '64.233.162.138', '64.233.162.102', '64.233.162.101', '64.233.162.113', '64.233.162.100']",,
+2024-11-14T17:05:31.828347,adtrafficquality.google,208.67.220.220,A,['142.250.198.68'],,
+2024-11-14T17:05:31.828347,adtdp.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adtdp.com on server: 62.76.76.62
+2024-11-14T17:05:31.828347,adukwai.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2400:3200::1
+2024-11-14T17:05:31.828347,adukwai.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adukwai.com on server: 2400:da00::6666
+2024-11-14T17:05:31.828347,adtdp.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adtdp.com on server: 2.56.220.2
+2024-11-14T17:05:31.828347,adthrive.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.828347,adukwai.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2402:4e00::
+2024-11-14T17:05:31.828347,adsco.re,211.136.17.107,A,['162.252.214.5'],,
+2024-11-14T17:05:31.828347,adtdp.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adtdp.com on server: 77.88.8.8
+2024-11-14T17:05:31.828347,adtrafficquality.google,195.208.4.1,A,['216.58.209.164'],,
+2024-11-14T17:05:31.828347,adsco.re,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adsco.re on server: 202.96.128.86
+2024-11-14T17:05:31.828347,adtelligent.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2402:4e00::
+2024-11-14T17:05:31.828347,adsco.re,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T17:05:31.828347,adtdp.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adtdp.com on server: 1.0.0.1
+2024-11-14T17:05:31.828347,adtrafficquality.google,195.208.5.1,A,"['173.194.222.104', '173.194.222.103', '173.194.222.106', '173.194.222.105', '173.194.222.99', '173.194.222.147']",,
+2024-11-14T17:05:31.828347,adsco.re,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adsco.re on server: 123.125.81.7
+2024-11-14T17:05:31.828347,adukwai.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,2.56.220.2,A,"['64.233.188.139', '64.233.188.113', '64.233.188.101', '64.233.188.138', '64.233.188.102', '64.233.188.100']",,
+2024-11-14T17:05:31.828347,adtdp.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adtdp.com on server: 95.85.95.85
+2024-11-14T17:05:31.828347,adthrive.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.828347,adtrafficquality.google,62.76.76.62,A,"['74.125.131.103', '74.125.131.104', '74.125.131.147', '74.125.131.99', '74.125.131.106', '74.125.131.105']",,
+2024-11-14T17:05:31.828347,adtdp.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adtdp.com on server: 8.8.4.4
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,77.88.8.8,A,['142.250.74.110'],,
+2024-11-14T17:05:31.828347,adthrive.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adthrive.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.828347,adtrafficquality.google,62.76.62.76,A,['142.250.185.196'],,
+2024-11-14T17:05:31.828347,adsco.re,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adsco.re on server: 101.226.4.7
+2024-11-14T17:05:31.828347,adukwai.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.828347,adtdp.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adtdp.com on server: 1.1.1.1
+2024-11-14T17:05:31.828347,adtelligent.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2400:3200::1
+2024-11-14T17:05:31.828347,adukwai.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,95.85.95.85,A,"['64.233.188.113', '64.233.188.100', '64.233.188.139', '64.233.188.102', '64.233.188.101', '64.233.188.138']",,
+2024-11-14T17:05:31.828347,adtrafficquality.google,77.88.8.8,A,['142.250.74.164'],,
+2024-11-14T17:05:31.828347,adtelligent.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.828347,adsensecustomsearchads.com,1.0.0.1,A,['142.250.188.238'],,
+2024-11-14T17:05:31.828347,adtrafficquality.google,77.88.8.1,A,['142.250.74.100'],,
+2024-11-14T17:05:31.828347,adtdp.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adtdp.com on server: 8.8.8.8
+2024-11-14T17:05:31.828347,adtelligent.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adtelligent.com on server: 2a10:50c0::ad2:ff
+2024-11-14T17:05:31.829347,adtrafficquality.google,2.56.220.2,A,['142.250.198.68'],,
+2024-11-14T17:05:31.829347,adtarget.com.tr,1.0.0.1,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.829347,adscale.de,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.829347,adsrvr.org,2620:0:ccd::2,AAAA,"['2600:9000:21b4:6600:12:e08a:be80:93a1', '2600:9000:21b4:a200:12:e08a:be80:93a1', '2600:9000:21b4:b800:12:e08a:be80:93a1', '2600:9000:21b4:bc00:12:e08a:be80:93a1', '2600:9000:21b4:c800:12:e08a:be80:93a1', '2600:9000:21b4:de00:12:e08a:be80:93a1', '2600:9000:21b4:600:12:e08a:be80:93a1', '2600:9000:21b4:3000:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2001:6d0:d6::2001,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adtidy.org,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3122:e000::9', '2a06:98c1:3123:e000::9']",,
+2024-11-14T17:05:31.829347,adtelligent.com,123.125.81.6,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adtarget.com.tr,8.8.4.4,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.829347,adthrive.com,195.208.5.1,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adsco.re,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2620:fe::fe
+2024-11-14T17:05:31.829347,adtarget.com.tr,2606:4700:4700::1001,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adsrvr.org,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.829347,adtarget.com.tr,1.1.1.1,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adtidy.org,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T17:05:31.829347,adtelligent.com,117.50.11.11,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adswizz.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.829347,adscale.de,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.829347,adtarget.com.tr,2a03:90c0:999d::1,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adtidy.org,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T17:05:31.829347,adtdp.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adtdp.com on server: 9.9.9.9
+2024-11-14T17:05:31.829347,adtng.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtng.com on server: 123.125.81.7
+2024-11-14T17:05:31.829347,adsco.re,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.829347,adswizz.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.829347,adtarget.com.tr,8.8.8.8,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adthrive.com,208.67.220.220,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.829347,adtidy.org,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T17:05:31.829347,adswizz.com,223.5.5.5,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adukwai.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.829347,adsco.re,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.829347,adtelligent.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 2400:da00::6666
+2024-11-14T17:05:31.829347,adsco.re,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adsco.re on server: 210.21.196.6
+2024-11-14T17:05:31.829347,adswizz.com,223.6.6.6,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adtidy.org,2606:4700:4700::1001,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adthrive.com,208.67.222.222,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adswizz.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.829347,adsrvr.org,2620:119:53::53,AAAA,"['2600:9000:21b4:c800:12:e08a:be80:93a1', '2600:9000:21b4:de00:12:e08a:be80:93a1', '2600:9000:21b4:600:12:e08a:be80:93a1', '2600:9000:21b4:3000:12:e08a:be80:93a1', '2600:9000:21b4:6600:12:e08a:be80:93a1', '2600:9000:21b4:a200:12:e08a:be80:93a1', '2600:9000:21b4:b800:12:e08a:be80:93a1', '2600:9000:21b4:bc00:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adsco.re,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.829347,adtidy.org,2a03:90c0:999d::1,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adswizz.com,101.226.4.6,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adsrvr.org,2620:0:ccc::2,AAAA,"['2600:9000:21b4:6600:12:e08a:be80:93a1', '2600:9000:21b4:a200:12:e08a:be80:93a1', '2600:9000:21b4:b800:12:e08a:be80:93a1', '2600:9000:21b4:bc00:12:e08a:be80:93a1', '2600:9000:21b4:c800:12:e08a:be80:93a1', '2600:9000:21b4:de00:12:e08a:be80:93a1', '2600:9000:21b4:600:12:e08a:be80:93a1', '2600:9000:21b4:3000:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adsco.re,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.829347,adthrive.com,77.88.8.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.829347,adtidy.org,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-14T17:05:31.829347,adsco.re,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.829347,adswizz.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.829347,adtarget.com.tr,2a0c:a9c7:9::1,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adtidy.org,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3122:e000::b', '2a06:98c1:3123:e000::b']",,
+2024-11-14T17:05:31.829347,adswizz.com,114.114.114.114,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adthrive.com,77.88.8.8,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adscale.de,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:0:ccc::2
+2024-11-14T17:05:31.829347,adswizz.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.829347,adtidy.org,2001:4860:4860::8844,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adswizz.com,114.114.115.115,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adthrive.com,62.76.76.62,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adscale.de,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adtidy.org,2606:4700:4700::1111,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adswizz.com,117.50.11.11,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adthrive.com,95.85.95.85,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.829347,adthrive.com,9.9.9.10,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adsco.re,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.829347,adsrvr.org,2620:fe::fe,AAAA,"['2600:9000:24bb:2a00:12:e08a:be80:93a1', '2600:9000:24bb:4c00:12:e08a:be80:93a1', '2600:9000:24bb:f200:12:e08a:be80:93a1', '2600:9000:24bb:1200:12:e08a:be80:93a1', '2600:9000:24bb:4000:12:e08a:be80:93a1', '2600:9000:24bb:e00:12:e08a:be80:93a1', '2600:9000:24bb:c200:12:e08a:be80:93a1', '2600:9000:24bb:c400:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adswizz.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a10:50c0::ad2:ff
+2024-11-14T17:05:31.829347,adswizz.com,123.125.81.6,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adthrive.com,2.56.220.2,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 101.226.4.7
+2024-11-14T17:05:31.829347,adswizz.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.829347,adtarget.com.tr,2606:4700:4700::1111,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adtidy.org,2620:119:53::53,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adtelligent.com,211.136.17.107,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adscale.de,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:119:35::35
+2024-11-14T17:05:31.829347,adsrvr.org,2620:119:35::35,AAAA,"['2600:9000:21b4:bc00:12:e08a:be80:93a1', '2600:9000:21b4:c800:12:e08a:be80:93a1', '2600:9000:21b4:de00:12:e08a:be80:93a1', '2600:9000:21b4:600:12:e08a:be80:93a1', '2600:9000:21b4:3000:12:e08a:be80:93a1', '2600:9000:21b4:6600:12:e08a:be80:93a1', '2600:9000:21b4:a200:12:e08a:be80:93a1', '2600:9000:21b4:b800:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adswizz.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adswizz.com on server: 101.226.4.7
+2024-11-14T17:05:31.829347,adswizz.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:fe::10
+2024-11-14T17:05:31.829347,adtidy.org,2620:fe::fe,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,195.208.4.1,A,"['188.114.97.1', '188.114.96.1']",,
+2024-11-14T17:05:31.829347,adscale.de,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:119:53::53
+2024-11-14T17:05:31.829347,adthrive.com,195.208.4.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2a03:90c0:9992::1,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adswizz.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.829347,adthrive.com,1.0.0.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,62.76.76.62,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2001:4860:4860::8888,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.829347,adsco.re,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.829347,adtidy.org,2a03:90c0:9992::1,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adsco.re,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.829347,adtarget.com.tr,62.76.62.76,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T17:05:31.829347,adsrvr.org,2620:fe::10,AAAA,"['2600:9000:2201:9200:12:e08a:be80:93a1', '2600:9000:2201:ea00:12:e08a:be80:93a1', '2600:9000:2201:ae00:12:e08a:be80:93a1', '2600:9000:2201:ba00:12:e08a:be80:93a1', '2600:9000:2201:a000:12:e08a:be80:93a1', '2600:9000:2201:8a00:12:e08a:be80:93a1', '2600:9000:2201:1c00:12:e08a:be80:93a1', '2600:9000:2201:1400:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adswizz.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:fe::fe
+2024-11-14T17:05:31.829347,adtelligent.com,218.30.118.6,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adscale.de,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:fe::fe
+2024-11-14T17:05:31.829347,adtarget.com.tr,2.56.220.2,A,"['104.21.51.228', '172.67.190.158']",,
+2024-11-14T17:05:31.829347,adswizz.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:119:35::35
+2024-11-14T17:05:31.829347,adswizz.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.829347,adtidy.org,2620:fe::10,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adthrive.com,62.76.62.76,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,77.88.8.1,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adsrvr.org,2400:3200::1,AAAA,"['2600:9000:21d1:2000:12:e08a:be80:93a1', '2600:9000:21d1:bc00:12:e08a:be80:93a1', '2600:9000:21d1:1200:12:e08a:be80:93a1', '2600:9000:21d1:c200:12:e08a:be80:93a1', '2600:9000:21d1:6200:12:e08a:be80:93a1', '2600:9000:21d1:5c00:12:e08a:be80:93a1', '2600:9000:21d1:e400:12:e08a:be80:93a1', '2600:9000:21d1:1400:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adscale.de,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:fe::10
+2024-11-14T17:05:31.829347,adtidy.org,2400:3200::1,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adtarget.com.tr,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3120::1', '2a06:98c1:3121::1']",,
+2024-11-14T17:05:31.829347,adtelligent.com,180.76.76.76,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adtarget.com.tr,95.85.95.85,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adswizz.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.829347,adtidy.org,2620:119:35::35,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.829347,adscale.de,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.829347,adtarget.com.tr,77.88.8.8,A,"['172.67.190.158', '104.21.51.228']",,
+2024-11-14T17:05:31.829347,adscale.de,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.829347,adswizz.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.829347,adswizz.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a10:50c0::ad1:ff
+2024-11-14T17:05:31.829347,adtidy.org,2a10:50c0::ad2:ff,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adswizz.com,211.136.17.107,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adsrvr.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adsrvr.org on server: 2400:da00::6666
+2024-11-14T17:05:31.829347,adtelligent.com,119.29.29.29,A,['34.203.112.31'],,
+2024-11-14T17:05:31.829347,adsco.re,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.829347,adthrive.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adthrive.com on server: 9.9.9.9
+2024-11-14T17:05:31.829347,adtarget.com.tr,2001:4860:4860::8844,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.829347,adswizz.com,208.67.220.222,A,['3.251.41.252'],,
+2024-11-14T17:05:31.829347,adswizz.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.829347,adsco.re,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.829347,adsrvr.org,2a0c:a9c7:9::1,AAAA,"['2600:9000:20a0:2600:12:e08a:be80:93a1', '2600:9000:20a0:a800:12:e08a:be80:93a1', '2600:9000:20a0:fa00:12:e08a:be80:93a1', '2600:9000:20a0:ca00:12:e08a:be80:93a1', '2600:9000:20a0:1c00:12:e08a:be80:93a1', '2600:9000:20a0:c800:12:e08a:be80:93a1', '2600:9000:20a0:2400:12:e08a:be80:93a1', '2600:9000:20a0:ac00:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.829347,adswizz.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2400:3200::1
+2024-11-14T17:05:31.829347,adtidy.org,2001:4860:4860::8888,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.829347,adswizz.com,218.30.118.6,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adthrive.com,8.8.8.8,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T17:05:31.830348,adsco.re,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.830348,adsrvr.org,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.830348,adtarget.com.tr,2a0c:a9c7:8::1,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.830348,adswizz.com,208.67.222.220,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adthrive.com,1.1.1.1,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.830348,adswizz.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adswizz.com on server: 2400:da00::6666
+2024-11-14T17:05:31.830348,adswizz.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2402:4e00::
+2024-11-14T17:05:31.830348,adswizz.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adswizz.com on server: 123.125.81.7
+2024-11-14T17:05:31.830348,adtelligent.com,223.5.5.5,A,['34.203.112.31'],,
+2024-11-14T17:05:31.830348,adscale.de,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2402:4e00::
+2024-11-14T17:05:31.830348,adsco.re,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adsco.re on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.830348,adswizz.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:119:53::53
+2024-11-14T17:05:31.830348,adtidy.org,2402:4e00::,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.830348,adtidy.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtidy.org on server: 2400:da00::6666
+2024-11-14T17:05:31.830348,adtelligent.com,223.6.6.6,A,['34.203.112.31'],,
+2024-11-14T17:05:31.830348,adscale.de,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.830348,adsrvr.org,2400:3200:baba::1,AAAA,"['2600:9000:21d1:a00:12:e08a:be80:93a1', '2600:9000:21d1:200:12:e08a:be80:93a1', '2600:9000:21d1:7600:12:e08a:be80:93a1', '2600:9000:21d1:a800:12:e08a:be80:93a1', '2600:9000:21d1:6000:12:e08a:be80:93a1', '2600:9000:21d1:4a00:12:e08a:be80:93a1', '2600:9000:21d1:4400:12:e08a:be80:93a1', '2600:9000:21d1:8e00:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.830348,adswizz.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.830348,adtng.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adtng.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.830348,adswizz.com,119.29.29.29,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adtelligent.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 210.21.196.6
+2024-11-14T17:05:31.830348,adscale.de,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2400:3200::1
+2024-11-14T17:05:31.830348,adsrvr.org,2402:4e00::,AAAA,"['2600:9000:21d1:9200:12:e08a:be80:93a1', '2600:9000:21d1:5e00:12:e08a:be80:93a1', '2600:9000:21d1:a800:12:e08a:be80:93a1', '2600:9000:21d1:c00:12:e08a:be80:93a1', '2600:9000:21d1:d400:12:e08a:be80:93a1', '2600:9000:21d1:5c00:12:e08a:be80:93a1', '2600:9000:21d1:6000:12:e08a:be80:93a1', '2600:9000:21d1:9600:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.830348,adswizz.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.830348,adtidy.org,2620:0:ccd::2,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.830348,adswizz.com,180.76.76.76,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adthrive.com,8.8.4.4,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T17:05:31.830348,adscale.de,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2400:3200:baba::1
+2024-11-14T17:05:31.830348,adsrvr.org,2001:6d0:6d0::2001,AAAA,"['2600:9000:20a0:5400:12:e08a:be80:93a1', '2600:9000:20a0:7600:12:e08a:be80:93a1', '2600:9000:20a0:200:12:e08a:be80:93a1', '2600:9000:20a0:8800:12:e08a:be80:93a1', '2600:9000:20a0:b000:12:e08a:be80:93a1', '2600:9000:20a0:800:12:e08a:be80:93a1', '2600:9000:20a0:1400:12:e08a:be80:93a1', '2600:9000:20a0:e200:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.830348,adtarget.com.tr,2620:fe::fe,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.830348,adtidy.org,2400:3200:baba::1,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.830348,adswizz.com,94.140.14.14,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adtelligent.com,101.226.4.6,A,['34.203.112.31'],,
+2024-11-14T17:05:31.830348,adscale.de,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2620:0:ccd::2
+2024-11-14T17:05:31.830348,adthrive.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adthrive.com on server: 2400:da00::6666
+2024-11-14T17:05:31.830348,adtelligent.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 202.96.128.86
+2024-11-14T17:05:31.830348,adtidy.org,2620:0:ccc::2,AAAA,"['2606:4700::6812:1839', '2606:4700::6812:1939']",,
+2024-11-14T17:05:31.830348,adsrvr.org,2001:6d0:d6::2001,AAAA,"['2600:9000:21d1:6000:12:e08a:be80:93a1', '2600:9000:21d1:4a00:12:e08a:be80:93a1', '2600:9000:21d1:a800:12:e08a:be80:93a1', '2600:9000:21d1:200:12:e08a:be80:93a1', '2600:9000:21d1:a00:12:e08a:be80:93a1', '2600:9000:21d1:7600:12:e08a:be80:93a1', '2600:9000:21d1:8e00:12:e08a:be80:93a1', '2600:9000:21d1:4400:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.830348,adswizz.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.830348,adswizz.com,94.140.15.15,A,['3.251.41.252'],,
+2024-11-14T17:05:31.830348,adscale.de,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adscale.de on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.830348,adsrvr.org,2a02:6b8:0:1::feed:0ff,AAAA,"['2600:9000:2368:b400:12:e08a:be80:93a1', '2600:9000:2368:2800:12:e08a:be80:93a1', '2600:9000:2368:600:12:e08a:be80:93a1', '2600:9000:2368:e400:12:e08a:be80:93a1', '2600:9000:2368:5a00:12:e08a:be80:93a1', '2600:9000:2368:1c00:12:e08a:be80:93a1', '2600:9000:2368:9e00:12:e08a:be80:93a1', '2600:9000:2368:2200:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.830348,adtidy.org,2a10:50c0::ad1:ff,AAAA,"['2606:4700::6812:1939', '2606:4700::6812:1839']",,
+2024-11-14T17:05:31.830348,adswizz.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adswizz.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.830348,adsensecustomsearchads.com,211.136.17.107,A,"['74.125.23.138', '74.125.23.102', '74.125.23.101', '74.125.23.113', '74.125.23.139', '74.125.23.100']",,
+2024-11-14T17:05:31.830348,adsmoloco.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.830348,adtarget.com.tr,2400:3200:baba::1,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.830348,adukwai.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.830348,adserv.ai,95.85.95.85,A,['62.84.121.105'],,
+2024-11-14T17:05:31.830348,adtarget.com.tr,2620:0:ccc::2,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.830348,adsmoloco.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.830348,adukwai.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.830348,adscale.de,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adscale.de on server: 2400:da00::6666
+2024-11-14T17:05:31.830348,adtarget.com.tr,2400:3200::1,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.830348,adserv.ai,2.56.220.2,A,['62.84.121.105'],,
+2024-11-14T17:05:31.830348,adsmoloco.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2400:3200:baba::1
+2024-11-14T17:05:31.830348,adsmoloco.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.830348,adukwai.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.830348,adserv.ai,1.0.0.1,A,['62.84.121.105'],,
+2024-11-14T17:05:31.830348,adtdp.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2606:4700:4700::1001
+2024-11-14T17:05:31.830348,adsensecustomsearchads.com,117.50.11.11,A,"['74.125.23.100', '74.125.23.102', '74.125.23.138', '74.125.23.113', '74.125.23.101', '74.125.23.139']",,
+2024-11-14T17:05:31.830348,adsmoloco.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.830348,adtdp.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:119:53::53
+2024-11-14T17:05:31.830348,adsmoloco.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2402:4e00::
+2024-11-14T17:05:31.830348,adukwai.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.830348,adsmoloco.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2400:3200::1
+2024-11-14T17:05:31.830348,adtarget.com.tr,2620:fe::10,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.830348,adtrafficquality.google,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adtrafficquality.google on server: 2400:3200:baba::1
+2024-11-14T17:05:31.830348,adsensecustomsearchads.com,218.30.118.6,A,"['108.177.125.102', '108.177.125.101', '108.177.125.138', '108.177.125.139', '108.177.125.113', '108.177.125.100']",,
+2024-11-14T17:05:31.830348,adsmoloco.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.830348,adtdp.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.830348,adtrafficquality.google,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adtrafficquality.google on server: 2402:4e00::
+2024-11-14T17:05:31.830348,adsrvr.org,2a0c:a9c7:8::1,AAAA,"['2600:9000:2368:9e00:12:e08a:be80:93a1', '2600:9000:2368:5a00:12:e08a:be80:93a1', '2600:9000:2368:2800:12:e08a:be80:93a1', '2600:9000:2368:b400:12:e08a:be80:93a1', '2600:9000:2368:e400:12:e08a:be80:93a1', '2600:9000:2368:600:12:e08a:be80:93a1', '2600:9000:2368:1c00:12:e08a:be80:93a1', '2600:9000:2368:2200:12:e08a:be80:93a1']",,
+2024-11-14T17:05:31.831315,adsmoloco.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.831315,adtarget.com.tr,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T17:05:31.831315,adserv.ai,195.208.5.1,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adswizz.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adswizz.com on server: 202.96.128.86
+2024-11-14T17:05:31.831315,adtdp.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.831315,adtrafficquality.google,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adtrafficquality.google on server: 2400:3200::1
+2024-11-14T17:05:31.831315,adswizz.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adswizz.com on server: 210.21.196.6
+2024-11-14T17:05:31.831315,adtarget.com.tr,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a03:90c0:9992::1,AAAA,['2404:6800:4012:7::2004'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,180.76.76.76,A,"['64.233.189.138', '64.233.189.139', '64.233.189.100', '64.233.189.101', '64.233.189.102', '64.233.189.113']",,
+2024-11-14T17:05:31.831315,adsmoloco.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.831315,adukwai.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.831315,adtelligent.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 101.226.4.7
+2024-11-14T17:05:31.831315,adtelligent.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adtelligent.com on server: 123.125.81.7
+2024-11-14T17:05:31.831315,adtrafficquality.google,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtrafficquality.google on server: 2400:da00::6666
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a03:90c0:999d::1,AAAA,['2404:6800:4012:7::2004'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,223.6.6.6,A,"['108.177.97.139', '108.177.97.113', '108.177.97.102', '108.177.97.138', '108.177.97.101', '108.177.97.100']",,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 210.21.196.6
+2024-11-14T17:05:31.831315,adtdp.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.831315,adukwai.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adukwai.com on server: 2a03:90c0:999d::1
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,119.29.29.29,A,"['64.233.188.139', '64.233.188.101', '64.233.188.138', '64.233.188.102', '64.233.188.100', '64.233.188.113']",,
+2024-11-14T17:05:31.831315,adsmoloco.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.831315,adtdp.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2001:4860:4860::8888
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 123.125.81.7
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a02:6b8::feed:0ff,AAAA,['2a00:1450:400f:803::2004'],,
+2024-11-14T17:05:31.831315,adserv.ai,77.88.8.1,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adspower.net,2606:4700:4700::1111,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.831315,adtdp.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2001:6d0:d6::2001
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a02:6b8:0:1::feed:0ff,AAAA,['2a00:1450:400f:801::2004'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.831315,adserv.ai,195.208.4.1,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2001:6d0:d6::2001,AAAA,"['2a00:1450:4010:c03::6a', '2a00:1450:4010:c03::69', '2a00:1450:4010:c03::68', '2a00:1450:4010:c03::63']",,
+2024-11-14T17:05:31.831315,adtdp.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.831315,adspower.net,2001:4860:4860::8844,AAAA,"['2406:da18:d70:4201:20ee:22e9:8627:dd57', '2406:da18:d70:4200:b24e:d791:d453:81d9']",,
+2024-11-14T17:05:31.831315,adserv.ai,62.76.76.62,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a0c:a9c7:8::1,AAAA,['2a00:1450:4026:803::2004'],,
+2024-11-14T17:05:31.831315,adspower.net,2001:4860:4860::8888,AAAA,"['2406:da18:d70:4200:b24e:d791:d453:81d9', '2406:da18:d70:4201:20ee:22e9:8627:dd57']",,
+2024-11-14T17:05:31.831315,adtarget.com.tr,2620:119:53::53,AAAA,"['2606:4700:3032::6815:33e4', '2606:4700:3035::ac43:be9e']",,
+2024-11-14T17:05:31.831315,adserv.ai,62.76.62.76,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:0:ccc::2,AAAA,['2404:6800:4012:8::2004'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,114.114.114.114,A,"['142.250.157.101', '142.250.157.113', '142.250.157.138']",,
+2024-11-14T17:05:31.831315,adtarget.com.tr,2620:0:ccd::2,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:0:ccd::2,AAAA,['2404:6800:4012:8::2004'],,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2001:6d0:6d0::2001,AAAA,['2a00:1450:4001:806::2004'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,114.114.115.115,A,"['142.250.157.113', '142.250.157.138', '142.250.157.102']",,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:0:ccd::2
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,223.5.5.5,A,['142.250.196.206'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T17:05:31.831315,adtdp.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2001:6d0:6d0::2001
+2024-11-14T17:05:31.831315,adtdp.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:119:35::35
+2024-11-14T17:05:31.831315,adtrafficquality.google,2606:4700:4700::1111,AAAA,['2607:f8b0:4007:819::2004'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:119:53::53
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,101.226.4.6,A,"['108.177.125.139', '108.177.125.100', '108.177.125.101', '108.177.125.138', '108.177.125.113', '108.177.125.102']",,
+2024-11-14T17:05:31.831315,adtarget.com.tr,2402:4e00::,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2606:4700:4700::1001,AAAA,['2607:f8b0:4007:809::2004'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:0:ccc::2
+2024-11-14T17:05:31.831315,adtarget.com.tr,2620:119:35::35,AAAA,"['2606:4700:3035::ac43:be9e', '2606:4700:3032::6815:33e4']",,
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:119:53::53,AAAA,['2404:6800:4012:8::2004'],,
+2024-11-14T17:05:31.831315,adserv.ai,77.88.8.8,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:fe::10
+2024-11-14T17:05:31.831315,adtdp.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a02:6b8::feed:0ff
+2024-11-14T17:05:31.831315,adserv.ai,1.1.1.1,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:119:35::35
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,123.125.81.6,A,"['108.177.97.138', '108.177.97.101', '108.177.97.102', '108.177.97.113', '108.177.97.100', '108.177.97.139']",,
+2024-11-14T17:05:31.831315,adtdp.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:fe::10,AAAA,['2607:f8b0:4007:80a::2004'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a0c:a9c7:9::1
+2024-11-14T17:05:31.831315,adtdp.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a0c:a9c7:8::1
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:119:35::35,AAAA,['2404:6800:4012:8::2004'],,
+2024-11-14T17:05:31.831315,adserv.ai,8.8.8.8,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2620:fe::fe
+2024-11-14T17:05:31.831315,adtdp.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:fe::10
+2024-11-14T17:05:31.831315,adtrafficquality.google,2a0c:a9c7:9::1,AAAA,"['2a00:1450:4010:c03::68', '2a00:1450:4010:c03::67', '2a00:1450:4010:c03::63', '2a00:1450:4010:c03::69']",,
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T17:05:31.831315,adsmoloco.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2001:4860:4860::8844
+2024-11-14T17:05:31.831315,adtdp.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2620:fe::fe
+2024-11-14T17:05:31.831315,adtrafficquality.google,2620:fe::fe,AAAA,['2607:f8b0:4007:803::2004'],,
+2024-11-14T17:05:31.831315,adserv.ai,8.8.4.4,A,['62.84.121.105'],,
+2024-11-14T17:05:31.831315,adserv.ai,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adserv.ai on server: 2400:da00::6666
+2024-11-14T17:05:31.831315,adsmoloco.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2606:4700:4700::1111
+2024-11-14T17:05:31.831315,adtrafficquality.google,2001:4860:4860::8844,AAAA,['2404:6800:4012:7::2004'],,
+2024-11-14T17:05:31.831315,adtdp.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adtdp.com on server: 2a03:90c0:9992::1
+2024-11-14T17:05:31.831315,adserv.ai,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adserv.ai on server: 9.9.9.9
+2024-11-14T17:05:31.831315,adsmoloco.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adsmoloco.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 202.96.128.86
+2024-11-14T17:05:31.831315,adtarget.com.tr,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adtarget.com.tr on server: 2400:da00::6666
+2024-11-14T17:05:31.831315,adsmoloco.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adsmoloco.com on server: 2400:da00::6666
+2024-11-14T17:05:31.831315,adsensecustomsearchads.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adsensecustomsearchads.com on server: 101.226.4.7

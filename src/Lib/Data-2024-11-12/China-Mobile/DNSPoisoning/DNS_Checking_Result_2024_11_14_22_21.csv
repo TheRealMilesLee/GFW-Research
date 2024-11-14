@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T22:21:27.621829,audiomack.com,195.208.4.1,A,['174.36.196.242'],,
+2024-11-14T22:21:27.621829,attentivemobile.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:fe::10
+2024-11-14T22:21:27.621829,auctollo.com,208.67.220.220,A,['107.180.56.148'],,
+2024-11-14T22:21:27.621829,augipt.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:fe::10
+2024-11-14T22:21:27.621829,attentivemobile.com,195.208.5.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.621829,auchan.fr,101.226.4.6,A,['35.205.78.162'],,
+2024-11-14T22:21:27.621829,auchan.fr,94.140.15.15,A,['35.205.78.162'],,
+2024-11-14T22:21:27.621829,augipt.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:119:35::35
+2024-11-14T22:21:27.621829,auerproxy.de,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:0:ccc::2
+2024-11-14T22:21:27.621829,audacy.com,2620:0:ccd::2,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.621829,auctollo.com,208.67.222.222,A,['107.180.56.148'],,
+2024-11-14T22:21:27.621829,audrte.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.621829,auctollo.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.621829,audiomack.com,180.76.76.76,A,['108.160.166.42'],,
+2024-11-14T22:21:27.621829,attentivemobile.com,195.208.4.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.621829,attentivemobile.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.621829,audrte.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2402:4e00::
+2024-11-14T22:21:27.621829,auerproxy.de,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:fe::fe
+2024-11-14T22:21:27.622825,augipt.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.622825,attdns.com,211.136.17.107,A,[],NoAnswer,No answer for domain: attdns.com on server: 211.136.17.107
+2024-11-14T22:21:27.622825,auchan.fr,223.5.5.5,A,['35.205.78.162'],,
+2024-11-14T22:21:27.622825,audacy.com,2001:6d0:6d0::2001,AAAA,['2a03:2880:f12a:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.622825,attentivemobile.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:fe::fe
+2024-11-14T22:21:27.622825,augipt.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.622825,attentivemobile.com,208.67.222.220,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.622825,auchan.fr,114.114.114.114,A,['35.205.78.162'],,
+2024-11-14T22:21:27.622825,auchan.fr,114.114.115.115,A,['35.205.78.162'],,
+2024-11-14T22:21:27.622825,audiomack.com,218.30.118.6,A,['80.87.199.46'],,
+2024-11-14T22:21:27.622825,attdns.com,123.125.81.6,A,[],NoAnswer,No answer for domain: attdns.com on server: 123.125.81.6
+2024-11-14T22:21:27.622825,audacy.com,2402:4e00::,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.622825,auerproxy.de,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.622825,augipt.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.622825,auchan.fr,117.50.11.11,A,['35.205.78.162'],,
+2024-11-14T22:21:27.622825,audiomack.com,223.5.5.5,A,['179.60.193.9'],,
+2024-11-14T22:21:27.622825,attentivemobile.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.622825,audacy.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T22:21:27.622825,attentivemobile.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.622825,augipt.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.622825,attentivemobile.com,94.140.14.14,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.622825,auchan.fr,123.125.81.6,A,['35.205.78.162'],,
+2024-11-14T22:21:27.622825,audiomack.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 202.96.128.86
+2024-11-14T22:21:27.622825,audiomack.com,223.6.6.6,A,['202.160.128.195'],,
+2024-11-14T22:21:27.622825,audacy.com,2400:3200:baba::1,AAAA,['2a03:2880:f11b:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.622825,audrte.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:119:53::53
+2024-11-14T22:21:27.622825,attentivemobile.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 9.9.9.9
+2024-11-14T22:21:27.622825,augipt.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:119:53::53
+2024-11-14T22:21:27.622825,audiomack.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 210.21.196.6
+2024-11-14T22:21:27.622825,audiomack.com,119.29.29.29,A,['104.244.43.234'],,
+2024-11-14T22:21:27.622825,attentivemobile.com,62.76.76.62,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.622825,audacy.com,2a03:90c0:9992::1,AAAA,['2001::c710:9c4b'],,
+2024-11-14T22:21:27.622825,auchan.fr,101.226.4.7,A,[],Timeout,Timeout occurred for domain: auchan.fr on server: 101.226.4.7
+2024-11-14T22:21:27.622825,auchan.fr,218.30.118.6,A,['35.205.78.162'],,
+2024-11-14T22:21:27.623850,augipt.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.623850,auerproxy.de,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.623850,audacy.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: audacy.com on server: 2400:da00::6666
+2024-11-14T22:21:27.623850,audiomack.com,114.114.115.115,A,['157.240.20.8'],,
+2024-11-14T22:21:27.623850,audacy.com,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.623850,audrte.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.623850,auchan.fr,211.136.17.107,A,['35.205.78.162'],,
+2024-11-14T22:21:27.623850,augipt.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.623850,attentivemobile.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.623850,attheraces.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.623850,audacy.com,2620:0:ccc::2,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.623850,attentivemobile.com,77.88.8.8,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.623850,augipt.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.623850,auerproxy.de,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:0:ccd::2
+2024-11-14T22:21:27.623850,attentivemobile.com,77.88.8.1,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.623850,audiomack.com,114.114.114.114,A,['157.240.20.8'],,
+2024-11-14T22:21:27.623850,attentivemobile.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.623850,audacy.com,2a03:90c0:999d::1,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.623850,augipt.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.623850,attentivemobile.com,208.67.222.222,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.623850,auchan.fr,119.29.29.29,A,['35.205.78.162'],,
+2024-11-14T22:21:27.624862,attentivemobile.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.624862,audacy.com,2001:6d0:d6::2001,AAAA,['2a03:2880:f10a:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.624862,auerproxy.de,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.624862,augipt.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.624862,attentivemobile.com,208.67.220.222,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.624862,auchan.fr,8.8.4.4,A,['35.205.78.162'],,
+2024-11-14T22:21:27.624862,auchan.fr,180.76.76.76,A,['35.205.78.162'],,
+2024-11-14T22:21:27.624862,audiomack.com,94.140.14.14,A,['162.125.34.133'],,
+2024-11-14T22:21:27.624862,attentivemobile.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.624862,audacy.com,2606:4700:4700::1001,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.624862,auerproxy.de,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.624862,auerproxy.de,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.624862,attdns.com,117.50.11.11,A,[],NoAnswer,No answer for domain: attdns.com on server: 117.50.11.11
+2024-11-14T22:21:27.624862,auchan.fr,1.0.0.1,A,['35.205.78.162'],,
+2024-11-14T22:21:27.624862,attentivemobile.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.624862,audiomack.com,94.140.15.15,A,['104.244.46.208'],,
+2024-11-14T22:21:27.624862,attentivemobile.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.624862,audacy.com,2001:4860:4860::8844,AAAA,['2a03:2880:f10d:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.624862,attentivemobile.com,62.76.62.76,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.624862,auerproxy.de,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2400:3200::1
+2024-11-14T22:21:27.624862,attentivemobile.com,9.9.9.10,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.624862,auerproxy.de,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.624862,auctollo.com,9.9.9.10,A,['107.180.56.148'],,
+2024-11-14T22:21:27.624862,auchan.fr,77.88.8.8,A,['35.205.78.162'],,
+2024-11-14T22:21:27.625849,audiomack.com,208.67.222.220,A,['208.31.254.33'],,
+2024-11-14T22:21:27.625849,audacy.com,2606:4700:4700::1111,AAAA,['2a03:2880:f129:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.625849,attheraces.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.625849,auerproxy.de,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.625849,auerproxy.de,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2402:4e00::
+2024-11-14T22:21:27.625849,attentivemobile.com,2.56.220.2,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.625849,auctollo.com,195.208.5.1,A,['107.180.56.148'],,
+2024-11-14T22:21:27.625849,audiomack.com,208.67.220.222,A,['210.209.84.142'],,
+2024-11-14T22:21:27.625849,attheraces.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.625849,audrte.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: audrte.com on server: 2400:da00::6666
+2024-11-14T22:21:27.625849,auerproxy.de,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.625849,attdns.com,101.226.4.6,A,[],NoAnswer,No answer for domain: attdns.com on server: 101.226.4.6
+2024-11-14T22:21:27.625849,attentivemobile.com,2a02:6b8:0:1::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.625849,auchan.fr,223.6.6.6,A,['35.205.78.162'],,
+2024-11-14T22:21:27.625849,auchan.fr,195.208.4.1,A,['35.205.78.162'],,
+2024-11-14T22:21:27.625849,audiomack.com,195.208.5.1,A,['128.242.245.125'],,
+2024-11-14T22:21:27.625849,audacy.com,2001:4860:4860::8888,AAAA,['2001::80f2:f0bd'],,
+2024-11-14T22:21:27.625849,attentivemobile.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2402:4e00::
+2024-11-14T22:21:27.625849,augipt.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2402:4e00::
+2024-11-14T22:21:27.625849,auerproxy.de,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.625849,attentivemobile.com,1.0.0.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.625849,auctollo.com,62.76.62.76,A,['107.180.56.148'],,
+2024-11-14T22:21:27.625849,auchan.fr,77.88.8.1,A,['35.205.78.162'],,
+2024-11-14T22:21:27.625849,auerproxy.de,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.625849,auctollo.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.625849,auchan.fr,202.96.128.86,A,[],Timeout,Timeout occurred for domain: auchan.fr on server: 202.96.128.86
+2024-11-14T22:21:27.625849,auerproxy.de,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2400:3200:baba::1
+2024-11-14T22:21:27.625849,auerproxy.de,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.625849,attentivemobile.com,95.85.95.85,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.625849,auchan.fr,62.76.62.76,A,['35.205.78.162'],,
+2024-11-14T22:21:27.625849,audiomack.com,208.67.220.220,A,['199.96.59.19'],,
+2024-11-14T22:21:27.625849,attentivemobile.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.625849,auctollo.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2402:4e00::
+2024-11-14T22:21:27.625849,auchan.fr,210.21.196.6,A,[],Timeout,Timeout occurred for domain: auchan.fr on server: 210.21.196.6
+2024-11-14T22:21:27.626847,augipt.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2400:3200::1
+2024-11-14T22:21:27.626847,auctollo.com,195.208.4.1,A,['107.180.56.148'],,
+2024-11-14T22:21:27.626847,attentivemobile.com,8.8.4.4,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.626847,auchan.fr,94.140.14.14,A,['35.205.78.162'],,
+2024-11-14T22:21:27.626847,auctollo.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.626847,auerproxy.de,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.626847,auctollo.com,77.88.8.1,A,['107.180.56.148'],,
+2024-11-14T22:21:27.626847,auerproxy.de,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.626847,attentivemobile.com,1.1.1.1,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.626847,auchan.fr,195.208.5.1,A,['35.205.78.162'],,
+2024-11-14T22:21:27.626847,attentivemobile.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2400:3200::1
+2024-11-14T22:21:27.626847,auctollo.com,62.76.76.62,A,['107.180.56.148'],,
+2024-11-14T22:21:27.626847,auctollo.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2400:3200::1
+2024-11-14T22:21:27.626847,augipt.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.626847,auerproxy.de,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.627364,auctollo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: auctollo.com on server: 9.9.9.9
+2024-11-14T22:21:27.627364,auchan.fr,62.76.76.62,A,['35.205.78.162'],,
+2024-11-14T22:21:27.627364,auctollo.com,77.88.8.8,A,['107.180.56.148'],,
+2024-11-14T22:21:27.627364,attentivemobile.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.627364,audacy.com,2620:119:53::53,AAAA,['2a03:2880:f11c:8183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.627364,auerproxy.de,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:fe::10
+2024-11-14T22:21:27.627364,augipt.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.627364,attentivemobile.com,8.8.8.8,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.627364,auchan.fr,208.67.220.222,A,['35.205.78.162'],,
+2024-11-14T22:21:27.627364,auctollo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: auctollo.com on server: 2400:da00::6666
+2024-11-14T22:21:27.627364,audiomack.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 9.9.9.9
+2024-11-14T22:21:27.627364,attentivemobile.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 2400:da00::6666
+2024-11-14T22:21:27.627364,audacy.com,2620:fe::fe,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T22:21:27.627364,auerproxy.de,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:119:53::53
+2024-11-14T22:21:27.627364,augipt.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.627364,attentivemobile.com,208.67.220.220,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.627364,auchan.fr,95.85.95.85,A,['35.205.78.162'],,
+2024-11-14T22:21:27.627364,audiomack.com,101.226.4.6,A,['162.125.18.129'],,
+2024-11-14T22:21:27.627364,attentivemobile.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.627364,audacy.com,2a0c:a9c7:8::1,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.627364,audrte.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:119:35::35
+2024-11-14T22:21:27.627364,audiomack.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 123.125.81.7
+2024-11-14T22:21:27.627364,augipt.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.627364,auchan.fr,9.9.9.10,A,['35.205.78.162'],,
+2024-11-14T22:21:27.627364,attdns.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 101.226.4.7
+2024-11-14T22:21:27.627364,audiomack.com,9.9.9.10,A,['157.240.2.14'],,
+2024-11-14T22:21:27.627364,attentivemobile.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.627364,auchan.fr,9.9.9.9,A,[],Timeout,Timeout occurred for domain: auchan.fr on server: 9.9.9.9
+2024-11-14T22:21:27.627364,audacy.com,2a0c:a9c7:9::1,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T22:21:27.628388,auctollo.com,95.85.95.85,A,['107.180.56.148'],,
+2024-11-14T22:21:27.628388,attentivemobile.com,223.5.5.5,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.628388,auchan.fr,208.67.222.222,A,['35.205.78.162'],,
+2024-11-14T22:21:27.628388,auctollo.com,1.1.1.1,A,['107.180.56.148'],,
+2024-11-14T22:21:27.628388,audiomack.com,208.67.222.222,A,['31.13.67.41'],,
+2024-11-14T22:21:27.628388,augipt.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.628388,audacy.com,2620:119:35::35,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.628388,attentivemobile.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.628388,attentivemobile.com,223.6.6.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.628388,auchan.fr,2.56.220.2,A,['35.205.78.162'],,
+2024-11-14T22:21:27.628388,auctollo.com,1.0.0.1,A,['107.180.56.148'],,
+2024-11-14T22:21:27.628388,audiomack.com,62.76.76.62,A,['199.59.149.235'],,
+2024-11-14T22:21:27.628388,attentivemobile.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.628388,audacy.com,2400:3200::1,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T22:21:27.628388,audrte.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.628388,augipt.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.628388,attentivemobile.com,114.114.114.114,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.628388,auchan.fr,208.67.220.220,A,['35.205.78.162'],,
+2024-11-14T22:21:27.628388,auctollo.com,8.8.8.8,A,['107.180.56.148'],,
+2024-11-14T22:21:27.628388,audiomack.com,62.76.62.76,A,['103.228.130.27'],,
+2024-11-14T22:21:27.628388,attentivemobile.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.628388,audacy.com,2620:fe::10,AAAA,['2a03:2880:f130:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.628388,audrte.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T22:21:27.628388,augipt.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2620:fe::fe
+2024-11-14T22:21:27.628388,attentivemobile.com,114.114.115.115,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.628388,auchan.fr,208.67.222.220,A,['35.205.78.162'],,
+2024-11-14T22:21:27.628388,auctollo.com,8.8.4.4,A,['107.180.56.148'],,
+2024-11-14T22:21:27.628388,audiomack.com,211.136.17.107,A,['108.160.163.112'],,
+2024-11-14T22:21:27.628388,attentivemobile.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:119:35::35
+2024-11-14T22:21:27.628388,audacy.com,2a10:50c0::ad2:ff,AAAA,['2001::9df0:308'],,
+2024-11-14T22:21:27.629389,audrte.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2400:3200::1
+2024-11-14T22:21:27.629389,augipt.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.629389,attentivemobile.com,94.140.15.15,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.629389,auchan.fr,1.1.1.1,A,['35.205.78.162'],,
+2024-11-14T22:21:27.629389,auctollo.com,2.56.220.2,A,['107.180.56.148'],,
+2024-11-14T22:21:27.629389,audiomack.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 101.226.4.7
+2024-11-14T22:21:27.629389,attentivemobile.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: attentivemobile.com on server: 2620:119:53::53
+2024-11-14T22:21:27.629389,audacy.com,2a10:50c0::ad1:ff,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.629389,audrte.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T22:21:27.629389,audiomack.com,123.125.81.6,A,['199.59.148.246'],,
+2024-11-14T22:21:27.629389,attn.tv,208.67.222.222,A,"['52.217.118.125', '52.217.196.141', '54.231.164.109', '3.5.12.94', '16.182.71.157', '16.182.97.229', '52.217.75.197', '52.217.113.197']",,
+2024-11-14T22:21:27.629389,au.com,180.76.76.76,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,auerproxy.de,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: auerproxy.de on server: 2620:119:35::35
+2024-11-14T22:21:27.629389,audrte.com,101.226.4.6,A,['184.168.221.45'],,
+2024-11-14T22:21:27.629389,attdns.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: attdns.com on server: 2400:da00::6666
+2024-11-14T22:21:27.629389,august.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.629389,attn.tv,208.67.222.220,A,"['16.15.176.221', '16.15.217.30', '16.15.217.209', '16.182.42.173', '52.216.186.18', '52.217.103.163', '52.217.197.101', '52.217.235.245']",,
+2024-11-14T22:21:27.629389,attdns.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 123.125.81.7
+2024-11-14T22:21:27.629389,audrte.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.629389,attn.tv,9.9.9.10,A,"['52.216.220.61', '52.217.174.165', '52.216.221.181', '54.231.139.245', '52.216.43.125', '54.231.203.101', '52.217.173.245', '3.5.16.43']",,
+2024-11-14T22:21:27.629389,au.com,223.6.6.6,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,audiomack.com,77.88.8.1,A,['199.59.148.229'],,
+2024-11-14T22:21:27.629389,auerproxy.de,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 2400:da00::6666
+2024-11-14T22:21:27.629389,audrte.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.629389,august.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:fe::10
+2024-11-14T22:21:27.629389,au.com,2.56.220.2,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,au.com,119.29.29.29,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,auchan.fr,123.125.81.7,A,[],Timeout,Timeout occurred for domain: auchan.fr on server: 123.125.81.7
+2024-11-14T22:21:27.629389,auerproxy.de,8.8.8.8,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 8.8.8.8
+2024-11-14T22:21:27.629389,audrte.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.629389,august.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.629389,attn.tv,208.67.220.220,A,"['52.217.205.85', '54.231.137.197', '54.231.224.117', '16.15.193.54', '52.216.186.2', '52.217.90.107', '52.217.168.245', '52.217.174.205']",,
+2024-11-14T22:21:27.629389,au.com,123.125.81.6,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,audioeye.com,180.76.76.76,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.629389,auerproxy.de,8.8.4.4,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 8.8.4.4
+2024-11-14T22:21:27.629389,audrte.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.629389,august.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.629389,au.com,62.76.62.76,A,['175.129.0.108'],,
+2024-11-14T22:21:27.629389,audiomack.com,1.0.0.1,A,['202.182.98.125'],,
+2024-11-14T22:21:27.629389,audrte.com,123.125.81.6,A,['184.168.221.45'],,
+2024-11-14T22:21:27.629389,audrte.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:fe::fe
+2024-11-14T22:21:27.629389,august.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2400:3200::1
+2024-11-14T22:21:27.630911,au.com,8.8.4.4,A,['175.129.0.108'],,
+2024-11-14T22:21:27.630911,augipt.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: augipt.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.631046,audioeye.com,101.226.4.6,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.631046,audiomack.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: audiomack.com on server: 117.50.11.11
+2024-11-14T22:21:27.631046,audrte.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2620:fe::10
+2024-11-14T22:21:27.631046,august.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.631046,au.com,1.1.1.1,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631046,auerproxy.de,208.67.220.222,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 208.67.220.222
+2024-11-14T22:21:27.631046,audioeye.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: audioeye.com on server: 123.125.81.7
+2024-11-14T22:21:27.631046,auerproxy.de,94.140.14.14,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 94.140.14.14
+2024-11-14T22:21:27.631046,audiomack.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: audiomack.com on server: 2400:da00::6666
+2024-11-14T22:21:27.631046,au.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: au.com on server: 202.96.128.86
+2024-11-14T22:21:27.631046,audrte.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 101.226.4.7
+2024-11-14T22:21:27.631046,audioeye.com,123.125.81.6,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.631046,auerproxy.de,208.67.220.220,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 208.67.220.220
+2024-11-14T22:21:27.631046,au.com,8.8.8.8,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631046,au.com,101.226.4.6,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631046,audioeye.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: audioeye.com on server: 101.226.4.7
+2024-11-14T22:21:27.631046,auerproxy.de,208.67.222.220,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 208.67.222.220
+2024-11-14T22:21:27.631046,audrte.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.631046,au.com,77.88.8.8,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631046,aucdn.net,8.8.4.4,A,[],NoAnswer,No answer for domain: aucdn.net on server: 8.8.4.4
+2024-11-14T22:21:27.631046,audiomack.com,8.8.4.4,A,['54.234.18.200'],,
+2024-11-14T22:21:27.631957,auerproxy.de,9.9.9.10,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 9.9.9.10
+2024-11-14T22:21:27.631957,audrte.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.631957,au.com,77.88.8.1,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,aucdn.net,1.1.1.1,A,[],NoAnswer,No answer for domain: aucdn.net on server: 1.1.1.1
+2024-11-14T22:21:27.631957,audiomack.com,1.1.1.1,A,['108.160.166.253'],,
+2024-11-14T22:21:27.631957,auerproxy.de,208.67.222.222,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 208.67.222.222
+2024-11-14T22:21:27.631957,audrte.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.631957,august.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2402:4e00::
+2024-11-14T22:21:27.631957,au.com,1.0.0.1,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,aucdn.net,8.8.8.8,A,[],NoAnswer,No answer for domain: aucdn.net on server: 8.8.8.8
+2024-11-14T22:21:27.631957,audioeye.com,211.136.17.107,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.631957,au.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: au.com on server: 123.125.81.7
+2024-11-14T22:21:27.631957,audrte.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.631957,au.com,95.85.95.85,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,au.com,195.208.5.1,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,audioeye.com,117.50.11.11,A,"['44.228.5.239', '34.213.248.120', '35.162.227.171']",,
+2024-11-14T22:21:27.631957,au.com,62.76.76.62,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,audrte.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.631957,august.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.631957,attn.tv,101.226.4.6,A,"['52.217.93.123', '16.15.176.117', '16.182.100.117', '16.182.74.21', '54.231.231.117', '54.231.172.181', '52.217.131.229', '52.217.133.245']",,
+2024-11-14T22:21:27.631957,au.com,208.67.220.220,A,['175.129.0.108'],,
+2024-11-14T22:21:27.631957,audioeye.com,218.30.118.6,A,"['44.228.5.239', '34.213.248.120', '35.162.227.171']",,
+2024-11-14T22:21:27.631957,audrte.com,218.30.118.6,A,['184.168.221.45'],,
+2024-11-14T22:21:27.631957,audrte.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.631957,august.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.632989,audioeye.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: audioeye.com on server: 202.96.128.86
+2024-11-14T22:21:27.632989,au.com,195.208.4.1,A,['175.129.0.108'],,
+2024-11-14T22:21:27.632989,audrte.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.632989,audiomack.com,2402:4e00::,AAAA,['2a03:2880:f10d:183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.632989,audrte.com,211.136.17.107,A,['184.168.221.45'],,
+2024-11-14T22:21:27.632989,attn.tv,218.30.118.6,A,"['52.217.117.253', '16.182.100.37', '3.5.30.223', '52.217.197.45', '54.231.229.37', '52.217.162.117', '52.217.226.157', '52.216.33.173']",,
+2024-11-14T22:21:27.632989,au.com,223.5.5.5,A,['175.129.0.108'],,
+2024-11-14T22:21:27.632989,audioeye.com,223.6.6.6,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.632989,august.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.632989,audiomack.com,2400:3200:baba::1,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.632989,august.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:fe::fe
+2024-11-14T22:21:27.632989,attn.tv,211.136.17.107,A,"['54.231.194.157', '3.5.16.244', '52.216.53.213', '16.182.38.93', '52.217.167.13', '52.217.201.117', '52.217.225.205', '54.231.232.253']",,
+2024-11-14T22:21:27.632989,audioeye.com,119.29.29.29,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.632989,attn.tv,101.226.4.7,A,[],Timeout,Timeout occurred for domain: attn.tv on server: 101.226.4.7
+2024-11-14T22:21:27.632989,audiomack.com,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f10d:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.632989,au.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: au.com on server: 210.21.196.6
+2024-11-14T22:21:27.632989,august.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: august.com on server: 2400:da00::6666
+2024-11-14T22:21:27.632989,audrte.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 117.50.11.11
+2024-11-14T22:21:27.632989,audiomack.com,8.8.8.8,A,['185.45.7.97'],,
+2024-11-14T22:21:27.632989,auerproxy.de,195.208.5.1,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 195.208.5.1
+2024-11-14T22:21:27.632989,audiomack.com,2400:3200::1,AAAA,['2001::a88f:ab5d'],,
+2024-11-14T22:21:27.632989,august.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.632989,attn.tv,123.125.81.6,A,"['3.5.14.240', '52.217.99.131', '52.217.224.141', '16.182.66.101', '52.216.137.243', '52.217.228.13', '16.182.73.181', '52.217.130.69']",,
+2024-11-14T22:21:27.633988,auerproxy.de,9.9.9.9,A,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 9.9.9.9
+2024-11-14T22:21:27.633988,attn.tv,123.125.81.7,A,[],Timeout,Timeout occurred for domain: attn.tv on server: 123.125.81.7
+2024-11-14T22:21:27.633988,audrte.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 210.21.196.6
+2024-11-14T22:21:27.633988,audiomack.com,2620:0:ccd::2,AAAA,['2001::67e2:f663'],,
+2024-11-14T22:21:27.633988,august.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.633988,attn.tv,223.5.5.5,A,"['16.182.39.189', '16.15.177.32', '52.216.154.251', '16.182.69.101', '52.216.146.18', '54.231.195.93', '54.231.229.157', '52.216.166.42']",,
+2024-11-14T22:21:27.633988,au.com,114.114.115.115,A,['175.129.0.108'],,
+2024-11-14T22:21:27.633988,audrte.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 123.125.81.7
+2024-11-14T22:21:27.633988,audioeye.com,114.114.115.115,A,"['34.213.248.120', '44.228.5.239', '35.162.227.171']",,
+2024-11-14T22:21:27.633988,audiomack.com,2a10:50c0::ad1:ff,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.633988,auerproxy.de,62.76.62.76,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 62.76.62.76
+2024-11-14T22:21:27.633988,attn.tv,180.76.76.76,A,"['54.231.226.5', '16.15.192.75', '52.216.44.125', '52.217.49.107', '52.217.94.163', '54.231.131.165', '54.231.198.157', '54.231.200.141']",,
+2024-11-14T22:21:27.633988,attn.tv,117.50.11.11,A,"['52.217.138.61', '52.217.225.101', '52.216.30.83', '52.217.192.197', '16.182.70.253', '52.216.24.51', '16.182.105.69', '52.217.118.45']",,
+2024-11-14T22:21:27.633988,audioeye.com,223.5.5.5,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.633988,auerproxy.de,195.208.4.1,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 195.208.4.1
+2024-11-14T22:21:27.633988,audiomack.com,2620:0:ccc::2,AAAA,['2001::453f:b00f'],,
+2024-11-14T22:21:27.633988,august.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:119:53::53
+2024-11-14T22:21:27.633988,august.com,2001:6d0:d6::2001,AAAA,[],Timeout,Timeout occurred for domain: august.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.633988,au.com,218.30.118.6,A,['175.129.0.108'],,
+2024-11-14T22:21:27.633988,audiomack.com,77.88.8.8,A,['103.39.76.66'],,
+2024-11-14T22:21:27.633988,auerproxy.de,62.76.76.62,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 62.76.76.62
+2024-11-14T22:21:27.633988,august.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.633988,au.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: au.com on server: 101.226.4.7
+2024-11-14T22:21:27.633988,au.com,9.9.9.10,A,['175.129.0.108'],,
+2024-11-14T22:21:27.633988,audiomack.com,2.56.220.2,A,['31.13.96.195'],,
+2024-11-14T22:21:27.633988,audiomack.com,2620:119:35::35,AAAA,['2a03:2880:f127:283:face:b00c:0:25de'],,
+2024-11-14T22:21:27.633988,au.com,117.50.11.11,A,['175.129.0.108'],,
+2024-11-14T22:21:27.633988,attn.tv,114.114.114.114,A,"['52.217.196.157', '52.216.53.21', '3.5.14.167']",,
+2024-11-14T22:21:27.633988,au.com,94.140.15.15,A,['175.129.0.108'],,
+2024-11-14T22:21:27.633988,audioeye.com,114.114.114.114,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.633988,auerproxy.de,77.88.8.8,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 77.88.8.8
+2024-11-14T22:21:27.633988,audiomack.com,2620:119:53::53,AAAA,['2001::a27d:200c'],,
+2024-11-14T22:21:27.633988,august.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.633988,attn.tv,114.114.115.115,A,"['52.216.53.21', '52.217.121.5', '16.15.217.102']",,
+2024-11-14T22:21:27.633988,au.com,114.114.114.114,A,['175.129.0.108'],,
+2024-11-14T22:21:27.635002,auerproxy.de,77.88.8.1,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 77.88.8.1
+2024-11-14T22:21:27.635002,audiomack.com,2a0c:a9c7:8::1,AAAA,['2a03:2880:f131:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.635002,audioeye.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: audioeye.com on server: 210.21.196.6
+2024-11-14T22:21:27.635002,attn.tv,223.6.6.6,A,"['52.216.146.18', '54.231.195.93', '54.231.229.157', '52.216.166.42', '16.182.39.189', '16.15.177.32', '52.216.154.251', '16.182.69.101']",,
+2024-11-14T22:21:27.635002,au.com,208.67.220.222,A,['175.129.0.108'],,
+2024-11-14T22:21:27.635002,audioeye.com,94.140.14.14,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.635002,auerproxy.de,95.85.95.85,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 95.85.95.85
+2024-11-14T22:21:27.635002,audrte.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: audrte.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.635002,august.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.635002,attn.tv,119.29.29.29,A,"['16.15.184.204', '52.216.218.205', '52.216.35.245', '3.5.16.224', '52.216.32.253', '3.5.1.44', '54.231.137.237', '52.217.143.21']",,
+2024-11-14T22:21:27.635002,au.com,94.140.14.14,A,['175.129.0.108'],,
+2024-11-14T22:21:27.635002,audioeye.com,94.140.15.15,A,"['35.162.227.171', '44.228.5.239', '34.213.248.120']",,
+2024-11-14T22:21:27.635002,auerproxy.de,2.56.220.2,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 2.56.220.2
+2024-11-14T22:21:27.635002,audiomack.com,2a0c:a9c7:9::1,AAAA,['2001::6ca0:a793'],,
+2024-11-14T22:21:27.635002,august.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.635002,attn.tv,94.140.14.14,A,"['54.231.140.229', '16.182.109.101', '3.5.2.55', '52.216.239.98', '52.217.70.51', '54.231.195.181', '52.216.170.26', '52.217.10.19']",,
+2024-11-14T22:21:27.635002,au.com,211.136.17.107,A,['175.129.0.108'],,
+2024-11-14T22:21:27.635002,audioeye.com,208.67.222.220,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.635002,auerproxy.de,1.1.1.1,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 1.1.1.1
+2024-11-14T22:21:27.635002,audiomack.com,2620:fe::fe,AAAA,['2001::a27d:1281'],,
+2024-11-14T22:21:27.635002,august.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.635002,attn.tv,94.140.15.15,A,"['54.231.195.181', '52.216.170.26', '52.217.10.19', '54.231.140.229', '16.182.109.101', '3.5.2.55', '52.216.239.98', '52.217.70.51']",,
+2024-11-14T22:21:27.635002,au.com,208.67.222.222,A,['175.129.0.108'],,
+2024-11-14T22:21:27.635002,audiomack.com,95.85.95.85,A,['185.45.7.97'],,
+2024-11-14T22:21:27.635002,auerproxy.de,1.0.0.1,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 1.0.0.1
+2024-11-14T22:21:27.635002,august.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.636012,attn.tv,208.67.220.222,A,"['16.182.74.53', '52.216.152.11', '52.216.152.195', '52.216.170.186', '3.5.0.95', '3.5.12.107', '3.5.22.182', '16.182.65.109']",,
+2024-11-14T22:21:27.636012,au.com,208.67.222.220,A,['175.129.0.108'],,
+2024-11-14T22:21:27.636012,audioeye.com,208.67.220.222,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.636012,audiomack.com,2620:fe::10,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.636012,audrte.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 202.96.128.86
+2024-11-14T22:21:27.636012,attdns.com,8.8.4.4,A,[],NoAnswer,No answer for domain: attdns.com on server: 8.8.4.4
+2024-11-14T22:21:27.636012,august.com,8.8.4.4,A,['23.227.38.32'],,
+2024-11-14T22:21:27.636012,attdns.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.636012,au.com,2a0c:a9c7:8::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.636012,attdns.com,218.30.118.6,A,[],NoAnswer,No answer for domain: attdns.com on server: 218.30.118.6
+2024-11-14T22:21:27.636012,attdns.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:fe::10
+2024-11-14T22:21:27.636012,augipt.com,195.208.4.1,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,au.com,2620:0:ccc::2,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.636012,attdns.com,208.67.220.222,A,[],NoAnswer,No answer for domain: attdns.com on server: 208.67.220.222
+2024-11-14T22:21:27.636012,augipt.com,101.226.4.6,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,au.com,2400:3200::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.636012,august.com,123.125.81.6,A,['23.227.38.32'],,
+2024-11-14T22:21:27.636012,attdns.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.636012,au.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: au.com on server: 9.9.9.9
+2024-11-14T22:21:27.636012,augipt.com,117.50.11.11,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,attdns.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.636012,au.com,2a10:50c0::ad2:ff,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.636012,attdns.com,208.67.222.222,A,[],NoAnswer,No answer for domain: attdns.com on server: 208.67.222.222
+2024-11-14T22:21:27.636012,augipt.com,123.125.81.6,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,attdns.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2400:3200::1
+2024-11-14T22:21:27.636012,attdns.com,195.208.5.1,A,[],NoAnswer,No answer for domain: attdns.com on server: 195.208.5.1
+2024-11-14T22:21:27.636012,augipt.com,218.30.118.6,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,attdns.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.636012,aucdn.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.636012,attdns.com,180.76.76.76,A,[],NoAnswer,No answer for domain: attdns.com on server: 180.76.76.76
+2024-11-14T22:21:27.636012,augipt.com,211.136.17.107,A,['157.245.59.246'],,
+2024-11-14T22:21:27.636012,attdns.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.636012,aucdn.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.636012,attdns.com,95.85.95.85,A,[],NoAnswer,No answer for domain: attdns.com on server: 95.85.95.85
+2024-11-14T22:21:27.637012,attn.tv,202.96.128.86,A,[],Timeout,Timeout occurred for domain: attn.tv on server: 202.96.128.86
+2024-11-14T22:21:27.637012,attdns.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.637012,au.com,2620:119:53::53,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,attdns.com,195.208.4.1,A,[],NoAnswer,No answer for domain: attdns.com on server: 195.208.4.1
+2024-11-14T22:21:27.637012,august.com,117.50.11.11,A,['23.227.38.32'],,
+2024-11-14T22:21:27.637012,aucdn.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.637012,augipt.com,180.76.76.76,A,['157.245.59.246'],,
+2024-11-14T22:21:27.637012,au.com,2620:fe::10,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,attdns.com,94.140.14.14,A,[],NoAnswer,No answer for domain: attdns.com on server: 94.140.14.14
+2024-11-14T22:21:27.637012,august.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2620:119:35::35
+2024-11-14T22:21:27.637012,attn.tv,210.21.196.6,A,[],Timeout,Timeout occurred for domain: attn.tv on server: 210.21.196.6
+2024-11-14T22:21:27.637012,attdns.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.637012,augipt.com,223.5.5.5,A,['157.245.59.246'],,
+2024-11-14T22:21:27.637012,au.com,2620:119:35::35,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,au.com,2620:fe::fe,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,attdns.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.637012,attdns.com,1.0.0.1,A,[],NoAnswer,No answer for domain: attdns.com on server: 1.0.0.1
+2024-11-14T22:21:27.637012,augipt.com,119.29.29.29,A,['157.245.59.246'],,
+2024-11-14T22:21:27.637012,attdns.com,77.88.8.1,A,[],NoAnswer,No answer for domain: attdns.com on server: 77.88.8.1
+2024-11-14T22:21:27.637012,augipt.com,114.114.115.115,A,['157.245.59.246'],,
+2024-11-14T22:21:27.637012,au.com,2620:0:ccd::2,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,augipt.com,223.6.6.6,A,['157.245.59.246'],,
+2024-11-14T22:21:27.637012,august.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: august.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.637012,attdns.com,223.6.6.6,A,[],NoAnswer,No answer for domain: attdns.com on server: 223.6.6.6
+2024-11-14T22:21:27.637012,au.com,2a10:50c0::ad1:ff,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.637012,attdns.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.637012,august.com,101.226.4.6,A,['23.227.38.32'],,
+2024-11-14T22:21:27.637012,attdns.com,208.67.220.220,A,[],NoAnswer,No answer for domain: attdns.com on server: 208.67.220.220
+2024-11-14T22:21:27.638005,augipt.com,94.140.15.15,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,augipt.com,114.114.114.114,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,1.1.1.1,A,[],NoAnswer,No answer for domain: attdns.com on server: 1.1.1.1
+2024-11-14T22:21:27.638005,attdns.com,114.114.114.114,A,[],NoAnswer,No answer for domain: attdns.com on server: 114.114.114.114
+2024-11-14T22:21:27.638005,augipt.com,208.67.220.222,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:119:35::35
+2024-11-14T22:21:27.638005,au.com,2400:3200:baba::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.638005,augipt.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: augipt.com on server: 2400:da00::6666
+2024-11-14T22:21:27.638005,augipt.com,94.140.14.14,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:119:53::53
+2024-11-14T22:21:27.638005,au.com,2402:4e00::,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.638005,attdns.com,62.76.62.76,A,[],NoAnswer,No answer for domain: attdns.com on server: 62.76.62.76
+2024-11-14T22:21:27.638005,augipt.com,208.67.222.222,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2402:4e00::
+2024-11-14T22:21:27.638005,aucdn.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.638005,attdns.com,9.9.9.10,A,[],NoAnswer,No answer for domain: attdns.com on server: 9.9.9.10
+2024-11-14T22:21:27.638005,augipt.com,208.67.222.220,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.638005,attdns.com,62.76.76.62,A,[],NoAnswer,No answer for domain: attdns.com on server: 62.76.76.62
+2024-11-14T22:21:27.638005,augipt.com,9.9.9.10,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 202.96.128.86
+2024-11-14T22:21:27.638005,attdns.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.638005,aucdn.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.638005,augipt.com,208.67.220.220,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,119.29.29.29,A,[],NoAnswer,No answer for domain: attdns.com on server: 119.29.29.29
+2024-11-14T22:21:27.638005,attdns.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 210.21.196.6
+2024-11-14T22:21:27.638005,augipt.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: augipt.com on server: 210.21.196.6
+2024-11-14T22:21:27.638005,augipt.com,195.208.5.1,A,['157.245.59.246'],,
+2024-11-14T22:21:27.638005,attdns.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.638005,aucdn.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.638005,attdns.com,223.5.5.5,A,[],NoAnswer,No answer for domain: attdns.com on server: 223.5.5.5
+2024-11-14T22:21:27.638005,augipt.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: augipt.com on server: 202.96.128.86
+2024-11-14T22:21:27.639006,attdns.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.639006,aucdn.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.639006,au.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: au.com on server: 2400:da00::6666
+2024-11-14T22:21:27.639006,august.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: august.com on server: 123.125.81.7
+2024-11-14T22:21:27.639006,aucdn.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.639006,attdns.com,114.114.115.115,A,[],NoAnswer,No answer for domain: attdns.com on server: 114.114.115.115
+2024-11-14T22:21:27.639006,attdns.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.639006,attdns.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2620:fe::fe
+2024-11-14T22:21:27.639006,attdns.com,77.88.8.8,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 77.88.8.8
+2024-11-14T22:21:27.639006,attdns.com,208.67.222.220,A,[],NoAnswer,No answer for domain: attdns.com on server: 208.67.222.220
+2024-11-14T22:21:27.639006,aucdn.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.639006,august.com,8.8.8.8,A,['23.227.38.32'],,
+2024-11-14T22:21:27.639006,attdns.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.639006,attdns.com,94.140.15.15,A,[],NoAnswer,No answer for domain: attdns.com on server: 94.140.15.15
+2024-11-14T22:21:27.639006,aucdn.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.639006,attdns.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.639006,attdns.com,8.8.8.8,A,[],NoAnswer,No answer for domain: attdns.com on server: 8.8.8.8
+2024-11-14T22:21:27.639006,august.com,1.1.1.1,A,['23.227.38.32'],,
+2024-11-14T22:21:27.639006,attdns.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: attdns.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.639006,aucdn.net,101.226.4.6,A,[],NoAnswer,No answer for domain: aucdn.net on server: 101.226.4.6
+2024-11-14T22:21:27.639006,au.com,2a0c:a9c7:9::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.639006,auchan.fr,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.639006,attdns.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: attdns.com on server: 9.9.9.9
+2024-11-14T22:21:27.639006,attdns.com,2.56.220.2,A,[],NoAnswer,No answer for domain: attdns.com on server: 2.56.220.2
+2024-11-14T22:21:27.639006,auchan.fr,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.639006,augipt.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: augipt.com on server: 9.9.9.9
+2024-11-14T22:21:27.639006,auchan.fr,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.639006,aucdn.net,195.208.4.1,A,[],NoAnswer,No answer for domain: aucdn.net on server: 195.208.4.1
+2024-11-14T22:21:27.639006,auchan.fr,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.639006,aucdn.net,2.56.220.2,A,[],NoAnswer,No answer for domain: aucdn.net on server: 2.56.220.2
+2024-11-14T22:21:27.639006,aucdn.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2400:3200:baba::1
+2024-11-14T22:21:27.639006,aucdn.net,62.76.76.62,A,[],NoAnswer,No answer for domain: aucdn.net on server: 62.76.76.62
+2024-11-14T22:21:27.639006,aucdn.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2402:4e00::
+2024-11-14T22:21:27.639006,aucdn.net,62.76.62.76,A,[],NoAnswer,No answer for domain: aucdn.net on server: 62.76.62.76
+2024-11-14T22:21:27.639006,aucdn.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.640009,aucdn.net,218.30.118.6,A,[],NoAnswer,No answer for domain: aucdn.net on server: 218.30.118.6
+2024-11-14T22:21:27.640009,aucdn.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2400:3200::1
+2024-11-14T22:21:27.640009,aucdn.net,77.88.8.8,A,[],NoAnswer,No answer for domain: aucdn.net on server: 77.88.8.8
+2024-11-14T22:21:27.640009,aucdn.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.640009,aucdn.net,95.85.95.85,A,[],NoAnswer,No answer for domain: aucdn.net on server: 95.85.95.85
+2024-11-14T22:21:27.640009,auchan.fr,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.640009,aucdn.net,77.88.8.1,A,[],NoAnswer,No answer for domain: aucdn.net on server: 77.88.8.1
+2024-11-14T22:21:27.640009,aucdn.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:0:ccd::2
+2024-11-14T22:21:27.640009,aucdn.net,211.136.17.107,A,[],NoAnswer,No answer for domain: aucdn.net on server: 211.136.17.107
+2024-11-14T22:21:27.640009,aucdn.net,123.125.81.6,A,[],NoAnswer,No answer for domain: aucdn.net on server: 123.125.81.6
+2024-11-14T22:21:27.640009,aucdn.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:119:53::53
+2024-11-14T22:21:27.640009,aucdn.net,119.29.29.29,A,[],NoAnswer,No answer for domain: aucdn.net on server: 119.29.29.29
+2024-11-14T22:21:27.640009,aucdn.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:0:ccc::2
+2024-11-14T22:21:27.640009,aucdn.net,180.76.76.76,A,[],NoAnswer,No answer for domain: aucdn.net on server: 180.76.76.76
+2024-11-14T22:21:27.640935,aucdn.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:fe::10
+2024-11-14T22:21:27.640935,aucdn.net,223.5.5.5,A,[],NoAnswer,No answer for domain: aucdn.net on server: 223.5.5.5
+2024-11-14T22:21:27.640935,aucdn.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:119:35::35
+2024-11-14T22:21:27.640935,aucdn.net,223.6.6.6,A,[],NoAnswer,No answer for domain: aucdn.net on server: 223.6.6.6
+2024-11-14T22:21:27.640935,augipt.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: augipt.com on server: 123.125.81.7
+2024-11-14T22:21:27.640935,aucdn.net,114.114.114.114,A,[],NoAnswer,No answer for domain: aucdn.net on server: 114.114.114.114
+2024-11-14T22:21:27.640935,aucdn.net,114.114.115.115,A,[],NoAnswer,No answer for domain: aucdn.net on server: 114.114.115.115
+2024-11-14T22:21:27.640935,auchan.fr,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:fe::10
+2024-11-14T22:21:27.640935,aucdn.net,94.140.14.14,A,[],NoAnswer,No answer for domain: aucdn.net on server: 94.140.14.14
+2024-11-14T22:21:27.640935,augipt.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: augipt.com on server: 101.226.4.7
+2024-11-14T22:21:27.641459,august.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: august.com on server: 101.226.4.7
+2024-11-14T22:21:27.641459,auchan.fr,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:119:35::35
+2024-11-14T22:21:27.641459,aucdn.net,94.140.15.15,A,[],NoAnswer,No answer for domain: aucdn.net on server: 94.140.15.15
+2024-11-14T22:21:27.641459,auchan.fr,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.641459,auchan.fr,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.641459,aucdn.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 210.21.196.6
+2024-11-14T22:21:27.641459,aucdn.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aucdn.net on server: 2400:da00::6666
+2024-11-14T22:21:27.641459,aucdn.net,208.67.220.222,A,[],NoAnswer,No answer for domain: aucdn.net on server: 208.67.220.222
+2024-11-14T22:21:27.641459,auchan.fr,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.641459,auchan.fr,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.641459,aucdn.net,1.0.0.1,A,[],NoAnswer,No answer for domain: aucdn.net on server: 1.0.0.1
+2024-11-14T22:21:27.641459,aucdn.net,208.67.220.220,A,[],NoAnswer,No answer for domain: aucdn.net on server: 208.67.220.220
+2024-11-14T22:21:27.641459,auchan.fr,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:fe::fe
+2024-11-14T22:21:27.641459,aucdn.net,208.67.222.220,A,[],NoAnswer,No answer for domain: aucdn.net on server: 208.67.222.220
+2024-11-14T22:21:27.641459,auchan.fr,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.641459,aucdn.net,208.67.222.222,A,[],NoAnswer,No answer for domain: aucdn.net on server: 208.67.222.222
+2024-11-14T22:21:27.641459,auchan.fr,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.641459,auchan.fr,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.641459,auchan.fr,8.8.8.8,A,['35.205.78.162'],,
+2024-11-14T22:21:27.641459,aucdn.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 202.96.128.86
+2024-11-14T22:21:27.641459,aucdn.net,9.9.9.10,A,[],NoAnswer,No answer for domain: aucdn.net on server: 9.9.9.10
+2024-11-14T22:21:27.641459,aucdn.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2620:fe::fe
+2024-11-14T22:21:27.641459,audacy.com,180.76.76.76,A,['210.56.51.193'],,
+2024-11-14T22:21:27.641459,aucdn.net,117.50.11.11,A,[],NoAnswer,No answer for domain: aucdn.net on server: 117.50.11.11
+2024-11-14T22:21:27.641459,audioeye.com,62.76.76.62,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.641459,aucdn.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.641459,audible.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.641459,audacy.com,119.29.29.29,A,['128.121.243.75'],,
+2024-11-14T22:21:27.641459,audioeye.com,208.67.220.220,A,"['35.162.227.171', '44.228.5.239', '34.213.248.120']",,
+2024-11-14T22:21:27.641459,audible.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.642540,audioeye.com,62.76.62.76,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.642540,audioeye.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.642540,audacy.com,123.125.81.6,A,['69.171.224.40'],,
+2024-11-14T22:21:27.642540,audioeye.com,208.67.222.222,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.642540,audioeye.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.642540,audacy.com,101.226.4.6,A,['69.171.224.40'],,
+2024-11-14T22:21:27.642540,aucdn.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 101.226.4.7
+2024-11-14T22:21:27.642540,audacy.com,211.136.17.107,A,['154.83.14.134'],,
+2024-11-14T22:21:27.642540,aucdn.net,195.208.5.1,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 195.208.5.1
+2024-11-14T22:21:27.642540,audioeye.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.642540,audacy.com,117.50.11.11,A,['199.59.149.244'],,
+2024-11-14T22:21:27.642540,aucdn.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 9.9.9.9
+2024-11-14T22:21:27.642540,audible.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2400:3200::1
+2024-11-14T22:21:27.642540,aucdn.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aucdn.net on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.642540,aucdn.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aucdn.net on server: 123.125.81.7
+2024-11-14T22:21:27.642540,audible.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2402:4e00::
+2024-11-14T22:21:27.642540,audacy.com,195.208.5.1,A,['199.59.148.201'],,
+2024-11-14T22:21:27.642540,audible.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.642540,audacy.com,114.114.115.115,A,"['151.101.66.132', '151.101.2.132', '151.101.130.132']",,
+2024-11-14T22:21:27.642540,audioeye.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: audioeye.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.642540,audacy.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: audacy.com on server: 202.96.128.86
+2024-11-14T22:21:27.642540,audioeye.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.642540,audacy.com,223.6.6.6,A,['104.244.46.57'],,
+2024-11-14T22:21:27.642540,audible.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.642540,audacy.com,114.114.114.114,A,"['151.101.2.132', '151.101.130.132', '151.101.194.132']",,
+2024-11-14T22:21:27.642540,audible.com,101.226.4.6,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.643559,audible.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.643559,audacy.com,223.5.5.5,A,['104.244.46.57'],,
+2024-11-14T22:21:27.643559,audioeye.com,77.88.8.1,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.643559,audacy.com,94.140.15.15,A,['199.59.149.136'],,
+2024-11-14T22:21:27.643559,audioeye.com,77.88.8.8,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.643559,audible.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.643559,audioeye.com,9.9.9.10,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.643559,audacy.com,208.67.220.222,A,['67.230.169.182'],,
+2024-11-14T22:21:27.643559,audioeye.com,1.1.1.1,A,"['35.162.227.171', '34.213.248.120', '44.228.5.239']",,
+2024-11-14T22:21:27.643559,audacy.com,94.140.14.14,A,['154.85.102.32'],,
+2024-11-14T22:21:27.643559,audible.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: audible.com on server: 2400:da00::6666
+2024-11-14T22:21:27.643559,audible.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:119:53::53
+2024-11-14T22:21:27.643559,audacy.com,208.67.222.220,A,['154.92.16.97'],,
+2024-11-14T22:21:27.643559,audioeye.com,195.208.4.1,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.643559,audible.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.643559,audacy.com,208.67.220.220,A,['104.244.46.165'],,
+2024-11-14T22:21:27.643559,audioeye.com,195.208.5.1,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.643559,audible.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:119:35::35
+2024-11-14T22:21:27.643559,audible.com,8.8.8.8,A,"['54.239.29.73', '52.94.224.232', '54.239.31.60']",,
+2024-11-14T22:21:27.643559,audioeye.com,8.8.8.8,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.643559,audible.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.643559,audible.com,8.8.4.4,A,"['54.239.29.73', '54.239.31.60', '52.94.224.232']",,
+2024-11-14T22:21:27.643559,audioeye.com,8.8.4.4,A,"['44.228.5.239', '34.213.248.120', '35.162.227.171']",,
+2024-11-14T22:21:27.643559,audible.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.643559,audioeye.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: audioeye.com on server: 9.9.9.9
+2024-11-14T22:21:27.643559,audacy.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: audacy.com on server: 9.9.9.9
+2024-11-14T22:21:27.643559,audacy.com,208.67.222.222,A,['157.240.8.50'],,
+2024-11-14T22:21:27.643559,audible.com,218.30.118.6,A,"['52.94.224.232', '54.239.31.60', '54.239.29.73']",,
+2024-11-14T22:21:27.643559,audible.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.643559,audible.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: audible.com on server: 101.226.4.7
+2024-11-14T22:21:27.643559,audioeye.com,95.85.95.85,A,"['34.213.248.120', '35.162.227.171', '44.228.5.239']",,
+2024-11-14T22:21:27.643559,audible.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: audible.com on server: 123.125.81.7
+2024-11-14T22:21:27.644557,audioeye.com,2.56.220.2,A,"['44.228.5.239', '35.162.227.171', '34.213.248.120']",,
+2024-11-14T22:21:27.644557,audible.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.644557,audible.com,117.50.11.11,A,"['54.239.31.60', '54.239.29.73', '52.94.224.232']",,
+2024-11-14T22:21:27.644557,audible.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:fe::10
+2024-11-14T22:21:27.644557,audible.com,2a02:6b8::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: audible.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.644557,audible.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.644557,audible.com,211.136.17.107,A,"['54.239.29.73', '54.239.31.60', '52.94.224.232']",,
+2024-11-14T22:21:27.644557,audible.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2620:fe::fe
+2024-11-14T22:21:27.644557,audacy.com,218.30.118.6,A,['202.160.130.145'],,
+2024-11-14T22:21:27.644557,audible.com,123.125.81.6,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.644557,audible.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.644557,audacy.com,9.9.9.10,A,['128.242.245.125'],,
+2024-11-14T22:21:27.644557,audible.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: audible.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.644557,audible.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.644557,attheraces.com,208.67.222.220,A,['20.73.123.27'],,
+2024-11-14T22:21:27.644557,audible.com,208.67.220.222,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.644557,auctollo.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:119:35::35
+2024-11-14T22:21:27.644557,audioeye.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.644557,attheraces.com,208.67.220.222,A,['20.73.123.27'],,
+2024-11-14T22:21:27.644557,audible.com,180.76.76.76,A,"['54.239.29.73', '54.239.31.60', '52.94.224.232']",,
+2024-11-14T22:21:27.644557,auctollo.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.644557,audioeye.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:119:53::53
+2024-11-14T22:21:27.644557,attheraces.com,9.9.9.10,A,['20.73.123.27'],,
+2024-11-14T22:21:27.644557,audioeye.com,1.0.0.1,A,"['34.213.248.120', '44.228.5.239', '35.162.227.171']",,
+2024-11-14T22:21:27.645483,attentivemobile.com,119.29.29.29,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.645483,auchan.fr,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.645483,audioeye.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:fe::10
+2024-11-14T22:21:27.645483,attheraces.com,77.88.8.1,A,['20.73.123.27'],,
+2024-11-14T22:21:27.645483,audible.com,119.29.29.29,A,"['52.94.224.232', '54.239.31.60', '54.239.29.73']",,
+2024-11-14T22:21:27.645483,auchan.fr,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2400:3200::1
+2024-11-14T22:21:27.645483,audiomack.com,2001:6d0:6d0::2001,AAAA,['2a03:2880:f10d:183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.645483,audible.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: audible.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.645483,audible.com,223.5.5.5,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.645483,auchan.fr,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:0:ccd::2
+2024-11-14T22:21:27.645483,audiomack.com,2a03:90c0:999d::1,AAAA,['2001::80f2:f59d'],,
+2024-11-14T22:21:27.645483,attheraces.com,1.1.1.1,A,['20.73.123.27'],,
+2024-11-14T22:21:27.645483,audible.com,223.6.6.6,A,"['54.239.31.60', '52.94.224.232', '54.239.29.73']",,
+2024-11-14T22:21:27.645483,audible.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: audible.com on server: 210.21.196.6
+2024-11-14T22:21:27.645483,audiomack.com,2a03:90c0:9992::1,AAAA,['2001::453f:b88e'],,
+2024-11-14T22:21:27.645483,attentivemobile.com,180.76.76.76,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.645483,auchan.fr,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.645483,audible.com,114.114.115.115,A,"['52.94.224.232', '54.239.31.60', '54.239.29.73']",,
+2024-11-14T22:21:27.645483,audiomack.com,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f130:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.645483,auctollo.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.645483,audible.com,1.1.1.1,A,"['54.239.29.73', '52.94.224.232', '54.239.31.60']",,
+2024-11-14T22:21:27.645483,attheraces.com,208.67.220.220,A,['20.73.123.27'],,
+2024-11-14T22:21:27.645483,audioeye.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:119:35::35
+2024-11-14T22:21:27.645483,audible.com,94.140.15.15,A,"['54.239.29.73', '52.94.224.232', '54.239.31.60']",,
+2024-11-14T22:21:27.645483,auchan.fr,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:119:53::53
+2024-11-14T22:21:27.645483,audiomack.com,2606:4700:4700::1111,AAAA,['2a03:2880:f11c:8183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.646483,audible.com,114.114.114.114,A,"['54.239.31.60', '54.239.29.73', '52.94.224.232']",,
+2024-11-14T22:21:27.646483,auchan.fr,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2620:0:ccc::2
+2024-11-14T22:21:27.646483,audiomack.com,2606:4700:4700::1001,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T22:21:27.647477,attheraces.com,208.67.222.222,A,['20.73.123.27'],,
+2024-11-14T22:21:27.647477,audible.com,208.67.222.220,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.647477,attheraces.com,195.208.5.1,A,['20.73.123.27'],,
+2024-11-14T22:21:27.647477,audiomack.com,2001:4860:4860::8888,AAAA,['2001::44e:8b36'],,
+2024-11-14T22:21:27.647477,auctollo.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.647477,attheraces.com,8.8.8.8,A,['20.73.123.27'],,
+2024-11-14T22:21:27.647477,audible.com,94.140.14.14,A,"['52.94.224.232', '54.239.31.60', '54.239.29.73']",,
+2024-11-14T22:21:27.647477,audiomack.com,2001:4860:4860::8844,AAAA,['2a03:2880:f10d:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.647477,attheraces.com,8.8.4.4,A,['20.73.123.27'],,
+2024-11-14T22:21:27.647477,audible.com,208.67.220.220,A,"['54.239.29.73', '54.239.31.60', '52.94.224.232']",,
+2024-11-14T22:21:27.647477,auctollo.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.647477,auctollo.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.647477,audioeye.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.647477,audacy.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: audacy.com on server: 101.226.4.7
+2024-11-14T22:21:27.647477,attentivemobile.com,218.30.118.6,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.647477,auctollo.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.647477,audioeye.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:fe::fe
+2024-11-14T22:21:27.647477,audible.com,62.76.76.62,A,"['52.94.224.232', '54.239.31.60', '54.239.29.73']",,
+2024-11-14T22:21:27.647477,audioeye.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.647477,audacy.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: audacy.com on server: 210.21.196.6
+2024-11-14T22:21:27.647477,audible.com,62.76.62.76,A,"['54.239.31.60', '52.94.224.232', '54.239.29.73']",,
+2024-11-14T22:21:27.647477,audacy.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: audacy.com on server: 123.125.81.7
+2024-11-14T22:21:27.647477,auchan.fr,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2400:3200:baba::1
+2024-11-14T22:21:27.647477,audioeye.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2402:4e00::
+2024-11-14T22:21:27.647477,attentivemobile.com,123.125.81.6,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.647477,auchan.fr,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: auchan.fr on server: 2402:4e00::
+2024-11-14T22:21:27.647477,audible.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: audible.com on server: 202.96.128.86
+2024-11-14T22:21:27.647477,attentivemobile.com,101.226.4.6,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.647477,audible.com,95.85.95.85,A,"['52.94.224.232', '54.239.29.73', '54.239.31.60']",,
+2024-11-14T22:21:27.647477,auctollo.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.647477,audioeye.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.647477,auctollo.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: auctollo.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.647477,audible.com,1.0.0.1,A,"['54.239.31.60', '54.239.29.73', '52.94.224.232']",,
+2024-11-14T22:21:27.647477,auctollo.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.647477,audioeye.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.647477,attheraces.com,195.208.4.1,A,['20.73.123.27'],,
+2024-11-14T22:21:27.647477,audible.com,9.9.9.10,A,"['54.239.29.73', '52.94.224.232', '54.239.31.60']",,
+2024-11-14T22:21:27.647477,auctollo.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.648478,audioeye.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.648478,attheraces.com,62.76.76.62,A,['20.73.123.27'],,
+2024-11-14T22:21:27.648478,attheraces.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: attheraces.com on server: 9.9.9.9
+2024-11-14T22:21:27.648478,audioeye.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2400:3200::1
+2024-11-14T22:21:27.648478,auctollo.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.648478,audible.com,195.208.5.1,A,"['54.239.31.60', '54.239.29.73', '52.94.224.232']",,
+2024-11-14T22:21:27.648478,auctollo.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.648478,audioeye.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.648478,attentivemobile.com,211.136.17.107,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T22:21:27.648478,audioeye.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.648478,attentivemobile.com,117.50.11.11,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T22:21:27.648478,audible.com,195.208.4.1,A,"['54.239.29.73', '52.94.224.232', '54.239.31.60']",,
+2024-11-14T22:21:27.648478,auctollo.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:119:53::53
+2024-11-14T22:21:27.648478,audioeye.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.648478,attheraces.com,2.56.220.2,A,['20.73.123.27'],,
+2024-11-14T22:21:27.648478,attentivemobile.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 202.96.128.86
+2024-11-14T22:21:27.648478,auchan.fr,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: auchan.fr on server: 2400:da00::6666
+2024-11-14T22:21:27.648478,auctollo.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.648478,attentivemobile.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 123.125.81.7
+2024-11-14T22:21:27.648478,audioeye.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.648478,attheraces.com,77.88.8.8,A,['20.73.123.27'],,
+2024-11-14T22:21:27.648478,audiomack.com,2a02:6b8:0:1::feed:0ff,AAAA,['2001::1f0d:4c41'],,
+2024-11-14T22:21:27.648478,audible.com,208.67.222.222,A,"['54.239.29.73', '54.239.31.60', '52.94.224.232']",,
+2024-11-14T22:21:27.648478,auctollo.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:fe::fe
+2024-11-14T22:21:27.648478,audiomack.com,2001:6d0:d6::2001,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T22:21:27.648478,audible.com,77.88.8.1,A,"['54.239.31.60', '54.239.29.73', '52.94.224.232']",,
+2024-11-14T22:21:27.648478,auctollo.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2620:fe::10
+2024-11-14T22:21:27.648478,audible.com,2.56.220.2,A,"['54.239.31.60', '52.94.224.232', '54.239.29.73']",,
+2024-11-14T22:21:27.648478,auctollo.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: auctollo.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.648478,attheraces.com,95.85.95.85,A,['20.73.123.27'],,
+2024-11-14T22:21:27.648478,attheraces.com,1.0.0.1,A,['20.73.123.27'],,
+2024-11-14T22:21:27.648478,audioeye.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.648478,audacy.com,1.0.0.1,A,['128.242.240.253'],,
+2024-11-14T22:21:27.648478,audible.com,77.88.8.8,A,"['54.239.31.60', '52.94.224.232', '54.239.29.73']",,
+2024-11-14T22:21:27.649477,audioeye.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: audioeye.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.649477,audacy.com,8.8.4.4,A,['108.160.172.200'],,
+2024-11-14T22:21:27.649477,august.com,208.67.220.220,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,augipt.com,2.56.220.2,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,audacy.com,1.1.1.1,A,['162.125.80.3'],,
+2024-11-14T22:21:27.649477,auerproxy.de,101.226.4.6,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 101.226.4.6
+2024-11-14T22:21:27.649477,augipt.com,95.85.95.85,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,211.136.17.107,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,august.com,208.67.222.222,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,8.8.8.8,A,['199.96.59.19'],,
+2024-11-14T22:21:27.649477,august.com,208.67.222.220,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,223.5.5.5,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,augipt.com,1.1.1.1,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,119.29.29.29,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,223.6.6.6,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,augipt.com,1.0.0.1,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,auctollo.com,101.226.4.6,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,augipt.com,8.8.8.8,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,1.0.0.1,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,attentivemobile.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 101.226.4.7
+2024-11-14T22:21:27.649477,augipt.com,8.8.4.4,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,auctollo.com,114.114.114.114,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,attheraces.com,62.76.62.76,A,['20.73.123.27'],,
+2024-11-14T22:21:27.649477,audioeye.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: audioeye.com on server: 2400:da00::6666
+2024-11-14T22:21:27.649477,auctollo.com,114.114.115.115,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,attentivemobile.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: attentivemobile.com on server: 210.21.196.6
+2024-11-14T22:21:27.649477,august.com,208.67.220.222,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,117.50.11.11,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auerproxy.de,94.140.15.15,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 94.140.15.15
+2024-11-14T22:21:27.649477,august.com,94.140.14.14,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,123.125.81.6,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auerproxy.de,114.114.114.114,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 114.114.114.114
+2024-11-14T22:21:27.649477,august.com,94.140.15.15,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auerproxy.de,123.125.81.6,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 123.125.81.6
+2024-11-14T22:21:27.649477,august.com,114.114.114.114,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,195.208.4.1,A,['69.171.242.11'],,
+2024-11-14T22:21:27.649477,august.com,114.114.115.115,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,62.76.76.62,A,['162.125.32.10'],,
+2024-11-14T22:21:27.649477,auerproxy.de,211.136.17.107,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 211.136.17.107
+2024-11-14T22:21:27.649477,august.com,223.5.5.5,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,62.76.62.76,A,['174.36.196.242'],,
+2024-11-14T22:21:27.649477,august.com,180.76.76.76,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,2.56.220.2,A,['104.23.125.189'],,
+2024-11-14T22:21:27.649477,augipt.com,62.76.76.62,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,audible.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: audible.com on server: 9.9.9.9
+2024-11-14T22:21:27.649477,audacy.com,77.88.8.1,A,['108.160.165.11'],,
+2024-11-14T22:21:27.649477,augipt.com,62.76.62.76,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,95.85.95.85,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,95.85.95.85,A,['199.59.148.7'],,
+2024-11-14T22:21:27.649477,auerproxy.de,218.30.118.6,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 218.30.118.6
+2024-11-14T22:21:27.649477,august.com,223.6.6.6,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,audacy.com,77.88.8.8,A,['31.13.69.245'],,
+2024-11-14T22:21:27.649477,auerproxy.de,117.50.11.11,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 117.50.11.11
+2024-11-14T22:21:27.649477,august.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: august.com on server: 9.9.9.9
+2024-11-14T22:21:27.649477,auctollo.com,211.136.17.107,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auctollo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: auctollo.com on server: 101.226.4.7
+2024-11-14T22:21:27.649477,augipt.com,77.88.8.1,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,195.208.5.1,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,208.67.220.222,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auctollo.com,218.30.118.6,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,august.com,2.56.220.2,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: auctollo.com on server: 123.125.81.7
+2024-11-14T22:21:27.649477,auerproxy.de,123.125.81.7,A,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 123.125.81.7
+2024-11-14T22:21:27.649477,august.com,62.76.62.76,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,august.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: august.com on server: 210.21.196.6
+2024-11-14T22:21:27.649477,auerproxy.de,119.29.29.29,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 119.29.29.29
+2024-11-14T22:21:27.649477,august.com,9.9.9.10,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auerproxy.de,101.226.4.7,A,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 101.226.4.7
+2024-11-14T22:21:27.649477,augipt.com,77.88.8.8,A,['157.245.59.246'],,
+2024-11-14T22:21:27.649477,august.com,77.88.8.1,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,119.29.29.29,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auerproxy.de,223.6.6.6,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 223.6.6.6
+2024-11-14T22:21:27.649477,august.com,62.76.76.62,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,180.76.76.76,A,['107.180.56.148'],,
+2024-11-14T22:21:27.649477,auerproxy.de,180.76.76.76,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 180.76.76.76
+2024-11-14T22:21:27.649477,august.com,195.208.4.1,A,['23.227.38.32'],,
+2024-11-14T22:21:27.649477,auctollo.com,94.140.14.14,A,['107.180.56.148'],,
+2024-11-14T22:21:27.650990,auerproxy.de,114.114.115.115,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 114.114.115.115
+2024-11-14T22:21:27.650990,august.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: august.com on server: 202.96.128.86
+2024-11-14T22:21:27.650990,auerproxy.de,223.5.5.5,A,[],NoAnswer,No answer for domain: auerproxy.de on server: 223.5.5.5
+2024-11-14T22:21:27.650990,august.com,218.30.118.6,A,['23.227.38.32'],,
+2024-11-14T22:21:27.651099,attheraces.com,211.136.17.107,A,['20.73.123.27'],,
+2024-11-14T22:21:27.651099,audrte.com,77.88.8.1,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attheraces.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.651099,attn.tv,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2402:4e00::
+2024-11-14T22:21:27.651099,auctollo.com,208.67.222.220,A,['107.180.56.148'],,
+2024-11-14T22:21:27.651099,attn.tv,95.85.95.85,A,"['52.217.135.245', '52.216.212.173', '16.15.193.208', '3.5.31.215', '16.15.178.179', '54.231.233.253', '16.182.103.125', '52.217.18.235']",,
+2024-11-14T22:21:27.651099,attheraces.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.651099,audrte.com,62.76.76.62,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attn.tv,2.56.220.2,A,"['52.217.199.53', '16.15.184.244', '54.231.140.253', '52.217.101.219', '52.217.83.3', '16.15.184.119', '54.231.163.69', '52.217.233.13']",,
+2024-11-14T22:21:27.651099,au.com,2a03:90c0:9992::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,august.com,77.88.8.8,A,[],Timeout,Timeout occurred for domain: august.com on server: 77.88.8.8
+2024-11-14T22:21:27.651099,au.com,2606:4700:4700::1001,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,attheraces.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.651099,audrte.com,2.56.220.2,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attn.tv,1.0.0.1,A,"['52.217.73.43', '16.15.217.160', '54.231.201.141', '16.182.39.133', '52.217.227.253', '52.216.49.133', '52.216.56.133', '52.216.44.21']",,
+2024-11-14T22:21:27.651099,audrte.com,8.8.4.4,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attheraces.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.651099,au.com,2001:4860:4860::8888,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,auerproxy.de,202.96.128.86,A,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 202.96.128.86
+2024-11-14T22:21:27.651099,audrte.com,95.85.95.85,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attn.tv,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2606:4700:4700::1111
+2024-11-14T22:21:27.651099,au.com,2a02:6b8::feed:0ff,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,auerproxy.de,210.21.196.6,A,[],Timeout,Timeout occurred for domain: auerproxy.de on server: 210.21.196.6
+2024-11-14T22:21:27.651099,audrte.com,62.76.62.76,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attn.tv,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2606:4700:4700::1001
+2024-11-14T22:21:27.651099,au.com,2001:4860:4860::8844,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,attheraces.com,218.30.118.6,A,['20.73.123.27'],,
+2024-11-14T22:21:27.651099,audrte.com,8.8.8.8,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attheraces.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2400:3200::1
+2024-11-14T22:21:27.651099,au.com,2606:4700:4700::1111,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,auctollo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: auctollo.com on server: 202.96.128.86
+2024-11-14T22:21:27.651099,auctollo.com,94.140.15.15,A,['107.180.56.148'],,
+2024-11-14T22:21:27.651099,attheraces.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2400:3200:baba::1
+2024-11-14T22:21:27.651099,attn.tv,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:0:ccc::2
+2024-11-14T22:21:27.651099,attn.tv,195.208.5.1,A,"['52.216.210.149', '16.182.68.221', '52.217.86.11', '52.217.89.219', '52.217.75.67', '16.15.176.157', '54.231.192.141', '52.216.168.234']",,
+2024-11-14T22:21:27.651099,auctollo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: auctollo.com on server: 210.21.196.6
+2024-11-14T22:21:27.651099,attheraces.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.651099,audrte.com,195.208.4.1,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,audrte.com,208.67.220.220,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attn.tv,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:119:53::53
+2024-11-14T22:21:27.651099,attheraces.com,180.76.76.76,A,['20.73.123.27'],,
+2024-11-14T22:21:27.651099,audrte.com,195.208.5.1,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attheraces.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.651099,au.com,2a03:90c0:999d::1,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.651099,attheraces.com,117.50.11.11,A,['20.73.123.27'],,
+2024-11-14T22:21:27.651099,attheraces.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.651099,attn.tv,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:119:35::35
+2024-11-14T22:21:27.651099,attheraces.com,223.6.6.6,A,['20.73.123.27'],,
+2024-11-14T22:21:27.651099,audrte.com,208.67.222.222,A,['184.168.221.45'],,
+2024-11-14T22:21:27.651099,attheraces.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:fe::10
+2024-11-14T22:21:27.651099,attn.tv,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:fe::10
+2024-11-14T22:21:27.651099,audrte.com,77.88.8.8,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 77.88.8.8
+2024-11-14T22:21:27.652002,audrte.com,1.0.0.1,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attheraces.com,119.29.29.29,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,attheraces.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:119:35::35
+2024-11-14T22:21:27.652002,attheraces.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: attheraces.com on server: 210.21.196.6
+2024-11-14T22:21:27.652002,audrte.com,114.114.115.115,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attheraces.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: attheraces.com on server: 123.125.81.7
+2024-11-14T22:21:27.652002,attn.tv,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.652002,attn.tv,195.208.4.1,A,"['52.217.231.245', '52.217.202.133', '54.231.229.197', '16.182.37.53', '52.217.43.147', '54.231.169.149', '52.216.220.109', '16.182.68.221']",,
+2024-11-14T22:21:27.652002,audrte.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T22:21:27.652002,attheraces.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:fe::fe
+2024-11-14T22:21:27.652002,attn.tv,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2400:3200::1
+2024-11-14T22:21:27.652002,attn.tv,62.76.76.62,A,"['52.217.199.181', '52.217.201.245', '52.217.192.221', '54.231.128.101', '54.231.172.237', '16.15.185.192', '16.182.39.189', '16.182.36.77']",,
+2024-11-14T22:21:27.652002,audrte.com,223.5.5.5,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attheraces.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.652002,attn.tv,62.76.62.76,A,"['54.231.166.157', '52.217.69.171', '52.217.113.245', '52.217.126.29', '52.217.132.53', '54.231.233.117', '52.217.171.229', '52.217.121.53']",,
+2024-11-14T22:21:27.652002,audrte.com,9.9.9.10,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a10:50c0::ad2:ff
+2024-11-14T22:21:27.652002,attheraces.com,94.140.14.14,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,180.76.76.76,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2400:3200:baba::1
+2024-11-14T22:21:27.652002,attheraces.com,114.114.114.114,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T22:21:27.652002,attheraces.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.652002,attn.tv,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:0:ccd::2
+2024-11-14T22:21:27.652002,attheraces.com,114.114.115.115,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,223.6.6.6,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attheraces.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:0:ccd::2
+2024-11-14T22:21:27.652002,attn.tv,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.652002,attheraces.com,223.5.5.5,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,114.114.114.114,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,audrte.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: audrte.com on server: 9.9.9.9
+2024-11-14T22:21:27.652002,attheraces.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2a10:50c0::ad1:ff
+2024-11-14T22:21:27.652002,attn.tv,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a02:6b8::feed:0ff
+2024-11-14T22:21:27.652002,attheraces.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:119:53::53
+2024-11-14T22:21:27.652002,attheraces.com,101.226.4.6,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,attn.tv,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T22:21:27.652002,attn.tv,77.88.8.8,A,"['16.182.39.181', '52.217.236.205', '16.182.69.189', '52.216.130.178', '3.5.22.17', '52.217.135.125', '52.217.162.37', '3.5.14.175']",,
+2024-11-14T22:21:27.652002,attn.tv,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a0c:a9c7:9::1
+2024-11-14T22:21:27.652002,attn.tv,1.1.1.1,A,"['52.217.231.189', '16.182.34.149', '54.231.135.101', '52.216.113.10', '16.15.193.9', '16.182.66.29', '52.217.133.101', '52.216.62.213']",,
+2024-11-14T22:21:27.652002,audrte.com,208.67.220.222,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2001:4860:4860::8844
+2024-11-14T22:21:27.652002,attn.tv,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2620:fe::fe
+2024-11-14T22:21:27.652002,attheraces.com,123.125.81.6,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,208.67.222.220,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a03:90c0:9992::1
+2024-11-14T22:21:27.652002,attn.tv,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a0c:a9c7:8::1
+2024-11-14T22:21:27.652002,attn.tv,9.9.9.9,A,[],Timeout,Timeout occurred for domain: attn.tv on server: 9.9.9.9
+2024-11-14T22:21:27.652002,attheraces.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2402:4e00::
+2024-11-14T22:21:27.652002,attn.tv,8.8.8.8,A,"['54.231.160.77', '52.217.140.37', '3.5.3.37', '52.216.244.83', '52.217.142.181', '16.182.72.221', '52.217.90.203', '52.217.107.211']",,
+2024-11-14T22:21:27.652002,audrte.com,119.29.29.29,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2a03:90c0:999d::1
+2024-11-14T22:21:27.652002,au.com,2001:6d0:6d0::2001,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.652002,attheraces.com,94.140.15.15,A,['20.73.123.27'],,
+2024-11-14T22:21:27.652002,audrte.com,1.1.1.1,A,['184.168.221.45'],,
+2024-11-14T22:21:27.652002,attn.tv,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: attn.tv on server: 2400:da00::6666
+2024-11-14T22:21:27.652002,au.com,2001:6d0:d6::2001,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.653012,attn.tv,8.8.4.4,A,"['52.217.87.211', '52.217.201.237', '52.216.42.125', '16.15.184.97', '16.15.201.113', '52.217.116.5', '16.15.185.40', '52.216.211.229']",,
+2024-11-14T22:21:27.653012,attn.tv,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2001:4860:4860::8888
+2024-11-14T22:21:27.653012,au.com,2a02:6b8:0:1::feed:0ff,AAAA,['2001:268:fa03:500:175:129:0:108'],,
+2024-11-14T22:21:27.653012,attn.tv,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: attn.tv on server: 2001:6d0:6d0::2001
+2024-11-14T22:21:27.653012,attn.tv,77.88.8.1,A,"['54.231.168.61', '16.182.65.5', '52.216.171.50', '3.5.31.157', '54.231.227.13', '52.216.133.202', '52.217.223.61', '52.217.203.53']",,
+2024-11-14T22:21:27.653012,attheraces.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: attheraces.com on server: 202.96.128.86
+2024-11-14T22:21:27.653012,attheraces.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2001:6d0:d6::2001
+2024-11-14T22:21:27.653012,attheraces.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: attheraces.com on server: 2620:0:ccc::2
+2024-11-14T22:21:27.653012,attheraces.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: attheraces.com on server: 101.226.4.7
+2024-11-14T22:21:27.653012,attheraces.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: attheraces.com on server: 2400:da00::6666

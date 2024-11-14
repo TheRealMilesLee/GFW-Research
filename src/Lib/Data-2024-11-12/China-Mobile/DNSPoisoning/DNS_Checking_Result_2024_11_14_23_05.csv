@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T23:05:18.750800,awsapprunner.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 208.67.220.220
+2024-11-14T23:05:18.750800,awsdns-06.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 208.67.220.220
+2024-11-14T23:05:18.750800,aws.dev,94.140.15.15,A,[],NoAnswer,No answer for domain: aws.dev on server: 94.140.15.15
+2024-11-14T23:05:18.750800,awsdns-06.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 94.140.14.14
+2024-11-14T23:05:18.750800,awsapprunner.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 208.67.222.222
+2024-11-14T23:05:18.750800,awmdm.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.750800,awin1.com,9.9.9.10,A,"['3.160.150.20', '3.160.150.83', '3.160.150.123', '3.160.150.78']",,
+2024-11-14T23:05:18.752084,aweray.net,101.226.4.6,A,['35.200.66.95'],,
+2024-11-14T23:05:18.752084,aws-prd.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2400:3200::1
+2024-11-14T23:05:18.752084,awsdns-06.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 208.67.220.222
+2024-11-14T23:05:18.752084,aws-prd.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.752084,aws.dev,223.5.5.5,A,[],NoAnswer,No answer for domain: aws.dev on server: 223.5.5.5
+2024-11-14T23:05:18.752084,awin1.com,195.208.5.1,A,"['3.164.230.117', '3.164.230.60', '3.164.230.102', '3.164.230.92']",,
+2024-11-14T23:05:18.752084,awsdns-06.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 9.9.9.10
+2024-11-14T23:05:18.752084,aws.dev,114.114.114.114,A,[],NoAnswer,No answer for domain: aws.dev on server: 114.114.114.114
+2024-11-14T23:05:18.752084,aws.dev,114.114.115.115,A,[],NoAnswer,No answer for domain: aws.dev on server: 114.114.115.115
+2024-11-14T23:05:18.752084,awsdns-06.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 208.67.222.220
+2024-11-14T23:05:18.752084,awin1.com,208.67.222.220,A,"['13.35.186.100', '13.35.186.103', '13.35.186.116', '13.35.186.76']",,
+2024-11-14T23:05:18.752084,aws-prd.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.752084,awsdns-06.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 195.208.5.1
+2024-11-14T23:05:18.752084,aws.dev,117.50.11.11,A,[],NoAnswer,No answer for domain: aws.dev on server: 117.50.11.11
+2024-11-14T23:05:18.752084,aws.dev,101.226.4.6,A,[],NoAnswer,No answer for domain: aws.dev on server: 101.226.4.6
+2024-11-14T23:05:18.752084,awsdns-06.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 208.67.222.222
+2024-11-14T23:05:18.752084,aws-prd.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:fe::10
+2024-11-14T23:05:18.752084,awin1.com,94.140.14.14,A,"['3.168.178.15', '3.168.178.64', '3.168.178.26', '3.168.178.89']",,
+2024-11-14T23:05:18.752084,awin1.com,62.76.62.76,A,"['3.164.230.102', '3.164.230.60', '3.164.230.92', '3.164.230.117']",,
+2024-11-14T23:05:18.752084,aws.dev,123.125.81.6,A,[],NoAnswer,No answer for domain: aws.dev on server: 123.125.81.6
+2024-11-14T23:05:18.752084,awsdns-06.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 77.88.8.8
+2024-11-14T23:05:18.752084,aws.dev,218.30.118.6,A,[],NoAnswer,No answer for domain: aws.dev on server: 218.30.118.6
+2024-11-14T23:05:18.752084,aws-prd.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:fe::fe
+2024-11-14T23:05:18.752084,aws.dev,211.136.17.107,A,[],NoAnswer,No answer for domain: aws.dev on server: 211.136.17.107
+2024-11-14T23:05:18.752084,aws-prd.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:119:35::35
+2024-11-14T23:05:18.752084,awin1.com,195.208.4.1,A,"['3.164.68.66', '3.164.68.125', '3.164.68.12', '3.164.68.10']",,
+2024-11-14T23:05:18.752084,awin1.com,77.88.8.1,A,"['3.160.150.78', '3.160.150.83', '3.160.150.20', '3.160.150.123']",,
+2024-11-14T23:05:18.752084,awsdns-06.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 8.8.8.8
+2024-11-14T23:05:18.752084,aweray.net,117.50.11.11,A,['35.200.66.95'],,
+2024-11-14T23:05:18.752084,aws-prd.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.752084,awin1.com,62.76.76.62,A,"['3.164.68.12', '3.164.68.125', '3.164.68.10', '3.164.68.66']",,
+2024-11-14T23:05:18.753120,aws-prd.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.753120,awsdns-06.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 195.208.4.1
+2024-11-14T23:05:18.753120,awin1.com,208.67.222.222,A,"['13.35.186.116', '13.35.186.76', '13.35.186.100', '13.35.186.103']",,
+2024-11-14T23:05:18.753120,aws-prd.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.753120,awsdns-06.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2.56.220.2
+2024-11-14T23:05:18.753120,awmdm.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2400:3200::1
+2024-11-14T23:05:18.753120,awin1.com,208.67.220.222,A,"['13.35.186.76', '13.35.186.100', '13.35.186.103', '13.35.186.116']",,
+2024-11-14T23:05:18.753120,aws.dev,8.8.4.4,A,[],NoAnswer,No answer for domain: aws.dev on server: 8.8.4.4
+2024-11-14T23:05:18.753120,aws.dev,119.29.29.29,A,[],NoAnswer,No answer for domain: aws.dev on server: 119.29.29.29
+2024-11-14T23:05:18.753120,aws.dev,180.76.76.76,A,[],NoAnswer,No answer for domain: aws.dev on server: 180.76.76.76
+2024-11-14T23:05:18.753120,awmdm.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2402:4e00::
+2024-11-14T23:05:18.753120,aweray.net,123.125.81.6,A,['35.200.66.95'],,
+2024-11-14T23:05:18.753120,awsdns-06.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 62.76.76.62
+2024-11-14T23:05:18.753120,aws.dev,1.0.0.1,A,[],NoAnswer,No answer for domain: aws.dev on server: 1.0.0.1
+2024-11-14T23:05:18.753120,awsdns-06.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 1.1.1.1
+2024-11-14T23:05:18.753120,aws-prd.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.753120,aweray.net,211.136.17.107,A,['35.200.66.95'],,
+2024-11-14T23:05:18.753120,awin1.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awin1.com on server: 9.9.9.9
+2024-11-14T23:05:18.753120,aws.dev,77.88.8.8,A,[],NoAnswer,No answer for domain: aws.dev on server: 77.88.8.8
+2024-11-14T23:05:18.753120,awsapprunner.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 9.9.9.10
+2024-11-14T23:05:18.753120,awmdm.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.753120,aws.dev,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aws.dev on server: 101.226.4.7
+2024-11-14T23:05:18.753120,awsdns-06.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 77.88.8.1
+2024-11-14T23:05:18.753120,awin1.com,77.88.8.8,A,"['3.160.150.78', '3.160.150.20', '3.160.150.123', '3.160.150.83']",,
+2024-11-14T23:05:18.753120,awsapprunner.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 195.208.5.1
+2024-11-14T23:05:18.753120,aws.dev,62.76.76.62,A,[],NoAnswer,No answer for domain: aws.dev on server: 62.76.76.62
+2024-11-14T23:05:18.753120,aws-prd.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.753120,awsdns-06.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 9.9.9.9
+2024-11-14T23:05:18.753120,aws.dev,223.6.6.6,A,[],NoAnswer,No answer for domain: aws.dev on server: 223.6.6.6
+2024-11-14T23:05:18.754164,awsdns-06.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 1.0.0.1
+2024-11-14T23:05:18.754164,awmdm.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.754164,aws.dev,195.208.4.1,A,[],NoAnswer,No answer for domain: aws.dev on server: 195.208.4.1
+2024-11-14T23:05:18.754164,aws.dev,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aws.dev on server: 202.96.128.86
+2024-11-14T23:05:18.754164,awin1.com,95.85.95.85,A,"['13.35.186.103', '13.35.186.100', '13.35.186.76', '13.35.186.116']",,
+2024-11-14T23:05:18.754164,aws.dev,77.88.8.1,A,[],NoAnswer,No answer for domain: aws.dev on server: 77.88.8.1
+2024-11-14T23:05:18.754164,awsdns-06.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 95.85.95.85
+2024-11-14T23:05:18.754164,awmdm.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awmdm.com on server: 2400:da00::6666
+2024-11-14T23:05:18.754164,awsapprunner.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 62.76.62.76
+2024-11-14T23:05:18.754164,aws-prd.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:0:ccc::2
+2024-11-14T23:05:18.754164,awsdns-05.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 117.50.11.11
+2024-11-14T23:05:18.754164,aws-prd.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:0:ccd::2
+2024-11-14T23:05:18.754164,aws.dev,62.76.62.76,A,[],NoAnswer,No answer for domain: aws.dev on server: 62.76.62.76
+2024-11-14T23:05:18.754164,awin1.com,1.1.1.1,A,"['99.84.55.102', '99.84.55.68', '99.84.55.111', '99.84.55.53']",,
+2024-11-14T23:05:18.754164,awsapprunner.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 195.208.4.1
+2024-11-14T23:05:18.754164,aws.dev,94.140.14.14,A,[],NoAnswer,No answer for domain: aws.dev on server: 94.140.14.14
+2024-11-14T23:05:18.754164,awin1.com,2.56.220.2,A,"['13.35.186.116', '13.35.186.103', '13.35.186.76', '13.35.186.100']",,
+2024-11-14T23:05:18.754164,awin1.com,1.0.0.1,A,"['18.65.3.50', '18.65.3.27', '18.65.3.69', '18.65.3.88']",,
+2024-11-14T23:05:18.754164,awsdns-05.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 123.125.81.6
+2024-11-14T23:05:18.754164,awsapprunner.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 77.88.8.1
+2024-11-14T23:05:18.754164,aws.dev,195.208.5.1,A,[],NoAnswer,No answer for domain: aws.dev on server: 195.208.5.1
+2024-11-14T23:05:18.755109,aws-prd.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2620:119:53::53
+2024-11-14T23:05:18.755109,awsapprunner.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 62.76.76.62
+2024-11-14T23:05:18.755109,awin1.com,8.8.8.8,A,"['13.35.186.100', '13.35.186.116', '13.35.186.76', '13.35.186.103']",,
+2024-11-14T23:05:18.755109,awsapprunner.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 77.88.8.8
+2024-11-14T23:05:18.755109,awsdns-06.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 8.8.4.4
+2024-11-14T23:05:18.755109,aws-prd.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.755109,awin1.com,8.8.4.4,A,"['13.35.186.103', '13.35.186.76', '13.35.186.116', '13.35.186.100']",,
+2024-11-14T23:05:18.755109,aws.dev,208.67.220.222,A,[],NoAnswer,No answer for domain: aws.dev on server: 208.67.220.222
+2024-11-14T23:05:18.755109,awsapprunner.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2.56.220.2
+2024-11-14T23:05:18.755109,awsdns-05.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 180.76.76.76
+2024-11-14T23:05:18.755109,aws-prd.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.755109,awin1.com,208.67.220.220,A,"['13.35.186.100', '13.35.186.103', '13.35.186.116', '13.35.186.76']",,
+2024-11-14T23:05:18.755109,aws.dev,95.85.95.85,A,[],NoAnswer,No answer for domain: aws.dev on server: 95.85.95.85
+2024-11-14T23:05:18.755109,awsdns-06.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 62.76.62.76
+2024-11-14T23:05:18.755109,aws.dev,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aws.dev on server: 210.21.196.6
+2024-11-14T23:05:18.755109,aws-prd.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.755109,aws.dev,9.9.9.10,A,[],NoAnswer,No answer for domain: aws.dev on server: 9.9.9.10
+2024-11-14T23:05:18.756106,awsapprunner.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 95.85.95.85
+2024-11-14T23:05:18.756106,awsapprunner.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 9.9.9.9
+2024-11-14T23:05:18.756106,aws-prd.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.756106,awin1.com,223.5.5.5,A,"['18.65.229.121', '18.65.229.97', '18.65.229.56', '18.65.229.50']",,
+2024-11-14T23:05:18.756106,aws.dev,208.67.222.222,A,[],NoAnswer,No answer for domain: aws.dev on server: 208.67.222.222
+2024-11-14T23:05:18.756106,awsapprunner.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 1.1.1.1
+2024-11-14T23:05:18.756106,awsdns-05.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 211.136.17.107
+2024-11-14T23:05:18.756106,aws-prd.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.756106,awin1.com,223.6.6.6,A,"['18.65.229.50', '18.65.229.121', '18.65.229.56', '18.65.229.97']",,
+2024-11-14T23:05:18.756106,aws.dev,2.56.220.2,A,[],NoAnswer,No answer for domain: aws.dev on server: 2.56.220.2
+2024-11-14T23:05:18.756106,aweray.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aweray.net on server: 123.125.81.7
+2024-11-14T23:05:18.756106,aws-prd.net,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.756106,awsdns-05.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 101.226.4.7
+2024-11-14T23:05:18.756106,aws.dev,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aws.dev on server: 9.9.9.9
+2024-11-14T23:05:18.756106,aws.dev,208.67.220.220,A,[],NoAnswer,No answer for domain: aws.dev on server: 208.67.220.220
+2024-11-14T23:05:18.756106,awsapprunner.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 8.8.8.8
+2024-11-14T23:05:18.756106,awsdns-05.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 218.30.118.6
+2024-11-14T23:05:18.756106,awmdm.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:119:53::53
+2024-11-14T23:05:18.756106,awin1.com,114.114.115.115,A,"['13.33.28.55', '13.33.28.33', '13.33.28.27']",,
+2024-11-14T23:05:18.756106,awin1.com,114.114.114.114,A,"['13.33.28.33', '13.33.28.27', '13.33.28.11']",,
+2024-11-14T23:05:18.756106,awsapprunner.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 8.8.4.4
+2024-11-14T23:05:18.756106,aws.dev,208.67.222.220,A,[],NoAnswer,No answer for domain: aws.dev on server: 208.67.222.220
+2024-11-14T23:05:18.756106,awmdm.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.756106,awsdns-05.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 119.29.29.29
+2024-11-14T23:05:18.756106,awin1.com,94.140.15.15,A,"['3.168.178.26', '3.168.178.89', '3.168.178.15', '3.168.178.64']",,
+2024-11-14T23:05:18.756106,aws.dev,1.1.1.1,A,[],NoAnswer,No answer for domain: aws.dev on server: 1.1.1.1
+2024-11-14T23:05:18.756106,awsdns-05.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 101.226.4.6
+2024-11-14T23:05:18.756106,awmdm.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.757111,awmdm.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awmdm.com on server: 208.67.222.222
+2024-11-14T23:05:18.757111,aws-prd.net,180.76.76.76,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 180.76.76.76
+2024-11-14T23:05:18.757111,awsapps.com,114.114.115.115,A,"['13.35.210.48', '13.35.210.122', '13.35.210.25']",,
+2024-11-14T23:05:18.757111,aweray.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2402:4e00::
+2024-11-14T23:05:18.757111,awsdns-05.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 123.125.81.7
+2024-11-14T23:05:18.757111,awsdns-11.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.757111,awmdm.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awmdm.com on server: 208.67.222.220
+2024-11-14T23:05:18.757111,awsapps.com,223.5.5.5,A,"['99.86.38.94', '99.86.38.111', '99.86.38.46', '99.86.38.102']",,
+2024-11-14T23:05:18.757111,aweray.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.757111,awsapprunner.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 1.0.0.1
+2024-11-14T23:05:18.757111,awmdm.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awmdm.com on server: 9.9.9.10
+2024-11-14T23:05:18.757111,aws-prd.net,223.6.6.6,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 223.6.6.6
+2024-11-14T23:05:18.757111,awsdns-02.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2.56.220.2
+2024-11-14T23:05:18.757111,aweray.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aweray.net on server: 101.226.4.7
+2024-11-14T23:05:18.757111,aweray.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.757111,aws-prd.net,2.56.220.2,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 2.56.220.2
+2024-11-14T23:05:18.757111,aws-prd.net,119.29.29.29,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 119.29.29.29
+2024-11-14T23:05:18.757111,awsdns-11.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.758106,aweray.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:119:53::53
+2024-11-14T23:05:18.758106,awsapps.com,94.140.14.14,A,"['18.244.61.83', '18.244.61.26', '18.244.61.102', '18.244.61.109']",,
+2024-11-14T23:05:18.758106,awmdm.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awmdm.com on server: 208.67.220.220
+2024-11-14T23:05:18.758106,awsdns-11.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.758106,awsdns-05.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 210.21.196.6
+2024-11-14T23:05:18.758106,aws-prd.net,123.125.81.6,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 123.125.81.6
+2024-11-14T23:05:18.758106,awsdns-02.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 95.85.95.85
+2024-11-14T23:05:18.758106,aweray.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:0:ccc::2
+2024-11-14T23:05:18.758106,awsdns-11.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.758106,aws-prd.net,62.76.62.76,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 62.76.62.76
+2024-11-14T23:05:18.758106,awsapps.com,195.208.5.1,A,"['3.164.230.20', '3.164.230.7', '3.164.230.2', '3.164.230.109']",,
+2024-11-14T23:05:18.758106,aws-prd.net,8.8.4.4,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 8.8.4.4
+2024-11-14T23:05:18.758106,aweray.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:fe::10
+2024-11-14T23:05:18.758106,awsdns-02.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 1.1.1.1
+2024-11-14T23:05:18.758106,aweray.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:119:35::35
+2024-11-14T23:05:18.758106,awsdns-11.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.758106,aws-prd.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.758106,aws-prd.net,1.1.1.1,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 1.1.1.1
+2024-11-14T23:05:18.758106,aws-prd.net,62.76.76.62,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 62.76.76.62
+2024-11-14T23:05:18.758106,awsdns-02.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 1.0.0.1
+2024-11-14T23:05:18.758106,aweray.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.758106,awsdns-09.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.758106,awsdns-05.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 202.96.128.86
+2024-11-14T23:05:18.758106,awsdns-11.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.758106,awsdns-02.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 8.8.4.4
+2024-11-14T23:05:18.758106,aweray.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:fe::fe
+2024-11-14T23:05:18.758106,awsdns-09.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2402:4e00::
+2024-11-14T23:05:18.758106,aws-prd.net,8.8.8.8,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 8.8.8.8
+2024-11-14T23:05:18.758106,aws-prd.net,101.226.4.6,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 101.226.4.6
+2024-11-14T23:05:18.758106,aweray.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.758106,awsdns-09.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.758106,aws-prd.net,77.88.8.8,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 77.88.8.8
+2024-11-14T23:05:18.758106,aws.com,8.8.4.4,A,"['13.226.120.76', '13.226.120.109', '13.226.120.104', '13.226.120.11']",,
+2024-11-14T23:05:18.759164,aws.dev,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aws.dev on server: 123.125.81.7
+2024-11-14T23:05:18.759164,aweray.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.759164,awsdns-09.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2400:3200::1
+2024-11-14T23:05:18.759164,aws-prd.net,77.88.8.1,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 77.88.8.1
+2024-11-14T23:05:18.759164,aws.com,1.1.1.1,A,"['13.225.183.112', '13.225.183.3', '13.225.183.128', '13.225.183.60']",,
+2024-11-14T23:05:18.759164,awsdns-02.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 8.8.8.8
+2024-11-14T23:05:18.759164,aws-prd.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 202.96.128.86
+2024-11-14T23:05:18.759164,aweray.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.759164,awsdns-11.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:119:35::35
+2024-11-14T23:05:18.759164,aws.com,8.8.8.8,A,"['13.226.120.11', '13.226.120.109', '13.226.120.104', '13.226.120.76']",,
+2024-11-14T23:05:18.759164,aws-prd.net,1.0.0.1,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 1.0.0.1
+2024-11-14T23:05:18.759164,aweray.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2620:0:ccd::2
+2024-11-14T23:05:18.759164,awsdns-11.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.759164,aws-prd.net,95.85.95.85,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 95.85.95.85
+2024-11-14T23:05:18.759164,aws-prd.net,195.208.5.1,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 195.208.5.1
+2024-11-14T23:05:18.759164,awsapps.com,208.67.220.222,A,"['13.226.61.57', '13.226.61.128', '13.226.61.2', '13.226.61.4']",,
+2024-11-14T23:05:18.759164,aweray.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.759164,awsdns-11.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:119:53::53
+2024-11-14T23:05:18.759164,awmdm.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awmdm.com on server: 101.226.4.6
+2024-11-14T23:05:18.759164,aws-prd.net,208.67.220.220,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 208.67.220.220
+2024-11-14T23:05:18.759164,awsapps.com,101.226.4.6,A,"['13.35.210.48', '13.35.210.25', '13.35.210.122', '13.35.210.103']",,
+2024-11-14T23:05:18.759164,aweray.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.759164,awsdns-09.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 2400:da00::6666
+2024-11-14T23:05:18.759164,aws-prd.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 123.125.81.7
+2024-11-14T23:05:18.759164,awsdns-11.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 2400:da00::6666
+2024-11-14T23:05:18.759164,aws-prd.net,195.208.4.1,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 195.208.4.1
+2024-11-14T23:05:18.759164,awsapps.com,208.67.222.222,A,"['13.226.61.128', '13.226.61.2', '13.226.61.4', '13.226.61.57']",,
+2024-11-14T23:05:18.759164,aweray.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.759164,awmdm.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awmdm.com on server: 218.30.118.6
+2024-11-14T23:05:18.759164,aws-prd.net,223.5.5.5,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 223.5.5.5
+2024-11-14T23:05:18.759164,awsapps.com,117.50.11.11,A,"['13.35.210.122', '13.35.210.25', '13.35.210.48', '13.35.210.103']",,
+2024-11-14T23:05:18.759164,awmdm.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awmdm.com on server: 101.226.4.7
+2024-11-14T23:05:18.759164,aweray.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.759164,awmdm.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awmdm.com on server: 211.136.17.107
+2024-11-14T23:05:18.759164,awsapps.com,123.125.81.6,A,"['13.35.210.122', '13.35.210.103', '13.35.210.48', '13.35.210.25']",,
+2024-11-14T23:05:18.759164,awsdns-11.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.759164,awsdns-11.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.759164,aws-prd.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 210.21.196.6
+2024-11-14T23:05:18.759164,awmdm.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awmdm.com on server: 117.50.11.11
+2024-11-14T23:05:18.759164,aweray.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.759164,awsapps.com,218.30.118.6,A,"['13.35.210.122', '13.35.210.103', '13.35.210.48', '13.35.210.25']",,
+2024-11-14T23:05:18.759164,awsdns-11.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.759164,aweray.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.759164,awmdm.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awmdm.com on server: 123.125.81.6
+2024-11-14T23:05:18.759164,awsapps.com,211.136.17.107,A,"['13.35.210.103', '13.35.210.48', '13.35.210.122', '13.35.210.25']",,
+2024-11-14T23:05:18.759164,aws-prd.net,117.50.11.11,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 117.50.11.11
+2024-11-14T23:05:18.759164,aweray.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.759164,awmdm.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awmdm.com on server: 223.5.5.5
+2024-11-14T23:05:18.759164,awsdns-11.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:fe::fe
+2024-11-14T23:05:18.759164,aws-prd.net,114.114.115.115,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 114.114.115.115
+2024-11-14T23:05:18.759164,aweray.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.759164,awsdns-11.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:fe::10
+2024-11-14T23:05:18.759164,awsdns-11.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.759164,awmdm.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awmdm.com on server: 180.76.76.76
+2024-11-14T23:05:18.760732,awsapps.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsapps.com on server: 101.226.4.7
+2024-11-14T23:05:18.760732,awsdns-11.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.760732,awsapps.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsapps.com on server: 123.125.81.7
+2024-11-14T23:05:18.760732,awsdns-11.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2402:4e00::
+2024-11-14T23:05:18.760843,awsdns-11.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.760843,aws-prd.net,218.30.118.6,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 218.30.118.6
+2024-11-14T23:05:18.760843,awsapps.com,114.114.114.114,A,"['13.35.210.122', '13.35.210.25', '13.35.210.103']",,
+2024-11-14T23:05:18.760843,awmdm.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awmdm.com on server: 123.125.81.7
+2024-11-14T23:05:18.760843,aws-prd.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 101.226.4.7
+2024-11-14T23:05:18.760843,awsapps.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsapps.com on server: 202.96.128.86
+2024-11-14T23:05:18.760843,aws-prd.net,9.9.9.10,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 9.9.9.10
+2024-11-14T23:05:18.760843,awsapps.com,9.9.9.10,A,"['18.66.122.45', '18.66.122.89', '18.66.122.76', '18.66.122.111']",,
+2024-11-14T23:05:18.760843,aws-prd.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 9.9.9.9
+2024-11-14T23:05:18.760843,awsdns-11.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.760843,awmdm.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awmdm.com on server: 114.114.114.114
+2024-11-14T23:05:18.760843,aws-prd.net,94.140.15.15,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 94.140.15.15
+2024-11-14T23:05:18.760843,awsapps.com,94.140.15.15,A,"['18.244.61.26', '18.244.61.102', '18.244.61.83', '18.244.61.109']",,
+2024-11-14T23:05:18.760843,awin1.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.760843,awsdns-11.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.760843,awmdm.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awmdm.com on server: 114.114.115.115
+2024-11-14T23:05:18.760843,aws-prd.net,114.114.114.114,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 114.114.114.114
+2024-11-14T23:05:18.760843,awsapps.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsapps.com on server: 210.21.196.6
+2024-11-14T23:05:18.761757,awsdns-11.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 123.125.81.7
+2024-11-14T23:05:18.761757,awsdns-09.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.761757,awmdm.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awmdm.com on server: 223.6.6.6
+2024-11-14T23:05:18.761757,aws-prd.net,208.67.220.222,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 208.67.220.222
+2024-11-14T23:05:18.761757,awsapps.com,208.67.220.220,A,"['13.226.61.128', '13.226.61.2', '13.226.61.4', '13.226.61.57']",,
+2024-11-14T23:05:18.761757,awin1.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.761757,awsdns-09.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.761757,awsdns-11.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.761757,awmdm.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awmdm.com on server: 119.29.29.29
+2024-11-14T23:05:18.762754,aws-prd.net,94.140.14.14,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 94.140.14.14
+2024-11-14T23:05:18.762754,awsapps.com,208.67.222.220,A,"['13.226.61.57', '13.226.61.128', '13.226.61.2', '13.226.61.4']",,
+2024-11-14T23:05:18.762754,aweray.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2400:3200::1
+2024-11-14T23:05:18.762754,awsdns-09.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:fe::10
+2024-11-14T23:05:18.762754,awmdm.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awmdm.com on server: 202.96.128.86
+2024-11-14T23:05:18.762754,awsdns-11.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2400:3200::1
+2024-11-14T23:05:18.762754,aws-prd.net,211.136.17.107,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 211.136.17.107
+2024-11-14T23:05:18.762754,awsapps.com,223.6.6.6,A,"['99.86.38.102', '99.86.38.111', '99.86.38.46', '99.86.38.94']",,
+2024-11-14T23:05:18.762754,aweray.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aweray.net on server: 2400:3200:baba::1
+2024-11-14T23:05:18.762754,awsdns-09.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:119:35::35
+2024-11-14T23:05:18.762754,awmdm.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awmdm.com on server: 94.140.14.14
+2024-11-14T23:05:18.762754,aws-prd.net,208.67.222.222,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 208.67.222.222
+2024-11-14T23:05:18.762754,awmdm.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awmdm.com on server: 94.140.15.15
+2024-11-14T23:05:18.762754,awsapps.com,180.76.76.76,A,"['13.226.61.2', '13.226.61.4', '13.226.61.57', '13.226.61.128']",,
+2024-11-14T23:05:18.762754,awin1.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.762754,awmdm.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awmdm.com on server: 208.67.220.222
+2024-11-14T23:05:18.762754,aws-prd.net,208.67.222.220,A,[],NoAnswer,No answer for domain: aws-prd.net on server: 208.67.222.220
+2024-11-14T23:05:18.762754,awsdns-09.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:119:53::53
+2024-11-14T23:05:18.762754,awsdns-09.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.762754,awsapps.com,119.29.29.29,A,"['13.35.210.103', '13.35.210.25', '13.35.210.122', '13.35.210.48']",,
+2024-11-14T23:05:18.762754,aweray.net,95.85.95.85,A,['35.200.66.95'],,
+2024-11-14T23:05:18.762754,awsdns-11.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 1.1.1.1
+2024-11-14T23:05:18.762754,awsdns-03.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:fe::10
+2024-11-14T23:05:18.762754,awsdns-05.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2400:3200::1
+2024-11-14T23:05:18.762754,awsdns-06.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.762754,aweray.net,218.30.118.6,A,['35.200.66.95'],,
+2024-11-14T23:05:18.762754,awsdns-08.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 195.208.4.1
+2024-11-14T23:05:18.762754,awsdns-09.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 123.125.81.6
+2024-11-14T23:05:18.762754,awsdns-02.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.762754,awsdns-03.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:fe::fe
+2024-11-14T23:05:18.762754,awsdns-05.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.762754,awsdns-11.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.762754,aweray.net,9.9.9.10,A,['35.200.66.95'],,
+2024-11-14T23:05:18.762754,awsdns-08.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 195.208.5.1
+2024-11-14T23:05:18.762754,awsdns-11.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 101.226.4.7
+2024-11-14T23:05:18.762754,awsdns-02.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.762754,awsdns-08.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.762754,awin1.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.762754,awsdns-06.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 123.125.81.6
+2024-11-14T23:05:18.762754,awsdns-09.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 218.30.118.6
+2024-11-14T23:05:18.762754,awsdns-02.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.762754,awsdns-03.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.762754,awmdm.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awmdm.com on server: 210.21.196.6
+2024-11-14T23:05:18.762754,awsdns-08.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.762754,awsdns-05.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.762754,awsdns-06.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 101.226.4.6
+2024-11-14T23:05:18.763768,awsdns-11.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 8.8.8.8
+2024-11-14T23:05:18.763768,awsdns-02.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:fe::fe
+2024-11-14T23:05:18.763768,awsdns-03.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.763768,awsdns-05.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.763768,aweray.net,195.208.5.1,A,['35.200.66.95'],,
+2024-11-14T23:05:18.763768,awsdns-08.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 77.88.8.1
+2024-11-14T23:05:18.763768,awsdns-02.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:fe::10
+2024-11-14T23:05:18.763768,awsdns-02.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2402:4e00::
+2024-11-14T23:05:18.763768,awsdns-05.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2402:4e00::
+2024-11-14T23:05:18.763768,awsdns-06.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.763768,aweray.net,208.67.220.222,A,['35.200.66.95'],,
+2024-11-14T23:05:18.763768,awsdns-08.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 62.76.62.76
+2024-11-14T23:05:18.763768,awsdns-09.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 208.67.220.222
+2024-11-14T23:05:18.763768,awsapps.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsapps.com on server: 9.9.9.9
+2024-11-14T23:05:18.763768,awsdns-02.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.763768,aweray.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aweray.net on server: 2400:da00::6666
+2024-11-14T23:05:18.763768,awsdns-06.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.763768,aweray.net,180.76.76.76,A,['35.200.66.95'],,
+2024-11-14T23:05:18.763768,awsdns-08.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.763768,awsdns-08.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 77.88.8.8
+2024-11-14T23:05:18.763768,awsdns-09.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 94.140.15.15
+2024-11-14T23:05:18.763768,awsdns-03.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.763768,awsdns-02.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.763768,awsdns-06.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.763768,awsdns-05.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.763768,aweray.net,1.1.1.1,A,['35.200.66.95'],,
+2024-11-14T23:05:18.763768,awsdns-09.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 208.67.220.220
+2024-11-14T23:05:18.763768,awsdns-08.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 62.76.76.62
+2024-11-14T23:05:18.763768,awsapps.com,2620:fe::fe,AAAA,"['2600:9000:27e3:f400:7:2c4b:2c40:93a1', '2600:9000:27e3:7a00:7:2c4b:2c40:93a1', '2600:9000:27e3:6200:7:2c4b:2c40:93a1', '2600:9000:27e3:2000:7:2c4b:2c40:93a1', '2600:9000:27e3:1000:7:2c4b:2c40:93a1', '2600:9000:27e3:ea00:7:2c4b:2c40:93a1', '2600:9000:27e3:b600:7:2c4b:2c40:93a1', '2600:9000:27e3:6000:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.763768,awsdns-03.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.763768,awsdns-03.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.763768,aweray.net,208.67.222.220,A,['35.200.66.95'],,
+2024-11-14T23:05:18.763768,awsdns-06.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.763768,awsdns-09.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 208.67.222.220
+2024-11-14T23:05:18.763768,awsdns-08.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 95.85.95.85
+2024-11-14T23:05:18.763768,awsdns-03.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2402:4e00::
+2024-11-14T23:05:18.763768,awsdns-08.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 9.9.9.9
+2024-11-14T23:05:18.763768,awsdns-02.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.764768,awsdns-08.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2.56.220.2
+2024-11-14T23:05:18.764768,awsdns-06.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.764768,awsapps.com,2a0c:a9c7:8::1,AAAA,"['2600:9000:2038:7200:7:2c4b:2c40:93a1', '2600:9000:2038:7e00:7:2c4b:2c40:93a1', '2600:9000:2038:f600:7:2c4b:2c40:93a1', '2600:9000:2038:400:7:2c4b:2c40:93a1', '2600:9000:2038:2e00:7:2c4b:2c40:93a1', '2600:9000:2038:6600:7:2c4b:2c40:93a1', '2600:9000:2038:8c00:7:2c4b:2c40:93a1', '2600:9000:2038:1400:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.764768,awsdns-03.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.764768,awsdns-09.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 114.114.114.114
+2024-11-14T23:05:18.764768,awsdns-05.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.764768,awsdns-06.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.764768,awsdns-09.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 101.226.4.6
+2024-11-14T23:05:18.764768,aweray.net,94.140.14.14,A,['35.200.66.95'],,
+2024-11-14T23:05:18.764768,awsapps.com,2a0c:a9c7:9::1,AAAA,"['2600:9000:2038:e800:7:2c4b:2c40:93a1', '2600:9000:2038:8000:7:2c4b:2c40:93a1', '2600:9000:2038:3000:7:2c4b:2c40:93a1', '2600:9000:2038:a800:7:2c4b:2c40:93a1', '2600:9000:2038:b800:7:2c4b:2c40:93a1', '2600:9000:2038:a00:7:2c4b:2c40:93a1', '2600:9000:2038:600:7:2c4b:2c40:93a1', '2600:9000:2038:400:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.764768,awsdns-05.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:fe::fe
+2024-11-14T23:05:18.764768,awsdns-03.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.764768,awsdns-06.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.764768,awsdns-08.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 9.9.9.10
+2024-11-14T23:05:18.764768,awsdns-11.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 8.8.4.4
+2024-11-14T23:05:18.764768,awsdns-06.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 223.5.5.5
+2024-11-14T23:05:18.764768,awsdns-06.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.764768,awsdns-05.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.764768,awsdns-08.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 8.8.4.4
+2024-11-14T23:05:18.764768,aweray.net,8.8.4.4,A,['35.200.66.95'],,
+2024-11-14T23:05:18.764768,awsdns-03.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.764768,awsapps.com,2001:6d0:d6::2001,AAAA,"['2600:9000:2038:de00:7:2c4b:2c40:93a1', '2600:9000:2038:5e00:7:2c4b:2c40:93a1', '2600:9000:2038:d800:7:2c4b:2c40:93a1', '2600:9000:2038:e800:7:2c4b:2c40:93a1', '2600:9000:2038:b000:7:2c4b:2c40:93a1', '2600:9000:2038:b800:7:2c4b:2c40:93a1', '2600:9000:2038:1000:7:2c4b:2c40:93a1', '2600:9000:2038:200:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.764768,awsdns-06.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:119:35::35
+2024-11-14T23:05:18.764768,aweray.net,208.67.220.220,A,['35.200.66.95'],,
+2024-11-14T23:05:18.764768,awsdns-05.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.764768,awsdns-08.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 1.0.0.1
+2024-11-14T23:05:18.764768,awsdns-02.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.764768,awsdns-03.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.764768,awsdns-05.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.764768,awsdns-06.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:119:53::53
+2024-11-14T23:05:18.764768,aweray.net,223.6.6.6,A,['35.200.66.95'],,
+2024-11-14T23:05:18.764768,awsdns-08.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 8.8.8.8
+2024-11-14T23:05:18.764768,awsdns-09.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 208.67.222.222
+2024-11-14T23:05:18.764768,awsdns-02.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.764768,awsdns-09.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 210.21.196.6
+2024-11-14T23:05:18.764768,awsdns-05.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.764768,awsdns-06.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:fe::fe
+2024-11-14T23:05:18.764768,aweray.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aweray.net on server: 202.96.128.86
+2024-11-14T23:05:18.764768,awsdns-08.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 1.1.1.1
+2024-11-14T23:05:18.764768,awsdns-09.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 9.9.9.10
+2024-11-14T23:05:18.764768,awsdns-02.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.764768,awsdns-03.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.765768,awsdns-05.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.765768,awsdns-06.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2620:fe::10
+2024-11-14T23:05:18.765768,aweray.net,62.76.76.62,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,aweray.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aweray.net on server: 210.21.196.6
+2024-11-14T23:05:18.765768,awsdns-09.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 195.208.4.1
+2024-11-14T23:05:18.765768,awsdns-02.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.765768,awsdns-03.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.765768,awsdns-05.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.765768,awsdns-06.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.765768,aweray.net,114.114.114.114,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsdns-02.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 2400:da00::6666
+2024-11-14T23:05:18.765768,awsdns-03.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 2400:da00::6666
+2024-11-14T23:05:18.765768,awsapps.com,2a10:50c0::ad2:ff,AAAA,"['2600:9000:276a:da00:7:2c4b:2c40:93a1', '2600:9000:276a:7e00:7:2c4b:2c40:93a1', '2600:9000:276a:9600:7:2c4b:2c40:93a1', '2600:9000:276a:e400:7:2c4b:2c40:93a1', '2600:9000:276a:e00:7:2c4b:2c40:93a1', '2600:9000:276a:9800:7:2c4b:2c40:93a1', '2600:9000:276a:a000:7:2c4b:2c40:93a1', '2600:9000:276a:1000:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-09.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 94.140.14.14
+2024-11-14T23:05:18.765768,awsdns-03.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.765768,awsdns-05.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:119:53::53
+2024-11-14T23:05:18.765768,awsdns-03.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.765768,awsdns-06.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 94.140.15.15
+2024-11-14T23:05:18.765768,aweray.net,77.88.8.1,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsapps.com,2400:3200::1,AAAA,"['2600:9000:2164:4600:7:2c4b:2c40:93a1', '2600:9000:2164:1c00:7:2c4b:2c40:93a1', '2600:9000:2164:8c00:7:2c4b:2c40:93a1', '2600:9000:2164:5200:7:2c4b:2c40:93a1', '2600:9000:2164:3800:7:2c4b:2c40:93a1', '2600:9000:2164:b000:7:2c4b:2c40:93a1', '2600:9000:2164:4000:7:2c4b:2c40:93a1', '2600:9000:2164:8600:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-03.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.765768,awsdns-05.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.765768,awsdns-08.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.765768,aweray.net,77.88.8.8,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsdns-06.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 114.114.114.114
+2024-11-14T23:05:18.765768,awsdns-09.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 223.6.6.6
+2024-11-14T23:05:18.765768,awsapps.com,2620:0:ccd::2,AAAA,"['2600:9000:21d1:6600:7:2c4b:2c40:93a1', '2600:9000:21d1:6800:7:2c4b:2c40:93a1', '2600:9000:21d1:f000:7:2c4b:2c40:93a1', '2600:9000:21d1:f400:7:2c4b:2c40:93a1', '2600:9000:21d1:fa00:7:2c4b:2c40:93a1', '2600:9000:21d1:3000:7:2c4b:2c40:93a1', '2600:9000:21d1:4000:7:2c4b:2c40:93a1', '2600:9000:21d1:4a00:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-03.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.765768,awsdns-05.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:fe::10
+2024-11-14T23:05:18.765768,awsdns-08.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.765768,awsdns-03.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.765768,awsdns-06.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 218.30.118.6
+2024-11-14T23:05:18.765768,awsdns-09.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 119.29.29.29
+2024-11-14T23:05:18.765768,aweray.net,195.208.4.1,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsapps.com,2a10:50c0::ad1:ff,AAAA,"['2600:9000:276a:d800:7:2c4b:2c40:93a1', '2600:9000:276a:da00:7:2c4b:2c40:93a1', '2600:9000:276a:d200:7:2c4b:2c40:93a1', '2600:9000:276a:7800:7:2c4b:2c40:93a1', '2600:9000:276a:9000:7:2c4b:2c40:93a1', '2600:9000:276a:1e00:7:2c4b:2c40:93a1', '2600:9000:276a:1000:7:2c4b:2c40:93a1', '2600:9000:276a:a400:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-03.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:119:35::35
+2024-11-14T23:05:18.765768,awsdns-08.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.765768,aweray.net,208.67.222.222,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsdns-05.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2620:119:35::35
+2024-11-14T23:05:18.765768,awsdns-06.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 117.50.11.11
+2024-11-14T23:05:18.765768,awsapps.com,2620:119:53::53,AAAA,"['2600:9000:21d1:b200:7:2c4b:2c40:93a1', '2600:9000:21d1:b400:7:2c4b:2c40:93a1', '2600:9000:21d1:d200:7:2c4b:2c40:93a1', '2600:9000:21d1:de00:7:2c4b:2c40:93a1', '2600:9000:21d1:600:7:2c4b:2c40:93a1', '2600:9000:21d1:2c00:7:2c4b:2c40:93a1', '2600:9000:21d1:7000:7:2c4b:2c40:93a1', '2600:9000:21d1:9400:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-03.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2620:119:53::53
+2024-11-14T23:05:18.765768,awsdns-03.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.765768,awsdns-08.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.765768,aweray.net,119.29.29.29,A,['35.200.66.95'],,
+2024-11-14T23:05:18.765768,awsdns-09.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 123.125.81.7
+2024-11-14T23:05:18.765768,aweray.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aweray.net on server: 9.9.9.9
+2024-11-14T23:05:18.765768,awsapps.com,2620:0:ccc::2,AAAA,"['2600:9000:21d1:ce00:7:2c4b:2c40:93a1', '2600:9000:21d1:de00:7:2c4b:2c40:93a1', '2600:9000:21d1:6e00:7:2c4b:2c40:93a1', '2600:9000:21d1:7200:7:2c4b:2c40:93a1', '2600:9000:21d1:8000:7:2c4b:2c40:93a1', '2600:9000:21d1:8400:7:2c4b:2c40:93a1', '2600:9000:21d1:8a00:7:2c4b:2c40:93a1', '2600:9000:21d1:9000:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.765768,awsdns-02.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2400:3200::1
+2024-11-14T23:05:18.766767,awsdns-03.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2400:3200::1
+2024-11-14T23:05:18.766767,awsdns-06.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2402:4e00::
+2024-11-14T23:05:18.766767,aweray.net,62.76.62.76,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-06.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 211.136.17.107
+2024-11-14T23:05:18.766767,awsdns-06.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 123.125.81.7
+2024-11-14T23:05:18.766767,awsapps.com,2620:fe::10,AAAA,"['2600:9000:27e3:c200:7:2c4b:2c40:93a1', '2600:9000:27e3:2000:7:2c4b:2c40:93a1', '2600:9000:27e3:4600:7:2c4b:2c40:93a1', '2600:9000:27e3:9e00:7:2c4b:2c40:93a1', '2600:9000:27e3:200:7:2c4b:2c40:93a1', '2600:9000:27e3:6200:7:2c4b:2c40:93a1', '2600:9000:27e3:8400:7:2c4b:2c40:93a1', '2600:9000:27e3:3200:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.766767,awsdns-02.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.766767,awsdns-05.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.766767,awsdns-06.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.766767,aweray.net,223.5.5.5,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-06.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 180.76.76.76
+2024-11-14T23:05:18.766767,awsdns-09.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 211.136.17.107
+2024-11-14T23:05:18.766767,awsapps.com,2620:119:35::35,AAAA,"['2600:9000:21d1:7c00:7:2c4b:2c40:93a1', '2600:9000:21d1:8200:7:2c4b:2c40:93a1', '2600:9000:21d1:9600:7:2c4b:2c40:93a1', '2600:9000:21d1:a000:7:2c4b:2c40:93a1', '2600:9000:21d1:d800:7:2c4b:2c40:93a1', '2600:9000:21d1:400:7:2c4b:2c40:93a1', '2600:9000:21d1:3000:7:2c4b:2c40:93a1', '2600:9000:21d1:4600:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.766767,awsdns-02.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.766767,awsdns-06.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 101.226.4.7
+2024-11-14T23:05:18.766767,awsdns-06.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2400:3200::1
+2024-11-14T23:05:18.766767,aweray.net,8.8.8.8,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-05.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.766767,awsdns-09.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 114.114.115.115
+2024-11-14T23:05:18.766767,awsdns-02.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.766767,awsdns-02.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.766767,awsdns-09.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 101.226.4.7
+2024-11-14T23:05:18.766767,awsdns-06.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.766767,aweray.net,114.114.115.115,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-06.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 114.114.115.115
+2024-11-14T23:05:18.766767,awsdns-09.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 223.5.5.5
+2024-11-14T23:05:18.766767,awsdns-02.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.766767,awsdns-02.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.766767,awsdns-09.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 62.76.62.76
+2024-11-14T23:05:18.766767,awsdns-06.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.766767,aweray.net,2.56.220.2,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-09.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 180.76.76.76
+2024-11-14T23:05:18.766767,awsapps.com,2402:4e00::,AAAA,"['2600:9000:2078:3a00:7:2c4b:2c40:93a1', '2600:9000:2078:c00:7:2c4b:2c40:93a1', '2600:9000:2078:5600:7:2c4b:2c40:93a1', '2600:9000:2078:8800:7:2c4b:2c40:93a1', '2600:9000:2078:600:7:2c4b:2c40:93a1', '2600:9000:2078:8400:7:2c4b:2c40:93a1', '2600:9000:2078:b600:7:2c4b:2c40:93a1', '2600:9000:2078:2800:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.766767,awsdns-02.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.766767,awsdns-05.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.766767,awsdns-06.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.766767,aweray.net,94.140.15.15,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsdns-06.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 223.6.6.6
+2024-11-14T23:05:18.766767,awsdns-09.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 117.50.11.11
+2024-11-14T23:05:18.766767,awsdns-09.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 9.9.9.9
+2024-11-14T23:05:18.766767,awsdns-02.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:119:35::35
+2024-11-14T23:05:18.766767,awsdns-05.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.766767,awsdns-06.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.766767,awsdns-06.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 210.21.196.6
+2024-11-14T23:05:18.766767,awsdns-06.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-06.com on server: 119.29.29.29
+2024-11-14T23:05:18.766767,aweray.net,1.0.0.1,A,['35.200.66.95'],,
+2024-11-14T23:05:18.766767,awsapps.com,2400:3200:baba::1,AAAA,"['2600:9000:2164:3000:7:2c4b:2c40:93a1', '2600:9000:2164:7a00:7:2c4b:2c40:93a1', '2600:9000:2164:be00:7:2c4b:2c40:93a1', '2600:9000:2164:cc00:7:2c4b:2c40:93a1', '2600:9000:2164:6200:7:2c4b:2c40:93a1', '2600:9000:2164:b600:7:2c4b:2c40:93a1', '2600:9000:2164:e00:7:2c4b:2c40:93a1', '2600:9000:2164:6800:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.766767,awsdns-02.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-02.com on server: 2620:119:53::53
+2024-11-14T23:05:18.766767,awsdns-05.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.766767,awsdns-09.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-09.com on server: 202.96.128.86
+2024-11-14T23:05:18.766767,aws.com,101.226.4.6,A,"['13.35.210.89', '13.35.210.116', '13.35.210.30', '13.35.210.18']",,
+2024-11-14T23:05:18.766767,awsdns-02.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 218.30.118.6
+2024-11-14T23:05:18.766767,awsdns-06.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 2400:da00::6666
+2024-11-14T23:05:18.766767,awsdns-06.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-06.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.767766,awsdns-02.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 114.114.115.115
+2024-11-14T23:05:18.767766,aws.com,117.50.11.11,A,"['13.35.210.30', '13.35.210.18', '13.35.210.116', '13.35.210.89']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 195.208.4.1
+2024-11-14T23:05:18.767766,aws.com,195.208.4.1,A,"['108.156.22.118', '108.156.22.25', '108.156.22.117', '108.156.22.104']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 208.67.220.220
+2024-11-14T23:05:18.767766,awsdns-06.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 202.96.128.86
+2024-11-14T23:05:18.767766,awsdns-05.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 2400:da00::6666
+2024-11-14T23:05:18.767766,aws.com,2.56.220.2,A,"['13.226.120.76', '13.226.120.109', '13.226.120.104', '13.226.120.11']",,
+2024-11-14T23:05:18.767766,awsdns-03.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 8.8.8.8
+2024-11-14T23:05:18.767766,aws.com,62.76.76.62,A,"['108.156.22.25', '108.156.22.117', '108.156.22.104', '108.156.22.118']",,
+2024-11-14T23:05:18.767766,aws.com,62.76.62.76,A,"['3.164.240.15', '3.164.240.37', '3.164.240.109', '3.164.240.3']",,
+2024-11-14T23:05:18.767766,aws.com,218.30.118.6,A,"['13.35.210.116', '13.35.210.89', '13.35.210.18', '13.35.210.30']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 94.140.15.15
+2024-11-14T23:05:18.767766,aws.com,77.88.8.8,A,"['52.222.214.98', '52.222.214.91', '52.222.214.34', '52.222.214.39']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 208.67.222.222
+2024-11-14T23:05:18.767766,aws.com,95.85.95.85,A,"['13.226.120.11', '13.226.120.109', '13.226.120.104', '13.226.120.76']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 77.88.8.1
+2024-11-14T23:05:18.767766,awsdns-09.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 195.208.5.1
+2024-11-14T23:05:18.767766,aws.com,77.88.8.1,A,"['52.222.214.34', '52.222.214.39', '52.222.214.98', '52.222.214.91']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 195.208.5.1
+2024-11-14T23:05:18.767766,aws.com,211.136.17.107,A,"['13.35.210.116', '13.35.210.89', '13.35.210.18', '13.35.210.30']",,
+2024-11-14T23:05:18.767766,aws.com,123.125.81.6,A,"['13.35.210.89', '13.35.210.116', '13.35.210.30', '13.35.210.18']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 180.76.76.76
+2024-11-14T23:05:18.767766,awsdns-02.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 62.76.62.76
+2024-11-14T23:05:18.767766,awsdns-02.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 114.114.114.114
+2024-11-14T23:05:18.767766,aws.com,119.29.29.29,A,"['13.35.210.30', '13.35.210.116', '13.35.210.18', '13.35.210.89']",,
+2024-11-14T23:05:18.767766,aws.com,180.76.76.76,A,"['13.35.210.116', '13.35.210.18', '13.35.210.30', '13.35.210.89']",,
+2024-11-14T23:05:18.767766,aws.com,223.5.5.5,A,"['3.165.160.54', '3.165.160.99', '3.165.160.80', '3.165.160.26']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 208.67.220.222
+2024-11-14T23:05:18.767766,aws.com,223.6.6.6,A,"['3.165.160.80', '3.165.160.26', '3.165.160.54', '3.165.160.99']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 77.88.8.8
+2024-11-14T23:05:18.767766,aws.com,114.114.114.114,A,"['13.225.183.60', '13.225.183.112', '13.225.183.128']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 94.140.14.14
+2024-11-14T23:05:18.767766,aws.com,114.114.115.115,A,"['13.225.183.112', '13.225.183.128', '13.225.183.3']",,
+2024-11-14T23:05:18.767766,awsapps.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsapps.com on server: 2400:da00::6666
+2024-11-14T23:05:18.767766,aws.com,94.140.14.14,A,"['18.64.8.60', '18.64.8.45', '18.64.8.50', '18.64.8.26']",,
+2024-11-14T23:05:18.767766,awsdns-06.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: awsdns-06.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.767766,awsdns-02.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 123.125.81.6
+2024-11-14T23:05:18.767766,aws.com,94.140.15.15,A,"['18.64.8.45', '18.64.8.50', '18.64.8.26', '18.64.8.60']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 223.5.5.5
+2024-11-14T23:05:18.767766,aws.com,195.208.5.1,A,"['3.164.240.109', '3.164.240.15', '3.164.240.37', '3.164.240.3']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 223.6.6.6
+2024-11-14T23:05:18.767766,aws.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aws.com on server: 210.21.196.6
+2024-11-14T23:05:18.767766,awsdns-02.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 119.29.29.29
+2024-11-14T23:05:18.767766,aws.com,208.67.220.222,A,"['13.226.120.109', '13.226.120.11', '13.226.120.76', '13.226.120.104']",,
+2024-11-14T23:05:18.767766,aws.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aws.com on server: 202.96.128.86
+2024-11-14T23:05:18.767766,aws.com,1.0.0.1,A,"['99.84.203.122', '99.84.203.82', '99.84.203.68', '99.84.203.62']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 202.96.128.86
+2024-11-14T23:05:18.767766,aws.com,208.67.220.220,A,"['13.226.120.104', '13.226.120.109', '13.226.120.11', '13.226.120.76']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 208.67.222.220
+2024-11-14T23:05:18.767766,aws.com,208.67.222.220,A,"['13.226.120.109', '13.226.120.11', '13.226.120.76', '13.226.120.104']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 211.136.17.107
+2024-11-14T23:05:18.767766,aws.com,208.67.222.222,A,"['13.226.120.109', '13.226.120.11', '13.226.120.76', '13.226.120.104']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 101.226.4.7
+2024-11-14T23:05:18.767766,awsdns-02.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 9.9.9.10
+2024-11-14T23:05:18.767766,aws.dev,8.8.8.8,A,[],NoAnswer,No answer for domain: aws.dev on server: 8.8.8.8
+2024-11-14T23:05:18.767766,awsdns-02.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 62.76.76.62
+2024-11-14T23:05:18.767766,aws.com,9.9.9.10,A,"['52.222.214.98', '52.222.214.34', '52.222.214.91', '52.222.214.39']",,
+2024-11-14T23:05:18.767766,awsdns-02.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 101.226.4.6
+2024-11-14T23:05:18.767766,awsdns-02.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 123.125.81.7
+2024-11-14T23:05:18.768764,awsdns-03.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 195.208.4.1
+2024-11-14T23:05:18.768764,awsdns-03.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 208.67.222.222
+2024-11-14T23:05:18.768764,awsdns-03.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 119.29.29.29
+2024-11-14T23:05:18.768764,awsdns-03.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 62.76.62.76
+2024-11-14T23:05:18.768764,awsdns-03.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 77.88.8.8
+2024-11-14T23:05:18.768764,awsdns-03.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 2.56.220.2
+2024-11-14T23:05:18.768764,awsdns-03.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 62.76.76.62
+2024-11-14T23:05:18.768764,awsdns-03.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 195.208.5.1
+2024-11-14T23:05:18.768764,awsdns-02.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 9.9.9.9
+2024-11-14T23:05:18.768764,awsdns-03.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 77.88.8.1
+2024-11-14T23:05:18.768764,awsdns-03.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 1.0.0.1
+2024-11-14T23:05:18.768764,awsdns-03.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 9.9.9.10
+2024-11-14T23:05:18.768764,awsdns-03.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 8.8.4.4
+2024-11-14T23:05:18.768764,awsdns-03.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 95.85.95.85
+2024-11-14T23:05:18.768764,awsdns-03.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 1.1.1.1
+2024-11-14T23:05:18.768764,awsdns-03.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 208.67.220.220
+2024-11-14T23:05:18.768764,awsdns-03.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 223.6.6.6
+2024-11-14T23:05:18.768764,awsdns-03.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 180.76.76.76
+2024-11-14T23:05:18.768764,awsdns-03.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 223.5.5.5
+2024-11-14T23:05:18.768764,aws.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aws.com on server: 101.226.4.7
+2024-11-14T23:05:18.768764,awsdns-03.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 218.30.118.6
+2024-11-14T23:05:18.768764,awsdns-03.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 94.140.15.15
+2024-11-14T23:05:18.768764,awsdns-03.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 114.114.115.115
+2024-11-14T23:05:18.768764,awsdns-03.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 208.67.220.222
+2024-11-14T23:05:18.768764,awsdns-03.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 114.114.114.114
+2024-11-14T23:05:18.768764,awsdns-03.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 208.67.222.220
+2024-11-14T23:05:18.768764,awsdns-03.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 94.140.14.14
+2024-11-14T23:05:18.768764,awmcdn.net,208.67.222.220,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 208.67.222.220
+2024-11-14T23:05:18.768764,awsdns-05.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 94.140.14.14
+2024-11-14T23:05:18.768764,awsdns-08.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 123.125.81.6
+2024-11-14T23:05:18.768764,awmcdn.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.768764,aws.dev,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.768764,awmcdn.net,208.67.220.222,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 208.67.220.222
+2024-11-14T23:05:18.768764,aws.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aws.com on server: 9.9.9.9
+2024-11-14T23:05:18.768764,awsdns-08.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 101.226.4.6
+2024-11-14T23:05:18.768764,awsdns-05.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 77.88.8.8
+2024-11-14T23:05:18.768764,awmdm.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.768764,aws.dev,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:0:ccd::2
+2024-11-14T23:05:18.768764,awmcdn.net,9.9.9.10,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 9.9.9.10
+2024-11-14T23:05:18.768764,awsdns-08.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 211.136.17.107
+2024-11-14T23:05:18.768764,awsdns-05.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 95.85.95.85
+2024-11-14T23:05:18.768764,aws.dev,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.768764,awmcdn.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:0:ccd::2
+2024-11-14T23:05:18.768764,awin1.com,119.29.29.29,A,"['13.33.28.27', '13.33.28.11', '13.33.28.55', '13.33.28.33']",,
+2024-11-14T23:05:18.768764,awsdns-08.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 117.50.11.11
+2024-11-14T23:05:18.768764,awmdm.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.768764,awsdns-02.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-02.com on server: 117.50.11.11
+2024-11-14T23:05:18.768764,awmcdn.net,77.88.8.1,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 77.88.8.1
+2024-11-14T23:05:18.768764,awsdns-05.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 208.67.222.220
+2024-11-14T23:05:18.768764,awsdns-09.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 62.76.76.62
+2024-11-14T23:05:18.768764,awmdm.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.768764,awsapprunner.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.768764,awsdns-02.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-02.com on server: 210.21.196.6
+2024-11-14T23:05:18.768764,awsdns-05.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 208.67.220.222
+2024-11-14T23:05:18.768764,awsdns-09.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 8.8.8.8
+2024-11-14T23:05:18.768764,awmcdn.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2402:4e00::
+2024-11-14T23:05:18.768764,aws.dev,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2400:3200:baba::1
+2024-11-14T23:05:18.768764,awmcdn.net,1.1.1.1,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 1.1.1.1
+2024-11-14T23:05:18.768764,awsdns-05.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 208.67.222.222
+2024-11-14T23:05:18.768764,awsdns-09.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 77.88.8.8
+2024-11-14T23:05:18.768764,aws.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aws.com on server: 123.125.81.7
+2024-11-14T23:05:18.769765,aws.dev,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2402:4e00::
+2024-11-14T23:05:18.769765,awin1.com,180.76.76.76,A,"['13.35.186.116', '13.35.186.76', '13.35.186.100', '13.35.186.103']",,
+2024-11-14T23:05:18.769765,awsdns-05.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 208.67.220.220
+2024-11-14T23:05:18.769765,awsdns-05.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 2.56.220.2
+2024-11-14T23:05:18.769765,awmcdn.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.769765,aws.dev,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:119:53::53
+2024-11-14T23:05:18.769765,awsdns-03.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 9.9.9.9
+2024-11-14T23:05:18.769765,awsdns-05.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 223.6.6.6
+2024-11-14T23:05:18.769765,awsdns-03.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 202.96.128.86
+2024-11-14T23:05:18.769765,awmcdn.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2400:3200:baba::1
+2024-11-14T23:05:18.769765,awmcdn.net,208.67.220.220,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 208.67.220.220
+2024-11-14T23:05:18.769765,aws.dev,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:0:ccc::2
+2024-11-14T23:05:18.769765,awsdns-05.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 94.140.15.15
+2024-11-14T23:05:18.769765,awmcdn.net,195.208.5.1,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 195.208.5.1
+2024-11-14T23:05:18.769765,awmcdn.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2400:3200::1
+2024-11-14T23:05:18.769765,awsdns-09.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2.56.220.2
+2024-11-14T23:05:18.769765,aws.dev,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2400:3200::1
+2024-11-14T23:05:18.769765,awsdns-05.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 114.114.115.115
+2024-11-14T23:05:18.769765,awsdns-08.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 208.67.222.220
+2024-11-14T23:05:18.769765,awmcdn.net,208.67.222.222,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 208.67.222.222
+2024-11-14T23:05:18.769765,awsdns-08.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 208.67.220.222
+2024-11-14T23:05:18.769765,awsdns-09.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 77.88.8.1
+2024-11-14T23:05:18.769765,awmcdn.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:119:35::35
+2024-11-14T23:05:18.769765,awmcdn.net,8.8.8.8,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 8.8.8.8
+2024-11-14T23:05:18.769765,awsdns-05.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 114.114.114.114
+2024-11-14T23:05:18.769765,aws.dev,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:fe::10
+2024-11-14T23:05:18.769765,awsdns-03.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 210.21.196.6
+2024-11-14T23:05:18.769765,aws.dev,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:119:35::35
+2024-11-14T23:05:18.769765,awmcdn.net,8.8.4.4,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 8.8.4.4
+2024-11-14T23:05:18.769765,awmcdn.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.769765,awsdns-05.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 223.5.5.5
+2024-11-14T23:05:18.769765,awmcdn.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:0:ccc::2
+2024-11-14T23:05:18.769765,awsdns-08.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 218.30.118.6
+2024-11-14T23:05:18.769765,aws.dev,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.769765,awin1.com,218.30.118.6,A,"['13.33.28.55', '13.33.28.27', '13.33.28.11', '13.33.28.33']",,
+2024-11-14T23:05:18.769765,awsdns-08.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 119.29.29.29
+2024-11-14T23:05:18.769765,awmdm.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.769765,aws.dev,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2620:fe::fe
+2024-11-14T23:05:18.769765,aws.dev,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aws.dev on server: 2400:da00::6666
+2024-11-14T23:05:18.769765,awmdm.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.769765,awmcdn.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 9.9.9.9
+2024-11-14T23:05:18.769765,awmdm.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.769765,aws.dev,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.769765,awsdns-08.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 101.226.4.7
+2024-11-14T23:05:18.769765,awmcdn.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 2400:da00::6666
+2024-11-14T23:05:18.769765,awsdns-08.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 223.6.6.6
+2024-11-14T23:05:18.769765,awsdns-08.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 202.96.128.86
+2024-11-14T23:05:18.769765,aws.dev,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.769765,awsdns-03.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 123.125.81.7
+2024-11-14T23:05:18.769765,awsdns-05.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 9.9.9.10
+2024-11-14T23:05:18.769765,awsdns-08.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 180.76.76.76
+2024-11-14T23:05:18.769765,awmdm.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.769765,awin1.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awin1.com on server: 202.96.128.86
+2024-11-14T23:05:18.769765,aws.dev,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.769765,awin1.com,123.125.81.6,A,"['13.33.28.27', '13.33.28.11', '13.33.28.55', '13.33.28.33']",,
+2024-11-14T23:05:18.771277,awsdns-08.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 114.114.115.115
+2024-11-14T23:05:18.771277,awsdns-05.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 77.88.8.1
+2024-11-14T23:05:18.771277,awmcdn.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.771277,awin1.com,101.226.4.6,A,"['13.33.28.11', '13.33.28.55', '13.33.28.33', '13.33.28.27']",,
+2024-11-14T23:05:18.771277,awsdns-05.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 62.76.76.62
+2024-11-14T23:05:18.771277,awsdns-08.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 223.5.5.5
+2024-11-14T23:05:18.771277,awmcdn.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:fe::fe
+2024-11-14T23:05:18.771277,awsapprunner.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.771277,awsdns-03.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsdns-03.com on server: 101.226.4.7
+2024-11-14T23:05:18.771277,awsdns-03.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 123.125.81.6
+2024-11-14T23:05:18.771277,awsdns-09.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 1.1.1.1
+2024-11-14T23:05:18.771277,awmdm.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.771277,awsapprunner.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.772289,awmcdn.net,195.208.4.1,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 195.208.4.1
+2024-11-14T23:05:18.772289,awsdns-03.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 101.226.4.6
+2024-11-14T23:05:18.772289,awsdns-09.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 95.85.95.85
+2024-11-14T23:05:18.772289,awmcdn.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:119:53::53
+2024-11-14T23:05:18.772289,awsapprunner.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.772289,awmcdn.net,62.76.76.62,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 62.76.76.62
+2024-11-14T23:05:18.772289,awsdns-05.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 195.208.5.1
+2024-11-14T23:05:18.772289,awsdns-08.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 210.21.196.6
+2024-11-14T23:05:18.772289,awmcdn.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.772289,awsapprunner.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.772289,awin1.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awin1.com on server: 123.125.81.7
+2024-11-14T23:05:18.772289,awsdns-05.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-05.com on server: 9.9.9.9
+2024-11-14T23:05:18.772289,awmdm.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.772289,awsdns-09.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 1.0.0.1
+2024-11-14T23:05:18.772289,awmcdn.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2620:fe::10
+2024-11-14T23:05:18.772289,aws.dev,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.772289,awin1.com,211.136.17.107,A,"['13.33.28.11', '13.33.28.27', '13.33.28.55', '13.33.28.33']",,
+2024-11-14T23:05:18.772289,awsdns-05.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 62.76.62.76
+2024-11-14T23:05:18.772289,awmdm.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.772289,awin1.com,117.50.11.11,A,"['13.33.28.55', '13.33.28.11', '13.33.28.27', '13.33.28.33']",,
+2024-11-14T23:05:18.772289,aws.dev,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.772289,awsdns-09.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-09.com on server: 8.8.4.4
+2024-11-14T23:05:18.772289,awsdns-03.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 211.136.17.107
+2024-11-14T23:05:18.772289,awmdm.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:fe::fe
+2024-11-14T23:05:18.772289,awmcdn.net,2.56.220.2,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 2.56.220.2
+2024-11-14T23:05:18.772289,aws.dev,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.772289,awsdns-08.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 94.140.14.14
+2024-11-14T23:05:18.772289,awsdns-05.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 1.0.0.1
+2024-11-14T23:05:18.772289,aws.dev,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.772289,awmcdn.net,77.88.8.8,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 77.88.8.8
+2024-11-14T23:05:18.772289,awsdns-08.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 114.114.114.114
+2024-11-14T23:05:18.772289,awmdm.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:119:35::35
+2024-11-14T23:05:18.772289,aws.dev,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.772289,aws.dev,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.772289,awsdns-05.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 195.208.4.1
+2024-11-14T23:05:18.772289,awmdm.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.772289,awsdns-05.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 8.8.4.4
+2024-11-14T23:05:18.772289,awsdns-08.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 208.67.222.222
+2024-11-14T23:05:18.772289,awsdns-05.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 1.1.1.1
+2024-11-14T23:05:18.772289,awsdns-08.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 208.67.220.220
+2024-11-14T23:05:18.772289,awmcdn.net,95.85.95.85,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 95.85.95.85
+2024-11-14T23:05:18.772289,awmdm.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2620:fe::10
+2024-11-14T23:05:18.772289,aws.dev,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.772289,awsdns-05.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awsdns-05.com on server: 8.8.8.8
+2024-11-14T23:05:18.772289,awmcdn.net,1.0.0.1,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 1.0.0.1
+2024-11-14T23:05:18.772289,awsdns-08.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-08.com on server: 94.140.15.15
+2024-11-14T23:05:18.772289,aws.dev,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aws.dev on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.772289,awmdm.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awmdm.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.772289,awsapps.com,1.0.0.1,A,"['3.167.212.16', '3.167.212.26', '3.167.212.82', '3.167.212.71']",,
+2024-11-14T23:05:18.772289,awsdns-11.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 223.5.5.5
+2024-11-14T23:05:18.772289,awmcdn.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.772289,awsdns-09.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.772289,aws.com,2a0c:a9c7:9::1,AAAA,"['2600:9000:2368:2400:10:ef80:1740:93a1', '2600:9000:2368:8c00:10:ef80:1740:93a1', '2600:9000:2368:b600:10:ef80:1740:93a1', '2600:9000:2368:5000:10:ef80:1740:93a1', '2600:9000:2368:e400:10:ef80:1740:93a1', '2600:9000:2368:e000:10:ef80:1740:93a1', '2600:9000:2368:ce00:10:ef80:1740:93a1', '2600:9000:2368:bc00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.772289,awsdns-11.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 223.6.6.6
+2024-11-14T23:05:18.772289,awsapps.com,8.8.4.4,A,"['13.226.61.57', '13.226.61.2', '13.226.61.128', '13.226.61.4']",,
+2024-11-14T23:05:18.772289,awsdns-09.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.772289,awsapps.com,1.1.1.1,A,"['65.9.42.113', '65.9.42.88', '65.9.42.62', '65.9.42.64']",,
+2024-11-14T23:05:18.772289,awin1.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.772289,awsdns-08.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2402:4e00::
+2024-11-14T23:05:18.772289,awin1.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awin1.com on server: 101.226.4.7
+2024-11-14T23:05:18.772289,awsdns-11.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 211.136.17.107
+2024-11-14T23:05:18.772289,awmcdn.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.773289,aws.com,2a0c:a9c7:8::1,AAAA,"['2600:9000:2368:ea00:10:ef80:1740:93a1', '2600:9000:2368:800:10:ef80:1740:93a1', '2600:9000:2368:e800:10:ef80:1740:93a1', '2600:9000:2368:de00:10:ef80:1740:93a1', '2600:9000:2368:2e00:10:ef80:1740:93a1', '2600:9000:2368:fc00:10:ef80:1740:93a1', '2600:9000:2368:1800:10:ef80:1740:93a1', '2600:9000:2368:8a00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awmcdn.net,62.76.62.76,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 62.76.62.76
+2024-11-14T23:05:18.773289,awsapps.com,8.8.8.8,A,"['13.226.61.4', '13.226.61.128', '13.226.61.57', '13.226.61.2']",,
+2024-11-14T23:05:18.773289,awsdns-11.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 94.140.15.15
+2024-11-14T23:05:18.773289,awin1.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:119:53::53
+2024-11-14T23:05:18.773289,aws.com,2a10:50c0::ad1:ff,AAAA,"['2600:9000:23e4:8800:10:ef80:1740:93a1', '2600:9000:23e4:5e00:10:ef80:1740:93a1', '2600:9000:23e4:4400:10:ef80:1740:93a1', '2600:9000:23e4:2800:10:ef80:1740:93a1', '2600:9000:23e4:fe00:10:ef80:1740:93a1', '2600:9000:23e4:6a00:10:ef80:1740:93a1', '2600:9000:23e4:6600:10:ef80:1740:93a1', '2600:9000:23e4:9000:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-09.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.773289,awsapprunner.com,223.5.5.5,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 223.5.5.5
+2024-11-14T23:05:18.773289,awsdns-11.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 114.114.115.115
+2024-11-14T23:05:18.773289,awin1.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.773289,aws.com,2a10:50c0::ad2:ff,AAAA,"['2600:9000:23e4:4000:10:ef80:1740:93a1', '2600:9000:23e4:5e00:10:ef80:1740:93a1', '2600:9000:23e4:3600:10:ef80:1740:93a1', '2600:9000:23e4:b200:10:ef80:1740:93a1', '2600:9000:23e4:7a00:10:ef80:1740:93a1', '2600:9000:23e4:9a00:10:ef80:1740:93a1', '2600:9000:23e4:ec00:10:ef80:1740:93a1', '2600:9000:23e4:1800:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-09.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.773289,awsapprunner.com,223.6.6.6,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 223.6.6.6
+2024-11-14T23:05:18.773289,awsdns-08.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 123.125.81.7
+2024-11-14T23:05:18.773289,awin1.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.773289,aws.com,2620:0:ccc::2,AAAA,"['2600:9000:21e1:9600:10:ef80:1740:93a1', '2600:9000:21e1:b200:10:ef80:1740:93a1', '2600:9000:21e1:cc00:10:ef80:1740:93a1', '2600:9000:21e1:f600:10:ef80:1740:93a1', '2600:9000:21e1:3000:10:ef80:1740:93a1', '2600:9000:21e1:3600:10:ef80:1740:93a1', '2600:9000:21e1:5200:10:ef80:1740:93a1', '2600:9000:21e1:7600:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-09.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.773289,awsapprunner.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 101.226.4.6
+2024-11-14T23:05:18.773289,awsdns-11.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 218.30.118.6
+2024-11-14T23:05:18.773289,awin1.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.773289,aws.com,2620:0:ccd::2,AAAA,"['2600:9000:21e1:4200:10:ef80:1740:93a1', '2600:9000:21e1:5000:10:ef80:1740:93a1', '2600:9000:21e1:ce00:10:ef80:1740:93a1', '2600:9000:21e1:d200:10:ef80:1740:93a1', '2600:9000:21e1:f000:10:ef80:1740:93a1', '2600:9000:21e1:1600:10:ef80:1740:93a1', '2600:9000:21e1:2a00:10:ef80:1740:93a1', '2600:9000:21e1:2e00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-09.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2001:4860:4860::8844
+2024-11-14T23:05:18.773289,awsdns-03.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-03.com on server: 117.50.11.11
+2024-11-14T23:05:18.773289,awsdns-11.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 2.56.220.2
+2024-11-14T23:05:18.773289,awin1.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.773289,aws.com,2620:119:35::35,AAAA,"['2600:9000:21e1:cc00:10:ef80:1740:93a1', '2600:9000:21e1:f600:10:ef80:1740:93a1', '2600:9000:21e1:3000:10:ef80:1740:93a1', '2600:9000:21e1:3600:10:ef80:1740:93a1', '2600:9000:21e1:5200:10:ef80:1740:93a1', '2600:9000:21e1:7600:10:ef80:1740:93a1', '2600:9000:21e1:9600:10:ef80:1740:93a1', '2600:9000:21e1:b200:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-08.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2400:3200::1
+2024-11-14T23:05:18.773289,awsapprunner.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 114.114.114.114
+2024-11-14T23:05:18.773289,awsdns-11.com,114.114.114.114,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 114.114.114.114
+2024-11-14T23:05:18.773289,awin1.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.773289,aws.com,2620:119:53::53,AAAA,"['2600:9000:21e1:9a00:10:ef80:1740:93a1', '2600:9000:21e1:a800:10:ef80:1740:93a1', '2600:9000:21e1:600:10:ef80:1740:93a1', '2600:9000:21e1:e00:10:ef80:1740:93a1', '2600:9000:21e1:1000:10:ef80:1740:93a1', '2600:9000:21e1:3200:10:ef80:1740:93a1', '2600:9000:21e1:3400:10:ef80:1740:93a1', '2600:9000:21e1:7200:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-08.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.773289,awsapprunner.com,114.114.115.115,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 114.114.115.115
+2024-11-14T23:05:18.773289,awsdns-11.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 119.29.29.29
+2024-11-14T23:05:18.773289,awmcdn.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2606:4700:4700::1001
+2024-11-14T23:05:18.773289,awin1.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awin1.com on server: 210.21.196.6
+2024-11-14T23:05:18.773289,aws.com,2620:fe::fe,AAAA,"['2600:9000:20c5:ec00:10:ef80:1740:93a1', '2600:9000:20c5:a000:10:ef80:1740:93a1', '2600:9000:20c5:cc00:10:ef80:1740:93a1', '2600:9000:20c5:c400:10:ef80:1740:93a1', '2600:9000:20c5:6a00:10:ef80:1740:93a1', '2600:9000:20c5:e800:10:ef80:1740:93a1', '2600:9000:20c5:9e00:10:ef80:1740:93a1', '2600:9000:20c5:ee00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-08.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.773289,awsapprunner.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 117.50.11.11
+2024-11-14T23:05:18.773289,awsdns-11.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 180.76.76.76
+2024-11-14T23:05:18.773289,awin1.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:fe::fe
+2024-11-14T23:05:18.773289,aws.com,2620:fe::10,AAAA,"['2600:9000:20c5:7c00:10:ef80:1740:93a1', '2600:9000:20c5:5200:10:ef80:1740:93a1', '2600:9000:20c5:b800:10:ef80:1740:93a1', '2600:9000:20c5:5400:10:ef80:1740:93a1', '2600:9000:20c5:a00:10:ef80:1740:93a1', '2600:9000:20c5:5c00:10:ef80:1740:93a1', '2600:9000:20c5:7e00:10:ef80:1740:93a1', '2600:9000:20c5:7000:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.773289,awsdns-09.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.773289,awsdns-11.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 208.67.220.222
+2024-11-14T23:05:18.773289,awsapprunner.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 123.125.81.6
+2024-11-14T23:05:18.773289,awmcdn.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2606:4700:4700::1111
+2024-11-14T23:05:18.773289,aws.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aws.com on server: 2400:da00::6666
+2024-11-14T23:05:18.773289,awsdns-11.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 94.140.14.14
+2024-11-14T23:05:18.773289,awmcdn.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.774289,awsdns-11.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 210.21.196.6
+2024-11-14T23:05:18.774289,awsdns-09.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2620:fe::fe
+2024-11-14T23:05:18.774289,awsapprunner.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 101.226.4.7
+2024-11-14T23:05:18.774289,awsdns-11.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 1.0.0.1
+2024-11-14T23:05:18.774289,awsapps.com,195.208.4.1,A,"['52.85.49.84', '52.85.49.118', '52.85.49.96', '52.85.49.33']",,
+2024-11-14T23:05:18.774289,awin1.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.774289,aws.com,2a02:6b8::feed:0ff,AAAA,"['2600:9000:2764:2c00:10:ef80:1740:93a1', '2600:9000:2764:6c00:10:ef80:1740:93a1', '2600:9000:2764:1a00:10:ef80:1740:93a1', '2600:9000:2764:a000:10:ef80:1740:93a1', '2600:9000:2764:8800:10:ef80:1740:93a1', '2600:9000:2764:7a00:10:ef80:1740:93a1', '2600:9000:2764:b800:10:ef80:1740:93a1', '2600:9000:2764:fa00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774289,awsdns-08.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:fe::fe
+2024-11-14T23:05:18.774289,awsdns-08.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsdns-08.com on server: 2400:da00::6666
+2024-11-14T23:05:18.774289,awsdns-11.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 95.85.95.85
+2024-11-14T23:05:18.774289,awsapps.com,62.76.76.62,A,"['52.85.49.84', '52.85.49.118', '52.85.49.96', '52.85.49.33']",,
+2024-11-14T23:05:18.774289,aws.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2600:9000:2764:6400:10:ef80:1740:93a1', '2600:9000:2764:4c00:10:ef80:1740:93a1', '2600:9000:2764:a600:10:ef80:1740:93a1', '2600:9000:2764:5c00:10:ef80:1740:93a1', '2600:9000:2764:a800:10:ef80:1740:93a1', '2600:9000:2764:2400:10:ef80:1740:93a1', '2600:9000:2764:4a00:10:ef80:1740:93a1', '2600:9000:2764:f400:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774289,awin1.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.774289,awsdns-11.com,123.125.81.6,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 123.125.81.6
+2024-11-14T23:05:18.774289,awsapps.com,62.76.62.76,A,"['3.164.230.2', '3.164.230.7', '3.164.230.20', '3.164.230.109']",,
+2024-11-14T23:05:18.774797,awmcdn.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a03:90c0:999d::1
+2024-11-14T23:05:18.774797,awsdns-11.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 202.96.128.86
+2024-11-14T23:05:18.774797,awsapps.com,2.56.220.2,A,"['13.226.61.57', '13.226.61.128', '13.226.61.4', '13.226.61.2']",,
+2024-11-14T23:05:18.774797,awsdns-11.com,101.226.4.6,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 101.226.4.6
+2024-11-14T23:05:18.774797,awin1.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:119:35::35
+2024-11-14T23:05:18.774797,aws.com,2a03:90c0:9992::1,AAAA,"['2600:9000:2369:4a00:10:ef80:1740:93a1', '2600:9000:2369:a600:10:ef80:1740:93a1', '2600:9000:2369:ee00:10:ef80:1740:93a1', '2600:9000:2369:4c00:10:ef80:1740:93a1', '2600:9000:2369:f600:10:ef80:1740:93a1', '2600:9000:2369:ea00:10:ef80:1740:93a1', '2600:9000:2369:8200:10:ef80:1740:93a1', '2600:9000:2369:8600:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,awsdns-09.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.774797,awsapps.com,77.88.8.1,A,"['18.66.122.45', '18.66.122.76', '18.66.122.111', '18.66.122.89']",,
+2024-11-14T23:05:18.774797,awsdns-11.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 195.208.5.1
+2024-11-14T23:05:18.774797,awin1.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2400:3200::1
+2024-11-14T23:05:18.774797,awsapprunner.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 123.125.81.7
+2024-11-14T23:05:18.774797,awsdns-08.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.774797,awsapps.com,95.85.95.85,A,"['13.226.61.57', '13.226.61.4', '13.226.61.2', '13.226.61.128']",,
+2024-11-14T23:05:18.774797,awsdns-11.com,117.50.11.11,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 117.50.11.11
+2024-11-14T23:05:18.774797,awin1.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2402:4e00::
+2024-11-14T23:05:18.774797,awsdns-08.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.774797,awsapps.com,77.88.8.8,A,"['18.66.122.45', '18.66.122.111', '18.66.122.89', '18.66.122.76']",,
+2024-11-14T23:05:18.774797,awsdns-11.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 208.67.222.220
+2024-11-14T23:05:18.774797,awin1.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.774797,aws-prd.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2402:4e00::
+2024-11-14T23:05:18.774797,awsdns-08.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.774797,awsapprunner.com,211.136.17.107,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 211.136.17.107
+2024-11-14T23:05:18.774797,awin1.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.774797,awsdns-08.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.774797,awsapprunner.com,208.67.220.222,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 208.67.220.222
+2024-11-14T23:05:18.774797,awsdns-11.com,208.67.220.220,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 208.67.220.220
+2024-11-14T23:05:18.774797,aws.com,2001:6d0:6d0::2001,AAAA,"['2600:9000:2764:8a00:10:ef80:1740:93a1', '2600:9000:2764:7a00:10:ef80:1740:93a1', '2600:9000:2764:3000:10:ef80:1740:93a1', '2600:9000:2764:2e00:10:ef80:1740:93a1', '2600:9000:2764:b600:10:ef80:1740:93a1', '2600:9000:2764:6e00:10:ef80:1740:93a1', '2600:9000:2764:4600:10:ef80:1740:93a1', '2600:9000:2764:3e00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,aws.com,2400:3200:baba::1,AAAA,"['2600:9000:2732:8800:10:ef80:1740:93a1', '2600:9000:2732:4600:10:ef80:1740:93a1', '2600:9000:2732:e800:10:ef80:1740:93a1', '2600:9000:2732:0:10:ef80:1740:93a1', '2600:9000:2732:c00:10:ef80:1740:93a1', '2600:9000:2732:6000:10:ef80:1740:93a1', '2600:9000:2732:4a00:10:ef80:1740:93a1', '2600:9000:2732:a000:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,awsdns-09.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.774797,awsapprunner.com,218.30.118.6,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 218.30.118.6
+2024-11-14T23:05:18.774797,awsdns-11.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 195.208.4.1
+2024-11-14T23:05:18.774797,awin1.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2620:fe::10
+2024-11-14T23:05:18.774797,aws.com,2402:4e00::,AAAA,"['2600:9000:21e1:c400:10:ef80:1740:93a1', '2600:9000:21e1:dc00:10:ef80:1740:93a1', '2600:9000:21e1:ae00:10:ef80:1740:93a1', '2600:9000:21e1:4e00:10:ef80:1740:93a1', '2600:9000:21e1:9200:10:ef80:1740:93a1', '2600:9000:21e1:ec00:10:ef80:1740:93a1', '2600:9000:21e1:f200:10:ef80:1740:93a1', '2600:9000:21e1:8400:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,awsapprunner.com,208.67.222.220,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 208.67.222.220
+2024-11-14T23:05:18.774797,aws.com,2001:6d0:d6::2001,AAAA,"['2600:9000:2375:2800:10:ef80:1740:93a1', '2600:9000:2375:1c00:10:ef80:1740:93a1', '2600:9000:2375:4200:10:ef80:1740:93a1', '2600:9000:2375:c400:10:ef80:1740:93a1', '2600:9000:2375:3000:10:ef80:1740:93a1', '2600:9000:2375:9c00:10:ef80:1740:93a1', '2600:9000:2375:8c00:10:ef80:1740:93a1', '2600:9000:2375:e400:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,awmcdn.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.774797,aws.com,2606:4700:4700::1001,AAAA,"['2600:9000:20c5:3400:10:ef80:1740:93a1', '2600:9000:20c5:2a00:10:ef80:1740:93a1', '2600:9000:20c5:800:10:ef80:1740:93a1', '2600:9000:20c5:c600:10:ef80:1740:93a1', '2600:9000:20c5:3e00:10:ef80:1740:93a1', '2600:9000:20c5:200:10:ef80:1740:93a1', '2600:9000:20c5:a000:10:ef80:1740:93a1', '2600:9000:20c5:d800:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.774797,awsdns-08.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.775807,awsdns-09.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.775807,awsdns-11.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 62.76.62.76
+2024-11-14T23:05:18.775807,aws.com,2a03:90c0:999d::1,AAAA,"['2600:9000:2369:3800:10:ef80:1740:93a1', '2600:9000:2369:8c00:10:ef80:1740:93a1', '2600:9000:2369:8000:10:ef80:1740:93a1', '2600:9000:2369:c200:10:ef80:1740:93a1', '2600:9000:2369:e800:10:ef80:1740:93a1', '2600:9000:2369:b800:10:ef80:1740:93a1', '2600:9000:2369:ec00:10:ef80:1740:93a1', '2600:9000:2369:8600:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.775807,aws.com,2400:3200::1,AAAA,"['2600:9000:2732:3c00:10:ef80:1740:93a1', '2600:9000:2732:a000:10:ef80:1740:93a1', '2600:9000:2732:4c00:10:ef80:1740:93a1', '2600:9000:2732:a400:10:ef80:1740:93a1', '2600:9000:2732:2c00:10:ef80:1740:93a1', '2600:9000:2732:6800:10:ef80:1740:93a1', '2600:9000:2732:7c00:10:ef80:1740:93a1', '2600:9000:2732:f000:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.775807,awmcdn.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.775807,awsdns-08.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.775807,awsdns-09.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.775807,awsdns-11.com,208.67.222.222,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 208.67.222.222
+2024-11-14T23:05:18.775807,aws.com,2001:4860:4860::8844,AAAA,"['2600:9000:2369:de00:10:ef80:1740:93a1', '2600:9000:2369:fc00:10:ef80:1740:93a1', '2600:9000:2369:fa00:10:ef80:1740:93a1', '2600:9000:2369:c200:10:ef80:1740:93a1', '2600:9000:2369:5e00:10:ef80:1740:93a1', '2600:9000:2369:e600:10:ef80:1740:93a1', '2600:9000:2369:fe00:10:ef80:1740:93a1', '2600:9000:2369:a200:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.775807,awsdns-08.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.775807,awsapprunner.com,119.29.29.29,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 119.29.29.29
+2024-11-14T23:05:18.775807,awin1.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.775807,aws.com,2606:4700:4700::1111,AAAA,"['2600:9000:20c5:5a00:10:ef80:1740:93a1', '2600:9000:20c5:8200:10:ef80:1740:93a1', '2600:9000:20c5:9e00:10:ef80:1740:93a1', '2600:9000:20c5:f200:10:ef80:1740:93a1', '2600:9000:20c5:b600:10:ef80:1740:93a1', '2600:9000:20c5:9000:10:ef80:1740:93a1', '2600:9000:20c5:aa00:10:ef80:1740:93a1', '2600:9000:20c5:5c00:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.775807,awsdns-08.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.775807,awsapprunner.com,180.76.76.76,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 180.76.76.76
+2024-11-14T23:05:18.775807,aws-prd.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aws-prd.net on server: 2400:da00::6666
+2024-11-14T23:05:18.775807,awin1.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.775807,aws.com,2001:4860:4860::8888,AAAA,"['2600:9000:2369:3c00:10:ef80:1740:93a1', '2600:9000:2369:f400:10:ef80:1740:93a1', '2600:9000:2369:1200:10:ef80:1740:93a1', '2600:9000:2369:ee00:10:ef80:1740:93a1', '2600:9000:2369:2600:10:ef80:1740:93a1', '2600:9000:2369:d200:10:ef80:1740:93a1', '2600:9000:2369:2400:10:ef80:1740:93a1', '2600:9000:2369:7200:10:ef80:1740:93a1']",,
+2024-11-14T23:05:18.775807,awsdns-08.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:119:35::35
+2024-11-14T23:05:18.775807,awsapprunner.com,94.140.14.14,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 94.140.14.14
+2024-11-14T23:05:18.775807,awsdns-11.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 77.88.8.8
+2024-11-14T23:05:18.775807,awmcdn.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: awmcdn.net on server: 2001:4860:4860::8888
+2024-11-14T23:05:18.775807,awsdns-08.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:119:53::53
+2024-11-14T23:05:18.775807,awsapprunner.com,94.140.15.15,A,[],NoAnswer,No answer for domain: awsapprunner.com on server: 94.140.15.15
+2024-11-14T23:05:18.775807,awsdns-11.com,9.9.9.10,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 9.9.9.10
+2024-11-14T23:05:18.775807,awsdns-09.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsdns-09.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.775807,aws-prd.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aws-prd.net on server: 2400:3200:baba::1
+2024-11-14T23:05:18.775807,awsdns-08.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsdns-08.com on server: 2620:fe::10
+2024-11-14T23:05:18.775807,awin1.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awin1.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.775807,awmcdn.net,211.136.17.107,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 211.136.17.107
+2024-11-14T23:05:18.775807,awsapps.com,2001:4860:4860::8888,AAAA,"['2600:9000:26b8:8200:7:2c4b:2c40:93a1', '2600:9000:26b8:f800:7:2c4b:2c40:93a1', '2600:9000:26b8:ee00:7:2c4b:2c40:93a1', '2600:9000:26b8:9800:7:2c4b:2c40:93a1', '2600:9000:26b8:3600:7:2c4b:2c40:93a1', '2600:9000:26b8:2a00:7:2c4b:2c40:93a1', '2600:9000:26b8:4600:7:2c4b:2c40:93a1', '2600:9000:26b8:7a00:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awsapps.com,2001:4860:4860::8844,AAAA,"['2600:9000:2014:1800:7:2c4b:2c40:93a1', '2600:9000:2014:de00:7:2c4b:2c40:93a1', '2600:9000:2014:e00:7:2c4b:2c40:93a1', '2600:9000:2014:f600:7:2c4b:2c40:93a1', '2600:9000:2014:c200:7:2c4b:2c40:93a1', '2600:9000:2014:8c00:7:2c4b:2c40:93a1', '2600:9000:2014:9200:7:2c4b:2c40:93a1', '2600:9000:2014:1000:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmdm.com,2.56.220.2,A,[],NoAnswer,No answer for domain: awmdm.com on server: 2.56.220.2
+2024-11-14T23:05:18.775807,awmdm.com,95.85.95.85,A,[],NoAnswer,No answer for domain: awmdm.com on server: 95.85.95.85
+2024-11-14T23:05:18.775807,awsapprunner.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:0:ccc::2
+2024-11-14T23:05:18.775807,awsapps.com,2001:6d0:6d0::2001,AAAA,"['2600:9000:272c:e00:7:2c4b:2c40:93a1', '2600:9000:272c:a400:7:2c4b:2c40:93a1', '2600:9000:272c:c000:7:2c4b:2c40:93a1', '2600:9000:272c:5400:7:2c4b:2c40:93a1', '2600:9000:272c:8600:7:2c4b:2c40:93a1', '2600:9000:272c:ca00:7:2c4b:2c40:93a1', '2600:9000:272c:fc00:7:2c4b:2c40:93a1', '2600:9000:272c:2a00:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmdm.com,1.0.0.1,A,[],NoAnswer,No answer for domain: awmdm.com on server: 1.0.0.1
+2024-11-14T23:05:18.775807,awsdns-11.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 62.76.76.62
+2024-11-14T23:05:18.775807,awsapps.com,2a02:6b8::feed:0ff,AAAA,"['2600:9000:272c:200:7:2c4b:2c40:93a1', '2600:9000:272c:7a00:7:2c4b:2c40:93a1', '2600:9000:272c:6c00:7:2c4b:2c40:93a1', '2600:9000:272c:de00:7:2c4b:2c40:93a1', '2600:9000:272c:ba00:7:2c4b:2c40:93a1', '2600:9000:272c:e200:7:2c4b:2c40:93a1', '2600:9000:272c:ee00:7:2c4b:2c40:93a1', '2600:9000:272c:a600:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmcdn.net,117.50.11.11,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 117.50.11.11
+2024-11-14T23:05:18.775807,awsapprunner.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2402:4e00::
+2024-11-14T23:05:18.775807,awsapps.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2600:9000:2250:3600:7:2c4b:2c40:93a1', '2600:9000:2250:8a00:7:2c4b:2c40:93a1', '2600:9000:2250:be00:7:2c4b:2c40:93a1', '2600:9000:2250:9a00:7:2c4b:2c40:93a1', '2600:9000:2250:e200:7:2c4b:2c40:93a1', '2600:9000:2250:2a00:7:2c4b:2c40:93a1', '2600:9000:2250:f000:7:2c4b:2c40:93a1', '2600:9000:2250:aa00:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmcdn.net,218.30.118.6,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 218.30.118.6
+2024-11-14T23:05:18.775807,awsdns-11.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awsdns-11.com on server: 77.88.8.1
+2024-11-14T23:05:18.775807,awmdm.com,195.208.5.1,A,[],NoAnswer,No answer for domain: awmdm.com on server: 195.208.5.1
+2024-11-14T23:05:18.775807,awsapps.com,2a03:90c0:9992::1,AAAA,"['2600:9000:26b8:d200:7:2c4b:2c40:93a1', '2600:9000:26b8:6200:7:2c4b:2c40:93a1', '2600:9000:26b8:4c00:7:2c4b:2c40:93a1', '2600:9000:26b8:f200:7:2c4b:2c40:93a1', '2600:9000:26b8:d800:7:2c4b:2c40:93a1', '2600:9000:26b8:3e00:7:2c4b:2c40:93a1', '2600:9000:26b8:b200:7:2c4b:2c40:93a1', '2600:9000:26b8:2200:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awsapprunner.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 202.96.128.86
+2024-11-14T23:05:18.775807,awsapprunner.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2400:3200:baba::1
+2024-11-14T23:05:18.775807,awmcdn.net,180.76.76.76,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 180.76.76.76
+2024-11-14T23:05:18.775807,awsapprunner.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 210.21.196.6
+2024-11-14T23:05:18.775807,awsdns-11.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awsdns-11.com on server: 9.9.9.9
+2024-11-14T23:05:18.775807,awsapps.com,2606:4700:4700::1111,AAAA,"['2600:9000:27e3:b000:7:2c4b:2c40:93a1', '2600:9000:27e3:4000:7:2c4b:2c40:93a1', '2600:9000:27e3:ce00:7:2c4b:2c40:93a1', '2600:9000:27e3:b600:7:2c4b:2c40:93a1', '2600:9000:27e3:ac00:7:2c4b:2c40:93a1', '2600:9000:27e3:a800:7:2c4b:2c40:93a1', '2600:9000:27e3:600:7:2c4b:2c40:93a1', '2600:9000:27e3:5800:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmcdn.net,223.6.6.6,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 223.6.6.6
+2024-11-14T23:05:18.775807,awsapps.com,2606:4700:4700::1001,AAAA,"['2600:9000:27e3:fc00:7:2c4b:2c40:93a1', '2600:9000:27e3:5400:7:2c4b:2c40:93a1', '2600:9000:27e3:a800:7:2c4b:2c40:93a1', '2600:9000:27e3:9800:7:2c4b:2c40:93a1', '2600:9000:27e3:d400:7:2c4b:2c40:93a1', '2600:9000:27e3:f800:7:2c4b:2c40:93a1', '2600:9000:27e3:9600:7:2c4b:2c40:93a1', '2600:9000:27e3:8200:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.775807,awmcdn.net,119.29.29.29,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 119.29.29.29
+2024-11-14T23:05:18.775807,awsapprunner.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2400:3200::1
+2024-11-14T23:05:18.775807,awmdm.com,77.88.8.1,A,[],NoAnswer,No answer for domain: awmdm.com on server: 77.88.8.1
+2024-11-14T23:05:18.775807,awmdm.com,195.208.4.1,A,[],NoAnswer,No answer for domain: awmdm.com on server: 195.208.4.1
+2024-11-14T23:05:18.775807,awin1.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awin1.com on server: 2400:da00::6666
+2024-11-14T23:05:18.776812,awsapps.com,2a03:90c0:999d::1,AAAA,"['2600:9000:26b8:de00:7:2c4b:2c40:93a1', '2600:9000:26b8:c00:7:2c4b:2c40:93a1', '2600:9000:26b8:8800:7:2c4b:2c40:93a1', '2600:9000:26b8:1000:7:2c4b:2c40:93a1', '2600:9000:26b8:3200:7:2c4b:2c40:93a1', '2600:9000:26b8:4e00:7:2c4b:2c40:93a1', '2600:9000:26b8:8000:7:2c4b:2c40:93a1', '2600:9000:26b8:7400:7:2c4b:2c40:93a1']",,
+2024-11-14T23:05:18.776812,awsapprunner.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a10:50c0::ad2:ff
+2024-11-14T23:05:18.776812,awmdm.com,62.76.76.62,A,[],NoAnswer,No answer for domain: awmdm.com on server: 62.76.76.62
+2024-11-14T23:05:18.776812,awsapprunner.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:119:35::35
+2024-11-14T23:05:18.776812,awmcdn.net,94.140.14.14,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 94.140.14.14
+2024-11-14T23:05:18.776812,awmdm.com,62.76.62.76,A,[],NoAnswer,No answer for domain: awmdm.com on server: 62.76.62.76
+2024-11-14T23:05:18.776812,awmcdn.net,114.114.114.114,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 114.114.114.114
+2024-11-14T23:05:18.776812,awsapprunner.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:119:53::53
+2024-11-14T23:05:18.776812,awmcdn.net,114.114.115.115,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 114.114.115.115
+2024-11-14T23:05:18.776812,awsapprunner.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:fe::10
+2024-11-14T23:05:18.776812,awmcdn.net,223.5.5.5,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 223.5.5.5
+2024-11-14T23:05:18.776812,awsapprunner.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a0c:a9c7:9::1
+2024-11-14T23:05:18.776812,awsapprunner.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a0c:a9c7:8::1
+2024-11-14T23:05:18.776812,awmcdn.net,101.226.4.6,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 101.226.4.6
+2024-11-14T23:05:18.776812,awsapprunner.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:fe::fe
+2024-11-14T23:05:18.776812,awmdm.com,77.88.8.8,A,[],NoAnswer,No answer for domain: awmdm.com on server: 77.88.8.8
+2024-11-14T23:05:18.776812,awmdm.com,1.1.1.1,A,[],NoAnswer,No answer for domain: awmdm.com on server: 1.1.1.1
+2024-11-14T23:05:18.776812,awsapprunner.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2001:6d0:6d0::2001
+2024-11-14T23:05:18.776812,awsapprunner.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2001:6d0:d6::2001
+2024-11-14T23:05:18.776812,awmcdn.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 210.21.196.6
+2024-11-14T23:05:18.776812,awmcdn.net,123.125.81.6,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 123.125.81.6
+2024-11-14T23:05:18.776812,awmdm.com,8.8.8.8,A,[],NoAnswer,No answer for domain: awmdm.com on server: 8.8.8.8
+2024-11-14T23:05:18.776812,awmcdn.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 123.125.81.7
+2024-11-14T23:05:18.776812,awsapprunner.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2620:0:ccd::2
+2024-11-14T23:05:18.776812,awmcdn.net,94.140.15.15,A,[],NoAnswer,No answer for domain: awmcdn.net on server: 94.140.15.15
+2024-11-14T23:05:18.776812,awmdm.com,8.8.4.4,A,[],NoAnswer,No answer for domain: awmdm.com on server: 8.8.4.4
+2024-11-14T23:05:18.776812,awsapprunner.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T23:05:18.776812,awsapprunner.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a02:6b8::feed:0ff
+2024-11-14T23:05:18.776812,awsapprunner.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a03:90c0:9992::1
+2024-11-14T23:05:18.776812,awmdm.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: awmdm.com on server: 9.9.9.9
+2024-11-14T23:05:18.776812,awsapprunner.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: awsapprunner.com on server: 2400:da00::6666
+2024-11-14T23:05:18.776812,awsapprunner.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: awsapprunner.com on server: 2a10:50c0::ad1:ff
+2024-11-14T23:05:18.776812,awmcdn.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 202.96.128.86
+2024-11-14T23:05:18.776812,awmcdn.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: awmcdn.net on server: 101.226.4.7

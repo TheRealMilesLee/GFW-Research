@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T19:16:05.134468,amazonaws.com.cn,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.134468,amazonsilk.com,208.67.220.220,A,"['13.224.163.89', '13.224.163.101', '13.224.163.76', '13.224.163.80']",,
+2024-11-14T19:16:05.134468,amazontrust.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2402:4e00::
+2024-11-14T19:16:05.134468,amazontrust.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.134468,amazonses.com,94.140.15.15,A,"['13.225.131.87', '13.225.131.100', '13.225.131.92', '13.225.131.72']",,
+2024-11-14T19:16:05.134468,amazonaws.com.cn,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.134468,amazonsilk.com,208.67.222.222,A,"['13.224.163.101', '13.224.163.76', '13.224.163.80', '13.224.163.89']",,
+2024-11-14T19:16:05.134468,amazonses.com,101.226.4.6,A,"['13.33.183.45', '13.33.183.5', '13.33.183.44', '13.33.183.52']",,
+2024-11-14T19:16:05.134468,amazonaws.com.cn,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:fe::fe
+2024-11-14T19:16:05.134468,amazon.sa,195.208.5.1,A,"['52.95.125.115', '52.95.124.175', '52.95.123.165']",,
+2024-11-14T19:16:05.135937,amazon.sa,195.208.4.1,A,"['52.95.123.165', '52.95.125.115', '52.95.124.175']",,
+2024-11-14T19:16:05.135937,amazonses.com,223.5.5.5,A,"['13.33.183.44', '13.33.183.45', '13.33.183.5', '13.33.183.52']",,
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.135937,amazonvideo.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.135937,amazon.sa,208.67.222.220,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.135937,amazonvideo.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.135937,amazonses.com,114.114.114.114,A,"['13.33.183.45', '13.33.183.5', '13.33.183.44']",,
+2024-11-14T19:16:05.135937,amazonses.com,114.114.115.115,A,"['13.33.183.44', '13.33.183.45', '13.33.183.5']",,
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:0:ccc::2
+2024-11-14T19:16:05.135937,amazontrust.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:119:53::53
+2024-11-14T19:16:05.135937,amazonses.com,117.50.11.11,A,"['13.33.183.44', '13.33.183.5', '13.33.183.52', '13.33.183.45']",,
+2024-11-14T19:16:05.135937,amazon.sa,94.140.14.14,A,"['52.95.124.175', '52.95.123.165', '52.95.125.115']",,
+2024-11-14T19:16:05.135937,amazonvideo.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.135937,amazonses.com,123.125.81.6,A,"['13.33.183.44', '13.33.183.45', '13.33.183.5', '13.33.183.52']",,
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.135937,amazon.sa,62.76.76.62,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.135937,amazonses.com,218.30.118.6,A,"['13.33.183.52', '13.33.183.45', '13.33.183.44', '13.33.183.5']",,
+2024-11-14T19:16:05.135937,amazonses.com,211.136.17.107,A,"['13.33.28.41', '13.33.28.92', '13.33.28.72', '13.33.28.18']",,
+2024-11-14T19:16:05.135937,amazonaws.com.cn,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.135937,amazon.sa,62.76.62.76,A,"['52.95.125.115', '52.95.124.175', '52.95.123.165']",,
+2024-11-14T19:16:05.135937,amazonvideo.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.135937,amazontrust.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:119:35::35
+2024-11-14T19:16:05.135937,amazonaws.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.135937,amazon.sa,77.88.8.8,A,"['52.95.123.165', '52.95.125.115', '52.95.124.175']",,
+2024-11-14T19:16:05.135937,amazontrust.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.135937,amazon.sa,77.88.8.1,A,"['52.95.123.165', '52.95.124.175', '52.95.125.115']",,
+2024-11-14T19:16:05.136943,amazonaws.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.136943,amazontrust.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:fe::fe
+2024-11-14T19:16:05.136943,amazon.sa,208.67.222.222,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.136943,amazonses.com,119.29.29.29,A,"['13.33.28.72', '13.33.28.18', '13.33.28.41', '13.33.28.92']",,
+2024-11-14T19:16:05.136943,amazonaws.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.136943,amazontrust.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:fe::10
+2024-11-14T19:16:05.136943,amazon.sa,208.67.220.222,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.136943,amazonses.com,8.8.4.4,A,"['13.33.183.52', '13.33.183.5', '13.33.183.45', '13.33.183.44']",,
+2024-11-14T19:16:05.136943,amazonses.com,180.76.76.76,A,"['13.33.183.52', '13.33.183.5', '13.33.183.44', '13.33.183.45']",,
+2024-11-14T19:16:05.136943,amazonaws.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.136943,amazontrust.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.136943,amazon.pl,211.136.17.107,A,"['52.95.126.82', '52.95.125.155', '52.94.222.122']",,
+2024-11-14T19:16:05.136943,amazonses.com,1.0.0.1,A,"['3.168.132.12', '3.168.132.129', '3.168.132.125', '3.168.132.119']",,
+2024-11-14T19:16:05.136943,amazonvideo.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.136943,amazonaws.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:119:35::35
+2024-11-14T19:16:05.136943,amazonvideo.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.136943,amazon.sa,9.9.9.10,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.136943,amazonses.com,77.88.8.8,A,"['3.164.240.27', '3.164.240.3', '3.164.240.54', '3.164.240.64']",,
+2024-11-14T19:16:05.136943,amazonsilk.com,9.9.9.10,A,"['18.245.46.77', '18.245.46.100', '18.245.46.114', '18.245.46.116']",,
+2024-11-14T19:16:05.136943,amazonaws.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:119:53::53
+2024-11-14T19:16:05.136943,amazonvideo.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.136943,amazon.sa,2.56.220.2,A,"['52.95.124.175', '52.95.123.165', '52.95.125.115']",,
+2024-11-14T19:16:05.136943,amazonses.com,62.76.76.62,A,"['18.165.140.61', '18.165.140.63', '18.165.140.12', '18.165.140.129']",,
+2024-11-14T19:16:05.136943,amazonsilk.com,195.208.5.1,A,"['3.164.230.72', '3.164.230.6', '3.164.230.69', '3.164.230.4']",,
+2024-11-14T19:16:05.137932,amazonaws.com.cn,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:119:35::35
+2024-11-14T19:16:05.137932,amazontrust.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.137932,amazon.pl,117.50.11.11,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 117.50.11.11
+2024-11-14T19:16:05.137932,amazon.sa,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazon.sa on server: 9.9.9.9
+2024-11-14T19:16:05.137932,amazonses.com,223.6.6.6,A,"['18.238.217.129', '18.238.217.76', '18.238.217.102', '18.238.217.43']",,
+2024-11-14T19:16:05.137932,amazonses.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonses.com on server: 101.226.4.7
+2024-11-14T19:16:05.137932,amazonaws.com.cn,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:119:53::53
+2024-11-14T19:16:05.137932,amazon.pl,123.125.81.6,A,"['52.95.126.82', '52.95.125.155', '52.94.222.122']",,
+2024-11-14T19:16:05.137932,amazon.pl,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 123.125.81.7
+2024-11-14T19:16:05.137932,amazon.sa,1.0.0.1,A,"['52.95.123.165', '52.95.125.115', '52.95.124.175']",,
+2024-11-14T19:16:05.137932,amazonses.com,195.208.4.1,A,"['18.165.140.129', '18.165.140.63', '18.165.140.61', '18.165.140.12']",,
+2024-11-14T19:16:05.137932,amazonvideo.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.137932,amazonses.com,77.88.8.1,A,"['3.164.240.54', '3.164.240.3', '3.164.240.27', '3.164.240.64']",,
+2024-11-14T19:16:05.137932,amazonsilk.com,62.76.62.76,A,"['3.164.68.108', '3.164.68.62', '3.164.68.28', '3.164.68.118']",,
+2024-11-14T19:16:05.137932,amazonaws.com.cn,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.137932,amazon.sa,95.85.95.85,A,"['52.95.123.165', '52.95.124.175', '52.95.125.115']",,
+2024-11-14T19:16:05.137932,amazonses.com,62.76.62.76,A,"['18.165.140.63', '18.165.140.129', '18.165.140.12', '18.165.140.61']",,
+2024-11-14T19:16:05.137932,amazon.sa,8.8.4.4,A,"['52.95.123.165', '52.95.124.175', '52.95.125.115']",,
+2024-11-14T19:16:05.137932,amazonaws.com.cn,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.137932,amazonses.com,94.140.14.14,A,"['13.225.131.87', '13.225.131.100', '13.225.131.92', '13.225.131.72']",,
+2024-11-14T19:16:05.137932,amazonsilk.com,195.208.4.1,A,"['3.164.68.28', '3.164.68.108', '3.164.68.118', '3.164.68.62']",,
+2024-11-14T19:16:05.137932,amazontrust.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.137932,amazontrust.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.137932,amazon.sa,1.1.1.1,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.137932,amazonsilk.com,77.88.8.1,A,"['3.164.230.72', '3.164.230.6', '3.164.230.69', '3.164.230.4']",,
+2024-11-14T19:16:05.137932,amazonaws.com.cn,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.137932,amazonses.com,195.208.5.1,A,"['3.164.240.27', '3.164.240.3', '3.164.240.64', '3.164.240.54']",,
+2024-11-14T19:16:05.138989,amazontrust.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.138989,amazonaws.com.cn,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.138989,amazonsilk.com,62.76.76.62,A,"['3.164.68.62', '3.164.68.118', '3.164.68.108', '3.164.68.28']",,
+2024-11-14T19:16:05.138989,amazonaws.com.cn,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:0:ccd::2
+2024-11-14T19:16:05.138989,amazonses.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonses.com on server: 202.96.128.86
+2024-11-14T19:16:05.138989,amazonvideo.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.138989,amazon.sa,8.8.8.8,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.138989,amazonses.com,208.67.220.222,A,"['13.33.183.45', '13.33.183.52', '13.33.183.5', '13.33.183.44']",,
+2024-11-14T19:16:05.138989,amazonaws.com.cn,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.138989,amazonses.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonses.com on server: 210.21.196.6
+2024-11-14T19:16:05.138989,amazonsilk.com,2.56.220.2,A,"['13.224.163.101', '13.224.163.89', '13.224.163.80', '13.224.163.76']",,
+2024-11-14T19:16:05.138989,amazonvideo.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.138989,amazontrust.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.138989,amazon.sa,208.67.220.220,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.138989,amazon.pl,101.226.4.6,A,"['52.95.126.82', '52.95.125.155', '52.94.222.122']",,
+2024-11-14T19:16:05.138989,amazonses.com,95.85.95.85,A,"['13.33.183.52', '13.33.183.45', '13.33.183.5', '13.33.183.44']",,
+2024-11-14T19:16:05.138989,amazonses.com,9.9.9.10,A,"['143.204.215.31', '143.204.215.91', '143.204.215.56', '143.204.215.79']",,
+2024-11-14T19:16:05.139943,amazonaws.com.cn,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2620:fe::10
+2024-11-14T19:16:05.139943,amazon.sa,223.5.5.5,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.139943,amazonsilk.com,95.85.95.85,A,"['13.224.163.89', '13.224.163.101', '13.224.163.76', '13.224.163.80']",,
+2024-11-14T19:16:05.139943,amazonvideo.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.139943,amazonses.com,208.67.222.222,A,"['13.33.183.45', '13.33.183.52', '13.33.183.5', '13.33.183.44']",,
+2024-11-14T19:16:05.139943,amazonsilk.com,1.1.1.1,A,"['3.166.244.54', '3.166.244.112', '3.166.244.28', '3.166.244.70']",,
+2024-11-14T19:16:05.139943,amazon.sa,223.6.6.6,A,"['52.95.124.175', '52.95.125.115', '52.95.123.165']",,
+2024-11-14T19:16:05.139943,amazonses.com,2.56.220.2,A,"['13.33.183.5', '13.33.183.44', '13.33.183.45', '13.33.183.52']",,
+2024-11-14T19:16:05.139943,amazontrust.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.139943,amazonaws.com.cn,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.139943,amazonsilk.com,1.0.0.1,A,"['13.226.228.83', '13.226.228.84', '13.226.228.96', '13.226.228.107']",,
+2024-11-14T19:16:05.139943,amazon.sa,114.114.114.114,A,"['52.95.123.165', '52.95.124.175', '52.95.125.115']",,
+2024-11-14T19:16:05.139943,amazonses.com,208.67.220.220,A,"['13.33.183.44', '13.33.183.45', '13.33.183.52', '13.33.183.5']",,
+2024-11-14T19:16:05.139943,amazontrust.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.139943,amazonaws.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.139943,amazonsilk.com,8.8.8.8,A,"['13.224.163.89', '13.224.163.101', '13.224.163.80', '13.224.163.76']",,
+2024-11-14T19:16:05.139943,amazontrust.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2400:3200::1
+2024-11-14T19:16:05.139943,amazon.sa,114.114.115.115,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.139943,amazonses.com,208.67.222.220,A,"['13.33.183.5', '13.33.183.44', '13.33.183.45', '13.33.183.52']",,
+2024-11-14T19:16:05.140984,amazonsilk.com,8.8.4.4,A,"['13.224.163.101', '13.224.163.76', '13.224.163.89', '13.224.163.80']",,
+2024-11-14T19:16:05.140984,amazonaws.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2402:4e00::
+2024-11-14T19:16:05.140984,amazon.sa,94.140.15.15,A,"['52.95.123.165', '52.95.125.115', '52.95.124.175']",,
+2024-11-14T19:16:05.140984,amazonses.com,1.1.1.1,A,"['18.65.168.48', '18.65.168.53', '18.65.168.116', '18.65.168.28']",,
+2024-11-14T19:16:05.140984,amazonaws.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2400:3200::1
+2024-11-14T19:16:05.140984,amazonsilk.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 9.9.9.9
+2024-11-14T19:16:05.140984,amazonalexa.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 208.67.222.222
+2024-11-14T19:16:05.140984,amazonaws.com,180.76.76.76,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.140984,amazonvideo.com,211.136.17.107,A,"['13.35.238.71', '13.35.238.85', '13.35.238.106', '13.35.238.112']",,
+2024-11-14T19:16:05.140984,ameba.jp,208.67.222.222,A,['128.242.245.180'],,
+2024-11-14T19:16:05.140984,amazon.sa,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.140984,amazonalexa.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 208.67.222.220
+2024-11-14T19:16:05.140984,amazonsilk.com,77.88.8.8,A,"['3.164.230.69', '3.164.230.4', '3.164.230.72', '3.164.230.6']",,
+2024-11-14T19:16:05.140984,amazonvideo.com,123.125.81.6,A,"['13.35.238.112', '13.35.238.71', '13.35.238.85', '13.35.238.106']",,
+2024-11-14T19:16:05.140984,ameba.jp,9.9.9.10,A,['130.211.15.150'],,
+2024-11-14T19:16:05.140984,amazon.pl,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:fe::fe
+2024-11-14T19:16:05.140984,amazonalexa.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 9.9.9.10
+2024-11-14T19:16:05.140984,amazonaws.com,223.6.6.6,A,"['72.21.206.80', '207.171.166.22', '72.21.210.29']",,
+2024-11-14T19:16:05.140984,amazonvideo.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.140984,ameba.jp,62.76.76.62,A,['154.85.102.30'],,
+2024-11-14T19:16:05.140984,amazon.sa,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.140984,amazonaws.com,2.56.220.2,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.140984,amazonaws.com,119.29.29.29,A,"['72.21.210.29', '72.21.206.80', '207.171.166.22']",,
+2024-11-14T19:16:05.140984,amazonvideo.com,218.30.118.6,A,"['13.35.238.106', '13.35.238.112', '13.35.238.71', '13.35.238.85']",,
+2024-11-14T19:16:05.140984,ameba.jp,195.208.4.1,A,['162.125.18.129'],,
+2024-11-14T19:16:05.140984,amazon.pl,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:fe::10
+2024-11-14T19:16:05.140984,amazonalexa.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 208.67.220.220
+2024-11-14T19:16:05.140984,amazonaws.com,123.125.81.6,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.141984,amazon.pl,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 101.226.4.7
+2024-11-14T19:16:05.141984,ameba.jp,77.88.8.1,A,['67.230.169.182'],,
+2024-11-14T19:16:05.141984,amazon.sa,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.141984,amazonses.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonses.com on server: 9.9.9.9
+2024-11-14T19:16:05.141984,amazonaws.com,62.76.62.76,A,"['207.171.166.22', '72.21.210.29', '72.21.206.80']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,1.1.1.1,A,"['88.221.111.42', '88.221.111.90']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,9.9.9.10,A,"['184.24.77.6', '184.24.77.36']",,
+2024-11-14T19:16:05.141984,ameba.jp,62.76.62.76,A,['159.106.121.75'],,
+2024-11-14T19:16:05.141984,amazonaws.com,8.8.4.4,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.141984,ameba.jp,1.0.0.1,A,['65.49.26.97'],,
+2024-11-14T19:16:05.141984,ambitionbox.com,208.67.222.222,A,"['23.74.15.35', '23.74.15.33']",,
+2024-11-14T19:16:05.141984,amazonaws.com,1.1.1.1,A,"['207.171.166.22', '72.21.206.80', '72.21.210.29']",,
+2024-11-14T19:16:05.141984,amazonaws.com,62.76.76.62,A,"['72.21.210.29', '72.21.206.80', '207.171.166.22']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,208.67.220.220,A,"['23.60.96.154', '23.204.80.134']",,
+2024-11-14T19:16:05.141984,ameba.jp,95.85.95.85,A,['199.59.148.206'],,
+2024-11-14T19:16:05.141984,amazon.sa,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.141984,amazonaws.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 2400:da00::6666
+2024-11-14T19:16:05.141984,amazonses.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonses.com on server: 123.125.81.7
+2024-11-14T19:16:05.141984,amazontrust.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 2400:da00::6666
+2024-11-14T19:16:05.141984,ameba.jp,2.56.220.2,A,['185.45.6.57'],,
+2024-11-14T19:16:05.141984,amazon.pl,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:119:53::53
+2024-11-14T19:16:05.141984,amazonaws.com,8.8.8.8,A,"['207.171.166.22', '72.21.210.29', '72.21.206.80']",,
+2024-11-14T19:16:05.141984,amazonaws.com,101.226.4.6,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,195.208.5.1,A,"['2.16.241.13', '2.16.241.17']",,
+2024-11-14T19:16:05.141984,ameba.jp,77.88.8.8,A,['108.160.163.112'],,
+2024-11-14T19:16:05.141984,amazon.pl,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.141984,amazonaws.com,77.88.8.8,A,"['207.171.166.22', '72.21.206.80', '72.21.210.29']",,
+2024-11-14T19:16:05.141984,amazonaws.com.cn,8.8.4.4,A,"['52.81.170.225', '52.83.128.157', '140.179.122.235', '52.83.70.25', '43.192.37.20', '54.223.86.57']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,62.76.76.62,A,"['23.55.161.193', '23.55.161.174']",,
+2024-11-14T19:16:05.141984,ameba.jp,8.8.4.4,A,['103.252.115.153'],,
+2024-11-14T19:16:05.141984,amazon.sa,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.141984,amazonaws.com,77.88.8.1,A,"['72.21.206.80', '207.171.166.22', '72.21.210.29']",,
+2024-11-14T19:16:05.141984,amazonaws.com.cn,1.1.1.1,A,"['52.83.128.157', '52.81.170.225', '54.223.86.57', '43.192.37.20', '52.83.70.25', '140.179.122.235']",,
+2024-11-14T19:16:05.141984,amazonvideo.com,180.76.76.76,A,"['13.226.61.80', '13.226.61.104', '13.226.61.125', '13.226.61.72']",,
+2024-11-14T19:16:05.141984,ameba.jp,1.1.1.1,A,['114.43.24.59'],,
+2024-11-14T19:16:05.141984,amazonaws.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 202.96.128.86
+2024-11-14T19:16:05.141984,amazonaws.com.cn,8.8.8.8,A,"['140.179.122.235', '54.223.86.57', '52.83.128.157', '52.81.170.225', '52.83.70.25', '43.192.37.20']",,
+2024-11-14T19:16:05.141984,ambitionbox.com,8.8.4.4,A,"['104.109.129.33', '23.77.204.139']",,
+2024-11-14T19:16:05.141984,amazonvideo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 210.21.196.6
+2024-11-14T19:16:05.141984,amazon.sa,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.141984,amazonaws.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 123.125.81.7
+2024-11-14T19:16:05.141984,amazon.pl,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazon.pl on server: 2400:da00::6666
+2024-11-14T19:16:05.141984,ameba.jp,8.8.8.8,A,['199.59.150.40'],,
+2024-11-14T19:16:05.141984,amazonaws.com,1.0.0.1,A,"['72.21.210.29', '72.21.206.80', '207.171.166.22']",,
+2024-11-14T19:16:05.141984,amazonaws.com,195.208.5.1,A,"['207.171.166.22', '72.21.210.29', '72.21.206.80']",,
+2024-11-14T19:16:05.143512,amazonaws.com,208.67.220.220,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.143599,amazon.sa,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.143599,ameba.jp,114.114.115.115,A,['31.13.73.169'],,
+2024-11-14T19:16:05.143599,amazonalexa.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 101.226.4.6
+2024-11-14T19:16:05.143599,amazon.sa,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.143599,amazonalexa.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 101.226.4.7
+2024-11-14T19:16:05.143599,amazonaws.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 210.21.196.6
+2024-11-14T19:16:05.143599,ambitionbox.com,1.0.0.1,A,"['23.212.62.73', '23.212.62.79']",,
+2024-11-14T19:16:05.143599,amazonaws.com,195.208.4.1,A,"['72.21.210.29', '72.21.206.80', '207.171.166.22']",,
+2024-11-14T19:16:05.143599,amazonaws.com,223.5.5.5,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.143599,ameba.jp,223.5.5.5,A,['108.160.165.62'],,
+2024-11-14T19:16:05.143599,ameba.jp,94.140.15.15,A,['38.121.72.166'],,
+2024-11-14T19:16:05.143599,amazonalexa.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 218.30.118.6
+2024-11-14T19:16:05.143599,amazon.pl,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.143599,ambitionbox.com,77.88.8.1,A,"['23.216.154.113', '23.216.154.131', '23.216.154.99']",,
+2024-11-14T19:16:05.143599,ameba.jp,114.114.114.114,A,['31.13.73.169'],,
+2024-11-14T19:16:05.143599,ambitionbox.com,62.76.62.76,A,"['2.16.241.17', '2.16.241.13']",,
+2024-11-14T19:16:05.143599,ambitionbox.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 9.9.9.9
+2024-11-14T19:16:05.143599,amazonalexa.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 211.136.17.107
+2024-11-14T19:16:05.143599,amazonvideo.com,223.6.6.6,A,"['13.226.61.80', '13.226.61.72', '13.226.61.125', '13.226.61.104']",,
+2024-11-14T19:16:05.143599,ameba.jp,208.67.222.220,A,['199.96.58.105'],,
+2024-11-14T19:16:05.143599,amazonalexa.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 123.125.81.6
+2024-11-14T19:16:05.143599,amazon.pl,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.143599,amazonvideo.com,119.29.29.29,A,"['13.35.238.112', '13.35.238.85', '13.35.238.106', '13.35.238.71']",,
+2024-11-14T19:16:05.143599,amazon.pl,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.143599,amazonalexa.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 223.5.5.5
+2024-11-14T19:16:05.143599,amazonaws.com,114.114.115.115,A,"['207.171.166.22', '72.21.206.80', '72.21.210.29']",,
+2024-11-14T19:16:05.143599,ambitionbox.com,95.85.95.85,A,"['2.16.241.13', '2.16.241.17']",,
+2024-11-14T19:16:05.144537,ameba.jp,208.67.220.220,A,['64.13.192.76'],,
+2024-11-14T19:16:05.144537,amazon.pl,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:0:ccd::2
+2024-11-14T19:16:05.144537,amazonalexa.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 180.76.76.76
+2024-11-14T19:16:05.144537,amd.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amd.com on server: 101.226.4.7
+2024-11-14T19:16:05.144537,ambitionbox.com,195.208.4.1,A,"['104.109.129.33', '23.77.204.139']",,
+2024-11-14T19:16:05.144537,amazonaws.com,95.85.95.85,A,"['207.171.166.22', '72.21.206.80', '72.21.210.29']",,
+2024-11-14T19:16:05.144537,amazonalexa.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 117.50.11.11
+2024-11-14T19:16:05.144537,amazonaws.com,218.30.118.6,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.144537,amazonvideo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 202.96.128.86
+2024-11-14T19:16:05.144537,amazonalexa.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 123.125.81.7
+2024-11-14T19:16:05.144537,amd.com,218.30.118.6,A,['23.1.100.95'],,
+2024-11-14T19:16:05.144537,amazon.pl,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.144537,amazonaws.com,9.9.9.10,A,"['207.171.166.22', '72.21.210.29', '72.21.206.80']",,
+2024-11-14T19:16:05.144537,ambitionbox.com,8.8.8.8,A,"['104.109.129.33', '23.77.204.139']",,
+2024-11-14T19:16:05.144537,amd.com,211.136.17.107,A,['23.35.28.108'],,
+2024-11-14T19:16:05.144537,amazon.pl,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.144537,amazonalexa.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 114.114.114.114
+2024-11-14T19:16:05.144537,amazonaws.com,94.140.15.15,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.144537,amazonaws.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 101.226.4.7
+2024-11-14T19:16:05.144537,ameba.jp,208.67.220.222,A,['108.160.165.53'],,
+2024-11-14T19:16:05.144537,amazon.pl,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:119:35::35
+2024-11-14T19:16:05.144537,amazonvideo.com,117.50.11.11,A,"['13.35.238.112', '13.35.238.85', '13.35.238.71', '13.35.238.106']",,
+2024-11-14T19:16:05.144537,amazonalexa.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 114.114.115.115
+2024-11-14T19:16:05.144537,amazonaws.com,114.114.114.114,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.144537,ameba.jp,195.208.5.1,A,['103.240.180.117'],,
+2024-11-14T19:16:05.144537,amazon.pl,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2620:0:ccc::2
+2024-11-14T19:16:05.144537,amazonalexa.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 223.6.6.6
+2024-11-14T19:16:05.144537,amazonaws.com,208.67.220.222,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.144537,ambitionbox.com,2.56.220.2,A,"['125.56.219.40', '96.17.72.16']",,
+2024-11-14T19:16:05.144537,amazonvideo.com,101.226.4.6,A,"['13.35.238.106', '13.35.238.112', '13.35.238.71', '13.35.238.85']",,
+2024-11-14T19:16:05.144537,amazon.pl,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.144537,amazonalexa.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 119.29.29.29
+2024-11-14T19:16:05.145531,amazonaws.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 117.50.11.11
+2024-11-14T19:16:05.145531,amazonaws.com,94.140.14.14,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.145531,ameba.jp,94.140.14.14,A,['182.50.139.56'],,
+2024-11-14T19:16:05.145531,amazonalexa.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 94.140.14.14
+2024-11-14T19:16:05.145531,ambitionbox.com,77.88.8.8,A,"['2.16.241.17', '2.16.241.13']",,
+2024-11-14T19:16:05.145531,amazonaws.com,211.136.17.107,A,"['72.21.210.29', '207.171.166.22', '72.21.206.80']",,
+2024-11-14T19:16:05.145531,amd.com,123.125.81.6,A,['23.45.40.120'],,
+2024-11-14T19:16:05.145531,amazon.pl,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2400:3200:baba::1
+2024-11-14T19:16:05.145531,amazonalexa.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 94.140.15.15
+2024-11-14T19:16:05.145531,amazonaws.com,208.67.222.222,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.145531,amazonaws.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonaws.com on server: 9.9.9.9
+2024-11-14T19:16:05.145531,amd.com,101.226.4.6,A,['23.35.28.108'],,
+2024-11-14T19:16:05.145531,amazon.pl,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2402:4e00::
+2024-11-14T19:16:05.145531,amazonalexa.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 208.67.220.222
+2024-11-14T19:16:05.145531,amazonaws.com,208.67.222.220,A,"['72.21.206.80', '72.21.210.29', '207.171.166.22']",,
+2024-11-14T19:16:05.145531,amazon.pl,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2400:3200::1
+2024-11-14T19:16:05.145531,amazon.pl,208.67.222.222,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.145531,amebaownd.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 114.114.114.114
+2024-11-14T19:16:05.145531,amd.com,117.50.11.11,A,['23.45.40.120'],,
+2024-11-14T19:16:05.145531,amebaownd.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 114.114.115.115
+2024-11-14T19:16:05.145531,amazon.se,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.145531,amazon.pl,218.30.118.6,A,"['52.95.126.82', '52.95.125.155', '52.94.222.122']",,
+2024-11-14T19:16:05.145531,amazon.pl,95.85.95.85,A,"['52.94.222.122', '52.95.126.82', '52.95.125.155']",,
+2024-11-14T19:16:05.145531,amazon.se,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.145531,ameba.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ameba.jp on server: 9.9.9.9
+2024-11-14T19:16:05.146552,amebaownd.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 218.30.118.6
+2024-11-14T19:16:05.146552,amazon.se,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.146552,amazonalexa.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 202.96.128.86
+2024-11-14T19:16:05.146552,amebaownd.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 94.140.14.14
+2024-11-14T19:16:05.146552,amazon.se,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.146552,amazon.pl,77.88.8.1,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,amebaownd.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 94.140.15.15
+2024-11-14T19:16:05.146552,amazon.sa,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:fe::10
+2024-11-14T19:16:05.146552,amazon.pl,208.67.222.220,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,ameblo.jp,195.208.5.1,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.146552,amazon.pl,180.76.76.76,A,"['52.95.125.155', '52.95.126.82', '52.94.222.122']",,
+2024-11-14T19:16:05.146552,amazonvideo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 101.226.4.7
+2024-11-14T19:16:05.146552,amazon.se,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.146552,amazon.pl,8.8.4.4,A,"['52.95.125.155', '52.95.126.82', '52.94.222.122']",,
+2024-11-14T19:16:05.146552,ameblo.jp,62.76.62.76,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.146552,amazon.se,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.146552,amazon.pl,1.0.0.1,A,"['52.95.125.155', '52.94.222.122', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,ameblo.jp,195.208.4.1,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.146552,amazon.sa,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.146552,ameblo.jp,77.88.8.1,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.146552,amazonalexa.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 210.21.196.6
+2024-11-14T19:16:05.146552,amazon.sa,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:fe::fe
+2024-11-14T19:16:05.146552,ameblo.jp,62.76.76.62,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.146552,amazon.sa,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2400:3200:baba::1
+2024-11-14T19:16:05.146552,amazon.pl,195.208.4.1,A,"['52.95.125.155', '52.94.222.122', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,amazon.pl,223.6.6.6,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,ameblo.jp,2.56.220.2,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.146552,ameblo.jp,77.88.8.8,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.146552,amazon.sa,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2402:4e00::
+2024-11-14T19:16:05.146552,ameblo.jp,1.0.0.1,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.146552,amazon.pl,77.88.8.8,A,"['52.95.126.82', '52.94.222.122', '52.95.125.155']",,
+2024-11-14T19:16:05.146552,amazon.pl,223.5.5.5,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.146552,ameblo.jp,95.85.95.85,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.147545,amazon.sa,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.147545,amazon.pl,195.208.5.1,A,"['52.94.222.122', '52.95.126.82', '52.95.125.155']",,
+2024-11-14T19:16:05.147545,ameblo.jp,8.8.4.4,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.147545,amazon.sa,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2400:3200::1
+2024-11-14T19:16:05.147545,amazon.pl,208.67.220.222,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.147545,ameblo.jp,1.1.1.1,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.147545,amazon.sa,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.147545,amazonvideo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 123.125.81.7
+2024-11-14T19:16:05.147545,amazon.pl,94.140.14.14,A,"['52.95.125.155', '52.95.126.82', '52.94.222.122']",,
+2024-11-14T19:16:05.147545,amazon.pl,2.56.220.2,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.147545,ameblo.jp,8.8.8.8,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.147545,amd.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amd.com on server: 123.125.81.7
+2024-11-14T19:16:05.147545,amazon.sa,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:0:ccc::2
+2024-11-14T19:16:05.147545,amebaownd.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 101.226.4.6
+2024-11-14T19:16:05.147545,amazon.pl,9.9.9.10,A,"['52.95.126.82', '52.94.222.122', '52.95.125.155']",,
+2024-11-14T19:16:05.147545,amazon.sa,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:0:ccd::2
+2024-11-14T19:16:05.147545,amazon.pl,1.1.1.1,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.147545,amazon.sa,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:119:35::35
+2024-11-14T19:16:05.147545,amazon.pl,8.8.8.8,A,"['52.95.125.155', '52.94.222.122', '52.95.126.82']",,
+2024-11-14T19:16:05.147545,amebaownd.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 117.50.11.11
+2024-11-14T19:16:05.147545,amazon.sa,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2620:119:53::53
+2024-11-14T19:16:05.147545,amazon.pl,119.29.29.29,A,"['52.95.126.82', '52.95.125.155', '52.94.222.122']",,
+2024-11-14T19:16:05.147545,amebaownd.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 210.21.196.6
+2024-11-14T19:16:05.147545,amebaownd.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 123.125.81.6
+2024-11-14T19:16:05.147545,amazon.sa,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.147545,amazon.pl,62.76.62.76,A,"['52.95.126.82', '52.94.222.122', '52.95.125.155']",,
+2024-11-14T19:16:05.147545,amazon.pl,114.114.114.114,A,"['52.94.222.122', '52.95.125.155', '52.95.126.82']",,
+2024-11-14T19:16:05.147545,amazon.pl,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 202.96.128.86
+2024-11-14T19:16:05.147545,amazon.pl,114.114.115.115,A,"['52.95.125.155', '52.95.126.82', '52.94.222.122']",,
+2024-11-14T19:16:05.147545,amebaownd.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 119.29.29.29
+2024-11-14T19:16:05.148549,amazon.pl,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 210.21.196.6
+2024-11-14T19:16:05.148549,amazon.pl,94.140.15.15,A,"['52.95.125.155', '52.95.126.82', '52.94.222.122']",,
+2024-11-14T19:16:05.148549,amebaownd.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 211.136.17.107
+2024-11-14T19:16:05.148549,amazon.se,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.148549,ameblo.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 9.9.9.9
+2024-11-14T19:16:05.148549,amebaownd.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 223.6.6.6
+2024-11-14T19:16:05.148549,amazon.se,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.148549,amazon.pl,62.76.76.62,A,"['52.95.126.82', '52.94.222.122', '52.95.125.155']",,
+2024-11-14T19:16:05.148549,amebaownd.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 180.76.76.76
+2024-11-14T19:16:05.148549,amazon.pl,208.67.220.220,A,"['52.95.126.82', '52.94.222.122', '52.95.125.155']",,
+2024-11-14T19:16:05.148549,amebaownd.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 223.5.5.5
+2024-11-14T19:16:05.148549,amazonaws.com.cn,101.226.4.6,A,"['54.223.86.57', '52.81.170.225', '140.179.122.235', '52.83.70.25', '52.83.128.157', '43.192.37.20']",,
+2024-11-14T19:16:05.148549,ameba.jp,101.226.4.6,A,['103.240.182.55'],,
+2024-11-14T19:16:05.148549,amazon.sa,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.148549,amazon.sa,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazon.sa on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.148549,amazon.sa,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazon.sa on server: 2400:da00::6666
+2024-11-14T19:16:05.148549,ameba.jp,123.125.81.6,A,['157.240.12.50'],,
+2024-11-14T19:16:05.148549,amazonaws.com.cn,117.50.11.11,A,"['52.81.170.225', '54.223.86.57', '52.83.128.157', '43.192.37.20', '140.179.122.235', '52.83.70.25']",,
+2024-11-14T19:16:05.148549,amebaownd.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 101.226.4.7
+2024-11-14T19:16:05.148549,amazonaws.com.cn,195.208.4.1,A,"['52.83.70.25', '140.179.122.235', '54.223.86.57', '52.83.128.157', '43.192.37.20', '52.81.170.225']",,
+2024-11-14T19:16:05.148549,amebaownd.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 123.125.81.7
+2024-11-14T19:16:05.148549,amebaownd.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 202.96.128.86
+2024-11-14T19:16:05.148549,amebaownd.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 77.88.8.1
+2024-11-14T19:16:05.148549,amazonaws.com.cn,62.76.76.62,A,"['140.179.122.235', '52.83.70.25', '52.83.128.157', '43.192.37.20', '54.223.86.57', '52.81.170.225']",,
+2024-11-14T19:16:05.148549,ameba.jp,180.76.76.76,A,['199.96.63.163'],,
+2024-11-14T19:16:05.148549,amazonaws.com.cn,62.76.62.76,A,"['52.83.70.25', '43.192.37.20', '52.81.170.225', '140.179.122.235', '54.223.86.57', '52.83.128.157']",,
+2024-11-14T19:16:05.148549,amazonaws.com.cn,218.30.118.6,A,"['43.192.37.20', '52.83.128.157', '52.83.70.25', '140.179.122.235', '54.223.86.57', '52.81.170.225']",,
+2024-11-14T19:16:05.149547,amazon.pl,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazon.pl on server: 9.9.9.9
+2024-11-14T19:16:05.149547,amazonaws.com.cn,77.88.8.8,A,"['52.81.170.225', '54.223.86.57', '52.83.128.157', '140.179.122.235', '52.83.70.25', '43.192.37.20']",,
+2024-11-14T19:16:05.149547,amebaownd.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 62.76.62.76
+2024-11-14T19:16:05.149547,amazonaws.com.cn,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 210.21.196.6
+2024-11-14T19:16:05.149547,ameba.jp,119.29.29.29,A,['128.242.240.117'],,
+2024-11-14T19:16:05.149547,amazonaws.com.cn,77.88.8.1,A,"['43.192.37.20', '52.83.70.25', '54.223.86.57', '140.179.122.235', '52.83.128.157', '52.81.170.225']",,
+2024-11-14T19:16:05.149547,amebaownd.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 8.8.4.4
+2024-11-14T19:16:05.149547,amazonaws.com.cn,211.136.17.107,A,"['54.223.86.57', '52.83.128.157', '43.192.37.20', '52.81.170.225', '52.83.70.25', '140.179.122.235']",,
+2024-11-14T19:16:05.149547,ameba.jp,117.50.11.11,A,['31.13.80.37'],,
+2024-11-14T19:16:05.149547,amazonaws.com.cn,123.125.81.6,A,"['52.83.128.157', '43.192.37.20', '54.223.86.57', '52.81.170.225', '140.179.122.235', '52.83.70.25']",,
+2024-11-14T19:16:05.149547,amebaownd.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 8.8.8.8
+2024-11-14T19:16:05.149547,amazonaws.com.cn,119.29.29.29,A,"['43.192.37.20', '52.83.70.25', '140.179.122.235', '52.83.128.157', '54.223.86.57', '52.81.170.225']",,
+2024-11-14T19:16:05.149547,amebaownd.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 195.208.4.1
+2024-11-14T19:16:05.149547,amazonaws.com.cn,180.76.76.76,A,"['54.223.86.57', '140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.70.25', '52.83.128.157']",,
+2024-11-14T19:16:05.149547,amebaownd.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 2.56.220.2
+2024-11-14T19:16:05.149547,amazonaws.com.cn,223.5.5.5,A,"['52.81.170.225', '52.83.128.157', '43.192.37.20', '52.83.70.25', '140.179.122.235', '54.223.86.57']",,
+2024-11-14T19:16:05.149547,ameba.jp,223.6.6.6,A,['31.13.94.37'],,
+2024-11-14T19:16:05.149547,amazonaws.com.cn,223.6.6.6,A,"['52.81.170.225', '52.83.128.157', '54.223.86.57', '140.179.122.235', '52.83.70.25', '43.192.37.20']",,
+2024-11-14T19:16:05.149547,amebaownd.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 77.88.8.8
+2024-11-14T19:16:05.149547,amazonaws.com.cn,2.56.220.2,A,"['54.223.86.57', '52.83.128.157', '52.81.170.225', '52.83.70.25', '140.179.122.235', '43.192.37.20']",,
+2024-11-14T19:16:05.149547,amazonaws.com.cn,114.114.114.114,A,"['54.223.86.57', '52.83.70.25', '140.179.122.235']",,
+2024-11-14T19:16:05.149547,amebaownd.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 95.85.95.85
+2024-11-14T19:16:05.149547,amazonaws.com.cn,114.114.115.115,A,"['52.81.170.225', '54.223.86.57', '52.83.70.25']",,
+2024-11-14T19:16:05.149547,amazonaws.com.cn,94.140.14.14,A,"['52.81.170.225', '140.179.122.235', '52.83.128.157', '54.223.86.57', '43.192.37.20', '52.83.70.25']",,
+2024-11-14T19:16:05.149547,ameba.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ameba.jp on server: 101.226.4.7
+2024-11-14T19:16:05.149547,amazonaws.com.cn,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 202.96.128.86
+2024-11-14T19:16:05.149547,amebaownd.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 1.1.1.1
+2024-11-14T19:16:05.149547,amebaownd.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 208.67.220.220
+2024-11-14T19:16:05.150546,amazonaws.com.cn,94.140.15.15,A,"['52.81.170.225', '140.179.122.235', '52.83.128.157', '54.223.86.57', '43.192.37.20', '52.83.70.25']",,
+2024-11-14T19:16:05.150546,amazonaws.com.cn,195.208.5.1,A,"['140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.128.157', '52.83.70.25', '54.223.86.57']",,
+2024-11-14T19:16:05.150546,amebaownd.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 195.208.5.1
+2024-11-14T19:16:05.150546,amebaownd.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 1.0.0.1
+2024-11-14T19:16:05.150546,amazonaws.com.cn,208.67.220.222,A,"['54.223.86.57', '140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.70.25', '52.83.128.157']",,
+2024-11-14T19:16:05.150546,ameba.jp,211.136.17.107,A,['199.59.149.205'],,
+2024-11-14T19:16:05.150546,amazonaws.com.cn,1.0.0.1,A,"['52.83.128.157', '43.192.37.20', '52.83.70.25', '54.223.86.57', '52.81.170.225', '140.179.122.235']",,
+2024-11-14T19:16:05.150546,amebaownd.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 208.67.222.222
+2024-11-14T19:16:05.150546,amazonaws.com.cn,208.67.220.220,A,"['140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.70.25', '52.83.128.157', '54.223.86.57']",,
+2024-11-14T19:16:05.150546,amebaownd.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 208.67.222.220
+2024-11-14T19:16:05.150546,amazonaws.com.cn,208.67.222.220,A,"['140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.70.25', '52.83.128.157', '54.223.86.57']",,
+2024-11-14T19:16:05.150546,ameba.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ameba.jp on server: 123.125.81.7
+2024-11-14T19:16:05.150546,amazonaws.com.cn,208.67.222.222,A,"['52.83.128.157', '54.223.86.57', '140.179.122.235', '43.192.37.20', '52.81.170.225', '52.83.70.25']",,
+2024-11-14T19:16:05.150546,amazonaws.com.cn,95.85.95.85,A,[],NoNameservers,No nameservers for domain: amazonaws.com.cn on server: 95.85.95.85
+2024-11-14T19:16:05.150546,ameba.jp,218.30.118.6,A,['69.63.190.26'],,
+2024-11-14T19:16:05.150546,amazonses.com,8.8.8.8,A,"['13.33.183.5', '13.33.183.44', '13.33.183.52', '13.33.183.45']",,
+2024-11-14T19:16:05.150546,amebaownd.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 208.67.220.222
+2024-11-14T19:16:05.150546,amebaownd.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 9.9.9.10
+2024-11-14T19:16:05.150546,amazonaws.com.cn,9.9.9.10,A,"['140.179.122.235', '54.223.86.57', '52.81.170.225', '43.192.37.20', '52.83.70.25', '52.83.128.157']",,
+2024-11-14T19:16:05.150546,amd.com,9.9.9.10,A,['88.221.168.84'],,
+2024-11-14T19:16:05.150546,amazonses.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2400:3200::1
+2024-11-14T19:16:05.150546,amazonsilk.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.150546,ameba.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ameba.jp on server: 202.96.128.86
+2024-11-14T19:16:05.150546,amazonsilk.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.150546,amazonses.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.151551,amebaownd.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amebaownd.com on server: 62.76.76.62
+2024-11-14T19:16:05.151551,amd.com,114.114.114.114,A,['23.45.40.120'],,
+2024-11-14T19:16:05.151551,amazonses.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.151551,amazontrust.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.151551,amazonses.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.151551,amebaownd.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 9.9.9.9
+2024-11-14T19:16:05.151551,amd.com,208.67.220.220,A,['23.46.196.82'],,
+2024-11-14T19:16:05.151551,amazonaws.com.cn,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 101.226.4.7
+2024-11-14T19:16:05.151551,amazontrust.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.151551,amazonses.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.151551,amd.com,208.67.222.222,A,['23.46.196.82'],,
+2024-11-14T19:16:05.151551,amazonses.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:119:35::35
+2024-11-14T19:16:05.151551,amazontrust.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.151551,amd.com,95.85.95.85,A,['104.83.196.87'],,
+2024-11-14T19:16:05.151551,amazonsilk.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.151551,amd.com,2.56.220.2,A,['104.83.196.87'],,
+2024-11-14T19:16:05.151551,amazonses.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:fe::10
+2024-11-14T19:16:05.151551,amazontrust.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.151551,amazonaws.com.cn,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 9.9.9.9
+2024-11-14T19:16:05.151551,amazonsilk.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.151551,amazontrust.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.151551,amazonaws.com.cn,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 123.125.81.7
+2024-11-14T19:16:05.151551,amazonses.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:119:53::53
+2024-11-14T19:16:05.151551,amd.com,223.6.6.6,A,['23.219.72.99'],,
+2024-11-14T19:16:05.151551,amazonses.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.151551,amazonsilk.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2402:4e00::
+2024-11-14T19:16:05.151551,amd.com,180.76.76.76,A,['23.35.28.108'],,
+2024-11-14T19:16:05.151551,ameba.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ameba.jp on server: 210.21.196.6
+2024-11-14T19:16:05.151551,amazonses.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2620:fe::fe
+2024-11-14T19:16:05.151551,amd.com,223.5.5.5,A,['104.99.48.117'],,
+2024-11-14T19:16:05.151551,amazonses.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.152546,amd.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amd.com on server: 9.9.9.9
+2024-11-14T19:16:05.152546,amazonsilk.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2400:3200::1
+2024-11-14T19:16:05.152546,amd.com,119.29.29.29,A,['23.45.40.120'],,
+2024-11-14T19:16:05.152546,amazonsilk.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.152546,amazonses.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.152546,amazonsilk.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.152546,amd.com,114.114.115.115,A,['23.45.40.120'],,
+2024-11-14T19:16:05.152546,amazonses.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2402:4e00::
+2024-11-14T19:16:05.152546,amazonsilk.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.152546,amd.com,195.208.5.1,A,['23.202.116.81'],,
+2024-11-14T19:16:05.152546,amazonses.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.152546,amd.com,62.76.62.76,A,['88.221.168.84'],,
+2024-11-14T19:16:05.152546,amazonses.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:119:35::35
+2024-11-14T19:16:05.152546,amd.com,195.208.4.1,A,['23.202.116.81'],,
+2024-11-14T19:16:05.152546,amazonses.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:119:53::53
+2024-11-14T19:16:05.152546,amd.com,77.88.8.1,A,['2.18.172.91'],,
+2024-11-14T19:16:05.152546,amazonses.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:fe::fe
+2024-11-14T19:16:05.152546,amazonses.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.152546,amazonsilk.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2620:fe::10
+2024-11-14T19:16:05.152546,amd.com,77.88.8.8,A,['23.202.116.81'],,
+2024-11-14T19:16:05.152546,amazonses.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.152546,amazonsilk.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.153550,amd.com,62.76.76.62,A,['2.18.172.91'],,
+2024-11-14T19:16:05.153550,amazonses.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.153550,amazonsilk.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.153550,amd.com,1.1.1.1,A,['23.35.100.109'],,
+2024-11-14T19:16:05.153550,amazonses.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.153550,amazonsilk.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.153550,amd.com,1.0.0.1,A,['23.45.40.120'],,
+2024-11-14T19:16:05.153550,amazonaws.com.cn,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2400:3200:baba::1
+2024-11-14T19:16:05.153550,amazontrust.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.153550,amd.com,208.67.220.222,A,['23.46.196.82'],,
+2024-11-14T19:16:05.153550,amazonaws.com.cn,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2402:4e00::
+2024-11-14T19:16:05.153550,amazonsilk.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.153550,amd.com,94.140.15.15,A,['23.45.40.120'],,
+2024-11-14T19:16:05.153550,amazonses.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.154064,amazonsilk.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.154064,amd.com,208.67.222.220,A,['23.46.196.82'],,
+2024-11-14T19:16:05.154064,amazonses.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazonses.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.154064,amazonsilk.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.154064,amd.com,94.140.14.14,A,['23.45.40.120'],,
+2024-11-14T19:16:05.154064,amazonaws.com.cn,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com.cn on server: 2400:3200::1
+2024-11-14T19:16:05.154064,amazonsilk.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.154064,amazon.se,208.67.222.220,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.154064,amazontrust.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazontrust.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.154064,ambito.com,62.76.62.76,A,['52.52.246.213'],,
+2024-11-14T19:16:05.154064,amazonalexa.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:fe::fe
+2024-11-14T19:16:05.154064,amazon.se,208.67.220.222,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.154064,amazonvideo.com,208.67.220.222,A,"['13.226.61.125', '13.226.61.72', '13.226.61.80', '13.226.61.104']",,
+2024-11-14T19:16:05.154064,ambito.com,62.76.76.62,A,['52.52.246.213'],,
+2024-11-14T19:16:05.154064,amazonaws.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.154064,amazon.se,9.9.9.10,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.154064,amazonvideo.com,195.208.4.1,A,"['108.156.22.122', '108.156.22.87', '108.156.22.108', '108.156.22.116']",,
+2024-11-14T19:16:05.154064,ambitionbox.com,119.29.29.29,A,"['23.204.80.134', '23.60.96.154']",,
+2024-11-14T19:16:05.154064,amazonalexa.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:fe::10
+2024-11-14T19:16:05.154064,amazon.sa,119.29.29.29,A,"['52.95.123.165', '52.95.125.115', '52.95.124.175']",,
+2024-11-14T19:16:05.154064,amazonvideo.com,114.114.115.115,A,"['3.166.216.124', '3.166.216.63', '3.166.216.46']",,
+2024-11-14T19:16:05.154064,ambito.com,77.88.8.1,A,['52.52.246.213'],,
+2024-11-14T19:16:05.154064,amazonalexa.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.154064,amazon.se,77.88.8.1,A,"['52.94.223.26', '52.95.124.162', '52.95.123.232']",,
+2024-11-14T19:16:05.154064,amazonvideo.com,223.5.5.5,A,"['18.172.170.45', '18.172.170.54', '18.172.170.12', '18.172.170.35']",,
+2024-11-14T19:16:05.154064,ambitionbox.com,180.76.76.76,A,"['23.56.109.171', '23.56.109.167']",,
+2024-11-14T19:16:05.154064,amd.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amd.com on server: 202.96.128.86
+2024-11-14T19:16:05.154064,amazonses.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonses.com on server: 2400:da00::6666
+2024-11-14T19:16:05.154064,amazonvideo.com,62.76.76.62,A,"['108.156.22.108', '108.156.22.116', '108.156.22.87', '108.156.22.122']",,
+2024-11-14T19:16:05.154064,ambitionbox.com,218.30.118.6,A,"['2.16.241.17', '2.16.241.13']",,
+2024-11-14T19:16:05.154064,amazonalexa.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:119:53::53
+2024-11-14T19:16:05.154064,amazon.se,1.1.1.1,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.155081,ambitionbox.com,94.140.14.14,A,"['23.56.109.167', '23.56.109.171']",,
+2024-11-14T19:16:05.155081,amazonalexa.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2400:3200::1
+2024-11-14T19:16:05.155081,amd.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amd.com on server: 210.21.196.6
+2024-11-14T19:16:05.155081,amazon.sa,180.76.76.76,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.155081,amazonvideo.com,94.140.15.15,A,"['18.244.61.97', '18.244.61.16', '18.244.61.125', '18.244.61.81']",,
+2024-11-14T19:16:05.155081,ambitionbox.com,211.136.17.107,A,"['2.16.241.17', '2.16.241.13']",,
+2024-11-14T19:16:05.155081,amazonaws.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.155081,amazon.se,208.67.220.220,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.155081,amazonvideo.com,114.114.114.114,A,"['3.166.216.63', '3.166.216.46', '3.166.216.40']",,
+2024-11-14T19:16:05.155081,ambito.com,1.1.1.1,A,['52.52.246.213'],,
+2024-11-14T19:16:05.155081,amazonalexa.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2402:4e00::
+2024-11-14T19:16:05.155081,amazonvideo.com,2.56.220.2,A,"['13.226.61.72', '13.226.61.80', '13.226.61.125', '13.226.61.104']",,
+2024-11-14T19:16:05.155081,amazon.se,195.208.5.1,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.155081,amazonaws.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.155081,amazonsilk.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 2400:da00::6666
+2024-11-14T19:16:05.155081,amazonvideo.com,77.88.8.1,A,"['108.156.22.122', '108.156.22.87', '108.156.22.116', '108.156.22.108']",,
+2024-11-14T19:16:05.155081,ambito.com,77.88.8.8,A,['52.52.246.213'],,
+2024-11-14T19:16:05.155081,amazon.se,208.67.222.222,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.155081,amazonvideo.com,8.8.4.4,A,"['13.226.61.72', '13.226.61.104', '13.226.61.125', '13.226.61.80']",,
+2024-11-14T19:16:05.155081,amazonaws.com.cn,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonaws.com.cn on server: 2400:da00::6666
+2024-11-14T19:16:05.155081,amazon.se,8.8.8.8,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.155081,amazonvideo.com,1.1.1.1,A,"['3.166.216.63', '3.166.216.46', '3.166.216.40', '3.166.216.124']",,
+2024-11-14T19:16:05.155081,ambitionbox.com,208.67.220.222,A,"['23.77.204.139', '104.109.129.33']",,
+2024-11-14T19:16:05.155081,amazon.se,8.8.4.4,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.156097,amazonsilk.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonsilk.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.156097,amazonvideo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 9.9.9.9
+2024-11-14T19:16:05.156097,amazonaws.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:fe::fe
+2024-11-14T19:16:05.156097,amazon.sa,218.30.118.6,A,"['52.95.125.115', '52.95.124.175', '52.95.123.165']",,
+2024-11-14T19:16:05.156097,amazonvideo.com,8.8.8.8,A,"['13.226.61.72', '13.226.61.125', '13.226.61.80', '13.226.61.104']",,
+2024-11-14T19:16:05.156097,ambito.com,2.56.220.2,A,['52.52.246.213'],,
+2024-11-14T19:16:05.156097,amazonaws.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.156097,amazonaws.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.156097,amazonvideo.com,208.67.222.220,A,"['13.226.61.104', '13.226.61.125', '13.226.61.72', '13.226.61.80']",,
+2024-11-14T19:16:05.156097,ambitionbox.com,223.6.6.6,A,"['23.219.78.77', '23.219.78.73']",,
+2024-11-14T19:16:05.156097,amazonaws.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.156097,ambitionbox.com,94.140.15.15,A,"['23.56.109.167', '23.56.109.171']",,
+2024-11-14T19:16:05.156097,amazonvideo.com,77.88.8.8,A,"['18.66.102.53', '18.66.102.60', '18.66.102.93', '18.66.102.31']",,
+2024-11-14T19:16:05.156097,amazon.se,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazon.se on server: 9.9.9.9
+2024-11-14T19:16:05.156097,amazonaws.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.156097,ambitionbox.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 101.226.4.7
+2024-11-14T19:16:05.156097,amazonvideo.com,95.85.95.85,A,"['13.226.61.104', '13.226.61.72', '13.226.61.80', '13.226.61.125']",,
+2024-11-14T19:16:05.156097,amazonalexa.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 2400:da00::6666
+2024-11-14T19:16:05.156097,amazonalexa.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.156097,amazon.sa,123.125.81.6,A,"['52.95.125.115', '52.95.124.175', '52.95.123.165']",,
+2024-11-14T19:16:05.156097,amazontrust.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 123.125.81.7
+2024-11-14T19:16:05.156097,ambito.com,95.85.95.85,A,['52.52.246.213'],,
+2024-11-14T19:16:05.156097,amazonaws.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.156097,amazon.sa,101.226.4.6,A,"['52.95.124.175', '52.95.123.165', '52.95.125.115']",,
+2024-11-14T19:16:05.156097,amazonvideo.com,208.67.220.220,A,"['13.226.61.72', '13.226.61.80', '13.226.61.104', '13.226.61.125']",,
+2024-11-14T19:16:05.156097,ambitionbox.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 210.21.196.6
+2024-11-14T19:16:05.156097,amazon.se,62.76.62.76,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.156097,amazonvideo.com,1.0.0.1,A,"['3.167.192.129', '3.167.192.34', '3.167.192.93', '3.167.192.59']",,
+2024-11-14T19:16:05.156097,ambito.com,8.8.4.4,A,['52.52.246.213'],,
+2024-11-14T19:16:05.156097,amazonaws.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.156097,amazon.se,195.208.4.1,A,"['52.95.124.162', '52.95.123.232', '52.94.223.26']",,
+2024-11-14T19:16:05.157095,amazonvideo.com,208.67.222.222,A,"['13.226.61.80', '13.226.61.104', '13.226.61.125', '13.226.61.72']",,
+2024-11-14T19:16:05.157095,ambitionbox.com,101.226.4.6,A,"['2.16.241.13', '2.16.241.17']",,
+2024-11-14T19:16:05.157095,amazonalexa.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.157095,amazon.se,62.76.76.62,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.157095,ambito.com,8.8.8.8,A,['52.52.246.213'],,
+2024-11-14T19:16:05.157095,amazonalexa.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.157095,amazon.sa,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazon.sa on server: 202.96.128.86
+2024-11-14T19:16:05.157095,amazontrust.com,101.226.4.6,A,"['108.156.133.48', '108.156.133.115', '108.156.133.66', '108.156.133.117']",,
+2024-11-14T19:16:05.157095,ambitionbox.com,114.114.115.115,A,"['23.212.62.79', '23.212.62.73']",,
+2024-11-14T19:16:05.157095,amazonalexa.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2620:119:35::35
+2024-11-14T19:16:05.157095,amazon.sa,211.136.17.107,A,"['52.95.125.115', '52.95.123.165', '52.95.124.175']",,
+2024-11-14T19:16:05.157095,amazon.sa,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazon.sa on server: 123.125.81.7
+2024-11-14T19:16:05.157095,ambitionbox.com,223.5.5.5,A,"['23.213.175.138', '23.213.175.179']",,
+2024-11-14T19:16:05.157095,amazonaws.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.157095,amazon.sa,117.50.11.11,A,"['52.95.124.175', '52.95.123.165', '52.95.125.115']",,
+2024-11-14T19:16:05.157095,amazonvideo.com,9.9.9.10,A,"['18.66.102.93', '18.66.102.60', '18.66.102.31', '18.66.102.53']",,
+2024-11-14T19:16:05.157095,ambito.com,1.0.0.1,A,['52.52.246.213'],,
+2024-11-14T19:16:05.157095,ambitionbox.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 202.96.128.86
+2024-11-14T19:16:05.157095,amazonvideo.com,94.140.14.14,A,"['18.244.61.81', '18.244.61.16', '18.244.61.125', '18.244.61.97']",,
+2024-11-14T19:16:05.157095,amazonalexa.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.157095,ambitionbox.com,123.125.81.6,A,"['23.74.15.33', '23.74.15.35']",,
+2024-11-14T19:16:05.157095,amazon.se,77.88.8.8,A,"['52.94.223.26', '52.95.124.162', '52.95.123.232']",,
+2024-11-14T19:16:05.157095,ambitionbox.com,114.114.114.114,A,"['23.212.62.79', '23.212.62.73']",,
+2024-11-14T19:16:05.157095,amazontrust.com,123.125.81.6,A,"['108.156.133.115', '108.156.133.66', '108.156.133.117', '108.156.133.48']",,
+2024-11-14T19:16:05.157095,amazon.sa,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazon.sa on server: 101.226.4.7
+2024-11-14T19:16:05.157095,amazonaws.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.157095,amazon.se,95.85.95.85,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.157095,ambitionbox.com,208.67.222.220,A,"['23.74.15.35', '23.74.15.33']",,
+2024-11-14T19:16:05.157095,amazonvideo.com,62.76.62.76,A,"['108.156.22.122', '108.156.22.87', '108.156.22.108', '108.156.22.116']",,
+2024-11-14T19:16:05.157095,amazonaws.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.157095,amazon.se,1.0.0.1,A,"['52.95.124.162', '52.95.123.232', '52.94.223.26']",,
+2024-11-14T19:16:05.157095,amazonaws.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonaws.com on server: 2620:fe::10
+2024-11-14T19:16:05.157095,amazonvideo.com,195.208.5.1,A,"['3.164.240.123', '3.164.240.4', '3.164.240.16', '3.164.240.17']",,
+2024-11-14T19:16:05.157095,amazontrust.com,1.0.0.1,A,"['216.137.39.115', '216.137.39.88', '216.137.39.44', '216.137.39.51']",,
+2024-11-14T19:16:05.158095,amazontrust.com,180.76.76.76,A,"['13.35.186.20', '13.35.186.34', '13.35.186.72', '13.35.186.108']",,
+2024-11-14T19:16:05.158095,ameba.jp,2a0c:a9c7:8::1,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T19:16:05.158095,amebaownd.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:fe::10
+2024-11-14T19:16:05.158095,ambito.com,101.226.4.6,A,['52.52.246.213'],,
+2024-11-14T19:16:05.158095,amazontrust.com,8.8.4.4,A,"['13.35.186.34', '13.35.186.108', '13.35.186.20', '13.35.186.72']",,
+2024-11-14T19:16:05.158095,ameblo.jp,114.114.114.114,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.158095,ambitionbox.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.158095,ameba.jp,2a0c:a9c7:9::1,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.158095,amebaownd.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:fe::fe
+2024-11-14T19:16:05.158095,amazontrust.com,1.1.1.1,A,"['3.166.244.124', '3.166.244.26', '3.166.244.73', '3.166.244.3']",,
+2024-11-14T19:16:05.158095,ambitionbox.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 123.125.81.7
+2024-11-14T19:16:05.158095,ambito.com,123.125.81.6,A,['52.52.246.213'],,
+2024-11-14T19:16:05.158095,ameblo.jp,94.140.15.15,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.158095,amebaownd.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:119:35::35
+2024-11-14T19:16:05.158095,amazon.sa,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazon.sa on server: 210.21.196.6
+2024-11-14T19:16:05.158095,ambito.com,117.50.11.11,A,['52.52.246.213'],,
+2024-11-14T19:16:05.158095,amazontrust.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 101.226.4.7
+2024-11-14T19:16:05.158095,amebaownd.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.158095,amazontrust.com,8.8.8.8,A,"['13.35.186.108', '13.35.186.20', '13.35.186.72', '13.35.186.34']",,
+2024-11-14T19:16:05.158095,amazontrust.com,195.208.5.1,A,"['3.164.230.77', '3.164.230.87', '3.164.230.108', '3.164.230.79']",,
+2024-11-14T19:16:05.158095,amd.com,8.8.8.8,A,['23.46.196.82'],,
+2024-11-14T19:16:05.158095,amazon.pl,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.158095,ambito.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.158095,ameba.jp,2620:fe::fe,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.158095,amebaownd.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.158095,amazonsilk.com,223.5.5.5,A,"['3.163.158.16', '3.163.158.31', '3.163.158.102', '3.163.158.117']",,
+2024-11-14T19:16:05.158095,amazontrust.com,211.136.17.107,A,"['108.156.133.117', '108.156.133.66', '108.156.133.48', '108.156.133.115']",,
+2024-11-14T19:16:05.158095,amazon.se,2.56.220.2,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.158095,ambito.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.158095,ameba.jp,2620:fe::10,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T19:16:05.158095,amebaownd.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.158095,amazonsilk.com,223.6.6.6,A,"['3.163.158.117', '3.163.158.102', '3.163.158.31', '3.163.158.16']",,
+2024-11-14T19:16:05.158095,amazontrust.com,218.30.118.6,A,"['108.156.133.48', '108.156.133.66', '108.156.133.115', '108.156.133.117']",,
+2024-11-14T19:16:05.158095,amazon.pl,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.158095,ambito.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.158095,amazontrust.com,117.50.11.11,A,"['108.156.133.66', '108.156.133.117', '108.156.133.48', '108.156.133.115']",,
+2024-11-14T19:16:05.158095,amebaownd.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.158095,amebaownd.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.158095,amd.com,8.8.4.4,A,['23.39.60.104'],,
+2024-11-14T19:16:05.158095,amazonsilk.com,101.226.4.6,A,"['108.156.133.41', '108.156.133.84', '108.156.133.110', '108.156.133.77']",,
+2024-11-14T19:16:05.158095,ambitionbox.com,117.50.11.11,A,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 117.50.11.11
+2024-11-14T19:16:05.158095,amazon.pl,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.158095,ambito.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.158095,amebaownd.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.158095,amebaownd.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.159092,ambito.com,180.76.76.76,A,['52.52.246.213'],,
+2024-11-14T19:16:05.159092,amazon.pl,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.159092,ambito.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ambito.com on server: 123.125.81.7
+2024-11-14T19:16:05.159092,ameba.jp,2402:4e00::,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.159092,amebaownd.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.159092,amazonsilk.com,114.114.114.114,A,"['108.156.133.77', '108.156.133.41', '108.156.133.84']",,
+2024-11-14T19:16:05.159092,amazontrust.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 9.9.9.9
+2024-11-14T19:16:05.159092,ameblo.jp,9.9.9.10,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.159092,ameblo.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.159092,amazonsilk.com,114.114.115.115,A,"['108.156.133.41', '108.156.133.84', '108.156.133.110']",,
+2024-11-14T19:16:05.159092,amazontrust.com,119.29.29.29,A,"['13.35.186.34', '13.35.186.108', '13.35.186.72', '13.35.186.20']",,
+2024-11-14T19:16:05.159092,ambito.com,223.6.6.6,A,['52.52.246.213'],,
+2024-11-14T19:16:05.159092,ameblo.jp,208.67.222.222,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.159092,ameba.jp,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.159092,amebaownd.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:119:53::53
+2024-11-14T19:16:05.159092,amazonsilk.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 101.226.4.7
+2024-11-14T19:16:05.159092,ambito.com,119.29.29.29,A,['52.52.246.213'],,
+2024-11-14T19:16:05.159092,ameblo.jp,211.136.17.107,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.159092,ameba.jp,2400:3200:baba::1,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.159092,ameblo.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.159092,amazonsilk.com,123.125.81.6,A,"['108.156.133.110', '108.156.133.41', '108.156.133.84', '108.156.133.77']",,
+2024-11-14T19:16:05.159092,ambito.com,114.114.115.115,A,['52.52.246.213'],,
+2024-11-14T19:16:05.159092,ameblo.jp,117.50.11.11,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.159092,ameba.jp,2001:6d0:d6::2001,AAAA,['2a03:2880:f111:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.159092,ameblo.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.159092,ameblo.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 101.226.4.7
+2024-11-14T19:16:05.159092,ameblo.jp,208.67.220.222,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:fe::fe
+2024-11-14T19:16:05.159092,amebaownd.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.159092,amazontrust.com,195.208.4.1,A,"['52.85.49.124', '52.85.49.109', '52.85.49.14', '52.85.49.39']",,
+2024-11-14T19:16:05.159092,amazontrust.com,94.140.14.14,A,"['18.67.51.43', '18.67.51.120', '18.67.51.127', '18.67.51.33']",,
+2024-11-14T19:16:05.159092,ambito.com,114.114.114.114,A,['52.52.246.213'],,
+2024-11-14T19:16:05.159092,ameblo.jp,94.140.14.14,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.159092,ambito.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:fe::10
+2024-11-14T19:16:05.159092,ameba.jp,2a10:50c0::ad1:ff,AAAA,['2001::6ca0:a9b5'],,
+2024-11-14T19:16:05.159092,amebaownd.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.159092,amazontrust.com,62.76.76.62,A,"['52.85.49.109', '52.85.49.124', '52.85.49.14', '52.85.49.39']",,
+2024-11-14T19:16:05.160093,ambito.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.160093,ambito.com,223.5.5.5,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,amazon.pl,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.160093,ambito.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.160093,ameba.jp,2400:3200::1,AAAA,['2a03:2880:f127:283:face:b00c:0:25de'],,
+2024-11-14T19:16:05.160093,ameblo.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 123.125.81.7
+2024-11-14T19:16:05.160093,ameblo.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.160093,amazontrust.com,114.114.115.115,A,"['108.156.133.115', '108.156.133.48', '108.156.133.117']",,
+2024-11-14T19:16:05.160093,amazontrust.com,62.76.62.76,A,"['52.85.49.109', '52.85.49.124', '52.85.49.39', '52.85.49.14']",,
+2024-11-14T19:16:05.160093,amazon.pl,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.160093,ambito.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:119:53::53
+2024-11-14T19:16:05.160093,ameba.jp,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f131:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.160093,amebaownd.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.160093,amazontrust.com,2.56.220.2,A,"['13.35.186.34', '13.35.186.20', '13.35.186.72', '13.35.186.108']",,
+2024-11-14T19:16:05.160093,ambito.com,9.9.9.10,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,ameblo.jp,101.226.4.6,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.160093,ambito.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.160093,ameba.jp,2001:6d0:6d0::2001,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T19:16:05.160093,ameblo.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.160093,amazonsilk.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 123.125.81.7
+2024-11-14T19:16:05.160093,amazontrust.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 210.21.196.6
+2024-11-14T19:16:05.160093,amazontrust.com,77.88.8.1,A,"['143.204.215.107', '143.204.215.68', '143.204.215.70', '143.204.215.39']",,
+2024-11-14T19:16:05.160093,amazontrust.com,208.67.220.222,A,"['3.166.244.3', '3.166.244.26', '3.166.244.73', '3.166.244.124']",,
+2024-11-14T19:16:05.160093,ambito.com,94.140.14.14,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,ameba.jp,2606:4700:4700::1001,AAAA,['2a03:2880:f12d:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.160093,ameblo.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.160093,ambito.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2620:119:35::35
+2024-11-14T19:16:05.160093,amazon.pl,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazon.pl on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.160093,ambito.com,94.140.15.15,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,ameba.jp,2a03:90c0:999d::1,AAAA,['2001::a27d:2005'],,
+2024-11-14T19:16:05.160093,amazontrust.com,95.85.95.85,A,"['13.35.186.34', '13.35.186.72', '13.35.186.20', '13.35.186.108']",,
+2024-11-14T19:16:05.160093,ambitionbox.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2402:4e00::
+2024-11-14T19:16:05.160093,amazontrust.com,114.114.114.114,A,"['108.156.133.48', '108.156.133.117', '108.156.133.66']",,
+2024-11-14T19:16:05.160093,amazontrust.com,77.88.8.8,A,"['3.164.230.77', '3.164.230.79', '3.164.230.87', '3.164.230.108']",,
+2024-11-14T19:16:05.160093,ambito.com,208.67.222.220,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,ameblo.jp,123.125.81.6,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.160093,ameba.jp,2620:119:35::35,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T19:16:05.160093,ameblo.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.160093,amazonsilk.com,211.136.17.107,A,"['108.156.133.84', '108.156.133.77', '108.156.133.110', '108.156.133.41']",,
+2024-11-14T19:16:05.160093,amazontrust.com,223.5.5.5,A,"['13.35.186.34', '13.35.186.108', '13.35.186.20', '13.35.186.72']",,
+2024-11-14T19:16:05.160093,ambito.com,208.67.220.222,A,['52.52.246.213'],,
+2024-11-14T19:16:05.160093,amazonsilk.com,117.50.11.11,A,"['108.156.133.84', '108.156.133.77', '108.156.133.41', '108.156.133.110']",,
+2024-11-14T19:16:05.161094,ambito.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.161094,amebaownd.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.161094,amazonsilk.com,208.67.220.222,A,"['13.224.163.80', '13.224.163.89', '13.224.163.101', '13.224.163.76']",,
+2024-11-14T19:16:05.161094,amazontrust.com,208.67.222.220,A,"['13.35.186.108', '13.35.186.20', '13.35.186.34', '13.35.186.72']",,
+2024-11-14T19:16:05.161094,ambito.com,208.67.222.222,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ameblo.jp,218.30.118.6,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.161094,ambito.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.161094,ameba.jp,2620:0:ccd::2,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T19:16:05.161094,ameblo.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.161094,amazonsilk.com,218.30.118.6,A,"['108.156.133.84', '108.156.133.41', '108.156.133.77', '108.156.133.110']",,
+2024-11-14T19:16:05.161094,ambito.com,208.67.220.220,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ameblo.jp,180.76.76.76,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.161094,ameba.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ameba.jp on server: 2400:da00::6666
+2024-11-14T19:16:05.161094,ambito.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.161094,amebaownd.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2402:4e00::
+2024-11-14T19:16:05.161094,amazontrust.com,223.6.6.6,A,"['99.86.38.89', '99.86.38.29', '99.86.38.50', '99.86.38.10']",,
+2024-11-14T19:16:05.161094,amazonsilk.com,208.67.222.220,A,"['13.224.163.76', '13.224.163.80', '13.224.163.89', '13.224.163.101']",,
+2024-11-14T19:16:05.161094,ambito.com,195.208.4.1,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ambitionbox.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.161094,amebaownd.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.161094,ameblo.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.161094,amazontrust.com,9.9.9.10,A,"['143.204.215.107', '143.204.215.70', '143.204.215.39', '143.204.215.68']",,
+2024-11-14T19:16:05.161094,amazontrust.com,208.67.220.220,A,"['13.35.186.34', '13.35.186.72', '13.35.186.108', '13.35.186.20']",,
+2024-11-14T19:16:05.161094,ambito.com,195.208.5.1,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ameblo.jp,223.6.6.6,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.161094,ambito.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.161094,amebaownd.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.161094,amebaownd.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.161094,amazontrust.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazontrust.com on server: 202.96.128.86
+2024-11-14T19:16:05.161094,amazontrust.com,208.67.222.222,A,"['13.35.186.34', '13.35.186.72', '13.35.186.108', '13.35.186.20']",,
+2024-11-14T19:16:05.161094,ambito.com,218.30.118.6,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ameblo.jp,119.29.29.29,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.161094,ambitionbox.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2400:3200::1
+2024-11-14T19:16:05.161094,ameba.jp,2620:119:53::53,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T19:16:05.161094,ameblo.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.161094,amazonsilk.com,119.29.29.29,A,"['108.156.133.110', '108.156.133.41', '108.156.133.84', '108.156.133.77']",,
+2024-11-14T19:16:05.161094,ambito.com,211.136.17.107,A,['52.52.246.213'],,
+2024-11-14T19:16:05.161094,ameblo.jp,114.114.115.115,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.161094,ambito.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.161094,amebaownd.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.161094,ameblo.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.161094,ambito.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ambito.com on server: 9.9.9.9
+2024-11-14T19:16:05.161094,amazontrust.com,94.140.15.15,A,"['18.67.51.43', '18.67.51.120', '18.67.51.127', '18.67.51.33']",,
+2024-11-14T19:16:05.161094,amazonsilk.com,180.76.76.76,A,"['13.224.163.89', '13.224.163.101', '13.224.163.76', '13.224.163.80']",,
+2024-11-14T19:16:05.162092,ameblo.jp,223.5.5.5,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.162092,ambitionbox.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.162092,ameba.jp,2a03:90c0:9992::1,AAAA,['2001::a88f:a22a'],,
+2024-11-14T19:16:05.162092,ameblo.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.162092,amazonsilk.com,94.140.14.14,A,"['54.230.61.63', '54.230.61.43', '54.230.61.71', '54.230.61.119']",,
+2024-11-14T19:16:05.162092,ambitionbox.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 2400:da00::6666
+2024-11-14T19:16:05.162092,ameblo.jp,208.67.220.220,A,"['199.232.214.133', '199.232.210.133']",,
+2024-11-14T19:16:05.162092,ambito.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2400:3200::1
+2024-11-14T19:16:05.162092,ameba.jp,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.162092,amebaownd.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.162092,amazonsilk.com,94.140.15.15,A,"['54.230.61.63', '54.230.61.43', '54.230.61.71', '54.230.61.119']",,
+2024-11-14T19:16:05.162092,ameblo.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 210.21.196.6
+2024-11-14T19:16:05.162092,ameblo.jp,208.67.222.220,A,"['199.232.210.133', '199.232.214.133']",,
+2024-11-14T19:16:05.162092,ambito.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.162092,ameba.jp,2620:0:ccc::2,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.162092,amebaownd.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amebaownd.com on server: 2400:3200::1
+2024-11-14T19:16:05.162092,amazon.se,211.136.17.107,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.162092,amazon.se,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2402:4e00::
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.162092,ameba.jp,2606:4700:4700::1111,AAAA,['2a03:2880:f112:83:face:b00c:0:25de'],,
+2024-11-14T19:16:05.162092,ameblo.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:119:53::53
+2024-11-14T19:16:05.162092,amazonalexa.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 95.85.95.85
+2024-11-14T19:16:05.162092,ameblo.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 202.96.128.86
+2024-11-14T19:16:05.162092,ambitionbox.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.162092,ameba.jp,2001:4860:4860::8888,AAAA,['2a03:2880:f102:183:face:b00c:0:25de'],,
+2024-11-14T19:16:05.162092,ameblo.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2400:3200::1
+2024-11-14T19:16:05.162092,amazonalexa.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2.56.220.2
+2024-11-14T19:16:05.162092,amazon.se,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2400:3200::1
+2024-11-14T19:16:05.162092,amazonsilk.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 202.96.128.86
+2024-11-14T19:16:05.162092,ameba.jp,2001:4860:4860::8844,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T19:16:05.162092,ambitionbox.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.162092,amazon.se,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2400:3200:baba::1
+2024-11-14T19:16:05.162092,ameblo.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:119:35::35
+2024-11-14T19:16:05.162092,amd.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2402:4e00::
+2024-11-14T19:16:05.162092,ambitionbox.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.162092,amazonalexa.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 1.0.0.1
+2024-11-14T19:16:05.162092,amazonalexa.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.162092,ambitionbox.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.162092,amazonsilk.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazonsilk.com on server: 210.21.196.6
+2024-11-14T19:16:05.162092,ameblo.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:fe::fe
+2024-11-14T19:16:05.162092,amazon.se,117.50.11.11,A,"['52.94.223.26', '52.95.124.162', '52.95.123.232']",,
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.162092,amazonalexa.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.162092,amd.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.162092,ameblo.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.162092,amazon.se,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:0:ccc::2
+2024-11-14T19:16:05.162092,ambitionbox.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.162092,amd.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.162092,amazon.se,218.30.118.6,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.162092,amazonalexa.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.162092,amebaownd.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amebaownd.com on server: 2400:da00::6666
+2024-11-14T19:16:05.162092,amd.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.162092,ameblo.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2400:3200:baba::1
+2024-11-14T19:16:05.162092,ambito.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ambito.com on server: 202.96.128.86
+2024-11-14T19:16:05.162092,amazon.se,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:119:35::35
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:fe::10
+2024-11-14T19:16:05.162092,amd.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2400:3200::1
+2024-11-14T19:16:05.162092,ameblo.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:fe::10
+2024-11-14T19:16:05.162092,amazonalexa.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 195.208.5.1
+2024-11-14T19:16:05.162092,amazon.se,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:119:53::53
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:119:53::53
+2024-11-14T19:16:05.162092,amd.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.162092,ambito.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ambito.com on server: 210.21.196.6
+2024-11-14T19:16:05.162092,amazon.se,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:fe::fe
+2024-11-14T19:16:05.162092,amd.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.162092,amazon.se,180.76.76.76,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.162092,amazonalexa.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.162092,ambitionbox.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2620:119:35::35
+2024-11-14T19:16:05.162092,amd.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:119:35::35
+2024-11-14T19:16:05.162092,ambito.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ambito.com on server: 101.226.4.7
+2024-11-14T19:16:05.162092,amazonalexa.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.162092,ambitionbox.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.162092,amd.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:119:53::53
+2024-11-14T19:16:05.162092,amazon.se,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazon.se on server: 2400:da00::6666
+2024-11-14T19:16:05.162092,amazon.se,223.6.6.6,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.162092,amazon.se,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:0:ccd::2
+2024-11-14T19:16:05.162092,ambitionbox.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.162092,amd.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:fe::fe
+2024-11-14T19:16:05.162092,ameblo.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:0:ccc::2
+2024-11-14T19:16:05.162092,amazon.se,119.29.29.29,A,"['52.95.124.162', '52.94.223.26', '52.95.123.232']",,
+2024-11-14T19:16:05.162092,amazon.se,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:fe::10
+2024-11-14T19:16:05.162092,amazonvideo.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:0:ccd::2
+2024-11-14T19:16:05.162092,amd.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2620:fe::10
+2024-11-14T19:16:05.163600,ameblo.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.163600,amazonalexa.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 77.88.8.1
+2024-11-14T19:16:05.163682,amazonalexa.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.163682,ambitionbox.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.163682,amd.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.163682,amazonalexa.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 195.208.4.1
+2024-11-14T19:16:05.163682,amazonalexa.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.163682,ambitionbox.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.163682,ameblo.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2620:0:ccd::2
+2024-11-14T19:16:05.163682,amazonalexa.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 62.76.76.62
+2024-11-14T19:16:05.163682,amd.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amd.com on server: 2400:da00::6666
+2024-11-14T19:16:05.163682,ambitionbox.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.163682,amd.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.163682,amazon.se,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amazon.se on server: 210.21.196.6
+2024-11-14T19:16:05.163682,amazonalexa.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 62.76.62.76
+2024-11-14T19:16:05.163682,amazon.se,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a0c:a9c7:9::1
+2024-11-14T19:16:05.163682,amazonvideo.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:fe::10
+2024-11-14T19:16:05.163682,ameblo.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ameblo.jp on server: 2402:4e00::
+2024-11-14T19:16:05.163682,amd.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.163682,amazonvideo.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:119:35::35
+2024-11-14T19:16:05.163682,ambitionbox.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: ambitionbox.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.163682,amazon.se,114.114.114.114,A,"['52.94.223.26', '52.95.123.232', '52.95.124.162']",,
+2024-11-14T19:16:05.163682,amazon.se,94.140.14.14,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.163682,amazonvideo.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:0:ccc::2
+2024-11-14T19:16:05.163682,amd.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.163682,amazon.se,114.114.115.115,A,"['52.95.123.232', '52.94.223.26', '52.95.124.162']",,
+2024-11-14T19:16:05.163682,amazonalexa.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T19:16:05.163682,amd.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.163682,amazonvideo.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a10:50c0::ad1:ff
+2024-11-14T19:16:05.163682,amazonalexa.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.163682,amazon.se,223.5.5.5,A,"['52.95.123.232', '52.94.223.26', '52.95.124.162']",,
+2024-11-14T19:16:05.163682,amazon.se,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.163682,amd.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a02:6b8::feed:0ff
+2024-11-14T19:16:05.163682,amazon.se,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.163682,amazon.se,101.226.4.6,A,"['52.95.123.232', '52.94.223.26', '52.95.124.162']",,
+2024-11-14T19:16:05.163682,amazonvideo.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:119:53::53
+2024-11-14T19:16:05.163682,amd.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2606:4700:4700::1001
+2024-11-14T19:16:05.163682,amazonalexa.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.163682,amazonalexa.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 77.88.8.8
+2024-11-14T19:16:05.163682,amazonalexa.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 1.1.1.1
+2024-11-14T19:16:05.163682,amazonvideo.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2402:4e00::
+2024-11-14T19:16:05.163682,ambitionbox.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ambitionbox.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.163682,amd.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2001:4860:4860::8844
+2024-11-14T19:16:05.163682,amazon.se,123.125.81.6,A,"['52.95.124.162', '52.95.123.232', '52.94.223.26']",,
+2024-11-14T19:16:05.163682,amazon.se,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2001:6d0:d6::2001
+2024-11-14T19:16:05.163682,amazonvideo.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2400:3200::1
+2024-11-14T19:16:05.163682,amd.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a03:90c0:999d::1
+2024-11-14T19:16:05.163682,amazon.se,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amazon.se on server: 123.125.81.7
+2024-11-14T19:16:05.163682,amazon.se,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2620:fe::fe
+2024-11-14T19:16:05.163682,amazonalexa.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amazonalexa.com on server: 9.9.9.9
+2024-11-14T19:16:05.163682,amd.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2001:4860:4860::8888
+2024-11-14T19:16:05.163682,amazonalexa.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 8.8.8.8
+2024-11-14T19:16:05.163682,amazonvideo.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2a10:50c0::ad2:ff
+2024-11-14T19:16:05.163682,amd.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2606:4700:4700::1111
+2024-11-14T19:16:05.163682,amazon.se,94.140.15.15,A,"['52.95.123.232', '52.95.124.162', '52.94.223.26']",,
+2024-11-14T19:16:05.163682,amazon.se,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amazon.se on server: 2001:6d0:6d0::2001
+2024-11-14T19:16:05.164612,amazonvideo.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2400:3200:baba::1
+2024-11-14T19:16:05.164612,ambito.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ambito.com on server: 2402:4e00::
+2024-11-14T19:16:05.164612,amazonalexa.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amazonalexa.com on server: 8.8.4.4
+2024-11-14T19:16:05.164612,amazonvideo.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amazonvideo.com on server: 2620:fe::fe
+2024-11-14T19:16:05.164612,amazon.se,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amazon.se on server: 202.96.128.86
+2024-11-14T19:16:05.164612,ameblo.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ameblo.jp on server: 2400:da00::6666
+2024-11-14T19:16:05.164612,amazonalexa.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a0c:a9c7:8::1
+2024-11-14T19:16:05.164612,amd.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amd.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.164612,amazonalexa.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amazonalexa.com on server: 2a03:90c0:9992::1
+2024-11-14T19:16:05.164612,amazon.se,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amazon.se on server: 101.226.4.7
+2024-11-14T19:16:05.164612,amazonvideo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amazonvideo.com on server: 2400:da00::6666
+2024-11-14T19:16:05.164612,ambito.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ambito.com on server: 2400:da00::6666

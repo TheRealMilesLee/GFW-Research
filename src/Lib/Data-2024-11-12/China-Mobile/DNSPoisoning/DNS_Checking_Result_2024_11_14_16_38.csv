@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T16:38:43.899460,adform.net,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T16:38:43.899460,adgrx.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:119:35::35
+2024-11-14T16:38:43.899460,adingo.jp,208.67.222.222,A,"['13.35.186.126', '13.35.186.65', '13.35.186.78', '13.35.186.124']",,
+2024-11-14T16:38:43.899460,adguard-vpn.online,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.899460,adidas.com,94.140.15.15,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adingo.jp,208.67.220.220,A,"['13.35.186.78', '13.35.186.124', '13.35.186.126', '13.35.186.65']",,
+2024-11-14T16:38:43.899460,adfox.ru,195.208.5.1,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adidas.com,223.5.5.5,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adidas.com,101.226.4.6,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adgrx.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.899460,adgrx.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.899460,adfox.ru,195.208.4.1,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adidas.com,114.114.114.114,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adidas.com,114.114.115.115,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adgrx.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.899460,adgrx.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.899460,adfox.ru,208.67.222.220,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adidas.com,117.50.11.11,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adgrx.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.899460,adidas.com,123.125.81.6,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adfox.ru,94.140.14.14,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adgrx.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.899460,adfox.ru,62.76.76.62,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adgrx.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.899460,adidas.com,218.30.118.6,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adidas.com,211.136.17.107,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adfox.ru,62.76.62.76,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adgrx.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.899460,adfox.ru,77.88.8.8,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adgrx.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:119:53::53
+2024-11-14T16:38:43.899460,adfox.ru,208.67.222.222,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adfox.ru,77.88.8.1,A,['213.180.193.191'],,
+2024-11-14T16:38:43.899460,adfox.ru,2400:3200:baba::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.899460,adidas.com,119.29.29.29,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adidas.com,8.8.4.4,A,['87.237.217.231'],,
+2024-11-14T16:38:43.899460,adidas.com,180.76.76.76,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adfox.ru,208.67.220.222,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adgrx.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2402:4e00::
+2024-11-14T16:38:43.901003,adform.net,211.136.17.107,A,"['37.157.5.87', '37.157.4.28', '37.157.5.84', '37.157.5.141', '37.157.5.132', '37.157.4.29']",,
+2024-11-14T16:38:43.901003,adidas.com,1.0.0.1,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adgrx.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2400:3200::1
+2024-11-14T16:38:43.901003,adfox.ru,9.9.9.10,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,77.88.8.8,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,9.9.9.10,A,"['18.245.46.81', '18.245.46.110', '18.245.46.12', '18.245.46.69']",,
+2024-11-14T16:38:43.901003,adfox.ru,2400:3200::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.901003,adfox.ru,2.56.220.2,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,62.76.76.62,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,195.208.5.1,A,"['108.157.214.33', '108.157.214.96', '108.157.214.100', '108.157.214.117']",,
+2024-11-14T16:38:43.901003,adfox.ru,2a10:50c0::ad2:ff,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.901003,adform.net,123.125.81.6,A,"['37.157.5.141', '37.157.4.29', '37.157.4.28', '37.157.5.132', '37.157.5.87', '37.157.5.84']",,
+2024-11-14T16:38:43.901003,adidas.com,195.208.4.1,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adidas.com,223.6.6.6,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adgrx.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.901003,adfox.ru,1.0.0.1,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,77.88.8.1,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,62.76.62.76,A,"['52.85.49.102', '52.85.49.108', '52.85.49.86', '52.85.49.48']",,
+2024-11-14T16:38:43.901003,adgrx.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.901003,adfox.ru,95.85.95.85,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,62.76.62.76,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,195.208.4.1,A,"['52.85.49.48', '52.85.49.86', '52.85.49.108', '52.85.49.102']",,
+2024-11-14T16:38:43.901003,adgrx.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.901003,adfox.ru,8.8.4.4,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,94.140.14.14,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,77.88.8.1,A,"['18.245.46.69', '18.245.46.110', '18.245.46.81', '18.245.46.12']",,
+2024-11-14T16:38:43.901003,adgrx.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.901003,adfox.ru,1.1.1.1,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901003,adidas.com,195.208.5.1,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901003,adingo.jp,62.76.76.62,A,"['52.85.49.102', '52.85.49.86', '52.85.49.108', '52.85.49.48']",,
+2024-11-14T16:38:43.901933,adgrx.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.901933,adfox.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adfox.ru on server: 9.9.9.9
+2024-11-14T16:38:43.901933,adidas.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adidas.com on server: 101.226.4.7
+2024-11-14T16:38:43.901933,adform.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adform.net on server: 123.125.81.7
+2024-11-14T16:38:43.901933,adingo.jp,77.88.8.8,A,"['52.85.49.86', '52.85.49.102', '52.85.49.108', '52.85.49.48']",,
+2024-11-14T16:38:43.901933,adfox.ru,8.8.8.8,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901933,adidas.com,208.67.220.222,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901933,adidas.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adidas.com on server: 202.96.128.86
+2024-11-14T16:38:43.901933,adgrx.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adgrx.com on server: 2400:da00::6666
+2024-11-14T16:38:43.901933,adingo.jp,2.56.220.2,A,"['13.35.186.126', '13.35.186.124', '13.35.186.78', '13.35.186.65']",,
+2024-11-14T16:38:43.901933,adidas.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adidas.com on server: 210.21.196.6
+2024-11-14T16:38:43.901933,adform.net,101.226.4.6,A,"['37.157.4.29', '37.157.4.28', '37.157.5.132', '37.157.5.87', '37.157.5.84', '37.157.5.141']",,
+2024-11-14T16:38:43.901933,adgrx.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.901933,adidas.com,95.85.95.85,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901933,adfox.ru,208.67.220.220,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901933,adidas.com,9.9.9.10,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901933,adfox.ru,223.5.5.5,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901933,adidas.com,208.67.222.222,A,['87.237.217.231'],,
+2024-11-14T16:38:43.901933,adingo.jp,1.1.1.1,A,"['3.164.143.28', '3.164.143.99', '3.164.143.83', '3.164.143.19']",,
+2024-11-14T16:38:43.901933,adfox.ru,223.6.6.6,A,['213.180.193.191'],,
+2024-11-14T16:38:43.901933,adgrx.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.901933,adingo.jp,95.85.95.85,A,"['13.35.186.65', '13.35.186.126', '13.35.186.124', '13.35.186.78']",,
+2024-11-14T16:38:43.901933,adingo.jp,1.0.0.1,A,"['18.164.174.122', '18.164.174.54', '18.164.174.29', '18.164.174.44']",,
+2024-11-14T16:38:43.902989,adidas.com,2.56.220.2,A,['87.237.217.231'],,
+2024-11-14T16:38:43.902989,adidas.com,208.67.220.220,A,['87.237.217.231'],,
+2024-11-14T16:38:43.902989,adingo.jp,8.8.8.8,A,"['13.35.186.126', '13.35.186.124', '13.35.186.65', '13.35.186.78']",,
+2024-11-14T16:38:43.902989,adgrx.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:fe::10
+2024-11-14T16:38:43.902989,adingo.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adingo.jp on server: 9.9.9.9
+2024-11-14T16:38:43.902989,adfox.ru,114.114.115.115,A,['213.180.193.191'],,
+2024-11-14T16:38:43.902989,adfox.ru,114.114.114.114,A,['213.180.193.191'],,
+2024-11-14T16:38:43.902989,adidas.com,208.67.222.220,A,['87.237.217.231'],,
+2024-11-14T16:38:43.902989,adingo.jp,8.8.4.4,A,"['13.35.186.78', '13.35.186.126', '13.35.186.65', '13.35.186.124']",,
+2024-11-14T16:38:43.902989,adgrx.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.902989,adidas.com,1.1.1.1,A,['87.237.217.231'],,
+2024-11-14T16:38:43.902989,adgrx.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2620:fe::fe
+2024-11-14T16:38:43.902989,adfox.ru,94.140.15.15,A,['213.180.193.191'],,
+2024-11-14T16:38:43.902989,adguard-vpn.online,208.67.222.222,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 208.67.222.222
+2024-11-14T16:38:43.902989,adfox.ru,2402:4e00::,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.902989,adguard.com,180.76.76.76,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,208.67.222.220,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 208.67.222.220
+2024-11-14T16:38:43.902989,adkernel.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.902989,adguard-vpn.online,9.9.9.10,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 9.9.9.10
+2024-11-14T16:38:43.902989,adguard.com,223.6.6.6,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,208.67.222.222,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,2.56.220.2,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adguard.com,119.29.29.29,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,208.67.220.222,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,208.67.220.220,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 208.67.220.220
+2024-11-14T16:38:43.902989,adguard.com,123.125.81.6,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,77.88.8.8,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,62.76.62.76,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,195.208.5.1,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard.com,8.8.4.4,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adform.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adform.net on server: 101.226.4.7
+2024-11-14T16:38:43.902989,adkernel.com,8.8.4.4,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard.com,1.1.1.1,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,62.76.76.62,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,208.67.220.220,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adgrx.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adgrx.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.902989,adidas.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adidas.com on server: 9.9.9.9
+2024-11-14T16:38:43.902989,adkernel.com,208.67.222.220,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard.com,8.8.8.8,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,101.226.4.6,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,77.88.8.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,77.88.8.8,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adfox.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adfox.ru on server: 2400:da00::6666
+2024-11-14T16:38:43.902989,adhigh.net,8.8.4.4,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.902989,adidas.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adidas.com on server: 123.125.81.7
+2024-11-14T16:38:43.902989,adhigh.net,1.1.1.1,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.902989,adguard.com,77.88.8.1,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adjust.net.in,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 101.226.4.7
+2024-11-14T16:38:43.902989,adhigh.net,8.8.8.8,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.902989,adguard.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adguard.com on server: 202.96.128.86
+2024-11-14T16:38:43.902989,adkernel.com,9.9.9.10,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,95.85.95.85,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,195.208.5.1,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,208.67.220.220,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,62.76.62.76,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,101.226.4.6,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 101.226.4.6
+2024-11-14T16:38:43.902989,adguard.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adguard.com on server: 123.125.81.7
+2024-11-14T16:38:43.902989,adjust.net.in,101.226.4.6,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,218.30.118.6,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 218.30.118.6
+2024-11-14T16:38:43.902989,adguard.com,223.5.5.5,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,62.76.76.62,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,211.136.17.107,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 211.136.17.107
+2024-11-14T16:38:43.902989,adkernel.com,1.1.1.1,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,117.50.11.11,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 117.50.11.11
+2024-11-14T16:38:43.902989,adguard-vpn.online,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 101.226.4.7
+2024-11-14T16:38:43.902989,adkernel.com,1.0.0.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,123.125.81.6,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 123.125.81.6
+2024-11-14T16:38:43.902989,adguard.com,117.50.11.11,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,2.56.220.2,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,223.5.5.5,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 223.5.5.5
+2024-11-14T16:38:43.902989,adguard.com,114.114.115.115,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adjust.net.in,218.30.118.6,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,180.76.76.76,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 180.76.76.76
+2024-11-14T16:38:43.902989,adguard.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adguard.com on server: 210.21.196.6
+2024-11-14T16:38:43.902989,adjust.net.in,123.125.81.6,A,"['185.151.204.31', '185.151.204.32', '185.151.204.33', '185.151.204.30']",,
+2024-11-14T16:38:43.902989,adguard.com,1.0.0.1,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,218.30.118.6,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,195.208.4.1,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,195.208.4.1,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard.com,9.9.9.10,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,95.85.95.85,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,114.114.114.114,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 114.114.114.114
+2024-11-14T16:38:43.902989,adguard.com,94.140.15.15,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adkernel.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adkernel.com on server: 9.9.9.9
+2024-11-14T16:38:43.902989,adguard-vpn.online,114.114.115.115,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 114.114.115.115
+2024-11-14T16:38:43.902989,adguard.com,114.114.114.114,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adjust.net.in,211.136.17.107,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,223.6.6.6,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 223.6.6.6
+2024-11-14T16:38:43.902989,adguard.com,208.67.220.222,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,119.29.29.29,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 119.29.29.29
+2024-11-14T16:38:43.902989,adguard.com,94.140.14.14,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 123.125.81.7
+2024-11-14T16:38:43.902989,adkernel.com,8.8.8.8,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.902989,adguard.com,211.136.17.107,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,94.140.14.14,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 94.140.14.14
+2024-11-14T16:38:43.902989,adjust.net.in,117.50.11.11,A,"['185.151.204.31', '185.151.204.30', '185.151.204.33', '185.151.204.32']",,
+2024-11-14T16:38:43.902989,adguard.com,208.67.222.222,A,"['104.18.163.229', '104.18.164.229']",,
+2024-11-14T16:38:43.902989,adguard-vpn.online,94.140.15.15,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 94.140.15.15
+2024-11-14T16:38:43.902989,adguard-vpn.online,208.67.220.222,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 208.67.220.222
+2024-11-14T16:38:43.902989,adjust.net.in,180.76.76.76,A,"['185.151.204.31', '185.151.204.32', '185.151.204.33', '185.151.204.30']",,
+2024-11-14T16:38:43.902989,adguard.com,208.67.222.220,A,"['104.18.164.229', '104.18.163.229']",,
+2024-11-14T16:38:43.902989,adform.net,208.67.222.222,A,"['37.157.5.84', '37.157.5.87', '37.157.5.132', '37.157.5.141', '37.157.4.28', '37.157.4.29']",,
+2024-11-14T16:38:43.902989,aditude.cloud,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:0:ccd::2
+2024-11-14T16:38:43.902989,adjoe.zone,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2400:3200:baba::1
+2024-11-14T16:38:43.902989,adform.net,218.30.118.6,A,"['37.157.5.132', '37.157.4.29', '37.157.5.87', '37.157.4.28', '37.157.5.84', '37.157.5.141']",,
+2024-11-14T16:38:43.902989,aditude.cloud,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.902989,adjoe.zone,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2402:4e00::
+2024-11-14T16:38:43.902989,adform.net,95.85.95.85,A,"['37.157.2.229', '37.157.3.20', '37.157.3.26', '37.157.2.233', '37.157.2.230', '37.157.2.228']",,
+2024-11-14T16:38:43.902989,aditude.cloud,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:0:ccc::2
+2024-11-14T16:38:43.902989,adjust.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.902989,adguard.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adguard.com on server: 101.226.4.7
+2024-11-14T16:38:43.902989,aditude.cloud,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.902989,adjust.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.902989,adguard.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adguard.com on server: 9.9.9.9
+2024-11-14T16:38:43.902989,adition.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2400:3200::1
+2024-11-14T16:38:43.903917,adjust.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.903917,adform.net,208.67.220.222,A,"['37.157.5.84', '37.157.5.87', '37.157.5.132', '37.157.5.141', '37.157.4.28', '37.157.4.29']",,
+2024-11-14T16:38:43.903917,adition.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.903917,adjust.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.903917,adform.net,208.67.220.220,A,"['37.157.2.228', '37.157.2.229', '37.157.2.230', '37.157.2.233', '37.157.3.20', '37.157.3.26']",,
+2024-11-14T16:38:43.903917,adition.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.903917,adjust.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.903917,adform.net,180.76.76.76,A,"['37.157.5.87', '37.157.5.132', '37.157.5.141', '37.157.4.28', '37.157.4.29', '37.157.5.84']",,
+2024-11-14T16:38:43.903917,adition.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.903917,adjust.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.903917,adform.net,77.88.8.1,A,"['37.157.4.29', '37.157.4.28', '37.157.5.132', '37.157.5.141', '37.157.5.84', '37.157.5.87']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.903917,adjoe.zone,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.903917,adform.net,62.76.62.76,A,"['37.157.4.29', '37.157.5.132', '37.157.5.84', '37.157.4.28', '37.157.5.87', '37.157.5.141']",,
+2024-11-14T16:38:43.903917,adition.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.903917,adjoe.zone,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.903917,aditude.cloud,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.903917,adjoe.zone,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.903917,adform.net,77.88.8.8,A,"['37.157.6.233', '37.157.6.231', '37.157.6.232', '37.157.6.243', '37.157.6.254', '37.157.6.237']",,
+2024-11-14T16:38:43.903917,adition.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.903917,adjoe.zone,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2400:3200::1
+2024-11-14T16:38:43.903917,aditude.cloud,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.903917,adjoe.zone,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:0:ccd::2
+2024-11-14T16:38:43.903917,adform.net,223.6.6.6,A,"['37.157.5.141', '37.157.5.84', '37.157.5.132', '37.157.4.28', '37.157.5.87', '37.157.4.29']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.903917,adjoe.zone,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.903917,adform.net,9.9.9.10,A,"['37.157.4.28', '37.157.5.132', '37.157.5.141', '37.157.4.29', '37.157.5.84', '37.157.5.87']",,
+2024-11-14T16:38:43.903917,adguard-vpn.online,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 202.96.128.86
+2024-11-14T16:38:43.903917,adjoe.zone,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:119:53::53
+2024-11-14T16:38:43.903917,adform.net,223.5.5.5,A,"['37.157.3.26', '37.157.2.230', '37.157.2.228', '37.157.3.20', '37.157.2.229', '37.157.2.233']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.903917,adjoe.zone,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:0:ccc::2
+2024-11-14T16:38:43.903917,adform.net,2.56.220.2,A,"['37.157.4.29', '37.157.5.84', '37.157.5.87', '37.157.5.132', '37.157.5.141', '37.157.4.28']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:119:35::35
+2024-11-14T16:38:43.903917,adjoe.zone,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:fe::10
+2024-11-14T16:38:43.903917,adjust.net.in,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 123.125.81.7
+2024-11-14T16:38:43.903917,aditude.cloud,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:119:53::53
+2024-11-14T16:38:43.903917,adjoe.zone,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:119:35::35
+2024-11-14T16:38:43.903917,adform.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.903917,aditude.cloud,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.903917,adguard-vpn.online,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 210.21.196.6
+2024-11-14T16:38:43.903917,adjust.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.903917,aditude.cloud,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:fe::10
+2024-11-14T16:38:43.903917,adjust.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.903917,adform.net,1.1.1.1,A,"['37.157.3.20', '37.157.2.229', '37.157.3.26', '37.157.2.233', '37.157.2.228', '37.157.2.230']",,
+2024-11-14T16:38:43.903917,adition.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:119:53::53
+2024-11-14T16:38:43.903917,adjust.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.903917,adform.net,195.208.4.1,A,"['37.157.5.132', '37.157.4.29', '37.157.5.141', '37.157.5.87', '37.157.4.28', '37.157.5.84']",,
+2024-11-14T16:38:43.903917,adjust.net.in,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 210.21.196.6
+2024-11-14T16:38:43.903917,adjust.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.903917,adform.net,208.67.222.220,A,"['37.157.6.233', '37.157.6.237', '37.157.6.243', '37.157.6.254', '37.157.6.231', '37.157.6.232']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.903917,adjoe.zone,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2620:fe::fe
+2024-11-14T16:38:43.903917,adition.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:fe::10
+2024-11-14T16:38:43.903917,adition.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:119:35::35
+2024-11-14T16:38:43.903917,adform.net,119.29.29.29,A,"['37.157.6.231', '37.157.6.237', '37.157.6.232', '37.157.6.233', '37.157.6.254', '37.157.6.243']",,
+2024-11-14T16:38:43.903917,adform.net,8.8.4.4,A,"['37.157.6.254', '37.157.6.232', '37.157.6.231', '37.157.6.237', '37.157.6.233', '37.157.6.243']",,
+2024-11-14T16:38:43.903917,adition.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2620:fe::fe
+2024-11-14T16:38:43.903917,adjoe.zone,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.903917,adform.net,114.114.114.114,A,"['37.157.4.28', '37.157.5.132', '37.157.4.29']",,
+2024-11-14T16:38:43.903917,adform.net,114.114.115.115,A,"['37.157.5.132', '37.157.4.29', '37.157.5.87']",,
+2024-11-14T16:38:43.903917,adition.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2402:4e00::
+2024-11-14T16:38:43.903917,adjoe.zone,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.903917,adform.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.903917,aditude.cloud,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.903917,adjust.net.in,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 202.96.128.86
+2024-11-14T16:38:43.903917,adjoe.zone,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.903917,aditude.cloud,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.903917,adform.net,62.76.76.62,A,"['37.157.2.228', '37.157.3.26', '37.157.2.230', '37.157.2.233', '37.157.3.20', '37.157.2.229']",,
+2024-11-14T16:38:43.903917,adform.net,8.8.8.8,A,"['37.157.2.228', '37.157.2.233', '37.157.3.26', '37.157.2.230', '37.157.3.20', '37.157.2.229']",,
+2024-11-14T16:38:43.903917,aditude.cloud,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2620:fe::fe
+2024-11-14T16:38:43.903917,adjoe.zone,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.903917,adform.net,1.0.0.1,A,"['37.157.5.87', '37.157.4.29', '37.157.5.141', '37.157.5.84', '37.157.4.28', '37.157.5.132']",,
+2024-11-14T16:38:43.903917,adjoe.zone,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.903917,aditude.cloud,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.903917,adhigh.net,101.226.4.6,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adform.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adform.net on server: 202.96.128.86
+2024-11-14T16:38:43.903917,adjarabet.com,1.1.1.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,94.140.15.15,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adform.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adform.net on server: 210.21.196.6
+2024-11-14T16:38:43.903917,adjarabet.com,8.8.8.8,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,114.114.114.114,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.net.in,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.903917,adition.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adition.com on server: 2400:da00::6666
+2024-11-14T16:38:43.903917,adjarabet.com,8.8.4.4,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,208.67.222.220,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adform.net,195.208.5.1,A,"['37.157.5.87', '37.157.5.84', '37.157.4.29', '37.157.5.141', '37.157.5.132', '37.157.4.28']",,
+2024-11-14T16:38:43.903917,adform.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adform.net on server: 9.9.9.9
+2024-11-14T16:38:43.903917,adjarabet.am,101.226.4.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjoe.zone,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.903917,adjust.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.903917,adjoe.zone,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 2400:da00::6666
+2024-11-14T16:38:43.903917,adhigh.net,195.208.4.1,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjust.com,119.29.29.29,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.903917,adjust.net.in,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.903917,adjust.com,180.76.76.76,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adhigh.net,2.56.220.2,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjust.net.in,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:fe::fe
+2024-11-14T16:38:43.903917,adhigh.net,62.76.76.62,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjust.com,62.76.76.62,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.net.in,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.903917,adhigh.net,62.76.62.76,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjarabet.com,1.0.0.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adhigh.net,218.30.118.6,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adhigh.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 210.21.196.6
+2024-11-14T16:38:43.903917,adjust.com,208.67.220.222,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:119:53::53
+2024-11-14T16:38:43.903917,adhigh.net,77.88.8.8,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.903917,adjarabet.am,117.50.11.11,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,94.140.14.14,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.903917,adhigh.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 202.96.128.86
+2024-11-14T16:38:43.903917,adjarabet.am,123.125.81.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,223.5.5.5,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adhigh.net,95.85.95.85,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adhigh.net,77.88.8.1,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjust.com,211.136.17.107,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:119:35::35
+2024-11-14T16:38:43.903917,adhigh.net,211.136.17.107,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.903917,adjarabet.am,211.136.17.107,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,62.76.62.76,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adhigh.net,123.125.81.6,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.903917,adjust.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adjust.com on server: 2400:da00::6666
+2024-11-14T16:38:43.903917,adhigh.net,117.50.11.11,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 117.50.11.11
+2024-11-14T16:38:43.903917,adjust.net.in,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.903917,adhigh.net,119.29.29.29,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjarabet.am,218.30.118.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,218.30.118.6,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.net.in,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.903917,adhigh.net,180.76.76.76,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.903917,adjarabet.com,208.67.222.220,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,223.6.6.6,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adjust.net.in,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.903917,adhigh.net,223.5.5.5,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjust.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adjust.com on server: 202.96.128.86
+2024-11-14T16:38:43.903917,adjarabet.com,62.76.62.76,A,['35.159.223.9'],,
+2024-11-14T16:38:43.903917,adjust.com,77.88.8.8,A,['76.76.21.21'],,
+2024-11-14T16:38:43.903917,adhigh.net,223.6.6.6,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.903917,adjarabet.am,180.76.76.76,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.net.in,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.904951,adjust.net.in,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.904951,adjust.com,77.88.8.1,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adhigh.net,114.114.114.114,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.904951,adjust.net.in,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.904951,adhigh.net,114.114.115.115,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjarabet.com,208.67.222.222,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjarabet.com,195.208.4.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.net.in,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.904951,adhigh.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.904951,adjarabet.am,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 123.125.81.7
+2024-11-14T16:38:43.904951,adjarabet.com,208.67.220.220,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,95.85.95.85,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjarabet.am,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 101.226.4.7
+2024-11-14T16:38:43.904951,adjust.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:fe::fe
+2024-11-14T16:38:43.904951,adhigh.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.904951,adjust.com,2.56.220.2,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:fe::10
+2024-11-14T16:38:43.904951,adhigh.net,195.208.5.1,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.904951,adjarabet.com,9.9.9.10,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,1.1.1.1,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2402:4e00::
+2024-11-14T16:38:43.904951,adjust.net.in,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.904951,adjarabet.com,62.76.76.62,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,1.0.0.1,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adhigh.net,208.67.220.222,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjarabet.com,195.208.5.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2400:3200::1
+2024-11-14T16:38:43.904951,adhigh.net,1.0.0.1,A,"['193.232.150.62', '194.190.76.36']",,
+2024-11-14T16:38:43.904951,adjarabet.com,77.88.8.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,114.114.115.115,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.904951,adhigh.net,208.67.220.220,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjust.com,9.9.9.10,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.904951,adhigh.net,208.67.222.220,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjarabet.com,2.56.220.2,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,208.67.220.220,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.904951,adhigh.net,208.67.222.222,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjarabet.am,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 210.21.196.6
+2024-11-14T16:38:43.904951,adjarabet.com,77.88.8.8,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,195.208.4.1,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adidas.com,8.8.8.8,A,['87.237.217.231'],,
+2024-11-14T16:38:43.904951,adjarabet.com,95.85.95.85,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,208.67.222.222,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adjust.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.904951,adhigh.net,9.9.9.10,A,"['194.190.76.36', '193.232.150.62']",,
+2024-11-14T16:38:43.904951,adjarabet.com,208.67.220.222,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjust.com,195.208.5.1,A,['76.76.21.21'],,
+2024-11-14T16:38:43.904951,adjust.net.in,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.904951,aditude.cloud,1.0.0.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adjarabet.am,195.208.4.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.904951,adition.com,208.67.222.222,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,62.76.62.76,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,208.67.220.222,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,1.0.0.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.904951,aditude.cloud,8.8.8.8,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adjarabet.am,8.8.4.4,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.904951,aditude.cloud,2.56.220.2,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adjarabet.am,119.29.29.29,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.904951,adjarabet.am,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 202.96.128.86
+2024-11-14T16:38:43.904951,adjarabet.am,1.1.1.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.904951,aditude.cloud,95.85.95.85,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adjust.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adjust.com on server: 210.21.196.6
+2024-11-14T16:38:43.904951,adingo.jp,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.904951,adition.com,117.50.11.11,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,114.114.115.115,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.904951,adition.com,123.125.81.6,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,114.114.114.114,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjarabet.am,94.140.15.15,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.904951,adhigh.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 101.226.4.7
+2024-11-14T16:38:43.904951,adingo.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2400:3200::1
+2024-11-14T16:38:43.904951,aditude.cloud,1.1.1.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adjarabet.am,223.5.5.5,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:0:ccd::2
+2024-11-14T16:38:43.904951,adition.com,9.9.9.10,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adingo.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2400:3200:baba::1
+2024-11-14T16:38:43.904951,adjarabet.am,94.140.14.14,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,195.208.5.1,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,9.9.9.10,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:119:53::53
+2024-11-14T16:38:43.904951,adjarabet.am,223.6.6.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,aditude.cloud,8.8.4.4,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.904951,adjarabet.am,77.88.8.8,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:119:35::35
+2024-11-14T16:38:43.904951,adition.com,218.30.118.6,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adition.com,101.226.4.6,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:0:ccc::2
+2024-11-14T16:38:43.904951,adition.com,211.136.17.107,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 9.9.9.9
+2024-11-14T16:38:43.904951,adjarabet.am,8.8.8.8,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adhigh.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 9.9.9.9
+2024-11-14T16:38:43.904951,adition.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.904951,adhigh.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adhigh.net on server: 123.125.81.7
+2024-11-14T16:38:43.904951,adjarabet.am,62.76.76.62,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:fe::fe
+2024-11-14T16:38:43.904951,adition.com,119.29.29.29,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,195.208.5.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2620:fe::10
+2024-11-14T16:38:43.904951,adjust.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adjust.com on server: 9.9.9.9
+2024-11-14T16:38:43.904951,adition.com,180.76.76.76,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adingo.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.904951,adjarabet.am,208.67.220.220,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2402:4e00::
+2024-11-14T16:38:43.904951,adition.com,114.114.115.115,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,208.67.220.222,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.904951,adition.com,208.67.220.220,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,208.67.222.222,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adingo.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.904951,adition.com,208.67.222.220,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,95.85.95.85,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adjarabet.am,77.88.8.1,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,114.114.114.114,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adingo.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.904951,adition.com,223.6.6.6,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,208.67.222.220,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.904951,adition.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adition.com on server: 101.226.4.7
+2024-11-14T16:38:43.904951,adjarabet.am,2.56.220.2,A,['35.159.223.9'],,
+2024-11-14T16:38:43.904951,adition.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.904951,adition.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.904951,aditude.cloud,101.226.4.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.904951,adition.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.904951,adition.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.904951,adition.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adition.com on server: 123.125.81.7
+2024-11-14T16:38:43.904951,adition.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.904951,adition.com,223.5.5.5,A,['212.88.144.39'],,
+2024-11-14T16:38:43.904951,adjarabet.am,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 9.9.9.9
+2024-11-14T16:38:43.904951,adingo.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adingo.jp on server: 2400:da00::6666
+2024-11-14T16:38:43.904951,adgrx.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adgrx.com on server: 208.67.222.220
+2024-11-14T16:38:43.904951,adjoe.zone,208.67.220.220,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.904951,adition.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adition.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.904951,adjust.net.in,1.0.0.1,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.904951,adition.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adition.com on server: 202.96.128.86
+2024-11-14T16:38:43.904951,adform.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.904951,adguard.com,2a03:90c0:9992::1,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.904951,adjarabet.am,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.905949,adjoe.zone,223.5.5.5,A,"['35.156.129.114', '18.192.109.6', '52.57.39.114', '35.157.58.13', '35.156.138.224', '35.156.31.96']",,
+2024-11-14T16:38:43.905949,adgrx.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adgrx.com on server: 208.67.220.222
+2024-11-14T16:38:43.905949,adjust.net.in,8.8.4.4,A,"['185.151.204.30', '185.151.204.32', '185.151.204.31', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:119:53::53
+2024-11-14T16:38:43.905949,adhigh.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.905949,adform.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.905949,adjarabet.am,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.905949,adjoe.zone,223.6.6.6,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adhigh.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.905949,adjust.net.in,1.1.1.1,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adgrx.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adgrx.com on server: 9.9.9.10
+2024-11-14T16:38:43.905949,adition.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adition.com on server: 210.21.196.6
+2024-11-14T16:38:43.905949,adjust.net.in,223.5.5.5,A,"['185.151.204.31', '185.151.204.32', '185.151.204.30', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adform.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.905949,adguard.com,2a03:90c0:999d::1,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adfox.ru,119.29.29.29,A,['213.180.193.191'],,
+2024-11-14T16:38:43.905949,adguard.com,2606:4700:4700::1111,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.905949,adgrx.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adgrx.com on server: 77.88.8.1
+2024-11-14T16:38:43.905949,adjust.net.in,119.29.29.29,A,"['185.151.204.32', '185.151.204.33', '185.151.204.30', '185.151.204.31']",,
+2024-11-14T16:38:43.905949,adguard.com,2606:4700:4700::1001,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.905949,adingo.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.905949,adjoe.zone,114.114.114.114,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adjust.net.in,114.114.115.115,A,"['185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.905949,adguard.com,2620:fe::10,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,aditude.cloud,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2402:4e00::
+2024-11-14T16:38:43.905949,adgrx.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adgrx.com on server: 1.1.1.1
+2024-11-14T16:38:43.905949,adjoe.zone,114.114.115.115,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,223.6.6.6,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.905949,adkernel.com,123.125.81.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.905949,adition.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adition.com on server: 9.9.9.9
+2024-11-14T16:38:43.905949,adfox.ru,180.76.76.76,A,['213.180.193.191'],,
+2024-11-14T16:38:43.905949,adjoe.zone,94.140.14.14,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,94.140.15.15,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adkernel.com,101.226.4.6,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.905949,adguard.com,2a0c:a9c7:9::1,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,aditude.cloud,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2400:3200::1
+2024-11-14T16:38:43.905949,adgrx.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adgrx.com on server: 208.67.220.220
+2024-11-14T16:38:43.905949,adjoe.zone,94.140.15.15,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,114.114.114.114,A,"['185.151.204.31', '185.151.204.30', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,aditude.cloud,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 123.125.81.7
+2024-11-14T16:38:43.905949,aditude.cloud,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 101.226.4.7
+2024-11-14T16:38:43.905949,adguard.com,2620:fe::fe,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,aditude.cloud,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2400:3200:baba::1
+2024-11-14T16:38:43.905949,adgrx.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adgrx.com on server: 195.208.5.1
+2024-11-14T16:38:43.905949,adjoe.zone,208.67.222.220,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,9.9.9.10,A,"['185.151.204.32', '185.151.204.33', '185.151.204.30', '185.151.204.31']",,
+2024-11-14T16:38:43.905949,adkernel.com,218.30.118.6,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:0:ccc::2
+2024-11-14T16:38:43.905949,aditude.cloud,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.905949,adjoe.zone,208.67.220.222,A,"['35.156.138.224', '52.57.39.114', '35.156.129.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,94.140.14.14,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adkernel.com,211.136.17.107,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adguard.com,2001:6d0:d6::2001,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,aditude.cloud,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aditude.cloud on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.905949,adgrx.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adgrx.com on server: 208.67.222.222
+2024-11-14T16:38:43.905949,adjoe.zone,9.9.9.10,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.905949,adkernel.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adkernel.com on server: 101.226.4.7
+2024-11-14T16:38:43.905949,adkernel.com,117.50.11.11,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.905949,adjoe.zone,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 9.9.9.9
+2024-11-14T16:38:43.905949,adguard.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,adgrx.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adgrx.com on server: 8.8.8.8
+2024-11-14T16:38:43.905949,adkernel.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adkernel.com on server: 123.125.81.7
+2024-11-14T16:38:43.905949,adjarabet.am,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2402:4e00::
+2024-11-14T16:38:43.905949,adjoe.zone,208.67.222.222,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adkernel.com,180.76.76.76,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.905949,adhigh.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.905949,adgrx.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adgrx.com on server: 8.8.4.4
+2024-11-14T16:38:43.905949,adgrx.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adgrx.com on server: 9.9.9.9
+2024-11-14T16:38:43.905949,adjoe.zone,195.208.4.1,A,"['35.156.138.224', '52.57.39.114', '35.156.129.114']",,
+2024-11-14T16:38:43.905949,adjust.net.in,195.208.4.1,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2400:3200::1
+2024-11-14T16:38:43.905949,adguard-vpn.online,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2402:4e00::
+2024-11-14T16:38:43.905949,adfox.ru,218.30.118.6,A,['213.180.193.191'],,
+2024-11-14T16:38:43.905949,adjoe.zone,195.208.5.1,A,"['35.156.129.114', '52.57.39.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adkernel.com,119.29.29.29,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adjust.net.in,195.208.5.1,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.905949,adjarabet.am,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2400:3200:baba::1
+2024-11-14T16:38:43.905949,adguard.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.905949,adjoe.zone,62.76.76.62,A,"['35.156.129.114', '52.57.39.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adjust.net.in,62.76.76.62,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adform.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.905949,adguard-vpn.online,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.905949,adguard.com,2620:0:ccd::2,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.905949,aditude.cloud,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 2400:da00::6666
+2024-11-14T16:38:43.905949,adjoe.zone,62.76.62.76,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.905949,adjust.net.in,62.76.62.76,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adkernel.com,223.6.6.6,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.905949,adjarabet.am,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.905949,adkernel.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adkernel.com on server: 210.21.196.6
+2024-11-14T16:38:43.905949,adjust.com,8.8.8.8,A,['76.76.21.21'],,
+2024-11-14T16:38:43.905949,adjust.net.in,208.67.222.220,A,"['185.151.204.31', '185.151.204.32', '185.151.204.33', '185.151.204.30']",,
+2024-11-14T16:38:43.905949,adform.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.905949,adguard-vpn.online,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.905949,adguard.com,2620:0:ccc::2,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.905949,adfox.ru,123.125.81.6,A,['213.180.193.191'],,
+2024-11-14T16:38:43.905949,adjust.com,8.8.4.4,A,['76.76.21.21'],,
+2024-11-14T16:38:43.905949,adjust.net.in,208.67.220.222,A,"['185.151.204.30', '185.151.204.31', '185.151.204.32', '185.151.204.33']",,
+2024-11-14T16:38:43.905949,adform.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.905949,adguard-vpn.online,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2400:3200:baba::1
+2024-11-14T16:38:43.905949,adjarabet.am,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.905949,adfox.ru,101.226.4.6,A,['213.180.193.191'],,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.905949,adjust.net.in,8.8.8.8,A,"['185.151.204.32', '185.151.204.33', '185.151.204.30', '185.151.204.31']",,
+2024-11-14T16:38:43.905949,adguard-vpn.online,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.905949,adguard.com,2620:119:35::35,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.905949,adgrx.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adgrx.com on server: 62.76.62.76
+2024-11-14T16:38:43.905949,adjust.net.in,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 9.9.9.9
+2024-11-14T16:38:43.905949,adjust.net.in,77.88.8.1,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.905949,adkernel.com,114.114.115.115,A,"['141.193.213.11', '141.193.213.10']",,
+2024-11-14T16:38:43.905949,adguard.com,2001:4860:4860::8844,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adguard.com,2620:119:53::53,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.905949,adjarabet.am,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adjarabet.am on server: 2400:da00::6666
+2024-11-14T16:38:43.905949,adjarabet.am,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.905949,adgrx.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adgrx.com on server: 195.208.4.1
+2024-11-14T16:38:43.905949,adjust.net.in,208.67.222.222,A,"['185.151.204.33', '185.151.204.30', '185.151.204.31', '185.151.204.32']",,
+2024-11-14T16:38:43.905949,adkernel.com,223.5.5.5,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.905949,adjoe.zone,123.125.81.6,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.906950,adguard.com,2001:4860:4860::8888,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.906950,adkernel.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adkernel.com on server: 202.96.128.86
+2024-11-14T16:38:43.906950,adhigh.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.906950,adjarabet.am,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.906950,adjust.net.in,208.67.220.220,A,"['185.151.204.32', '185.151.204.33', '185.151.204.30', '185.151.204.31']",,
+2024-11-14T16:38:43.906950,adgrx.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adgrx.com on server: 62.76.76.62
+2024-11-14T16:38:43.906950,adkernel.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.906950,adguard-vpn.online,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:fe::fe
+2024-11-14T16:38:43.906950,adhigh.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.906950,adjarabet.am,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.906950,adfox.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adfox.ru on server: 202.96.128.86
+2024-11-14T16:38:43.906950,adjoe.zone,211.136.17.107,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adkernel.com,114.114.114.114,A,"['141.193.213.10', '141.193.213.11']",,
+2024-11-14T16:38:43.906950,adjust.net.in,77.88.8.8,A,"['185.151.204.32', '185.151.204.33', '185.151.204.30', '185.151.204.31']",,
+2024-11-14T16:38:43.906950,adguard.com,2402:4e00::,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.906950,adjoe.zone,101.226.4.6,A,"['35.156.129.114', '52.57.39.114', '35.156.138.224']",,
+2024-11-14T16:38:43.906950,adfox.ru,211.136.17.107,A,['213.180.193.191'],,
+2024-11-14T16:38:43.906950,adjoe.zone,117.50.11.11,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:0:ccc::2
+2024-11-14T16:38:43.906950,adfox.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adfox.ru on server: 123.125.81.7
+2024-11-14T16:38:43.906950,adform.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.906950,adjarabet.am,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:0:ccd::2
+2024-11-14T16:38:43.906950,adfox.ru,117.50.11.11,A,['213.180.193.191'],,
+2024-11-14T16:38:43.906950,adfox.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adfox.ru on server: 101.226.4.7
+2024-11-14T16:38:43.906950,adjust.com,101.226.4.6,A,['76.76.21.21'],,
+2024-11-14T16:38:43.906950,adform.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:0:ccd::2
+2024-11-14T16:38:43.906950,adguard-vpn.online,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.906950,adguard.com,2400:3200::1,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:fe::10
+2024-11-14T16:38:43.906950,adgrx.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adgrx.com on server: 2.56.220.2
+2024-11-14T16:38:43.906950,adjoe.zone,218.30.118.6,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adjoe.zone,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 123.125.81.7
+2024-11-14T16:38:43.906950,adform.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.906950,adguard-vpn.online,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2400:3200::1
+2024-11-14T16:38:43.906950,adguard.com,2400:3200:baba::1,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:119:53::53
+2024-11-14T16:38:43.906950,adgrx.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adgrx.com on server: 77.88.8.8
+2024-11-14T16:38:43.906950,adjoe.zone,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 101.226.4.7
+2024-11-14T16:38:43.906950,adfox.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adfox.ru on server: 210.21.196.6
+2024-11-14T16:38:43.906950,adguard-vpn.online,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 2400:da00::6666
+2024-11-14T16:38:43.906950,adform.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.906950,adguard.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.906950,adguard-vpn.online,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:fe::10
+2024-11-14T16:38:43.906950,adjust.com,123.125.81.6,A,['76.76.21.21'],,
+2024-11-14T16:38:43.906950,adform.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.906950,adguard-vpn.online,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:119:35::35
+2024-11-14T16:38:43.906950,adjarabet.am,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:fe::fe
+2024-11-14T16:38:43.906950,adguard.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2620:119:35::35
+2024-11-14T16:38:43.906950,adjoe.zone,119.29.29.29,A,"['35.156.138.224', '52.57.39.114', '35.156.129.114']",,
+2024-11-14T16:38:43.906950,adgrx.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adgrx.com on server: 95.85.95.85
+2024-11-14T16:38:43.906950,adjust.net.in,95.85.95.85,A,"['185.151.204.32', '185.151.204.31', '185.151.204.33', '185.151.204.30']",,
+2024-11-14T16:38:43.906950,adguard-vpn.online,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2620:0:ccd::2
+2024-11-14T16:38:43.906950,adform.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.906950,adjust.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adjust.com on server: 101.226.4.7
+2024-11-14T16:38:43.906950,adguard.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adguard.com on server: 2400:da00::6666
+2024-11-14T16:38:43.906950,adgrx.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adgrx.com on server: 1.0.0.1
+2024-11-14T16:38:43.906950,adguard.com,2001:6d0:6d0::2001,AAAA,"['2606:4700::6812:a4e5', '2606:4700::6812:a3e5']",,
+2024-11-14T16:38:43.906950,adjust.net.in,2.56.220.2,A,"['185.151.204.31', '185.151.204.32', '185.151.204.30', '185.151.204.33']",,
+2024-11-14T16:38:43.906950,adjoe.zone,180.76.76.76,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.906950,adform.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.906950,adguard-vpn.online,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.906950,adguard.com,2a0c:a9c7:8::1,AAAA,"['2606:4700::6812:a3e5', '2606:4700::6812:a4e5']",,
+2024-11-14T16:38:43.906950,adition.com,1.0.0.1,A,['212.88.144.39'],,
+2024-11-14T16:38:43.906950,aditude.cloud,114.114.114.114,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.906950,adjarabet.am,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.am on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.906950,adidas.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:119:53::53
+2024-11-14T16:38:43.906950,adfox.ru,2620:0:ccd::2,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adkernel.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.906950,adition.com,8.8.4.4,A,['212.88.144.39'],,
+2024-11-14T16:38:43.906950,adjarabet.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2402:4e00::
+2024-11-14T16:38:43.906950,adjoe.zone,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 210.21.196.6
+2024-11-14T16:38:43.906950,adidas.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:119:35::35
+2024-11-14T16:38:43.906950,adfox.ru,2620:119:35::35,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,aditude.cloud,94.140.15.15,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.906950,adjoe.zone,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.906950,adition.com,1.1.1.1,A,['212.88.144.39'],,
+2024-11-14T16:38:43.906950,adfox.ru,2620:119:53::53,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adkernel.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.906950,adjoe.zone,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.906950,adingo.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.906950,adkernel.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:119:53::53
+2024-11-14T16:38:43.906950,adjarabet.com,114.114.115.115,A,['35.159.223.9'],,
+2024-11-14T16:38:43.906950,aditude.cloud,208.67.220.222,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.906950,adjarabet.com,114.114.114.114,A,['35.159.223.9'],,
+2024-11-14T16:38:43.906950,adidas.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.906950,adjoe.zone,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.906950,adjust.net.in,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:0:ccd::2
+2024-11-14T16:38:43.906950,adition.com,8.8.8.8,A,['212.88.144.39'],,
+2024-11-14T16:38:43.906950,aditude.cloud,94.140.14.14,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.906950,adjarabet.com,211.136.17.107,A,['35.159.223.9'],,
+2024-11-14T16:38:43.906950,adfox.ru,2620:fe::fe,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adidas.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:fe::10
+2024-11-14T16:38:43.906950,adjoe.zone,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adjoe.zone on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.906950,adkernel.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:119:35::35
+2024-11-14T16:38:43.906950,adingo.jp,223.5.5.5,A,"['13.35.186.65', '13.35.186.126', '13.35.186.124', '13.35.186.78']",,
+2024-11-14T16:38:43.906950,aditude.cloud,208.67.220.220,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.906950,adjarabet.com,123.125.81.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.906950,adingo.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.906950,adjust.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adjust.com on server: 123.125.81.7
+2024-11-14T16:38:43.906950,adkernel.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:fe::10
+2024-11-14T16:38:43.906950,adingo.jp,223.6.6.6,A,"['13.35.186.124', '13.35.186.65', '13.35.186.78', '13.35.186.126']",,
+2024-11-14T16:38:43.906950,aditude.cloud,208.67.222.220,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.906950,adjoe.zone,77.88.8.1,A,"['35.156.138.224', '35.156.129.114', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adfox.ru,2a10:50c0::ad1:ff,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adingo.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.906950,adjoe.zone,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adjoe.zone on server: 202.96.128.86
+2024-11-14T16:38:43.906950,adingo.jp,101.226.4.6,A,"['13.35.186.65', '13.35.186.124', '13.35.186.126', '13.35.186.78']",,
+2024-11-14T16:38:43.906950,adjust.com,117.50.11.11,A,['76.76.21.21'],,
+2024-11-14T16:38:43.906950,adfox.ru,2a0c:a9c7:8::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adjarabet.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.906950,adkernel.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.906950,adjarabet.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 202.96.128.86
+2024-11-14T16:38:43.906950,adjarabet.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 210.21.196.6
+2024-11-14T16:38:43.906950,adjoe.zone,1.0.0.1,A,"['35.156.138.224', '35.156.129.114', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adfox.ru,2a0c:a9c7:9::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adingo.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adingo.jp on server: 101.226.4.7
+2024-11-14T16:38:43.906950,adingo.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.906950,adkernel.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2402:4e00::
+2024-11-14T16:38:43.906950,adform.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adform.net on server: 2400:da00::6666
+2024-11-14T16:38:43.906950,adkernel.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:fe::fe
+2024-11-14T16:38:43.906950,adingo.jp,114.114.114.114,A,"['3.165.102.16', '3.165.102.128', '3.165.102.73']",,
+2024-11-14T16:38:43.906950,adfox.ru,2a02:6b8:0:1::feed:0ff,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.906950,adidas.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.906950,aditude.cloud,77.88.8.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.906950,adjoe.zone,95.85.95.85,A,"['35.156.129.114', '35.156.138.224', '52.57.39.114']",,
+2024-11-14T16:38:43.906950,adingo.jp,114.114.115.115,A,"['3.165.102.128', '3.165.102.73', '3.165.102.106']",,
+2024-11-14T16:38:43.906950,adkernel.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.906950,adjarabet.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.906950,adjarabet.com,101.226.4.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.906950,adingo.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.906950,adfox.ru,2001:6d0:d6::2001,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.907950,adingo.jp,117.50.11.11,A,"['13.35.186.65', '13.35.186.78', '13.35.186.124', '13.35.186.126']",,
+2024-11-14T16:38:43.907950,adfox.ru,2a02:6b8::feed:0ff,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,aditude.cloud,62.76.62.76,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adjarabet.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.907950,adidas.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:fe::fe
+2024-11-14T16:38:43.907950,adjust.net.in,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2402:4e00::
+2024-11-14T16:38:43.907950,adingo.jp,123.125.81.6,A,"['13.35.186.126', '13.35.186.124', '13.35.186.65', '13.35.186.78']",,
+2024-11-14T16:38:43.907950,adjoe.zone,8.8.4.4,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.907950,aditude.cloud,195.208.4.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adidas.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2400:3200::1
+2024-11-14T16:38:43.907950,adjarabet.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:119:35::35
+2024-11-14T16:38:43.907950,adfox.ru,2001:6d0:6d0::2001,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,aditude.cloud,77.88.8.8,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adjoe.zone,1.1.1.1,A,"['52.57.39.114', '35.156.129.114', '35.156.138.224']",,
+2024-11-14T16:38:43.907950,adjarabet.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 2400:da00::6666
+2024-11-14T16:38:43.907950,adjust.net.in,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2400:3200::1
+2024-11-14T16:38:43.907950,adform.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,aditude.cloud,211.136.17.107,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adition.com,195.208.4.1,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adform.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:fe::10
+2024-11-14T16:38:43.907950,adjust.net.in,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2400:3200:baba::1
+2024-11-14T16:38:43.907950,adition.com,62.76.76.62,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,aditude.cloud,62.76.76.62,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adjoe.zone,8.8.8.8,A,"['52.57.39.114', '35.156.138.224', '35.156.129.114']",,
+2024-11-14T16:38:43.907950,adfox.ru,2620:0:ccc::2,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adidas.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,adjarabet.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.907950,adjust.net.in,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:119:35::35
+2024-11-14T16:38:43.907950,adition.com,62.76.62.76,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adjarabet.com,119.29.29.29,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adform.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:fe::fe
+2024-11-14T16:38:43.907950,adidas.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.907950,adjarabet.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2400:3200::1
+2024-11-14T16:38:43.907950,adkernel.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adkernel.com on server: 2400:da00::6666
+2024-11-14T16:38:43.907950,adjust.net.in,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.907950,adition.com,2.56.220.2,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adjarabet.com,180.76.76.76,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adform.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2400:3200::1
+2024-11-14T16:38:43.907950,aditude.cloud,117.50.11.11,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adjarabet.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.907950,adidas.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.907950,aditude.cloud,195.208.5.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,aditude.cloud,123.125.81.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adkernel.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.907950,adjarabet.com,94.140.15.15,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adition.com,77.88.8.1,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adidas.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a10:50c0::ad2:ff
+2024-11-14T16:38:43.907950,adjust.net.in,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,adform.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2402:4e00::
+2024-11-14T16:38:43.907950,aditude.cloud,223.6.6.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adition.com,95.85.95.85,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.907950,adform.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.907950,adingo.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.907950,adjoe.zone,77.88.8.8,A,"['35.156.138.224', '52.57.39.114', '35.156.129.114']",,
+2024-11-14T16:38:43.907950,adjarabet.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:119:53::53
+2024-11-14T16:38:43.907950,adition.com,77.88.8.8,A,['212.88.144.39'],,
+2024-11-14T16:38:43.907950,adkernel.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.907950,adform.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2400:3200:baba::1
+2024-11-14T16:38:43.907950,adjarabet.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,adkernel.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2400:3200::1
+2024-11-14T16:38:43.907950,aditude.cloud,119.29.29.29,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adingo.jp,211.136.17.107,A,"['3.165.102.106', '3.165.102.16', '3.165.102.128', '3.165.102.73']",,
+2024-11-14T16:38:43.907950,adjoe.zone,2.56.220.2,A,"['35.156.129.114', '52.57.39.114', '35.156.138.224']",,
+2024-11-14T16:38:43.907950,adjarabet.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.907950,adkernel.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2400:3200:baba::1
+2024-11-14T16:38:43.907950,adingo.jp,208.67.220.222,A,"['13.35.186.124', '13.35.186.126', '13.35.186.65', '13.35.186.78']",,
+2024-11-14T16:38:43.907950,adfox.ru,2a03:90c0:999d::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adidas.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.907950,aditude.cloud,218.30.118.6,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adjarabet.com,94.140.14.14,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.907950,adjust.net.in,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:119:53::53
+2024-11-14T16:38:43.907950,adidas.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.907950,adkernel.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.907950,adingo.jp,218.30.118.6,A,"['13.35.186.78', '13.35.186.124', '13.35.186.126', '13.35.186.65']",,
+2024-11-14T16:38:43.907950,adfox.ru,2a03:90c0:9992::1,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,aditude.cloud,9.9.9.10,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adjust.net.in,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2a10:50c0::ad1:ff
+2024-11-14T16:38:43.907950,adkernel.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.907950,aditude.cloud,208.67.222.222,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T16:38:43.907950,adingo.jp,208.67.222.220,A,"['13.35.186.78', '13.35.186.124', '13.35.186.126', '13.35.186.65']",,
+2024-11-14T16:38:43.907950,adfox.ru,2001:4860:4860::8844,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adidas.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2402:4e00::
+2024-11-14T16:38:43.907950,adfox.ru,2606:4700:4700::1001,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2620:fe::fe
+2024-11-14T16:38:43.907950,adjarabet.com,218.30.118.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adkernel.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,aditude.cloud,114.114.115.115,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adkernel.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.907950,adjarabet.com,117.50.11.11,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adfox.ru,2001:4860:4860::8888,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adidas.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.907950,adjarabet.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.907950,adkernel.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2620:0:ccd::2
+2024-11-14T16:38:43.907950,adjust.net.in,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adjust.net.in on server: 2620:fe::10
+2024-11-14T16:38:43.907950,aditude.cloud,223.5.5.5,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adfox.ru,2606:4700:4700::1111,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adingo.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adingo.jp on server: 123.125.81.7
+2024-11-14T16:38:43.907950,adjarabet.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.907950,adkernel.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.907950,adingo.jp,119.29.29.29,A,"['13.35.186.124', '13.35.186.65', '13.35.186.126', '13.35.186.78']",,
+2024-11-14T16:38:43.907950,adform.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:119:35::35
+2024-11-14T16:38:43.907950,aditude.cloud,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 9.9.9.9
+2024-11-14T16:38:43.907950,adjarabet.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.907950,adjarabet.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 123.125.81.7
+2024-11-14T16:38:43.907950,adingo.jp,180.76.76.76,A,"['13.35.186.126', '13.35.186.65', '13.35.186.78', '13.35.186.124']",,
+2024-11-14T16:38:43.907950,adjust.net.in,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adjust.net.in on server: 2400:da00::6666
+2024-11-14T16:38:43.907950,adform.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:119:53::53
+2024-11-14T16:38:43.907950,adingo.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adingo.jp on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.907950,adjarabet.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.907950,adjarabet.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adjarabet.com on server: 101.226.4.7
+2024-11-14T16:38:43.907950,adingo.jp,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.907950,adjarabet.com,223.5.5.5,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adfox.ru,2620:fe::10,AAAA,['2a02:6b8::366'],,
+2024-11-14T16:38:43.907950,adjarabet.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.907950,adkernel.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.907950,adingo.jp,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.907950,aditude.cloud,180.76.76.76,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T16:38:43.907950,adjarabet.com,223.6.6.6,A,['35.159.223.9'],,
+2024-11-14T16:38:43.907950,adform.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adform.net on server: 2620:fe::10
+2024-11-14T16:38:43.907950,adjarabet.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adjarabet.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.907950,adkernel.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.907950,adgrx.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adgrx.com on server: 211.136.17.107
+2024-11-14T16:38:43.907950,adhigh.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:0:ccd::2
+2024-11-14T16:38:43.907950,adguard-vpn.online,95.85.95.85,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 95.85.95.85
+2024-11-14T16:38:43.907950,adhigh.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:119:35::35
+2024-11-14T16:38:43.907950,adguard-vpn.online,2.56.220.2,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 2.56.220.2
+2024-11-14T16:38:43.907950,adhigh.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T16:38:43.907950,adhigh.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:0:ccc::2
+2024-11-14T16:38:43.907950,adguard-vpn.online,1.0.0.1,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 1.0.0.1
+2024-11-14T16:38:43.907950,adhigh.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2400:3200::1
+2024-11-14T16:38:43.907950,adgrx.com,117.50.11.11,A,[],NoAnswer,No answer for domain: adgrx.com on server: 117.50.11.11
+2024-11-14T16:38:43.907950,adingo.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adingo.jp on server: 202.96.128.86
+2024-11-14T16:38:43.907950,adhigh.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.907950,adgrx.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adgrx.com on server: 218.30.118.6
+2024-11-14T16:38:43.907950,adingo.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adingo.jp on server: 210.21.196.6
+2024-11-14T16:38:43.907950,adidas.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2606:4700:4700::1111
+2024-11-14T16:38:43.907950,adguard-vpn.online,195.208.5.1,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 195.208.5.1
+2024-11-14T16:38:43.908949,adhigh.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2001:6d0:6d0::2001
+2024-11-14T16:38:43.908949,aditude.cloud,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 210.21.196.6
+2024-11-14T16:38:43.908949,adidas.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adidas.com on server: 2400:da00::6666
+2024-11-14T16:38:43.908949,adgrx.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adgrx.com on server: 180.76.76.76
+2024-11-14T16:38:43.908949,adhigh.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2001:6d0:d6::2001
+2024-11-14T16:38:43.908949,adhigh.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.908949,adhigh.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T16:38:43.908949,adgrx.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adgrx.com on server: 223.6.6.6
+2024-11-14T16:38:43.908949,adhigh.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:fe::10
+2024-11-14T16:38:43.908949,adgrx.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adgrx.com on server: 119.29.29.29
+2024-11-14T16:38:43.908949,adhigh.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a0c:a9c7:8::1
+2024-11-14T16:38:43.908949,adguard-vpn.online,77.88.8.1,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 77.88.8.1
+2024-11-14T16:38:43.908949,adhigh.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a0c:a9c7:9::1
+2024-11-14T16:38:43.908949,adguard-vpn.online,195.208.4.1,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 195.208.4.1
+2024-11-14T16:38:43.908949,adhigh.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.908949,adguard-vpn.online,62.76.76.62,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 62.76.76.62
+2024-11-14T16:38:43.908949,adhigh.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:119:53::53
+2024-11-14T16:38:43.908949,adguard-vpn.online,62.76.62.76,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 62.76.62.76
+2024-11-14T16:38:43.908949,adhigh.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2620:fe::fe
+2024-11-14T16:38:43.908949,adgrx.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T16:38:43.908949,adhigh.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2402:4e00::
+2024-11-14T16:38:43.908949,adgrx.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adgrx.com on server: 114.114.114.114
+2024-11-14T16:38:43.908949,adidas.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.908949,adgrx.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adgrx.com on server: 114.114.115.115
+2024-11-14T16:38:43.908949,adgrx.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adgrx.com on server: 223.5.5.5
+2024-11-14T16:38:43.908949,adhigh.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adhigh.net on server: 2400:3200:baba::1
+2024-11-14T16:38:43.908949,adgrx.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adgrx.com on server: 101.226.4.6
+2024-11-14T16:38:43.908949,adidas.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a03:90c0:9992::1
+2024-11-14T16:38:43.908949,adguard-vpn.online,77.88.8.8,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 77.88.8.8
+2024-11-14T16:38:43.908949,adidas.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2001:4860:4860::8844
+2024-11-14T16:38:43.908949,adguard-vpn.online,1.1.1.1,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 1.1.1.1
+2024-11-14T16:38:43.908949,adidas.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a03:90c0:999d::1
+2024-11-14T16:38:43.908949,adgrx.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adgrx.com on server: 123.125.81.6
+2024-11-14T16:38:43.908949,adidas.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2606:4700:4700::1001
+2024-11-14T16:38:43.908949,adkernel.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a02:6b8::feed:0ff
+2024-11-14T16:38:43.908949,adidas.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2001:4860:4860::8888
+2024-11-14T16:38:43.908949,adguard-vpn.online,8.8.8.8,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 8.8.8.8
+2024-11-14T16:38:43.908949,adgrx.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T16:38:43.908949,adidas.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adidas.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.908949,adguard-vpn.online,8.8.4.4,A,[],NoAnswer,No answer for domain: adguard-vpn.online on server: 8.8.4.4
+2024-11-14T16:38:43.908949,adkernel.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adkernel.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T16:38:43.908949,aditude.cloud,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aditude.cloud on server: 202.96.128.86
+2024-11-14T16:38:43.908949,adgrx.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adgrx.com on server: 210.21.196.6
+2024-11-14T16:38:43.908949,adgrx.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adgrx.com on server: 123.125.81.7
+2024-11-14T16:38:43.908949,adguard-vpn.online,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adguard-vpn.online on server: 9.9.9.9
+2024-11-14T16:38:43.908949,adgrx.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adgrx.com on server: 202.96.128.86
+2024-11-14T16:38:43.908949,adgrx.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adgrx.com on server: 101.226.4.7
+2024-11-14T16:38:43.908949,adhigh.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adhigh.net on server: 2400:da00::6666
