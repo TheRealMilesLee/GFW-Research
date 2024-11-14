@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T08:19:36.517806,amzn.to,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.517806,amplitude.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2402:4e00::
+2024-11-14T08:19:36.517806,amplitude.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:119:53::53
+2024-11-14T08:19:36.517806,amplience.net,2.56.220.2,A,[],NoAnswer,No answer for domain: amplience.net on server: 2.56.220.2
+2024-11-14T08:19:36.517806,ampproject.net,119.29.29.29,A,['142.250.66.78'],,
+2024-11-14T08:19:36.517806,amurobl.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2400:3200:baba::1
+2024-11-14T08:19:36.517806,amplitude.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.517806,amplience.net,77.88.8.8,A,[],NoAnswer,No answer for domain: amplience.net on server: 77.88.8.8
+2024-11-14T08:19:36.517806,ams1907.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.517806,ams1907.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.517806,ampproject.org,119.29.29.29,A,['142.250.198.78'],,
+2024-11-14T08:19:36.517806,amzn.to,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.517806,amplience.net,208.67.220.222,A,[],NoAnswer,No answer for domain: amplience.net on server: 208.67.220.222
+2024-11-14T08:19:36.517806,ams1907.com,195.208.4.1,A,[],NoAnswer,No answer for domain: ams1907.com on server: 195.208.4.1
+2024-11-14T08:19:36.517806,amplreq.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.517806,amplitude.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:fe::10
+2024-11-14T08:19:36.517806,ams1907.com,1.0.0.1,A,[],NoAnswer,No answer for domain: ams1907.com on server: 1.0.0.1
+2024-11-14T08:19:36.517806,ampproject.net,2.56.220.2,A,['142.250.196.206'],,
+2024-11-14T08:19:36.517806,amsoveasea.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.517806,ampproject.org,114.114.114.114,A,['142.250.196.206'],,
+2024-11-14T08:19:36.517806,amurobl.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.517806,amplience.net,94.140.14.14,A,[],NoAnswer,No answer for domain: amplience.net on server: 94.140.14.14
+2024-11-14T08:19:36.517806,amplitude.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.517806,ams1907.com,62.76.76.62,A,[],NoAnswer,No answer for domain: ams1907.com on server: 62.76.76.62
+2024-11-14T08:19:36.517806,ams1907.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.517806,amplitude.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2400:3200::1
+2024-11-14T08:19:36.517806,amurobl.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.517806,amplience.net,208.67.222.222,A,[],NoAnswer,No answer for domain: amplience.net on server: 208.67.222.222
+2024-11-14T08:19:36.517806,amplience.net,208.67.222.220,A,[],NoAnswer,No answer for domain: amplience.net on server: 208.67.222.220
+2024-11-14T08:19:36.517806,ams1907.com,62.76.62.76,A,[],NoAnswer,No answer for domain: ams1907.com on server: 62.76.62.76
+2024-11-14T08:19:36.517806,amplitude.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:119:35::35
+2024-11-14T08:19:36.517806,ampproject.org,117.50.11.11,A,['142.250.196.206'],,
+2024-11-14T08:19:36.517806,amurobl.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2400:3200::1
+2024-11-14T08:19:36.517806,amzn.to,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.517806,amsoveasea.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.517806,amurobl.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:fe::fe
+2024-11-14T08:19:36.517806,amplitude.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.517806,amsoveasea.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.517806,ams1907.com,95.85.95.85,A,[],NoAnswer,No answer for domain: ams1907.com on server: 95.85.95.85
+2024-11-14T08:19:36.517806,amplience.net,195.208.5.1,A,[],NoAnswer,No answer for domain: amplience.net on server: 195.208.5.1
+2024-11-14T08:19:36.517806,amsoveasea.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.517806,amplitude.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.517806,ams1907.com,208.67.222.222,A,[],NoAnswer,No answer for domain: ams1907.com on server: 208.67.222.222
+2024-11-14T08:19:36.517806,amplience.net,9.9.9.10,A,[],NoAnswer,No answer for domain: amplience.net on server: 9.9.9.10
+2024-11-14T08:19:36.517806,amzn.to,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.517806,amsoveasea.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.517806,amplitude.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.517806,amplience.net,208.67.220.220,A,[],NoAnswer,No answer for domain: amplience.net on server: 208.67.220.220
+2024-11-14T08:19:36.517806,ams1907.com,77.88.8.8,A,[],NoAnswer,No answer for domain: ams1907.com on server: 77.88.8.8
+2024-11-14T08:19:36.517806,amzn.to,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.517806,amplitude.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.517806,ams1907.com,77.88.8.1,A,[],NoAnswer,No answer for domain: ams1907.com on server: 77.88.8.1
+2024-11-14T08:19:36.517806,ampproject.net,195.208.4.1,A,"['74.125.205.139', '74.125.205.101', '74.125.205.113', '74.125.205.102', '74.125.205.100', '74.125.205.138']",,
+2024-11-14T08:19:36.517806,ampproject.org,223.5.5.5,A,['142.250.198.78'],,
+2024-11-14T08:19:36.517806,amplitude.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.517806,amplience.net,62.76.76.62,A,[],NoAnswer,No answer for domain: amplience.net on server: 62.76.76.62
+2024-11-14T08:19:36.517806,ampproject.net,77.88.8.8,A,['216.58.207.206'],,
+2024-11-14T08:19:36.517806,amplience.net,195.208.4.1,A,[],NoAnswer,No answer for domain: amplience.net on server: 195.208.4.1
+2024-11-14T08:19:36.517806,ams1907.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2402:4e00::
+2024-11-14T08:19:36.517806,ampproject.org,223.6.6.6,A,['142.250.198.78'],,
+2024-11-14T08:19:36.517806,amzn.to,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.517806,ampproject.net,62.76.76.62,A,"['173.194.73.139', '173.194.73.113', '173.194.73.100', '173.194.73.102', '173.194.73.101', '173.194.73.138']",,
+2024-11-14T08:19:36.517806,amurobl.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2402:4e00::
+2024-11-14T08:19:36.517806,ampproject.net,208.67.220.220,A,['142.250.196.206'],,
+2024-11-14T08:19:36.517806,amplitude.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:fe::fe
+2024-11-14T08:19:36.517806,ams1907.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.517806,amurobl.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.517806,amplience.net,8.8.8.8,A,[],NoAnswer,No answer for domain: amplience.net on server: 8.8.8.8
+2024-11-14T08:19:36.517806,ampproject.net,195.208.5.1,A,"['173.194.222.102', '173.194.222.113', '173.194.222.138', '173.194.222.101', '173.194.222.139', '173.194.222.100']",,
+2024-11-14T08:19:36.517806,ampproject.org,114.114.115.115,A,['142.250.196.206'],,
+2024-11-14T08:19:36.517806,ams1907.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.517806,amzn.to,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.517806,amplience.net,77.88.8.1,A,[],NoAnswer,No answer for domain: amplience.net on server: 77.88.8.1
+2024-11-14T08:19:36.517806,ampproject.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ampproject.org on server: 210.21.196.6
+2024-11-14T08:19:36.517806,ams1907.com,1.1.1.1,A,[],NoAnswer,No answer for domain: ams1907.com on server: 1.1.1.1
+2024-11-14T08:19:36.517806,amplreq.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.517806,ams1907.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.517806,amzn.to,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.517806,amplience.net,62.76.62.76,A,[],NoAnswer,No answer for domain: amplience.net on server: 62.76.62.76
+2024-11-14T08:19:36.517806,ams1907.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ams1907.com on server: 9.9.9.9
+2024-11-14T08:19:36.517806,amplience.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amplience.net on server: 9.9.9.9
+2024-11-14T08:19:36.517806,ampproject.net,9.9.9.10,A,['142.250.185.174'],,
+2024-11-14T08:19:36.517806,amplitude.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.517806,ams1907.com,9.9.9.10,A,[],NoAnswer,No answer for domain: ams1907.com on server: 9.9.9.10
+2024-11-14T08:19:36.517806,ampproject.net,208.67.222.222,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amzn.to,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.518806,ams1907.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ams1907.com on server: 2400:da00::6666
+2024-11-14T08:19:36.518806,amplitude.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.518806,ams1907.com,8.8.4.4,A,[],NoAnswer,No answer for domain: ams1907.com on server: 8.8.4.4
+2024-11-14T08:19:36.518806,amperwave.net,101.226.4.6,A,"['13.35.186.77', '13.35.186.18', '13.35.186.125', '13.35.186.107']",,
+2024-11-14T08:19:36.518806,ampproject.net,223.6.6.6,A,"['142.251.170.139', '142.251.170.113', '142.251.170.138', '142.251.170.101', '142.251.170.100', '142.251.170.102']",,
+2024-11-14T08:19:36.518806,ams1907.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.518806,ams1907.com,195.208.5.1,A,[],NoAnswer,No answer for domain: ams1907.com on server: 195.208.5.1
+2024-11-14T08:19:36.518806,amplitude.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.518806,amplience.net,1.1.1.1,A,[],NoAnswer,No answer for domain: amplience.net on server: 1.1.1.1
+2024-11-14T08:19:36.518806,ampproject.net,62.76.62.76,A,['142.250.185.110'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:0:ccd::2
+2024-11-14T08:19:36.518806,amplitude.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.518806,ams1907.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:119:35::35
+2024-11-14T08:19:36.518806,amplience.net,95.85.95.85,A,[],NoAnswer,No answer for domain: amplience.net on server: 95.85.95.85
+2024-11-14T08:19:36.518806,ampproject.net,223.5.5.5,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:119:35::35
+2024-11-14T08:19:36.518806,ams1907.com,8.8.8.8,A,[],NoAnswer,No answer for domain: ams1907.com on server: 8.8.8.8
+2024-11-14T08:19:36.518806,amperwave.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amperwave.net on server: 101.226.4.7
+2024-11-14T08:19:36.518806,amplreq.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.518806,amplience.net,8.8.4.4,A,[],NoAnswer,No answer for domain: amplience.net on server: 8.8.4.4
+2024-11-14T08:19:36.518806,ampproject.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ampproject.org on server: 202.96.128.86
+2024-11-14T08:19:36.518806,ampproject.net,208.67.222.220,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,ams1907.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:119:53::53
+2024-11-14T08:19:36.518806,ampproject.org,101.226.4.6,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,ams1907.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:fe::fe
+2024-11-14T08:19:36.518806,amplitude.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.518806,ampproject.net,208.67.220.222,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:0:ccc::2
+2024-11-14T08:19:36.518806,amplience.net,1.0.0.1,A,[],NoAnswer,No answer for domain: amplience.net on server: 1.0.0.1
+2024-11-14T08:19:36.518806,amurobl.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:fe::10
+2024-11-14T08:19:36.518806,ams1907.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2620:fe::10
+2024-11-14T08:19:36.518806,amplitude.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.518806,amperwave.net,117.50.11.11,A,"['108.156.133.123', '108.156.133.115', '108.156.133.36', '108.156.133.124']",,
+2024-11-14T08:19:36.518806,ampproject.net,94.140.14.14,A,['142.250.77.14'],,
+2024-11-14T08:19:36.518806,amplitude.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.518806,ams1907.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2400:3200::1
+2024-11-14T08:19:36.518806,ampproject.org,218.30.118.6,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2620:119:53::53
+2024-11-14T08:19:36.518806,amperwave.net,123.125.81.6,A,"['13.35.186.18', '13.35.186.125', '13.35.186.107', '13.35.186.77']",,
+2024-11-14T08:19:36.518806,ampproject.org,211.136.17.107,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 2400:da00::6666
+2024-11-14T08:19:36.518806,amplitude.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.518806,amurobl.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.518806,ampproject.net,77.88.8.1,A,['142.250.74.78'],,
+2024-11-14T08:19:36.518806,amplience.net,114.114.115.115,A,[],NoAnswer,No answer for domain: amplience.net on server: 114.114.115.115
+2024-11-14T08:19:36.518806,ampproject.net,94.140.15.15,A,['142.250.77.14'],,
+2024-11-14T08:19:36.518806,amurobl.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.518806,ams1907.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.518806,ampproject.org,180.76.76.76,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amplience.net,114.114.114.114,A,[],NoAnswer,No answer for domain: amplience.net on server: 114.114.114.114
+2024-11-14T08:19:36.518806,amplitude.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.518806,amzn.to,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.518806,amplitude.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amplitude.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.518806,ams1907.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.518806,ampproject.net,114.114.115.115,A,"['74.125.204.101', '74.125.204.102', '74.125.204.139']",,
+2024-11-14T08:19:36.518806,ampproject.net,114.114.114.114,A,['142.250.66.78'],,
+2024-11-14T08:19:36.518806,amplience.net,94.140.15.15,A,[],NoAnswer,No answer for domain: amplience.net on server: 94.140.15.15
+2024-11-14T08:19:36.518806,ampproject.org,123.125.81.6,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,ams1907.com,2.56.220.2,A,[],NoAnswer,No answer for domain: ams1907.com on server: 2.56.220.2
+2024-11-14T08:19:36.518806,ams1907.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.518806,amzndns.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amzndns.com on server: 95.85.95.85
+2024-11-14T08:19:36.518806,ampproject.org,77.88.8.1,A,['142.250.74.110'],,
+2024-11-14T08:19:36.518806,amplifyapp.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 208.67.220.222
+2024-11-14T08:19:36.518806,amzndns.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amzndns.com on server: 117.50.11.11
+2024-11-14T08:19:36.518806,ampproject.net,123.125.81.6,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,ampproject.net,101.226.4.6,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amzndns.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amzndns.com on server: 62.76.76.62
+2024-11-14T08:19:36.518806,amplitude.com,8.8.8.8,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,amplitude.com,62.76.62.76,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.518806,ampproject.org,1.1.1.1,A,['142.250.207.14'],,
+2024-11-14T08:19:36.518806,amzndns.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amzndns.com on server: 119.29.29.29
+2024-11-14T08:19:36.518806,amplifyapp.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 101.226.4.6
+2024-11-14T08:19:36.518806,ampproject.org,8.8.8.8,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,ampproject.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ampproject.net on server: 9.9.9.9
+2024-11-14T08:19:36.518806,amplifyapp.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 117.50.11.11
+2024-11-14T08:19:36.518806,ampproject.org,8.8.4.4,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amzndns.com on server: 223.5.5.5
+2024-11-14T08:19:36.518806,amplifyapp.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 123.125.81.6
+2024-11-14T08:19:36.518806,amperwave.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amperwave.net on server: 123.125.81.7
+2024-11-14T08:19:36.518806,amzndns.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amzndns.com on server: 180.76.76.76
+2024-11-14T08:19:36.518806,ampproject.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ampproject.org on server: 101.226.4.7
+2024-11-14T08:19:36.518806,amplitude.com,195.208.4.1,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,amzndns.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amzndns.com on server: 114.114.115.115
+2024-11-14T08:19:36.518806,amplitude.com,195.208.5.1,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,ampproject.org,94.140.14.14,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amzndns.com on server: 223.6.6.6
+2024-11-14T08:19:36.518806,amplitude.com,77.88.8.1,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,ampproject.net,180.76.76.76,A,['142.250.66.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amzndns.com on server: 94.140.15.15
+2024-11-14T08:19:36.518806,ampproject.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ampproject.org on server: 123.125.81.7
+2024-11-14T08:19:36.518806,amplitude.com,62.76.76.62,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.518806,amzndns.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amzndns.com on server: 114.114.114.114
+2024-11-14T08:19:36.518806,ampproject.org,208.67.220.222,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amplifyapp.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 94.140.15.15
+2024-11-14T08:19:36.518806,amzndns.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amzndns.com on server: 123.125.81.6
+2024-11-14T08:19:36.518806,amplifyapp.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 94.140.14.14
+2024-11-14T08:19:36.518806,ampproject.net,211.136.17.107,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amzndns.com on server: 77.88.8.1
+2024-11-14T08:19:36.518806,amplifyapp.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 223.6.6.6
+2024-11-14T08:19:36.518806,ampproject.net,117.50.11.11,A,['142.250.196.206'],,
+2024-11-14T08:19:36.518806,amzndns.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amzndns.com on server: 211.136.17.107
+2024-11-14T08:19:36.518806,amplifyapp.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 119.29.29.29
+2024-11-14T08:19:36.518806,amplitude.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amplitude.com on server: 2400:da00::6666
+2024-11-14T08:19:36.518806,amplifyapp.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 123.125.81.7
+2024-11-14T08:19:36.518806,ampproject.org,195.208.5.1,A,"['64.233.164.138', '64.233.164.101', '64.233.164.102', '64.233.164.139', '64.233.164.100', '64.233.164.113']",,
+2024-11-14T08:19:36.518806,amplitude.com,2.56.220.2,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,ampproject.org,94.140.15.15,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amzndns.com on server: 218.30.118.6
+2024-11-14T08:19:36.518806,amplitude.com,77.88.8.8,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,amplifyapp.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 101.226.4.7
+2024-11-14T08:19:36.518806,ampproject.org,1.0.0.1,A,['172.217.12.142'],,
+2024-11-14T08:19:36.518806,amplitude.com,1.0.0.1,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,ampproject.org,77.88.8.8,A,['172.217.21.174'],,
+2024-11-14T08:19:36.518806,amplitude.com,95.85.95.85,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.518806,amzndns.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amzndns.com on server: 202.96.128.86
+2024-11-14T08:19:36.518806,amzndns.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amzndns.com on server: 9.9.9.10
+2024-11-14T08:19:36.518806,amplifyapp.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 114.114.115.115
+2024-11-14T08:19:36.518806,ampproject.net,218.30.118.6,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amzndns.com on server: 94.140.14.14
+2024-11-14T08:19:36.518806,amplifyapp.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 223.5.5.5
+2024-11-14T08:19:36.518806,ampproject.org,208.67.220.220,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amzndns.com on server: 195.208.5.1
+2024-11-14T08:19:36.518806,amplitude.com,8.8.4.4,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.518806,ampproject.org,95.85.95.85,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amzndns.com on server: 208.67.222.220
+2024-11-14T08:19:36.518806,amplitude.com,1.1.1.1,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.518806,ampproject.org,208.67.222.222,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amzndns.com on server: 208.67.220.222
+2024-11-14T08:19:36.518806,amplifyapp.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 218.30.118.6
+2024-11-14T08:19:36.518806,ampproject.org,208.67.222.220,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amzndns.com on server: 208.67.222.222
+2024-11-14T08:19:36.518806,amplifyapp.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 211.136.17.107
+2024-11-14T08:19:36.518806,ampproject.org,9.9.9.10,A,['142.250.186.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amzndns.com on server: 208.67.220.220
+2024-11-14T08:19:36.518806,amplifyapp.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 180.76.76.76
+2024-11-14T08:19:36.518806,ampproject.org,2.56.220.2,A,['142.250.198.78'],,
+2024-11-14T08:19:36.518806,amzndns.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amzndns.com on server: 62.76.62.76
+2024-11-14T08:19:36.519805,amplifyapp.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 114.114.114.114
+2024-11-14T08:19:36.519805,ampproject.org,195.208.4.1,A,"['64.233.165.139', '64.233.165.102', '64.233.165.113', '64.233.165.100', '64.233.165.101', '64.233.165.138']",,
+2024-11-14T08:19:36.519805,amzndns.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amzndns.com on server: 195.208.4.1
+2024-11-14T08:19:36.519805,ampproject.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ampproject.net on server: 123.125.81.7
+2024-11-14T08:19:36.519805,ampproject.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ampproject.net on server: 101.226.4.7
+2024-11-14T08:19:36.519805,amzndns.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amzndns.com on server: 1.0.0.1
+2024-11-14T08:19:36.519805,amzndns.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amzndns.com on server: 77.88.8.8
+2024-11-14T08:19:36.519805,ampproject.org,62.76.76.62,A,"['142.250.150.101', '142.250.150.102', '142.250.150.139', '142.250.150.138', '142.250.150.113', '142.250.150.100']",,
+2024-11-14T08:19:36.519805,ampproject.org,62.76.62.76,A,['142.250.185.206'],,
+2024-11-14T08:19:36.519805,amzndns.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amzndns.com on server: 2.56.220.2
+2024-11-14T08:19:36.519805,ampproject.net,8.8.8.8,A,['142.250.196.206'],,
+2024-11-14T08:19:36.519805,ampproject.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ampproject.net on server: 202.96.128.86
+2024-11-14T08:19:36.519805,amplreq.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amplreq.com on server: 94.140.14.14
+2024-11-14T08:19:36.519805,amurobl.ru,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.519805,ampproject.net,8.8.4.4,A,['142.250.196.206'],,
+2024-11-14T08:19:36.519805,amplreq.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amplreq.com on server: 208.67.222.220
+2024-11-14T08:19:36.519805,amurobl.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.519805,amurobl.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.519805,amurobl.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.519805,amplreq.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amplreq.com on server: 208.67.220.220
+2024-11-14T08:19:36.519805,amzndns.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amzndns.com on server: 210.21.196.6
+2024-11-14T08:19:36.519805,amurobl.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.519805,amzndns.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amzndns.com on server: 9.9.9.9
+2024-11-14T08:19:36.519805,amplreq.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amplreq.com on server: 208.67.220.222
+2024-11-14T08:19:36.519805,amurobl.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.519805,ampproject.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ampproject.net on server: 210.21.196.6
+2024-11-14T08:19:36.519805,amplreq.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amplreq.com on server: 180.76.76.76
+2024-11-14T08:19:36.519805,amurobl.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.519805,amplreq.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amplreq.com on server: 223.6.6.6
+2024-11-14T08:19:36.519805,amung.us,2400:3200::1,AAAA,"['2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab', '2606:4700:10::ac43:88d']",,
+2024-11-14T08:19:36.519805,amplreq.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amplreq.com on server: 119.29.29.29
+2024-11-14T08:19:36.519805,amung.us,2402:4e00::,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab']",,
+2024-11-14T08:19:36.519805,amplreq.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amplreq.com on server: 9.9.9.10
+2024-11-14T08:19:36.519805,amung.us,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T08:19:36.519805,amplreq.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amplreq.com on server: 208.67.222.222
+2024-11-14T08:19:36.519805,amung.us,2400:3200:baba::1,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4bab', '2606:4700:10::6816:4aab']",,
+2024-11-14T08:19:36.519805,amplreq.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amplreq.com on server: 117.50.11.11
+2024-11-14T08:19:36.519805,amung.us,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T08:19:36.519805,amplreq.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amplreq.com on server: 101.226.4.6
+2024-11-14T08:19:36.519805,amung.us,2620:fe::fe,AAAA,"['2606:4700:10::6816:4bab', '2606:4700:10::6816:4aab', '2606:4700:10::ac43:88d']",,
+2024-11-14T08:19:36.519805,amplreq.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amplreq.com on server: 114.114.114.114
+2024-11-14T08:19:36.519805,amung.us,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T08:19:36.519805,amplreq.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amplreq.com on server: 223.5.5.5
+2024-11-14T08:19:36.519805,amplreq.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amplreq.com on server: 211.136.17.107
+2024-11-14T08:19:36.519805,amung.us,2620:0:ccd::2,AAAA,"['2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab', '2606:4700:10::ac43:88d']",,
+2024-11-14T08:19:36.519805,amplreq.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amplreq.com on server: 123.125.81.6
+2024-11-14T08:19:36.519805,amplreq.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amplreq.com on server: 94.140.15.15
+2024-11-14T08:19:36.519805,amung.us,2620:119:35::35,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab']",,
+2024-11-14T08:19:36.519805,amplreq.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amplreq.com on server: 114.114.115.115
+2024-11-14T08:19:36.519805,amung.us,2620:0:ccc::2,AAAA,"['2606:4700:10::6816:4bab', '2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab']",,
+2024-11-14T08:19:36.519805,amplifyapp.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 202.96.128.86
+2024-11-14T08:19:36.519805,amung.us,2620:fe::10,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab']",,
+2024-11-14T08:19:36.519805,amplreq.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amplreq.com on server: 218.30.118.6
+2024-11-14T08:19:36.519805,amung.us,2620:119:53::53,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab']",,
+2024-11-14T08:19:36.519805,amplreq.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amplreq.com on server: 195.208.5.1
+2024-11-14T08:19:36.519805,amung.us,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T08:19:36.519805,ampproject.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ampproject.org on server: 9.9.9.9
+2024-11-14T08:19:36.519805,amung.us,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T08:19:36.519805,amplreq.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amplreq.com on server: 62.76.62.76
+2024-11-14T08:19:36.519805,amurobl.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.519805,amplreq.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amplreq.com on server: 195.208.4.1
+2024-11-14T08:19:36.519805,amplreq.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amplreq.com on server: 77.88.8.1
+2024-11-14T08:19:36.519805,amurobl.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amurobl.ru on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.519805,amplreq.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amplreq.com on server: 62.76.76.62
+2024-11-14T08:19:36.519805,amzndns.co.uk,62.76.76.62,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 62.76.76.62
+2024-11-14T08:19:36.519805,amzndns.net,195.208.4.1,A,[],NoAnswer,No answer for domain: amzndns.net on server: 195.208.4.1
+2024-11-14T08:19:36.519805,amplifyapp.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 210.21.196.6
+2024-11-14T08:19:36.519805,amzndns.co.uk,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.519805,amplience.net,223.5.5.5,A,[],NoAnswer,No answer for domain: amplience.net on server: 223.5.5.5
+2024-11-14T08:19:36.519805,amzndns.co.uk,62.76.62.76,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 62.76.62.76
+2024-11-14T08:19:36.519805,amplreq.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amplreq.com on server: 101.226.4.7
+2024-11-14T08:19:36.519805,amzndns.co.uk,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.519805,amplience.net,223.6.6.6,A,[],NoAnswer,No answer for domain: amplience.net on server: 223.6.6.6
+2024-11-14T08:19:36.519805,amzndns.co.uk,77.88.8.1,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 77.88.8.1
+2024-11-14T08:19:36.519805,amzndns.net,114.114.115.115,A,[],NoAnswer,No answer for domain: amzndns.net on server: 114.114.115.115
+2024-11-14T08:19:36.519805,amzndns.co.uk,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.519805,amplifyapp.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 208.67.220.220
+2024-11-14T08:19:36.519805,amzndns.net,223.5.5.5,A,[],NoAnswer,No answer for domain: amzndns.net on server: 223.5.5.5
+2024-11-14T08:19:36.519805,amplreq.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amplreq.com on server: 123.125.81.7
+2024-11-14T08:19:36.519805,amzndns.co.uk,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.519805,amperwave.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.519805,amplifyapp.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2.56.220.2
+2024-11-14T08:19:36.519805,amzndns.co.uk,2.56.220.2,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2.56.220.2
+2024-11-14T08:19:36.519805,amzndns.net,180.76.76.76,A,[],NoAnswer,No answer for domain: amzndns.net on server: 180.76.76.76
+2024-11-14T08:19:36.519805,amzndns.co.uk,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.519805,amperwave.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.519805,amplifyapp.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 77.88.8.8
+2024-11-14T08:19:36.519805,amzndns.net,223.6.6.6,A,[],NoAnswer,No answer for domain: amzndns.net on server: 223.6.6.6
+2024-11-14T08:19:36.519805,amzndns.co.uk,77.88.8.8,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 77.88.8.8
+2024-11-14T08:19:36.519805,amzndns.co.uk,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.519805,amung.us,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amung.us on server: 2400:da00::6666
+2024-11-14T08:19:36.519805,amplifyapp.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 1.1.1.1
+2024-11-14T08:19:36.519805,amplreq.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amplreq.com on server: 202.96.128.86
+2024-11-14T08:19:36.519805,amperwave.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:0:ccd::2
+2024-11-14T08:19:36.519805,amzndns.net,119.29.29.29,A,[],NoAnswer,No answer for domain: amzndns.net on server: 119.29.29.29
+2024-11-14T08:19:36.519805,amzndns.co.uk,1.0.0.1,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 1.0.0.1
+2024-11-14T08:19:36.519805,amperwave.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.519805,amzndns.co.uk,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.519805,amperwave.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:119:35::35
+2024-11-14T08:19:36.519805,amzndns.co.uk,95.85.95.85,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 95.85.95.85
+2024-11-14T08:19:36.519805,amzndns.net,208.67.220.222,A,[],NoAnswer,No answer for domain: amzndns.net on server: 208.67.220.222
+2024-11-14T08:19:36.519805,amzndns.co.uk,8.8.4.4,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 8.8.4.4
+2024-11-14T08:19:36.519805,amplifyapp.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 95.85.95.85
+2024-11-14T08:19:36.519805,amzndns.co.uk,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.519805,amperwave.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:119:53::53
+2024-11-14T08:19:36.519805,amplifyapp.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 8.8.8.8
+2024-11-14T08:19:36.519805,amzndns.net,94.140.14.14,A,[],NoAnswer,No answer for domain: amzndns.net on server: 94.140.14.14
+2024-11-14T08:19:36.519805,amzndns.co.uk,1.1.1.1,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 1.1.1.1
+2024-11-14T08:19:36.519805,amzndns.net,208.67.220.220,A,[],NoAnswer,No answer for domain: amzndns.net on server: 208.67.220.220
+2024-11-14T08:19:36.519805,amzndns.co.uk,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.519805,amplifyapp.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 8.8.4.4
+2024-11-14T08:19:36.519805,amzn.to,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2402:4e00::
+2024-11-14T08:19:36.519805,amperwave.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:fe::fe
+2024-11-14T08:19:36.519805,amzndns.co.uk,8.8.8.8,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 8.8.8.8
+2024-11-14T08:19:36.519805,amzndns.net,208.67.222.220,A,[],NoAnswer,No answer for domain: amzndns.net on server: 208.67.222.220
+2024-11-14T08:19:36.519805,amperwave.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:fe::10
+2024-11-14T08:19:36.519805,amplifyapp.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 1.0.0.1
+2024-11-14T08:19:36.519805,amzn.to,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2400:3200::1
+2024-11-14T08:19:36.519805,amzndns.net,94.140.15.15,A,[],NoAnswer,No answer for domain: amzndns.net on server: 94.140.15.15
+2024-11-14T08:19:36.519805,amplience.net,123.125.81.6,A,[],NoAnswer,No answer for domain: amplience.net on server: 123.125.81.6
+2024-11-14T08:19:36.519805,amzndns.net,114.114.114.114,A,[],NoAnswer,No answer for domain: amzndns.net on server: 114.114.114.114
+2024-11-14T08:19:36.519805,amperwave.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.519805,amzn.to,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2400:3200:baba::1
+2024-11-14T08:19:36.519805,amplreq.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amplreq.com on server: 210.21.196.6
+2024-11-14T08:19:36.519805,amplreq.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amplreq.com on server: 9.9.9.9
+2024-11-14T08:19:36.519805,amzndns.net,9.9.9.10,A,[],NoAnswer,No answer for domain: amzndns.net on server: 9.9.9.10
+2024-11-14T08:19:36.520803,amperwave.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.520803,amzn.to,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.520803,amplience.net,218.30.118.6,A,[],NoAnswer,No answer for domain: amplience.net on server: 218.30.118.6
+2024-11-14T08:19:36.520803,amperwave.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.520803,amzndns.net,208.67.222.222,A,[],NoAnswer,No answer for domain: amzndns.net on server: 208.67.222.222
+2024-11-14T08:19:36.520803,amzndns.net,211.136.17.107,A,[],NoAnswer,No answer for domain: amzndns.net on server: 211.136.17.107
+2024-11-14T08:19:36.520803,amzn.to,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.520803,amplience.net,211.136.17.107,A,[],NoAnswer,No answer for domain: amplience.net on server: 211.136.17.107
+2024-11-14T08:19:36.520803,amzndns.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amzndns.net on server: 101.226.4.7
+2024-11-14T08:19:36.520803,amzndns.net,62.76.62.76,A,[],NoAnswer,No answer for domain: amzndns.net on server: 62.76.62.76
+2024-11-14T08:19:36.520803,amplience.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amplience.net on server: 101.226.4.7
+2024-11-14T08:19:36.520803,amzn.to,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.520803,amzn.to,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amzn.to on server: 2400:da00::6666
+2024-11-14T08:19:36.520803,amplience.net,117.50.11.11,A,[],NoAnswer,No answer for domain: amplience.net on server: 117.50.11.11
+2024-11-14T08:19:36.520803,amzn.to,180.76.76.76,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,195.208.5.1,A,[],NoAnswer,No answer for domain: amzndns.net on server: 195.208.5.1
+2024-11-14T08:19:36.520803,amzn.to,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amzn.to on server: 123.125.81.7
+2024-11-14T08:19:36.520803,amzn.to,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.520803,amperwave.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.520803,amplience.net,101.226.4.6,A,[],NoAnswer,No answer for domain: amplience.net on server: 101.226.4.6
+2024-11-14T08:19:36.520803,amzndns.net,1.0.0.1,A,[],NoAnswer,No answer for domain: amzndns.net on server: 1.0.0.1
+2024-11-14T08:19:36.520803,amzndns.net,101.226.4.6,A,[],NoAnswer,No answer for domain: amzndns.net on server: 101.226.4.6
+2024-11-14T08:19:36.520803,amplience.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amplience.net on server: 123.125.81.7
+2024-11-14T08:19:36.520803,amzn.to,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:0:ccd::2
+2024-11-14T08:19:36.520803,amzn.to,223.6.6.6,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzn.to,218.30.118.6,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amzn.to on server: 101.226.4.7
+2024-11-14T08:19:36.520803,amzn.to,123.125.81.6,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzndns.net,77.88.8.1,A,[],NoAnswer,No answer for domain: amzndns.net on server: 77.88.8.1
+2024-11-14T08:19:36.520803,amzndns.net,117.50.11.11,A,[],NoAnswer,No answer for domain: amzndns.net on server: 117.50.11.11
+2024-11-14T08:19:36.520803,amzn.to,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:119:53::53
+2024-11-14T08:19:36.520803,amplience.net,119.29.29.29,A,[],NoAnswer,No answer for domain: amplience.net on server: 119.29.29.29
+2024-11-14T08:19:36.520803,ampproject.net,1.0.0.1,A,['142.250.176.14'],,
+2024-11-14T08:19:36.520803,amzn.to,223.5.5.5,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,62.76.76.62,A,[],NoAnswer,No answer for domain: amzndns.net on server: 62.76.76.62
+2024-11-14T08:19:36.520803,amzndns.net,123.125.81.6,A,[],NoAnswer,No answer for domain: amzndns.net on server: 123.125.81.6
+2024-11-14T08:19:36.520803,amzn.to,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:0:ccc::2
+2024-11-14T08:19:36.520803,amplience.net,180.76.76.76,A,[],NoAnswer,No answer for domain: amplience.net on server: 180.76.76.76
+2024-11-14T08:19:36.520803,amzn.to,117.50.11.11,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,2.56.220.2,A,[],NoAnswer,No answer for domain: amzndns.net on server: 2.56.220.2
+2024-11-14T08:19:36.520803,amzndns.co.uk,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:fe::fe
+2024-11-14T08:19:36.520803,amplifyapp.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 208.67.222.222
+2024-11-14T08:19:36.520803,amzn.to,211.136.17.107,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,77.88.8.8,A,[],NoAnswer,No answer for domain: amzndns.net on server: 77.88.8.8
+2024-11-14T08:19:36.520803,amzndns.net,218.30.118.6,A,[],NoAnswer,No answer for domain: amzndns.net on server: 218.30.118.6
+2024-11-14T08:19:36.520803,amzndns.co.uk,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:fe::10
+2024-11-14T08:19:36.520803,amplifyapp.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 208.67.222.220
+2024-11-14T08:19:36.520803,amzn.to,101.226.4.6,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzndns.net,1.1.1.1,A,[],NoAnswer,No answer for domain: amzndns.net on server: 1.1.1.1
+2024-11-14T08:19:36.520803,amzn.to,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amzn.to on server: 202.96.128.86
+2024-11-14T08:19:36.520803,amzn.to,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:fe::10
+2024-11-14T08:19:36.520803,amzn.to,114.114.114.114,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,95.85.95.85,A,[],NoAnswer,No answer for domain: amzndns.net on server: 95.85.95.85
+2024-11-14T08:19:36.520803,amperwave.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.520803,amplifyapp.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 9.9.9.10
+2024-11-14T08:19:36.520803,amzn.to,114.114.115.115,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,8.8.4.4,A,[],NoAnswer,No answer for domain: amzndns.net on server: 8.8.4.4
+2024-11-14T08:19:36.520803,amperwave.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.520803,amzndns.co.uk,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.520803,amplifyapp.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 62.76.62.76
+2024-11-14T08:19:36.520803,amzn.to,94.140.14.14,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amzn.to on server: 210.21.196.6
+2024-11-14T08:19:36.520803,amplifyapp.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 195.208.5.1
+2024-11-14T08:19:36.520803,amzn.to,94.140.15.15,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amzndns.net on server: 210.21.196.6
+2024-11-14T08:19:36.520803,amzndns.co.uk,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.520803,amplifyapp.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 62.76.76.62
+2024-11-14T08:19:36.520803,ampproject.net,1.1.1.1,A,['142.250.207.46'],,
+2024-11-14T08:19:36.520803,amzn.to,208.67.222.220,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzndns.net,8.8.8.8,A,[],NoAnswer,No answer for domain: amzndns.net on server: 8.8.8.8
+2024-11-14T08:19:36.520803,amperwave.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.520803,amzndns.co.uk,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.520803,amplifyapp.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 195.208.4.1
+2024-11-14T08:19:36.520803,ampproject.net,95.85.95.85,A,['142.250.196.206'],,
+2024-11-14T08:19:36.520803,amzn.to,208.67.220.222,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzndns.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amzndns.com on server: 101.226.4.6
+2024-11-14T08:19:36.520803,amperwave.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.520803,amzn.to,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:fe::fe
+2024-11-14T08:19:36.520803,amplifyapp.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amplifyapp.com on server: 77.88.8.1
+2024-11-14T08:19:36.520803,amzn.to,119.29.29.29,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amplience.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amplience.net on server: 202.96.128.86
+2024-11-14T08:19:36.520803,amzndns.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amzndns.net on server: 123.125.81.7
+2024-11-14T08:19:36.520803,amzndns.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amzndns.net on server: 9.9.9.9
+2024-11-14T08:19:36.520803,amplience.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amplience.net on server: 210.21.196.6
+2024-11-14T08:19:36.520803,amzn.to,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amzn.to on server: 2620:119:35::35
+2024-11-14T08:19:36.520803,ampproject.org,2620:0:ccd::2,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.520803,amzn.to,62.76.76.62,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,195.208.5.1,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,ampproject.org,2a10:50c0::ad2:ff,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.520803,amzn.to,195.208.4.1,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,ampproject.org,2620:119:35::35,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.520803,ampproject.org,2620:fe::10,AAAA,['2607:f8b0:4007:819::200e'],,
+2024-11-14T08:19:36.520803,amzn.to,77.88.8.1,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,ampproject.org,2620:fe::fe,AAAA,['2607:f8b0:4007:80f::200e'],,
+2024-11-14T08:19:36.520803,amzn.to,95.85.95.85,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzn.to,1.0.0.1,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,77.88.8.8,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzn.to,1.1.1.1,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,ampproject.org,2a0c:a9c7:9::1,AAAA,"['2a00:1450:4010:c06::8a', '2a00:1450:4010:c06::65', '2a00:1450:4010:c06::64', '2a00:1450:4010:c06::71']",,
+2024-11-14T08:19:36.520803,amzn.to,2.56.220.2,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,8.8.8.8,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,ampproject.org,2a0c:a9c7:8::1,AAAA,['2a00:1450:4026:804::200e'],,
+2024-11-14T08:19:36.520803,ampproject.org,2001:6d0:d6::2001,AAAA,"['2a00:1450:4010:c0b::71', '2a00:1450:4010:c0b::64', '2a00:1450:4010:c0b::8b', '2a00:1450:4010:c0b::8a']",,
+2024-11-14T08:19:36.520803,amzn.to,8.8.4.4,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,amzn.to,208.67.220.220,A,"['67.199.248.12', '67.199.248.13']",,
+2024-11-14T08:19:36.520803,ampproject.org,2620:119:53::53,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.520803,ampproject.org,2001:6d0:6d0::2001,AAAA,"['2607:f8b0:4023:1006::71', '2607:f8b0:4023:1006::65', '2607:f8b0:4023:1006::64', '2607:f8b0:4023:1006::8b']",,
+2024-11-14T08:19:36.520803,ampproject.org,2a02:6b8:0:1::feed:0ff,AAAA,['2a00:1450:400f:805::200e'],,
+2024-11-14T08:19:36.520803,ampproject.org,2620:0:ccc::2,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.520803,amzn.to,62.76.62.76,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amzn.to,208.67.222.222,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,ams1907.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.520803,ams1907.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.520803,amzn.to,9.9.9.10,A,"['67.199.248.13', '67.199.248.12']",,
+2024-11-14T08:19:36.520803,amurobl.ru,180.76.76.76,A,['192.162.122.148'],,
+2024-11-14T08:19:36.520803,ams1907.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.520803,ams1907.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.520803,amplifyapp.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 9.9.9.9
+2024-11-14T08:19:36.520803,ams1907.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.520803,amzndns.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amzndns.net on server: 202.96.128.86
+2024-11-14T08:19:36.520803,ams1907.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.520803,amurobl.ru,123.125.81.6,A,['192.162.122.148'],,
+2024-11-14T08:19:36.520803,ams1907.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ams1907.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.521803,amurobl.ru,101.226.4.6,A,['192.162.122.148'],,
+2024-11-14T08:19:36.521803,amurobl.ru,211.136.17.107,A,['192.162.122.148'],,
+2024-11-14T08:19:36.521803,ampproject.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ampproject.org on server: 2402:4e00::
+2024-11-14T08:19:36.521803,amurobl.ru,117.50.11.11,A,['192.162.122.148'],,
+2024-11-14T08:19:36.521803,amzndns.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amzndns.com on server: 101.226.4.7
+2024-11-14T08:19:36.521803,ampproject.org,2a10:50c0::ad1:ff,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.521803,amurobl.ru,218.30.118.6,A,['192.162.122.148'],,
+2024-11-14T08:19:36.521803,ampproject.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ampproject.org on server: 2400:3200:baba::1
+2024-11-14T08:19:36.521803,ampproject.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ampproject.org on server: 2400:3200::1
+2024-11-14T08:19:36.521803,amurobl.ru,119.29.29.29,A,['192.162.122.148'],,
+2024-11-14T08:19:36.521803,amperwave.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.521803,amperwave.net,1.0.0.1,A,"['18.154.144.113', '18.154.144.35', '18.154.144.129', '18.154.144.107']",,
+2024-11-14T08:19:36.521803,amplience.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:119:53::53
+2024-11-14T08:19:36.521803,amsoveasea.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.521803,amzndns.co.uk,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.521803,amsoveasea.com,208.67.220.220,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 208.67.220.220
+2024-11-14T08:19:36.521803,amplience.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:119:35::35
+2024-11-14T08:19:36.521803,amtrak.com,2a02:6b8::feed:0ff,AAAA,"['2600:1407:3c00:178a::1860', '2600:1407:3c00:178c::1860']",,
+2024-11-14T08:19:36.521803,amzndns.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.521803,amzndns.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amzndns.com on server: 123.125.81.7
+2024-11-14T08:19:36.521803,amsoveasea.com,62.76.76.62,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 62.76.76.62
+2024-11-14T08:19:36.521803,amplience.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:fe::fe
+2024-11-14T08:19:36.521803,amtrak.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a02:26f0:ab00:39b::1860', '2a02:26f0:ab00:384::1860']",,
+2024-11-14T08:19:36.521803,amzndns.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.521803,amperwave.net,218.30.118.6,A,"['13.35.186.125', '13.35.186.77', '13.35.186.18', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,208.67.220.222,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 208.67.220.222
+2024-11-14T08:19:36.521803,amplience.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:fe::10
+2024-11-14T08:19:36.521803,amsoveasea.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:119:53::53
+2024-11-14T08:19:36.521803,amzndns.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.521803,amperwave.net,211.136.17.107,A,"['108.156.133.124', '108.156.133.36', '108.156.133.123', '108.156.133.115']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,94.140.14.14,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 94.140.14.14
+2024-11-14T08:19:36.521803,amplience.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.521803,amzndns.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:fe::10
+2024-11-14T08:19:36.521803,amperwave.net,195.208.5.1,A,"['52.85.49.84', '52.85.49.129', '52.85.49.96', '52.85.49.36']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,94.140.15.15,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 94.140.15.15
+2024-11-14T08:19:36.521803,amplience.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.521803,amsoveasea.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.521803,amzn.to,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amzn.to on server: 9.9.9.9
+2024-11-14T08:19:36.521803,amperwave.net,180.76.76.76,A,"['13.35.186.18', '13.35.186.77', '13.35.186.107', '13.35.186.125']",,
+2024-11-14T08:19:36.521803,amurobl.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 202.96.128.86
+2024-11-14T08:19:36.521803,amzndns.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.521803,amzndns.co.uk,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:119:53::53
+2024-11-14T08:19:36.521803,amplience.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.521803,amsoveasea.com,119.29.29.29,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 119.29.29.29
+2024-11-14T08:19:36.521803,amplience.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.521803,amsoveasea.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.521803,amzndns.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:119:53::53
+2024-11-14T08:19:36.521803,amsoveasea.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:fe::10
+2024-11-14T08:19:36.521803,amplience.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.521803,amperwave.net,119.29.29.29,A,"['13.35.186.18', '13.35.186.77', '13.35.186.125', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amplience.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2400:3200::1
+2024-11-14T08:19:36.521803,amsoveasea.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:fe::fe
+2024-11-14T08:19:36.521803,amzndns.co.uk,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:0:ccc::2
+2024-11-14T08:19:36.521803,amperwave.net,95.85.95.85,A,"['13.35.186.107', '13.35.186.18', '13.35.186.77', '13.35.186.125']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,208.67.222.220,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 208.67.222.220
+2024-11-14T08:19:36.521803,amplience.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:0:ccd::2
+2024-11-14T08:19:36.521803,amsoveasea.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:119:35::35
+2024-11-14T08:19:36.521803,amzndns.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:fe::fe
+2024-11-14T08:19:36.521803,amperwave.net,2.56.220.2,A,"['13.35.186.125', '13.35.186.18', '13.35.186.77', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,9.9.9.10,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 9.9.9.10
+2024-11-14T08:19:36.521803,amurobl.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 123.125.81.7
+2024-11-14T08:19:36.521803,amplience.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.521803,amzndns.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.521803,amsoveasea.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.521803,amperwave.net,223.6.6.6,A,"['13.35.186.18', '13.35.186.125', '13.35.186.107', '13.35.186.77']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.521803,amperwave.net,208.67.220.220,A,"['13.35.186.125', '13.35.186.18', '13.35.186.77', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,223.6.6.6,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 223.6.6.6
+2024-11-14T08:19:36.521803,amplience.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2620:0:ccc::2
+2024-11-14T08:19:36.521803,amzndns.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.521803,amzndns.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.521803,amperwave.net,8.8.4.4,A,"['13.35.186.77', '13.35.186.18', '13.35.186.125', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.521803,amperwave.net,114.114.115.115,A,"['143.204.215.102', '143.204.215.89', '143.204.215.118']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,208.67.222.222,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 208.67.222.222
+2024-11-14T08:19:36.521803,amplience.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.521803,amsoveasea.com,195.208.5.1,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 195.208.5.1
+2024-11-14T08:19:36.521803,amurobl.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 101.226.4.7
+2024-11-14T08:19:36.521803,amzndns.co.uk,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:119:35::35
+2024-11-14T08:19:36.521803,amperwave.net,1.1.1.1,A,"['3.166.216.33', '3.166.216.60', '3.166.216.90', '3.166.216.83']",,
+2024-11-14T08:19:36.521803,amplience.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.521803,amperwave.net,223.5.5.5,A,"['13.35.186.77', '13.35.186.18', '13.35.186.125', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.521803,amplience.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.521803,amsoveasea.com,195.208.4.1,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 195.208.4.1
+2024-11-14T08:19:36.521803,amsoveasea.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.521803,amperwave.net,114.114.114.114,A,"['143.204.215.89', '143.204.215.118', '143.204.215.52']",,
+2024-11-14T08:19:36.521803,amtrak.com,2a03:90c0:999d::1,AAAA,"['2600:140b:1c00:1494::1860', '2600:140b:1c00:148a::1860']",,
+2024-11-14T08:19:36.521803,amplience.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.521803,amtrak.com,2a03:90c0:9992::1,AAAA,"['2600:1417:3f:b8c::1860', '2600:1417:3f:b80::1860']",,
+2024-11-14T08:19:36.521803,amzndns.co.uk,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2402:4e00::
+2024-11-14T08:19:36.521803,amperwave.net,77.88.8.1,A,"['52.85.49.36', '52.85.49.96', '52.85.49.129', '52.85.49.84']",,
+2024-11-14T08:19:36.521803,amplience.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.521803,amtrak.com,2606:4700:4700::1111,AAAA,"['2600:1407:3c00:168e::1860', '2600:1407:3c00:1688::1860']",,
+2024-11-14T08:19:36.521803,amperwave.net,208.67.220.222,A,"['13.35.186.125', '13.35.186.18', '13.35.186.77', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amplience.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.521803,amtrak.com,2606:4700:4700::1001,AAAA,"['2600:1407:3c00:178c::1860', '2600:1407:3c00:178a::1860']",,
+2024-11-14T08:19:36.521803,amzndns.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.521803,amperwave.net,208.67.222.222,A,"['13.35.186.125', '13.35.186.18', '13.35.186.77', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,223.5.5.5,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 223.5.5.5
+2024-11-14T08:19:36.521803,amplience.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.521803,amtrak.com,2001:4860:4860::8888,AAAA,"['2600:1406:4c00:291::1860', '2600:1406:4c00:2aa::1860']",,
+2024-11-14T08:19:36.521803,amzndns.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:119:35::35
+2024-11-14T08:19:36.521803,amperwave.net,195.208.4.1,A,"['52.85.49.36', '52.85.49.96', '52.85.49.84', '52.85.49.129']",,
+2024-11-14T08:19:36.521803,amperwave.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2402:4e00::
+2024-11-14T08:19:36.521803,amtrak.com,2001:4860:4860::8844,AAAA,"['2600:1413:a000:285::1860', '2600:1413:a000:28f::1860']",,
+2024-11-14T08:19:36.521803,amurobl.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 210.21.196.6
+2024-11-14T08:19:36.521803,amperwave.net,208.67.222.220,A,"['13.35.186.125', '13.35.186.18', '13.35.186.77', '13.35.186.107']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,114.114.115.115,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 114.114.115.115
+2024-11-14T08:19:36.521803,ampproject.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ampproject.org on server: 2400:da00::6666
+2024-11-14T08:19:36.521803,amperwave.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amperwave.net on server: 9.9.9.9
+2024-11-14T08:19:36.521803,amzndns.co.uk,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2620:0:ccd::2
+2024-11-14T08:19:36.521803,amperwave.net,9.9.9.10,A,"['143.204.215.118', '143.204.215.102', '143.204.215.89', '143.204.215.52']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,114.114.114.114,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 114.114.114.114
+2024-11-14T08:19:36.521803,amperwave.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2400:3200:baba::1
+2024-11-14T08:19:36.521803,amzndns.co.uk,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2400:3200::1
+2024-11-14T08:19:36.521803,amperwave.net,94.140.15.15,A,"['13.225.131.71', '13.225.131.60', '13.225.131.56', '13.225.131.99']",,
+2024-11-14T08:19:36.521803,amplience.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.521803,amsoveasea.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.521803,amzndns.co.uk,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2400:3200:baba::1
+2024-11-14T08:19:36.521803,amperwave.net,62.76.62.76,A,"['52.85.49.36', '52.85.49.84', '52.85.49.96', '52.85.49.129']",,
+2024-11-14T08:19:36.521803,amperwave.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2400:3200::1
+2024-11-14T08:19:36.521803,amsoveasea.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2402:4e00::
+2024-11-14T08:19:36.521803,amzndns.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.521803,amperwave.net,62.76.76.62,A,"['52.85.49.129', '52.85.49.36', '52.85.49.84', '52.85.49.96']",,
+2024-11-14T08:19:36.521803,amsoveasea.com,62.76.62.76,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 62.76.62.76
+2024-11-14T08:19:36.521803,amsoveasea.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.521803,amzndns.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.521803,amperwave.net,8.8.8.8,A,"['13.35.186.18', '13.35.186.107', '13.35.186.125', '13.35.186.77']",,
+2024-11-14T08:19:36.521803,amperwave.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.521803,amsoveasea.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2400:3200::1
+2024-11-14T08:19:36.522802,amzndns.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.522802,amperwave.net,77.88.8.8,A,"['52.85.49.36', '52.85.49.96', '52.85.49.129', '52.85.49.84']",,
+2024-11-14T08:19:36.522802,amperwave.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.522802,amsoveasea.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.522802,amzndns.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.522802,amperwave.net,94.140.14.14,A,"['13.225.131.71', '13.225.131.60', '13.225.131.56', '13.225.131.99']",,
+2024-11-14T08:19:36.522802,amperwave.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amperwave.net on server: 2620:0:ccc::2
+2024-11-14T08:19:36.522802,amsoveasea.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.522802,amzndns.co.uk,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.522802,amplreq.com,2620:fe::fe,AAAA,[],NXDOMAIN,Non-existent domain: amplreq.com on server: 2620:fe::fe
+2024-11-14T08:19:36.522802,amperwave.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amperwave.net on server: 202.96.128.86
+2024-11-14T08:19:36.522802,ampproject.org,2a02:6b8::feed:0ff,AAAA,['2a00:1450:400f:803::200e'],,
+2024-11-14T08:19:36.522802,amung.us,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-14T08:19:36.522802,amperwave.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amperwave.net on server: 210.21.196.6
+2024-11-14T08:19:36.522802,amzndns.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.522802,amplreq.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.522802,ampproject.net,2a02:6b8:0:1::feed:0ff,AAAA,['2a00:1450:400f:80a::200e'],,
+2024-11-14T08:19:36.522802,amzndns.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.522802,amurobl.ru,208.67.222.220,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amtrak.com,2a10:50c0::ad2:ff,AAAA,"['2a02:26f0:5d00:a83::1860', '2a02:26f0:5d00:a92::1860']",,
+2024-11-14T08:19:36.522802,ampproject.org,2a03:90c0:999d::1,AAAA,['2404:6800:4012:5::200e'],,
+2024-11-14T08:19:36.522802,amzndns.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.522802,ampproject.net,2606:4700:4700::1001,AAAA,['2607:f8b0:4007:818::200e'],,
+2024-11-14T08:19:36.522802,ampproject.org,2a03:90c0:9992::1,AAAA,['2404:6800:4012:5::200e'],,
+2024-11-14T08:19:36.522802,amzndns.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2400:3200::1
+2024-11-14T08:19:36.522802,amung.us,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T08:19:36.522802,ampproject.net,2a03:90c0:999d::1,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.522802,ampproject.org,2606:4700:4700::1001,AAAA,['2607:f8b0:4007:815::200e'],,
+2024-11-14T08:19:36.522802,amurobl.ru,208.67.220.220,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amung.us,2a03:90c0:9992::1,AAAA,"['2606:4700:10::6816:4bab', '2606:4700:10::6816:4aab', '2606:4700:10::ac43:88d']",,
+2024-11-14T08:19:36.522802,amzndns.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.522802,amplreq.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2402:4e00::
+2024-11-14T08:19:36.522802,amurobl.ru,223.6.6.6,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amung.us,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-14T08:19:36.522802,amzndns.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.522802,amurobl.ru,77.88.8.8,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,ampproject.net,2620:119:35::35,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.522802,amtrak.com,2a10:50c0::ad1:ff,AAAA,"['2600:1417:8400:280::1860', '2600:1417:8400:288::1860']",,
+2024-11-14T08:19:36.522802,amurobl.ru,208.67.222.222,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,ampproject.net,2001:4860:4860::8844,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.522802,ampproject.net,2620:119:53::53,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.522802,amzndns.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:0:ccc::2
+2024-11-14T08:19:36.522802,amurobl.ru,195.208.4.1,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,ampproject.net,2606:4700:4700::1111,AAAA,['2607:f8b0:4007:809::200e'],,
+2024-11-14T08:19:36.522802,ampproject.net,2620:fe::fe,AAAA,['2607:f8b0:4007:809::200e'],,
+2024-11-14T08:19:36.522802,amung.us,2606:4700:4700::1001,AAAA,"['2606:4700:10::6816:4aab', '2606:4700:10::6816:4bab', '2606:4700:10::ac43:88d']",,
+2024-11-14T08:19:36.522802,amzndns.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.522802,amzndns.co.uk,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 2400:da00::6666
+2024-11-14T08:19:36.522802,amsoveasea.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 9.9.9.9
+2024-11-14T08:19:36.522802,amplreq.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2620:fe::10
+2024-11-14T08:19:36.522802,amzndns.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:119:53::53
+2024-11-14T08:19:36.522802,ampproject.org,2001:4860:4860::8844,AAAA,['2404:6800:4012:5::200e'],,
+2024-11-14T08:19:36.522802,ampproject.net,2620:fe::10,AAAA,['2607:f8b0:4007:817::200e'],,
+2024-11-14T08:19:36.522802,amzndns.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:0:ccd::2
+2024-11-14T08:19:36.522802,amtrak.com,2620:119:53::53,AAAA,"['2600:140b:400:29a::1860', '2600:140b:400:2ab::1860']",,
+2024-11-14T08:19:36.522802,ampproject.org,2606:4700:4700::1111,AAAA,['2607:f8b0:4007:814::200e'],,
+2024-11-14T08:19:36.522802,amplreq.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.522802,amtrak.com,2620:0:ccd::2,AAAA,"['2600:1417:76:19d::1860', '2600:1417:76:1a2::1860']",,
+2024-11-14T08:19:36.522802,amzndns.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:fe::10
+2024-11-14T08:19:36.522802,amzndns.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:119:35::35
+2024-11-14T08:19:36.522802,amtrak.com,2620:119:35::35,AAAA,"['2600:1417:3f:b8c::1860', '2600:1417:3f:b80::1860']",,
+2024-11-14T08:19:36.522802,ampproject.net,2001:6d0:d6::2001,AAAA,"['2a00:1450:4010:c05::64', '2a00:1450:4010:c05::65', '2a00:1450:4010:c05::71', '2a00:1450:4010:c05::8b']",,
+2024-11-14T08:19:36.522802,amtrak.com,2620:0:ccc::2,AAAA,"['2600:140b:400:2ab::1860', '2600:140b:400:29a::1860']",,
+2024-11-14T08:19:36.522802,amplreq.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.522802,amzndns.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.522802,amurobl.ru,94.140.14.14,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amurobl.ru,62.76.62.76,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amtrak.com,2620:fe::10,AAAA,"['2600:1406:5400:396::1860', '2600:1406:5400:397::1860']",,
+2024-11-14T08:19:36.522802,amurobl.ru,223.5.5.5,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amplreq.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.522802,ampproject.org,2001:4860:4860::8888,AAAA,['2404:6800:4012:5::200e'],,
+2024-11-14T08:19:36.522802,amung.us,2606:4700:4700::1111,AAAA,"['2606:4700:10::6816:4bab', '2606:4700:10::ac43:88d', '2606:4700:10::6816:4aab']",,
+2024-11-14T08:19:36.522802,amzndns.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.522802,amurobl.ru,208.67.220.222,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amzndns.com,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: amzndns.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.522802,ampproject.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ampproject.net on server: 2400:3200:baba::1
+2024-11-14T08:19:36.522802,amung.us,2001:4860:4860::8844,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4bab', '2606:4700:10::6816:4aab']",,
+2024-11-14T08:19:36.522802,amzndns.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2620:fe::fe
+2024-11-14T08:19:36.522802,amurobl.ru,2.56.220.2,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amplreq.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.522802,ampproject.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ampproject.net on server: 2402:4e00::
+2024-11-14T08:19:36.522802,amzndns.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.522802,amplreq.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2400:3200::1
+2024-11-14T08:19:36.522802,ampproject.net,2a10:50c0::ad2:ff,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.522802,amung.us,2001:4860:4860::8888,AAAA,"['2606:4700:10::ac43:88d', '2606:4700:10::6816:4bab', '2606:4700:10::6816:4aab']",,
+2024-11-14T08:19:36.522802,amzndns.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.522802,amurobl.ru,77.88.8.1,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amplreq.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.522802,ampproject.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ampproject.net on server: 2400:3200::1
+2024-11-14T08:19:36.522802,amzndns.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.522802,ampproject.net,2001:4860:4860::8888,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.522802,ampproject.net,2a10:50c0::ad1:ff,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.522802,amperwave.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amperwave.net on server: 2400:da00::6666
+2024-11-14T08:19:36.522802,amtrak.com,2a0c:a9c7:9::1,AAAA,"['2a02:26f0:980:68d::1860', '2a02:26f0:980:6b0::1860']",,
+2024-11-14T08:19:36.522802,amzndns.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.522802,amplreq.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.522802,amtrak.com,2620:fe::fe,AAAA,"['2600:1406:5400:396::1860', '2600:1406:5400:397::1860']",,
+2024-11-14T08:19:36.522802,amurobl.ru,9.9.9.10,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amzndns.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.522802,amplreq.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.522802,ampproject.net,2620:0:ccd::2,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.522802,amzndns.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.522802,amtrak.com,2001:6d0:d6::2001,AAAA,"['2a02:26f0:1200:481::1860', '2a02:26f0:1200:48b::1860']",,
+2024-11-14T08:19:36.522802,amplreq.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.522802,amurobl.ru,94.140.15.15,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amzndns.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.522802,amtrak.com,2a0c:a9c7:8::1,AAAA,"['2a02:26f0:9500:587::1860', '2a02:26f0:9500:58c::1860']",,
+2024-11-14T08:19:36.522802,amplreq.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.522802,ampproject.net,2a0c:a9c7:9::1,AAAA,['2a00:1450:4026:808::200e'],,
+2024-11-14T08:19:36.522802,amurobl.ru,114.114.114.114,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amzndns.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.522802,amurobl.ru,195.208.5.1,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amplreq.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.522802,ampproject.net,2620:0:ccc::2,AAAA,['2404:6800:4012:6::200e'],,
+2024-11-14T08:19:36.522802,amzndns.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2402:4e00::
+2024-11-14T08:19:36.522802,amsoveasea.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 2400:da00::6666
+2024-11-14T08:19:36.522802,amung.us,2a03:90c0:999d::1,AAAA,"['2606:4700:10::6816:4aab', '2606:4700:10::ac43:88d', '2606:4700:10::6816:4bab']",,
+2024-11-14T08:19:36.522802,amtrak.com,2001:6d0:6d0::2001,AAAA,"['2a02:26f0:ab00:384::1860', '2a02:26f0:ab00:39b::1860']",,
+2024-11-14T08:19:36.522802,amplreq.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.522802,amplreq.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.522802,amplreq.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amplreq.com on server: 2400:da00::6666
+2024-11-14T08:19:36.522802,ampproject.net,2a02:6b8::feed:0ff,AAAA,['2a00:1450:400f:804::200e'],,
+2024-11-14T08:19:36.522802,amzndns.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.522802,amurobl.ru,114.114.115.115,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amtrak.com,2400:3200:baba::1,AAAA,"['2600:1409:9800:1ae::1860', '2600:1409:9800:1a6::1860', '2600:1409:9800:19e::1860']",,
+2024-11-14T08:19:36.522802,ampproject.net,2001:6d0:6d0::2001,AAAA,"['2607:f8b0:4023:1000::8b', '2607:f8b0:4023:1000::8a', '2607:f8b0:4023:1000::64', '2607:f8b0:4023:1000::66']",,
+2024-11-14T08:19:36.522802,amplreq.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2620:119:35::35
+2024-11-14T08:19:36.522802,amurobl.ru,62.76.76.62,A,['192.162.122.148'],,
+2024-11-14T08:19:36.522802,amtrak.com,2402:4e00::,AAAA,"['2600:1417:7800:7b1::1860', '2600:1417:7800:791::1860']",,
+2024-11-14T08:19:36.522802,ampproject.net,2a0c:a9c7:8::1,AAAA,"['2a00:1450:4010:c02::64', '2a00:1450:4010:c02::8a', '2a00:1450:4010:c02::66', '2a00:1450:4010:c02::65']",,
+2024-11-14T08:19:36.522802,amplreq.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amplreq.com on server: 2620:119:53::53
+2024-11-14T08:19:36.522802,amtrak.com,2400:3200::1,AAAA,"['2600:1417:8400:280::1860', '2600:1417:8400:288::1860']",,
+2024-11-14T08:19:36.522802,amzndns.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amzndns.com on server: 2400:3200::1
+2024-11-14T08:19:36.522802,amzndns.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.522802,amplreq.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amplreq.com on server: 2.56.220.2
+2024-11-14T08:19:36.523802,ams1907.com,123.125.81.6,A,[],NoAnswer,No answer for domain: ams1907.com on server: 123.125.81.6
+2024-11-14T08:19:36.523802,amtrak.com,208.67.222.220,A,['104.69.33.23'],,
+2024-11-14T08:19:36.523802,amung.us,211.136.17.107,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,amtrak.com,180.76.76.76,A,['23.196.154.87'],,
+2024-11-14T08:19:36.523802,amplience.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2400:3200:baba::1
+2024-11-14T08:19:36.523802,amzndns.co.uk,218.30.118.6,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 218.30.118.6
+2024-11-14T08:19:36.523802,amplreq.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amplreq.com on server: 77.88.8.8
+2024-11-14T08:19:36.523802,amtrak.com,77.88.8.1,A,['23.2.91.58'],,
+2024-11-14T08:19:36.523802,amtrak.com,123.125.81.6,A,['23.50.28.37'],,
+2024-11-14T08:19:36.523802,amung.us,117.50.11.11,A,"['172.67.8.141', '104.22.75.171', '104.22.74.171']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,180.76.76.76,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 180.76.76.76
+2024-11-14T08:19:36.523802,amplifyapp.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2402:4e00::
+2024-11-14T08:19:36.523802,amplreq.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amplreq.com on server: 95.85.95.85
+2024-11-14T08:19:36.523802,amtrak.com,77.88.8.8,A,['23.9.149.22'],,
+2024-11-14T08:19:36.523802,amung.us,9.9.9.10,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,ampproject.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ampproject.net on server: 2400:da00::6666
+2024-11-14T08:19:36.523802,amplreq.com,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: amplreq.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.523802,amtrak.com,195.208.5.1,A,['88.221.36.9'],,
+2024-11-14T08:19:36.523802,amtrak.com,117.50.11.11,A,['23.198.112.226'],,
+2024-11-14T08:19:36.523802,amung.us,208.67.222.222,A,"['104.22.75.171', '172.67.8.141', '104.22.74.171']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,119.29.29.29,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 119.29.29.29
+2024-11-14T08:19:36.523802,amplitude.com,117.50.11.11,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,ams1907.com,211.136.17.107,A,[],NoAnswer,No answer for domain: ams1907.com on server: 211.136.17.107
+2024-11-14T08:19:36.523802,amtrak.com,101.226.4.6,A,['23.50.28.37'],,
+2024-11-14T08:19:36.523802,amung.us,123.125.81.6,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,ampproject.net,2a03:90c0:9992::1,AAAA,['2404:6800:4012:8::200e'],,
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:fe::fe
+2024-11-14T08:19:36.523802,amtrak.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amtrak.com on server: 2400:da00::6666
+2024-11-14T08:19:36.523802,ams1907.com,117.50.11.11,A,[],NoAnswer,No answer for domain: ams1907.com on server: 117.50.11.11
+2024-11-14T08:19:36.523802,amtrak.com,208.67.222.222,A,['184.84.197.164'],,
+2024-11-14T08:19:36.523802,amtrak.com,218.30.118.6,A,['184.84.197.164'],,
+2024-11-14T08:19:36.523802,amung.us,101.226.4.6,A,"['104.22.74.171', '172.67.8.141', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,223.6.6.6,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 223.6.6.6
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:0:ccc::2
+2024-11-14T08:19:36.523802,amurobl.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amurobl.ru on server: 9.9.9.9
+2024-11-14T08:19:36.523802,amsoveasea.com,77.88.8.1,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 77.88.8.1
+2024-11-14T08:19:36.523802,amtrak.com,211.136.17.107,A,['23.47.108.116'],,
+2024-11-14T08:19:36.523802,amurobl.ru,95.85.95.85,A,['192.162.122.148'],,
+2024-11-14T08:19:36.523802,amplifyapp.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a10:50c0::ad2:ff
+2024-11-14T08:19:36.523802,amzndns.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2402:4e00::
+2024-11-14T08:19:36.523802,amplitude.com,208.67.220.220,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,amzndns.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amzndns.com on server: 2400:da00::6666
+2024-11-14T08:19:36.523802,amtrak.com,1.1.1.1,A,['23.42.118.248'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 210.21.196.6
+2024-11-14T08:19:36.523802,amplifyapp.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amplifyapp.com on server: 2400:da00::6666
+2024-11-14T08:19:36.523802,amzndns.co.uk,208.67.222.222,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 208.67.222.222
+2024-11-14T08:19:36.523802,amplifyapp.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2400:3200:baba::1
+2024-11-14T08:19:36.523802,amplitude.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amplitude.com on server: 9.9.9.9
+2024-11-14T08:19:36.523802,amplitude.com,114.114.115.115,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.523802,ams1907.com,94.140.14.14,A,[],NoAnswer,No answer for domain: ams1907.com on server: 94.140.14.14
+2024-11-14T08:19:36.523802,amtrak.com,208.67.220.220,A,['2.18.154.49'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 202.96.128.86
+2024-11-14T08:19:36.523802,amung.us,218.30.118.6,A,"['172.67.8.141', '104.22.75.171', '104.22.74.171']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,208.67.220.220,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 208.67.220.220
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:fe::10
+2024-11-14T08:19:36.523802,amzndns.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: amzndns.net on server: 2400:3200:baba::1
+2024-11-14T08:19:36.523802,amplitude.com,180.76.76.76,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.523802,ams1907.com,218.30.118.6,A,[],NoAnswer,No answer for domain: ams1907.com on server: 218.30.118.6
+2024-11-14T08:19:36.523802,amtrak.com,62.76.62.76,A,['23.54.4.254'],,
+2024-11-14T08:19:36.523802,amtrak.com,223.6.6.6,A,['23.50.28.37'],,
+2024-11-14T08:19:36.523802,amurobl.ru,1.0.0.1,A,['192.162.122.148'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,114.114.115.115,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 114.114.115.115
+2024-11-14T08:19:36.523802,amplifyapp.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a10:50c0::ad1:ff
+2024-11-14T08:19:36.523802,amplitude.com,218.30.118.6,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.523802,amsoveasea.com,77.88.8.8,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 77.88.8.8
+2024-11-14T08:19:36.523802,amsoveasea.com,218.30.118.6,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 218.30.118.6
+2024-11-14T08:19:36.523802,amtrak.com,119.29.29.29,A,['23.50.28.37'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,223.5.5.5,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 223.5.5.5
+2024-11-14T08:19:36.523802,amplifyapp.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2400:3200::1
+2024-11-14T08:19:36.523802,ams1907.com,94.140.15.15,A,[],NoAnswer,No answer for domain: ams1907.com on server: 94.140.15.15
+2024-11-14T08:19:36.523802,amsoveasea.com,211.136.17.107,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 211.136.17.107
+2024-11-14T08:19:36.523802,amung.us,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T08:19:36.523802,amplitude.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amplitude.com on server: 123.125.81.7
+2024-11-14T08:19:36.523802,amplitude.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amplitude.com on server: 202.96.128.86
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:0:ccd::2
+2024-11-14T08:19:36.523802,amplreq.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amplreq.com on server: 1.0.0.1
+2024-11-14T08:19:36.523802,amsoveasea.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 8.8.8.8
+2024-11-14T08:19:36.523802,amtrak.com,195.208.4.1,A,['184.24.9.104'],,
+2024-11-14T08:19:36.523802,amung.us,195.208.5.1,A,"['188.114.98.235', '188.114.99.235']",,
+2024-11-14T08:19:36.523802,ams1907.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ams1907.com on server: 101.226.4.7
+2024-11-14T08:19:36.523802,amzndns.co.uk,9.9.9.10,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 9.9.9.10
+2024-11-14T08:19:36.523802,amurobl.ru,8.8.4.4,A,['192.162.122.148'],,
+2024-11-14T08:19:36.523802,amsoveasea.com,2.56.220.2,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 2.56.220.2
+2024-11-14T08:19:36.523802,amtrak.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amtrak.com on server: 202.96.128.86
+2024-11-14T08:19:36.523802,amung.us,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T08:19:36.523802,amurobl.ru,1.1.1.1,A,['192.162.122.148'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,94.140.15.15,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 94.140.15.15
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:119:35::35
+2024-11-14T08:19:36.523802,amplreq.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amplreq.com on server: 8.8.4.4
+2024-11-14T08:19:36.523802,ams1907.com,114.114.114.114,A,[],NoAnswer,No answer for domain: ams1907.com on server: 114.114.114.114
+2024-11-14T08:19:36.523802,amtrak.com,1.0.0.1,A,['23.218.9.120'],,
+2024-11-14T08:19:36.523802,amung.us,62.76.62.76,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,114.114.114.114,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 114.114.114.114
+2024-11-14T08:19:36.523802,amplifyapp.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2620:119:53::53
+2024-11-14T08:19:36.523802,amplreq.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amplreq.com on server: 1.1.1.1
+2024-11-14T08:19:36.523802,amung.us,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amung.us on server: 123.125.81.7
+2024-11-14T08:19:36.523802,amzndns.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amzndns.net on server: 2400:da00::6666
+2024-11-14T08:19:36.523802,amung.us,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T08:19:36.523802,amzndns.co.uk,94.140.14.14,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 94.140.14.14
+2024-11-14T08:19:36.523802,amtrak.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amtrak.com on server: 210.21.196.6
+2024-11-14T08:19:36.523802,amplifyapp.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a03:90c0:999d::1
+2024-11-14T08:19:36.523802,amurobl.ru,8.8.8.8,A,['192.162.122.148'],,
+2024-11-14T08:19:36.523802,ams1907.com,208.67.220.222,A,[],NoAnswer,No answer for domain: ams1907.com on server: 208.67.220.222
+2024-11-14T08:19:36.523802,amplitude.com,211.136.17.107,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.523802,amung.us,114.114.114.114,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,amung.us,77.88.8.1,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T08:19:36.523802,amplreq.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amplreq.com on server: 8.8.8.8
+2024-11-14T08:19:36.523802,ams1907.com,223.6.6.6,A,[],NoAnswer,No answer for domain: ams1907.com on server: 223.6.6.6
+2024-11-14T08:19:36.523802,amplifyapp.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a03:90c0:9992::1
+2024-11-14T08:19:36.523802,amtrak.com,223.5.5.5,A,['23.196.154.87'],,
+2024-11-14T08:19:36.523802,amung.us,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amung.us on server: 210.21.196.6
+2024-11-14T08:19:36.523802,amzndns.co.uk,208.67.222.220,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 208.67.222.220
+2024-11-14T08:19:36.523802,amzndns.co.uk,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 9.9.9.9
+2024-11-14T08:19:36.523802,amplifyapp.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a0c:a9c7:8::1
+2024-11-14T08:19:36.523802,amplitude.com,9.9.9.10,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,amtrak.com,2.56.220.2,A,['23.2.91.58'],,
+2024-11-14T08:19:36.523802,amung.us,2.56.220.2,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.523802,amung.us,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T08:19:36.523802,amzndns.co.uk,208.67.220.222,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 208.67.220.222
+2024-11-14T08:19:36.523802,amplifyapp.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a0c:a9c7:9::1
+2024-11-14T08:19:36.523802,amplitude.com,119.29.29.29,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,amsoveasea.com,1.0.0.1,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 1.0.0.1
+2024-11-14T08:19:36.523802,amplitude.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amplitude.com on server: 210.21.196.6
+2024-11-14T08:19:36.523802,amtrak.com,114.114.115.115,A,['23.42.118.248'],,
+2024-11-14T08:19:36.523802,amsoveasea.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 123.125.81.7
+2024-11-14T08:19:36.523802,amzndns.co.uk,195.208.4.1,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 195.208.4.1
+2024-11-14T08:19:36.523802,amplifyapp.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2001:6d0:d6::2001
+2024-11-14T08:19:36.523802,amplitude.com,101.226.4.6,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,amsoveasea.com,101.226.4.6,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 101.226.4.6
+2024-11-14T08:19:36.523802,ams1907.com,208.67.222.220,A,[],NoAnswer,No answer for domain: ams1907.com on server: 208.67.222.220
+2024-11-14T08:19:36.523802,amung.us,95.85.95.85,A,"['104.22.75.171', '104.22.74.171', '172.67.8.141']",,
+2024-11-14T08:19:36.523802,amung.us,180.76.76.76,A,"['104.22.75.171', '172.67.8.141', '104.22.74.171']",,
+2024-11-14T08:19:36.523802,amplitude.com,114.114.114.114,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.523802,ams1907.com,223.5.5.5,A,[],NoAnswer,No answer for domain: ams1907.com on server: 223.5.5.5
+2024-11-14T08:19:36.523802,amzndns.co.uk,195.208.5.1,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 195.208.5.1
+2024-11-14T08:19:36.524802,amtrak.com,94.140.15.15,A,['23.196.154.87'],,
+2024-11-14T08:19:36.524802,amzndns.com,8.8.8.8,A,[],NoAnswer,No answer for domain: amzndns.com on server: 8.8.8.8
+2024-11-14T08:19:36.524802,amplifyapp.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2606:4700:4700::1111
+2024-11-14T08:19:36.524802,ams1907.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ams1907.com on server: 202.96.128.86
+2024-11-14T08:19:36.524802,ams1907.com,208.67.220.220,A,[],NoAnswer,No answer for domain: ams1907.com on server: 208.67.220.220
+2024-11-14T08:19:36.524802,amtrak.com,95.85.95.85,A,['23.210.105.33'],,
+2024-11-14T08:19:36.524802,amtrak.com,114.114.114.114,A,['23.42.118.248'],,
+2024-11-14T08:19:36.524802,amung.us,223.6.6.6,A,"['104.22.74.171', '172.67.8.141', '104.22.75.171']",,
+2024-11-14T08:19:36.524802,amzndns.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amzndns.com on server: 1.1.1.1
+2024-11-14T08:19:36.524802,amplifyapp.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2606:4700:4700::1001
+2024-11-14T08:19:36.524802,amplitude.com,123.125.81.6,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.524802,ams1907.com,101.226.4.6,A,[],NoAnswer,No answer for domain: ams1907.com on server: 101.226.4.6
+2024-11-14T08:19:36.524802,amsoveasea.com,180.76.76.76,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 180.76.76.76
+2024-11-14T08:19:36.524802,amtrak.com,208.67.220.222,A,['184.84.197.164'],,
+2024-11-14T08:19:36.524802,amung.us,119.29.29.29,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amsoveasea.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 210.21.196.6
+2024-11-14T08:19:36.524802,amplifyapp.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2001:6d0:6d0::2001
+2024-11-14T08:19:36.524802,amplitude.com,94.140.14.14,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,amtrak.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amtrak.com on server: 9.9.9.9
+2024-11-14T08:19:36.524802,amung.us,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amung.us on server: 101.226.4.7
+2024-11-14T08:19:36.524802,amsoveasea.com,95.85.95.85,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 95.85.95.85
+2024-11-14T08:19:36.524802,amung.us,114.114.115.115,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amsoveasea.com,123.125.81.6,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 123.125.81.6
+2024-11-14T08:19:36.524802,amtrak.com,94.140.14.14,A,['23.196.154.87'],,
+2024-11-14T08:19:36.524802,amzndns.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amzndns.com on server: 8.8.4.4
+2024-11-14T08:19:36.524802,amplitude.com,94.140.15.15,A,"['76.223.69.48', '13.248.219.127']",,
+2024-11-14T08:19:36.524802,amung.us,1.1.1.1,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,ams1907.com,119.29.29.29,A,[],NoAnswer,No answer for domain: ams1907.com on server: 119.29.29.29
+2024-11-14T08:19:36.524802,amung.us,223.5.5.5,A,"['104.22.75.171', '104.22.74.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amtrak.com,62.76.76.62,A,['23.208.247.238'],,
+2024-11-14T08:19:36.524802,amplifyapp.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2001:4860:4860::8888
+2024-11-14T08:19:36.524802,amplitude.com,208.67.220.222,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,amsoveasea.com,8.8.4.4,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 8.8.4.4
+2024-11-14T08:19:36.524802,amung.us,1.0.0.1,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amung.us,208.67.220.222,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amplifyapp.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2001:4860:4860::8844
+2024-11-14T08:19:36.524802,amplitude.com,208.67.222.222,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,ams1907.com,114.114.115.115,A,[],NoAnswer,No answer for domain: ams1907.com on server: 114.114.115.115
+2024-11-14T08:19:36.524802,amtrak.com,8.8.4.4,A,['23.215.245.22'],,
+2024-11-14T08:19:36.524802,ams1907.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ams1907.com on server: 123.125.81.7
+2024-11-14T08:19:36.524802,amung.us,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T08:19:36.524802,amzndns.co.uk,123.125.81.6,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 123.125.81.6
+2024-11-14T08:19:36.524802,amplifyapp.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a02:6b8::feed:0ff
+2024-11-14T08:19:36.524802,amplitude.com,223.5.5.5,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,amsoveasea.com,1.1.1.1,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 1.1.1.1
+2024-11-14T08:19:36.524802,amtrak.com,9.9.9.10,A,['23.37.53.57'],,
+2024-11-14T08:19:36.524802,amung.us,8.8.4.4,A,"['104.22.75.171', '104.22.74.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amung.us,208.67.220.220,A,"['172.67.8.141', '104.22.74.171', '104.22.75.171']",,
+2024-11-14T08:19:36.524802,amzndns.co.uk,101.226.4.6,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 101.226.4.6
+2024-11-14T08:19:36.524802,amplifyapp.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: amplifyapp.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T08:19:36.524802,amplitude.com,223.6.6.6,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,amsoveasea.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 101.226.4.7
+2024-11-14T08:19:36.524802,amsoveasea.com,117.50.11.11,A,[],NoAnswer,No answer for domain: amsoveasea.com on server: 117.50.11.11
+2024-11-14T08:19:36.524802,ams1907.com,180.76.76.76,A,[],NoAnswer,No answer for domain: ams1907.com on server: 180.76.76.76
+2024-11-14T08:19:36.524802,amung.us,208.67.222.220,A,"['104.22.74.171', '104.22.75.171', '172.67.8.141']",,
+2024-11-14T08:19:36.524802,amzndns.co.uk,211.136.17.107,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 211.136.17.107
+2024-11-14T08:19:36.524802,amplience.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: amplience.net on server: 2402:4e00::
+2024-11-14T08:19:36.524802,amplitude.com,208.67.222.220,A,"['13.248.219.127', '76.223.69.48']",,
+2024-11-14T08:19:36.524802,amung.us,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amung.us on server: 202.96.128.86
+2024-11-14T08:19:36.524802,amtrak.com,8.8.8.8,A,['23.210.105.33'],,
+2024-11-14T08:19:36.524802,amung.us,8.8.8.8,A,"['104.22.75.171', '172.67.8.141', '104.22.74.171']",,
+2024-11-14T08:19:36.524802,amplitude.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amplitude.com on server: 101.226.4.7
+2024-11-14T08:19:36.524802,amzndns.co.uk,117.50.11.11,A,[],NoAnswer,No answer for domain: amzndns.co.uk on server: 117.50.11.11
+2024-11-14T08:19:36.524802,amzndns.co.uk,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 101.226.4.7
+2024-11-14T08:19:36.524802,amzndns.co.uk,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amzndns.co.uk on server: 123.125.81.7
+2024-11-14T08:19:36.524802,amsoveasea.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: amsoveasea.com on server: 202.96.128.86
+2024-11-14T08:19:36.524802,amtrak.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: amtrak.com on server: 101.226.4.7
+2024-11-14T08:19:36.524802,amtrak.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: amtrak.com on server: 123.125.81.7
+2024-11-14T08:19:36.524802,ams1907.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ams1907.com on server: 210.21.196.6
+2024-11-14T08:19:36.524802,amung.us,9.9.9.9,A,[],Timeout,Timeout occurred for domain: amung.us on server: 9.9.9.9
+2024-11-14T08:19:36.524802,amplience.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: amplience.net on server: 2400:da00::6666

@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T09:01:35.726470,apkmirror.com,8.8.8.8,A,['210.209.84.142'],,
+2024-11-14T09:01:35.726470,apartments.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.726470,apachetoday.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:119:53::53
+2024-11-14T09:01:35.726470,apachehaus.com,119.29.29.29,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.726470,apachetoday.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.726470,apa.org,2.56.220.2,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.726470,apachetoday.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.726470,apartments.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.726470,apa.org,77.88.8.8,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.726470,aparat.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:119:35::35
+2024-11-14T09:01:35.726470,apkcombo.com,101.226.4.6,A,['199.59.148.229'],,
+2024-11-14T09:01:35.726470,apachetoday.com,195.208.4.1,A,['144.76.147.217'],,
+2024-11-14T09:01:35.726470,apa.org,208.67.220.222,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.726470,apachetoday.com,1.0.0.1,A,['144.76.147.217'],,
+2024-11-14T09:01:35.726470,apachelounge.com,119.29.29.29,A,['45.137.102.206'],,
+2024-11-14T09:01:35.726470,apkmirror.com,1.1.1.1,A,['31.13.95.169'],,
+2024-11-14T09:01:35.726470,apachetoday.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.726470,aparat.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.726470,apachehaus.com,2.56.220.2,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.726470,apkmirror.com,77.88.8.8,A,['31.13.82.169'],,
+2024-11-14T09:01:35.726470,apachetoday.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.726470,apachelounge.com,114.114.114.114,A,['45.137.102.206'],,
+2024-11-14T09:01:35.726470,apa.org,94.140.14.14,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.726470,apkcombo.com,123.125.81.6,A,['173.252.105.21'],,
+2024-11-14T09:01:35.726470,apachetoday.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.726470,aparat.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.726470,apachetoday.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.727467,apartments.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.727467,apachetoday.com,62.76.76.62,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apa.org,208.67.222.222,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apartments.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.727467,aparat.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2400:3200::1
+2024-11-14T09:01:35.727467,apachetoday.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:119:35::35
+2024-11-14T09:01:35.727467,apkcombo.com,117.50.11.11,A,['31.13.83.2'],,
+2024-11-14T09:01:35.727467,apachetoday.com,62.76.62.76,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apa.org,208.67.222.220,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apkcombo.com,211.136.17.107,A,['199.59.150.39'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2400:3200::1
+2024-11-14T09:01:35.727467,apachetoday.com,95.85.95.85,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apa.org,195.208.5.1,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apachelounge.com,117.50.11.11,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,aparat.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2402:4e00::
+2024-11-14T09:01:35.727467,apachetoday.com,208.67.222.222,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.727467,apachetoday.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.727467,apa.org,9.9.9.10,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apartments.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.727467,apartments.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.727467,apa.org,208.67.220.220,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apachetoday.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:fe::fe
+2024-11-14T09:01:35.727467,apachetoday.com,77.88.8.8,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apkcombo.com,218.30.118.6,A,['23.234.30.58'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2620:fe::10
+2024-11-14T09:01:35.727467,apachetoday.com,77.88.8.1,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apachehaus.com,195.208.4.1,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachelounge.com,223.5.5.5,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apkmirror.com,62.76.76.62,A,['31.13.95.18'],,
+2024-11-14T09:01:35.727467,apartments.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.727467,apa.org,62.76.76.62,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachehaus.com,77.88.8.8,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apartments.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.727467,apachelounge.com,223.6.6.6,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apachehaus.com,62.76.76.62,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apa.org,195.208.4.1,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachetutor.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.727467,apachehaus.com,208.67.220.220,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apartments.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.727467,apkmirror.com,195.208.4.1,A,['108.160.162.109'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.727467,apartments.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.727467,apa.org,8.8.8.8,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apachelounge.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 210.21.196.6
+2024-11-14T09:01:35.727467,apkcombo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 123.125.81.7
+2024-11-14T09:01:35.727467,apachelounge.com,114.114.115.115,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apachehaus.com,195.208.5.1,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachetutor.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.727467,apartments.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.727467,apa.org,77.88.8.1,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachetoday.com,1.1.1.1,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apkmirror.com,77.88.8.1,A,['74.86.228.110'],,
+2024-11-14T09:01:35.727467,apa.org,62.76.62.76,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachetoday.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.727467,apachehaus.com,9.9.9.10,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apachetoday.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 9.9.9.9
+2024-11-14T09:01:35.727467,apachetoday.com,9.9.9.10,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.727467,apa.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apa.org on server: 9.9.9.9
+2024-11-14T09:01:35.727467,aparat.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.727467,ap4r.com,101.226.4.6,A,[],NoAnswer,No answer for domain: ap4r.com on server: 101.226.4.6
+2024-11-14T09:01:35.727467,apachehaus.com,208.67.222.222,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachetoday.com,8.8.4.4,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apartments.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.727467,apachetutor.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.727467,apachehaus.com,223.6.6.6,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apkmirror.com,62.76.62.76,A,['108.160.169.37'],,
+2024-11-14T09:01:35.727467,apachetoday.com,195.208.5.1,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apartments.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:fe::10
+2024-11-14T09:01:35.727467,apachetoday.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 2400:da00::6666
+2024-11-14T09:01:35.727467,apa.org,1.1.1.1,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachetutor.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.727467,apkmirror.com,95.85.95.85,A,['65.49.68.152'],,
+2024-11-14T09:01:35.727467,apachehaus.com,62.76.62.76,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T09:01:35.727467,apachetoday.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.727467,aparat.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:fe::10
+2024-11-14T09:01:35.727467,apachehaus.com,223.5.5.5,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,ap4r.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ap4r.com on server: 101.226.4.7
+2024-11-14T09:01:35.727467,apachetoday.com,8.8.8.8,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apkmirror.com,8.8.4.4,A,['173.252.108.21'],,
+2024-11-14T09:01:35.727467,apa.org,8.8.4.4,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apa.org,95.85.95.85,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,apachehaus.com,208.67.222.220,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachelounge.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 202.96.128.86
+2024-11-14T09:01:35.727467,apachetoday.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.727467,apachetoday.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.727467,apachelounge.com,101.226.4.6,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,aparat.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:119:53::53
+2024-11-14T09:01:35.727467,apachehaus.com,208.67.220.222,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apa.org,1.0.0.1,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachetoday.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.727467,aparat.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:fe::fe
+2024-11-14T09:01:35.727467,ap4r.com,117.50.11.11,A,[],NoAnswer,No answer for domain: ap4r.com on server: 117.50.11.11
+2024-11-14T09:01:35.727467,apachehaus.com,94.140.14.14,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachetoday.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2402:4e00::
+2024-11-14T09:01:35.727467,aparat.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.727467,apachelounge.com,218.30.118.6,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apachehaus.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 9.9.9.9
+2024-11-14T09:01:35.727467,apachelounge.com,211.136.17.107,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,ap4r.com,123.125.81.6,A,[],NoAnswer,No answer for domain: ap4r.com on server: 123.125.81.6
+2024-11-14T09:01:35.727467,apachetutor.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.727467,apachehaus.com,77.88.8.1,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachehaus.com,94.140.15.15,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,apachelounge.com,180.76.76.76,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apkmirror.com,1.0.0.1,A,['202.182.98.125'],,
+2024-11-14T09:01:35.727467,apachetoday.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.727467,aparat.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.727467,apa.org,114.114.114.114,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apkcombo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 101.226.4.7
+2024-11-14T09:01:35.727467,apa.org,114.114.115.115,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.727467,ap4r.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ap4r.com on server: 123.125.81.7
+2024-11-14T09:01:35.727467,apachehaus.com,114.114.114.114,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apachetutor.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.727467,apachetoday.com,2.56.220.2,A,['144.76.147.217'],,
+2024-11-14T09:01:35.727467,apachehaus.com,114.114.115.115,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.727467,aparat.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.727467,apkmirror.com,2.56.220.2,A,['103.200.30.143'],,
+2024-11-14T09:01:35.727467,apartments.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:fe::fe
+2024-11-14T09:01:35.727467,apa.org,94.140.15.15,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.727467,apachelounge.com,123.125.81.6,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apache-ssl.org,208.67.220.222,A,['23.83.130.96'],,
+2024-11-14T09:01:35.727467,apachelounge.com,77.88.8.1,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apachehaus.com,123.125.81.6,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.727467,apache.org,8.8.8.8,A,['151.101.2.132'],,
+2024-11-14T09:01:35.727467,apachelounge.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 101.226.4.7
+2024-11-14T09:01:35.727467,apache.org,62.76.62.76,A,['151.101.2.132'],,
+2024-11-14T09:01:35.727467,apachelounge.com,1.1.1.1,A,['45.137.102.206'],,
+2024-11-14T09:01:35.727467,apachelounge.com,8.8.8.8,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,101.226.4.6,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachehaus.com,101.226.4.6,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,123.125.81.6,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apkcombo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 210.21.196.6
+2024-11-14T09:01:35.728466,apachelounge.com,8.8.4.4,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,117.50.11.11,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 123.125.81.7
+2024-11-14T09:01:35.728466,apache.org,195.208.4.1,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apache.org,195.208.5.1,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,94.140.14.14,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apachehaus.com,180.76.76.76,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.728466,apache.org,77.88.8.1,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apache.org,62.76.76.62,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,94.140.15.15,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,94.140.14.14,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachehaus.com,211.136.17.107,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,223.6.6.6,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,208.67.220.222,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apachehaus.com,117.50.11.11,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,119.29.29.29,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,195.208.5.1,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,2.56.220.2,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,94.140.15.15,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,77.88.8.8,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,1.0.0.1,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,1.0.0.1,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,77.88.8.8,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,95.85.95.85,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,114.114.115.115,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachehaus.com,218.30.118.6,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,223.5.5.5,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,208.67.220.220,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,8.8.4.4,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,95.85.95.85,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache.org,1.1.1.1,A,['151.101.2.132'],,
+2024-11-14T09:01:35.728466,apachelounge.com,208.67.222.222,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,218.30.118.6,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,208.67.222.220,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,211.136.17.107,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,9.9.9.10,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,180.76.76.76,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,2.56.220.2,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apache-ssl.org,114.114.114.114,A,['23.83.130.96'],,
+2024-11-14T09:01:35.728466,apachelounge.com,195.208.4.1,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,aparat.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aparat.com on server: 2400:da00::6666
+2024-11-14T09:01:35.728466,apache-ssl.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 123.125.81.7
+2024-11-14T09:01:35.728466,apache-ssl.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 101.226.4.7
+2024-11-14T09:01:35.728466,apachelounge.com,62.76.76.62,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apachelounge.com,62.76.62.76,A,['45.137.102.206'],,
+2024-11-14T09:01:35.728466,apachehaus.com,8.8.8.8,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,211.136.17.107,A,"['151.101.66.49', '151.101.130.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.728466,apache.org,2620:fe::fe,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.728466,apachehaus.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 123.125.81.7
+2024-11-14T09:01:35.728466,apachehaus.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 101.226.4.7
+2024-11-14T09:01:35.728466,apachefriends.org,94.140.14.14,A,"['185.199.110.153', '185.199.108.153', '185.199.111.153', '185.199.109.153']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:fe::10
+2024-11-14T09:01:35.728466,apachehaus.com,8.8.4.4,A,"['104.21.54.133', '172.67.138.207']",,
+2024-11-14T09:01:35.728466,apdcdn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.728466,apartmenttherapy.com,117.50.11.11,A,"['151.101.2.49', '151.101.66.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.728466,apache.org,2606:4700:4700::1001,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apachefriends.org,208.67.222.220,A,"['185.199.110.153', '185.199.111.153', '185.199.108.153', '185.199.109.153']",,
+2024-11-14T09:01:35.728466,apachehaus.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 202.96.128.86
+2024-11-14T09:01:35.728466,apdcdn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.728466,apachehaus.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 210.21.196.6
+2024-11-14T09:01:35.728466,apartmenttherapy.com,218.30.118.6,A,"['151.101.130.49', '151.101.66.49', '151.101.2.49', '151.101.194.49']",,
+2024-11-14T09:01:35.728466,apache.org,2a0c:a9c7:9::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.728466,apachefriends.org,208.67.220.220,A,"['185.199.109.153', '185.199.110.153', '185.199.111.153', '185.199.108.153']",,
+2024-11-14T09:01:35.728466,apdcdn.com,195.208.5.1,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 195.208.5.1
+2024-11-14T09:01:35.728466,apache-ssl.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2400:3200::1
+2024-11-14T09:01:35.728466,apdcdn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.728466,apache-ssl.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 202.96.128.86
+2024-11-14T09:01:35.728466,apachelounge.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 9.9.9.9
+2024-11-14T09:01:35.728466,apdcdn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.728466,apache-ssl.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:0:ccd::2
+2024-11-14T09:01:35.728466,apachefriends.org,208.67.220.222,A,"['185.199.108.153', '185.199.109.153', '185.199.110.153', '185.199.111.153']",,
+2024-11-14T09:01:35.728466,apdcdn.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.728466,apache.org,2a02:6b8::feed:0ff,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.728466,apdcdn.com,77.88.8.1,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 77.88.8.1
+2024-11-14T09:01:35.728466,apache.org,2a03:90c0:9992::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,62.76.76.62,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 62.76.76.62
+2024-11-14T09:01:35.728466,apdcdn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:fe::10
+2024-11-14T09:01:35.728466,apache-ssl.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 210.21.196.6
+2024-11-14T09:01:35.728466,apdcdn.com,95.85.95.85,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 95.85.95.85
+2024-11-14T09:01:35.728466,apdcdn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.728466,apdcdn.com,195.208.4.1,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 195.208.4.1
+2024-11-14T09:01:35.728466,apache-ssl.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.728466,apartmenttherapy.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 202.96.128.86
+2024-11-14T09:01:35.728466,apachefriends.org,223.6.6.6,A,"['185.199.111.153', '185.199.108.153', '185.199.109.153', '185.199.110.153']",,
+2024-11-14T09:01:35.728466,apdcdn.com,2.56.220.2,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 2.56.220.2
+2024-11-14T09:01:35.728466,apdcdn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.728466,apachefriends.org,180.76.76.76,A,"['185.199.109.153', '185.199.110.153', '185.199.111.153', '185.199.108.153']",,
+2024-11-14T09:01:35.728466,apdcdn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:fe::fe
+2024-11-14T09:01:35.728466,apachefriends.org,119.29.29.29,A,"['185.199.110.153', '185.199.111.153', '185.199.109.153', '185.199.108.153']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:119:35::35
+2024-11-14T09:01:35.728466,apache.org,2a0c:a9c7:8::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apachefriends.org,9.9.9.10,A,"['185.199.108.153', '185.199.110.153', '185.199.109.153', '185.199.111.153']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 210.21.196.6
+2024-11-14T09:01:35.728466,apdcdn.com,1.0.0.1,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 1.0.0.1
+2024-11-14T09:01:35.728466,apdcdn.com,77.88.8.8,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 77.88.8.8
+2024-11-14T09:01:35.728466,apache-ssl.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:0:ccc::2
+2024-11-14T09:01:35.728466,apdcdn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.728466,apachefriends.org,208.67.222.222,A,"['185.199.111.153', '185.199.108.153', '185.199.109.153', '185.199.110.153']",,
+2024-11-14T09:01:35.728466,apachefriends.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 101.226.4.7
+2024-11-14T09:01:35.728466,apdcdn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.728466,apdcdn.com,62.76.62.76,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 62.76.62.76
+2024-11-14T09:01:35.728466,apache.org,2a02:6b8:0:1::feed:0ff,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.728466,apachefriends.org,117.50.11.11,A,"['185.199.109.153', '185.199.110.153', '185.199.111.153', '185.199.108.153']",,
+2024-11-14T09:01:35.728466,apache.org,2001:6d0:6d0::2001,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apdcdn.com,1.1.1.1,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 1.1.1.1
+2024-11-14T09:01:35.728466,apdcdn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.728466,apache.org,2001:6d0:d6::2001,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apachefriends.org,114.114.114.114,A,"['185.199.109.153', '185.199.110.153', '185.199.111.153']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,180.76.76.76,A,"['151.101.66.49', '151.101.130.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2402:4e00::
+2024-11-14T09:01:35.728466,apachefriends.org,223.5.5.5,A,"['185.199.108.153', '185.199.109.153', '185.199.111.153', '185.199.110.153']",,
+2024-11-14T09:01:35.728466,apdcdn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.728466,apdcdn.com,8.8.4.4,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 8.8.4.4
+2024-11-14T09:01:35.728466,apache-ssl.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.728466,apachefriends.org,211.136.17.107,A,"['185.199.111.153', '185.199.108.153', '185.199.109.153', '185.199.110.153']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2400:3200::1
+2024-11-14T09:01:35.728466,apachefriends.org,101.226.4.6,A,"['185.199.111.153', '185.199.110.153', '185.199.109.153', '185.199.108.153']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.728466,apache-ssl.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.728466,apdcdn.com,8.8.8.8,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 8.8.8.8
+2024-11-14T09:01:35.728466,apachefriends.org,123.125.81.6,A,"['185.199.108.153', '185.199.111.153', '185.199.110.153', '185.199.109.153']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.728466,apartmenttherapy.com,223.5.5.5,A,"['151.101.66.49', '151.101.194.49', '151.101.2.49', '151.101.130.49']",,
+2024-11-14T09:01:35.728466,apache.org,2001:4860:4860::8888,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.728466,apachefriends.org,94.140.15.15,A,"['185.199.110.153', '185.199.108.153', '185.199.111.153', '185.199.109.153']",,
+2024-11-14T09:01:35.728466,apachefriends.org,114.114.115.115,A,"['185.199.111.153', '185.199.108.153', '185.199.109.153']",,
+2024-11-14T09:01:35.728466,apartmenttherapy.com,223.6.6.6,A,"['151.101.130.49', '151.101.2.49', '151.101.66.49', '151.101.194.49']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2400:3200:baba::1
+2024-11-14T09:01:35.728466,apartmenttherapy.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.728466,apdcdn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:119:35::35
+2024-11-14T09:01:35.728466,apartmenttherapy.com,114.114.114.114,A,"['151.101.130.49', '151.101.66.49', '151.101.194.49']",,
+2024-11-14T09:01:35.728466,apache-ssl.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:fe::fe
+2024-11-14T09:01:35.728466,apdcdn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:119:53::53
+2024-11-14T09:01:35.729467,apachefriends.org,218.30.118.6,A,"['185.199.108.153', '185.199.109.153', '185.199.110.153', '185.199.111.153']",,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,114.114.115.115,A,"['151.101.66.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.729467,apache.org,2a03:90c0:999d::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.729467,apdcdn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2402:4e00::
+2024-11-14T09:01:35.729467,apachefriends.org,195.208.5.1,A,"['185.199.110.153', '185.199.108.153', '185.199.109.153', '185.199.111.153']",,
+2024-11-14T09:01:35.729467,apachefriends.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 123.125.81.7
+2024-11-14T09:01:35.729467,apartmenttherapy.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2402:4e00::
+2024-11-14T09:01:35.729467,apdcdn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 9.9.9.9
+2024-11-14T09:01:35.729467,apartmenttherapy.com,119.29.29.29,A,"['151.101.66.49', '151.101.2.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.729467,apache-ssl.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2620:119:53::53
+2024-11-14T09:01:35.729467,apachefriends.org,62.76.62.76,A,"['185.199.111.153', '185.199.108.153', '185.199.109.153', '185.199.110.153']",,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,123.125.81.6,A,"['151.101.194.49', '151.101.66.49', '151.101.130.49', '151.101.2.49']",,
+2024-11-14T09:01:35.729467,apache-ssl.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.729467,apachefriends.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 202.96.128.86
+2024-11-14T09:01:35.729467,apachefriends.org,195.208.4.1,A,"['185.199.108.153', '185.199.110.153', '185.199.111.153', '185.199.109.153']",,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,101.226.4.6,A,"['151.101.2.49', '151.101.194.49', '151.101.66.49', '151.101.130.49']",,
+2024-11-14T09:01:35.729467,apache.org,2001:4860:4860::8844,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.729467,apdcdn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2400:3200::1
+2024-11-14T09:01:35.729467,apachefriends.org,77.88.8.1,A,"['185.199.111.153', '185.199.109.153', '185.199.108.153', '185.199.110.153']",,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,94.140.14.14,A,"['151.101.2.49', '151.101.130.49', '151.101.66.49', '151.101.194.49']",,
+2024-11-14T09:01:35.729467,apache.org,2606:4700:4700::1111,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.729467,apdcdn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.729467,apachefriends.org,62.76.76.62,A,"['185.199.110.153', '185.199.109.153', '185.199.108.153', '185.199.111.153']",,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,94.140.15.15,A,"['151.101.2.49', '151.101.130.49', '151.101.66.49', '151.101.194.49']",,
+2024-11-14T09:01:35.729467,apdcdn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apdcdn.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.729467,aparat.com,1.0.0.1,A,"['185.147.178.12', '185.147.178.13', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.729467,apdcdn.com,9.9.9.10,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 9.9.9.10
+2024-11-14T09:01:35.729467,apartmenttherapy.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 123.125.81.7
+2024-11-14T09:01:35.729467,apkcombo.com,77.88.8.1,A,['31.13.80.169'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2402:4e00::,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apa.org,223.5.5.5,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,aparat.com,218.30.118.6,A,['47.75.69.19'],,
+2024-11-14T09:01:35.729467,apdcdn.com,208.67.222.222,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 208.67.222.222
+2024-11-14T09:01:35.729467,apkcombo.com,62.76.76.62,A,['31.13.90.33'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2400:3200:baba::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2400:3200::1
+2024-11-14T09:01:35.729467,apa.org,223.6.6.6,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,apigee.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.729467,apartmenttherapy.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 2400:da00::6666
+2024-11-14T09:01:35.729467,aparat.com,180.76.76.76,A,"['185.147.178.14', '185.147.178.11', '185.147.178.12', '185.147.178.13']",,
+2024-11-14T09:01:35.729467,apkcombo.com,114.114.115.115,A,['118.193.202.219'],,
+2024-11-14T09:01:35.729467,apigee.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.729467,apache-ssl.org,208.67.220.220,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apartmenttherapy.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 101.226.4.7
+2024-11-14T09:01:35.729467,apigee.net,77.88.8.8,A,[],NoAnswer,No answer for domain: apigee.net on server: 77.88.8.8
+2024-11-14T09:01:35.729467,apachelounge.com,2620:fe::fe,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:0:ccd::2
+2024-11-14T09:01:35.729467,apachefriends.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 210.21.196.6
+2024-11-14T09:01:35.729467,apache-ssl.org,2.56.220.2,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,aparat.com,114.114.115.115,A,"['185.147.178.12', '185.147.178.11', '185.147.178.14']",,
+2024-11-14T09:01:35.729467,apigee.net,95.85.95.85,A,[],NoAnswer,No answer for domain: apigee.net on server: 95.85.95.85
+2024-11-14T09:01:35.729467,apachelounge.com,2620:fe::10,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.729467,aparat.com,119.29.29.29,A,"['185.147.178.13', '185.147.178.12', '185.147.178.11', '185.147.178.14']",,
+2024-11-14T09:01:35.729467,apigee.net,2.56.220.2,A,[],NoAnswer,No answer for domain: apigee.net on server: 2.56.220.2
+2024-11-14T09:01:35.729467,apache-ssl.org,77.88.8.8,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2a10:50c0::ad2:ff,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:119:53::53
+2024-11-14T09:01:35.729467,aparat.com,208.67.220.220,A,"['185.147.178.12', '185.147.178.13', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.729467,apache-ssl.org,1.1.1.1,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apkcombo.com,94.140.15.15,A,['199.96.59.61'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2400:3200::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:0:ccc::2
+2024-11-14T09:01:35.729467,apigee.net,1.1.1.1,A,[],NoAnswer,No answer for domain: apigee.net on server: 1.1.1.1
+2024-11-14T09:01:35.729467,apache-ssl.org,95.85.95.85,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apigee.net,1.0.0.1,A,[],NoAnswer,No answer for domain: apigee.net on server: 1.0.0.1
+2024-11-14T09:01:35.729467,apkcombo.com,114.114.114.114,A,['128.121.146.101'],,
+2024-11-14T09:01:35.729467,apache-ssl.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 2400:da00::6666
+2024-11-14T09:01:35.729467,apachelounge.com,2620:0:ccd::2,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apachefriends.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 9.9.9.9
+2024-11-14T09:01:35.729467,apigee.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.729467,apkcombo.com,119.29.29.29,A,['103.252.114.61'],,
+2024-11-14T09:01:35.729467,apigee.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:fe::fe
+2024-11-14T09:01:35.729467,apache-ssl.org,8.8.8.8,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apigee.net,8.8.4.4,A,[],NoAnswer,No answer for domain: apigee.net on server: 8.8.4.4
+2024-11-14T09:01:35.729467,apkcombo.com,180.76.76.76,A,['103.73.161.52'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2620:0:ccc::2,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apigee.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.729467,apache-ssl.org,8.8.4.4,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,aparat.com,94.140.15.15,A,"['185.147.178.14', '185.147.178.11', '185.147.178.12', '185.147.178.13']",,
+2024-11-14T09:01:35.729467,apdcdn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 2400:da00::6666
+2024-11-14T09:01:35.729467,apdcdn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 202.96.128.86
+2024-11-14T09:01:35.729467,apachelounge.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apachelounge.com on server: 2400:da00::6666
+2024-11-14T09:01:35.729467,apachelounge.com,2a10:50c0::ad1:ff,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,aparat.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aparat.com on server: 210.21.196.6
+2024-11-14T09:01:35.729467,aparat.com,114.114.114.114,A,"['185.147.178.11', '185.147.178.14', '185.147.178.13']",,
+2024-11-14T09:01:35.729467,apigee.net,8.8.8.8,A,[],NoAnswer,No answer for domain: apigee.net on server: 8.8.8.8
+2024-11-14T09:01:35.729467,apigee.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.729467,apkcombo.com,223.6.6.6,A,['108.160.166.42'],,
+2024-11-14T09:01:35.729467,apache-ssl.org,1.0.0.1,A,['23.83.130.96'],,
+2024-11-14T09:01:35.729467,apa.org,123.125.81.6,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,apigee.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.729467,aparat.com,208.67.222.220,A,"['185.147.178.12', '185.147.178.13', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.729467,apkcombo.com,77.88.8.8,A,['31.13.82.33'],,
+2024-11-14T09:01:35.729467,apdcdn.com,94.140.14.14,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 94.140.14.14
+2024-11-14T09:01:35.729467,apachelounge.com,2a0c:a9c7:9::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,aparat.com,208.67.220.222,A,"['185.147.178.14', '185.147.178.11', '185.147.178.12', '185.147.178.13']",,
+2024-11-14T09:01:35.729467,apigee.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.729467,apdcdn.com,101.226.4.6,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 101.226.4.6
+2024-11-14T09:01:35.729467,apachelounge.com,2620:119:35::35,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apa.org,218.30.118.6,A,"['45.60.105.114', '45.60.44.114']",,
+2024-11-14T09:01:35.729467,aparat.com,223.5.5.5,A,"['185.147.178.13', '185.147.178.11', '185.147.178.14', '185.147.178.12']",,
+2024-11-14T09:01:35.729467,apdcdn.com,208.67.220.222,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 208.67.220.222
+2024-11-14T09:01:35.729467,apkcombo.com,2.56.220.2,A,['108.160.167.174'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2620:119:53::53,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apkcombo.com,2001:4860:4860::8888,AAAA,['2a03:2880:f127:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.729467,apa.org,211.136.17.107,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,aparat.com,223.6.6.6,A,"['185.147.178.12', '185.147.178.13', '185.147.178.11', '185.147.178.14']",,
+2024-11-14T09:01:35.729467,apdcdn.com,223.6.6.6,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 223.6.6.6
+2024-11-14T09:01:35.729467,apachelounge.com,2001:6d0:d6::2001,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apkcombo.com,2a03:90c0:999d::1,AAAA,['2a03:2880:f134:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.729467,aparat.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aparat.com on server: 202.96.128.86
+2024-11-14T09:01:35.729467,apa.org,117.50.11.11,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,apkcombo.com,1.0.0.1,A,['31.13.75.5'],,
+2024-11-14T09:01:35.729467,aparat.com,9.9.9.10,A,"['185.147.178.11', '185.147.178.12', '185.147.178.14', '185.147.178.13']",,
+2024-11-14T09:01:35.729467,apkcombo.com,2a03:90c0:9992::1,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T09:01:35.729467,apa.org,101.226.4.6,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,apa.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apa.org on server: 101.226.4.7
+2024-11-14T09:01:35.729467,apachelounge.com,2a0c:a9c7:8::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apkcombo.com,95.85.95.85,A,['31.13.69.169'],,
+2024-11-14T09:01:35.729467,apkcombo.com,2606:4700:4700::1111,AAAA,['2a03:2880:f11c:8183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.729467,apdcdn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 101.226.4.7
+2024-11-14T09:01:35.729467,apdcdn.com,218.30.118.6,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 218.30.118.6
+2024-11-14T09:01:35.729467,apachelounge.com,2001:4860:4860::8888,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apkcombo.com,208.67.222.220,A,['108.160.172.204'],,
+2024-11-14T09:01:35.729467,apdcdn.com,123.125.81.6,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 123.125.81.6
+2024-11-14T09:01:35.729467,apkcombo.com,2606:4700:4700::1001,AAAA,['2a03:2880:f10d:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2001:4860:4860::8844,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,aparat.com,208.67.222.222,A,"['185.147.178.13', '185.147.178.14', '185.147.178.11', '185.147.178.12']",,
+2024-11-14T09:01:35.729467,apdcdn.com,223.5.5.5,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 223.5.5.5
+2024-11-14T09:01:35.729467,apkcombo.com,208.67.220.222,A,['69.63.176.59'],,
+2024-11-14T09:01:35.729467,apachelounge.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.729467,apdcdn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 123.125.81.7
+2024-11-14T09:01:35.729467,apa.org,119.29.29.29,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.729467,apachehaus.com,1.0.0.1,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.730466,apdcdn.com,117.50.11.11,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 117.50.11.11
+2024-11-14T09:01:35.730466,apkcombo.com,223.5.5.5,A,['128.121.243.76'],,
+2024-11-14T09:01:35.730466,apachelounge.com,2001:6d0:6d0::2001,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,apkcombo.com,2001:4860:4860::8844,AAAA,['2a03:2880:f127:283:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apa.org,180.76.76.76,A,"['45.60.44.114', '45.60.105.114']",,
+2024-11-14T09:01:35.730466,aparat.com,94.140.14.14,A,"['185.147.178.14', '185.147.178.11', '185.147.178.12', '185.147.178.13']",,
+2024-11-14T09:01:35.730466,apdcdn.com,208.67.220.220,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 208.67.220.220
+2024-11-14T09:01:35.730466,apkcombo.com,208.67.220.220,A,['205.186.152.122'],,
+2024-11-14T09:01:35.730466,apkcombo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 202.96.128.86
+2024-11-14T09:01:35.730466,apigee.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2400:3200:baba::1
+2024-11-14T09:01:35.730466,apache-ssl.org,208.67.222.222,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apachelounge.com,2a03:90c0:9992::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,aparat.com,195.208.4.1,A,"['185.147.178.13', '185.147.178.14', '185.147.178.12', '185.147.178.11']",,
+2024-11-14T09:01:35.730466,apkcombo.com,9.9.9.10,A,['98.159.108.61'],,
+2024-11-14T09:01:35.730466,apdcdn.com,119.29.29.29,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 119.29.29.29
+2024-11-14T09:01:35.730466,apigee.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2402:4e00::
+2024-11-14T09:01:35.730466,apache-ssl.org,208.67.222.220,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apachelounge.com,2a02:6b8::feed:0ff,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,apdcdn.com,211.136.17.107,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 211.136.17.107
+2024-11-14T09:01:35.730466,apkcombo.com,208.67.222.222,A,['80.87.199.46'],,
+2024-11-14T09:01:35.730466,aparat.com,195.208.5.1,A,"['185.147.178.13', '185.147.178.14', '185.147.178.12', '185.147.178.11']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2402:4e00::,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apigee.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:fe::10
+2024-11-14T09:01:35.730466,aparat.com,62.76.62.76,A,"['185.147.178.12', '185.147.178.13', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.730466,apdcdn.com,114.114.114.114,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 114.114.114.114
+2024-11-14T09:01:35.730466,apkcombo.com,195.208.5.1,A,['108.160.165.147'],,
+2024-11-14T09:01:35.730466,apigee.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.730466,apigee.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2620:119:35::35
+2024-11-14T09:01:35.730466,apache-ssl.org,9.9.9.10,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apa.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apa.org on server: 123.125.81.7
+2024-11-14T09:01:35.730466,apdcdn.com,114.114.115.115,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 114.114.115.115
+2024-11-14T09:01:35.730466,aparat.com,62.76.76.62,A,"['185.147.178.14', '185.147.178.12', '185.147.178.13', '185.147.178.11']",,
+2024-11-14T09:01:35.730466,apigee.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apigee.net on server: 2400:da00::6666
+2024-11-14T09:01:35.730466,apigee.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.730466,apache-ssl.org,62.76.62.76,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,aparat.com,77.88.8.8,A,"['185.147.178.13', '185.147.178.12', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.730466,apdcdn.com,180.76.76.76,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 180.76.76.76
+2024-11-14T09:01:35.730466,apkcombo.com,62.76.62.76,A,['192.133.77.189'],,
+2024-11-14T09:01:35.730466,apachetoday.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apachetoday.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.730466,apigee.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.730466,apache-ssl.org,195.208.5.1,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apa.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apa.org on server: 202.96.128.86
+2024-11-14T09:01:35.730466,aparat.com,77.88.8.1,A,"['185.147.178.11', '185.147.178.12', '185.147.178.14', '185.147.178.13']",,
+2024-11-14T09:01:35.730466,apkcombo.com,195.208.4.1,A,['157.240.17.36'],,
+2024-11-14T09:01:35.730466,aparat.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aparat.com on server: 9.9.9.9
+2024-11-14T09:01:35.730466,apigee.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.730466,apa.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apa.org on server: 210.21.196.6
+2024-11-14T09:01:35.730466,apachelounge.com,2606:4700:4700::1001,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,apachehaus.com,1.1.1.1,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.730466,apkcombo.com,8.8.4.4,A,['118.184.78.78'],,
+2024-11-14T09:01:35.730466,apache-ssl.org,62.76.76.62,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apigee.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.730466,apachehaus.com,95.85.95.85,A,"['172.67.138.207', '104.21.54.133']",,
+2024-11-14T09:01:35.730466,aparat.com,2.56.220.2,A,"['185.147.178.14', '185.147.178.12', '185.147.178.11', '185.147.178.13']",,
+2024-11-14T09:01:35.730466,apache-ssl.org,195.208.4.1,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apkcombo.com,1.1.1.1,A,['108.160.162.115'],,
+2024-11-14T09:01:35.730466,apachelounge.com,2606:4700:4700::1111,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,aparat.com,95.85.95.85,A,"['185.147.178.11', '185.147.178.14', '185.147.178.12', '185.147.178.13']",,
+2024-11-14T09:01:35.730466,apdcdn.com,208.67.222.220,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 208.67.222.220
+2024-11-14T09:01:35.730466,apkcombo.com,94.140.14.14,A,['108.160.161.83'],,
+2024-11-14T09:01:35.730466,apigee.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apigee.net on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.730466,apache-ssl.org,77.88.8.1,A,['23.83.130.96'],,
+2024-11-14T09:01:35.730466,apdcdn.com,94.140.15.15,A,[],NoAnswer,No answer for domain: apdcdn.com on server: 94.140.15.15
+2024-11-14T09:01:35.730466,apkmirror.com,211.136.17.107,A,['31.13.86.21'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,101.226.4.6,A,['108.160.169.54'],,
+2024-11-14T09:01:35.730466,apkmirror.com,2402:4e00::,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,218.30.118.6,A,['199.59.149.202'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apachefriends.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2400:3200::1
+2024-11-14T09:01:35.730466,apachefriends.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2400:3200:baba::1
+2024-11-14T09:01:35.730466,apachehaus.com,2400:3200:baba::1,AAAA,"['2606:4700:3035::6815:3685', '2606:4700:3033::ac43:8acf']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2620:119:53::53,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,114.114.114.114,A,['108.160.169.55'],,
+2024-11-14T09:01:35.730466,apkmirror.com,114.114.115.115,A,['108.160.169.55'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:fe::fe,AAAA,"['2606:4700:3035::6815:3685', '2606:4700:3033::ac43:8acf']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2620:fe::fe,AAAA,['2a03:2880:f11f:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,2400:3200:baba::1,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apache-ssl.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apache-ssl.org on server: 9.9.9.9
+2024-11-14T09:01:35.730466,apachehaus.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2620:0:ccd::2,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2400:3200::1,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2620:fe::10,AAAA,['2001::adff:d55a'],,
+2024-11-14T09:01:35.730466,apkmirror.com,119.29.29.29,A,['162.125.2.6'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:0:ccc::2,AAAA,"['2606:4700:3035::6815:3685', '2606:4700:3033::ac43:8acf']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2400:3200::1,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,180.76.76.76,A,['128.121.243.235'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apachehaus.com on server: 2400:da00::6666
+2024-11-14T09:01:35.730466,apkmirror.com,223.5.5.5,A,['128.242.240.212'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:0:ccd::2,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,223.6.6.6,A,['108.160.169.171'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:119:53::53,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,94.140.14.14,A,['108.160.162.109'],,
+2024-11-14T09:01:35.730466,apkmirror.com,94.140.15.15,A,['199.59.149.244'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:119:35::35,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2620:fe::10,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,123.125.81.6,A,['199.59.148.202'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3120::3', '2a06:98c1:3121::3']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,117.50.11.11,A,['75.126.135.131'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2620:119:35::35,AAAA,['2001::a27d:2002'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2a03:90c0:9992::1,AAAA,"['2606:4700:3035::6815:3685', '2606:4700:3033::ac43:8acf']",,
+2024-11-14T09:01:35.730466,apachehaus.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3035::6815:3685', '2606:4700:3033::ac43:8acf']",,
+2024-11-14T09:01:35.730466,apkmirror.com,208.67.222.220,A,['122.10.85.4'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2606:4700:4700::1111,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apachelounge.com,2a03:90c0:999d::1,AAAA,['2a10:3781:2e1:1:494:425a:21ca:502'],,
+2024-11-14T09:01:35.730466,apkmirror.com,208.67.220.222,A,['31.13.96.194'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2606:4700:4700::1001,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2a0c:a9c7:9::1,AAAA,['2a03:2880:f129:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,208.67.222.222,A,['157.240.7.8'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2001:4860:4860::8888,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkmirror.com,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f10d:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,208.67.220.220,A,['128.242.240.221'],,
+2024-11-14T09:01:35.730466,apachehaus.com,2001:4860:4860::8844,AAAA,"['2606:4700:3033::ac43:8acf', '2606:4700:3035::6815:3685']",,
+2024-11-14T09:01:35.730466,apkcombo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 9.9.9.9
+2024-11-14T09:01:35.730466,apachefriends.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2402:4e00::
+2024-11-14T09:01:35.730466,apkmirror.com,2a10:50c0::ad1:ff,AAAA,['2001::c73b:9493'],,
+2024-11-14T09:01:35.730466,apkmirror.com,9.9.9.10,A,['128.121.146.109'],,
+2024-11-14T09:01:35.730466,apdcdn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apdcdn.com on server: 210.21.196.6
+2024-11-14T09:01:35.730466,apkmirror.com,195.208.5.1,A,['103.97.3.19'],,
+2024-11-14T09:01:35.730466,apachefriends.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.730466,apkmirror.com,2620:0:ccc::2,AAAA,['2a03:2880:f127:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.730466,apkmirror.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 101.226.4.7
+2024-11-14T09:01:35.730466,ap4r.com,2.56.220.2,A,[],NoAnswer,No answer for domain: ap4r.com on server: 2.56.220.2
+2024-11-14T09:01:35.730466,ap4r.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:fe::fe
+2024-11-14T09:01:35.730466,apkmirror.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 210.21.196.6
+2024-11-14T09:01:35.730466,apa.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.730466,apachetutor.org,208.67.220.220,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 208.67.220.220
+2024-11-14T09:01:35.730466,apkmirror.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 202.96.128.86
+2024-11-14T09:01:35.730466,apa.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.730466,apachetutor.org,123.125.81.6,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 123.125.81.6
+2024-11-14T09:01:35.730466,apachefriends.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:fe::10
+2024-11-14T09:01:35.730466,apache-ssl.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.730466,ap4r.com,62.76.76.62,A,[],NoAnswer,No answer for domain: ap4r.com on server: 62.76.76.62
+2024-11-14T09:01:35.730466,apa.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.730466,apachetutor.org,117.50.11.11,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 117.50.11.11
+2024-11-14T09:01:35.731465,apache-ssl.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.731465,ap4r.com,218.30.118.6,A,[],NoAnswer,No answer for domain: ap4r.com on server: 218.30.118.6
+2024-11-14T09:01:35.731465,aparat.com,1.1.1.1,A,"['185.147.178.11', '185.147.178.12', '185.147.178.13', '185.147.178.14']",,
+2024-11-14T09:01:35.731465,apa.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.731465,apa.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.731465,ap4r.com,211.136.17.107,A,[],NoAnswer,No answer for domain: ap4r.com on server: 211.136.17.107
+2024-11-14T09:01:35.731465,apachefriends.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.731465,apa.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.731465,apkmirror.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 123.125.81.7
+2024-11-14T09:01:35.731465,apachefriends.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.731465,ap4r.com,77.88.8.8,A,[],NoAnswer,No answer for domain: ap4r.com on server: 77.88.8.8
+2024-11-14T09:01:35.731465,apachetutor.org,211.136.17.107,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 211.136.17.107
+2024-11-14T09:01:35.731465,apache-ssl.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.731465,apkmirror.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 2400:da00::6666
+2024-11-14T09:01:35.731465,apachefriends.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.731465,ap4r.com,180.76.76.76,A,[],NoAnswer,No answer for domain: ap4r.com on server: 180.76.76.76
+2024-11-14T09:01:35.731465,apkmirror.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apkmirror.com on server: 9.9.9.9
+2024-11-14T09:01:35.731465,apa.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.731465,apachefriends.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.731465,apachefriends.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 2400:da00::6666
+2024-11-14T09:01:35.731465,aparat.com,8.8.4.4,A,"['185.147.178.12', '185.147.178.13', '185.147.178.14', '185.147.178.11']",,
+2024-11-14T09:01:35.731465,apache-ssl.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.731465,apache.org,2400:3200::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,apache.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apache.org on server: 2400:da00::6666
+2024-11-14T09:01:35.731465,apachetutor.org,62.76.76.62,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 62.76.76.62
+2024-11-14T09:01:35.731465,ap4r.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2402:4e00::
+2024-11-14T09:01:35.731465,apachefriends.org,2a02:6b8::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: apachefriends.org on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.731465,apache-ssl.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.731465,apachefriends.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:fe::fe
+2024-11-14T09:01:35.731465,ap4r.com,119.29.29.29,A,[],NoAnswer,No answer for domain: ap4r.com on server: 119.29.29.29
+2024-11-14T09:01:35.731465,ap4r.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2400:3200::1
+2024-11-14T09:01:35.731465,apachetutor.org,9.9.9.10,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 9.9.9.10
+2024-11-14T09:01:35.731465,apache-ssl.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.731465,apache.org,2a10:50c0::ad2:ff,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,apachetutor.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 101.226.4.7
+2024-11-14T09:01:35.731465,ap4r.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.731465,apa.org,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: apa.org on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.731465,ap4r.com,77.88.8.1,A,[],NoAnswer,No answer for domain: ap4r.com on server: 77.88.8.1
+2024-11-14T09:01:35.731465,apache-ssl.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.731465,apachetutor.org,101.226.4.6,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 101.226.4.6
+2024-11-14T09:01:35.731465,apachefriends.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.731465,ap4r.com,8.8.8.8,A,[],NoAnswer,No answer for domain: ap4r.com on server: 8.8.8.8
+2024-11-14T09:01:35.731465,apache.org,2620:0:ccc::2,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,223.6.6.6,A,[],NoAnswer,No answer for domain: ap4r.com on server: 223.6.6.6
+2024-11-14T09:01:35.731465,apa.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.731465,ap4r.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.731465,apa.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2400:3200::1
+2024-11-14T09:01:35.731465,ap4r.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.731465,apache.org,2a10:50c0::ad1:ff,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,apachetutor.org,218.30.118.6,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 218.30.118.6
+2024-11-14T09:01:35.731465,ap4r.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.731465,apachetutor.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 9.9.9.9
+2024-11-14T09:01:35.731465,ap4r.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ap4r.com on server: 2400:da00::6666
+2024-11-14T09:01:35.731465,apachefriends.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.731465,ap4r.com,208.67.220.222,A,[],NoAnswer,No answer for domain: ap4r.com on server: 208.67.220.222
+2024-11-14T09:01:35.731465,ap4r.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.731465,apache-ssl.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.731465,apachetutor.org,195.208.4.1,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 195.208.4.1
+2024-11-14T09:01:35.731465,apachefriends.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.731465,ap4r.com,114.114.115.115,A,[],NoAnswer,No answer for domain: ap4r.com on server: 114.114.115.115
+2024-11-14T09:01:35.731465,apachetutor.org,195.208.5.1,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 195.208.5.1
+2024-11-14T09:01:35.731465,apa.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2400:3200:baba::1
+2024-11-14T09:01:35.731465,apachefriends.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.731465,ap4r.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.731465,ap4r.com,1.0.0.1,A,[],NoAnswer,No answer for domain: ap4r.com on server: 1.0.0.1
+2024-11-14T09:01:35.731465,ap4r.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.731465,apache-ssl.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apache-ssl.org on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.731465,ap4r.com,223.5.5.5,A,[],NoAnswer,No answer for domain: ap4r.com on server: 223.5.5.5
+2024-11-14T09:01:35.731465,apachefriends.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.731465,ap4r.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.731465,apa.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:0:ccd::2
+2024-11-14T09:01:35.731465,apachefriends.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.731465,ap4r.com,114.114.114.114,A,[],NoAnswer,No answer for domain: ap4r.com on server: 114.114.114.114
+2024-11-14T09:01:35.731465,apachetutor.org,114.114.114.114,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 114.114.114.114
+2024-11-14T09:01:35.731465,ap4r.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.731465,apachetutor.org,94.140.15.15,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 94.140.15.15
+2024-11-14T09:01:35.731465,apachefriends.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.731465,ap4r.com,208.67.222.220,A,[],NoAnswer,No answer for domain: ap4r.com on server: 208.67.222.220
+2024-11-14T09:01:35.731465,apa.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2402:4e00::
+2024-11-14T09:01:35.731465,ap4r.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.731465,apa.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:fe::10
+2024-11-14T09:01:35.731465,apache.org,2400:3200:baba::1,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,apachetutor.org,62.76.62.76,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 62.76.62.76
+2024-11-14T09:01:35.731465,ap4r.com,9.9.9.10,A,[],NoAnswer,No answer for domain: ap4r.com on server: 9.9.9.10
+2024-11-14T09:01:35.731465,ap4r.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.731465,apa.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:fe::fe
+2024-11-14T09:01:35.731465,apache.org,2402:4e00::,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,195.208.5.1,A,[],NoAnswer,No answer for domain: ap4r.com on server: 195.208.5.1
+2024-11-14T09:01:35.731465,aparat.com,8.8.8.8,A,"['185.147.178.11', '185.147.178.12', '185.147.178.14', '185.147.178.13']",,
+2024-11-14T09:01:35.731465,ap4r.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:119:35::35
+2024-11-14T09:01:35.731465,apa.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:119:53::53
+2024-11-14T09:01:35.731465,apache.org,2620:119:53::53,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,208.67.220.220,A,[],NoAnswer,No answer for domain: ap4r.com on server: 208.67.220.220
+2024-11-14T09:01:35.731465,apachetutor.org,180.76.76.76,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 180.76.76.76
+2024-11-14T09:01:35.731465,ap4r.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:119:53::53
+2024-11-14T09:01:35.731465,apache.org,2620:0:ccd::2,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,1.1.1.1,A,[],NoAnswer,No answer for domain: ap4r.com on server: 1.1.1.1
+2024-11-14T09:01:35.731465,apachetutor.org,208.67.222.222,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 208.67.222.222
+2024-11-14T09:01:35.731465,ap4r.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.731465,apa.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.731465,apache.org,2620:fe::10,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,62.76.62.76,A,[],NoAnswer,No answer for domain: ap4r.com on server: 62.76.62.76
+2024-11-14T09:01:35.731465,apachetutor.org,208.67.220.222,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 208.67.220.222
+2024-11-14T09:01:35.731465,ap4r.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2620:fe::10
+2024-11-14T09:01:35.731465,apa.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.731465,apache.org,2620:119:35::35,AAAA,['2a04:4e42::644'],,
+2024-11-14T09:01:35.731465,ap4r.com,8.8.4.4,A,[],NoAnswer,No answer for domain: ap4r.com on server: 8.8.4.4
+2024-11-14T09:01:35.731465,apachetutor.org,94.140.14.14,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 94.140.14.14
+2024-11-14T09:01:35.731465,ap4r.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.731465,apachefriends.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:0:ccd::2
+2024-11-14T09:01:35.731465,ap4r.com,94.140.14.14,A,[],NoAnswer,No answer for domain: ap4r.com on server: 94.140.14.14
+2024-11-14T09:01:35.731465,apachetutor.org,223.6.6.6,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 223.6.6.6
+2024-11-14T09:01:35.731465,ap4r.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.731465,apa.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.731465,ap4r.com,208.67.222.222,A,[],NoAnswer,No answer for domain: ap4r.com on server: 208.67.222.222
+2024-11-14T09:01:35.731465,apachetutor.org,119.29.29.29,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 119.29.29.29
+2024-11-14T09:01:35.731465,ap4r.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.731465,apa.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.731465,apachefriends.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.731465,ap4r.com,95.85.95.85,A,[],NoAnswer,No answer for domain: ap4r.com on server: 95.85.95.85
+2024-11-14T09:01:35.731465,apachetutor.org,114.114.115.115,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 114.114.115.115
+2024-11-14T09:01:35.731465,ap4r.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.731465,apa.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:0:ccc::2
+2024-11-14T09:01:35.731465,apachefriends.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:0:ccc::2
+2024-11-14T09:01:35.731465,ap4r.com,195.208.4.1,A,[],NoAnswer,No answer for domain: ap4r.com on server: 195.208.4.1
+2024-11-14T09:01:35.732471,apachetutor.org,223.5.5.5,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 223.5.5.5
+2024-11-14T09:01:35.732471,apa.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2620:119:35::35
+2024-11-14T09:01:35.732471,apachefriends.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:119:35::35
+2024-11-14T09:01:35.732471,ap4r.com,94.140.15.15,A,[],NoAnswer,No answer for domain: ap4r.com on server: 94.140.15.15
+2024-11-14T09:01:35.732471,apachetutor.org,208.67.222.220,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 208.67.222.220
+2024-11-14T09:01:35.732471,ap4r.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ap4r.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.732471,apa.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apa.org on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.732471,apachefriends.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apachefriends.org on server: 2620:119:53::53
+2024-11-14T09:01:35.732471,apartments.com,208.67.222.222,A,['59.151.136.10'],,
+2024-11-14T09:01:35.732471,apachetutor.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.732471,apkmirror.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f12d:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apigee.net,101.226.4.6,A,[],NoAnswer,No answer for domain: apigee.net on server: 101.226.4.6
+2024-11-14T09:01:35.732471,apachetutor.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.732471,apkmirror.com,2001:6d0:d6::2001,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,ap4r.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ap4r.com on server: 202.96.128.86
+2024-11-14T09:01:35.732471,apigee.net,211.136.17.107,A,[],NoAnswer,No answer for domain: apigee.net on server: 211.136.17.107
+2024-11-14T09:01:35.732471,aparat.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:fe::fe
+2024-11-14T09:01:35.732471,apkmirror.com,2001:4860:4860::8844,AAAA,['2a03:2880:f131:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,9.9.9.10,A,['23.202.105.139'],,
+2024-11-14T09:01:35.732471,apigee.net,117.50.11.11,A,[],NoAnswer,No answer for domain: apigee.net on server: 117.50.11.11
+2024-11-14T09:01:35.732471,aparat.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.732471,apkcombo.com,2620:fe::10,AAAA,['2a03:2880:f12a:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,aparat.com,211.136.17.107,A,"['185.147.178.11', '185.147.178.14', '185.147.178.13', '185.147.178.12']",,
+2024-11-14T09:01:35.732471,aparat.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:01:35.732471,apkcombo.com,2a0c:a9c7:9::1,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,aparat.com,117.50.11.11,A,"['185.147.178.12', '185.147.178.11', '185.147.178.14', '185.147.178.13']",,
+2024-11-14T09:01:35.732471,apigee.net,123.125.81.6,A,[],NoAnswer,No answer for domain: apigee.net on server: 123.125.81.6
+2024-11-14T09:01:35.732471,ap4r.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ap4r.com on server: 210.21.196.6
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.732471,apkcombo.com,2620:fe::fe,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apachetutor.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2001:6d0:6d0::2001
+2024-11-14T09:01:35.732471,apartments.com,195.208.4.1,A,['23.56.9.3'],,
+2024-11-14T09:01:35.732471,apachetutor.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2001:6d0:d6::2001
+2024-11-14T09:01:35.732471,apkcombo.com,2a0c:a9c7:8::1,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,195.208.5.1,A,['23.32.25.67'],,
+2024-11-14T09:01:35.732471,apigee.net,208.67.220.220,A,[],NoAnswer,No answer for domain: apigee.net on server: 208.67.220.220
+2024-11-14T09:01:35.732471,aparat.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.732471,apkcombo.com,2620:0:ccc::2,AAAA,['2001::adfc:f8f4'],,
+2024-11-14T09:01:35.732471,apartments.com,62.76.76.62,A,['2.20.88.106'],,
+2024-11-14T09:01:35.732471,apigee.net,208.67.222.220,A,[],NoAnswer,No answer for domain: apigee.net on server: 208.67.222.220
+2024-11-14T09:01:35.732471,aparat.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.732471,apkcombo.com,2001:6d0:d6::2001,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,62.76.62.76,A,['23.32.25.67'],,
+2024-11-14T09:01:35.732471,apigee.net,77.88.8.1,A,[],NoAnswer,No answer for domain: apigee.net on server: 77.88.8.1
+2024-11-14T09:01:35.732471,aparat.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:119:53::53
+2024-11-14T09:01:35.732471,apartments.com,77.88.8.8,A,['104.109.133.183'],,
+2024-11-14T09:01:35.732471,apigee.net,62.76.76.62,A,[],NoAnswer,No answer for domain: apigee.net on server: 62.76.76.62
+2024-11-14T09:01:35.732471,aparat.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.732471,apkcombo.com,2620:119:35::35,AAAA,['2001::766b:b4d8'],,
+2024-11-14T09:01:35.732471,apachetutor.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 123.125.81.7
+2024-11-14T09:01:35.732471,apigee.net,208.67.222.222,A,[],NoAnswer,No answer for domain: apigee.net on server: 208.67.222.222
+2024-11-14T09:01:35.732471,apartments.com,77.88.8.1,A,['23.206.209.15'],,
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:119:35::35
+2024-11-14T09:01:35.732471,apachetutor.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 210.21.196.6
+2024-11-14T09:01:35.732471,apartments.com,95.85.95.85,A,['104.77.220.109'],,
+2024-11-14T09:01:35.732471,ap4r.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ap4r.com on server: 9.9.9.9
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.732471,apigee.net,195.208.4.1,A,[],NoAnswer,No answer for domain: apigee.net on server: 195.208.4.1
+2024-11-14T09:01:35.732471,apkmirror.com,2001:6d0:6d0::2001,AAAA,['2a03:2880:f10e:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apigee.net,94.140.14.14,A,[],NoAnswer,No answer for domain: apigee.net on server: 94.140.14.14
+2024-11-14T09:01:35.732471,apartments.com,2.56.220.2,A,['23.54.56.97'],,
+2024-11-14T09:01:35.732471,apartments.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:119:53::53
+2024-11-14T09:01:35.732471,apachetutor.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.732471,apkcombo.com,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,aparat.com,123.125.81.6,A,['47.75.69.19'],,
+2024-11-14T09:01:35.732471,apa.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apa.org on server: 2400:da00::6666
+2024-11-14T09:01:35.732471,apachetutor.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2402:4e00::
+2024-11-14T09:01:35.732471,apartments.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:0:ccc::2
+2024-11-14T09:01:35.732471,apkcombo.com,2400:3200:baba::1,AAAA,['2a03:2880:f10d:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,aparat.com,101.226.4.6,A,['47.75.69.19'],,
+2024-11-14T09:01:35.732471,apigee.net,208.67.220.222,A,[],NoAnswer,No answer for domain: apigee.net on server: 208.67.220.222
+2024-11-14T09:01:35.732471,apigee.net,62.76.62.76,A,[],NoAnswer,No answer for domain: apigee.net on server: 62.76.62.76
+2024-11-14T09:01:35.732471,apkcombo.com,2400:3200::1,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,aparat.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.732471,apartments.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.732471,apigee.net,9.9.9.10,A,[],NoAnswer,No answer for domain: apigee.net on server: 9.9.9.10
+2024-11-14T09:01:35.732471,apartments.com,114.114.115.115,A,['23.195.109.37'],,
+2024-11-14T09:01:35.732471,apkmirror.com,2606:4700:4700::1111,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,223.5.5.5,A,['104.71.48.124'],,
+2024-11-14T09:01:35.732471,aparat.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2620:fe::10
+2024-11-14T09:01:35.732471,apigee.net,94.140.15.15,A,[],NoAnswer,No answer for domain: apigee.net on server: 94.140.15.15
+2024-11-14T09:01:35.732471,apkmirror.com,2a03:90c0:9992::1,AAAA,['2001::c73b:95eb'],,
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a03:90c0:999d::1
+2024-11-14T09:01:35.732471,apachetutor.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.732471,apartments.com,94.140.15.15,A,['23.213.37.49'],,
+2024-11-14T09:01:35.732471,aparat.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.732471,apkcombo.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,114.114.114.114,A,['23.195.109.37'],,
+2024-11-14T09:01:35.732471,apigee.net,114.114.114.114,A,[],NoAnswer,No answer for domain: apigee.net on server: 114.114.114.114
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a03:90c0:9992::1
+2024-11-14T09:01:35.732471,apigee.net,114.114.115.115,A,[],NoAnswer,No answer for domain: apigee.net on server: 114.114.115.115
+2024-11-14T09:01:35.732471,apkmirror.com,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f12d:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.732471,apartments.com,1.1.1.1,A,['23.195.109.37'],,
+2024-11-14T09:01:35.732471,apigee.net,223.5.5.5,A,[],NoAnswer,No answer for domain: apigee.net on server: 223.5.5.5
+2024-11-14T09:01:35.732471,apachetutor.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a10:50c0::ad1:ff
+2024-11-14T09:01:35.732471,aparat.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aparat.com on server: 2606:4700:4700::1111
+2024-11-14T09:01:35.732471,apkmirror.com,2001:4860:4860::8888,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2606:4700:4700::1001
+2024-11-14T09:01:35.732471,apartments.com,1.0.0.1,A,['23.48.40.186'],,
+2024-11-14T09:01:35.732471,apigee.net,195.208.5.1,A,[],NoAnswer,No answer for domain: apigee.net on server: 195.208.5.1
+2024-11-14T09:01:35.732471,apkcombo.com,2620:119:53::53,AAAA,['2a03:2880:f10c:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apartments.com,8.8.8.8,A,['23.195.109.37'],,
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:01:35.732471,apartments.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:0:ccd::2
+2024-11-14T09:01:35.732471,apkcombo.com,2620:0:ccd::2,AAAA,['2001::6ca0:a21f'],,
+2024-11-14T09:01:35.732471,apartments.com,8.8.4.4,A,['23.195.109.37'],,
+2024-11-14T09:01:35.732471,apigee.net,119.29.29.29,A,[],NoAnswer,No answer for domain: apigee.net on server: 119.29.29.29
+2024-11-14T09:01:35.732471,apachetutor.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:fe::10
+2024-11-14T09:01:35.732471,apartments.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2620:119:35::35
+2024-11-14T09:01:35.732471,apkcombo.com,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apachetutor.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:0:ccd::2
+2024-11-14T09:01:35.732471,apkcombo.com,8.8.8.8,A,['69.171.247.32'],,
+2024-11-14T09:01:35.732471,apachetutor.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2400:3200:baba::1
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2001:4860:4860::8844
+2024-11-14T09:01:35.732471,apkcombo.com,2a10:50c0::ad1:ff,AAAA,['2001::c73b:95cb'],,
+2024-11-14T09:01:35.732471,apachetutor.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 202.96.128.86
+2024-11-14T09:01:35.732471,apigee.net,223.6.6.6,A,[],NoAnswer,No answer for domain: apigee.net on server: 223.6.6.6
+2024-11-14T09:01:35.732471,apachetutor.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:119:53::53
+2024-11-14T09:01:35.732471,apartments.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apartments.com on server: 9.9.9.9
+2024-11-14T09:01:35.732471,apkmirror.com,2a03:90c0:999d::1,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T09:01:35.732471,apigee.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apigee.net on server: 123.125.81.7
+2024-11-14T09:01:35.732471,apachetutor.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:0:ccc::2
+2024-11-14T09:01:35.732471,apartmenttherapy.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: apartmenttherapy.com on server: 2001:4860:4860::8888
+2024-11-14T09:01:35.732471,apachetutor.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2a02:6b8::feed:0ff
+2024-11-14T09:01:35.732471,apartments.com,208.67.222.220,A,['59.151.136.10'],,
+2024-11-14T09:01:35.732471,apigee.net,180.76.76.76,A,[],NoAnswer,No answer for domain: apigee.net on server: 180.76.76.76
+2024-11-14T09:01:35.732471,apachetutor.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:fe::fe
+2024-11-14T09:01:35.732471,apartments.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2400:3200:baba::1
+2024-11-14T09:01:35.733466,apkmirror.com,2a0c:a9c7:8::1,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.733466,apartments.com,208.67.220.222,A,['96.16.116.112'],,
+2024-11-14T09:01:35.733466,apachetutor.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apachetutor.org on server: 2400:da00::6666
+2024-11-14T09:01:35.733466,apachetutor.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2400:3200::1
+2024-11-14T09:01:35.733466,apartments.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2402:4e00::
+2024-11-14T09:01:35.733466,apkmirror.com,2606:4700:4700::1001,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.733466,apartments.com,94.140.14.14,A,['23.204.249.65'],,
+2024-11-14T09:01:35.733466,apigee.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apigee.net on server: 9.9.9.9
+2024-11-14T09:01:35.733466,aparat.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aparat.com on server: 123.125.81.7
+2024-11-14T09:01:35.733466,apartments.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:01:35.733466,apkcombo.com,2402:4e00::,AAAA,['2a03:2880:f10a:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.733466,apartments.com,208.67.220.220,A,['23.48.40.186'],,
+2024-11-14T09:01:35.733466,apachetutor.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: apachetutor.org on server: 2620:119:35::35
+2024-11-14T09:01:35.733466,apartments.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: apartments.com on server: 2400:3200::1
+2024-11-14T09:01:35.733466,apkcombo.com,2001:6d0:6d0::2001,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T09:01:35.733466,apigee.net,218.30.118.6,A,[],NoAnswer,No answer for domain: apigee.net on server: 218.30.118.6
+2024-11-14T09:01:35.733466,apachefriends.org,2.56.220.2,A,"['185.199.111.153', '185.199.110.153', '185.199.108.153', '185.199.109.153']",,
+2024-11-14T09:01:35.733466,apachetoday.com,123.125.81.6,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartments.com,180.76.76.76,A,['23.213.37.49'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,1.1.1.1,A,"['151.101.194.49', '151.101.66.49', '151.101.130.49', '151.101.2.49']",,
+2024-11-14T09:01:35.733466,aparat.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aparat.com on server: 101.226.4.7
+2024-11-14T09:01:35.733466,apachefriends.org,77.88.8.8,A,"['185.199.110.153', '185.199.108.153', '185.199.111.153', '185.199.109.153']",,
+2024-11-14T09:01:35.733466,apachefriends.org,95.85.95.85,A,"['185.199.108.153', '185.199.109.153', '185.199.111.153', '185.199.110.153']",,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,62.76.62.76,A,"['151.101.2.49', '151.101.130.49', '151.101.194.49', '151.101.66.49']",,
+2024-11-14T09:01:35.733466,apache.org,117.50.11.11,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,195.208.4.1,A,"['151.101.2.49', '151.101.66.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apachetoday.com,211.136.17.107,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,195.208.5.1,A,"['151.101.2.49', '151.101.66.49', '151.101.194.49', '151.101.130.49']",,
+2024-11-14T09:01:35.733466,apachetoday.com,117.50.11.11,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartments.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apartments.com on server: 2400:da00::6666
+2024-11-14T09:01:35.733466,apigee.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apigee.net on server: 101.226.4.7
+2024-11-14T09:01:35.733466,apkcombo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: apkcombo.com on server: 2400:da00::6666
+2024-11-14T09:01:35.733466,apartmenttherapy.com,9.9.9.10,A,"['151.101.2.49', '151.101.66.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apache.org,208.67.220.220,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apigee.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apigee.net on server: 202.96.128.86
+2024-11-14T09:01:35.733466,apartmenttherapy.com,208.67.222.222,A,"['151.101.66.49', '151.101.130.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.733466,apache.org,114.114.115.115,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,94.140.14.14,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,95.85.95.85,A,"['151.101.66.49', '151.101.130.49', '151.101.2.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apache.org,180.76.76.76,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,218.30.118.6,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,2.56.220.2,A,"['151.101.2.49', '151.101.66.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apache.org,218.30.118.6,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetutor.org,77.88.8.8,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 77.88.8.8
+2024-11-14T09:01:35.733466,apartmenttherapy.com,208.67.220.220,A,"['151.101.2.49', '151.101.66.49', '151.101.130.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apachetoday.com,94.140.15.15,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,208.67.222.220,A,"['151.101.130.49', '151.101.194.49', '151.101.2.49', '151.101.66.49']",,
+2024-11-14T09:01:35.733466,apachefriends.org,1.0.0.1,A,"['185.199.111.153', '185.199.110.153', '185.199.108.153', '185.199.109.153']",,
+2024-11-14T09:01:35.733466,apachetutor.org,8.8.8.8,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 8.8.8.8
+2024-11-14T09:01:35.733466,apartmenttherapy.com,77.88.8.8,A,"['151.101.194.49', '151.101.66.49', '151.101.2.49', '151.101.130.49']",,
+2024-11-14T09:01:35.733466,apigee.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apigee.net on server: 210.21.196.6
+2024-11-14T09:01:35.733466,apachetutor.org,2.56.220.2,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 2.56.220.2
+2024-11-14T09:01:35.733466,apartmenttherapy.com,77.88.8.1,A,"['151.101.66.49', '151.101.130.49', '151.101.2.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apachefriends.org,8.8.4.4,A,"['185.199.109.153', '185.199.111.153', '185.199.110.153', '185.199.108.153']",,
+2024-11-14T09:01:35.733466,apachetoday.com,114.114.114.114,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartments.com,223.6.6.6,A,['23.195.109.37'],,
+2024-11-14T09:01:35.733466,apachefriends.org,1.1.1.1,A,"['185.199.111.153', '185.199.108.153', '185.199.110.153', '185.199.109.153']",,
+2024-11-14T09:01:35.733466,apache.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apache.org on server: 9.9.9.9
+2024-11-14T09:01:35.733466,apartments.com,119.29.29.29,A,['23.195.109.37'],,
+2024-11-14T09:01:35.733466,apache.org,211.136.17.107,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,208.67.220.222,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apache.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apache.org on server: 123.125.81.7
+2024-11-14T09:01:35.733466,apachefriends.org,8.8.8.8,A,"['185.199.109.153', '185.199.110.153', '185.199.111.153', '185.199.108.153']",,
+2024-11-14T09:01:35.733466,apachetoday.com,223.6.6.6,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: apartmenttherapy.com on server: 9.9.9.9
+2024-11-14T09:01:35.733466,apartments.com,218.30.118.6,A,['23.37.17.136'],,
+2024-11-14T09:01:35.733466,apache.org,9.9.9.10,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apartments.com,211.136.17.107,A,['23.195.145.159'],,
+2024-11-14T09:01:35.733466,apache.org,119.29.29.29,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apache.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apache.org on server: 202.96.128.86
+2024-11-14T09:01:35.733466,apachetutor.org,1.0.0.1,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 1.0.0.1
+2024-11-14T09:01:35.733466,apartments.com,117.50.11.11,A,['104.71.48.124'],,
+2024-11-14T09:01:35.733466,apachetoday.com,208.67.222.220,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apache.org,101.226.4.6,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apache.org,114.114.114.114,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,223.5.5.5,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartments.com,123.125.81.6,A,['104.71.48.124'],,
+2024-11-14T09:01:35.733466,apartments.com,101.226.4.6,A,['104.71.48.124'],,
+2024-11-14T09:01:35.733466,apachetoday.com,208.67.220.220,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,8.8.4.4,A,"['151.101.66.49', '151.101.130.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.733466,apache.org,123.125.81.6,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,101.226.4.6,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apartmenttherapy.com,208.67.220.222,A,"['151.101.66.49', '151.101.130.49', '151.101.194.49', '151.101.2.49']",,
+2024-11-14T09:01:35.733466,apache.org,94.140.14.14,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetutor.org,95.85.95.85,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 95.85.95.85
+2024-11-14T09:01:35.733466,apartmenttherapy.com,8.8.8.8,A,"['151.101.130.49', '151.101.66.49', '151.101.2.49', '151.101.194.49']",,
+2024-11-14T09:01:35.733466,apache.org,94.140.15.15,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,119.29.29.29,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apachetutor.org,77.88.8.1,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 77.88.8.1
+2024-11-14T09:01:35.733466,apache.org,208.67.220.222,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetutor.org,8.8.4.4,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 8.8.4.4
+2024-11-14T09:01:35.733466,apartmenttherapy.com,62.76.76.62,A,"['151.101.194.49', '151.101.66.49', '151.101.130.49', '151.101.2.49']",,
+2024-11-14T09:01:35.733466,apache.org,208.67.222.222,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,114.114.115.115,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apachetoday.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 101.226.4.7
+2024-11-14T09:01:35.733466,apache.org,223.5.5.5,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetutor.org,1.1.1.1,A,[],NoAnswer,No answer for domain: apachetutor.org on server: 1.1.1.1
+2024-11-14T09:01:35.733466,apache.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apache.org on server: 210.21.196.6
+2024-11-14T09:01:35.733466,apache.org,223.6.6.6,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,180.76.76.76,A,['144.76.147.217'],,
+2024-11-14T09:01:35.733466,apache.org,208.67.222.220,A,['151.101.2.132'],,
+2024-11-14T09:01:35.733466,apachetoday.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 202.96.128.86
+2024-11-14T09:01:35.733466,apartmenttherapy.com,1.0.0.1,A,"['151.101.194.49', '151.101.2.49', '151.101.66.49', '151.101.130.49']",,
+2024-11-14T09:01:35.733466,apartments.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apartments.com on server: 210.21.196.6
+2024-11-14T09:01:35.733466,apachetoday.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 123.125.81.7
+2024-11-14T09:01:35.733466,apache.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apache.org on server: 101.226.4.7
+2024-11-14T09:01:35.733466,apartments.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: apartments.com on server: 123.125.81.7
+2024-11-14T09:01:35.733466,apartments.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: apartments.com on server: 101.226.4.7
+2024-11-14T09:01:35.733466,apartments.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: apartments.com on server: 202.96.128.86
+2024-11-14T09:01:35.733466,apachetoday.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: apachetoday.com on server: 210.21.196.6

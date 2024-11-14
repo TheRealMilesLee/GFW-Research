@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T10:07:39.027614,asuracomic.net,2620:0:ccd::2,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.027614,assets-yammer.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2402:4e00::
+2024-11-14T10:07:39.027614,asuracomic.net,2620:0:ccc::2,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.027614,astro.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.027614,asm.org,2.56.220.2,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,at-o.net,195.208.5.1,A,[],NoAnswer,No answer for domain: at-o.net on server: 195.208.5.1
+2024-11-14T10:07:39.027614,asuratoon.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.027614,at-o.net,195.208.4.1,A,[],NoAnswer,No answer for domain: at-o.net on server: 195.208.4.1
+2024-11-14T10:07:39.027614,assets-yammer.com,119.29.29.29,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 119.29.29.29
+2024-11-14T10:07:39.027614,astro.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.027614,asm.org,77.88.8.8,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asuracomic.net,2620:119:53::53,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.027614,astro.com,195.208.4.1,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,asm.org,208.67.220.222,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asriran.com,119.29.29.29,A,['94.182.146.114'],,
+2024-11-14T10:07:39.027614,astro.com,1.0.0.1,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,astro.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:119:53::53
+2024-11-14T10:07:39.027614,astro.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.027614,asuratoon.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.027614,assets-yammer.com,114.114.114.114,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 114.114.114.114
+2024-11-14T10:07:39.027614,at-o.net,62.76.76.62,A,[],NoAnswer,No answer for domain: at-o.net on server: 62.76.76.62
+2024-11-14T10:07:39.027614,asm.org,94.140.14.14,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asuracomic.net,2620:119:35::35,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.027614,asriran.com,2.56.220.2,A,['94.182.146.114'],,
+2024-11-14T10:07:39.027614,at-o.net,62.76.62.76,A,[],NoAnswer,No answer for domain: at-o.net on server: 62.76.62.76
+2024-11-14T10:07:39.027614,assets-yammer.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2400:3200::1
+2024-11-14T10:07:39.027614,asuracomic.net,2620:fe::10,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.027614,at-o.net,77.88.8.8,A,[],NoAnswer,No answer for domain: at-o.net on server: 77.88.8.8
+2024-11-14T10:07:39.027614,assets-yammer.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.027614,astro.com,62.76.62.76,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,at-o.net,77.88.8.1,A,[],NoAnswer,No answer for domain: at-o.net on server: 77.88.8.1
+2024-11-14T10:07:39.027614,asm.org,208.67.222.222,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asuracomic.net,2a0c:a9c7:9::1,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.027614,assets-yammer.com,117.50.11.11,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 117.50.11.11
+2024-11-14T10:07:39.027614,at-o.net,123.125.81.6,A,[],NoAnswer,No answer for domain: at-o.net on server: 123.125.81.6
+2024-11-14T10:07:39.027614,assets-yammer.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.027614,asuracomic.net,2620:fe::fe,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.027614,asm.org,208.67.222.220,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,at-o.net,101.226.4.6,A,[],NoAnswer,No answer for domain: at-o.net on server: 101.226.4.6
+2024-11-14T10:07:39.027614,assets-yammer.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.027614,astro.com,95.85.95.85,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,asm.org,195.208.5.1,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asuracomic.net,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3120::1', '2a06:98c1:3121::1']",,
+2024-11-14T10:07:39.027614,astro.com,62.76.76.62,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,at-o.net,211.136.17.107,A,[],NoAnswer,No answer for domain: at-o.net on server: 211.136.17.107
+2024-11-14T10:07:39.027614,astro.com,208.67.222.222,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,astro.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.027614,asuracomic.net,2402:4e00::,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.027614,asm.org,9.9.9.10,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,at-o.net,117.50.11.11,A,[],NoAnswer,No answer for domain: at-o.net on server: 117.50.11.11
+2024-11-14T10:07:39.027614,astro.com,77.88.8.8,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,astro.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.027614,assets-yammer.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 210.21.196.6
+2024-11-14T10:07:39.027614,at-o.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: at-o.net on server: 123.125.81.7
+2024-11-14T10:07:39.027614,asm.org,208.67.220.220,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,at-o.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: at-o.net on server: 101.226.4.7
+2024-11-14T10:07:39.027614,asriran.com,195.208.4.1,A,['94.182.146.114'],,
+2024-11-14T10:07:39.027614,assets-yammer.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 2400:da00::6666
+2024-11-14T10:07:39.027614,at-o.net,218.30.118.6,A,[],NoAnswer,No answer for domain: at-o.net on server: 218.30.118.6
+2024-11-14T10:07:39.027614,asuracomic.net,2606:4700:4700::1111,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.027614,astro.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.027614,assets-yammer.com,223.5.5.5,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 223.5.5.5
+2024-11-14T10:07:39.027614,astro.com,77.88.8.1,A,['192.53.104.242'],,
+2024-11-14T10:07:39.027614,asm.org,62.76.76.62,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,asriran.com,77.88.8.8,A,['94.182.146.114'],,
+2024-11-14T10:07:39.027614,asuracomic.net,2001:4860:4860::8844,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.027614,asriran.com,62.76.76.62,A,['94.182.146.114'],,
+2024-11-14T10:07:39.027614,assets-yammer.com,223.6.6.6,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 223.6.6.6
+2024-11-14T10:07:39.027614,astro.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.027614,asm.org,195.208.4.1,A,['23.23.98.209'],,
+2024-11-14T10:07:39.027614,astro.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: astro.com on server: 9.9.9.9
+2024-11-14T10:07:39.027614,astro.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.027614,asm.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asm.org on server: 9.9.9.9
+2024-11-14T10:07:39.027614,at-o.net,119.29.29.29,A,[],NoAnswer,No answer for domain: at-o.net on server: 119.29.29.29
+2024-11-14T10:07:39.028614,asriran.com,208.67.220.220,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,asuracomic.net,2001:4860:4860::8888,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.028614,asm.org,8.8.8.8,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,asriran.com,195.208.5.1,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,assets-yammer.com,114.114.115.115,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 114.114.115.115
+2024-11-14T10:07:39.028614,at-o.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: at-o.net on server: 210.21.196.6
+2024-11-14T10:07:39.028614,at-o.net,180.76.76.76,A,[],NoAnswer,No answer for domain: at-o.net on server: 180.76.76.76
+2024-11-14T10:07:39.028614,astro.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.028614,asuracomic.net,2001:6d0:d6::2001,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.028614,asuracomic.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 2400:da00::6666
+2024-11-14T10:07:39.028614,asm.org,77.88.8.1,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,at-o.net,223.5.5.5,A,[],NoAnswer,No answer for domain: at-o.net on server: 223.5.5.5
+2024-11-14T10:07:39.028614,assets-yammer.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.028614,asm.org,62.76.62.76,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,asriran.com,9.9.9.10,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,1.1.1.1,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,at-o.net,223.6.6.6,A,[],NoAnswer,No answer for domain: at-o.net on server: 223.6.6.6
+2024-11-14T10:07:39.028614,assets-yammer.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.028614,asuracomic.net,2606:4700:4700::1001,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.028614,astro.com,9.9.9.10,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,askubuntu.com,101.226.4.6,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.028614,astro.com,8.8.4.4,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,at-o.net,114.114.114.114,A,[],NoAnswer,No answer for domain: at-o.net on server: 114.114.114.114
+2024-11-14T10:07:39.028614,asriran.com,208.67.222.222,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.028614,asuracomic.net,2001:6d0:6d0::2001,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.028614,asriran.com,223.6.6.6,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,195.208.5.1,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,at-o.net,114.114.115.115,A,[],NoAnswer,No answer for domain: at-o.net on server: 114.114.115.115
+2024-11-14T10:07:39.028614,astro.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.028614,asuracomic.net,2a03:90c0:999d::1,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,asm.org,1.1.1.1,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,asriran.com,62.76.62.76,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.028614,at-o.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T10:07:39.028614,astro.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.028614,asuracomic.net,2a03:90c0:9992::1,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,asm.org,95.85.95.85,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,asriran.com,223.5.5.5,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,8.8.8.8,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,at-o.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T10:07:39.028614,astro.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.028614,at-o.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: at-o.net on server: 202.96.128.86
+2024-11-14T10:07:39.028614,asuracomic.net,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3032::ac43:de32', '2606:4700:3032::6815:360b']",,
+2024-11-14T10:07:39.028614,asm.org,8.8.4.4,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,assets-yammer.com,101.226.4.6,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 101.226.4.6
+2024-11-14T10:07:39.028614,at-o.net,208.67.222.220,A,[],NoAnswer,No answer for domain: at-o.net on server: 208.67.222.220
+2024-11-14T10:07:39.028614,asriran.com,208.67.222.220,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,astro.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:fe::10
+2024-11-14T10:07:39.028614,asu.edu,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asu.edu on server: 2400:da00::6666
+2024-11-14T10:07:39.028614,asm.org,1.0.0.1,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,askubuntu.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 101.226.4.7
+2024-11-14T10:07:39.028614,asuracomic.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,at-o.net,208.67.220.222,A,[],NoAnswer,No answer for domain: at-o.net on server: 208.67.220.222
+2024-11-14T10:07:39.028614,astro.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:119:35::35
+2024-11-14T10:07:39.028614,asuracomic.net,2400:3200:baba::1,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,assets-yammer.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 202.96.128.86
+2024-11-14T10:07:39.028614,assets-yammer.com,218.30.118.6,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 218.30.118.6
+2024-11-14T10:07:39.028614,at-o.net,208.67.222.222,A,[],NoAnswer,No answer for domain: at-o.net on server: 208.67.222.222
+2024-11-14T10:07:39.028614,asriran.com,94.140.14.14,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,askubuntu.com,117.50.11.11,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.028614,asriran.com,208.67.220.222,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,askubuntu.com,123.125.81.6,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.028614,asu.edu,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2402:4e00::
+2024-11-14T10:07:39.028614,assets-yammer.com,211.136.17.107,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 211.136.17.107
+2024-11-14T10:07:39.028614,at-o.net,208.67.220.220,A,[],NoAnswer,No answer for domain: at-o.net on server: 208.67.220.220
+2024-11-14T10:07:39.028614,asriran.com,77.88.8.1,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,asuracomic.net,2400:3200::1,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,astro.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2620:fe::fe
+2024-11-14T10:07:39.028614,asriran.com,94.140.15.15,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,asm.org,114.114.115.115,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,assets-yammer.com,180.76.76.76,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 180.76.76.76
+2024-11-14T10:07:39.028614,assets-yammer.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:119:35::35
+2024-11-14T10:07:39.028614,at-o.net,9.9.9.10,A,[],NoAnswer,No answer for domain: at-o.net on server: 9.9.9.10
+2024-11-14T10:07:39.028614,asm.org,114.114.114.114,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,asuracomic.net,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,astro.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.028614,astro.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.028614,asuracomic.net,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3032::6815:360b', '2606:4700:3032::ac43:de32']",,
+2024-11-14T10:07:39.028614,asriran.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asriran.com on server: 9.9.9.9
+2024-11-14T10:07:39.028614,asriran.com,114.114.114.114,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,asriran.com,114.114.115.115,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,assets-yammer.com,123.125.81.6,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 123.125.81.6
+2024-11-14T10:07:39.028614,asm.org,94.140.15.15,A,['23.23.98.209'],,
+2024-11-14T10:07:39.028614,assets-yammer.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:119:53::53
+2024-11-14T10:07:39.028614,assets-yammer.com,77.88.8.1,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 77.88.8.1
+2024-11-14T10:07:39.028614,athemes.com,77.88.8.8,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.028614,astro.com,2.56.220.2,A,['192.53.104.242'],,
+2024-11-14T10:07:39.028614,asuscomm.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.028614,asos.com,208.67.220.222,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.028614,asos.com,2a03:90c0:999d::1,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.028614,athemes.com,8.8.8.8,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.028614,asriran.com,123.125.81.6,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,at-o.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:119:35::35
+2024-11-14T10:07:39.028614,asos.com,2a03:90c0:9992::1,AAAA,"['2600:1413:b000:1d::17d1:2e86', '2600:1413:b000:1d::17d1:2e8f']",,
+2024-11-14T10:07:39.028614,asriran.com,101.226.4.6,A,['94.182.146.114'],,
+2024-11-14T10:07:39.028614,askubuntu.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 123.125.81.7
+2024-11-14T10:07:39.028614,asos.com,2606:4700:4700::1111,AAAA,"['2600:1406:4e00:b::17dc:4bab', '2600:1406:4e00:b::17dc:4bb6']",,
+2024-11-14T10:07:39.028614,at-o.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.028614,asp-frontier.net,8.8.8.8,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 8.8.8.8
+2024-11-14T10:07:39.028614,assets-yammer.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 101.226.4.7
+2024-11-14T10:07:39.028614,asos.com,2606:4700:4700::1001,AAAA,"['2600:1406:4e00:b::17dc:4bab', '2600:1406:4e00:b::17dc:4bb6']",,
+2024-11-14T10:07:39.028614,at-o.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.028614,asp-frontier.net,62.76.62.76,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 62.76.62.76
+2024-11-14T10:07:39.028614,assets-yammer.com,1.1.1.1,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 1.1.1.1
+2024-11-14T10:07:39.028614,athemes.com,208.67.220.222,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.028614,asos.com,2a10:50c0::ad2:ff,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.028614,asos.com,101.226.4.6,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.028614,assets-yammer.com,8.8.8.8,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 8.8.8.8
+2024-11-14T10:07:39.028614,athemes.com,94.140.14.14,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.028614,asos.com,2a10:50c0::ad1:ff,AAAA,"['2600:1406:4e00:b::17dc:4bab', '2600:1406:4e00:b::17dc:4bb6']",,
+2024-11-14T10:07:39.028614,assets-yammer.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 123.125.81.7
+2024-11-14T10:07:39.028614,asos.com,117.50.11.11,A,"['23.43.50.198', '23.43.50.200']",,
+2024-11-14T10:07:39.028614,assets-yammer.com,8.8.4.4,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 8.8.4.4
+2024-11-14T10:07:39.028614,athemes.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: athemes.com on server: 2400:da00::6666
+2024-11-14T10:07:39.028614,athemes.com,208.67.220.220,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.028614,asos.com,123.125.81.6,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.028614,at-o.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: at-o.net on server: 9.9.9.9
+2024-11-14T10:07:39.029616,asos.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asos.com on server: 123.125.81.7
+2024-11-14T10:07:39.029616,asos.com,2400:3200:baba::1,AAAA,"['2600:1413:1::173b:a8a1', '2600:1413:1::173b:a8ab', '2600:1413:1::1734:ab40', '2600:1413:1::1734:ab39', '2600:1413:1::173b:a89b']",,
+2024-11-14T10:07:39.029616,at-o.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:119:53::53
+2024-11-14T10:07:39.029616,athemes.com,208.67.222.220,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asp-frontier.net,195.208.4.1,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 195.208.4.1
+2024-11-14T10:07:39.029616,athemes.com,208.67.222.222,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.029616,asos.com,2001:4860:4860::8888,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.029616,asuscomm.com,2620:119:53::53,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2620:119:53::53
+2024-11-14T10:07:39.029616,asp-frontier.net,195.208.5.1,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 195.208.5.1
+2024-11-14T10:07:39.029616,asos.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asos.com on server: 101.226.4.7
+2024-11-14T10:07:39.029616,assets-yammer.com,94.140.14.14,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 94.140.14.14
+2024-11-14T10:07:39.029616,asos.com,2001:4860:4860::8844,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.029616,aternos.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aternos.org on server: 123.125.81.7
+2024-11-14T10:07:39.029616,asp-frontier.net,77.88.8.1,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 77.88.8.1
+2024-11-14T10:07:39.029616,asriran.com,180.76.76.76,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,asm.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2402:4e00::
+2024-11-14T10:07:39.029616,at-o.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.029616,aternos.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aternos.org on server: 101.226.4.7
+2024-11-14T10:07:39.029616,assets-yammer.com,208.67.220.222,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 208.67.220.222
+2024-11-14T10:07:39.029616,asp-frontier.net,62.76.76.62,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 62.76.76.62
+2024-11-14T10:07:39.029616,asuscomm.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 2400:da00::6666
+2024-11-14T10:07:39.029616,aternos.org,123.125.81.6,A,[],NoNameservers,No nameservers for domain: aternos.org on server: 123.125.81.6
+2024-11-14T10:07:39.029616,aternos.org,101.226.4.6,A,"['104.22.14.163', '172.67.11.64', '104.22.15.163']",,
+2024-11-14T10:07:39.029616,at-o.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.029616,asos.com,94.140.15.15,A,"['23.43.51.17', '23.43.51.8', '23.43.51.13']",,
+2024-11-14T10:07:39.029616,asm.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2400:3200::1
+2024-11-14T10:07:39.029616,at-o.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.029616,asos.com,94.140.14.14,A,"['23.43.51.8', '23.43.51.13', '23.43.51.17']",,
+2024-11-14T10:07:39.029616,asriran.com,211.136.17.107,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,asuscomm.com,2620:fe::fe,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2620:fe::fe
+2024-11-14T10:07:39.029616,asm.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2400:3200:baba::1
+2024-11-14T10:07:39.029616,asos.com,223.6.6.6,A,"['184.28.235.48', '184.28.235.75']",,
+2024-11-14T10:07:39.029616,asriran.com,117.50.11.11,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,athemes.com,9.9.9.10,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.029616,asos.com,2400:3200::1,AAAA,"['2600:1413:b000:1d::17d1:2e86', '2600:1413:b000:1d::17d1:2e8f']",,
+2024-11-14T10:07:39.029616,at-o.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.029616,asos.com,119.29.29.29,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.029616,asuscomm.com,2a10:50c0::ad2:ff,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.029616,asuscomm.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2400:3200::1
+2024-11-14T10:07:39.029616,assets-yammer.com,195.208.5.1,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 195.208.5.1
+2024-11-14T10:07:39.029616,assets-yammer.com,94.140.15.15,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 94.140.15.15
+2024-11-14T10:07:39.029616,asp-frontier.net,2.56.220.2,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2.56.220.2
+2024-11-14T10:07:39.029616,athemes.com,195.208.5.1,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asos.com,2001:6d0:6d0::2001,AAAA,"['2001:2030:22::3e73:fd62', '2001:2030:22::3e73:fd4b']",,
+2024-11-14T10:07:39.029616,asriran.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asriran.com on server: 123.125.81.7
+2024-11-14T10:07:39.029616,assets-yammer.com,1.0.0.1,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 1.0.0.1
+2024-11-14T10:07:39.029616,asp-frontier.net,77.88.8.8,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 77.88.8.8
+2024-11-14T10:07:39.029616,asos.com,2001:6d0:d6::2001,AAAA,"['2a02:2d8:0:7804::57f5:d1f7', '2a02:2d8:0:7804::57f5:d1df']",,
+2024-11-14T10:07:39.029616,asriran.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asriran.com on server: 101.226.4.7
+2024-11-14T10:07:39.029616,asp-frontier.net,1.0.0.1,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 1.0.0.1
+2024-11-14T10:07:39.029616,assets-yammer.com,77.88.8.8,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 77.88.8.8
+2024-11-14T10:07:39.029616,athemes.com,62.76.62.76,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asos.com,2a02:6b8::feed:0ff,AAAA,"['2001:2030:22::3e73:fd4b', '2001:2030:22::3e73:fd62']",,
+2024-11-14T10:07:39.029616,at-o.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.029616,asuscomm.com,2a10:50c0::ad1:ff,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.029616,asp-frontier.net,95.85.95.85,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 95.85.95.85
+2024-11-14T10:07:39.029616,athemes.com,195.208.4.1,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asos.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2001:2030:22::3e73:fd63', '2001:2030:22::3e73:fd73', '2001:2030:22::3e73:fd4b', '2001:2030:22::3e73:fd91']",,
+2024-11-14T10:07:39.029616,at-o.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:fe::fe
+2024-11-14T10:07:39.029616,asos.com,114.114.115.115,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.029616,asriran.com,218.30.118.6,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,asm.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asm.org on server: 2400:da00::6666
+2024-11-14T10:07:39.029616,athemes.com,77.88.8.1,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.029616,asos.com,2620:0:ccc::2,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.029616,asos.com,223.5.5.5,A,"['184.26.91.184', '104.84.150.133']",,
+2024-11-14T10:07:39.029616,assets-yammer.com,208.67.220.220,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 208.67.220.220
+2024-11-14T10:07:39.029616,at-o.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.029616,asos.com,2620:0:ccd::2,AAAA,"['2600:1413:b000:1d::17d1:2e86', '2600:1413:b000:1d::17d1:2e8f']",,
+2024-11-14T10:07:39.029616,athemes.com,62.76.76.62,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,at-o.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.029616,asp-frontier.net,8.8.4.4,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 8.8.4.4
+2024-11-14T10:07:39.029616,athemes.com,2.56.220.2,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.029616,assets-yammer.com,95.85.95.85,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 95.85.95.85
+2024-11-14T10:07:39.029616,asos.com,2620:fe::10,AAAA,"['2600:1406:5e00:8::17ce:e5df', '2600:1406:5e00:8::17ce:e5ec']",,
+2024-11-14T10:07:39.029616,asp-frontier.net,1.1.1.1,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 1.1.1.1
+2024-11-14T10:07:39.029616,at-o.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:fe::10
+2024-11-14T10:07:39.029616,assets-yammer.com,208.67.222.222,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 208.67.222.222
+2024-11-14T10:07:39.029616,asos.com,2620:119:53::53,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.029616,asos.com,218.30.118.6,A,"['184.28.235.48', '184.28.235.75']",,
+2024-11-14T10:07:39.029616,assets-yammer.com,208.67.222.220,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 208.67.222.220
+2024-11-14T10:07:39.029616,athemes.com,1.0.0.1,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asos.com,2620:fe::fe,AAAA,"['2600:1406:5e00:8::17ce:e5ec', '2600:1406:5e00:8::17ce:e5df']",,
+2024-11-14T10:07:39.029616,asuscomm.com,2620:0:ccd::2,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.029616,asos.com,211.136.17.107,A,"['23.209.46.212', '23.209.46.218']",,
+2024-11-14T10:07:39.029616,assets-yammer.com,9.9.9.10,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 9.9.9.10
+2024-11-14T10:07:39.029616,athemes.com,95.85.95.85,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,asos.com,2620:119:35::35,AAAA,"['2600:1413:b000:1d::17d1:2e8f', '2600:1413:b000:1d::17d1:2e86']",,
+2024-11-14T10:07:39.029616,asriran.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asriran.com on server: 202.96.128.86
+2024-11-14T10:07:39.029616,aternos.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aternos.org on server: 202.96.128.86
+2024-11-14T10:07:39.029616,assets-yammer.com,2.56.220.2,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2.56.220.2
+2024-11-14T10:07:39.029616,asos.com,180.76.76.76,A,"['23.200.143.117', '23.200.143.102']",,
+2024-11-14T10:07:39.029616,athemes.com,8.8.4.4,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,at-o.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.029616,asos.com,114.114.114.114,A,"['184.28.235.48', '184.28.235.75']",,
+2024-11-14T10:07:39.029616,asos.com,2a0c:a9c7:8::1,AAAA,"['2001:2030:22::3e73:fd4b', '2001:2030:22::3e73:fd91', '2001:2030:22::3e73:fd63', '2001:2030:22::3e73:fd73']",,
+2024-11-14T10:07:39.029616,athemes.com,1.1.1.1,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.029616,aternos.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aternos.org on server: 210.21.196.6
+2024-11-14T10:07:39.029616,assets-yammer.com,195.208.4.1,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 195.208.4.1
+2024-11-14T10:07:39.029616,asuscomm.com,2620:0:ccc::2,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.029616,asuscomm.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2402:4e00::
+2024-11-14T10:07:39.029616,asos.com,2a0c:a9c7:9::1,AAAA,"['2a02:2d8:0:7804::57f5:d1f7', '2a02:2d8:0:7804::57f5:d1df']",,
+2024-11-14T10:07:39.029616,aternos.org,218.30.118.6,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.029616,asm.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.029616,assets-yammer.com,62.76.76.62,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 62.76.76.62
+2024-11-14T10:07:39.029616,asm.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.029616,aternos.org,117.50.11.11,A,"['172.67.11.64', '104.22.15.163', '104.22.14.163']",,
+2024-11-14T10:07:39.029616,at-o.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.029616,assets-yammer.com,62.76.62.76,A,[],NoAnswer,No answer for domain: assets-yammer.com on server: 62.76.62.76
+2024-11-14T10:07:39.029616,aternos.org,211.136.17.107,A,"['172.67.11.64', '104.22.14.163', '104.22.15.163']",,
+2024-11-14T10:07:39.029616,asm.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:0:ccd::2
+2024-11-14T10:07:39.029616,at-o.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.029616,asuscomm.com,2620:119:35::35,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2620:119:35::35
+2024-11-14T10:07:39.029616,athemes.com,2001:4860:4860::8888,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.029616,asriran.com,8.8.8.8,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,aspnetcdn.com,94.140.14.14,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 94.140.14.14
+2024-11-14T10:07:39.029616,asriran.com,8.8.4.4,A,['94.182.146.114'],,
+2024-11-14T10:07:39.029616,aspnetcdn.com,208.67.222.220,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 208.67.222.220
+2024-11-14T10:07:39.029616,athemes.com,2620:0:ccd::2,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.029616,asuscomm.com,2620:fe::10,AAAA,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 2620:fe::10
+2024-11-14T10:07:39.029616,aspnetcdn.com,208.67.220.220,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 208.67.220.220
+2024-11-14T10:07:39.029616,athemes.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: athemes.com on server: 9.9.9.9
+2024-11-14T10:07:39.029616,asriran.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asriran.com on server: 210.21.196.6
+2024-11-14T10:07:39.029616,athemes.com,2620:119:53::53,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.029616,aspnetcdn.com,208.67.220.222,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 208.67.220.222
+2024-11-14T10:07:39.029616,athemes.com,2001:6d0:6d0::2001,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.029616,asos.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asos.com on server: 202.96.128.86
+2024-11-14T10:07:39.029616,assets-yammer.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: assets-yammer.com on server: 9.9.9.9
+2024-11-14T10:07:39.029616,athemes.com,2620:119:35::35,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.029616,aspnetcdn.com,180.76.76.76,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 180.76.76.76
+2024-11-14T10:07:39.029616,athemes.com,2400:3200:baba::1,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.029616,aspnetcdn.com,223.6.6.6,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 223.6.6.6
+2024-11-14T10:07:39.029616,athemes.com,2620:0:ccc::2,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.029616,aspnetcdn.com,119.29.29.29,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 119.29.29.29
+2024-11-14T10:07:39.030615,athemes.com,2620:fe::fe,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,9.9.9.10,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 9.9.9.10
+2024-11-14T10:07:39.030615,aspnetcdn.com,208.67.222.222,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 208.67.222.222
+2024-11-14T10:07:39.030615,asos.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asos.com on server: 210.21.196.6
+2024-11-14T10:07:39.030615,aspnetcdn.com,117.50.11.11,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 117.50.11.11
+2024-11-14T10:07:39.030615,aternos.org,2402:4e00::,AAAA,"['2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,101.226.4.6,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 101.226.4.6
+2024-11-14T10:07:39.030615,aternos.org,2400:3200:baba::1,AAAA,"['2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,114.114.114.114,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 114.114.114.114
+2024-11-14T10:07:39.030615,aspnetcdn.com,223.5.5.5,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 223.5.5.5
+2024-11-14T10:07:39.030615,athemes.com,2001:6d0:d6::2001,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,211.136.17.107,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 211.136.17.107
+2024-11-14T10:07:39.030615,athemes.com,2606:4700:4700::1001,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,123.125.81.6,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 123.125.81.6
+2024-11-14T10:07:39.030615,athemes.com,2606:4700:4700::1111,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,94.140.15.15,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 94.140.15.15
+2024-11-14T10:07:39.030615,aternos.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aternos.org on server: 2400:da00::6666
+2024-11-14T10:07:39.030615,athemes.com,2a03:90c0:999d::1,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,114.114.115.115,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 114.114.115.115
+2024-11-14T10:07:39.030615,athemes.com,2001:4860:4860::8844,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,218.30.118.6,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 218.30.118.6
+2024-11-14T10:07:39.030615,aspnetcdn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 101.226.4.7
+2024-11-14T10:07:39.030615,athemes.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,195.208.5.1,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 195.208.5.1
+2024-11-14T10:07:39.030615,athemes.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.030615,athemes.com,2400:3200::1,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,62.76.62.76,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 62.76.62.76
+2024-11-14T10:07:39.030615,athemes.com,2402:4e00::,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,195.208.4.1,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 195.208.4.1
+2024-11-14T10:07:39.030615,athemes.com,2a0c:a9c7:9::1,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,77.88.8.1,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 77.88.8.1
+2024-11-14T10:07:39.030615,athemes.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aspnetcdn.com,62.76.76.62,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 62.76.76.62
+2024-11-14T10:07:39.030615,athemes.com,2a0c:a9c7:8::1,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aternos.org,195.208.5.1,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T10:07:39.030615,athemes.com,94.140.15.15,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.030615,asu.edu,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:119:35::35
+2024-11-14T10:07:39.030615,asus.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:fe::fe
+2024-11-14T10:07:39.030615,aternos.org,2001:4860:4860::8844,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asm.org,223.5.5.5,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,athemes.com,114.114.114.114,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.030615,asu.edu,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.030615,athemes.com,2620:fe::10,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,aternos.org,2620:0:ccd::2,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asm.org,223.6.6.6,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,asus.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:fe::10
+2024-11-14T10:07:39.030615,aternos.org,94.140.15.15,A,"['172.67.11.64', '104.22.15.163', '104.22.14.163']",,
+2024-11-14T10:07:39.030615,astro.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2400:3200::1
+2024-11-14T10:07:39.030615,aspnetcdn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 123.125.81.7
+2024-11-14T10:07:39.030615,askubuntu.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.030615,aternos.org,2a10:50c0::ad1:ff,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asos.com,208.67.220.220,A,"['184.28.235.48', '184.28.235.75']",,
+2024-11-14T10:07:39.030615,aternos.org,114.114.114.114,A,"['104.22.15.163', '104.22.14.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.030615,asuscomm.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.030615,asus.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.030615,aternos.org,2a02:6b8::feed:0ff,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asos.com,2.56.220.2,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.030615,aternos.org,8.8.8.8,A,"['104.22.15.163', '172.67.11.64', '104.22.14.163']",,
+2024-11-14T10:07:39.030615,astro.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2402:4e00::
+2024-11-14T10:07:39.030615,aternos.org,2620:fe::10,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.030615,asus.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.030615,aternos.org,8.8.4.4,A,"['104.22.15.163', '172.67.11.64', '104.22.14.163']",,
+2024-11-14T10:07:39.030615,asos.com,77.88.8.8,A,"['62.115.253.115', '62.115.253.98', '62.115.253.75']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.030615,at-o.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T10:07:39.030615,astro.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: astro.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.030615,asus.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.030615,askubuntu.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.030615,asos.com,1.1.1.1,A,"['2.18.27.205', '2.18.27.204']",,
+2024-11-14T10:07:39.030615,aternos.org,62.76.62.76,A,"['188.114.98.235', '188.114.99.235']",,
+2024-11-14T10:07:39.030615,at-o.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T10:07:39.030615,asu.edu,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.030615,asus.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.030615,asos.com,95.85.95.85,A,"['23.209.46.212', '23.209.46.218']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.030615,asu.edu,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.030615,asus.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.030615,aternos.org,208.67.222.220,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,aternos.org,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T10:07:39.030615,asu.edu,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.030615,askubuntu.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.030615,asus.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.030615,aternos.org,2620:fe::fe,AAAA,"['2606:4700:10::6816:ea3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:fa3']",,
+2024-11-14T10:07:39.030615,asos.com,8.8.8.8,A,"['184.28.235.75', '184.28.235.48']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.030615,aternos.org,180.76.76.76,A,"['172.67.11.64', '104.22.14.163', '104.22.15.163']",,
+2024-11-14T10:07:39.030615,asus.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.030615,aternos.org,2620:119:53::53,AAAA,"['2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3']",,
+2024-11-14T10:07:39.030615,asu.edu,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.030615,asos.com,8.8.4.4,A,"['184.28.235.48', '184.28.235.75']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.030615,aternos.org,94.140.14.14,A,"['172.67.11.64', '104.22.15.163', '104.22.14.163']",,
+2024-11-14T10:07:39.030615,asuscomm.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.030615,aternos.org,2620:0:ccc::2,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asos.com,1.0.0.1,A,"['23.220.75.182', '23.220.75.171']",,
+2024-11-14T10:07:39.030615,aternos.org,208.67.220.222,A,"['104.22.15.163', '172.67.11.64', '104.22.14.163']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.030615,asu.edu,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.030615,athemes.com,2a03:90c0:9992::1,AAAA,"['2606:4700::6810:976c', '2606:4700::6810:966c']",,
+2024-11-14T10:07:39.030615,aternos.org,2a10:50c0::ad2:ff,AAAA,"['2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40']",,
+2024-11-14T10:07:39.030615,asm.org,123.125.81.6,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,aternos.org,114.114.115.115,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,asu.edu,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.030615,asus.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:119:35::35
+2024-11-14T10:07:39.030615,aternos.org,2400:3200::1,AAAA,"['2606:4700:10::ac43:b40', '2606:4700:10::6816:fa3', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,athemes.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700::6810:966c', '2606:4700::6810:976c']",,
+2024-11-14T10:07:39.030615,asuscomm.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.030615,asu.edu,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.030615,askubuntu.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.030615,at-o.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:0:ccc::2
+2024-11-14T10:07:39.030615,asm.org,218.30.118.6,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,aspnetcdn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 202.96.128.86
+2024-11-14T10:07:39.030615,aternos.org,77.88.8.8,A,"['104.22.15.163', '104.22.14.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,askubuntu.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.030615,asuscomm.com,2a0c:a9c7:9::1,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.030615,at-o.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2620:0:ccd::2
+2024-11-14T10:07:39.030615,asm.org,211.136.17.107,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,asu.edu,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.030615,athemes.com,123.125.81.6,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.030615,aternos.org,77.88.8.1,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,aternos.org,2606:4700:4700::1001,AAAA,"['2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40']",,
+2024-11-14T10:07:39.030615,asu.edu,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:fe::fe
+2024-11-14T10:07:39.030615,aternos.org,208.67.222.222,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.030615,asm.org,117.50.11.11,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,asuscomm.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.030615,asu.edu,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.030615,aternos.org,2620:119:35::35,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.030615,asm.org,101.226.4.6,A,['23.23.98.209'],,
+2024-11-14T10:07:39.030615,aternos.org,208.67.220.220,A,"['172.67.11.64', '104.22.14.163', '104.22.15.163']",,
+2024-11-14T10:07:39.030615,athemes.com,101.226.4.6,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.030615,asuscomm.com,2001:6d0:d6::2001,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.030615,athemes.com,211.136.17.107,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.031614,aspnetcdn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 210.21.196.6
+2024-11-14T10:07:39.031614,asu.edu,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.031614,asuscomm.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.031614,aternos.org,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:07:39.031614,asu.edu,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:119:53::53
+2024-11-14T10:07:39.031614,aspnetcdn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 9.9.9.9
+2024-11-14T10:07:39.031614,athemes.com,117.50.11.11,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.031614,aternos.org,9.9.9.10,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.031614,athemes.com,114.114.115.115,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.031614,asu.edu,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.031614,asuscomm.com,2001:4860:4860::8888,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.031614,aternos.org,2a03:90c0:9992::1,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.031614,asm.org,119.29.29.29,A,['23.23.98.209'],,
+2024-11-14T10:07:39.031614,asriran.com,1.0.0.1,A,['94.182.146.114'],,
+2024-11-14T10:07:39.031614,asm.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asm.org on server: 101.226.4.7
+2024-11-14T10:07:39.031614,asu.edu,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2400:3200::1
+2024-11-14T10:07:39.031614,astro.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: astro.com on server: 2400:da00::6666
+2024-11-14T10:07:39.031614,asuscomm.com,2606:4700:4700::1001,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.031614,aternos.org,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T10:07:39.031614,aternos.org,223.6.6.6,A,"['104.22.14.163', '172.67.11.64', '104.22.15.163']",,
+2024-11-14T10:07:39.031614,asm.org,180.76.76.76,A,['23.23.98.209'],,
+2024-11-14T10:07:39.031614,asu.edu,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:0:ccd::2
+2024-11-14T10:07:39.031614,asuscomm.com,2a03:90c0:999d::1,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.031614,aternos.org,2001:4860:4860::8888,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.031614,asos.com,208.67.222.222,A,"['23.209.46.218', '23.209.46.212']",,
+2024-11-14T10:07:39.031614,aternos.org,223.5.5.5,A,"['104.22.15.163', '172.67.11.64', '104.22.14.163']",,
+2024-11-14T10:07:39.031614,askubuntu.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.031614,asus.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.031614,aternos.org,2606:4700:4700::1111,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::6816:ea3', '2606:4700:10::ac43:b40']",,
+2024-11-14T10:07:39.031614,asos.com,208.67.222.220,A,"['184.26.91.210', '184.26.91.225', '184.26.91.184']",,
+2024-11-14T10:07:39.031614,aternos.org,1.1.1.1,A,"['172.67.11.64', '104.22.14.163', '104.22.15.163']",,
+2024-11-14T10:07:39.031614,athemes.com,180.76.76.76,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.031614,asu.edu,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:0:ccc::2
+2024-11-14T10:07:39.031614,asus.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2400:3200::1
+2024-11-14T10:07:39.031614,at-o.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2402:4e00::
+2024-11-14T10:07:39.031614,asm.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asm.org on server: 123.125.81.7
+2024-11-14T10:07:39.031614,aternos.org,2.56.220.2,A,"['172.67.11.64', '104.22.14.163', '104.22.15.163']",,
+2024-11-14T10:07:39.031614,asm.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asm.org on server: 202.96.128.86
+2024-11-14T10:07:39.031614,aternos.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aternos.org on server: 9.9.9.9
+2024-11-14T10:07:39.031614,asus.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asus.com on server: 2400:da00::6666
+2024-11-14T10:07:39.031614,asm.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asm.org on server: 210.21.196.6
+2024-11-14T10:07:39.031614,asuscomm.com,2001:4860:4860::8844,AAAA,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.031614,aternos.org,1.0.0.1,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.031614,asos.com,9.9.9.10,A,"['23.36.163.250', '23.36.163.240']",,
+2024-11-14T10:07:39.031614,asu.edu,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2620:fe::10
+2024-11-14T10:07:39.031614,at-o.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2400:3200::1
+2024-11-14T10:07:39.031614,athemes.com,119.29.29.29,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.031614,asu.edu,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.031614,asus.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.031614,asos.com,62.76.62.76,A,"['92.123.135.91', '92.123.135.80']",,
+2024-11-14T10:07:39.031614,aternos.org,2a03:90c0:999d::1,AAAA,"['2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40', '2606:4700:10::6816:ea3']",,
+2024-11-14T10:07:39.031614,asos.com,195.208.5.1,A,"['62.115.253.98', '62.115.253.75']",,
+2024-11-14T10:07:39.031614,aternos.org,95.85.95.85,A,"['104.22.14.163', '172.67.11.64', '104.22.15.163']",,
+2024-11-14T10:07:39.031614,asu.edu,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2400:3200:baba::1
+2024-11-14T10:07:39.031614,asus.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.031614,asuscomm.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asuscomm.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.031614,aternos.org,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:10::6816:ea3', '2606:4700:10::6816:fa3', '2606:4700:10::ac43:b40']",,
+2024-11-14T10:07:39.031614,asos.com,62.76.76.62,A,"['184.86.103.81', '184.86.103.71']",,
+2024-11-14T10:07:39.031614,asriran.com,1.1.1.1,A,['94.182.146.114'],,
+2024-11-14T10:07:39.031614,aternos.org,195.208.4.1,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T10:07:39.031614,athemes.com,218.30.118.6,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.031614,asus.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:119:53::53
+2024-11-14T10:07:39.031614,asu.edu,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asu.edu on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.031614,aternos.org,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:07:39.031614,athemes.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: athemes.com on server: 202.96.128.86
+2024-11-14T10:07:39.031614,asos.com,195.208.4.1,A,"['2.16.6.201', '2.16.6.214']",,
+2024-11-14T10:07:39.031614,athemes.com,223.5.5.5,A,"['104.16.150.108', '104.16.151.108']",,
+2024-11-14T10:07:39.031614,asriran.com,95.85.95.85,A,['94.182.146.114'],,
+2024-11-14T10:07:39.031614,at-o.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: at-o.net on server: 2400:3200:baba::1
+2024-11-14T10:07:39.031614,asus.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.031614,aternos.org,62.76.76.62,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T10:07:39.031614,athemes.com,223.6.6.6,A,"['104.16.151.108', '104.16.150.108']",,
+2024-11-14T10:07:39.031614,asus.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2402:4e00::
+2024-11-14T10:07:39.031614,asos.com,77.88.8.1,A,"['62.115.253.75', '62.115.253.115', '62.115.253.98', '62.115.253.99']",,
+2024-11-14T10:07:39.031614,asus.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.031614,aternos.org,119.29.29.29,A,"['104.22.14.163', '104.22.15.163', '172.67.11.64']",,
+2024-11-14T10:07:39.031614,asus.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.031614,asus.com,208.67.220.222,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2402:4e00::
+2024-11-14T10:07:39.031614,asus.com,77.88.8.1,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,athemes.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: athemes.com on server: 101.226.4.7
+2024-11-14T10:07:39.031614,asus.com,208.67.222.220,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,77.88.8.8,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.031614,asuratoon.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2400:3200::1
+2024-11-14T10:07:39.031614,asos.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asos.com on server: 9.9.9.9
+2024-11-14T10:07:39.031614,asuratoon.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.031614,asus.com,1.0.0.1,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,athemes.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: athemes.com on server: 123.125.81.7
+2024-11-14T10:07:39.031614,asus.com,2.56.220.2,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.031614,asus.com,1.1.1.1,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:fe::fe
+2024-11-14T10:07:39.031614,asus.com,95.85.95.85,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,8.8.8.8,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:fe::10
+2024-11-14T10:07:39.031614,asus.com,8.8.4.4,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.031614,asuratoon.com,123.125.81.6,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.031614,asuratoon.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.031614,asuratoon.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.031614,asuratoon.com,101.226.4.6,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.031614,asus.com,195.208.5.1,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,208.67.220.220,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.031614,asuratoon.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.031614,asuratoon.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:119:35::35
+2024-11-14T10:07:39.031614,asus.com,62.76.62.76,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2620:119:53::53
+2024-11-14T10:07:39.031614,asus.com,208.67.222.222,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,195.208.4.1,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.031614,asus.com,62.76.76.62,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asus.com,9.9.9.10,A,['103.10.4.227'],,
+2024-11-14T10:07:39.031614,asuratoon.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.031614,asuratoon.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.031614,asuratoon.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.031614,asuratoon.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.031614,asuratoon.com,211.136.17.107,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.031614,asuratoon.com,117.50.11.11,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.031614,at-o.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: at-o.net on server: 2400:da00::6666
+2024-11-14T10:07:39.031614,asuratoon.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.031614,asuratoon.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.032649,asuratoon.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asuratoon.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.032649,asuratoon.com,218.30.118.6,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.032649,asus.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.032649,asuratoon.com,180.76.76.76,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.032649,athemes.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: athemes.com on server: 210.21.196.6
+2024-11-14T10:07:39.032649,asus.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.032649,asus.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asus.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.032649,askubuntu.com,208.67.220.220,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asuratoon.com,119.29.29.29,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.032649,asu.edu,208.67.220.220,A,"['151.101.2.133', '151.101.66.133', '151.101.130.133', '151.101.194.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.032649,asriran.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.032649,askubuntu.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.032649,asriran.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.032649,asu.edu,123.125.81.6,A,"['151.101.130.133', '151.101.194.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T10:07:39.032649,asm.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.032649,asu.edu,117.50.11.11,A,"['151.101.66.133', '151.101.194.133', '151.101.2.133', '151.101.130.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2.56.220.2,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,asriran.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.032649,asuracomic.net,1.1.1.1,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.032649,askubuntu.com,211.136.17.107,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asriran.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.032649,askubuntu.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2400:3200::1
+2024-11-14T10:07:39.032649,asuratoon.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 123.125.81.7
+2024-11-14T10:07:39.032649,asuratoon.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 101.226.4.7
+2024-11-14T10:07:39.032649,asu.edu,211.136.17.107,A,"['151.101.194.133', '151.101.2.133', '151.101.130.133', '151.101.66.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,62.76.76.62,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T10:07:39.032649,asriran.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.032649,asriran.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.032649,asuratoon.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 2400:da00::6666
+2024-11-14T10:07:39.032649,askubuntu.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.032649,asriran.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.032649,asus.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asus.com on server: 9.9.9.9
+2024-11-14T10:07:39.032649,asuracomic.net,8.8.4.4,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.032649,askubuntu.com,218.30.118.6,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,asu.edu,62.76.76.62,A,"['151.101.130.133', '151.101.194.133', '151.101.2.133', '151.101.66.133']",,
+2024-11-14T10:07:39.032649,asm.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:0:ccc::2
+2024-11-14T10:07:39.032649,asriran.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.032649,askubuntu.com,180.76.76.76,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asu.edu,9.9.9.10,A,"['151.101.130.133', '151.101.66.133', '151.101.2.133', '151.101.194.133']",,
+2024-11-14T10:07:39.032649,asriran.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.032649,askubuntu.com,8.8.8.8,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asuratoon.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 210.21.196.6
+2024-11-14T10:07:39.032649,asm.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:119:35::35
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.032649,askubuntu.com,208.67.222.222,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asu.edu,101.226.4.6,A,"['151.101.130.133', '151.101.194.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,asm.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:119:53::53
+2024-11-14T10:07:39.032649,asuratoon.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 202.96.128.86
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.032649,askubuntu.com,119.29.29.29,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,asm.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.032649,asu.edu,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asu.edu on server: 101.226.4.7
+2024-11-14T10:07:39.032649,askubuntu.com,195.208.4.1,A,"['188.114.98.233', '188.114.99.233']",,
+2024-11-14T10:07:39.032649,asm.org,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: asm.org on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.032649,askubuntu.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 202.96.128.86
+2024-11-14T10:07:39.032649,asm.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.032649,asu.edu,218.30.118.6,A,"['151.101.194.133', '151.101.66.133', '151.101.2.133', '151.101.130.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,94.140.15.15,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,asm.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.032649,askubuntu.com,223.5.5.5,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2402:4e00::
+2024-11-14T10:07:39.032649,asu.edu,195.208.4.1,A,"['151.101.2.133', '151.101.130.133', '151.101.66.133', '151.101.194.133']",,
+2024-11-14T10:07:39.032649,asm.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.032649,asu.edu,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asu.edu on server: 9.9.9.9
+2024-11-14T10:07:39.032649,asu.edu,195.208.5.1,A,"['151.101.2.133', '151.101.66.133', '151.101.130.133', '151.101.194.133']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.032649,askubuntu.com,223.6.6.6,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,askubuntu.com,95.85.95.85,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2402:4e00::
+2024-11-14T10:07:39.032649,aspnetcdn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2400:3200::1
+2024-11-14T10:07:39.032649,aspnetcdn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.032649,askubuntu.com,114.114.115.115,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:119:35::35
+2024-11-14T10:07:39.032649,asu.edu,94.140.15.15,A,"['151.101.130.133', '151.101.194.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,asu.edu,114.114.114.114,A,"['151.101.130.133', '151.101.194.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.032649,askubuntu.com,9.9.9.10,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:119:53::53
+2024-11-14T10:07:39.032649,askubuntu.com,8.8.4.4,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.032649,askubuntu.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 210.21.196.6
+2024-11-14T10:07:39.032649,asu.edu,62.76.62.76,A,"['151.101.2.133', '151.101.194.133', '151.101.66.133', '151.101.130.133']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.032649,asm.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:fe::fe
+2024-11-14T10:07:39.032649,askubuntu.com,208.67.222.220,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,asuracomic.net,8.8.8.8,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.032649,askubuntu.com,1.1.1.1,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,asm.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2620:fe::10
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:fe::10
+2024-11-14T10:07:39.032649,asu.edu,180.76.76.76,A,"['151.101.66.133', '151.101.130.133', '151.101.194.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,asu.edu,208.67.222.222,A,"['151.101.194.133', '151.101.2.133', '151.101.66.133', '151.101.130.133']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:119:53::53
+2024-11-14T10:07:39.032649,asm.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.032649,askubuntu.com,94.140.14.14,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,askubuntu.com,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:07:39.032649,asu.edu,208.67.220.222,A,"['151.101.130.133', '151.101.194.133', '151.101.2.133', '151.101.66.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,1.0.0.1,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.032649,asu.edu,94.140.14.14,A,"['151.101.130.133', '151.101.194.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,asm.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:119:35::35
+2024-11-14T10:07:39.032649,asu.edu,223.6.6.6,A,"['151.101.194.133', '151.101.130.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:fe::fe
+2024-11-14T10:07:39.032649,askubuntu.com,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T10:07:39.032649,asm.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.032649,asu.edu,119.29.29.29,A,"['151.101.194.133', '151.101.130.133', '151.101.66.133', '151.101.2.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: askubuntu.com on server: 2620:fe::10
+2024-11-14T10:07:39.032649,aspnetcdn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2620:fe::fe
+2024-11-14T10:07:39.032649,asu.edu,114.114.115.115,A,"['151.101.194.133', '151.101.2.133', '151.101.66.133']",,
+2024-11-14T10:07:39.032649,askubuntu.com,77.88.8.8,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:07:39.032649,asm.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.032649,askubuntu.com,208.67.220.222,A,"['172.64.150.156', '104.18.37.100']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.032649,asu.edu,223.5.5.5,A,"['151.101.2.133', '151.101.194.133', '151.101.130.133', '151.101.66.133']",,
+2024-11-14T10:07:39.032649,asm.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.032649,askubuntu.com,114.114.114.114,A,"['104.18.37.100', '172.64.150.156']",,
+2024-11-14T10:07:39.032649,aspnetcdn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.032649,asu.edu,208.67.222.220,A,"['151.101.2.133', '151.101.66.133', '151.101.130.133', '151.101.194.133']",,
+2024-11-14T10:07:39.032649,asm.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asm.org on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.032649,aspnetcdn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.032649,aspnetcdn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.032649,asp-frontier.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:fe::fe
+2024-11-14T10:07:39.032649,asriran.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:119:53::53
+2024-11-14T10:07:39.033646,asp-frontier.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:119:35::35
+2024-11-14T10:07:39.033646,assets-yammer.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.033646,asp-frontier.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.033646,assets-yammer.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:fe::fe
+2024-11-14T10:07:39.033646,asp-frontier.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:fe::10
+2024-11-14T10:07:39.033646,assets-yammer.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2620:fe::10
+2024-11-14T10:07:39.033646,asp-frontier.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.033646,assets-yammer.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.033646,asp-frontier.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.033646,asriran.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2400:3200::1
+2024-11-14T10:07:39.033646,asp-frontier.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.033646,assets-yammer.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.033646,assets-yammer.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.033646,asp-frontier.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.033646,assets-yammer.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.033646,asp-frontier.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.033646,assets-yammer.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.033646,asp-frontier.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:07:39.033646,asriran.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2400:3200:baba::1
+2024-11-14T10:07:39.033646,asp-frontier.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.033646,assets-yammer.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:07:39.033646,asp-frontier.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a03:90c0:9992::1
+2024-11-14T10:07:39.033646,asriran.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:fe::10
+2024-11-14T10:07:39.033646,asp-frontier.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:07:39.033646,asriran.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:119:35::35
+2024-11-14T10:07:39.033646,asp-frontier.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.033646,asriran.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:07:39.033646,asriran.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:fe::fe
+2024-11-14T10:07:39.033646,asos.com,2402:4e00::,AAAA,"['2600:140e:6::17c8:9121', '2600:140e:6::17c8:9161']",,
+2024-11-14T10:07:39.033646,asriran.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.033646,asu.edu,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asu.edu on server: 123.125.81.7
+2024-11-14T10:07:39.033646,asriran.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:0:ccd::2
+2024-11-14T10:07:39.033646,asp-frontier.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.033646,asp-frontier.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.033646,asriran.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2620:0:ccc::2
+2024-11-14T10:07:39.033646,aspnetcdn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.033646,assets-yammer.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2606:4700:4700::1001
+2024-11-14T10:07:39.033646,aspnetcdn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.033646,asriran.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:07:39.033646,asp-frontier.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2402:4e00::
+2024-11-14T10:07:39.033646,assets-yammer.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2606:4700:4700::1111
+2024-11-14T10:07:39.033646,asu.edu,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asu.edu on server: 210.21.196.6
+2024-11-14T10:07:39.033646,asp-frontier.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2400:3200::1
+2024-11-14T10:07:39.033646,aspnetcdn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aspnetcdn.com on server: 2400:da00::6666
+2024-11-14T10:07:39.033646,asriran.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2001:6d0:d6::2001
+2024-11-14T10:07:39.033646,asp-frontier.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2400:3200:baba::1
+2024-11-14T10:07:39.033646,asp-frontier.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:119:53::53
+2024-11-14T10:07:39.033646,asriran.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:07:39.033646,assets-yammer.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2001:4860:4860::8888
+2024-11-14T10:07:39.033646,assets-yammer.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2001:4860:4860::8844
+2024-11-14T10:07:39.033646,asp-frontier.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2a10:50c0::ad2:ff
+2024-11-14T10:07:39.033646,asp-frontier.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:0:ccc::2
+2024-11-14T10:07:39.033646,asp-frontier.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: asp-frontier.net on server: 2620:0:ccd::2
+2024-11-14T10:07:39.033646,asriran.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: asriran.com on server: 2402:4e00::
+2024-11-14T10:07:39.033646,aspnetcdn.com,2.56.220.2,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 2.56.220.2
+2024-11-14T10:07:39.033646,askubuntu.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 2400:da00::6666
+2024-11-14T10:07:39.033646,asuracomic.net,1.0.0.1,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.033646,asuratoon.com,1.0.0.1,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,astro.com,123.125.81.6,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asu.edu,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asu.edu on server: 202.96.128.86
+2024-11-14T10:07:39.033646,asuscomm.com,9.9.9.10,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,assets-yammer.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: assets-yammer.com on server: 2a03:90c0:999d::1
+2024-11-14T10:07:39.033646,asuracomic.net,95.85.95.85,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.033646,aspnetcdn.com,77.88.8.8,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 77.88.8.8
+2024-11-14T10:07:39.033646,asus.com,119.29.29.29,A,['103.10.4.227'],,
+2024-11-14T10:07:39.033646,aspnetcdn.com,95.85.95.85,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 95.85.95.85
+2024-11-14T10:07:39.033646,asuracomic.net,223.5.5.5,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.033646,asuratoon.com,195.208.4.1,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuratoon.com,195.208.5.1,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asus.com,180.76.76.76,A,['103.10.4.227'],,
+2024-11-14T10:07:39.033646,asuscomm.com,208.67.222.222,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuracomic.net,223.6.6.6,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.033646,askubuntu.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: askubuntu.com on server: 9.9.9.9
+2024-11-14T10:07:39.033646,asuratoon.com,62.76.76.62,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,101.226.4.6,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asp-frontier.net,117.50.11.11,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 117.50.11.11
+2024-11-14T10:07:39.033646,astro.com,211.136.17.107,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asos.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asos.com on server: 2400:da00::6666
+2024-11-14T10:07:39.033646,asuratoon.com,62.76.62.76,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asus.com,218.30.118.6,A,['103.10.4.227'],,
+2024-11-14T10:07:39.033646,asp-frontier.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 2400:da00::6666
+2024-11-14T10:07:39.033646,asriran.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: asriran.com on server: 2400:da00::6666
+2024-11-14T10:07:39.033646,astro.com,117.50.11.11,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asuracomic.net,211.136.17.107,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.033646,asus.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asus.com on server: 202.96.128.86
+2024-11-14T10:07:39.033646,asuscomm.com,77.88.8.8,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuscomm.com,123.125.81.6,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuscomm.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 101.226.4.7
+2024-11-14T10:07:39.033646,asu.edu,77.88.8.1,A,"['151.101.2.133', '151.101.194.133', '151.101.66.133', '151.101.130.133']",,
+2024-11-14T10:07:39.033646,asp-frontier.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 9.9.9.9
+2024-11-14T10:07:39.033646,asuratoon.com,77.88.8.1,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asus.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asus.com on server: 210.21.196.6
+2024-11-14T10:07:39.033646,asp-frontier.net,208.67.220.220,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 208.67.220.220
+2024-11-14T10:07:39.033646,asuscomm.com,195.208.4.1,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuracomic.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 210.21.196.6
+2024-11-14T10:07:39.033646,asuracomic.net,218.30.118.6,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.033646,asuscomm.com,2.56.220.2,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuscomm.com,211.136.17.107,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asp-frontier.net,114.114.115.115,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 114.114.115.115
+2024-11-14T10:07:39.033646,astro.com,94.140.14.14,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asuracomic.net,208.67.222.222,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.033646,asuratoon.com,77.88.8.8,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.033646,asuscomm.com,117.50.11.11,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuscomm.com,77.88.8.1,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asp-frontier.net,180.76.76.76,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 180.76.76.76
+2024-11-14T10:07:39.033646,asuracomic.net,208.67.220.220,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.033646,asuratoon.com,2.56.220.2,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,180.76.76.76,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asp-frontier.net,218.30.118.6,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 218.30.118.6
+2024-11-14T10:07:39.033646,asu.edu,77.88.8.8,A,"['151.101.66.133', '151.101.130.133', '151.101.2.133', '151.101.194.133']",,
+2024-11-14T10:07:39.033646,astro.com,218.30.118.6,A,[],NoNameservers,No nameservers for domain: astro.com on server: 218.30.118.6
+2024-11-14T10:07:39.033646,asuratoon.com,223.6.6.6,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,95.85.95.85,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,asuscomm.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 123.125.81.7
+2024-11-14T10:07:39.033646,astro.com,94.140.15.15,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asuracomic.net,9.9.9.10,A,"['188.114.96.4', '188.114.97.4']",,
+2024-11-14T10:07:39.033646,asuratoon.com,94.140.15.15,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,62.76.62.76,A,['54.191.180.149'],,
+2024-11-14T10:07:39.033646,at-o.net,1.1.1.1,A,[],NoAnswer,No answer for domain: at-o.net on server: 1.1.1.1
+2024-11-14T10:07:39.033646,aspnetcdn.com,1.0.0.1,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 1.0.0.1
+2024-11-14T10:07:39.033646,asu.edu,8.8.8.8,A,"['151.101.130.133', '151.101.2.133', '151.101.194.133', '151.101.66.133']",,
+2024-11-14T10:07:39.033646,asuracomic.net,195.208.4.1,A,"['188.114.97.1', '188.114.96.1']",,
+2024-11-14T10:07:39.033646,asuratoon.com,95.85.95.85,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.033646,asp-frontier.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 123.125.81.7
+2024-11-14T10:07:39.033646,at-o.net,1.0.0.1,A,[],NoAnswer,No answer for domain: at-o.net on server: 1.0.0.1
+2024-11-14T10:07:39.033646,asuratoon.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asuratoon.com on server: 9.9.9.9
+2024-11-14T10:07:39.033646,asu.edu,2.56.220.2,A,"['151.101.130.133', '151.101.66.133', '151.101.2.133', '151.101.194.133']",,
+2024-11-14T10:07:39.033646,asuracomic.net,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T10:07:39.033646,asuratoon.com,94.140.14.14,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,62.76.76.62,A,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 62.76.76.62
+2024-11-14T10:07:39.033646,at-o.net,8.8.4.4,A,[],NoAnswer,No answer for domain: at-o.net on server: 8.8.4.4
+2024-11-14T10:07:39.033646,aspnetcdn.com,8.8.4.4,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 8.8.4.4
+2024-11-14T10:07:39.033646,astro.com,114.114.114.114,A,['192.53.104.242'],,
+2024-11-14T10:07:39.033646,asuracomic.net,119.29.29.29,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.033646,asuratoon.com,223.5.5.5,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.033646,asuscomm.com,195.208.5.1,A,[],NoNameservers,No nameservers for domain: asuscomm.com on server: 195.208.5.1
+2024-11-14T10:07:39.033646,aspnetcdn.com,1.1.1.1,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 1.1.1.1
+2024-11-14T10:07:39.034646,asp-frontier.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 202.96.128.86
+2024-11-14T10:07:39.034646,asuracomic.net,180.76.76.76,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuratoon.com,8.8.4.4,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asuracomic.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 202.96.128.86
+2024-11-14T10:07:39.034646,asuscomm.com,1.1.1.1,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,211.136.17.107,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 211.136.17.107
+2024-11-14T10:07:39.034646,at-o.net,2.56.220.2,A,[],NoAnswer,No answer for domain: at-o.net on server: 2.56.220.2
+2024-11-14T10:07:39.034646,astro.com,208.67.220.222,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuratoon.com,1.1.1.1,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asuracomic.net,62.76.76.62,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,at-o.net,8.8.8.8,A,[],NoAnswer,No answer for domain: at-o.net on server: 8.8.8.8
+2024-11-14T10:07:39.034646,aspnetcdn.com,8.8.8.8,A,[],NoAnswer,No answer for domain: aspnetcdn.com on server: 8.8.8.8
+2024-11-14T10:07:39.034646,astro.com,223.6.6.6,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,astro.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: astro.com on server: 101.226.4.7
+2024-11-14T10:07:39.034646,asuracomic.net,62.76.62.76,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T10:07:39.034646,asus.com,223.5.5.5,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuscomm.com,218.30.118.6,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,9.9.9.10,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 9.9.9.10
+2024-11-14T10:07:39.034646,asuracomic.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 9.9.9.9
+2024-11-14T10:07:39.034646,asuracomic.net,114.114.115.115,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuratoon.com,8.8.8.8,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asus.com,223.6.6.6,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,at-o.net,95.85.95.85,A,[],NoAnswer,No answer for domain: at-o.net on server: 95.85.95.85
+2024-11-14T10:07:39.034646,asp-frontier.net,119.29.29.29,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 119.29.29.29
+2024-11-14T10:07:39.034646,asu.edu,1.0.0.1,A,"['151.101.130.133', '151.101.2.133', '151.101.66.133', '151.101.194.133']",,
+2024-11-14T10:07:39.034646,asuracomic.net,101.226.4.6,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuscomm.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 202.96.128.86
+2024-11-14T10:07:39.034646,asuscomm.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 9.9.9.9
+2024-11-14T10:07:39.034646,asp-frontier.net,101.226.4.6,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 101.226.4.6
+2024-11-14T10:07:39.034646,astro.com,208.67.222.220,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 210.21.196.6
+2024-11-14T10:07:39.034646,asuscomm.com,8.8.4.4,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,114.114.114.114,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 114.114.114.114
+2024-11-14T10:07:39.034646,astro.com,223.5.5.5,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuracomic.net,77.88.8.1,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuracomic.net,117.50.11.11,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asus.com,114.114.114.114,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuscomm.com,223.6.6.6,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asuscomm.com,1.0.0.1,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,astro.com,208.67.220.220,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuracomic.net,2.56.220.2,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuracomic.net,123.125.81.6,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.034646,astro.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: astro.com on server: 202.96.128.86
+2024-11-14T10:07:39.034646,asus.com,114.114.115.115,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,123.125.81.6,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 123.125.81.6
+2024-11-14T10:07:39.034646,asuscomm.com,119.29.29.29,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,astro.com,101.226.4.6,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuratoon.com,114.114.115.115,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.034646,asuracomic.net,77.88.8.8,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuscomm.com,114.114.115.115,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,94.140.14.14,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 94.140.14.14
+2024-11-14T10:07:39.034646,asu.edu,95.85.95.85,A,"['151.101.66.133', '151.101.2.133', '151.101.194.133', '151.101.130.133']",,
+2024-11-14T10:07:39.034646,asuracomic.net,94.140.15.15,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asuratoon.com,208.67.220.220,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.034646,asuscomm.com,8.8.8.8,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asuscomm.com,223.5.5.5,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,94.140.15.15,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 94.140.15.15
+2024-11-14T10:07:39.034646,astro.com,119.29.29.29,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuracomic.net,114.114.114.114,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.034646,asuratoon.com,114.114.114.114,A,"['3.33.251.168', '15.197.225.128']",,
+2024-11-14T10:07:39.034646,asus.com,94.140.14.14,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuscomm.com,94.140.15.15,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,208.67.220.222,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 208.67.220.222
+2024-11-14T10:07:39.034646,asu.edu,8.8.4.4,A,"['151.101.194.133', '151.101.66.133', '151.101.2.133', '151.101.130.133']",,
+2024-11-14T10:07:39.034646,asuracomic.net,208.67.220.222,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,asus.com,94.140.15.15,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuscomm.com,114.114.114.114,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,208.67.222.222,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 208.67.222.222
+2024-11-14T10:07:39.034646,astro.com,114.114.115.115,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,asuracomic.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 123.125.81.7
+2024-11-14T10:07:39.034646,asuracomic.net,94.140.14.14,A,"['172.67.222.50', '104.21.54.11']",,
+2024-11-14T10:07:39.034646,asuratoon.com,208.67.222.220,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asuscomm.com,208.67.220.222,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,223.5.5.5,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 223.5.5.5
+2024-11-14T10:07:39.034646,asus.com,117.50.11.11,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asu.edu,1.1.1.1,A,"['151.101.194.133', '151.101.66.133', '151.101.2.133', '151.101.130.133']",,
+2024-11-14T10:07:39.034646,asuratoon.com,208.67.220.222,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asuscomm.com,94.140.14.14,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,223.6.6.6,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 223.6.6.6
+2024-11-14T10:07:39.034646,asus.com,101.226.4.6,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuracomic.net,208.67.222.220,A,"['104.21.54.11', '172.67.222.50']",,
+2024-11-14T10:07:39.034646,astro.com,180.76.76.76,A,['192.53.104.242'],,
+2024-11-14T10:07:39.034646,astro.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: astro.com on server: 123.125.81.7
+2024-11-14T10:07:39.034646,asuscomm.com,208.67.220.220,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asus.com,211.136.17.107,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asp-frontier.net,208.67.222.220,A,[],NoAnswer,No answer for domain: asp-frontier.net on server: 208.67.222.220
+2024-11-14T10:07:39.034646,asuratoon.com,9.9.9.10,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asuratoon.com,208.67.222.222,A,"['15.197.225.128', '3.33.251.168']",,
+2024-11-14T10:07:39.034646,asus.com,123.125.81.6,A,['103.10.4.227'],,
+2024-11-14T10:07:39.034646,asuscomm.com,208.67.222.220,A,['54.191.180.149'],,
+2024-11-14T10:07:39.034646,asus.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asus.com on server: 101.226.4.7
+2024-11-14T10:07:39.034646,asuscomm.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: asuscomm.com on server: 210.21.196.6
+2024-11-14T10:07:39.034646,asuracomic.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asuracomic.net on server: 101.226.4.7
+2024-11-14T10:07:39.034646,asp-frontier.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: asp-frontier.net on server: 101.226.4.7
+2024-11-14T10:07:39.034646,asus.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: asus.com on server: 123.125.81.7
+2024-11-14T10:07:39.034646,astro.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: astro.com on server: 210.21.196.6

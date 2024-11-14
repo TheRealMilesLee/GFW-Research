@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T10:15:59.768184,athlonsports.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.768184,atlasobscura.com,119.29.29.29,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.768184,athlonsports.com,2.56.220.2,A,"['151.101.130.98', '151.101.2.98', '151.101.194.98', '151.101.66.98']",,
+2024-11-14T10:15:59.768184,athenahealth.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.768184,ati.su,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.768184,athlonsports.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2400:3200::1
+2024-11-14T10:15:59.768184,atlassian.net,195.208.4.1,A,"['185.166.143.36', '185.166.143.37', '185.166.143.38']",,
+2024-11-14T10:15:59.768184,atol.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.768184,athlonsports.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.768184,atlassian.com,119.29.29.29,A,"['3.165.102.120', '3.165.102.102', '3.165.102.45', '3.165.102.77']",,
+2024-11-14T10:15:59.768184,athenahealth.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.768184,athlonsports.com,77.88.8.8,A,"['151.101.2.98', '151.101.194.98', '151.101.130.98', '151.101.66.98']",,
+2024-11-14T10:15:59.768184,ati.su,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.768184,athlonsports.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.768184,athome.co.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.768184,ati.su,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.768184,athlonsports.com,208.67.220.222,A,"['151.101.194.98', '151.101.2.98', '151.101.66.98', '151.101.130.98']",,
+2024-11-14T10:15:59.768184,ati.su,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.768184,athenahealth.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2400:3200::1
+2024-11-14T10:15:59.768184,athlonsports.com,94.140.14.14,A,"['151.101.2.98', '151.101.66.98', '151.101.130.98', '151.101.194.98']",,
+2024-11-14T10:15:59.768184,atlassian.com,114.114.114.114,A,"['3.165.102.45', '3.165.102.120', '3.165.102.102']",,
+2024-11-14T10:15:59.768184,atlasobscura.com,2.56.220.2,A,"['104.26.0.248', '104.26.1.248', '172.67.74.153']",,
+2024-11-14T10:15:59.768184,atol.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.768184,atl-paas.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.768184,athome.co.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.768184,atl-paas.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.768184,atol.ru,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.768184,atol.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.768184,atlassian.net,62.76.76.62,A,"['185.166.143.37', '185.166.143.36', '185.166.143.38']",,
+2024-11-14T10:15:59.768184,athlonsports.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.768184,athenahealth.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.768184,atlassian.net,62.76.62.76,A,"['185.166.143.36', '185.166.143.38', '185.166.143.37']",,
+2024-11-14T10:15:59.768184,atol.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.768184,athlonsports.com,208.67.222.222,A,"['151.101.2.98', '151.101.66.98', '151.101.130.98', '151.101.194.98']",,
+2024-11-14T10:15:59.768184,atl-paas.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.768184,atlassian.com,117.50.11.11,A,"['3.165.102.102', '3.165.102.45', '3.165.102.77', '3.165.102.120']",,
+2024-11-14T10:15:59.768184,athlonsports.com,208.67.222.220,A,"['151.101.2.98', '151.101.66.98', '151.101.130.98', '151.101.194.98']",,
+2024-11-14T10:15:59.768184,athlonsports.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:fe::fe
+2024-11-14T10:15:59.768184,ati.su,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2400:3200::1
+2024-11-14T10:15:59.768184,athenahealth.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.768184,atlassian.net,95.85.95.85,A,"['43.202.69.1', '43.202.69.3', '43.202.69.2']",,
+2024-11-14T10:15:59.768184,athlonsports.com,195.208.5.1,A,"['151.101.194.98', '151.101.130.98', '151.101.2.98', '151.101.66.98']",,
+2024-11-14T10:15:59.768184,ati.su,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2402:4e00::
+2024-11-14T10:15:59.768184,athenahealth.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.768184,ati.su,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2400:3200:baba::1
+2024-11-14T10:15:59.768184,athlonsports.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.768184,atlassian.net,208.67.222.222,A,"['43.202.69.1', '43.202.69.2', '43.202.69.3']",,
+2024-11-14T10:15:59.768184,atol.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:119:35::35
+2024-11-14T10:15:59.768184,atl-paas.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.768184,atol.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.768184,athlonsports.com,9.9.9.10,A,"['151.101.130.98', '151.101.194.98', '151.101.66.98', '151.101.2.98']",,
+2024-11-14T10:15:59.768184,athenahealth.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.768184,atlassian.net,77.88.8.8,A,"['185.166.143.37', '185.166.143.36', '185.166.143.38']",,
+2024-11-14T10:15:59.768184,athlonsports.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.768184,atol.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:0:ccc::2
+2024-11-14T10:15:59.768184,athlonsports.com,208.67.220.220,A,"['151.101.194.98', '151.101.2.98', '151.101.66.98', '151.101.130.98']",,
+2024-11-14T10:15:59.768184,ati.su,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.768184,atlasobscura.com,195.208.4.1,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T10:15:59.768184,atlassian.net,77.88.8.1,A,"['185.166.143.38', '185.166.143.37', '185.166.143.36']",,
+2024-11-14T10:15:59.768184,atl-paas.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.768184,atol.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:fe::fe
+2024-11-14T10:15:59.768184,athlonsports.com,62.76.76.62,A,"['151.101.2.98', '151.101.194.98', '151.101.130.98', '151.101.66.98']",,
+2024-11-14T10:15:59.768184,atlassian.com,223.5.5.5,A,"['13.224.14.23', '13.224.14.40', '13.224.14.22', '13.224.14.8']",,
+2024-11-14T10:15:59.768184,atol.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:119:53::53
+2024-11-14T10:15:59.769185,athenahealth.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:119:53::53
+2024-11-14T10:15:59.769185,atlasobscura.com,77.88.8.8,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.769185,atol.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.769185,athlonsports.com,195.208.4.1,A,"['151.101.66.98', '151.101.194.98', '151.101.130.98', '151.101.2.98']",,
+2024-11-14T10:15:59.769185,atlassian.com,223.6.6.6,A,"['13.224.14.8', '13.224.14.22', '13.224.14.40', '13.224.14.23']",,
+2024-11-14T10:15:59.769185,ati.su,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:0:ccc::2
+2024-11-14T10:15:59.769185,atlasobscura.com,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:fe::10
+2024-11-14T10:15:59.769185,atlasobscura.com,208.67.220.220,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:fe::10
+2024-11-14T10:15:59.769185,athlonsports.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.769185,ati.su,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:119:53::53
+2024-11-14T10:15:59.769185,atol.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.769185,athlonsports.com,8.8.8.8,A,"['151.101.66.98', '151.101.194.98', '151.101.2.98', '151.101.130.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T10:15:59.769185,atlassian.com,114.114.115.115,A,"['3.165.102.120', '3.165.102.102', '3.165.102.77']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:119:35::35
+2024-11-14T10:15:59.769185,ati.su,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:0:ccd::2
+2024-11-14T10:15:59.769185,atlassian.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.769185,athlonsports.com,77.88.8.1,A,"['151.101.66.98', '151.101.194.98', '151.101.2.98', '151.101.130.98']",,
+2024-11-14T10:15:59.769185,atlassian.net,1.0.0.1,A,"['104.192.138.12', '104.192.138.13']",,
+2024-11-14T10:15:59.769185,atlassian.net,1.1.1.1,A,"['185.166.140.2', '185.166.140.1', '185.166.140.3']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2402:4e00::
+2024-11-14T10:15:59.769185,athlonsports.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.769185,ati.su,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:fe::10
+2024-11-14T10:15:59.769185,athlonsports.com,62.76.62.76,A,"['151.101.130.98', '151.101.2.98', '151.101.194.98', '151.101.66.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,9.9.9.10,A,"['104.26.0.248', '104.26.1.248', '172.67.74.153']",,
+2024-11-14T10:15:59.769185,atlassian.net,9.9.9.10,A,"['185.166.143.36', '185.166.143.38', '185.166.143.37']",,
+2024-11-14T10:15:59.769185,atlassian.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atlassian.com on server: 210.21.196.6
+2024-11-14T10:15:59.769185,ati.su,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:119:35::35
+2024-11-14T10:15:59.769185,ati.su,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: ati.su on server: 2400:da00::6666
+2024-11-14T10:15:59.769185,atol.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.769185,atlasobscura.com,208.67.222.222,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.769185,athenahealth.com,101.226.4.6,A,['18.205.50.128'],,
+2024-11-14T10:15:59.769185,atlassian.net,8.8.4.4,A,"['43.202.69.1', '43.202.69.3', '43.202.69.2']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.769185,athenahealth.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.769185,ati.su,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2620:fe::fe
+2024-11-14T10:15:59.769185,atlasobscura.com,223.6.6.6,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.769185,atlassian.net,195.208.5.1,A,"['185.166.143.36', '185.166.143.37', '185.166.143.38']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:fe::fe
+2024-11-14T10:15:59.769185,atlassian.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atlassian.net on server: 9.9.9.9
+2024-11-14T10:15:59.769185,ati.su,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.769185,athlonsports.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 9.9.9.9
+2024-11-14T10:15:59.769185,atol.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.769185,athlonsports.com,1.1.1.1,A,"['151.101.66.98', '151.101.194.98', '151.101.130.98', '151.101.2.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,62.76.62.76,A,"['188.114.98.235', '188.114.99.235']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.769185,athlonsports.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:119:35::35
+2024-11-14T10:15:59.769185,ati.su,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.769185,athlonsports.com,95.85.95.85,A,"['151.101.2.98', '151.101.194.98', '151.101.130.98', '151.101.66.98']",,
+2024-11-14T10:15:59.769185,atol.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.769185,atlasobscura.com,223.5.5.5,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.769185,atlassian.net,8.8.8.8,A,"['43.202.69.3', '43.202.69.2', '43.202.69.1']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2620:119:53::53
+2024-11-14T10:15:59.769185,athenahealth.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.769185,athlonsports.com,8.8.4.4,A,"['151.101.194.98', '151.101.130.98', '151.101.66.98', '151.101.2.98']",,
+2024-11-14T10:15:59.769185,atol.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.769185,atlasobscura.com,208.67.222.220,A,"['104.26.0.248', '104.26.1.248', '172.67.74.153']",,
+2024-11-14T10:15:59.769185,atlassian.com,101.226.4.6,A,"['3.165.102.120', '3.165.102.45', '3.165.102.102', '3.165.102.77']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.769185,athlonsports.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.769185,athlonsports.com,1.0.0.1,A,"['151.101.130.98', '151.101.194.98', '151.101.66.98', '151.101.2.98']",,
+2024-11-14T10:15:59.769185,ati.su,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.769185,atlasobscura.com,208.67.220.222,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.769185,ati.su,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.769185,atlassian.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2402:4e00::
+2024-11-14T10:15:59.769185,athenahealth.com,117.50.11.11,A,['18.205.50.128'],,
+2024-11-14T10:15:59.769185,athenahealth.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 101.226.4.7
+2024-11-14T10:15:59.769185,atlasobscura.com,94.140.14.14,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.769185,atlassian.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atlassian.com on server: 202.96.128.86
+2024-11-14T10:15:59.769185,atlassian.com,218.30.118.6,A,"['3.165.102.77', '3.165.102.45', '3.165.102.120', '3.165.102.102']",,
+2024-11-14T10:15:59.769185,ati.su,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.769185,athenahealth.com,123.125.81.6,A,['18.205.50.128'],,
+2024-11-14T10:15:59.769185,atlasobscura.com,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:15:59.769185,atlassian.com,211.136.17.107,A,"['54.230.71.28', '54.230.71.84', '54.230.71.103', '54.230.71.51']",,
+2024-11-14T10:15:59.769185,athlonsports.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.769185,athlonsports.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.769185,ati.su,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.769185,atlassian.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2400:3200::1
+2024-11-14T10:15:59.769185,athlonsports.com,114.114.115.115,A,"['151.101.194.98', '151.101.2.98', '151.101.66.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,94.140.15.15,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.769185,atlassian.com,180.76.76.76,A,"['54.230.71.84', '54.230.71.103', '54.230.71.28', '54.230.71.51']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 9.9.9.9
+2024-11-14T10:15:59.769185,athenahealth.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.769185,athlonsports.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2402:4e00::
+2024-11-14T10:15:59.769185,atlassian.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2400:3200:baba::1
+2024-11-14T10:15:59.769185,athlonsports.com,114.114.114.114,A,"['151.101.2.98', '151.101.66.98', '151.101.130.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,114.114.114.114,A,"['104.26.0.248', '172.67.74.153', '104.26.1.248']",,
+2024-11-14T10:15:59.769185,ati.su,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.769185,atlassian.net,2.56.220.2,A,"['43.202.69.3', '43.202.69.2', '43.202.69.1']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.769185,ati.su,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.769185,atol.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:fe::10
+2024-11-14T10:15:59.769185,athlonsports.com,94.140.15.15,A,"['151.101.66.98', '151.101.130.98', '151.101.194.98', '151.101.2.98']",,
+2024-11-14T10:15:59.769185,atlasobscura.com,114.114.115.115,A,"['172.67.74.153', '104.26.1.248', '104.26.0.248']",,
+2024-11-14T10:15:59.769185,athenahealth.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.769185,athlonsports.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: athlonsports.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.770185,atlassian.com,123.125.81.6,A,"['3.165.102.120', '3.165.102.77', '3.165.102.45', '3.165.102.102']",,
+2024-11-14T10:15:59.770185,atlassian.com,77.88.8.1,A,"['3.164.240.87', '3.164.240.96', '3.164.240.30', '3.164.240.125']",,
+2024-11-14T10:15:59.770185,athenahealth.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 2400:da00::6666
+2024-11-14T10:15:59.770185,atomex.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2402:4e00::
+2024-11-14T10:15:59.770185,athome.co.jp,208.67.220.222,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 208.67.220.222
+2024-11-14T10:15:59.770185,atlasobscura.com,123.125.81.6,A,"['172.67.74.153', '104.26.1.248', '104.26.0.248']",,
+2024-11-14T10:15:59.770185,att-idns.net,8.8.8.8,A,[],NoAnswer,No answer for domain: att-idns.net on server: 8.8.8.8
+2024-11-14T10:15:59.770185,att-idns.net,195.208.4.1,A,[],NoAnswer,No answer for domain: att-idns.net on server: 195.208.4.1
+2024-11-14T10:15:59.770185,atomex.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:0:ccd::2
+2024-11-14T10:15:59.770185,athenahealth.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 123.125.81.7
+2024-11-14T10:15:59.770185,atlasobscura.com,101.226.4.6,A,"['104.26.0.248', '172.67.74.153', '104.26.1.248']",,
+2024-11-14T10:15:59.770185,atptour.com,119.29.29.29,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,195.208.5.1,A,[],NoAnswer,No answer for domain: att-idns.net on server: 195.208.5.1
+2024-11-14T10:15:59.770185,atlassian.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atlassian.com on server: 101.226.4.7
+2024-11-14T10:15:59.770185,ati.su,8.8.8.8,A,"['139.45.234.82', '139.45.234.81', '139.45.252.52', '139.45.252.51']",,
+2024-11-14T10:15:59.770185,atptour.com,223.5.5.5,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,94.140.15.15,A,[],NoAnswer,No answer for domain: att-idns.net on server: 94.140.15.15
+2024-11-14T10:15:59.770185,atomex.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.770185,ati.su,62.76.62.76,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.770185,atlassian.com,1.1.1.1,A,"['3.164.143.105', '3.164.143.14', '3.164.143.58', '3.164.143.27']",,
+2024-11-14T10:15:59.770185,atptour.com,223.6.6.6,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,114.114.114.114,A,[],NoAnswer,No answer for domain: att-idns.net on server: 114.114.114.114
+2024-11-14T10:15:59.770185,atomex.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.770185,atlassian.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atlassian.com on server: 123.125.81.7
+2024-11-14T10:15:59.770185,atlassian.com,8.8.8.8,A,"['54.230.71.51', '54.230.71.84', '54.230.71.103', '54.230.71.28']",,
+2024-11-14T10:15:59.770185,atptour.com,114.114.114.114,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,208.67.220.220,A,[],NoAnswer,No answer for domain: att-idns.net on server: 208.67.220.220
+2024-11-14T10:15:59.770185,athome.co.jp,101.226.4.6,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 101.226.4.6
+2024-11-14T10:15:59.770185,atomex.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.770185,atlassian.com,8.8.4.4,A,"['54.230.71.84', '54.230.71.28', '54.230.71.103', '54.230.71.51']",,
+2024-11-14T10:15:59.770185,atptour.com,114.114.115.115,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,athome.co.jp,117.50.11.11,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 117.50.11.11
+2024-11-14T10:15:59.770185,atomex.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.770185,athome.co.jp,123.125.81.6,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 123.125.81.6
+2024-11-14T10:15:59.770185,atptour.com,208.67.222.220,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atomex.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:0:ccc::2
+2024-11-14T10:15:59.770185,athlonsports.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 2400:da00::6666
+2024-11-14T10:15:59.770185,atlassian.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atlassian.net on server: 2400:da00::6666
+2024-11-14T10:15:59.770185,atptour.com,208.67.220.222,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,ati.su,195.208.4.1,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,ati.su,195.208.5.1,A,"['139.45.234.82', '139.45.252.51', '139.45.252.52', '139.45.234.81']",,
+2024-11-14T10:15:59.770185,atomex.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.770185,atlassian.com,94.140.14.14,A,"['18.64.8.92', '18.64.8.62', '18.64.8.67', '18.64.8.127']",,
+2024-11-14T10:15:59.770185,atptour.com,94.140.14.14,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atomex.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.770185,ati.su,77.88.8.1,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,atptour.com,94.140.15.15,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atlasobscura.com,180.76.76.76,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.770185,att-idns.net,208.67.222.222,A,[],NoAnswer,No answer for domain: att-idns.net on server: 208.67.222.222
+2024-11-14T10:15:59.770185,atomex.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.770185,atlassian.com,208.67.220.222,A,"['54.230.71.51', '54.230.71.84', '54.230.71.103', '54.230.71.28']",,
+2024-11-14T10:15:59.770185,ati.su,62.76.76.62,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,atptour.com,208.67.222.222,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atomex.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2400:3200:baba::1
+2024-11-14T10:15:59.770185,athome.co.jp,94.140.15.15,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 94.140.15.15
+2024-11-14T10:15:59.770185,athome.co.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 123.125.81.7
+2024-11-14T10:15:59.770185,atptour.com,208.67.220.220,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atptour.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atptour.com on server: 101.226.4.7
+2024-11-14T10:15:59.770185,atomex.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.770185,athome.co.jp,94.140.14.14,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 94.140.14.14
+2024-11-14T10:15:59.770185,atlasobscura.com,211.136.17.107,A,"['104.26.0.248', '104.26.1.248', '172.67.74.153']",,
+2024-11-14T10:15:59.770185,atomex.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T10:15:59.770185,athome.co.jp,223.6.6.6,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 223.6.6.6
+2024-11-14T10:15:59.770185,att-idns.net,1.1.1.1,A,[],NoAnswer,No answer for domain: att-idns.net on server: 1.1.1.1
+2024-11-14T10:15:59.770185,att-idns.net,1.0.0.1,A,[],NoAnswer,No answer for domain: att-idns.net on server: 1.0.0.1
+2024-11-14T10:15:59.770185,atomex.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2400:3200::1
+2024-11-14T10:15:59.770185,atlasobscura.com,117.50.11.11,A,"['104.26.1.248', '104.26.0.248', '172.67.74.153']",,
+2024-11-14T10:15:59.770185,atlassian.com,195.208.5.1,A,"['3.164.206.55', '3.164.206.68', '3.164.206.8', '3.164.206.107']",,
+2024-11-14T10:15:59.770185,athome.co.jp,119.29.29.29,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 119.29.29.29
+2024-11-14T10:15:59.770185,att-idns.net,62.76.62.76,A,[],NoAnswer,No answer for domain: att-idns.net on server: 62.76.62.76
+2024-11-14T10:15:59.770185,atomex.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:119:53::53
+2024-11-14T10:15:59.770185,ati.su,2.56.220.2,A,"['139.45.234.81', '139.45.252.51', '139.45.252.52', '139.45.234.82']",,
+2024-11-14T10:15:59.770185,atlassian.com,94.140.15.15,A,"['18.64.8.92', '18.64.8.62', '18.64.8.67', '18.64.8.127']",,
+2024-11-14T10:15:59.770185,atomex.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T10:15:59.770185,ati.su,77.88.8.8,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.770185,atlassian.com,1.0.0.1,A,"['18.65.25.81', '18.65.25.85', '18.65.25.72', '18.65.25.54']",,
+2024-11-14T10:15:59.770185,atptour.com,123.125.81.6,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,94.140.14.14,A,[],NoAnswer,No answer for domain: att-idns.net on server: 94.140.14.14
+2024-11-14T10:15:59.770185,atomex.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.770185,ati.su,1.0.0.1,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,atlassian.com,77.88.8.8,A,"['3.164.240.96', '3.164.240.125', '3.164.240.30', '3.164.240.87']",,
+2024-11-14T10:15:59.770185,atptour.com,101.226.4.6,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atomex.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.770185,ati.su,95.85.95.85,A,"['139.45.234.82', '139.45.252.51', '139.45.234.81', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,athome.co.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 101.226.4.7
+2024-11-14T10:15:59.770185,atptour.com,211.136.17.107,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,208.67.220.222,A,[],NoAnswer,No answer for domain: att-idns.net on server: 208.67.220.222
+2024-11-14T10:15:59.770185,atomex.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:fe::10
+2024-11-14T10:15:59.770185,athome.co.jp,114.114.115.115,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 114.114.115.115
+2024-11-14T10:15:59.770185,atlasobscura.com,218.30.118.6,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.770185,atptour.com,117.50.11.11,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atomex.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:119:35::35
+2024-11-14T10:15:59.770185,athome.co.jp,223.5.5.5,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 223.5.5.5
+2024-11-14T10:15:59.770185,atlassian.com,208.67.220.220,A,"['54.230.71.84', '54.230.71.103', '54.230.71.28', '54.230.71.51']",,
+2024-11-14T10:15:59.770185,atomex.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atomex.net on server: 2400:da00::6666
+2024-11-14T10:15:59.770185,atptour.com,218.30.118.6,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,atom.com,2402:4e00::,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.770185,ati.su,8.8.4.4,A,"['139.45.252.52', '139.45.252.51', '139.45.234.82', '139.45.234.81']",,
+2024-11-14T10:15:59.770185,att-idns.net,9.9.9.10,A,[],NoAnswer,No answer for domain: att-idns.net on server: 9.9.9.10
+2024-11-14T10:15:59.770185,atlassian.com,95.85.95.85,A,"['54.230.71.103', '54.230.71.51', '54.230.71.28', '54.230.71.84']",,
+2024-11-14T10:15:59.770185,att-idns.net,95.85.95.85,A,[],NoAnswer,No answer for domain: att-idns.net on server: 95.85.95.85
+2024-11-14T10:15:59.770185,ati.su,1.1.1.1,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.770185,atlassian.com,208.67.222.222,A,"['54.230.71.84', '54.230.71.103', '54.230.71.28', '54.230.71.51']",,
+2024-11-14T10:15:59.770185,atptour.com,195.208.5.1,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,62.76.76.62,A,[],NoAnswer,No answer for domain: att-idns.net on server: 62.76.76.62
+2024-11-14T10:15:59.770185,atomex.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2620:fe::fe
+2024-11-14T10:15:59.770185,athome.co.jp,218.30.118.6,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 218.30.118.6
+2024-11-14T10:15:59.770185,atlassian.com,208.67.222.220,A,"['54.230.71.28', '54.230.71.51', '54.230.71.84', '54.230.71.103']",,
+2024-11-14T10:15:59.770185,atptour.com,180.76.76.76,A,['216.134.208.13'],,
+2024-11-14T10:15:59.770185,att-idns.net,208.67.222.220,A,[],NoAnswer,No answer for domain: att-idns.net on server: 208.67.222.220
+2024-11-14T10:15:59.771186,athome.co.jp,211.136.17.107,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 211.136.17.107
+2024-11-14T10:15:59.771186,atlasobscura.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 123.125.81.7
+2024-11-14T10:15:59.771186,atlassian.com,9.9.9.10,A,"['18.66.147.117', '18.66.147.4', '18.66.147.31', '18.66.147.78']",,
+2024-11-14T10:15:59.771186,atlasobscura.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 101.226.4.7
+2024-11-14T10:15:59.771186,att-idns.net,77.88.8.8,A,[],NoAnswer,No answer for domain: att-idns.net on server: 77.88.8.8
+2024-11-14T10:15:59.771186,athome.co.jp,180.76.76.76,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 180.76.76.76
+2024-11-14T10:15:59.771186,atlassian.com,2.56.220.2,A,"['54.230.71.103', '54.230.71.84', '54.230.71.51', '54.230.71.28']",,
+2024-11-14T10:15:59.771186,att-idns.net,77.88.8.1,A,[],NoAnswer,No answer for domain: att-idns.net on server: 77.88.8.1
+2024-11-14T10:15:59.771186,atomex.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.771186,athome.co.jp,114.114.114.114,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 114.114.114.114
+2024-11-14T10:15:59.771186,atlassian.com,195.208.4.1,A,"['3.164.206.68', '3.164.206.55', '3.164.206.107', '3.164.206.8']",,
+2024-11-14T10:15:59.771186,att-idns.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: att-idns.net on server: 9.9.9.9
+2024-11-14T10:15:59.771186,atom.com,2400:3200::1,AAAA,"['2606:4700:10::ac43:1a45', '2606:4700:10::6816:49fc', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.771186,att-idns.net,2.56.220.2,A,[],NoAnswer,No answer for domain: att-idns.net on server: 2.56.220.2
+2024-11-14T10:15:59.771186,atlasobscura.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 202.96.128.86
+2024-11-14T10:15:59.771186,att-idns.net,8.8.4.4,A,[],NoAnswer,No answer for domain: att-idns.net on server: 8.8.4.4
+2024-11-14T10:15:59.771186,atom.com,2400:3200:baba::1,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.771186,atlassian.com,62.76.76.62,A,"['3.164.206.8', '3.164.206.55', '3.164.206.68', '3.164.206.107']",,
+2024-11-14T10:15:59.771186,atptour.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atptour.com on server: 123.125.81.7
+2024-11-14T10:15:59.771186,atomex.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atomex.net on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.771186,atlasobscura.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 210.21.196.6
+2024-11-14T10:15:59.771186,atlassian.com,62.76.62.76,A,"['3.164.206.8', '3.164.206.107', '3.164.206.68', '3.164.206.55']",,
+2024-11-14T10:15:59.771186,atptour.com,9.9.9.10,A,['216.134.208.13'],,
+2024-11-14T10:15:59.771186,atlasobscura.com,8.8.8.8,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.771186,atl-paas.net,94.140.14.14,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,atom.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atom.com on server: 2400:da00::6666
+2024-11-14T10:15:59.771186,atlasobscura.com,8.8.4.4,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.771186,atl-paas.net,208.67.222.220,A,"['43.202.69.16', '43.202.69.17', '43.202.69.18']",,
+2024-11-14T10:15:59.771186,atom.com,95.85.95.85,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atptour.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atptour.com on server: 202.96.128.86
+2024-11-14T10:15:59.771186,atl-paas.net,208.67.220.220,A,"['43.202.69.18', '43.202.69.16', '43.202.69.17']",,
+2024-11-14T10:15:59.771186,atptour.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atptour.com on server: 210.21.196.6
+2024-11-14T10:15:59.771186,atom.com,9.9.9.10,A,"['104.22.73.252', '172.67.26.69', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,208.67.220.222,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,atom.com,208.67.222.222,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atom.com,180.76.76.76,A,"['104.22.73.252', '172.67.26.69', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,180.76.76.76,A,"['104.192.137.14', '104.192.137.12', '104.192.137.13']",,
+2024-11-14T10:15:59.771186,athome.co.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 202.96.128.86
+2024-11-14T10:15:59.771186,atlassian.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atlassian.com on server: 9.9.9.9
+2024-11-14T10:15:59.771186,atom.com,223.6.6.6,A,"['172.67.26.69', '104.22.73.252', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,223.6.6.6,A,"['104.192.137.12', '104.192.137.14', '104.192.137.13']",,
+2024-11-14T10:15:59.771186,atl-paas.net,119.29.29.29,A,"['43.202.69.18', '43.202.69.17', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,atl-paas.net,9.9.9.10,A,"['185.166.143.31', '185.166.143.30', '185.166.143.32']",,
+2024-11-14T10:15:59.771186,atom.com,223.5.5.5,A,"['104.22.72.252', '172.67.26.69', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,208.67.222.222,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,atptour.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atptour.com on server: 9.9.9.9
+2024-11-14T10:15:59.771186,atl-paas.net,117.50.11.11,A,"['104.192.137.14', '104.192.137.13', '104.192.137.12']",,
+2024-11-14T10:15:59.771186,atl-paas.net,101.226.4.6,A,"['104.192.137.12', '104.192.137.13', '104.192.137.14']",,
+2024-11-14T10:15:59.771186,atom.com,195.208.4.1,A,"['188.114.99.233', '188.114.98.233']",,
+2024-11-14T10:15:59.771186,atl-paas.net,114.114.114.114,A,"['43.202.69.16', '43.202.69.17', '43.202.69.18']",,
+2024-11-14T10:15:59.771186,atom.com,195.208.5.1,A,"['188.114.98.235', '188.114.99.235']",,
+2024-11-14T10:15:59.771186,atl-paas.net,223.5.5.5,A,"['104.192.137.12', '104.192.137.13', '104.192.137.14']",,
+2024-11-14T10:15:59.771186,atom.com,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:15:59.771186,atl-paas.net,211.136.17.107,A,"['104.192.137.13', '104.192.137.14', '104.192.137.12']",,
+2024-11-14T10:15:59.771186,atom.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T10:15:59.771186,atl-paas.net,123.125.81.6,A,"['104.192.137.14', '104.192.137.13', '104.192.137.12']",,
+2024-11-14T10:15:59.771186,atom.com,208.67.220.220,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atl-paas.net,94.140.15.15,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,athome.co.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 210.21.196.6
+2024-11-14T10:15:59.771186,atom.com,208.67.222.220,A,"['104.22.73.252', '172.67.26.69', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,114.114.115.115,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.771186,atom.com,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T10:15:59.771186,atom.com,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T10:15:59.771186,atl-paas.net,218.30.118.6,A,"['104.192.137.12', '104.192.137.14', '104.192.137.13']",,
+2024-11-14T10:15:59.771186,atom.com,94.140.14.14,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atom.com,1.0.0.1,A,"['172.67.26.69', '104.22.72.252', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atom.com,119.29.29.29,A,"['104.22.72.252', '172.67.26.69', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,195.208.5.1,A,"['185.166.143.32', '185.166.143.30', '185.166.143.31']",,
+2024-11-14T10:15:59.771186,atom.com,114.114.115.115,A,"['172.67.26.69', '104.22.73.252', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,62.76.62.76,A,"['185.166.143.30', '185.166.143.31', '185.166.143.32']",,
+2024-11-14T10:15:59.771186,atom.com,208.67.220.222,A,"['172.67.26.69', '104.22.72.252', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,195.208.4.1,A,"['185.166.143.31', '185.166.143.32', '185.166.143.30']",,
+2024-11-14T10:15:59.771186,atom.com,94.140.15.15,A,"['172.67.26.69', '104.22.72.252', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atl-paas.net,77.88.8.1,A,"['185.166.143.32', '185.166.143.30', '185.166.143.31']",,
+2024-11-14T10:15:59.771186,atom.com,114.114.114.114,A,"['104.22.73.252', '104.22.72.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atl-paas.net,62.76.76.62,A,"['185.166.143.30', '185.166.143.31', '185.166.143.32']",,
+2024-11-14T10:15:59.771186,atom.com,2.56.220.2,A,"['172.67.26.69', '104.22.73.252', '104.22.72.252']",,
+2024-11-14T10:15:59.771186,atomex.net,95.85.95.85,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atl-paas.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 101.226.4.7
+2024-11-14T10:15:59.771186,att-idns.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:0:ccc::2
+2024-11-14T10:15:59.771186,athlonsports.com,223.5.5.5,A,"['151.101.66.98', '151.101.194.98', '151.101.130.98', '151.101.2.98']",,
+2024-11-14T10:15:59.771186,atomex.net,114.114.115.115,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atl-paas.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 123.125.81.7
+2024-11-14T10:15:59.771186,att.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.771186,athlonsports.com,223.6.6.6,A,"['151.101.194.98', '151.101.130.98', '151.101.66.98', '151.101.2.98']",,
+2024-11-14T10:15:59.771186,atom.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atom.com on server: 202.96.128.86
+2024-11-14T10:15:59.771186,atomex.net,123.125.81.6,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,att-idns.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2400:3200:baba::1
+2024-11-14T10:15:59.771186,athome.co.jp,208.67.220.220,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 208.67.220.220
+2024-11-14T10:15:59.771186,atl-paas.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 202.96.128.86
+2024-11-14T10:15:59.771186,atom.com,218.30.118.6,A,"['104.22.73.252', '104.22.72.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atomex.net,101.226.4.6,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,att-idns.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2402:4e00::
+2024-11-14T10:15:59.771186,atom.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atom.com on server: 9.9.9.9
+2024-11-14T10:15:59.771186,athome.co.jp,2.56.220.2,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 2.56.220.2
+2024-11-14T10:15:59.771186,atomile.com,208.67.222.222,A,[],NoAnswer,No answer for domain: atomile.com on server: 208.67.222.222
+2024-11-14T10:15:59.771186,att-idns.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.771186,atomex.net,77.88.8.1,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atomile.com,1.1.1.1,A,[],NoAnswer,No answer for domain: atomile.com on server: 1.1.1.1
+2024-11-14T10:15:59.771186,att-idns.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2400:3200::1
+2024-11-14T10:15:59.771186,athome.co.jp,1.1.1.1,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 1.1.1.1
+2024-11-14T10:15:59.771186,athome.co.jp,77.88.8.8,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 77.88.8.8
+2024-11-14T10:15:59.771186,atomile.com,9.9.9.10,A,[],NoAnswer,No answer for domain: atomile.com on server: 9.9.9.10
+2024-11-14T10:15:59.771186,att-idns.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.771186,atom.com,101.226.4.6,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,athome.co.jp,95.85.95.85,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 95.85.95.85
+2024-11-14T10:15:59.771186,att-idns.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:fe::fe
+2024-11-14T10:15:59.771186,atl-paas.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 210.21.196.6
+2024-11-14T10:15:59.771186,atom.com,117.50.11.11,A,"['172.67.26.69', '104.22.72.252', '104.22.73.252']",,
+2024-11-14T10:15:59.771186,atomile.com,1.0.0.1,A,[],NoAnswer,No answer for domain: atomile.com on server: 1.0.0.1
+2024-11-14T10:15:59.771186,atl-paas.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 9.9.9.9
+2024-11-14T10:15:59.771186,athome.co.jp,8.8.8.8,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 8.8.8.8
+2024-11-14T10:15:59.771186,atom.com,123.125.81.6,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.771186,atomile.com,95.85.95.85,A,[],NoAnswer,No answer for domain: atomile.com on server: 95.85.95.85
+2024-11-14T10:15:59.771186,att.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.771186,athome.co.jp,8.8.4.4,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 8.8.4.4
+2024-11-14T10:15:59.771186,atomex.net,208.67.222.222,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atomile.com,208.67.220.220,A,[],NoAnswer,No answer for domain: atomile.com on server: 208.67.220.220
+2024-11-14T10:15:59.771186,att-idns.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.771186,athome.co.jp,1.0.0.1,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 1.0.0.1
+2024-11-14T10:15:59.771186,atomex.net,77.88.8.8,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atomile.com,208.67.222.220,A,[],NoAnswer,No answer for domain: atomile.com on server: 208.67.222.220
+2024-11-14T10:15:59.771186,att-idns.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.771186,atomex.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atomex.net on server: 123.125.81.7
+2024-11-14T10:15:59.771186,athlonsports.com,123.125.81.6,A,"['151.101.66.98', '151.101.194.98', '151.101.130.98', '151.101.2.98']",,
+2024-11-14T10:15:59.771186,atomex.net,211.136.17.107,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atomex.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atomex.net on server: 101.226.4.7
+2024-11-14T10:15:59.771186,atom.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atom.com on server: 123.125.81.7
+2024-11-14T10:15:59.771186,atomex.net,62.76.62.76,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,atomex.net,117.50.11.11,A,['35.245.209.169'],,
+2024-11-14T10:15:59.771186,att-idns.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.771186,athlonsports.com,218.30.118.6,A,"['151.101.130.98', '151.101.194.98', '151.101.2.98', '151.101.66.98']",,
+2024-11-14T10:15:59.772184,atomex.net,9.9.9.10,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atom.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atom.com on server: 101.226.4.7
+2024-11-14T10:15:59.772184,att-idns.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.772184,athlonsports.com,211.136.17.107,A,"['151.101.2.98', '151.101.194.98', '151.101.66.98', '151.101.130.98']",,
+2024-11-14T10:15:59.772184,atomex.net,2.56.220.2,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,218.30.118.6,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,att-idns.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.772184,atom.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atom.com on server: 210.21.196.6
+2024-11-14T10:15:59.772184,atomex.net,208.67.220.220,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,180.76.76.76,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,athlonsports.com,117.50.11.11,A,"['151.101.66.98', '151.101.2.98', '151.101.194.98', '151.101.130.98']",,
+2024-11-14T10:15:59.772184,athlonsports.com,101.226.4.6,A,"['151.101.130.98', '151.101.2.98', '151.101.66.98', '151.101.194.98']",,
+2024-11-14T10:15:59.772184,athlonsports.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 101.226.4.7
+2024-11-14T10:15:59.772184,atomex.net,208.67.222.220,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,att-idns.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.772184,att-idns.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.772184,atomex.net,8.8.4.4,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,223.5.5.5,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,att.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.772184,att-idns.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: att-idns.net on server: 2400:da00::6666
+2024-11-14T10:15:59.772184,atomex.net,195.208.5.1,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,223.6.6.6,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,att-idns.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.772184,athlonsports.com,119.29.29.29,A,"['151.101.2.98', '151.101.194.98', '151.101.130.98', '151.101.66.98']",,
+2024-11-14T10:15:59.772184,atlasobscura.com,1.0.0.1,A,"['172.67.74.153', '104.26.1.248', '104.26.0.248']",,
+2024-11-14T10:15:59.772184,att-idns.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.772184,atomile.com,195.208.5.1,A,[],NoAnswer,No answer for domain: atomile.com on server: 195.208.5.1
+2024-11-14T10:15:59.772184,atomex.net,8.8.8.8,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,athlonsports.com,180.76.76.76,A,"['151.101.66.98', '151.101.130.98', '151.101.194.98', '151.101.2.98']",,
+2024-11-14T10:15:59.772184,att.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.772184,athome.co.jp,208.67.222.222,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 208.67.222.222
+2024-11-14T10:15:59.772184,atomex.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atomex.net on server: 9.9.9.9
+2024-11-14T10:15:59.772184,atomile.com,62.76.62.76,A,[],NoAnswer,No answer for domain: atomile.com on server: 62.76.62.76
+2024-11-14T10:15:59.772184,att-idns.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:119:35::35
+2024-11-14T10:15:59.772184,athome.co.jp,208.67.222.220,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 208.67.222.220
+2024-11-14T10:15:59.772184,atomex.net,208.67.220.222,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomile.com,195.208.4.1,A,[],NoAnswer,No answer for domain: atomile.com on server: 195.208.4.1
+2024-11-14T10:15:59.772184,athlonsports.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 123.125.81.7
+2024-11-14T10:15:59.772184,atomex.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T10:15:59.772184,atomile.com,77.88.8.1,A,[],NoAnswer,No answer for domain: atomile.com on server: 77.88.8.1
+2024-11-14T10:15:59.772184,att.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.772184,athome.co.jp,9.9.9.10,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 9.9.9.10
+2024-11-14T10:15:59.772184,atomex.net,114.114.114.114,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomile.com,62.76.76.62,A,[],NoAnswer,No answer for domain: atomile.com on server: 62.76.76.62
+2024-11-14T10:15:59.772184,att.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.772184,athome.co.jp,62.76.62.76,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 62.76.62.76
+2024-11-14T10:15:59.772184,atomex.net,195.208.4.1,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomile.com,8.8.4.4,A,[],NoAnswer,No answer for domain: atomile.com on server: 8.8.4.4
+2024-11-14T10:15:59.772184,att.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.772184,athome.co.jp,195.208.5.1,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 195.208.5.1
+2024-11-14T10:15:59.772184,atomex.net,62.76.76.62,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atomex.net on server: 210.21.196.6
+2024-11-14T10:15:59.772184,atomile.com,77.88.8.8,A,[],NoAnswer,No answer for domain: atomile.com on server: 77.88.8.8
+2024-11-14T10:15:59.772184,att-idns.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:119:53::53
+2024-11-14T10:15:59.772184,atlasobscura.com,1.1.1.1,A,"['104.26.1.248', '172.67.74.153', '104.26.0.248']",,
+2024-11-14T10:15:59.772184,atom.com,211.136.17.107,A,"['104.22.72.252', '172.67.26.69', '104.22.73.252']",,
+2024-11-14T10:15:59.772184,atomile.com,2.56.220.2,A,[],NoAnswer,No answer for domain: atomile.com on server: 2.56.220.2
+2024-11-14T10:15:59.772184,athome.co.jp,62.76.76.62,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 62.76.76.62
+2024-11-14T10:15:59.772184,att-idns.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:0:ccd::2
+2024-11-14T10:15:59.772184,atlasobscura.com,95.85.95.85,A,"['172.67.74.153', '104.26.0.248', '104.26.1.248']",,
+2024-11-14T10:15:59.772184,atomex.net,1.1.1.1,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomile.com,8.8.8.8,A,[],NoAnswer,No answer for domain: atomile.com on server: 8.8.8.8
+2024-11-14T10:15:59.772184,athome.co.jp,195.208.4.1,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 195.208.4.1
+2024-11-14T10:15:59.772184,att-idns.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2620:fe::10
+2024-11-14T10:15:59.772184,atomex.net,1.0.0.1,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomex.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T10:15:59.772184,atomex.net,119.29.29.29,A,['35.245.209.169'],,
+2024-11-14T10:15:59.772184,atomile.com,208.67.220.222,A,[],NoAnswer,No answer for domain: atomile.com on server: 208.67.220.222
+2024-11-14T10:15:59.772184,att.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.772184,atlasobscura.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8', '2606:4700:20::681a:1f8']",,
+2024-11-14T10:15:59.772184,atomile.com,94.140.15.15,A,[],NoAnswer,No answer for domain: atomile.com on server: 94.140.15.15
+2024-11-14T10:15:59.772184,att.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.772184,athome.co.jp,77.88.8.1,A,[],NoAnswer,No answer for domain: athome.co.jp on server: 77.88.8.1
+2024-11-14T10:15:59.772184,atlasobscura.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8', '2606:4700:20::681a:1f8']",,
+2024-11-14T10:15:59.772184,atlassian.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.772184,atptour.com,1.1.1.1,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,att.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.772184,atlassian.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:fe::10
+2024-11-14T10:15:59.772184,atlassian.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.772184,att.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2400:3200:baba::1
+2024-11-14T10:15:59.772184,atomile.com,114.114.115.115,A,[],NoAnswer,No answer for domain: atomile.com on server: 114.114.115.115
+2024-11-14T10:15:59.772184,atlasobscura.com,2620:0:ccd::2,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8', '2606:4700:20::681a:1f8']",,
+2024-11-14T10:15:59.772184,att.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2400:3200::1
+2024-11-14T10:15:59.772184,atomile.com,180.76.76.76,A,[],NoAnswer,No answer for domain: atomile.com on server: 180.76.76.76
+2024-11-14T10:15:59.772184,atlasobscura.com,2402:4e00::,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8', '2606:4700:20::681a:1f8']",,
+2024-11-14T10:15:59.772184,atomex.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atomex.net on server: 202.96.128.86
+2024-11-14T10:15:59.772184,atptour.com,77.88.8.1,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,athlonsports.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 202.96.128.86
+2024-11-14T10:15:59.772184,atptour.com,62.76.76.62,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atlassian.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.772184,atlasobscura.com,2620:119:53::53,AAAA,"['2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.772184,atptour.com,2.56.220.2,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,att.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:0:ccc::2
+2024-11-14T10:15:59.772184,atlasobscura.com,2620:0:ccc::2,AAAA,"['2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.772184,atptour.com,195.208.4.1,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atlassian.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.772184,att.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:0:ccd::2
+2024-11-14T10:15:59.772184,atomile.com,94.140.14.14,A,[],NoAnswer,No answer for domain: atomile.com on server: 94.140.14.14
+2024-11-14T10:15:59.772184,atlassian.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:fe::fe
+2024-11-14T10:15:59.772184,athlonsports.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: athlonsports.com on server: 210.21.196.6
+2024-11-14T10:15:59.772184,atomile.com,117.50.11.11,A,[],NoAnswer,No answer for domain: atomile.com on server: 117.50.11.11
+2024-11-14T10:15:59.772184,atomile.com,123.125.81.6,A,[],NoAnswer,No answer for domain: atomile.com on server: 123.125.81.6
+2024-11-14T10:15:59.772184,atomile.com,211.136.17.107,A,[],NoAnswer,No answer for domain: atomile.com on server: 211.136.17.107
+2024-11-14T10:15:59.772184,att.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:119:35::35
+2024-11-14T10:15:59.772184,att.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:119:53::53
+2024-11-14T10:15:59.772184,atlassian.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.772184,atlassian.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.772184,atlasobscura.com,2400:3200::1,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.772184,atlassian.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.772184,atlasobscura.com,2400:3200:baba::1,AAAA,"['2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.772184,atptour.com,95.85.95.85,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atomile.com,218.30.118.6,A,[],NoAnswer,No answer for domain: atomile.com on server: 218.30.118.6
+2024-11-14T10:15:59.772184,atptour.com,62.76.62.76,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atlasobscura.com,2620:fe::fe,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:1f8', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.772184,atptour.com,8.8.8.8,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atlasobscura.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T10:15:59.772184,atptour.com,77.88.8.8,A,['216.134.208.13'],,
+2024-11-14T10:15:59.772184,atomile.com,114.114.114.114,A,[],NoAnswer,No answer for domain: atomile.com on server: 114.114.114.114
+2024-11-14T10:15:59.772184,atomile.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atomile.com on server: 9.9.9.9
+2024-11-14T10:15:59.772184,atomile.com,119.29.29.29,A,[],NoAnswer,No answer for domain: atomile.com on server: 119.29.29.29
+2024-11-14T10:15:59.772184,atlassian.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.773189,atlassian.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.773189,atomile.com,223.5.5.5,A,[],NoAnswer,No answer for domain: atomile.com on server: 223.5.5.5
+2024-11-14T10:15:59.773189,atomile.com,223.6.6.6,A,[],NoAnswer,No answer for domain: atomile.com on server: 223.6.6.6
+2024-11-14T10:15:59.773189,att.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2402:4e00::
+2024-11-14T10:15:59.773189,atptour.com,8.8.4.4,A,['216.134.208.13'],,
+2024-11-14T10:15:59.773189,atlassian.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.773189,atlasobscura.com,2620:119:35::35,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.773189,atomile.com,101.226.4.6,A,[],NoAnswer,No answer for domain: atomile.com on server: 101.226.4.6
+2024-11-14T10:15:59.773189,atlassian.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.773189,atlassian.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.773189,atptour.com,1.0.0.1,A,['216.134.208.13'],,
+2024-11-14T10:15:59.773189,atlasobscura.com,2620:fe::10,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::ac43:4a99', '2606:4700:20::681a:1f8']",,
+2024-11-14T10:15:59.773189,athenahealth.com,208.67.222.222,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,208.67.220.220,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,athome.co.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 9.9.9.9
+2024-11-14T10:15:59.773189,athome.co.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:119:53::53
+2024-11-14T10:15:59.773189,atomile.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.773189,att.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:fe::10
+2024-11-14T10:15:59.773189,atol.ru,123.125.81.6,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,119.29.29.29,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.773189,athome.co.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.773189,atomile.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.773189,att.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:fe::fe
+2024-11-14T10:15:59.773189,athenahealth.com,208.67.220.222,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,117.50.11.11,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,180.76.76.76,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,athome.co.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:0:ccd::2
+2024-11-14T10:15:59.773189,atomile.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.773189,athenahealth.com,2.56.220.2,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atom.com,1.1.1.1,A,"['104.22.73.252', '104.22.72.252', '172.67.26.69']",,
+2024-11-14T10:15:59.773189,att.net,208.67.222.220,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.773189,athome.co.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.773189,att.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:fe::fe
+2024-11-14T10:15:59.773189,athenahealth.com,211.136.17.107,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atomile.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atomile.com on server: 210.21.196.6
+2024-11-14T10:15:59.773189,athenahealth.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.773189,atomile.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.773189,atomile.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atomile.com on server: 123.125.81.7
+2024-11-14T10:15:59.773189,atomile.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atomile.com on server: 101.226.4.7
+2024-11-14T10:15:59.773189,athenahealth.com,62.76.76.62,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,211.136.17.107,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: att.net on server: 2400:da00::6666
+2024-11-14T10:15:59.773189,att.net,218.30.118.6,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,athome.co.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:119:35::35
+2024-11-14T10:15:59.773189,atomile.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2402:4e00::
+2024-11-14T10:15:59.773189,att.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.773189,atlasobscura.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atlasobscura.com on server: 2400:da00::6666
+2024-11-14T10:15:59.773189,att.net,211.136.17.107,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.773189,atomile.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.773189,att.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.773189,atom.com,8.8.4.4,A,"['104.22.72.252', '104.22.73.252', '172.67.26.69']",,
+2024-11-14T10:15:59.773189,atomile.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atomile.com on server: 202.96.128.86
+2024-11-14T10:15:59.773189,att.net,94.140.15.15,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,athome.co.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:fe::10
+2024-11-14T10:15:59.773189,att.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.773189,atol.ru,62.76.76.62,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,223.6.6.6,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,athenahealth.com,218.30.118.6,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,athome.co.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:0:ccc::2
+2024-11-14T10:15:59.773189,att.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.773189,atomile.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.773189,att.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: att.net on server: 202.96.128.86
+2024-11-14T10:15:59.773189,atol.ru,9.9.9.10,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,athenahealth.com,180.76.76.76,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,athome.co.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.773189,att.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2620:fe::10
+2024-11-14T10:15:59.773189,att.net,195.208.4.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,atomile.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.773189,athenahealth.com,1.1.1.1,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,att.net,94.140.14.14,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.773189,atomile.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:119:35::35
+2024-11-14T10:15:59.773189,athome.co.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.773189,att.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.773189,athenahealth.com,9.9.9.10,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,athenahealth.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.773189,atol.ru,101.226.4.6,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,atomile.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:119:53::53
+2024-11-14T10:15:59.773189,athome.co.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.773189,att.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.773189,athenahealth.com,119.29.29.29,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,athenahealth.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.773189,athome.co.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.773189,atomile.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:fe::10
+2024-11-14T10:15:59.773189,att.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.773189,athenahealth.com,62.76.62.76,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,218.30.118.6,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,195.208.5.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.773189,atol.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atol.ru on server: 101.226.4.7
+2024-11-14T10:15:59.773189,att.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.773189,athenahealth.com,94.140.15.15,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,195.208.4.1,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.773189,athome.co.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.773189,atomile.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.773189,att.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.773189,athenahealth.com,223.5.5.5,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,195.208.5.1,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,athenahealth.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.773189,athome.co.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.773189,att.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:119:53::53
+2024-11-14T10:15:59.773189,athenahealth.com,95.85.95.85,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,athenahealth.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: athenahealth.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.773189,athome.co.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2400:3200:baba::1
+2024-11-14T10:15:59.773189,athenahealth.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 202.96.128.86
+2024-11-14T10:15:59.773189,att.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.773189,athenahealth.com,223.6.6.6,A,['18.205.50.128'],,
+2024-11-14T10:15:59.773189,atol.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: atol.ru on server: 9.9.9.9
+2024-11-14T10:15:59.773189,athenahealth.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 210.21.196.6
+2024-11-14T10:15:59.773189,atomile.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2620:fe::fe
+2024-11-14T10:15:59.773189,atol.ru,114.114.114.114,A,['185.71.67.137'],,
+2024-11-14T10:15:59.773189,att.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.773189,atol.ru,94.140.15.15,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,athenahealth.com,114.114.115.115,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atomile.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.774186,att.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.774186,atol.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atol.ru on server: 123.125.81.7
+2024-11-14T10:15:59.774186,atol.ru,62.76.62.76,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,223.5.5.5,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.774186,athome.co.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.774186,att.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.774186,athenahealth.com,1.0.0.1,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,ati.su,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: ati.su on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.774186,att.net,101.226.4.6,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,atol.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atol.ru on server: 210.21.196.6
+2024-11-14T10:15:59.774186,att.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: att.net on server: 9.9.9.9
+2024-11-14T10:15:59.774186,athenahealth.com,208.67.220.220,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atom.com,8.8.8.8,A,"['172.67.26.69', '104.22.72.252', '104.22.73.252']",,
+2024-11-14T10:15:59.774186,att.net,208.67.222.222,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,athome.co.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.774186,atomile.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.774186,att.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2400:3200::1
+2024-11-14T10:15:59.774186,athenahealth.com,8.8.4.4,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,180.76.76.76,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,208.67.220.220,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,athome.co.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.774186,atomile.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.774186,att.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2402:4e00::
+2024-11-14T10:15:59.774186,athenahealth.com,77.88.8.1,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,208.67.222.222,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,123.125.81.6,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.774186,athome.co.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2400:3200::1
+2024-11-14T10:15:59.774186,att.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.774186,athenahealth.com,94.140.14.14,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,208.67.220.222,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,114.114.115.115,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.774186,atomile.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.774186,atomile.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.774186,att.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.774186,athenahealth.com,8.8.8.8,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,94.140.14.14,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,9.9.9.10,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.774186,athome.co.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.774186,atomile.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.774186,att.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:119:35::35
+2024-11-14T10:15:59.774186,athenahealth.com,195.208.4.1,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,223.6.6.6,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,athome.co.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2402:4e00::
+2024-11-14T10:15:59.774186,atomile.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2400:3200::1
+2024-11-14T10:15:59.774186,att.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.774186,athenahealth.com,195.208.5.1,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,119.29.29.29,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,208.67.220.222,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,att.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.774186,athenahealth.com,77.88.8.8,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,114.114.115.115,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,atomile.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.774186,att.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: att.net on server: 123.125.81.7
+2024-11-14T10:15:59.774186,atomile.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.774186,athenahealth.com,208.67.222.220,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,223.5.5.5,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,114.114.114.114,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,att.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: att.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.774186,atomile.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atomile.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.774186,athenahealth.com,114.114.114.114,A,['18.205.50.128'],,
+2024-11-14T10:15:59.774186,atol.ru,208.67.222.220,A,['185.71.67.137'],,
+2024-11-14T10:15:59.774186,att.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.774186,athome.co.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: athome.co.jp on server: 2620:fe::fe
+2024-11-14T10:15:59.774186,att.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: att.net on server: 101.226.4.7
+2024-11-14T10:15:59.774186,att.net,117.50.11.11,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.774186,att.com,94.140.14.14,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,att.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: att.net on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.774186,atlassian.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:119:35::35
+2024-11-14T10:15:59.774186,atlasobscura.com,2606:4700:4700::1001,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.774186,att-idns.net,223.6.6.6,A,[],NoAnswer,No answer for domain: att-idns.net on server: 223.6.6.6
+2024-11-14T10:15:59.774186,att.com,94.140.15.15,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,atom.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T10:15:59.774186,athenahealth.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: athenahealth.com on server: 9.9.9.9
+2024-11-14T10:15:59.774186,atl-paas.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:fe::fe
+2024-11-14T10:15:59.774186,att-idns.net,180.76.76.76,A,[],NoAnswer,No answer for domain: att-idns.net on server: 180.76.76.76
+2024-11-14T10:15:59.774186,atlasobscura.com,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.774186,atol.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2400:3200::1
+2024-11-14T10:15:59.774186,att.net,62.76.76.62,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.774186,atlassian.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:fe::fe
+2024-11-14T10:15:59.775186,att.com,77.88.8.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att.net,77.88.8.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atlasobscura.com,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.775186,atlassian.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.775186,atom.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3123:e000::9', '2a06:98c1:3122:e000::9']",,
+2024-11-14T10:15:59.775186,atol.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atol.ru on server: 202.96.128.86
+2024-11-14T10:15:59.775186,att.net,62.76.62.76,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atol.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2400:3200:baba::1
+2024-11-14T10:15:59.775186,atl-paas.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.775186,atlassian.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.775186,att.com,9.9.9.10,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.775186,att.net,77.88.8.8,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att.com,208.67.222.222,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlassian.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.775186,atl-paas.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2400:3200:baba::1
+2024-11-14T10:15:59.775186,atlassian.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.775186,att-idns.net,119.29.29.29,A,[],NoAnswer,No answer for domain: att-idns.net on server: 119.29.29.29
+2024-11-14T10:15:59.775186,att.net,95.85.95.85,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atol.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2402:4e00::
+2024-11-14T10:15:59.775186,att.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: att.com on server: 2400:da00::6666
+2024-11-14T10:15:59.775186,atom.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.775186,atlassian.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.775186,atlassian.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.775186,att.net,1.0.0.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att-idns.net,114.114.115.115,A,[],NoAnswer,No answer for domain: att-idns.net on server: 114.114.115.115
+2024-11-14T10:15:59.775186,att.net,2.56.220.2,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att-idns.net,223.5.5.5,A,[],NoAnswer,No answer for domain: att-idns.net on server: 223.5.5.5
+2024-11-14T10:15:59.775186,atl-paas.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.775186,att.net,8.8.4.4,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atlassian.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.775186,atl-paas.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.775186,atol.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.775186,atl-paas.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.775186,att.net,1.1.1.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atom.com,2620:0:ccd::2,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att.com,195.208.4.1,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atom.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:49fc']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.775186,atl-paas.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.775186,atlassian.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.775186,att.com,195.208.5.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atom.com,2001:4860:4860::8844,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::6816:48fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att.net,8.8.8.8,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att-idns.net,101.226.4.6,A,[],NoAnswer,No answer for domain: att-idns.net on server: 101.226.4.6
+2024-11-14T10:15:59.775186,atlasobscura.com,2606:4700:4700::1111,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.775186,atom.com,2620:119:35::35,AAAA,"['2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc', '2606:4700:10::6816:49fc']",,
+2024-11-14T10:15:59.775186,atlassian.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.775186,att.com,101.226.4.6,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att.com,77.88.8.8,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlassian.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2400:3200::1
+2024-11-14T10:15:59.775186,atl-paas.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:fe::10
+2024-11-14T10:15:59.775186,atom.com,2620:fe::10,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::6816:48fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att.com,62.76.76.62,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atlasobscura.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.775186,atlassian.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2402:4e00::
+2024-11-14T10:15:59.775186,atol.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2620:0:ccd::2
+2024-11-14T10:15:59.775186,att.com,62.76.62.76,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,athome.co.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: athome.co.jp on server: 2400:da00::6666
+2024-11-14T10:15:59.775186,atl-paas.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2402:4e00::
+2024-11-14T10:15:59.775186,atlassian.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.775186,atom.com,2620:fe::fe,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att-idns.net,123.125.81.6,A,[],NoAnswer,No answer for domain: att-idns.net on server: 123.125.81.6
+2024-11-14T10:15:59.775186,att.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: att.net on server: 210.21.196.6
+2024-11-14T10:15:59.775186,att-idns.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: att-idns.net on server: 202.96.128.86
+2024-11-14T10:15:59.775186,atlassian.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.775186,att.com,117.50.11.11,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlasobscura.com,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T10:15:59.775186,atlassian.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.775186,atom.com,2a03:90c0:9992::1,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.775186,att.com,95.85.95.85,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: att.com on server: 9.9.9.9
+2024-11-14T10:15:59.775186,atlasobscura.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T10:15:59.775186,att.com,123.125.81.6,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atlassian.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:0:ccc::2
+2024-11-14T10:15:59.775186,att.com,2.56.220.2,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atom.com,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:119:53::53
+2024-11-14T10:15:59.775186,atlassian.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:119:53::53
+2024-11-14T10:15:59.775186,atom.com,2620:119:53::53,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.775186,att.com,218.30.118.6,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att.com,211.136.17.107,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2400:3200::1
+2024-11-14T10:15:59.775186,atlassian.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.775186,att-idns.net,211.136.17.107,A,[],NoAnswer,No answer for domain: att-idns.net on server: 211.136.17.107
+2024-11-14T10:15:59.775186,atom.com,2620:0:ccc::2,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att.com,119.29.29.29,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:0:ccc::2
+2024-11-14T10:15:59.775186,att-idns.net,117.50.11.11,A,[],NoAnswer,No answer for domain: att-idns.net on server: 117.50.11.11
+2024-11-14T10:15:59.775186,atlassian.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.775186,atom.com,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.775186,att.com,1.1.1.1,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atl-paas.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:0:ccd::2
+2024-11-14T10:15:59.775186,att.com,180.76.76.76,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atlassian.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.775186,atom.com,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.775186,att.com,1.0.0.1,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlassian.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atlassian.com on server: 2400:da00::6666
+2024-11-14T10:15:59.775186,att.com,223.5.5.5,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlasobscura.com,2a03:90c0:999d::1,AAAA,"['2606:4700:20::681a:f8', '2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.775186,atom.com,2606:4700:4700::1001,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::6816:48fc', '2606:4700:10::ac43:1a45']",,
+2024-11-14T10:15:59.775186,att.com,223.6.6.6,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: att.com on server: 101.226.4.7
+2024-11-14T10:15:59.775186,atlassian.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.775186,atlassian.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:fe::10
+2024-11-14T10:15:59.775186,atlasobscura.com,2a03:90c0:9992::1,AAAA,"['2606:4700:20::681a:1f8', '2606:4700:20::681a:f8', '2606:4700:20::ac43:4a99']",,
+2024-11-14T10:15:59.775186,atom.com,2a03:90c0:999d::1,AAAA,"['2606:4700:10::6816:48fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:49fc']",,
+2024-11-14T10:15:59.775186,atlasobscura.com,2001:4860:4860::8888,AAAA,"['2606:4700:20::681a:1f8', '2606:4700:20::ac43:4a99', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.775186,att.com,114.114.114.114,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,att-idns.net,218.30.118.6,A,[],NoAnswer,No answer for domain: att-idns.net on server: 218.30.118.6
+2024-11-14T10:15:59.775186,atom.com,2606:4700:4700::1111,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.775186,att.com,8.8.8.8,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att.com,114.114.115.115,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,atlassian.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.775186,atlasobscura.com,2001:4860:4860::8844,AAAA,"['2606:4700:20::ac43:4a99', '2606:4700:20::681a:1f8', '2606:4700:20::681a:f8']",,
+2024-11-14T10:15:59.775186,att.com,8.8.4.4,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.775186,att.com,208.67.222.220,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.775186,atom.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T10:15:59.775186,atlassian.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.775186,atl-paas.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2620:119:35::35
+2024-11-14T10:15:59.775186,atlassian.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:119:35::35
+2024-11-14T10:15:59.775186,att.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: att.com on server: 123.125.81.7
+2024-11-14T10:15:59.776184,att.com,208.67.220.222,A,"['144.160.36.42', '144.160.155.43']",,
+2024-11-14T10:15:59.776184,atl-paas.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.776184,atlassian.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atlassian.net on server: 2620:0:ccd::2
+2024-11-14T10:15:59.776184,atom.com,2001:4860:4860::8888,AAAA,"['2606:4700:10::6816:49fc', '2606:4700:10::ac43:1a45', '2606:4700:10::6816:48fc']",,
+2024-11-14T10:15:59.776184,att.com,208.67.220.220,A,"['144.160.155.43', '144.160.36.42']",,
+2024-11-14T10:15:59.776184,atl-paas.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atl-paas.net on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.776184,atlassian.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atlassian.com on server: 2620:119:53::53
+2024-11-14T10:15:59.776184,atol.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atol.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.776184,att.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: att.com on server: 202.96.128.86
+2024-11-14T10:15:59.776184,atl-paas.net,2.56.220.2,A,"['43.202.69.17', '43.202.69.16', '43.202.69.18']",,
+2024-11-14T10:15:59.776184,atlassian.net,123.125.81.6,A,"['104.192.137.19', '104.192.137.18', '104.192.137.20']",,
+2024-11-14T10:15:59.776184,atptour.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2402:4e00::
+2024-11-14T10:15:59.776184,att-idns.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.776184,atl-paas.net,77.88.8.8,A,"['185.166.143.30', '185.166.143.31', '185.166.143.32']",,
+2024-11-14T10:15:59.776184,atptour.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.776184,atl-paas.net,95.85.95.85,A,"['43.202.69.16', '43.202.69.17', '43.202.69.18']",,
+2024-11-14T10:15:59.776184,atptour.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:0:ccc::2
+2024-11-14T10:15:59.776184,ati.su,117.50.11.11,A,"['139.45.252.51', '139.45.234.82', '139.45.234.81', '139.45.252.52']",,
+2024-11-14T10:15:59.776184,atlassian.net,211.136.17.107,A,"['43.202.69.1', '43.202.69.3', '43.202.69.2']",,
+2024-11-14T10:15:59.776184,atptour.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2400:3200:baba::1
+2024-11-14T10:15:59.776184,att.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: att.com on server: 210.21.196.6
+2024-11-14T10:15:59.776184,atlassian.net,117.50.11.11,A,"['104.192.137.19', '104.192.137.20', '104.192.137.18']",,
+2024-11-14T10:15:59.776184,atptour.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:119:53::53
+2024-11-14T10:15:59.776184,atl-paas.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atl-paas.net on server: 2400:da00::6666
+2024-11-14T10:15:59.776184,atol.ru,77.88.8.1,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,ati.su,208.67.220.220,A,"['139.45.252.52', '139.45.234.81', '139.45.234.82', '139.45.252.51']",,
+2024-11-14T10:15:59.776184,att-idns.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: att-idns.net on server: 210.21.196.6
+2024-11-14T10:15:59.776184,att-idns.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2001:4860:4860::8844
+2024-11-14T10:15:59.776184,ati.su,114.114.115.115,A,"['139.45.234.82', '139.45.234.81', '139.45.252.52']",,
+2024-11-14T10:15:59.776184,atlassian.net,94.140.14.14,A,"['43.202.69.2', '43.202.69.3', '43.202.69.1']",,
+2024-11-14T10:15:59.776184,atol.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atol.ru on server: 2400:da00::6666
+2024-11-14T10:15:59.776184,att-idns.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: att-idns.net on server: 123.125.81.7
+2024-11-14T10:15:59.776184,att-idns.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: att-idns.net on server: 101.226.4.7
+2024-11-14T10:15:59.776184,atlassian.net,218.30.118.6,A,"['104.192.137.20', '104.192.137.19', '104.192.137.18']",,
+2024-11-14T10:15:59.776184,att-idns.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: att-idns.net on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.776184,ati.su,180.76.76.76,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,ati.su,218.30.118.6,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,atptour.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2400:3200::1
+2024-11-14T10:15:59.776184,atlassian.net,94.140.15.15,A,"['43.202.69.2', '43.202.69.3', '43.202.69.1']",,
+2024-11-14T10:15:59.776184,atol.ru,77.88.8.8,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atl-paas.net,1.0.0.1,A,"['104.192.138.9', '104.192.138.8']",,
+2024-11-14T10:15:59.776184,atol.ru,8.8.8.8,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atol.ru,2.56.220.2,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,ati.su,9.9.9.9,A,[],Timeout,Timeout occurred for domain: ati.su on server: 9.9.9.9
+2024-11-14T10:15:59.776184,atptour.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a10:50c0::ad2:ff
+2024-11-14T10:15:59.776184,atl-paas.net,8.8.4.4,A,"['43.202.69.18', '43.202.69.16', '43.202.69.17']",,
+2024-11-14T10:15:59.776184,atlassian.net,114.114.114.114,A,"['104.192.137.20', '104.192.137.19', '104.192.137.18']",,
+2024-11-14T10:15:59.776184,atl-paas.net,1.1.1.1,A,"['185.166.140.18', '185.166.140.16', '185.166.140.17']",,
+2024-11-14T10:15:59.776184,atptour.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:fe::10
+2024-11-14T10:15:59.776184,ati.su,123.125.81.7,A,[],Timeout,Timeout occurred for domain: ati.su on server: 123.125.81.7
+2024-11-14T10:15:59.776184,atlassian.net,208.67.220.222,A,"['43.202.69.1', '43.202.69.2', '43.202.69.3']",,
+2024-11-14T10:15:59.776184,ati.su,211.136.17.107,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.776184,atl-paas.net,8.8.8.8,A,"['43.202.69.17', '43.202.69.18', '43.202.69.16']",,
+2024-11-14T10:15:59.776184,atptour.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:119:35::35
+2024-11-14T10:15:59.776184,atptour.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:0:ccd::2
+2024-11-14T10:15:59.776184,atlassian.net,223.6.6.6,A,"['104.192.137.20', '104.192.137.18', '104.192.137.19']",,
+2024-11-14T10:15:59.776184,ati.su,9.9.9.10,A,"['139.45.252.52', '139.45.234.81', '139.45.234.82', '139.45.252.51']",,
+2024-11-14T10:15:59.776184,atptour.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a10:50c0::ad1:ff
+2024-11-14T10:15:59.776184,ati.su,119.29.29.29,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,atol.ru,1.0.0.1,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atptour.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2001:4860:4860::8888
+2024-11-14T10:15:59.776184,ati.su,101.226.4.6,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,atlassian.net,208.67.222.220,A,"['43.202.69.3', '43.202.69.1', '43.202.69.2']",,
+2024-11-14T10:15:59.776184,atptour.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2620:fe::fe
+2024-11-14T10:15:59.776184,ati.su,114.114.114.114,A,"['139.45.234.81', '139.45.252.52', '139.45.252.51']",,
+2024-11-14T10:15:59.776184,atlassian.net,223.5.5.5,A,"['104.192.137.18', '104.192.137.19', '104.192.137.20']",,
+2024-11-14T10:15:59.776184,atptour.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a03:90c0:9992::1
+2024-11-14T10:15:59.776184,ati.su,202.96.128.86,A,[],Timeout,Timeout occurred for domain: ati.su on server: 202.96.128.86
+2024-11-14T10:15:59.776184,atlassian.net,208.67.220.220,A,"['43.202.69.3', '43.202.69.1', '43.202.69.2']",,
+2024-11-14T10:15:59.776184,atptour.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a02:6b8::feed:0ff
+2024-11-14T10:15:59.776184,ati.su,123.125.81.6,A,"['139.45.234.82', '139.45.252.51', '139.45.252.52', '139.45.234.81']",,
+2024-11-14T10:15:59.776184,atlassian.net,101.226.4.6,A,"['104.192.137.20', '104.192.137.18', '104.192.137.19']",,
+2024-11-14T10:15:59.776184,atptour.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a0c:a9c7:8::1
+2024-11-14T10:15:59.776184,ati.su,94.140.14.14,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.776184,atol.ru,95.85.95.85,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atptour.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2606:4700:4700::1111
+2024-11-14T10:15:59.776184,ati.su,94.140.15.15,A,"['139.45.234.81', '139.45.234.82', '139.45.252.51', '139.45.252.52']",,
+2024-11-14T10:15:59.776184,atlassian.net,119.29.29.29,A,"['43.202.69.2', '43.202.69.3', '43.202.69.1']",,
+2024-11-14T10:15:59.776184,atptour.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2606:4700:4700::1001
+2024-11-14T10:15:59.776184,ati.su,208.67.220.222,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,atol.ru,8.8.4.4,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atptour.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a03:90c0:999d::1
+2024-11-14T10:15:59.776184,ati.su,208.67.222.222,A,"['139.45.252.51', '139.45.252.52', '139.45.234.81', '139.45.234.82']",,
+2024-11-14T10:15:59.776184,atlassian.net,114.114.115.115,A,"['104.192.137.19', '104.192.137.18', '104.192.137.20']",,
+2024-11-14T10:15:59.776184,atptour.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2001:6d0:6d0::2001
+2024-11-14T10:15:59.776184,ati.su,223.5.5.5,A,"['139.45.252.52', '139.45.252.51', '139.45.234.82', '139.45.234.81']",,
+2024-11-14T10:15:59.776184,atol.ru,1.1.1.1,A,['185.71.67.137'],,
+2024-11-14T10:15:59.776184,atptour.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2001:6d0:d6::2001
+2024-11-14T10:15:59.776184,ati.su,223.6.6.6,A,"['139.45.252.52', '139.45.252.51', '139.45.234.82', '139.45.234.81']",,
+2024-11-14T10:15:59.776184,atlassian.net,180.76.76.76,A,"['104.192.137.20', '104.192.137.18', '104.192.137.19']",,
+2024-11-14T10:15:59.776184,atptour.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a0c:a9c7:9::1
+2024-11-14T10:15:59.776184,ati.su,208.67.222.220,A,"['139.45.252.52', '139.45.234.81', '139.45.234.82', '139.45.252.51']",,
+2024-11-14T10:15:59.776184,atlassian.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: atlassian.net on server: 101.226.4.7
+2024-11-14T10:15:59.776184,atptour.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: atptour.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T10:15:59.776184,atomile.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atomile.com on server: 2400:da00::6666
+2024-11-14T10:15:59.776184,atptour.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: atptour.com on server: 2400:da00::6666
+2024-11-14T10:15:59.776184,ati.su,210.21.196.6,A,[],Timeout,Timeout occurred for domain: ati.su on server: 210.21.196.6
+2024-11-14T10:15:59.776184,atlassian.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: atlassian.net on server: 202.96.128.86
+2024-11-14T10:15:59.776184,atlassian.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: atlassian.net on server: 123.125.81.7
+2024-11-14T10:15:59.776184,ati.su,101.226.4.7,A,[],Timeout,Timeout occurred for domain: ati.su on server: 101.226.4.7
+2024-11-14T10:15:59.776184,atlassian.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: atlassian.net on server: 210.21.196.6

@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T09:50:58.406799,arnebrachhold.de,2620:119:53::53,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.406799,articlepost.net,223.5.5.5,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.406799,arizona.edu,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:fe::10
+2024-11-14T09:50:58.406799,arizona.edu,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:fe::fe
+2024-11-14T09:50:58.406799,arkoselabs.com,2.56.220.2,A,"['54.230.71.14', '54.230.71.22', '54.230.71.47', '54.230.71.99']",,
+2024-11-14T09:50:58.406799,arpanet.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:fe::fe
+2024-11-14T09:50:58.406799,arkoselabs.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:119:53::53
+2024-11-14T09:50:58.406799,arnebrachhold.de,2620:119:35::35,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,77.88.8.8,A,"['18.66.112.2', '18.66.112.18', '18.66.112.106', '18.66.112.87']",,
+2024-11-14T09:50:58.407799,arpanet.jp,195.208.4.1,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 195.208.4.1
+2024-11-14T09:50:58.407799,arkoselabs.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:fe::10
+2024-11-14T09:50:58.407799,articlepost.net,9.9.9.10,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,208.67.220.222,A,"['54.230.71.47', '54.230.71.99', '54.230.71.14', '54.230.71.22']",,
+2024-11-14T09:50:58.407799,articulate.com,8.8.4.4,A,"['100.24.213.242', '54.237.38.95', '18.233.11.70']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:119:35::35
+2024-11-14T09:50:58.407799,arpanet.jp,1.0.0.1,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 1.0.0.1
+2024-11-14T09:50:58.407799,arnebrachhold.de,119.29.29.29,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.407799,articlepost.net,123.125.81.6,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,94.140.14.14,A,"['3.168.178.6', '3.168.178.50', '3.168.178.124', '3.168.178.92']",,
+2024-11-14T09:50:58.407799,arpanet.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.407799,articulate.com,1.1.1.1,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.407799,arnebrachhold.de,114.114.114.114,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.407799,arpanet.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.407799,arkoselabs.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.407799,articlepost.net,211.136.17.107,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:fe::fe
+2024-11-14T09:50:58.407799,arpanet.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.407799,army.mil,2.56.220.2,A,[],NoAnswer,No answer for domain: army.mil on server: 2.56.220.2
+2024-11-14T09:50:58.407799,arkoselabs.com,208.67.222.222,A,"['54.230.71.47', '54.230.71.99', '54.230.71.14', '54.230.71.22']",,
+2024-11-14T09:50:58.407799,arnebrachhold.de,2620:0:ccd::2,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arpanet.jp,62.76.76.62,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 62.76.76.62
+2024-11-14T09:50:58.407799,articlepost.net,117.50.11.11,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.407799,arpanet.jp,62.76.62.76,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 62.76.62.76
+2024-11-14T09:50:58.407799,army.mil,119.29.29.29,A,[],NoNameservers,No nameservers for domain: army.mil on server: 119.29.29.29
+2024-11-14T09:50:58.407799,arkoselabs.com,208.67.222.220,A,"['54.230.71.14', '54.230.71.22', '54.230.71.47', '54.230.71.99']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.407799,arpanet.jp,95.85.95.85,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 95.85.95.85
+2024-11-14T09:50:58.407799,arnebrachhold.de,2620:0:ccc::2,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arnebrachhold.de,117.50.11.11,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.407799,arpanet.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.407799,arkoselabs.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.407799,articlepost.net,218.30.118.6,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,195.208.5.1,A,"['18.244.102.119', '18.244.102.25', '18.244.102.96', '18.244.102.62']",,
+2024-11-14T09:50:58.407799,arpanet.jp,208.67.222.222,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 208.67.222.222
+2024-11-14T09:50:58.407799,arpanet.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.407799,arkoselabs.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.407799,arkoselabs.com,9.9.9.10,A,"['18.66.112.2', '18.66.112.87', '18.66.112.18', '18.66.112.106']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.407799,articlepost.net,114.114.114.114,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arpanet.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.407799,arkoselabs.com,208.67.220.220,A,"['54.230.71.99', '54.230.71.14', '54.230.71.22', '54.230.71.47']",,
+2024-11-14T09:50:58.407799,arpanet.jp,77.88.8.8,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 77.88.8.8
+2024-11-14T09:50:58.407799,articlepost.net,114.114.115.115,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,army.mil,195.208.4.1,A,[],NoNameservers,No nameservers for domain: army.mil on server: 195.208.4.1
+2024-11-14T09:50:58.407799,arkoselabs.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.407799,arnebrachhold.de,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arpanet.jp,77.88.8.1,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 77.88.8.1
+2024-11-14T09:50:58.407799,arkoselabs.com,62.76.76.62,A,"['3.164.68.91', '3.164.68.13', '3.164.68.58', '3.164.68.79']",,
+2024-11-14T09:50:58.407799,arnebrachhold.de,223.5.5.5,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.407799,army.mil,77.88.8.8,A,[],NoNameservers,No nameservers for domain: army.mil on server: 77.88.8.8
+2024-11-14T09:50:58.407799,arnebrachhold.de,2400:3200::1,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,195.208.4.1,A,"['3.164.68.79', '3.164.68.91', '3.164.68.58', '3.164.68.13']",,
+2024-11-14T09:50:58.407799,army.mil,62.76.76.62,A,[],NoNameservers,No nameservers for domain: army.mil on server: 62.76.76.62
+2024-11-14T09:50:58.407799,arnebrachhold.de,223.6.6.6,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.407799,articulate.com,8.8.8.8,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.407799,arnebrachhold.de,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.407799,army.mil,208.67.220.220,A,[],NoAnswer,No answer for domain: army.mil on server: 208.67.220.220
+2024-11-14T09:50:58.407799,arnebrachhold.de,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 210.21.196.6
+2024-11-14T09:50:58.407799,articlepost.net,208.67.222.220,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,8.8.8.8,A,"['54.230.71.47', '54.230.71.14', '54.230.71.22', '54.230.71.99']",,
+2024-11-14T09:50:58.407799,army.mil,195.208.5.1,A,[],NoNameservers,No nameservers for domain: army.mil on server: 195.208.5.1
+2024-11-14T09:50:58.407799,arnebrachhold.de,114.114.115.115,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.407799,articlepost.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: articlepost.net on server: 210.21.196.6
+2024-11-14T09:50:58.407799,arpanet.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 9.9.9.9
+2024-11-14T09:50:58.407799,articlepost.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: articlepost.net on server: 202.96.128.86
+2024-11-14T09:50:58.407799,arkoselabs.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 9.9.9.9
+2024-11-14T09:50:58.407799,arpanet.jp,1.1.1.1,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 1.1.1.1
+2024-11-14T09:50:58.407799,arkoselabs.com,77.88.8.1,A,"['3.164.240.58', '3.164.240.86', '3.164.240.35', '3.164.240.17']",,
+2024-11-14T09:50:58.407799,articlepost.net,101.226.4.6,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.407799,army.mil,9.9.9.10,A,[],NoAnswer,No answer for domain: army.mil on server: 9.9.9.10
+2024-11-14T09:50:58.407799,arkoselabs.com,62.76.62.76,A,"['3.164.68.91', '3.164.68.79', '3.164.68.13', '3.164.68.58']",,
+2024-11-14T09:50:58.407799,arpanet.jp,9.9.9.10,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 9.9.9.10
+2024-11-14T09:50:58.407799,arnebrachhold.de,2620:fe::10,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arizona.edu,101.226.4.6,A,['128.196.128.233'],,
+2024-11-14T09:50:58.407799,articlepost.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: articlepost.net on server: 101.226.4.7
+2024-11-14T09:50:58.407799,army.mil,208.67.222.222,A,[],NoAnswer,No answer for domain: army.mil on server: 208.67.222.222
+2024-11-14T09:50:58.407799,articlepost.net,94.140.15.15,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.407799,arpanet.jp,8.8.4.4,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 8.8.4.4
+2024-11-14T09:50:58.407799,arkoselabs.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.407799,army.mil,223.6.6.6,A,[],NoNameservers,No nameservers for domain: army.mil on server: 223.6.6.6
+2024-11-14T09:50:58.407799,arizona.edu,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arizona.edu on server: 101.226.4.7
+2024-11-14T09:50:58.407799,arpanet.jp,195.208.5.1,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 195.208.5.1
+2024-11-14T09:50:58.407799,arizona.edu,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2400:3200:baba::1
+2024-11-14T09:50:58.407799,articlepost.net,208.67.220.222,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,1.1.1.1,A,"['13.227.62.52', '13.227.62.12', '13.227.62.122', '13.227.62.128']",,
+2024-11-14T09:50:58.407799,arpanet.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.407799,army.mil,62.76.62.76,A,[],NoNameservers,No nameservers for domain: army.mil on server: 62.76.62.76
+2024-11-14T09:50:58.407799,articlepost.net,94.140.14.14,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.407799,arizona.edu,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2402:4e00::
+2024-11-14T09:50:58.407799,arnebrachhold.de,2620:fe::fe,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.407799,arkoselabs.com,95.85.95.85,A,"['54.230.71.99', '54.230.71.14', '54.230.71.47', '54.230.71.22']",,
+2024-11-14T09:50:58.407799,army.mil,223.5.5.5,A,[],NoNameservers,No nameservers for domain: army.mil on server: 223.5.5.5
+2024-11-14T09:50:58.407799,arpanet.jp,8.8.8.8,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 8.8.8.8
+2024-11-14T09:50:58.407799,arizona.edu,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.407799,arpanet.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.407799,arkoselabs.com,8.8.4.4,A,"['54.230.71.47', '54.230.71.14', '54.230.71.22', '54.230.71.99']",,
+2024-11-14T09:50:58.408834,army.mil,208.67.222.220,A,[],NoAnswer,No answer for domain: army.mil on server: 208.67.222.220
+2024-11-14T09:50:58.408834,arnebrachhold.de,101.226.4.6,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,articlepost.net,208.67.222.222,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.408834,arizona.edu,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2400:3200::1
+2024-11-14T09:50:58.408834,arpanet.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.408834,arkoselabs.com,1.0.0.1,A,"['99.84.203.91', '99.84.203.51', '99.84.203.115', '99.84.203.17']",,
+2024-11-14T09:50:58.408834,army.mil,208.67.220.222,A,[],NoAnswer,No answer for domain: army.mil on server: 208.67.220.222
+2024-11-14T09:50:58.408834,arnebrachhold.de,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 202.96.128.86
+2024-11-14T09:50:58.408834,articlepost.net,208.67.220.220,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.408834,arizona.edu,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:0:ccc::2
+2024-11-14T09:50:58.408834,arpanet.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.408834,arnebrachhold.de,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 2400:da00::6666
+2024-11-14T09:50:58.408834,army.mil,94.140.14.14,A,[],NoAnswer,No answer for domain: army.mil on server: 94.140.14.14
+2024-11-14T09:50:58.408834,arizona.edu,117.50.11.11,A,['128.196.128.233'],,
+2024-11-14T09:50:58.408834,arnebrachhold.de,218.30.118.6,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,arizona.edu,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.408834,arizona.edu,123.125.81.6,A,['128.196.128.233'],,
+2024-11-14T09:50:58.408834,army.mil,9.9.9.9,A,[],Timeout,Timeout occurred for domain: army.mil on server: 9.9.9.9
+2024-11-14T09:50:58.408834,army.mil,77.88.8.1,A,[],NoNameservers,No nameservers for domain: army.mil on server: 77.88.8.1
+2024-11-14T09:50:58.408834,arnebrachhold.de,211.136.17.107,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,articlepost.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: articlepost.net on server: 9.9.9.9
+2024-11-14T09:50:58.408834,arizona.edu,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arizona.edu on server: 2400:da00::6666
+2024-11-14T09:50:58.408834,arpanet.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.408834,arkoselabs.com,114.114.115.115,A,"['18.66.112.106', '18.66.112.18', '18.66.112.2']",,
+2024-11-14T09:50:58.408834,army.mil,94.140.15.15,A,[],NoAnswer,No answer for domain: army.mil on server: 94.140.15.15
+2024-11-14T09:50:58.408834,arizona.edu,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:119:35::35
+2024-11-14T09:50:58.408834,arnebrachhold.de,180.76.76.76,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,arkoselabs.com,114.114.114.114,A,"['18.66.112.18', '18.66.112.2', '18.66.112.87']",,
+2024-11-14T09:50:58.408834,articlepost.net,119.29.29.29,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.408834,arizona.edu,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:119:53::53
+2024-11-14T09:50:58.408834,articlepost.net,180.76.76.76,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.408834,arizona.edu,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arizona.edu on server: 123.125.81.7
+2024-11-14T09:50:58.408834,arnebrachhold.de,2400:3200:baba::1,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.408834,arkoselabs.com,94.140.15.15,A,"['3.168.178.50', '3.168.178.6', '3.168.178.124', '3.168.178.92']",,
+2024-11-14T09:50:58.408834,arizona.edu,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.408834,arpanet.jp,2.56.220.2,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 2.56.220.2
+2024-11-14T09:50:58.408834,articlepost.net,223.6.6.6,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.408834,arpanet.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.408834,arizona.edu,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.408834,arnebrachhold.de,2402:4e00::,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.408834,arnebrachhold.de,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 101.226.4.7
+2024-11-14T09:50:58.408834,arnebrachhold.de,77.88.8.1,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,artstation.com,2001:4860:4860::8844,AAAA,['2a03:2880:f112:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,artstation.com,2400:3200::1,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arnebrachhold.de,123.125.81.6,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,arlo.com,208.67.220.222,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.408834,artnet.com,62.76.62.76,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.408834,artnet.com,94.140.14.14,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,artstation.com,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f134:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arnebrachhold.de,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 123.125.81.7
+2024-11-14T09:50:58.408834,army.mil,123.125.81.6,A,[],NoNameservers,No nameservers for domain: army.mil on server: 123.125.81.6
+2024-11-14T09:50:58.408834,armgs.team,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.408834,artstation.com,2001:4860:4860::8888,AAAA,['2a03:2880:f11c:8083:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arm-msedge.net,8.8.8.8,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 8.8.8.8
+2024-11-14T09:50:58.408834,army.mil,114.114.115.115,A,[],NoNameservers,No nameservers for domain: army.mil on server: 114.114.115.115
+2024-11-14T09:50:58.408834,artnet.com,195.208.4.1,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,artstation.com,2001:6d0:6d0::2001,AAAA,['2001::7459:f308'],,
+2024-11-14T09:50:58.408834,armgs.team,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.408834,arm-msedge.net,62.76.62.76,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 62.76.62.76
+2024-11-14T09:50:58.408834,arnebrachhold.de,1.1.1.1,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,artnet.com,62.76.76.62,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,artstation.com,2001:6d0:d6::2001,AAAA,['2a03:2880:f127:283:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arlo.com,101.226.4.6,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,arnebrachhold.de,8.8.8.8,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,artnet.com,223.6.6.6,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:0:ccd::2
+2024-11-14T09:50:58.408834,artstation.com,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f11f:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arlo.com,117.50.11.11,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,arnebrachhold.de,8.8.4.4,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,army.mil,101.226.4.6,A,[],NoNameservers,No nameservers for domain: army.mil on server: 101.226.4.6
+2024-11-14T09:50:58.408834,armgs.team,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.408834,arlo.com,123.125.81.6,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,articlepost.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: articlepost.net on server: 123.125.81.7
+2024-11-14T09:50:58.408834,artnet.com,223.5.5.5,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.408834,artnet.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:119:53::53
+2024-11-14T09:50:58.408834,arm-msedge.net,195.208.4.1,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 195.208.4.1
+2024-11-14T09:50:58.408834,army.mil,114.114.114.114,A,[],Timeout,Timeout occurred for domain: army.mil on server: 114.114.114.114
+2024-11-14T09:50:58.408834,artnet.com,119.29.29.29,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.408834,artnet.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.408834,arm-msedge.net,195.208.5.1,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 195.208.5.1
+2024-11-14T09:50:58.408834,arnebrachhold.de,94.140.14.14,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,artnet.com,208.67.222.222,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.408834,artstation.com,2a03:90c0:9992::1,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arm-msedge.net,77.88.8.1,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 77.88.8.1
+2024-11-14T09:50:58.408834,arlo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arlo.com on server: 123.125.81.7
+2024-11-14T09:50:58.408834,artnet.com,208.67.220.220,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,armgs.team,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:119:35::35
+2024-11-14T09:50:58.408834,artstation.com,2a02:6b8::feed:0ff,AAAA,['2001::4b7e:219c'],,
+2024-11-14T09:50:58.408834,arm-msedge.net,62.76.76.62,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 62.76.76.62
+2024-11-14T09:50:58.408834,arnebrachhold.de,208.67.220.222,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,artnet.com,94.140.15.15,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,artnet.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: artnet.com on server: 2400:da00::6666
+2024-11-14T09:50:58.408834,arlo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arlo.com on server: 101.226.4.7
+2024-11-14T09:50:58.408834,artstation.com,2606:4700:4700::1001,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arlo.com,94.140.15.15,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,armgs.team,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:fe::fe
+2024-11-14T09:50:58.408834,artstation.com,2a03:90c0:999d::1,AAAA,['2a03:2880:f127:283:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,artnet.com,2.56.220.2,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,arlo.com,94.140.14.14,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,army.mil,211.136.17.107,A,[],NoNameservers,No nameservers for domain: army.mil on server: 211.136.17.107
+2024-11-14T09:50:58.408834,artnet.com,114.114.115.115,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,artstation.com,2606:4700:4700::1111,AAAA,['2a03:2880:f102:183:face:b00c:0:25de'],,
+2024-11-14T09:50:58.408834,arlo.com,223.6.6.6,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,armgs.team,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2400:3200::1
+2024-11-14T09:50:58.408834,artnet.com,1.0.0.1,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,army.mil,180.76.76.76,A,[],NoNameservers,No nameservers for domain: army.mil on server: 180.76.76.76
+2024-11-14T09:50:58.408834,arlo.com,119.29.29.29,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.408834,armgs.team,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.408834,artnet.com,8.8.4.4,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,arnebrachhold.de,195.208.5.1,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T09:50:58.408834,artnet.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.408834,armgs.team,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.408834,arm-msedge.net,2.56.220.2,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2.56.220.2
+2024-11-14T09:50:58.408834,arnebrachhold.de,94.140.15.15,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,artnet.com,9.9.9.10,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,army.mil,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.408834,artnet.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2402:4e00::
+2024-11-14T09:50:58.408834,arnebrachhold.de,1.0.0.1,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.408834,artnet.com,114.114.114.114,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.408834,arm-msedge.net,77.88.8.8,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 77.88.8.8
+2024-11-14T09:50:58.408834,artnet.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.408834,arm-msedge.net,1.0.0.1,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 1.0.0.1
+2024-11-14T09:50:58.408834,armgs.team,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.408834,arnebrachhold.de,77.88.8.8,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.408834,artnet.com,77.88.8.1,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.408834,artnet.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2400:3200::1
+2024-11-14T09:50:58.408834,army.mil,2a02:6b8::feed:0ff,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.408834,arm-msedge.net,95.85.95.85,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 95.85.95.85
+2024-11-14T09:50:58.408834,armgs.team,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: armgs.team on server: 2400:da00::6666
+2024-11-14T09:50:58.408834,articulate.com,101.226.4.6,A,"['18.233.11.70', '100.24.213.242', '54.237.38.95']",,
+2024-11-14T09:50:58.409830,armgs.team,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:fe::10
+2024-11-14T09:50:58.409830,artnet.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.409830,arlo.com,114.114.115.115,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.409830,articulate.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: articulate.com on server: 123.125.81.7
+2024-11-14T09:50:58.409830,artnet.com,95.85.95.85,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.409830,army.mil,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.409830,artnet.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.409830,artstation.com,2400:3200:baba::1,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arlo.com,223.5.5.5,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.409830,arnebrachhold.de,208.67.220.220,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.409830,artnet.com,195.208.5.1,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.409830,army.mil,123.125.81.7,A,[],Timeout,Timeout occurred for domain: army.mil on server: 123.125.81.7
+2024-11-14T09:50:58.409830,army.mil,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.409830,artstation.com,2402:4e00::,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,artnet.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:fe::10
+2024-11-14T09:50:58.409830,arm-msedge.net,8.8.4.4,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 8.8.4.4
+2024-11-14T09:50:58.409830,arnebrachhold.de,95.85.95.85,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.409830,artnet.com,77.88.8.8,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.409830,artnet.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:119:35::35
+2024-11-14T09:50:58.409830,arm-msedge.net,1.1.1.1,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 1.1.1.1
+2024-11-14T09:50:58.409830,arnebrachhold.de,208.67.222.222,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.409830,artnet.com,208.67.222.220,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.409830,artstation.com,2620:119:35::35,AAAA,['2a03:2880:f136:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,armgs.team,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:0:ccc::2
+2024-11-14T09:50:58.409830,arnebrachhold.de,208.67.222.220,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.409830,arlo.com,218.30.118.6,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.409830,artstation.com,2620:119:53::53,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arlo.com,211.136.17.107,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.409830,army.mil,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.409830,arnebrachhold.de,9.9.9.10,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T09:50:58.409830,artstation.com,2620:fe::10,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,army.mil,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.409830,arlo.com,180.76.76.76,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.409830,army.mil,218.30.118.6,A,[],NoNameservers,No nameservers for domain: army.mil on server: 218.30.118.6
+2024-11-14T09:50:58.409830,armgs.team,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2400:3200:baba::1
+2024-11-14T09:50:58.409830,artstation.com,2a10:50c0::ad1:ff,AAAA,['2a03:2880:f12a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arlo.com,114.114.114.114,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.409830,arnebrachhold.de,195.208.4.1,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.409830,artnet.com,8.8.8.8,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.409830,arnebrachhold.de,2.56.220.2,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.409830,artstation.com,2620:fe::fe,AAAA,['2a03:2880:f134:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,armgs.team,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2402:4e00::
+2024-11-14T09:50:58.409830,army.mil,101.226.4.7,A,[],Timeout,Timeout occurred for domain: army.mil on server: 101.226.4.7
+2024-11-14T09:50:58.409830,artnet.com,208.67.220.222,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.409830,armgs.team,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.409830,artstation.com,2620:0:ccc::2,AAAA,['2a03:2880:f107:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,army.mil,117.50.11.11,A,[],NoNameservers,No nameservers for domain: army.mil on server: 117.50.11.11
+2024-11-14T09:50:58.409830,arnebrachhold.de,62.76.76.62,A,"['104.21.56.116', '172.67.184.226']",,
+2024-11-14T09:50:58.409830,armgs.team,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2620:119:53::53
+2024-11-14T09:50:58.409830,artstation.com,2a0c:a9c7:8::1,AAAA,['2a03:2880:f10c:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,artstation.com,2620:0:ccd::2,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,army.mil,202.96.128.86,A,[],Timeout,Timeout occurred for domain: army.mil on server: 202.96.128.86
+2024-11-14T09:50:58.409830,arnebrachhold.de,62.76.62.76,A,"['172.67.184.226', '104.21.56.116']",,
+2024-11-14T09:50:58.409830,artnet.com,1.1.1.1,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.409830,army.mil,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.409830,artstation.com,2a0c:a9c7:9::1,AAAA,['2a03:2880:f117:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,army.mil,8.8.8.8,A,[],NoNameservers,No nameservers for domain: army.mil on server: 8.8.8.8
+2024-11-14T09:50:58.409830,artstation.com,114.114.114.114,A,['108.160.169.46'],,
+2024-11-14T09:50:58.409830,articlepost.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,94.140.14.14,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,114.114.115.115,A,['108.160.169.46'],,
+2024-11-14T09:50:58.409830,arte.tv,2001:6d0:d6::2001,AAAA,['2a03:2880:f102:183:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articlepost.net,2a03:90c0:9992::1,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,artstation.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: artstation.com on server: 2400:da00::6666
+2024-11-14T09:50:58.409830,artstation.com,211.136.17.107,A,['108.160.172.204'],,
+2024-11-14T09:50:58.409830,arte.tv,2606:4700:4700::1001,AAAA,['2a03:2880:f134:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,army.mil,210.21.196.6,A,[],Timeout,Timeout occurred for domain: army.mil on server: 210.21.196.6
+2024-11-14T09:50:58.409830,articlepost.net,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.409830,artstation.com,218.30.118.6,A,['199.59.150.39'],,
+2024-11-14T09:50:58.409830,arte.tv,2400:3200:baba::1,AAAA,['2a03:2880:f102:183:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articlepost.net,2620:119:53::53,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.409830,armgs.team,208.67.222.220,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,94.140.14.14,A,['64.13.192.74'],,
+2024-11-14T09:50:58.409830,army.mil,8.8.4.4,A,[],NoNameservers,No nameservers for domain: army.mil on server: 8.8.4.4
+2024-11-14T09:50:58.409830,articlepost.net,2620:0:ccc::2,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,208.67.220.220,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,94.140.15.15,A,['157.240.2.50'],,
+2024-11-14T09:50:58.409830,arte.tv,2400:3200::1,AAAA,['2a03:2880:f12d:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articulate.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.409830,articulate.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: articulate.com on server: 101.226.4.7
+2024-11-14T09:50:58.409830,artstation.com,208.67.222.220,A,['157.240.7.5'],,
+2024-11-14T09:50:58.409830,arte.tv,2a10:50c0::ad1:ff,AAAA,['2001::6bb5:a6f4'],,
+2024-11-14T09:50:58.409830,articulate.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.409830,armgs.team,208.67.220.222,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,208.67.220.222,A,['108.160.167.156'],,
+2024-11-14T09:50:58.409830,arte.tv,2a10:50c0::ad2:ff,AAAA,['2a03:2880:f111:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articulate.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.409830,arizona.edu,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2620:0:ccd::2
+2024-11-14T09:50:58.409830,articulate.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.409830,arlo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arlo.com on server: 202.96.128.86
+2024-11-14T09:50:58.409830,arnebrachhold.de,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arnebrachhold.de on server: 9.9.9.9
+2024-11-14T09:50:58.409830,arte.tv,2620:0:ccd::2,AAAA,['2a03:2880:f10c:283:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articulate.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.409830,armgs.team,180.76.76.76,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arizona.edu,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.409830,arte.tv,2606:4700:4700::1111,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arizona.edu,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.409830,articulate.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.409830,armgs.team,223.6.6.6,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,articulate.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.409830,arizona.edu,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.409830,armgs.team,119.29.29.29,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arte.tv,2a02:6b8::feed:0ff,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arizona.edu,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.409830,armgs.team,9.9.9.10,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arizona.edu,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.409830,arte.tv,2a02:6b8:0:1::feed:0ff,AAAA,['2a03:2880:f112:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,artnet.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: artnet.com on server: 9.9.9.9
+2024-11-14T09:50:58.409830,armgs.team,208.67.222.222,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arlo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arlo.com on server: 210.21.196.6
+2024-11-14T09:50:58.409830,arte.tv,2a03:90c0:999d::1,AAAA,['2a03:2880:f12c:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,armgs.team,101.226.4.7,A,[],Timeout,Timeout occurred for domain: armgs.team on server: 101.226.4.7
+2024-11-14T09:50:58.409830,arstechnica.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 2400:da00::6666
+2024-11-14T09:50:58.409830,armgs.team,117.50.11.11,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arte.tv,2a03:90c0:9992::1,AAAA,['2001::c73b:9493'],,
+2024-11-14T09:50:58.409830,articlepost.net,2400:3200:baba::1,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,101.226.4.6,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,223.6.6.6,A,['174.37.175.229'],,
+2024-11-14T09:50:58.409830,arte.tv,2620:119:53::53,AAAA,['2a03:2880:f129:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,articlepost.net,2402:4e00::,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,123.125.81.7,A,[],Timeout,Timeout occurred for domain: armgs.team on server: 123.125.81.7
+2024-11-14T09:50:58.409830,artstation.com,119.29.29.29,A,['148.163.48.215'],,
+2024-11-14T09:50:58.409830,arte.tv,2620:0:ccc::2,AAAA,['2001::68f4:2eb9'],,
+2024-11-14T09:50:58.409830,armgs.team,114.114.114.114,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,artstation.com,223.5.5.5,A,['31.13.95.169'],,
+2024-11-14T09:50:58.409830,arstechnica.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2402:4e00::
+2024-11-14T09:50:58.409830,articlepost.net,2620:119:35::35,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.409830,armgs.team,211.136.17.107,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,armgs.team,223.5.5.5,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,arte.tv,2620:119:35::35,AAAA,['2a03:2880:f10f:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,artstation.com,180.76.76.76,A,['154.92.16.97'],,
+2024-11-14T09:50:58.409830,armgs.team,123.125.81.6,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,articlepost.net,2620:fe::fe,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.409830,arte.tv,2001:4860:4860::8844,AAAA,['2a03:2880:f12c:183:face:b00c:0:25de'],,
+2024-11-14T09:50:58.409830,arizona.edu,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.409830,articlepost.net,2620:fe::10,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,94.140.15.15,A,['5.61.238.11'],,
+2024-11-14T09:50:58.409830,articlepost.net,2a0c:a9c7:8::1,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.409830,armgs.team,114.114.115.115,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,arizona.edu,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.410830,arizona.edu,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.410830,arte.tv,2001:6d0:6d0::2001,AAAA,['2a03:2880:f111:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.410830,articlepost.net,2a0c:a9c7:9::1,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,arizona.edu,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.410830,arte.tv,2001:4860:4860::8888,AAAA,['2a03:2880:f11a:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.410830,articlepost.net,2001:6d0:6d0::2001,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,armgs.team,218.30.118.6,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,articulate.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.410830,arte.tv,2620:fe::10,AAAA,['2a03:2880:f131:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.410830,articlepost.net,2001:6d0:d6::2001,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,armgs.team,195.208.5.1,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,arizona.edu,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arizona.edu on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.410830,articlepost.net,2606:4700:4700::1001,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,armgs.team,202.96.128.86,A,[],Timeout,Timeout occurred for domain: armgs.team on server: 202.96.128.86
+2024-11-14T09:50:58.410830,artstation.com,101.226.4.6,A,['31.13.85.169'],,
+2024-11-14T09:50:58.410830,arte.tv,2620:fe::fe,AAAA,['2a03:2880:f134:183:face:b00c:0:25de'],,
+2024-11-14T09:50:58.410830,articlepost.net,2a03:90c0:999d::1,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.410830,armgs.team,62.76.62.76,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,articlepost.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: articlepost.net on server: 2400:da00::6666
+2024-11-14T09:50:58.410830,articlepost.net,2620:0:ccd::2,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.410830,armgs.team,195.208.4.1,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,artstation.com,117.50.11.11,A,['54.234.18.200'],,
+2024-11-14T09:50:58.410830,arte.tv,2a0c:a9c7:9::1,AAAA,['2a03:2880:f126:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.410830,articlepost.net,2400:3200::1,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,armgs.team,77.88.8.1,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,artstation.com,123.125.81.6,A,['31.13.85.169'],,
+2024-11-14T09:50:58.410830,articlepost.net,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.410830,armgs.team,62.76.76.62,A,['5.61.238.11'],,
+2024-11-14T09:50:58.410830,arte.tv,2a0c:a9c7:8::1,AAAA,['2001::6ca0:a5d3'],,
+2024-11-14T09:50:58.410830,articlepost.net,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.410830,arte.tv,77.88.8.1,A,['199.59.148.102'],,
+2024-11-14T09:50:58.410830,arlo.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.410830,arm-msedge.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.410830,artnet.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2620:fe::fe
+2024-11-14T09:50:58.410830,arkoselabs.com,223.5.5.5,A,"['3.163.165.88', '3.163.165.116', '3.163.165.15', '3.163.165.41']",,
+2024-11-14T09:50:58.410830,arte.tv,77.88.8.8,A,['108.160.166.148'],,
+2024-11-14T09:50:58.410830,arlo.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.410830,arm-msedge.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.410830,artnet.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.410830,arkoselabs.com,223.6.6.6,A,"['3.163.165.15', '3.163.165.88', '3.163.165.41', '3.163.165.116']",,
+2024-11-14T09:50:58.410830,arte.tv,114.114.115.115,A,['173.234.53.168'],,
+2024-11-14T09:50:58.410830,arlo.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.410830,armgs.team,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.410830,artnet.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.410830,arlo.com,208.67.220.220,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.410830,arte.tv,223.5.5.5,A,['108.160.165.11'],,
+2024-11-14T09:50:58.410830,arlo.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.410830,armgs.team,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.410830,arlo.com,2.56.220.2,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.410830,arte.tv,94.140.15.15,A,['31.13.85.34'],,
+2024-11-14T09:50:58.410830,arlo.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.410830,articulate.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.410830,artnet.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.410830,arlo.com,77.88.8.8,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.410830,arte.tv,114.114.114.114,A,['173.234.53.168'],,
+2024-11-14T09:50:58.410830,arkoselabs.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2400:3200::1
+2024-11-14T09:50:58.410830,armgs.team,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: armgs.team on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.410830,artnet.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.410830,arlo.com,1.1.1.1,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.410830,arte.tv,62.76.62.76,A,['45.77.186.255'],,
+2024-11-14T09:50:58.410830,arkoselabs.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.410830,arm-msedge.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2400:3200:baba::1
+2024-11-14T09:50:58.410830,articulate.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.410830,arlo.com,95.85.95.85,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.410830,arte.tv,94.140.14.14,A,['108.160.169.178'],,
+2024-11-14T09:50:58.410830,arlo.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.410830,arm-msedge.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2402:4e00::
+2024-11-14T09:50:58.410830,artnet.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.410830,artstation.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: artstation.com on server: 202.96.128.86
+2024-11-14T09:50:58.410830,arlo.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.410830,arm-msedge.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.410830,artnet.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.410830,arlo.com,8.8.8.8,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.410830,arte.tv,1.1.1.1,A,['199.59.148.201'],,
+2024-11-14T09:50:58.410830,arlo.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.410830,arm-msedge.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2400:3200::1
+2024-11-14T09:50:58.410830,articulate.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.410830,arlo.com,8.8.4.4,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.410830,artstation.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: artstation.com on server: 210.21.196.6
+2024-11-14T09:50:58.410830,arlo.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2400:3200::1
+2024-11-14T09:50:58.410830,articulate.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:119:35::35
+2024-11-14T09:50:58.410830,arlo.com,1.0.0.1,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.410830,arte.tv,8.8.8.8,A,['199.59.149.232'],,
+2024-11-14T09:50:58.410830,arlo.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:119:35::35
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:0:ccc::2
+2024-11-14T09:50:58.410830,articulate.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:119:53::53
+2024-11-14T09:50:58.410830,arkoselabs.com,123.125.81.6,A,"['108.156.133.127', '108.156.133.88', '108.156.133.117', '108.156.133.104']",,
+2024-11-14T09:50:58.410830,arstechnica.com,101.226.4.6,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.410830,arlo.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:119:53::53
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:0:ccd::2
+2024-11-14T09:50:58.410830,armgs.team,210.21.196.6,A,[],Timeout,Timeout occurred for domain: armgs.team on server: 210.21.196.6
+2024-11-14T09:50:58.410830,artstation.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: artstation.com on server: 101.226.4.7
+2024-11-14T09:50:58.410830,arlo.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.410830,arm-msedge.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.410830,articulate.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:fe::10
+2024-11-14T09:50:58.410830,arkoselabs.com,218.30.118.6,A,"['108.156.133.117', '108.156.133.88', '108.156.133.127', '108.156.133.104']",,
+2024-11-14T09:50:58.410830,arstechnica.com,117.50.11.11,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.410830,armgs.team,9.9.9.9,A,[],Timeout,Timeout occurred for domain: armgs.team on server: 9.9.9.9
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:119:35::35
+2024-11-14T09:50:58.410830,arkoselabs.com,211.136.17.107,A,"['108.156.133.127', '108.156.133.104', '108.156.133.117', '108.156.133.88']",,
+2024-11-14T09:50:58.410830,arstechnica.com,123.125.81.6,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.410830,arkoselabs.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:119:53::53
+2024-11-14T09:50:58.410830,articulate.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2620:fe::fe
+2024-11-14T09:50:58.410830,arkoselabs.com,117.50.11.11,A,"['108.156.133.88', '108.156.133.117', '108.156.133.104', '108.156.133.127']",,
+2024-11-14T09:50:58.410830,artstation.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: artstation.com on server: 123.125.81.7
+2024-11-14T09:50:58.410830,arstechnica.com,218.30.118.6,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.410830,arkoselabs.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:fe::fe
+2024-11-14T09:50:58.410830,artnet.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.410830,arkoselabs.com,101.226.4.6,A,"['108.156.133.117', '108.156.133.104', '108.156.133.127', '108.156.133.88']",,
+2024-11-14T09:50:58.410830,arstechnica.com,211.136.17.107,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.410830,arlo.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:fe::fe
+2024-11-14T09:50:58.410830,arm-msedge.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2620:fe::10
+2024-11-14T09:50:58.410830,artnet.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.410830,arte.tv,2.56.220.2,A,['103.230.123.190'],,
+2024-11-14T09:50:58.410830,arlo.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:fe::10
+2024-11-14T09:50:58.410830,arm-msedge.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.410830,artnet.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.410830,arm-msedge.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 2400:da00::6666
+2024-11-14T09:50:58.410830,arte.tv,62.76.76.62,A,['162.125.80.3'],,
+2024-11-14T09:50:58.410830,arm-msedge.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.410830,artnet.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.410830,arkoselabs.com,119.29.29.29,A,"['54.230.71.99', '54.230.71.14', '54.230.71.22', '54.230.71.47']",,
+2024-11-14T09:50:58.410830,army.mil,1.0.0.1,A,[],NoAnswer,No answer for domain: army.mil on server: 1.0.0.1
+2024-11-14T09:50:58.410830,arte.tv,1.0.0.1,A,['199.16.158.190'],,
+2024-11-14T09:50:58.410830,arlo.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.410830,arm-msedge.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.410830,artnet.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.410830,arkoselabs.com,180.76.76.76,A,"['54.230.71.14', '54.230.71.22', '54.230.71.47', '54.230.71.99']",,
+2024-11-14T09:50:58.410830,arte.tv,95.85.95.85,A,['199.59.149.237'],,
+2024-11-14T09:50:58.410830,arlo.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.410830,arm-msedge.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.411833,artnet.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: artnet.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.411833,arlo.com,208.67.222.222,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.411833,arte.tv,208.67.222.220,A,['199.59.150.49'],,
+2024-11-14T09:50:58.411833,arlo.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.411833,arlo.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2402:4e00::
+2024-11-14T09:50:58.411833,articulate.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.411833,arlo.com,208.67.222.220,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.411833,arte.tv,208.67.220.222,A,['31.13.112.9'],,
+2024-11-14T09:50:58.411833,arlo.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.411833,arm-msedge.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.411833,articulate.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.411833,arkoselabs.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 101.226.4.7
+2024-11-14T09:50:58.411833,arte.tv,208.67.222.222,A,['108.160.166.148'],,
+2024-11-14T09:50:58.411833,arlo.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.411833,articulate.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2402:4e00::
+2024-11-14T09:50:58.411833,arlo.com,9.9.9.10,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.411833,arte.tv,208.67.220.220,A,['199.59.149.232'],,
+2024-11-14T09:50:58.411833,arlo.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.411833,arm-msedge.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.411833,arstechnica.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 101.226.4.7
+2024-11-14T09:50:58.411833,arlo.com,62.76.62.76,A,"['162.159.137.42', '162.159.136.42']",,
+2024-11-14T09:50:58.411833,arkoselabs.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 123.125.81.7
+2024-11-14T09:50:58.411833,arlo.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.411833,arm-msedge.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.411833,articulate.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2400:3200::1
+2024-11-14T09:50:58.411833,arlo.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arlo.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.411833,arte.tv,9.9.9.10,A,['103.252.114.61'],,
+2024-11-14T09:50:58.411833,arkoselabs.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2402:4e00::
+2024-11-14T09:50:58.411833,arlo.com,195.208.5.1,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.411833,articulate.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.411833,arm-msedge.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.411833,arlo.com,62.76.76.62,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.411833,arte.tv,195.208.4.1,A,['75.126.164.178'],,
+2024-11-14T09:50:58.411833,army.mil,1.1.1.1,A,[],NoAnswer,No answer for domain: army.mil on server: 1.1.1.1
+2024-11-14T09:50:58.411833,arstechnica.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 123.125.81.7
+2024-11-14T09:50:58.411833,articulate.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.411833,arlo.com,195.208.4.1,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.411833,army.mil,95.85.95.85,A,[],NoAnswer,No answer for domain: army.mil on server: 95.85.95.85
+2024-11-14T09:50:58.411833,arte.tv,195.208.5.1,A,['202.160.128.210'],,
+2024-11-14T09:50:58.411833,arkoselabs.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.411833,arm-msedge.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.411833,articulate.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.411833,arlo.com,77.88.8.1,A,"['162.159.136.42', '162.159.137.42']",,
+2024-11-14T09:50:58.411833,arte.tv,8.8.4.4,A,['173.252.88.133'],,
+2024-11-14T09:50:58.411833,arkoselabs.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arkoselabs.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.411833,arm-msedge.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arm-msedge.net on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.411833,articulate.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: articulate.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.411833,artfight.net,208.67.222.220,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.411833,arkoselabs.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 202.96.128.86
+2024-11-14T09:50:58.411833,arsmate.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.411833,arstechnica.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2400:3200::1
+2024-11-14T09:50:58.411833,artfight.net,2606:4700:4700::1111,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,arkoselabs.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 210.21.196.6
+2024-11-14T09:50:58.411833,arnebrachhold.de,2001:4860:4860::8888,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.411833,artfight.net,77.88.8.8,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.411833,arsmate.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.411833,artfight.net,2606:4700:4700::1001,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,artfight.net,2.56.220.2,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arnebrachhold.de,2a03:90c0:9992::1,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.411833,artfight.net,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.411833,arsmate.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.411833,arnebrachhold.de,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.411833,artfight.net,195.208.4.1,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arpanet.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2400:3200:baba::1
+2024-11-14T09:50:58.411833,articlepost.net,2606:4700:4700::1111,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.411833,artfight.net,195.208.5.1,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arpanet.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2402:4e00::
+2024-11-14T09:50:58.411833,arnebrachhold.de,2a0c:a9c7:8::1,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.411833,artfight.net,8.8.4.4,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,artfight.net,2a0c:a9c7:8::1,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.411833,arnebrachhold.de,2a0c:a9c7:9::1,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.411833,arsmate.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.411833,artfight.net,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.411833,arnebrachhold.de,2606:4700:4700::1111,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.411833,artfight.net,1.1.1.1,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.411833,arsmate.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.411833,arsmate.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.411833,artfight.net,2001:6d0:d6::2001,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,arsmate.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:119:35::35
+2024-11-14T09:50:58.411833,arsmate.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.411833,artfight.net,62.76.76.62,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arnebrachhold.de,2001:4860:4860::8844,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:fe::10
+2024-11-14T09:50:58.411833,articlepost.net,2001:4860:4860::8888,AAAA,"['2606:4700:3037::ac43:89b2', '2606:4700:3037::6815:46a3']",,
+2024-11-14T09:50:58.411833,artfight.net,62.76.62.76,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T09:50:58.411833,army.mil,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:119:35::35
+2024-11-14T09:50:58.411833,arsmate.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:fe::10
+2024-11-14T09:50:58.411833,articlepost.net,2001:4860:4860::8844,AAAA,"['2606:4700:3037::6815:46a3', '2606:4700:3037::ac43:89b2']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:0:ccd::2
+2024-11-14T09:50:58.411833,artfight.net,8.8.8.8,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,army.mil,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:fe::fe
+2024-11-14T09:50:58.411833,arstechnica.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:119:53::53
+2024-11-14T09:50:58.411833,artfight.net,2402:4e00::,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.411833,arsmate.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:119:53::53
+2024-11-14T09:50:58.411833,artfight.net,208.67.222.222,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:0:ccc::2
+2024-11-14T09:50:58.411833,arsmate.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.411833,artfight.net,208.67.220.220,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,army.mil,2a0c:a9c7:9::1,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.411833,arsmate.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.411833,arstechnica.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:119:35::35
+2024-11-14T09:50:58.411833,artfight.net,2400:3200::1,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.411833,arlo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arlo.com on server: 9.9.9.9
+2024-11-14T09:50:58.411833,army.mil,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:fe::10
+2024-11-14T09:50:58.411833,arsmate.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.411833,artfight.net,2400:3200:baba::1,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,artfight.net,9.9.9.10,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T09:50:58.411833,articulate.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: articulate.com on server: 2400:da00::6666
+2024-11-14T09:50:58.411833,army.mil,2400:3200:baba::1,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2400:3200:baba::1
+2024-11-14T09:50:58.411833,arsmate.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.411833,artfight.net,2a03:90c0:9992::1,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,arstechnica.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.411833,artfight.net,95.85.95.85,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.411833,arte.tv,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arte.tv on server: 9.9.9.9
+2024-11-14T09:50:58.411833,arstechnica.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.411833,artfight.net,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,army.mil,2402:4e00::,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2402:4e00::
+2024-11-14T09:50:58.411833,artfight.net,77.88.8.1,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.411833,army.mil,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.411833,arsmate.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.411833,arstechnica.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2606:4700:4700::1111
+2024-11-14T09:50:58.411833,artfight.net,2620:0:ccc::2,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,artfight.net,1.0.0.1,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.411833,arpanet.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T09:50:58.411833,arstechnica.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2606:4700:4700::1001
+2024-11-14T09:50:58.411833,artfight.net,2620:0:ccd::2,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,army.mil,2400:3200::1,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2400:3200::1
+2024-11-14T09:50:58.411833,arpanet.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2400:3200::1
+2024-11-14T09:50:58.411833,army.mil,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:0:ccd::2
+2024-11-14T09:50:58.411833,arstechnica.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2001:4860:4860::8888
+2024-11-14T09:50:58.411833,artfight.net,2001:4860:4860::8888,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.411833,army.mil,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.412830,arsmate.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a0c:a9c7:9::1
+2024-11-14T09:50:58.412830,arstechnica.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2001:4860:4860::8844
+2024-11-14T09:50:58.412830,artfight.net,2001:4860:4860::8844,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.412830,arkoselabs.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arkoselabs.com on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,arlo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arlo.com on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,arsmate.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2620:fe::fe
+2024-11-14T09:50:58.412830,army.mil,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:119:53::53
+2024-11-14T09:50:58.412830,artfight.net,2620:119:35::35,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.412830,arte.tv,123.125.81.6,A,['199.193.116.105'],,
+2024-11-14T09:50:58.412830,arstechnica.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.412830,army.mil,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: army.mil on server: 2620:0:ccc::2
+2024-11-14T09:50:58.412830,arsmate.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.412830,arstechnica.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2620:fe::fe
+2024-11-14T09:50:58.412830,arte.tv,101.226.4.6,A,['185.60.216.11'],,
+2024-11-14T09:50:58.412830,artfight.net,2620:119:53::53,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.412830,army.mil,2001:6d0:d6::2001,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2001:6d0:d6::2001
+2024-11-14T09:50:58.412830,arsmate.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.412830,arstechnica.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.412830,arte.tv,211.136.17.107,A,['31.13.112.9'],,
+2024-11-14T09:50:58.412830,artfight.net,2620:fe::fe,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.412830,army.mil,2a0c:a9c7:8::1,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2a0c:a9c7:8::1
+2024-11-14T09:50:58.412830,arstechnica.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.412830,artfight.net,2620:fe::10,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.412830,arte.tv,117.50.11.11,A,['108.160.162.102'],,
+2024-11-14T09:50:58.412830,army.mil,2a02:6b8:0:1::feed:0ff,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T09:50:58.412830,arsmate.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2402:4e00::
+2024-11-14T09:50:58.412830,artfight.net,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3121::3', '2a06:98c1:3120::3']",,
+2024-11-14T09:50:58.412830,army.mil,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: army.mil on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,army.mil,2001:6d0:6d0::2001,AAAA,[],NoNameservers,No nameservers for domain: army.mil on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.412830,arpanet.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:0:ccd::2
+2024-11-14T09:50:58.412830,artfight.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: artfight.net on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,artfight.net,2a0c:a9c7:9::1,AAAA,"['2606:4700:3031::6815:d20', '2606:4700:3032::ac43:c5a2']",,
+2024-11-14T09:50:58.412830,arte.tv,218.30.118.6,A,['108.160.167.174'],,
+2024-11-14T09:50:58.412830,arnebrachhold.de,2001:6d0:d6::2001,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.412830,arpanet.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T09:50:58.412830,arstechnica.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a03:90c0:9992::1
+2024-11-14T09:50:58.412830,arte.tv,2402:4e00::,AAAA,['2a03:2880:f129:83:face:b00c:0:25de'],,
+2024-11-14T09:50:58.412830,artfight.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: artfight.net on server: 9.9.9.9
+2024-11-14T09:50:58.412830,arte.tv,180.76.76.76,A,['157.240.12.5'],,
+2024-11-14T09:50:58.412830,arpanet.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:119:53::53
+2024-11-14T09:50:58.412830,arnebrachhold.de,2001:6d0:6d0::2001,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.412830,arstechnica.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a02:6b8::feed:0ff
+2024-11-14T09:50:58.412830,arpanet.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,arnebrachhold.de,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3032::6815:3874', '2606:4700:3036::ac43:b8e2']",,
+2024-11-14T09:50:58.412830,arpanet.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:0:ccc::2
+2024-11-14T09:50:58.412830,arsmate.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2400:3200::1
+2024-11-14T09:50:58.412830,artfight.net,2a03:90c0:999d::1,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.412830,arte.tv,223.6.6.6,A,['108.160.165.11'],,
+2024-11-14T09:50:58.412830,arnebrachhold.de,2606:4700:4700::1001,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.412830,arpanet.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:fe::10
+2024-11-14T09:50:58.412830,arsmate.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2400:3200:baba::1
+2024-11-14T09:50:58.412830,arte.tv,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arte.tv on server: 123.125.81.7
+2024-11-14T09:50:58.412830,arte.tv,119.29.29.29,A,['31.13.95.169'],,
+2024-11-14T09:50:58.412830,arnebrachhold.de,2a03:90c0:999d::1,AAAA,"['2606:4700:3036::ac43:b8e2', '2606:4700:3032::6815:3874']",,
+2024-11-14T09:50:58.412830,arpanet.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: arpanet.jp on server: 2620:119:35::35
+2024-11-14T09:50:58.412830,arte.tv,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arte.tv on server: 101.226.4.7
+2024-11-14T09:50:58.412830,arstechnica.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: arstechnica.com on server: 2a03:90c0:999d::1
+2024-11-14T09:50:58.412830,arizona.edu,208.67.222.220,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,208.67.220.220,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arsmate.com,123.125.81.6,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,77.88.8.1,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,1.0.0.1,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arstechnica.com,1.1.1.1,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arizona.edu,211.136.17.107,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,117.50.11.11,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,77.88.8.8,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,211.136.17.107,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arsmate.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: arsmate.com on server: 2001:6d0:6d0::2001
+2024-11-14T09:50:58.412830,arte.tv,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arte.tv on server: 210.21.196.6
+2024-11-14T09:50:58.412830,arsmate.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arsmate.com on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,arstechnica.com,8.8.4.4,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arizona.edu,218.30.118.6,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,62.76.76.62,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,180.76.76.76,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,9.9.9.10,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,208.67.222.222,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arte.tv,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: arte.tv on server: 2400:da00::6666
+2024-11-14T09:50:58.412830,arizona.edu,208.67.220.220,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,101.226.4.6,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arte.tv,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arte.tv on server: 202.96.128.86
+2024-11-14T09:50:58.412830,arizona.edu,119.29.29.29,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,195.208.4.1,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,218.30.118.6,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,94.140.15.15,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,195.208.4.1,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,artfight.net,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3032::ac43:c5a2', '2606:4700:3031::6815:d20']",,
+2024-11-14T09:50:58.412830,arizona.edu,223.5.5.5,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,195.208.5.1,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,8.8.8.8,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,223.6.6.6,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,114.114.114.114,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,114.114.115.115,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,94.140.15.15,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,9.9.9.10,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,8.8.4.4,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,62.76.62.76,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,62.76.62.76,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arstechnica.com,8.8.8.8,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arsmate.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arsmate.com on server: 101.226.4.7
+2024-11-14T09:50:58.412830,arsmate.com,180.76.76.76,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arizona.edu on server: 202.96.128.86
+2024-11-14T09:50:58.412830,arsmate.com,208.67.222.222,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,94.140.14.14,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,62.76.76.62,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,2.56.220.2,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,208.67.220.222,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arsmate.com,94.140.14.14,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arsmate.com,223.6.6.6,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,95.85.95.85,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arizona.edu,195.208.5.1,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,119.29.29.29,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,1.1.1.1,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,114.114.115.115,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arsmate.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arsmate.com on server: 9.9.9.9
+2024-11-14T09:50:58.412830,arizona.edu,114.114.114.114,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arsmate.com,223.5.5.5,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arizona.edu,208.67.220.222,A,['128.196.128.233'],,
+2024-11-14T09:50:58.412830,arstechnica.com,223.6.6.6,A,"['3.140.142.111', '3.134.65.28']",,
+2024-11-14T09:50:58.412830,arstechnica.com,94.140.14.14,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,77.88.8.8,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arsmate.com,208.67.222.220,A,['209.133.217.130'],,
+2024-11-14T09:50:58.412830,arstechnica.com,77.88.8.1,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,223.5.5.5,A,"['3.140.142.111', '3.134.65.28']",,
+2024-11-14T09:50:58.412830,arstechnica.com,94.140.15.15,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,62.76.62.76,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,1.0.0.1,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,208.67.220.220,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,62.76.76.62,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,2.56.220.2,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,195.208.5.1,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,208.67.222.222,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,95.85.95.85,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,208.67.220.222,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,195.208.4.1,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,9.9.9.10,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,208.67.222.220,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,114.114.115.115,A,"['13.59.54.203', '3.140.142.111']",,
+2024-11-14T09:50:58.412830,arstechnica.com,114.114.114.114,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arizona.edu,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arizona.edu on server: 210.21.196.6
+2024-11-14T09:50:58.412830,arstechnica.com,180.76.76.76,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,arstechnica.com,119.29.29.29,A,"['3.140.142.111', '13.59.54.203']",,
+2024-11-14T09:50:58.412830,armgs.team,2.56.220.2,A,['5.61.238.11'],,
+2024-11-14T09:50:58.412830,arpanet.jp,123.125.81.6,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 123.125.81.6
+2024-11-14T09:50:58.412830,articlepost.net,195.208.4.1,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.412830,articulate.com,77.88.8.1,A,"['18.233.11.70', '54.237.38.95', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artstation.com,2.56.220.2,A,['31.13.112.4'],,
+2024-11-14T09:50:58.413831,armgs.team,77.88.8.8,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,articlepost.net,195.208.5.1,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,arsmate.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arsmate.com on server: 123.125.81.7
+2024-11-14T09:50:58.413831,articulate.com,62.76.76.62,A,"['100.24.213.242', '54.237.38.95', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,armgs.team,95.85.95.85,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,articlepost.net,62.76.76.62,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,articulate.com,77.88.8.8,A,"['18.233.11.70', '100.24.213.242', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,artstation.com,95.85.95.85,A,['162.125.7.1'],,
+2024-11-14T09:50:58.413831,arsmate.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arsmate.com on server: 210.21.196.6
+2024-11-14T09:50:58.413831,articlepost.net,62.76.62.76,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,articulate.com,2.56.220.2,A,"['18.233.11.70', '54.237.38.95', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artstation.com,77.88.8.1,A,['115.126.100.160'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,117.50.11.11,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 117.50.11.11
+2024-11-14T09:50:58.413831,arpanet.jp,211.136.17.107,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 211.136.17.107
+2024-11-14T09:50:58.413831,articlepost.net,77.88.8.8,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,articulate.com,62.76.62.76,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,artstation.com,62.76.76.62,A,['128.242.245.93'],,
+2024-11-14T09:50:58.413831,arsmate.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arsmate.com on server: 202.96.128.86
+2024-11-14T09:50:58.413831,arpanet.jp,117.50.11.11,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 117.50.11.11
+2024-11-14T09:50:58.413831,arizona.edu,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arizona.edu on server: 9.9.9.9
+2024-11-14T09:50:58.413831,articlepost.net,77.88.8.1,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.413831,artstation.com,77.88.8.8,A,['103.200.31.172'],,
+2024-11-14T09:50:58.413831,articulate.com,1.0.0.1,A,"['100.24.213.242', '18.233.11.70', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,arsmate.com,77.88.8.1,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,articlepost.net,95.85.95.85,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,articulate.com,95.85.95.85,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,208.67.220.220,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 208.67.220.220
+2024-11-14T09:50:58.413831,arstechnica.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 9.9.9.9
+2024-11-14T09:50:58.413831,articlepost.net,2.56.220.2,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.413831,articulate.com,117.50.11.11,A,"['100.24.213.242', '18.233.11.70', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,artstation.com,1.0.0.1,A,['108.160.172.1'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,114.114.115.115,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 114.114.115.115
+2024-11-14T09:50:58.413831,arpanet.jp,94.140.14.14,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 94.140.14.14
+2024-11-14T09:50:58.413831,articlepost.net,1.1.1.1,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,arstechnica.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 202.96.128.86
+2024-11-14T09:50:58.413831,arstechnica.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arstechnica.com on server: 210.21.196.6
+2024-11-14T09:50:58.413831,arm-msedge.net,180.76.76.76,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 180.76.76.76
+2024-11-14T09:50:58.413831,articulate.com,123.125.81.6,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,articlepost.net,1.0.0.1,A,"['104.21.70.163', '172.67.137.178']",,
+2024-11-14T09:50:58.413831,artstation.com,8.8.4.4,A,['104.23.124.189'],,
+2024-11-14T09:50:58.413831,arpanet.jp,218.30.118.6,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 218.30.118.6
+2024-11-14T09:50:58.413831,arm-msedge.net,218.30.118.6,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 218.30.118.6
+2024-11-14T09:50:58.413831,articulate.com,218.30.118.6,A,"['18.233.11.70', '54.237.38.95', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,articulate.com,211.136.17.107,A,"['100.24.213.242', '54.237.38.95', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,articlepost.net,8.8.8.8,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.413831,artstation.com,1.1.1.1,A,['69.171.242.11'],,
+2024-11-14T09:50:58.413831,articlepost.net,8.8.4.4,A,"['172.67.137.178', '104.21.70.163']",,
+2024-11-14T09:50:58.413831,arpanet.jp,94.140.15.15,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 94.140.15.15
+2024-11-14T09:50:58.413831,artstation.com,8.8.8.8,A,['31.13.88.26'],,
+2024-11-14T09:50:58.413831,arsmate.com,77.88.8.8,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,arsmate.com,8.8.8.8,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,armgs.team,1.0.0.1,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,artnet.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: artnet.com on server: 202.96.128.86
+2024-11-14T09:50:58.413831,arm-msedge.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 9.9.9.9
+2024-11-14T09:50:58.413831,arsmate.com,2.56.220.2,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 123.125.81.7
+2024-11-14T09:50:58.413831,articulate.com,119.29.29.29,A,"['18.233.11.70', '100.24.213.242', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 202.96.128.86
+2024-11-14T09:50:58.413831,armgs.team,8.8.4.4,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,arpanet.jp,114.114.114.114,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 114.114.114.114
+2024-11-14T09:50:58.413831,artfight.net,180.76.76.76,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,180.76.76.76,A,"['100.24.213.242', '18.233.11.70', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,arpanet.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 101.226.4.7
+2024-11-14T09:50:58.413831,armgs.team,1.1.1.1,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,articulate.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: articulate.com on server: 202.96.128.86
+2024-11-14T09:50:58.413831,artfight.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: artfight.net on server: 123.125.81.7
+2024-11-14T09:50:58.413831,articulate.com,223.5.5.5,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,articulate.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: articulate.com on server: 210.21.196.6
+2024-11-14T09:50:58.413831,arm-msedge.net,211.136.17.107,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 211.136.17.107
+2024-11-14T09:50:58.413831,arpanet.jp,208.67.220.222,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 208.67.220.222
+2024-11-14T09:50:58.413831,artnet.com,123.125.81.6,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.413831,articulate.com,223.6.6.6,A,"['18.233.11.70', '54.237.38.95', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artnet.com,101.226.4.6,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.413831,armgs.team,8.8.8.8,A,['5.61.238.11'],,
+2024-11-14T09:50:58.413831,arpanet.jp,223.6.6.6,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 223.6.6.6
+2024-11-14T09:50:58.413831,artfight.net,101.226.4.6,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,articulate.com,114.114.115.115,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artstation.com,62.76.62.76,A,['104.244.46.246'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,9.9.9.10,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 9.9.9.10
+2024-11-14T09:50:58.413831,artfight.net,218.30.118.6,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,artstation.com,195.208.4.1,A,['128.121.243.107'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,119.29.29.29,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 119.29.29.29
+2024-11-14T09:50:58.413831,arsmate.com,1.0.0.1,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 210.21.196.6
+2024-11-14T09:50:58.413831,articulate.com,208.67.220.220,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,artnet.com,180.76.76.76,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,101.226.4.6,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 101.226.4.6
+2024-11-14T09:50:58.413831,arpanet.jp,208.67.222.220,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 208.67.222.220
+2024-11-14T09:50:58.413831,artfight.net,223.6.6.6,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,articulate.com,114.114.114.114,A,"['18.233.11.70', '100.24.213.242', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,artfight.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: artfight.net on server: 101.226.4.7
+2024-11-14T09:50:58.413831,arm-msedge.net,114.114.114.114,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 114.114.114.114
+2024-11-14T09:50:58.413831,arpanet.jp,223.5.5.5,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 223.5.5.5
+2024-11-14T09:50:58.413831,artfight.net,119.29.29.29,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,articulate.com,9.9.9.10,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artstation.com,208.67.220.220,A,['157.240.17.41'],,
+2024-11-14T09:50:58.413831,artnet.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: artnet.com on server: 123.125.81.7
+2024-11-14T09:50:58.413831,arpanet.jp,208.67.220.220,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 208.67.220.220
+2024-11-14T09:50:58.413831,artfight.net,114.114.115.115,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,articulate.com,208.67.222.222,A,"['100.24.213.242', '18.233.11.70', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,123.125.81.6,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 123.125.81.6
+2024-11-14T09:50:58.413831,arpanet.jp,101.226.4.6,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 101.226.4.6
+2024-11-14T09:50:58.413831,artfight.net,223.5.5.5,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,artstation.com,9.9.9.10,A,['162.125.80.5'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,94.140.14.14,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 94.140.14.14
+2024-11-14T09:50:58.413831,arsmate.com,95.85.95.85,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,artfight.net,94.140.15.15,A,"['104.21.13.32', '172.67.197.162']",,
+2024-11-14T09:50:58.413831,articulate.com,195.208.4.1,A,"['54.237.38.95', '100.24.213.242', '18.233.11.70']",,
+2024-11-14T09:50:58.413831,artstation.com,208.67.222.222,A,['108.160.169.171'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,94.140.15.15,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 94.140.15.15
+2024-11-14T09:50:58.413831,arpanet.jp,119.29.29.29,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 119.29.29.29
+2024-11-14T09:50:58.413831,artfight.net,114.114.114.114,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,195.208.5.1,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artstation.com,195.208.5.1,A,['108.160.166.253'],,
+2024-11-14T09:50:58.413831,arm-msedge.net,208.67.220.222,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 208.67.220.222
+2024-11-14T09:50:58.413831,arsmate.com,8.8.4.4,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,artfight.net,208.67.220.222,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,artnet.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: artnet.com on server: 101.226.4.7
+2024-11-14T09:50:58.413831,arpanet.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 202.96.128.86
+2024-11-14T09:50:58.413831,arm-msedge.net,208.67.222.222,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 208.67.222.222
+2024-11-14T09:50:58.413831,arpanet.jp,114.114.115.115,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 114.114.115.115
+2024-11-14T09:50:58.413831,artfight.net,94.140.14.14,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,94.140.14.14,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artnet.com,117.50.11.11,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,223.5.5.5,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 223.5.5.5
+2024-11-14T09:50:58.413831,arsmate.com,1.1.1.1,A,['209.133.217.130'],,
+2024-11-14T09:50:58.413831,artfight.net,117.50.11.11,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,94.140.15.15,A,"['54.237.38.95', '18.233.11.70', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,223.6.6.6,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 223.6.6.6
+2024-11-14T09:50:58.413831,arpanet.jp,180.76.76.76,A,[],NoAnswer,No answer for domain: arpanet.jp on server: 180.76.76.76
+2024-11-14T09:50:58.413831,artfight.net,123.125.81.6,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,208.67.222.220,A,"['18.233.11.70', '54.237.38.95', '100.24.213.242']",,
+2024-11-14T09:50:58.413831,artnet.com,218.30.118.6,A,"['45.223.28.250', '45.223.18.250']",,
+2024-11-14T09:50:58.413831,arm-msedge.net,208.67.222.220,A,[],NoAnswer,No answer for domain: arm-msedge.net on server: 208.67.222.220
+2024-11-14T09:50:58.413831,artfight.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: artfight.net on server: 210.21.196.6
+2024-11-14T09:50:58.413831,artfight.net,211.136.17.107,A,"['172.67.197.162', '104.21.13.32']",,
+2024-11-14T09:50:58.413831,articulate.com,208.67.220.222,A,"['100.24.213.242', '18.233.11.70', '54.237.38.95']",,
+2024-11-14T09:50:58.413831,artnet.com,211.136.17.107,A,"['45.223.18.250', '45.223.28.250']",,
+2024-11-14T09:50:58.413831,arpanet.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 123.125.81.7
+2024-11-14T09:50:58.413831,artfight.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: artfight.net on server: 202.96.128.86
+2024-11-14T09:50:58.414830,artnet.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: artnet.com on server: 210.21.196.6
+2024-11-14T09:50:58.414830,arm-msedge.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: arm-msedge.net on server: 101.226.4.7
+2024-11-14T09:50:58.414830,articulate.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: articulate.com on server: 9.9.9.9
+2024-11-14T09:50:58.414830,artstation.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: artstation.com on server: 9.9.9.9
+2024-11-14T09:50:58.414830,arpanet.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: arpanet.jp on server: 210.21.196.6

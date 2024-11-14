@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T05:47:46.998684,admedo.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:119:53::53
+2024-11-14T05:47:46.998684,admedo.com,119.29.29.29,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.998684,adlightning.com,2.56.220.2,A,"['13.35.186.51', '13.35.186.89', '13.35.186.102', '13.35.186.70']",,
+2024-11-14T05:47:46.998684,adnxs.net,195.208.5.1,A,[],NoAnswer,No answer for domain: adnxs.net on server: 195.208.5.1
+2024-11-14T05:47:46.998684,admedo.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:46.998684,admixer.net,195.208.4.1,A,['85.195.76.86'],,
+2024-11-14T05:47:46.998684,adnxs.net,195.208.4.1,A,[],NoAnswer,No answer for domain: adnxs.net on server: 195.208.4.1
+2024-11-14T05:47:46.998684,admedo.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:46.998684,adlightning.com,77.88.8.8,A,"['18.165.122.79', '18.165.122.78', '18.165.122.9', '18.165.122.86']",,
+2024-11-14T05:47:46.998684,adnxs.net,62.76.76.62,A,[],NoAnswer,No answer for domain: adnxs.net on server: 62.76.76.62
+2024-11-14T05:47:46.998684,admedo.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:0:ccd::2
+2024-11-14T05:47:46.998684,adnkronos.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:fe::fe
+2024-11-14T05:47:46.998684,adnkronos.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:46.998684,adlightning.com,208.67.220.222,A,"['13.35.186.89', '13.35.186.102', '13.35.186.51', '13.35.186.70']",,
+2024-11-14T05:47:46.998684,admin.ch,119.29.29.29,A,['162.23.130.190'],,
+2024-11-14T05:47:46.998684,admixer.net,1.0.0.1,A,['85.195.76.86'],,
+2024-11-14T05:47:46.998684,admedo.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:46.998684,adnxs.net,208.67.220.220,A,[],NoAnswer,No answer for domain: adnxs.net on server: 208.67.220.220
+2024-11-14T05:47:46.998684,adlightning.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:46.998684,adnxs.net,62.76.62.76,A,[],NoAnswer,No answer for domain: adnxs.net on server: 62.76.62.76
+2024-11-14T05:47:46.998684,admedo.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2400:3200:baba::1
+2024-11-14T05:47:46.998684,admedo.com,2.56.220.2,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.998684,adnxs.net,208.67.222.220,A,[],NoAnswer,No answer for domain: adnxs.net on server: 208.67.222.220
+2024-11-14T05:47:46.998684,admin.ch,114.114.114.114,A,['162.23.130.190'],,
+2024-11-14T05:47:46.998684,admedo.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:0:ccc::2
+2024-11-14T05:47:46.998684,adnkronos.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:46.998684,admixer.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:0:ccd::2
+2024-11-14T05:47:46.998684,adnxs.net,208.67.222.222,A,[],NoAnswer,No answer for domain: adnxs.net on server: 208.67.222.222
+2024-11-14T05:47:46.998684,adnxs.net,9.9.9.10,A,[],NoAnswer,No answer for domain: adnxs.net on server: 9.9.9.10
+2024-11-14T05:47:46.998684,adlightning.com,208.67.222.222,A,"['13.35.186.102', '13.35.186.51', '13.35.186.70', '13.35.186.89']",,
+2024-11-14T05:47:46.998684,admedo.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2402:4e00::
+2024-11-14T05:47:46.999683,admixer.net,62.76.76.62,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,admixer.net,62.76.62.76,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adnkronos.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:119:35::35
+2024-11-14T05:47:46.999683,admin.ch,117.50.11.11,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,adlightning.com,208.67.222.220,A,"['13.35.186.70', '13.35.186.89', '13.35.186.102', '13.35.186.51']",,
+2024-11-14T05:47:46.999683,admedo.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2400:3200::1
+2024-11-14T05:47:46.999683,adnkronos.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:46.999683,adnkronos.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:0:ccd::2
+2024-11-14T05:47:46.999683,admixer.net,95.85.95.85,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adnkronos.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:fe::10
+2024-11-14T05:47:46.999683,adnkronos.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:46.999683,admedo.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:46.999683,adnxs.net,8.8.8.8,A,[],NoAnswer,No answer for domain: adnxs.net on server: 8.8.8.8
+2024-11-14T05:47:46.999683,adlightning.com,195.208.5.1,A,"['18.165.122.79', '18.165.122.86', '18.165.122.78', '18.165.122.9']",,
+2024-11-14T05:47:46.999683,adnkronos.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:46.999683,admixer.net,208.67.222.222,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adnxs.net,8.8.4.4,A,[],NoAnswer,No answer for domain: adnxs.net on server: 8.8.4.4
+2024-11-14T05:47:46.999683,admixer.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:119:53::53
+2024-11-14T05:47:46.999683,adlightning.com,9.9.9.10,A,"['143.204.98.124', '143.204.98.110', '143.204.98.97', '143.204.98.69']",,
+2024-11-14T05:47:46.999683,adnxs.net,223.5.5.5,A,[],NoAnswer,No answer for domain: adnxs.net on server: 223.5.5.5
+2024-11-14T05:47:46.999683,adlightning.com,208.67.220.220,A,"['13.35.186.51', '13.35.186.70', '13.35.186.89', '13.35.186.102']",,
+2024-11-14T05:47:46.999683,admin.ch,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a03:90c0:999d::1
+2024-11-14T05:47:46.999683,admixer.net,77.88.8.8,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,admin.ch,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:46.999683,admixer.net,77.88.8.1,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,admedo.com,195.208.4.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.999683,admedo.com,77.88.8.8,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,admin.ch,223.5.5.5,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,adlightning.com,62.76.76.62,A,"['18.165.122.78', '18.165.122.86', '18.165.122.79', '18.165.122.9']",,
+2024-11-14T05:47:46.999683,admin.ch,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2606:4700:4700::1001
+2024-11-14T05:47:46.999683,admixer.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:0:ccc::2
+2024-11-14T05:47:46.999683,adnxs.net,114.114.114.114,A,[],NoAnswer,No answer for domain: adnxs.net on server: 114.114.114.114
+2024-11-14T05:47:46.999683,admedo.com,62.76.76.62,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,admin.ch,223.6.6.6,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,adlightning.com,195.208.4.1,A,"['18.165.122.9', '18.165.122.79', '18.165.122.78', '18.165.122.86']",,
+2024-11-14T05:47:46.999683,adnxs.net,114.114.115.115,A,[],NoAnswer,No answer for domain: adnxs.net on server: 114.114.115.115
+2024-11-14T05:47:46.999683,admedo.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:119:35::35
+2024-11-14T05:47:46.999683,admedo.com,208.67.220.220,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.999683,adnkronos.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:46.999683,adnxs.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:46.999683,admin.ch,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a03:90c0:9992::1
+2024-11-14T05:47:46.999683,adlightning.com,8.8.8.8,A,"['13.35.186.70', '13.35.186.102', '13.35.186.51', '13.35.186.89']",,
+2024-11-14T05:47:46.999683,admedo.com,195.208.5.1,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,admin.ch,114.114.115.115,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,admedo.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:fe::fe
+2024-11-14T05:47:46.999683,admixer.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:46.999683,adlightning.com,77.88.8.1,A,"['18.165.122.86', '18.165.122.9', '18.165.122.78', '18.165.122.79']",,
+2024-11-14T05:47:46.999683,admin.ch,210.21.196.6,A,[],Timeout,Timeout occurred for domain: admin.ch on server: 210.21.196.6
+2024-11-14T05:47:46.999683,admixer.net,1.1.1.1,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adnxs.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adnxs.net on server: 9.9.9.9
+2024-11-14T05:47:46.999683,admedo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: admedo.com on server: 2400:da00::6666
+2024-11-14T05:47:46.999683,admedo.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2620:fe::10
+2024-11-14T05:47:46.999683,adnkronos.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:46.999683,admixer.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: admixer.net on server: 9.9.9.9
+2024-11-14T05:47:46.999683,adlightning.com,62.76.62.76,A,"['18.165.122.86', '18.165.122.9', '18.165.122.79', '18.165.122.78']",,
+2024-11-14T05:47:46.999683,admedo.com,9.9.9.10,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,adlightning.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adlightning.com on server: 9.9.9.9
+2024-11-14T05:47:46.999683,admixer.net,9.9.9.10,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adkwai.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adkwai.com on server: 101.226.4.6
+2024-11-14T05:47:46.999683,admedo.com,208.67.222.222,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.999683,admixer.net,8.8.4.4,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,admin.ch,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:fe::10
+2024-11-14T05:47:46.999683,adnkronos.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:46.999683,admin.ch,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2001:4860:4860::8888
+2024-11-14T05:47:46.999683,adnxs.net,77.88.8.1,A,[],NoAnswer,No answer for domain: adnxs.net on server: 77.88.8.1
+2024-11-14T05:47:46.999683,admedo.com,223.6.6.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.999683,admixer.net,195.208.5.1,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adnxs.net,223.6.6.6,A,[],NoAnswer,No answer for domain: adnxs.net on server: 223.6.6.6
+2024-11-14T05:47:46.999683,adnkronos.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:46.999683,adnkronos.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:119:53::53
+2024-11-14T05:47:46.999683,adlightning.com,1.1.1.1,A,"['3.165.11.121', '3.165.11.98', '3.165.11.120', '3.165.11.40']",,
+2024-11-14T05:47:46.999683,admin.ch,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:46.999683,admedo.com,62.76.62.76,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,adnxs.net,2.56.220.2,A,[],NoAnswer,No answer for domain: adnxs.net on server: 2.56.220.2
+2024-11-14T05:47:46.999683,adkwai.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adkwai.com on server: 101.226.4.7
+2024-11-14T05:47:46.999683,adnkronos.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2620:0:ccc::2
+2024-11-14T05:47:46.999683,admin.ch,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2001:4860:4860::8844
+2024-11-14T05:47:46.999683,admedo.com,223.5.5.5,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,admin.ch,202.96.128.86,A,[],Timeout,Timeout occurred for domain: admin.ch on server: 202.96.128.86
+2024-11-14T05:47:46.999683,admixer.net,8.8.8.8,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,adlightning.com,95.85.95.85,A,"['13.35.186.89', '13.35.186.70', '13.35.186.102', '13.35.186.51']",,
+2024-11-14T05:47:46.999683,admixer.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2400:3200:baba::1
+2024-11-14T05:47:46.999683,adlightning.com,8.8.4.4,A,"['13.35.186.89', '13.35.186.51', '13.35.186.70', '13.35.186.102']",,
+2024-11-14T05:47:46.999683,admedo.com,208.67.222.220,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,adnxs.net,77.88.8.8,A,[],NoAnswer,No answer for domain: adnxs.net on server: 77.88.8.8
+2024-11-14T05:47:46.999683,admin.ch,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:fe::fe
+2024-11-14T05:47:46.999683,adnxs.net,119.29.29.29,A,[],NoAnswer,No answer for domain: adnxs.net on server: 119.29.29.29
+2024-11-14T05:47:46.999683,admin.ch,101.226.4.6,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,admin.ch,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2001:6d0:d6::2001
+2024-11-14T05:47:46.999683,admixer.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2402:4e00::
+2024-11-14T05:47:46.999683,admedo.com,208.67.220.222,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,adlightning.com,1.0.0.1,A,"['108.139.10.7', '108.139.10.63', '108.139.10.71', '108.139.10.30']",,
+2024-11-14T05:47:46.999683,adnxs.net,180.76.76.76,A,[],NoAnswer,No answer for domain: adnxs.net on server: 180.76.76.76
+2024-11-14T05:47:46.999683,admixer.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2400:3200::1
+2024-11-14T05:47:46.999683,adkwai.com,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T05:47:46.999683,admedo.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:46.999683,admin.ch,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:119:53::53
+2024-11-14T05:47:46.999683,admin.ch,218.30.118.6,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,adnxs.net,208.67.220.222,A,[],NoAnswer,No answer for domain: adnxs.net on server: 208.67.220.222
+2024-11-14T05:47:46.999683,adnkronos.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:46.999683,adkwai.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adkwai.com on server: 123.125.81.6
+2024-11-14T05:47:46.999683,admedo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: admedo.com on server: 9.9.9.9
+2024-11-14T05:47:46.999683,admedo.com,77.88.8.1,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,admin.ch,211.136.17.107,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,admin.ch,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:119:35::35
+2024-11-14T05:47:46.999683,adnxs.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:46.999683,adnkronos.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:46.999683,admedo.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:46.999683,admin.ch,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:46.999683,adnxs.net,1.1.1.1,A,[],NoAnswer,No answer for domain: adnxs.net on server: 1.1.1.1
+2024-11-14T05:47:46.999683,admin.ch,180.76.76.76,A,['162.23.130.190'],,
+2024-11-14T05:47:46.999683,admin.ch,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2606:4700:4700::1111
+2024-11-14T05:47:46.999683,adlightning.com,114.114.115.115,A,"['143.204.98.97', '143.204.98.110', '143.204.98.124']",,
+2024-11-14T05:47:46.999683,adlightning.com,114.114.114.114,A,"['143.204.98.110', '143.204.98.97', '143.204.98.124']",,
+2024-11-14T05:47:46.999683,admixer.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:46.999683,adnxs.net,1.0.0.1,A,[],NoAnswer,No answer for domain: adnxs.net on server: 1.0.0.1
+2024-11-14T05:47:46.999683,admixer.net,2.56.220.2,A,['85.195.76.86'],,
+2024-11-14T05:47:46.999683,admedo.com,114.114.114.114,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:46.999683,adlightning.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:46.999683,admedo.com,114.114.115.115,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:46.999683,admin.ch,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:46.999683,adnxs.net,95.85.95.85,A,[],NoAnswer,No answer for domain: adnxs.net on server: 95.85.95.85
+2024-11-14T05:47:46.999683,admin.ch,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.000681,admin.ch,123.125.81.6,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,adnkronos.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.000681,admin.ch,77.88.8.1,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2620:fe::fe,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,adliran.ir,208.67.220.222,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admedo.com,123.125.81.6,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:47.000681,admanmedia.com,2402:4e00::,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,adnxs.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adnxs.net on server: 202.96.128.86
+2024-11-14T05:47:47.000681,admedo.com,101.226.4.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.000681,admanmedia.com,8.8.8.8,A,['104.69.44.60'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2620:fe::10,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,admanmedia.com,62.76.62.76,A,['95.101.99.32'],,
+2024-11-14T05:47:47.000681,admin.ch,1.1.1.1,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,adme.media,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.000681,adnxs.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adnxs.net on server: 210.21.196.6
+2024-11-14T05:47:47.000681,admin.ch,8.8.8.8,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,adliran.ir,101.226.4.6,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a0c:a9c7:8::1,AAAA,"['2a02:26f0:e2:78b::2bfd', '2a02:26f0:e2:781::2bfd']",,
+2024-11-14T05:47:47.000681,admin.ch,8.8.4.4,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,adkwai.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adkwai.com on server: 123.125.81.7
+2024-11-14T05:47:47.000681,adliran.ir,123.125.81.6,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a0c:a9c7:9::1,AAAA,"['2a02:26f0:e2:78b::2bfd', '2a02:26f0:e2:781::2bfd']",,
+2024-11-14T05:47:47.000681,adliran.ir,117.50.11.11,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,adme.media,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.000681,admanmedia.com,195.208.4.1,A,['95.101.99.32'],,
+2024-11-14T05:47:47.000681,admin.ch,101.226.4.7,A,[],Timeout,Timeout occurred for domain: admin.ch on server: 101.226.4.7
+2024-11-14T05:47:47.000681,adme.media,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.000681,admanmedia.com,195.208.5.1,A,['23.197.144.248'],,
+2024-11-14T05:47:47.000681,admin.ch,94.140.14.14,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2001:6d0:d6::2001,AAAA,"['2a02:26f0:e2:781::2bfd', '2a02:26f0:e2:78b::2bfd']",,
+2024-11-14T05:47:47.000681,admanmedia.com,77.88.8.1,A,['23.197.144.248'],,
+2024-11-14T05:47:47.000681,admedo.com,180.76.76.76,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:47.000681,admanmedia.com,62.76.76.62,A,['2.16.124.198'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2620:0:ccc::2,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,admin.ch,208.67.220.222,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admin.ch,123.125.81.7,A,[],Timeout,Timeout occurred for domain: admin.ch on server: 123.125.81.7
+2024-11-14T05:47:47.000681,admanmedia.com,2620:0:ccd::2,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,adliran.ir,94.140.15.15,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,adliran.ir,94.140.14.14,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admedo.com,211.136.17.107,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:47.000681,adliran.ir,223.6.6.6,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admedo.com,117.50.11.11,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:47.000681,adme.media,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.000681,adliran.ir,119.29.29.29,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admin.ch,195.208.5.1,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2606:4700:4700::1001,AAAA,"['2600:1406:bc00:a83::2bfd', '2600:1406:bc00:a8c::2bfd']",,
+2024-11-14T05:47:47.000681,admanmedia.com,2.56.220.2,A,['23.50.81.117'],,
+2024-11-14T05:47:47.000681,admin.ch,94.140.15.15,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a03:90c0:999d::1,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,admanmedia.com,77.88.8.8,A,['2.16.124.198'],,
+2024-11-14T05:47:47.000681,admixer.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: admixer.net on server: 2400:da00::6666
+2024-11-14T05:47:47.000681,admanmedia.com,2400:3200::1,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,admin.ch,1.0.0.1,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,1.0.0.1,A,['23.198.114.181'],,
+2024-11-14T05:47:47.000681,adme.media,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.000681,admin.ch,77.88.8.8,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,95.85.95.85,A,['23.50.81.117'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.000681,adobecces.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:0:ccd::2
+2024-11-14T05:47:47.000681,adliran.ir,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adliran.ir on server: 123.125.81.7
+2024-11-14T05:47:47.000681,admedo.com,218.30.118.6,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.000681,admanmedia.com,2400:3200:baba::1,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,adliran.ir,223.5.5.5,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,adliran.ir,114.114.115.115,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a02:26f0:1b00:287::2bfd', '2a02:26f0:1b00:2bb::2bfd']",,
+2024-11-14T05:47:47.000681,adobecces.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:0:ccc::2
+2024-11-14T05:47:47.000681,admin.ch,208.67.220.220,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,8.8.4.4,A,['104.69.44.60'],,
+2024-11-14T05:47:47.000681,admin.ch,95.85.95.85,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2001:6d0:6d0::2001,AAAA,"['2a02:26f0:6d00:3bd::2bfd', '2a02:26f0:6d00:3a6::2bfd']",,
+2024-11-14T05:47:47.000681,admanmedia.com,1.1.1.1,A,['23.36.104.213'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2620:119:53::53,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,adobecces.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2400:3200::1
+2024-11-14T05:47:47.000681,admin.ch,208.67.222.222,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admin.ch,208.67.222.220,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.000681,adliran.ir,218.30.118.6,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,adliran.ir,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adliran.ir on server: 101.226.4.7
+2024-11-14T05:47:47.000681,adobecces.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.000681,admin.ch,9.9.9.10,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a03:90c0:9992::1,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,adobecces.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2402:4e00::
+2024-11-14T05:47:47.000681,adliran.ir,211.136.17.107,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2a02:6b8::feed:0ff,AAAA,"['2a02:26f0:6d00:3a6::2bfd', '2a02:26f0:6d00:3bd::2bfd']",,
+2024-11-14T05:47:47.000681,adliran.ir,180.76.76.76,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,adliran.ir,114.114.114.114,A,['94.232.171.175'],,
+2024-11-14T05:47:47.000681,admin.ch,195.208.4.1,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2620:119:35::35,AAAA,"['2600:1417:3f:6a5::2bfd', '2600:1417:3f:694::2bfd']",,
+2024-11-14T05:47:47.000681,adobecces.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.000681,admin.ch,2.56.220.2,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admedo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: admedo.com on server: 123.125.81.7
+2024-11-14T05:47:47.000681,adobecces.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.000681,admedo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: admedo.com on server: 101.226.4.7
+2024-11-14T05:47:47.000681,admanmedia.com,2001:4860:4860::8844,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.000681,admin.ch,62.76.76.62,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admin.ch,62.76.62.76,A,['162.23.130.190'],,
+2024-11-14T05:47:47.000681,admanmedia.com,2606:4700:4700::1111,AAAA,"['2600:1406:bc00:a8c::2bfd', '2600:1406:bc00:a83::2bfd']",,
+2024-11-14T05:47:47.000681,admedo.com,8.8.8.8,A,"['75.2.70.75', '99.83.190.102']",,
+2024-11-14T05:47:47.000681,adobe.io,223.5.5.5,A,"['54.227.187.23', '52.5.13.197', '52.202.204.11', '23.22.254.206']",,
+2024-11-14T05:47:47.000681,admedo.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.000681,adobe.com,2001:4860:4860::8844,AAAA,"['2600:140b:a00:8::b81a:2b4e', '2600:140b:a00:8::b81a:2b44']",,
+2024-11-14T05:47:47.000681,adme.media,94.140.14.14,A,"['148.113.199.76', '148.113.199.79', '148.113.199.75', '148.113.199.77', '148.113.199.78']",,
+2024-11-14T05:47:47.000681,adme.media,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.000681,adobe.com,2606:4700:4700::1111,AAAA,"['2600:1406:4e00:8::17dc:4bd4', '2600:1406:4e00:8::17dc:4bcb']",,
+2024-11-14T05:47:47.000681,admedo.com,8.8.4.4,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.000681,admedo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: admedo.com on server: 202.96.128.86
+2024-11-14T05:47:47.000681,adobe.io,101.226.4.6,A,"['18.207.85.246', '54.144.73.197', '107.22.247.231', '34.193.227.236']",,
+2024-11-14T05:47:47.000681,admanmedia.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 2400:da00::6666
+2024-11-14T05:47:47.000681,adme.media,208.67.222.220,A,"['148.113.199.75', '148.113.199.76', '148.113.199.77', '148.113.199.78', '148.113.199.79']",,
+2024-11-14T05:47:47.000681,adobe.net,8.8.8.8,A,['193.104.215.58'],,
+2024-11-14T05:47:47.000681,adme.media,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:0:ccd::2
+2024-11-14T05:47:47.000681,adobe.com,2001:4860:4860::8888,AAAA,"['2600:140b:a00:8::b81a:2b4e', '2600:140b:a00:8::b81a:2b44']",,
+2024-11-14T05:47:47.000681,admedo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: admedo.com on server: 210.21.196.6
+2024-11-14T05:47:47.000681,admedo.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.000681,adnxs.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2402:4e00::
+2024-11-14T05:47:47.000681,adme.media,208.67.220.220,A,"['57.129.52.219', '57.129.52.220', '57.129.52.221', '57.129.52.222', '57.129.53.72', '57.129.53.73', '57.129.52.218']",,
+2024-11-14T05:47:47.000681,adme.media,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:fe::10
+2024-11-14T05:47:47.000681,adnxs.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.000681,adobecces.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adobecces.com on server: 2400:da00::6666
+2024-11-14T05:47:47.000681,adobe.io,223.6.6.6,A,"['54.227.187.23', '52.5.13.197', '52.202.204.11', '23.22.254.206']",,
+2024-11-14T05:47:47.000681,adme.media,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:0:ccc::2
+2024-11-14T05:47:47.000681,adnxs.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2400:3200:baba::1
+2024-11-14T05:47:47.000681,adme.media,208.67.220.222,A,"['148.113.199.78', '148.113.199.79', '148.113.199.75', '148.113.199.76', '148.113.199.77']",,
+2024-11-14T05:47:47.000681,adliran.ir,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adliran.ir on server: 202.96.128.86
+2024-11-14T05:47:47.000681,admedo.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.000681,admin.ch,9.9.9.9,A,[],Timeout,Timeout occurred for domain: admin.ch on server: 9.9.9.9
+2024-11-14T05:47:47.000681,admedo.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.000681,adnxs.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:119:35::35
+2024-11-14T05:47:47.000681,adme.media,180.76.76.76,A,"['57.129.53.72', '57.129.53.73', '57.129.52.218', '57.129.52.219', '57.129.52.220', '57.129.52.221', '57.129.52.222']",,
+2024-11-14T05:47:47.000681,adliran.ir,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adliran.ir on server: 210.21.196.6
+2024-11-14T05:47:47.000681,adme.media,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adme.media on server: 2400:da00::6666
+2024-11-14T05:47:47.000681,adnxs.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adnxs.net on server: 2400:da00::6666
+2024-11-14T05:47:47.000681,adnxs.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:119:53::53
+2024-11-14T05:47:47.000681,adobe.io,211.136.17.107,A,"['54.227.187.23', '23.22.254.206', '52.5.13.197', '52.202.204.11']",,
+2024-11-14T05:47:47.000681,admedo.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.000681,adnxs.net,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.000681,adme.media,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adme.media on server: 101.226.4.7
+2024-11-14T05:47:47.000681,adobe.io,117.50.11.11,A,"['18.207.85.246', '54.144.73.197', '34.193.227.236', '107.22.247.231']",,
+2024-11-14T05:47:47.000681,admedo.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.000681,adnxs.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2400:3200::1
+2024-11-14T05:47:47.000681,adme.media,119.29.29.29,A,"['57.129.53.72', '57.129.52.218', '57.129.52.222', '57.129.52.221', '57.129.53.73', '57.129.52.220', '57.129.52.219']",,
+2024-11-14T05:47:47.001683,adme.media,223.6.6.6,A,"['57.129.52.220', '57.129.53.73', '57.129.53.72', '57.129.52.221', '57.129.52.219', '57.129.52.218', '57.129.52.222']",,
+2024-11-14T05:47:47.001683,admedo.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.001683,adnxs.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:fe::fe
+2024-11-14T05:47:47.001683,adme.media,9.9.9.10,A,"['148.113.199.79', '148.113.199.76', '148.113.199.78', '148.113.199.75', '148.113.199.77']",,
+2024-11-14T05:47:47.001683,admedo.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.001683,adnxs.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:fe::10
+2024-11-14T05:47:47.001683,adme.media,208.67.222.222,A,"['148.113.199.76', '148.113.199.77', '148.113.199.78', '148.113.199.79', '148.113.199.75']",,
+2024-11-14T05:47:47.001683,adobe.io,9.9.9.10,A,"['52.5.13.197', '52.202.204.11', '54.227.187.23', '23.22.254.206']",,
+2024-11-14T05:47:47.001683,admedo.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.001683,adnxs.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.001683,adme.media,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adme.media on server: 123.125.81.7
+2024-11-14T05:47:47.001683,adobe.io,123.125.81.6,A,"['18.207.85.246', '54.144.73.197', '107.22.247.231', '34.193.227.236']",,
+2024-11-14T05:47:47.001683,adme.media,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.001683,adnxs.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.001683,adme.media,117.50.11.11,A,"['148.113.199.78', '148.113.199.76', '148.113.199.79', '148.113.199.75', '148.113.199.77']",,
+2024-11-14T05:47:47.001683,adme.media,101.226.4.6,A,"['148.113.199.77', '148.113.199.75', '148.113.199.76', '148.113.199.78', '148.113.199.79']",,
+2024-11-14T05:47:47.001683,adobe.io,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adobe.io on server: 9.9.9.9
+2024-11-14T05:47:47.001683,adme.media,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:fe::fe
+2024-11-14T05:47:47.001683,adnxs.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:0:ccc::2
+2024-11-14T05:47:47.001683,adobe.io,218.30.118.6,A,"['23.22.254.206', '54.227.187.23', '52.202.204.11', '52.5.13.197']",,
+2024-11-14T05:47:47.001683,adme.media,114.114.114.114,A,"['57.129.52.220', '57.129.53.72', '57.129.53.73']",,
+2024-11-14T05:47:47.001683,adobe.io,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adobe.io on server: 123.125.81.7
+2024-11-14T05:47:47.001683,adme.media,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.001683,adme.media,223.5.5.5,A,"['57.129.53.73', '57.129.52.220', '57.129.53.72', '57.129.52.218', '57.129.52.222', '57.129.52.219', '57.129.52.221']",,
+2024-11-14T05:47:47.001683,adnxs.net,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.001683,adobe.io,208.67.222.220,A,"['54.227.187.23', '23.22.254.206', '52.5.13.197', '52.202.204.11']",,
+2024-11-14T05:47:47.001683,adme.media,211.136.17.107,A,"['57.129.52.218', '57.129.52.221', '57.129.53.73', '57.129.52.220', '57.129.53.72', '57.129.52.222', '57.129.52.219']",,
+2024-11-14T05:47:47.001683,adme.media,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.001683,adme.media,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.001683,adme.media,123.125.81.6,A,"['148.113.199.79', '148.113.199.77', '148.113.199.75', '148.113.199.76', '148.113.199.78']",,
+2024-11-14T05:47:47.001683,adobe.io,208.67.220.222,A,"['52.5.13.197', '52.202.204.11', '54.227.187.23', '23.22.254.206']",,
+2024-11-14T05:47:47.001683,adobe.com,2a03:90c0:9992::1,AAAA,"['2403:e800:e80b::2a63:8c91', '2403:e800:e80b::2a63:8c89']",,
+2024-11-14T05:47:47.001683,adme.media,94.140.15.15,A,"['148.113.199.76', '148.113.199.79', '148.113.199.75', '148.113.199.77', '148.113.199.78']",,
+2024-11-14T05:47:47.001683,adme.media,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.001683,adobe.io,94.140.14.14,A,"['52.5.13.197', '54.227.187.23', '52.202.204.11', '23.22.254.206']",,
+2024-11-14T05:47:47.001683,adnxs.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.001683,adme.media,114.114.115.115,A,"['57.129.53.72', '57.129.53.73', '57.129.52.219']",,
+2024-11-14T05:47:47.001683,adme.media,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.001683,adobe.io,119.29.29.29,A,"['107.22.247.231', '54.144.73.197', '18.207.85.246', '34.193.227.236']",,
+2024-11-14T05:47:47.001683,adnxs.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.001683,adme.media,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.001683,adobe.io,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adobe.io on server: 101.226.4.7
+2024-11-14T05:47:47.001683,adme.media,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:119:53::53
+2024-11-14T05:47:47.001683,adobe.io,180.76.76.76,A,"['23.22.254.206', '52.5.13.197', '52.202.204.11', '54.227.187.23']",,
+2024-11-14T05:47:47.001683,adnxs.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.001683,adobe.io,94.140.15.15,A,"['52.5.13.197', '54.227.187.23', '52.202.204.11', '23.22.254.206']",,
+2024-11-14T05:47:47.001683,adnxs.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.001683,adme.media,195.208.5.1,A,"['148.113.199.76', '148.113.199.78', '148.113.199.75', '148.113.199.79', '148.113.199.77']",,
+2024-11-14T05:47:47.001683,adobe.io,114.114.114.114,A,"['54.144.73.197', '18.207.85.246', '107.22.247.231']",,
+2024-11-14T05:47:47.001683,adme.media,218.30.118.6,A,"['57.129.52.222', '57.129.52.220', '57.129.53.73', '57.129.53.72', '57.129.52.219', '57.129.52.221', '57.129.52.218']",,
+2024-11-14T05:47:47.001683,adnxs.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.001683,adobe.io,114.114.115.115,A,"['54.144.73.197', '107.22.247.231', '18.207.85.246']",,
+2024-11-14T05:47:47.001683,adme.media,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2620:119:35::35
+2024-11-14T05:47:47.001683,adnxs.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.001683,adme.media,62.76.62.76,A,"['148.113.199.79', '148.113.199.76', '148.113.199.77', '148.113.199.75', '148.113.199.78']",,
+2024-11-14T05:47:47.001683,adme.media,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.001683,adnxs.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.001683,adme.media,195.208.4.1,A,"['57.129.52.220', '57.129.52.222', '57.129.52.218', '57.129.52.221', '57.129.53.72', '57.129.53.73', '57.129.52.219']",,
+2024-11-14T05:47:47.001683,adobe.io,208.67.220.220,A,"['107.22.247.231', '18.207.85.246', '34.193.227.236', '54.144.73.197']",,
+2024-11-14T05:47:47.001683,adme.media,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2402:4e00::
+2024-11-14T05:47:47.001683,adobe.com,2606:4700:4700::1001,AAAA,"['2600:1406:4e00:8::17dc:4bcb', '2600:1406:4e00:8::17dc:4bd4']",,
+2024-11-14T05:47:47.001683,adme.media,77.88.8.1,A,"['57.129.52.218', '57.129.52.221', '57.129.52.219', '57.129.53.72', '57.129.52.220', '57.129.53.73', '57.129.52.222']",,
+2024-11-14T05:47:47.001683,adme.media,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2400:3200::1
+2024-11-14T05:47:47.001683,adobe.com,2a03:90c0:999d::1,AAAA,"['2403:e800:e80b::2a63:8c91', '2403:e800:e80b::2a63:8c89']",,
+2024-11-14T05:47:47.001683,adme.media,62.76.76.62,A,"['148.113.199.78', '148.113.199.77', '148.113.199.79', '148.113.199.75', '148.113.199.76']",,
+2024-11-14T05:47:47.001683,adobe.io,208.67.222.222,A,"['52.202.204.11', '54.227.187.23', '23.22.254.206', '52.5.13.197']",,
+2024-11-14T05:47:47.001683,adme.media,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adme.media on server: 2400:3200:baba::1
+2024-11-14T05:47:47.001683,adnxs.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2620:0:ccd::2
+2024-11-14T05:47:47.001683,adnxs-simple.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 77.88.8.8
+2024-11-14T05:47:47.001683,adobe.net,94.140.14.14,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adlightning.com,223.5.5.5,A,"['18.172.170.129', '18.172.170.73', '18.172.170.68', '18.172.170.106']",,
+2024-11-14T05:47:47.001683,adobe.net,208.67.222.220,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adobecces.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adobecces.com on server: 180.76.76.76
+2024-11-14T05:47:47.001683,adlightning.com,223.6.6.6,A,"['13.35.186.51', '13.35.186.102', '13.35.186.70', '13.35.186.89']",,
+2024-11-14T05:47:47.001683,adnxs-simple.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2.56.220.2
+2024-11-14T05:47:47.001683,adobe.net,208.67.220.222,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adliran.ir,208.67.220.220,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adobe.net,223.5.5.5,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:fe::fe
+2024-11-14T05:47:47.001683,adliran.ir,2.56.220.2,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnxs-simple.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 1.0.0.1
+2024-11-14T05:47:47.001683,adobe.net,208.67.220.220,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adliran.ir,77.88.8.8,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnxs-simple.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 95.85.95.85
+2024-11-14T05:47:47.001683,adobe.net,114.114.115.115,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:fe::10
+2024-11-14T05:47:47.001683,adliran.ir,1.1.1.1,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnxs-simple.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 8.8.4.4
+2024-11-14T05:47:47.001683,adobecces.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adobecces.com on server: 119.29.29.29
+2024-11-14T05:47:47.001683,adliran.ir,95.85.95.85,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnxs-simple.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 1.1.1.1
+2024-11-14T05:47:47.001683,adobe.net,94.140.15.15,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.001683,admedo.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: admedo.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.001683,adnkronos.com,117.50.11.11,A,['194.177.112.136'],,
+2024-11-14T05:47:47.001683,adobe.net,114.114.114.114,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.001683,adliran.ir,8.8.8.8,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnkronos.com,123.125.81.6,A,['194.177.112.136'],,
+2024-11-14T05:47:47.001683,adobe.net,62.76.62.76,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.001683,adliran.ir,8.8.4.4,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adnxs-simple.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 62.76.76.62
+2024-11-14T05:47:47.001683,adobe.net,195.208.4.1,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.001683,adliran.ir,1.0.0.1,A,['94.232.171.175'],,
+2024-11-14T05:47:47.001683,adme.media,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adme.media on server: 202.96.128.86
+2024-11-14T05:47:47.001683,adkwai.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.001683,adlightning.com,123.125.81.6,A,"['13.35.186.102', '13.35.186.51', '13.35.186.70', '13.35.186.89']",,
+2024-11-14T05:47:47.001683,adnxs-simple.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 62.76.62.76
+2024-11-14T05:47:47.001683,adobe.net,208.67.222.222,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adobe.io,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adobe.io on server: 202.96.128.86
+2024-11-14T05:47:47.001683,adobe.net,77.88.8.1,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.001683,adlightning.com,218.30.118.6,A,"['13.35.186.89', '13.35.186.70', '13.35.186.102', '13.35.186.51']",,
+2024-11-14T05:47:47.001683,adnxs-simple.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 208.67.220.220
+2024-11-14T05:47:47.001683,adobe.net,62.76.76.62,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.001683,adlightning.com,211.136.17.107,A,"['13.35.186.89', '13.35.186.70', '13.35.186.51', '13.35.186.102']",,
+2024-11-14T05:47:47.001683,adnxs-simple.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 77.88.8.1
+2024-11-14T05:47:47.001683,adobe.net,195.208.5.1,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:0:ccd::2
+2024-11-14T05:47:47.001683,adlightning.com,117.50.11.11,A,"['13.35.186.70', '13.35.186.102', '13.35.186.51', '13.35.186.89']",,
+2024-11-14T05:47:47.001683,adobe.io,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adobe.io on server: 210.21.196.6
+2024-11-14T05:47:47.001683,adobe.net,9.9.9.10,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adnxs.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.001683,adlightning.com,101.226.4.6,A,"['13.35.186.89', '13.35.186.102', '13.35.186.51', '13.35.186.70']",,
+2024-11-14T05:47:47.001683,adkwai.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.001683,adnxs-simple.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 195.208.4.1
+2024-11-14T05:47:47.001683,adobe.net,1.0.0.1,A,['193.104.215.58'],,
+2024-11-14T05:47:47.001683,adkwai.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.002681,adnxs-simple.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:47.002681,adobe.net,95.85.95.85,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adkwai.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.002681,adme.media,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adme.media on server: 210.21.196.6
+2024-11-14T05:47:47.002681,adme.media,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adme.media on server: 9.9.9.9
+2024-11-14T05:47:47.002681,adobe.net,2.56.220.2,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adlightning.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adlightning.com on server: 101.226.4.7
+2024-11-14T05:47:47.002681,adlightning.com,119.29.29.29,A,"['13.35.186.102', '13.35.186.89', '13.35.186.70', '13.35.186.51']",,
+2024-11-14T05:47:47.002681,admedo.com,1.0.0.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.002681,adobe.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adobe.net on server: 9.9.9.9
+2024-11-14T05:47:47.002681,adobe.net,77.88.8.8,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adlightning.com,180.76.76.76,A,"['13.35.186.102', '13.35.186.51', '13.35.186.70', '13.35.186.89']",,
+2024-11-14T05:47:47.002681,adobe.net,8.8.4.4,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adkwai.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.002681,adliran.ir,208.67.222.222,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adlightning.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adlightning.com on server: 123.125.81.7
+2024-11-14T05:47:47.002681,adnxs-simple.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:47.002681,adobe.net,1.1.1.1,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adliran.ir,208.67.222.220,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adkwai.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.002681,adnxs-simple.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 195.208.5.1
+2024-11-14T05:47:47.002681,adobe.net,211.136.17.107,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adobecces.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adobecces.com on server: 101.226.4.6
+2024-11-14T05:47:47.002681,adnxs-simple.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 8.8.8.8
+2024-11-14T05:47:47.002681,adobe.net,117.50.11.11,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adnkronos.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 101.226.4.7
+2024-11-14T05:47:47.002681,adliran.ir,9.9.9.10,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adnxs-simple.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 208.67.220.222
+2024-11-14T05:47:47.002681,adlightning.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adlightning.com on server: 202.96.128.86
+2024-11-14T05:47:47.002681,adobecces.com,117.50.11.11,A,[],NoAnswer,No answer for domain: adobecces.com on server: 117.50.11.11
+2024-11-14T05:47:47.002681,adliran.ir,62.76.62.76,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adnxs-simple.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 208.67.222.222
+2024-11-14T05:47:47.002681,adobe.net,218.30.118.6,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adobecces.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adobecces.com on server: 123.125.81.6
+2024-11-14T05:47:47.002681,adliran.ir,195.208.5.1,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adlightning.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adlightning.com on server: 210.21.196.6
+2024-11-14T05:47:47.002681,adobe.net,180.76.76.76,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adobecces.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adobecces.com on server: 218.30.118.6
+2024-11-14T05:47:47.002681,admedo.com,1.1.1.1,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.002681,adliran.ir,62.76.76.62,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adnxs-simple.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 208.67.222.220
+2024-11-14T05:47:47.002681,adobecces.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adobecces.com on server: 211.136.17.107
+2024-11-14T05:47:47.002681,adliran.ir,195.208.4.1,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,admedo.com,95.85.95.85,A,"['99.83.190.102', '75.2.70.75']",,
+2024-11-14T05:47:47.002681,adnkronos.com,101.226.4.6,A,['194.177.112.136'],,
+2024-11-14T05:47:47.002681,adobe.net,223.6.6.6,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adnkronos.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 123.125.81.7
+2024-11-14T05:47:47.002681,adliran.ir,77.88.8.1,A,['94.232.171.175'],,
+2024-11-14T05:47:47.002681,adnxs-simple.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 9.9.9.10
+2024-11-14T05:47:47.002681,adobe.net,119.29.29.29,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adobecces.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adobecces.com on server: 101.226.4.7
+2024-11-14T05:47:47.002681,adnxs-simple.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 9.9.9.9
+2024-11-14T05:47:47.002681,adobecces.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adobecces.com on server: 95.85.95.85
+2024-11-14T05:47:47.002681,adlightning.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.002681,adobecces.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:119:35::35
+2024-11-14T05:47:47.002681,adobe.io,77.88.8.8,A,"['18.207.85.246', '107.22.247.231', '34.193.227.236', '54.144.73.197']",,
+2024-11-14T05:47:47.002681,adobecces.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adobecces.com on server: 1.1.1.1
+2024-11-14T05:47:47.002681,adlightning.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.002681,adobecces.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:119:53::53
+2024-11-14T05:47:47.002681,adobe.io,77.88.8.1,A,"['54.227.187.23', '52.202.204.11', '23.22.254.206', '52.5.13.197']",,
+2024-11-14T05:47:47.002681,adobecces.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adobecces.com on server: 1.0.0.1
+2024-11-14T05:47:47.002681,adlightning.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.002681,adobecces.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.002681,adobe.io,95.85.95.85,A,"['34.193.227.236', '18.207.85.246', '107.22.247.231', '54.144.73.197']",,
+2024-11-14T05:47:47.002681,adobecces.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adobecces.com on server: 8.8.8.8
+2024-11-14T05:47:47.002681,adlightning.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.002681,adobe.io,2.56.220.2,A,"['34.193.227.236', '18.207.85.246', '107.22.247.231', '54.144.73.197']",,
+2024-11-14T05:47:47.002681,adobecces.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adobecces.com on server: 8.8.4.4
+2024-11-14T05:47:47.002681,adkwai.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2402:4e00::
+2024-11-14T05:47:47.002681,adobecces.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:fe::fe
+2024-11-14T05:47:47.002681,adobe.io,1.1.1.1,A,"['23.22.254.206', '52.5.13.197', '54.227.187.23', '52.202.204.11']",,
+2024-11-14T05:47:47.002681,adliran.ir,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adliran.ir on server: 9.9.9.9
+2024-11-14T05:47:47.002681,adobecces.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adobecces.com on server: 123.125.81.7
+2024-11-14T05:47:47.002681,adobecces.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2620:fe::10
+2024-11-14T05:47:47.002681,adobe.io,1.0.0.1,A,"['34.193.227.236', '107.22.247.231', '18.207.85.246', '54.144.73.197']",,
+2024-11-14T05:47:47.002681,adlightning.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:fe::fe
+2024-11-14T05:47:47.002681,adobecces.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.002681,adobe.com,101.226.4.6,A,"['23.33.184.229', '23.33.184.232']",,
+2024-11-14T05:47:47.002681,adobecces.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adobecces.com on server: 2.56.220.2
+2024-11-14T05:47:47.002681,adlightning.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.002681,adobe.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adobe.net on server: 210.21.196.6
+2024-11-14T05:47:47.002681,adobe.net,101.226.4.6,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adlightning.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.002681,adobecces.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.002681,adobe.com,117.50.11.11,A,"['23.210.215.72', '23.210.215.88']",,
+2024-11-14T05:47:47.002681,adobecces.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adobecces.com on server: 195.208.4.1
+2024-11-14T05:47:47.002681,adobecces.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.002681,adobe.com,123.125.81.6,A,"['23.33.184.229', '23.33.184.232']",,
+2024-11-14T05:47:47.002681,adobe.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adobe.net on server: 202.96.128.86
+2024-11-14T05:47:47.002681,adlightning.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.002681,adobecces.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.002681,adobe.io,62.76.62.76,A,"['54.144.73.197', '107.22.247.231', '18.207.85.246', '34.193.227.236']",,
+2024-11-14T05:47:47.002681,adobecces.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adobecces.com on server: 223.6.6.6
+2024-11-14T05:47:47.002681,adobecces.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adobecces.com on server: 202.96.128.86
+2024-11-14T05:47:47.002681,adlightning.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.002681,adobecces.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.002681,adobe.net,123.125.81.6,A,['193.104.215.58'],,
+2024-11-14T05:47:47.002681,adlightning.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.002681,adobe.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:0:ccd::2
+2024-11-14T05:47:47.002681,adobe.io,195.208.4.1,A,"['52.202.204.11', '23.22.254.206', '52.5.13.197', '54.227.187.23']",,
+2024-11-14T05:47:47.002681,adobecces.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adobecces.com on server: 114.114.115.115
+2024-11-14T05:47:47.002681,adlightning.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2400:3200::1
+2024-11-14T05:47:47.002681,adobe.io,195.208.5.1,A,"['54.144.73.197', '18.207.85.246', '34.193.227.236', '107.22.247.231']",,
+2024-11-14T05:47:47.002681,adobecces.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adobecces.com on server: 210.21.196.6
+2024-11-14T05:47:47.002681,adobe.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.002681,adobecces.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adobecces.com on server: 223.5.5.5
+2024-11-14T05:47:47.002681,adobe.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adobe.com on server: 101.226.4.7
+2024-11-14T05:47:47.002681,adkwai.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:119:35::35
+2024-11-14T05:47:47.002681,adobe.com,223.6.6.6,A,"['23.202.34.162', '23.202.34.121']",,
+2024-11-14T05:47:47.002681,adobecces.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adobecces.com on server: 114.114.114.114
+2024-11-14T05:47:47.002681,adkwai.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:119:53::53
+2024-11-14T05:47:47.002681,adobe.io,8.8.4.4,A,"['52.202.204.11', '52.5.13.197', '54.227.187.23', '23.22.254.206']",,
+2024-11-14T05:47:47.002681,adobecces.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.002681,adobe.io,62.76.76.62,A,"['52.5.13.197', '54.227.187.23', '23.22.254.206', '52.202.204.11']",,
+2024-11-14T05:47:47.002681,adobe.com,114.114.115.115,A,"['23.202.34.121', '23.202.34.162']",,
+2024-11-14T05:47:47.002681,adlightning.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.002681,adobecces.com,94.140.14.14,A,[],NoAnswer,No answer for domain: adobecces.com on server: 94.140.14.14
+2024-11-14T05:47:47.002681,adobe.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:119:35::35
+2024-11-14T05:47:47.002681,adobe.com,223.5.5.5,A,"['23.202.34.121', '23.202.34.162']",,
+2024-11-14T05:47:47.002681,adobecces.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.002681,adlightning.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.002681,adlightning.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:0:ccd::2
+2024-11-14T05:47:47.002681,adobe.com,114.114.114.114,A,"['23.202.34.121', '23.202.34.162']",,
+2024-11-14T05:47:47.002681,adobecces.com,94.140.15.15,A,[],NoAnswer,No answer for domain: adobecces.com on server: 94.140.15.15
+2024-11-14T05:47:47.002681,adobecces.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.002681,adobecces.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adobecces.com on server: 208.67.220.222
+2024-11-14T05:47:47.002681,adobecces.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adobecces.com on server: 9.9.9.10
+2024-11-14T05:47:47.002681,adlightning.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:119:53::53
+2024-11-14T05:47:47.002681,adlightning.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.002681,adlightning.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:0:ccc::2
+2024-11-14T05:47:47.002681,adobe.com,94.140.14.14,A,"['184.28.98.110', '184.28.98.69']",,
+2024-11-14T05:47:47.002681,adobe.com,94.140.15.15,A,"['184.28.98.110', '184.28.98.69']",,
+2024-11-14T05:47:47.002681,adobecces.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adobecces.com on server: 208.67.222.222
+2024-11-14T05:47:47.002681,adobe.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2400:3200:baba::1
+2024-11-14T05:47:47.002681,adobecces.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.002681,adobe.com,211.136.17.107,A,"['23.33.184.232', '23.33.184.229']",,
+2024-11-14T05:47:47.003681,adlightning.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.003681,adobecces.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adobecces.com on server: 62.76.62.76
+2024-11-14T05:47:47.003681,adobe.io,8.8.8.8,A,"['52.5.13.197', '52.202.204.11', '54.227.187.23', '23.22.254.206']",,
+2024-11-14T05:47:47.003681,adlightning.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.003681,adobecces.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.003681,adobecces.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adobecces.com on server: 208.67.222.220
+2024-11-14T05:47:47.003681,adobe.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:119:53::53
+2024-11-14T05:47:47.003681,adlightning.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:fe::10
+2024-11-14T05:47:47.003681,adlightning.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2620:119:35::35
+2024-11-14T05:47:47.003681,adobe.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:0:ccc::2
+2024-11-14T05:47:47.003681,adobecces.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adobecces.com on server: 77.88.8.8
+2024-11-14T05:47:47.003681,adobe.com,218.30.118.6,A,"['184.27.185.68', '184.27.185.74']",,
+2024-11-14T05:47:47.003681,adkwai.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2400:3200::1
+2024-11-14T05:47:47.003681,adobecces.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adobecces.com on server: 62.76.76.62
+2024-11-14T05:47:47.003681,adobe.com,180.76.76.76,A,"['23.202.34.121', '23.202.34.162']",,
+2024-11-14T05:47:47.003681,adobecces.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adobecces.com on server: 208.67.220.220
+2024-11-14T05:47:47.003681,adkwai.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.003681,adobe.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2400:3200::1
+2024-11-14T05:47:47.003681,adobe.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adobe.net on server: 101.226.4.7
+2024-11-14T05:47:47.003681,adobecces.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adobecces.com on server: 77.88.8.1
+2024-11-14T05:47:47.003681,adkwai.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.003681,adobe.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2402:4e00::
+2024-11-14T05:47:47.003681,adobe.com,119.29.29.29,A,"['23.53.6.106', '23.53.6.109']",,
+2024-11-14T05:47:47.003681,adobecces.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adobecces.com on server: 195.208.5.1
+2024-11-14T05:47:47.003681,adkwai.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.003681,adkwai.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adkwai.com on server: 2400:da00::6666
+2024-11-14T05:47:47.003681,adkwai.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adkwai.com on server: 2620:0:ccc::2
+2024-11-14T05:47:47.003681,adobe.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.003681,adkwai.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adkwai.com on server: 180.76.76.76
+2024-11-14T05:47:47.003681,adobe.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adobe.com on server: 123.125.81.7
+2024-11-14T05:47:47.003681,adobe.com,195.208.5.1,A,"['188.43.72.82', '188.43.72.90']",,
+2024-11-14T05:47:47.003681,admin.ch,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2400:3200::1
+2024-11-14T05:47:47.003681,adnxs.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2400:3200::1
+2024-11-14T05:47:47.003681,adobe.com,2402:4e00::,AAAA,"['2600:140b:1a00:1b::17dc:4689', '2600:140b:1a00:1b::17dc:469f']",,
+2024-11-14T05:47:47.003681,adobe.io,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2402:4e00::
+2024-11-14T05:47:47.003681,adnkronos.com,180.76.76.76,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,208.67.222.222,A,"['184.27.185.74', '184.27.185.68']",,
+2024-11-14T05:47:47.003681,admin.ch,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:0:ccc::2
+2024-11-14T05:47:47.003681,adnxs.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.003681,adobe.com,2a10:50c0::ad2:ff,AAAA,"['2600:1413:b000:1e::17d1:2e58', '2600:1413:b000:1e::17d1:2e45']",,
+2024-11-14T05:47:47.003681,adobe.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.003681,adkwai.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adkwai.com on server: 1.0.0.1
+2024-11-14T05:47:47.003681,adobecces.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adobecces.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.003681,adnxs.net,218.30.118.6,A,[],NoAnswer,No answer for domain: adnxs.net on server: 218.30.118.6
+2024-11-14T05:47:47.003681,admixer.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:119:35::35
+2024-11-14T05:47:47.003681,adnxs.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.003681,adobe.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adobe.net on server: 123.125.81.7
+2024-11-14T05:47:47.003681,adobe.io,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.003681,adobe.io,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.003681,adkwai.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adkwai.com on server: 218.30.118.6
+2024-11-14T05:47:47.003681,adobe.com,208.67.222.220,A,"['184.27.185.74', '184.27.185.68']",,
+2024-11-14T05:47:47.003681,adnkronos.com,119.29.29.29,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,admixer.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.003681,adobe.io,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2400:3200::1
+2024-11-14T05:47:47.003681,adkwai.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adkwai.com on server: 211.136.17.107
+2024-11-14T05:47:47.003681,adobe.io,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.003681,adobe.com,62.76.62.76,A,"['2.17.145.67', '2.17.145.25']",,
+2024-11-14T05:47:47.003681,admixer.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:fe::fe
+2024-11-14T05:47:47.003681,adobe.io,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.003681,adobe.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.003681,adkwai.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adkwai.com on server: 95.85.95.85
+2024-11-14T05:47:47.003681,adnkronos.com,223.5.5.5,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,195.208.4.1,A,"['2.17.145.25', '2.17.145.67']",,
+2024-11-14T05:47:47.003681,adobe.io,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.003681,adobe.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.003681,adkwai.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adkwai.com on server: 119.29.29.29
+2024-11-14T05:47:47.003681,adnkronos.com,223.6.6.6,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,admixer.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2620:fe::10
+2024-11-14T05:47:47.003681,adnxs.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.003681,adobe.io,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.003681,adobe.io,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2400:3200:baba::1
+2024-11-14T05:47:47.003681,adobe.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adobe.com on server: 210.21.196.6
+2024-11-14T05:47:47.003681,adobe.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adobe.net on server: 2400:da00::6666
+2024-11-14T05:47:47.003681,adnkronos.com,218.30.118.6,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,2400:3200::1,AAAA,"['2600:140b:1a00:1b::17dc:4689', '2600:140b:1a00:1b::17dc:469f']",,
+2024-11-14T05:47:47.003681,adnxs.net,211.136.17.107,A,[],NoAnswer,No answer for domain: adnxs.net on server: 211.136.17.107
+2024-11-14T05:47:47.003681,adnkronos.com,211.136.17.107,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adobe.com on server: 202.96.128.86
+2024-11-14T05:47:47.003681,admixer.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.003681,adnxs.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.003681,adobe.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.003681,adkwai.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adkwai.com on server: 223.5.5.5
+2024-11-14T05:47:47.003681,adnkronos.com,95.85.95.85,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,9.9.9.10,A,"['2.16.100.160', '2.16.100.161']",,
+2024-11-14T05:47:47.003681,admixer.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.003681,adnxs.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.003681,adobe.com,2620:fe::10,AAAA,"['2600:1413:1::1734:ab48', '2600:1413:1::1734:ab4b']",,
+2024-11-14T05:47:47.003681,adkwai.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adkwai.com on server: 223.6.6.6
+2024-11-14T05:47:47.003681,adnkronos.com,2.56.220.2,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,77.88.8.1,A,"['2.16.154.200', '2.16.154.192']",,
+2024-11-14T05:47:47.003681,admixer.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.003681,adnxs.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.003681,adobe.io,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:0:ccd::2
+2024-11-14T05:47:47.003681,adkwai.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:47.003681,adnkronos.com,94.140.15.15,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,62.76.76.62,A,"['2.16.21.73', '2.16.21.51']",,
+2024-11-14T05:47:47.003681,admixer.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.003681,adobe.com,2620:fe::fe,AAAA,"['2600:1413:1::1734:ab48', '2600:1413:1::1734:ab4b']",,
+2024-11-14T05:47:47.003681,adobe.io,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.003681,adkwai.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adkwai.com on server: 114.114.115.115
+2024-11-14T05:47:47.003681,adnkronos.com,114.114.114.114,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,77.88.8.8,A,"['2.16.154.200', '2.16.154.192']",,
+2024-11-14T05:47:47.003681,admin.ch,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.003681,adnxs.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.003681,adobe.io,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.003681,adobe.io,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:119:53::53
+2024-11-14T05:47:47.003681,adkwai.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adkwai.com on server: 62.76.62.76
+2024-11-14T05:47:47.003681,adnkronos.com,208.67.220.222,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,admin.ch,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2620:0:ccd::2
+2024-11-14T05:47:47.003681,adnxs.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:119:53::53
+2024-11-14T05:47:47.003681,adobe.com,2620:119:53::53,AAAA,"['2600:140b:a00:8::b81a:2b4e', '2600:140b:a00:8::b81a:2b44']",,
+2024-11-14T05:47:47.003681,adobe.io,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:0:ccc::2
+2024-11-14T05:47:47.003681,adkwai.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adkwai.com on server: 208.67.220.222
+2024-11-14T05:47:47.003681,adnkronos.com,94.140.14.14,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,admixer.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.003681,adnxs.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:0:ccd::2
+2024-11-14T05:47:47.003681,adobe.io,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.003681,adobe.io,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:fe::10
+2024-11-14T05:47:47.003681,adkwai.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:47.003681,adnkronos.com,9.9.9.10,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobecces.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adobecces.com on server: 9.9.9.9
+2024-11-14T05:47:47.003681,adnxs.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:119:35::35
+2024-11-14T05:47:47.003681,adobe.com,2a10:50c0::ad1:ff,AAAA,"['2600:1413:b000:1e::17d1:2e58', '2600:1413:b000:1e::17d1:2e45']",,
+2024-11-14T05:47:47.003681,adobe.io,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:119:35::35
+2024-11-14T05:47:47.003681,adkwai.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adkwai.com on server: 208.67.222.220
+2024-11-14T05:47:47.003681,adnkronos.com,114.114.115.115,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,2.56.220.2,A,"['42.99.140.145', '42.99.140.137']",,
+2024-11-14T05:47:47.003681,adnkronos.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 210.21.196.6
+2024-11-14T05:47:47.003681,adnxs.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:0:ccc::2
+2024-11-14T05:47:47.003681,adobe.io,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.003681,adkwai.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adkwai.com on server: 114.114.114.114
+2024-11-14T05:47:47.003681,adnkronos.com,1.1.1.1,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adnxs.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:fe::fe
+2024-11-14T05:47:47.003681,adobe.com,2001:6d0:6d0::2001,AAAA,"['2a01:620:1:a0ad::211:9143', '2a01:620:1:a0ad::211:9119']",,
+2024-11-14T05:47:47.003681,adobe.io,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2620:fe::fe
+2024-11-14T05:47:47.003681,adkwai.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adkwai.com on server: 195.208.5.1
+2024-11-14T05:47:47.003681,adnkronos.com,1.0.0.1,A,['194.177.112.136'],,
+2024-11-14T05:47:47.003681,adobe.com,1.0.0.1,A,"['184.28.98.69', '184.28.98.110']",,
+2024-11-14T05:47:47.003681,admixer.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.003681,adnxs.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2620:fe::10
+2024-11-14T05:47:47.004682,adobe.com,2001:6d0:d6::2001,AAAA,"['2a01:620:1:a0a8::213:b541', '2a01:620:1:a0a8::213:b56a']",,
+2024-11-14T05:47:47.004682,adnkronos.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 202.96.128.86
+2024-11-14T05:47:47.004682,adobe.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.004682,adkwai.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adkwai.com on server: 8.8.8.8
+2024-11-14T05:47:47.004682,adnkronos.com,208.67.220.220,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adnxs.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.004682,adobe.io,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.004682,adobe.com,95.85.95.85,A,"['42.99.140.137', '42.99.140.145']",,
+2024-11-14T05:47:47.004682,adobe.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.004682,adnkronos.com,208.67.222.220,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adkwai.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adkwai.com on server: 9.9.9.10
+2024-11-14T05:47:47.004682,adnxs.net,101.226.4.6,A,[],NoAnswer,No answer for domain: adnxs.net on server: 101.226.4.6
+2024-11-14T05:47:47.004682,admixer.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.004682,adobe.com,2620:0:ccd::2,AAAA,"['2600:140b:a00:8::b81a:2b4e', '2600:140b:a00:8::b81a:2b44']",,
+2024-11-14T05:47:47.004682,adnxs.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.004682,adobe.io,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.004682,adkwai.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adkwai.com on server: 1.1.1.1
+2024-11-14T05:47:47.004682,admin.ch,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2400:3200:baba::1
+2024-11-14T05:47:47.004682,adnkronos.com,208.67.222.222,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adobe.com,2620:119:35::35,AAAA,"['2600:140b:a00:8::b81a:2b44', '2600:140b:a00:8::b81a:2b4e']",,
+2024-11-14T05:47:47.004682,adnxs.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.004682,adobe.io,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.004682,adobe.com,8.8.4.4,A,"['184.27.185.74', '184.27.185.68']",,
+2024-11-14T05:47:47.004682,adkwai.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adkwai.com on server: 208.67.220.220
+2024-11-14T05:47:47.004682,admin.ch,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2402:4e00::
+2024-11-14T05:47:47.004682,adnxs.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.004682,adnxs-simple.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 2400:da00::6666
+2024-11-14T05:47:47.004682,adobe.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.004682,adobe.com,1.1.1.1,A,"['23.220.70.82', '23.220.70.70']",,
+2024-11-14T05:47:47.004682,adnkronos.com,195.208.5.1,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adobe.com,2400:3200:baba::1,AAAA,"['2600:140b:1a00:1b::17dc:4689', '2600:140b:1a00:1b::17dc:469f']",,
+2024-11-14T05:47:47.004682,adkwai.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adkwai.com on server: 77.88.8.8
+2024-11-14T05:47:47.004682,adnxs.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.004682,adobe.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:fe::10
+2024-11-14T05:47:47.004682,adnxs.net,117.50.11.11,A,[],NoAnswer,No answer for domain: adnxs.net on server: 117.50.11.11
+2024-11-14T05:47:47.004682,adkwai.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adkwai.com on server: 62.76.76.62
+2024-11-14T05:47:47.004682,admixer.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.004682,adobe.com,2620:0:ccc::2,AAAA,"['2600:140b:a00:8::b81a:2b4e', '2600:140b:a00:8::b81a:2b44']",,
+2024-11-14T05:47:47.004682,adnxs.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.004682,adobe.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.004682,adnkronos.com,62.76.62.76,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adnxs.net,123.125.81.6,A,[],NoAnswer,No answer for domain: adnxs.net on server: 123.125.81.6
+2024-11-14T05:47:47.004682,adnxs.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.004682,adkwai.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adkwai.com on server: 202.96.128.86
+2024-11-14T05:47:47.004682,adobe.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2620:fe::fe
+2024-11-14T05:47:47.004682,adkwai.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adkwai.com on server: 208.67.222.222
+2024-11-14T05:47:47.004682,adnkronos.com,195.208.4.1,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adobe.com,8.8.8.8,A,"['184.27.185.68', '184.27.185.74']",,
+2024-11-14T05:47:47.004682,admixer.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.004682,adnxs.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.004682,adobe.io,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adobe.io on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.004682,adobe.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.004682,adkwai.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adkwai.com on server: 210.21.196.6
+2024-11-14T05:47:47.004682,adkwai.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adkwai.com on server: 195.208.4.1
+2024-11-14T05:47:47.004682,admixer.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.004682,adobe.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adobe.com on server: 9.9.9.9
+2024-11-14T05:47:47.004682,adnkronos.com,62.76.76.62,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adobe.com,2a02:6b8::feed:0ff,AAAA,"['2a02:26f0:4600::210:6722', '2a02:26f0:4600::210:6720']",,
+2024-11-14T05:47:47.004682,adobe.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.004682,adobe.com,208.67.220.220,A,"['184.27.185.74', '184.27.185.68']",,
+2024-11-14T05:47:47.004682,admixer.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: admixer.net on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.004682,adkwai.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adkwai.com on server: 8.8.4.4
+2024-11-14T05:47:47.004682,adobe.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a02:26f0:98::58dd:845b', '2a02:26f0:98::58dd:84ca']",,
+2024-11-14T05:47:47.004682,adkwai.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adkwai.com on server: 77.88.8.1
+2024-11-14T05:47:47.004682,adnkronos.com,77.88.8.8,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adobe.com,208.67.220.222,A,"['184.27.185.74', '184.27.185.68']",,
+2024-11-14T05:47:47.004682,adnxs.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adnxs.com on server: 2402:4e00::
+2024-11-14T05:47:47.004682,adobe.com,2a0c:a9c7:8::1,AAAA,"['2a01:620:1:a0ad::211:9119', '2a01:620:1:a0ad::211:9143']",,
+2024-11-14T05:47:47.004682,adobe.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.004682,adkwai.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adkwai.com on server: 2.56.220.2
+2024-11-14T05:47:47.004682,adnkronos.com,77.88.8.1,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adnxs.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adnxs.net on server: 123.125.81.7
+2024-11-14T05:47:47.004682,admin.ch,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: admin.ch on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.004682,adnxs.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adnxs.net on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.004682,adobe.com,2a0c:a9c7:9::1,AAAA,"['2a01:620:1:a0ab::211:924a', '2a01:620:1:a0ab::211:922a']",,
+2024-11-14T05:47:47.004682,adobe.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adobe.net on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.004682,admixer.net,101.226.4.6,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:0:ccd::2
+2024-11-14T05:47:47.004682,admixer.net,208.67.220.220,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2402:4e00::
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.004682,adnkronos.com,8.8.4.4,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:0:ccc::2
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.004682,admixer.net,223.6.6.6,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.004682,admixer.net,117.50.11.11,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.004682,admixer.net,123.125.81.6,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.004682,admixer.net,114.114.115.115,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.004682,admixer.net,223.5.5.5,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnkronos.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2400:3200::1
+2024-11-14T05:47:47.004682,admin.ch,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: admin.ch on server: 2400:da00::6666
+2024-11-14T05:47:47.004682,adnkronos.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.004682,adnkronos.com,8.8.8.8,A,['194.177.112.136'],,
+2024-11-14T05:47:47.004682,adnkronos.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2402:4e00::
+2024-11-14T05:47:47.004682,adnkronos.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 9.9.9.9
+2024-11-14T05:47:47.004682,adkwai.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adkwai.com on server: 9.9.9.9
+2024-11-14T05:47:47.004682,adnkronos.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.004682,adnkronos.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adnkronos.com on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.004682,adnxs-simple.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.004682,adobe.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adobe.com on server: 2400:da00::6666
+2024-11-14T05:47:47.004682,adnxs-simple.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.004682,admixer.net,218.30.118.6,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2400:3200::1
+2024-11-14T05:47:47.004682,admixer.net,114.114.114.114,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adnxs.com on server: 2400:da00::6666
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T05:47:47.004682,admixer.net,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T05:47:47.004682,admixer.net,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:47.004682,adobe.io,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adobe.io on server: 2400:da00::6666
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:fe::fe
+2024-11-14T05:47:47.004682,admixer.net,211.136.17.107,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.004682,admixer.net,208.67.220.222,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:119:53::53
+2024-11-14T05:47:47.004682,admixer.net,208.67.222.220,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:fe::10
+2024-11-14T05:47:47.004682,admixer.net,119.29.29.29,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2620:119:35::35
+2024-11-14T05:47:47.004682,admixer.net,180.76.76.76,A,['85.195.76.86'],,
+2024-11-14T05:47:47.004682,adnxs-simple.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.004682,adme.media,2.56.220.2,A,"['148.113.199.79', '148.113.199.77', '148.113.199.76', '148.113.199.78', '148.113.199.75']",,
+2024-11-14T05:47:47.004682,adnxs.com,77.88.8.8,A,[],NoAnswer,No answer for domain: adnxs.com on server: 77.88.8.8
+2024-11-14T05:47:47.004682,admanmedia.com,2001:4860:4860::8888,AAAA,"['2600:1417:3f:694::2bfd', '2600:1417:3f:6a5::2bfd']",,
+2024-11-14T05:47:47.004682,adme.media,77.88.8.8,A,"['57.129.52.220', '57.129.52.219', '57.129.53.72', '57.129.53.73', '57.129.52.218', '57.129.52.222', '57.129.52.221']",,
+2024-11-14T05:47:47.004682,adnxs-simple.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 123.125.81.6
+2024-11-14T05:47:47.004682,adnxs.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adnxs.net on server: 101.226.4.7
+2024-11-14T05:47:47.004682,adlightning.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2400:3200:baba::1
+2024-11-14T05:47:47.004682,adnxs.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:47.004682,adme.media,95.85.95.85,A,"['148.113.199.75', '148.113.199.78', '148.113.199.77', '148.113.199.79', '148.113.199.76']",,
+2024-11-14T05:47:47.004682,adnxs.com,62.76.76.62,A,[],NoAnswer,No answer for domain: adnxs.com on server: 62.76.76.62
+2024-11-14T05:47:47.004682,adliran.ir,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a02:6b8::feed:0ff
+2024-11-14T05:47:47.004682,adnxs.com,8.8.4.4,A,[],NoAnswer,No answer for domain: adnxs.com on server: 8.8.4.4
+2024-11-14T05:47:47.005680,adnxs.com,62.76.62.76,A,[],NoAnswer,No answer for domain: adnxs.com on server: 62.76.62.76
+2024-11-14T05:47:47.005680,admixer.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: admixer.net on server: 101.226.4.7
+2024-11-14T05:47:47.005680,admanmedia.com,117.50.11.11,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs.com,1.1.1.1,A,[],NoAnswer,No answer for domain: adnxs.com on server: 1.1.1.1
+2024-11-14T05:47:47.005680,adnxs.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:47.005680,adliran.ir,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a10:50c0::ad2:ff
+2024-11-14T05:47:47.005680,admixer.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: admixer.net on server: 123.125.81.7
+2024-11-14T05:47:47.005680,adnxs.com,1.0.0.1,A,[],NoAnswer,No answer for domain: adnxs.com on server: 1.0.0.1
+2024-11-14T05:47:47.005680,adliran.ir,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2400:3200::1
+2024-11-14T05:47:47.005680,adnkronos.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adnkronos.com on server: 2400:da00::6666
+2024-11-14T05:47:47.005680,adnxs.com,95.85.95.85,A,[],NoAnswer,No answer for domain: adnxs.com on server: 95.85.95.85
+2024-11-14T05:47:47.005680,adnxs.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adnxs.com on server: 223.6.6.6
+2024-11-14T05:47:47.005680,adliran.ir,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a0c:a9c7:8::1
+2024-11-14T05:47:47.005680,admanmedia.com,208.67.220.220,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 101.226.4.6
+2024-11-14T05:47:47.005680,adnxs.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adnxs.com on server: 218.30.118.6
+2024-11-14T05:47:47.005680,admanmedia.com,114.114.115.115,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,admixer.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: admixer.net on server: 210.21.196.6
+2024-11-14T05:47:47.005680,adliran.ir,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a03:90c0:999d::1
+2024-11-14T05:47:47.005680,admixer.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: admixer.net on server: 202.96.128.86
+2024-11-14T05:47:47.005680,admanmedia.com,180.76.76.76,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 223.5.5.5
+2024-11-14T05:47:47.005680,adnxs.com,208.67.222.222,A,[],NoAnswer,No answer for domain: adnxs.com on server: 208.67.222.222
+2024-11-14T05:47:47.005680,admanmedia.com,218.30.118.6,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adliran.ir,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a03:90c0:9992::1
+2024-11-14T05:47:47.005680,adnxs.com,195.208.4.1,A,[],NoAnswer,No answer for domain: adnxs.com on server: 195.208.4.1
+2024-11-14T05:47:47.005680,adliran.ir,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2402:4e00::
+2024-11-14T05:47:47.005680,adnxs-simple.com,218.30.118.6,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 218.30.118.6
+2024-11-14T05:47:47.005680,adnxs.com,195.208.5.1,A,[],NoAnswer,No answer for domain: adnxs.com on server: 195.208.5.1
+2024-11-14T05:47:47.005680,adliran.ir,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T05:47:47.005680,adme.media,1.0.0.1,A,"['57.129.52.220', '57.129.52.221', '57.129.53.72', '57.129.52.218', '57.129.52.222', '57.129.52.219', '57.129.53.73']",,
+2024-11-14T05:47:47.005680,adnxs-simple.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 211.136.17.107
+2024-11-14T05:47:47.005680,adliran.ir,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a10:50c0::ad1:ff
+2024-11-14T05:47:47.005680,adnxs.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: adnxs.com on server: 9.9.9.9
+2024-11-14T05:47:47.005680,adnxs.com,9.9.9.10,A,[],NoAnswer,No answer for domain: adnxs.com on server: 9.9.9.10
+2024-11-14T05:47:47.005680,adliran.ir,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2400:3200:baba::1
+2024-11-14T05:47:47.005680,adme.media,8.8.4.4,A,"['57.129.53.72', '57.129.52.220', '57.129.52.222', '57.129.53.73', '57.129.52.218', '57.129.52.221', '57.129.52.219']",,
+2024-11-14T05:47:47.005680,adnxs-simple.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 180.76.76.76
+2024-11-14T05:47:47.005680,adliran.ir,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:119:53::53
+2024-11-14T05:47:47.005680,adme.media,1.1.1.1,A,"['148.113.199.78', '148.113.199.76', '148.113.199.77', '148.113.199.79', '148.113.199.75']",,
+2024-11-14T05:47:47.005680,admanmedia.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 9.9.9.9
+2024-11-14T05:47:47.005680,adnxs.com,223.5.5.5,A,[],NoAnswer,No answer for domain: adnxs.com on server: 223.5.5.5
+2024-11-14T05:47:47.005680,admanmedia.com,211.136.17.107,A,['23.50.81.117'],,
+2024-11-14T05:47:47.005680,adliran.ir,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:0:ccc::2
+2024-11-14T05:47:47.005680,adme.media,8.8.8.8,A,"['57.129.52.218', '57.129.52.222', '57.129.53.73', '57.129.52.220', '57.129.52.219', '57.129.53.72', '57.129.52.221']",,
+2024-11-14T05:47:47.005680,adnxs-simple.com,117.50.11.11,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 117.50.11.11
+2024-11-14T05:47:47.005680,adnxs.com,208.67.220.222,A,[],NoAnswer,No answer for domain: adnxs.com on server: 208.67.220.222
+2024-11-14T05:47:47.005680,adliran.ir,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:0:ccd::2
+2024-11-14T05:47:47.005680,admanmedia.com,9.9.9.10,A,['23.210.120.148'],,
+2024-11-14T05:47:47.005680,adnxs.com,101.226.4.6,A,[],NoAnswer,No answer for domain: adnxs.com on server: 101.226.4.6
+2024-11-14T05:47:47.005680,adliran.ir,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2001:6d0:d6::2001
+2024-11-14T05:47:47.005680,admanmedia.com,119.29.29.29,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,admanmedia.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 123.125.81.7
+2024-11-14T05:47:47.005680,adnxs.com,211.136.17.107,A,[],NoAnswer,No answer for domain: adnxs.com on server: 211.136.17.107
+2024-11-14T05:47:47.005680,adliran.ir,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2a0c:a9c7:9::1
+2024-11-14T05:47:47.005680,admanmedia.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 202.96.128.86
+2024-11-14T05:47:47.005680,adnxs.com,8.8.8.8,A,[],NoAnswer,No answer for domain: adnxs.com on server: 8.8.8.8
+2024-11-14T05:47:47.005680,admanmedia.com,101.226.4.6,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adliran.ir,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:119:35::35
+2024-11-14T05:47:47.005680,admanmedia.com,114.114.114.114,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs.com,2.56.220.2,A,[],NoAnswer,No answer for domain: adnxs.com on server: 2.56.220.2
+2024-11-14T05:47:47.005680,adnxs.com,123.125.81.6,A,[],NoAnswer,No answer for domain: adnxs.com on server: 123.125.81.6
+2024-11-14T05:47:47.005680,adliran.ir,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2001:6d0:6d0::2001
+2024-11-14T05:47:47.005680,adnxs.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adnxs.com on server: 123.125.81.7
+2024-11-14T05:47:47.005680,adnxs-simple.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 210.21.196.6
+2024-11-14T05:47:47.005680,adliran.ir,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:fe::fe
+2024-11-14T05:47:47.005680,admanmedia.com,123.125.81.6,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 114.114.114.114
+2024-11-14T05:47:47.005680,adliran.ir,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adliran.ir on server: 2400:da00::6666
+2024-11-14T05:47:47.005680,adliran.ir,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2620:fe::10
+2024-11-14T05:47:47.005680,admanmedia.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 210.21.196.6
+2024-11-14T05:47:47.005680,adnxs-simple.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 114.114.115.115
+2024-11-14T05:47:47.005680,admanmedia.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T05:47:47.005680,adnxs.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adnxs.com on server: 119.29.29.29
+2024-11-14T05:47:47.005680,admanmedia.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T05:47:47.005680,adliran.ir,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2001:4860:4860::8844
+2024-11-14T05:47:47.005680,adnxs.com,77.88.8.1,A,[],NoAnswer,No answer for domain: adnxs.com on server: 77.88.8.1
+2024-11-14T05:47:47.005680,admanmedia.com,208.67.220.222,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs.com,180.76.76.76,A,[],NoAnswer,No answer for domain: adnxs.com on server: 180.76.76.76
+2024-11-14T05:47:47.005680,adnxs.com,114.114.114.114,A,[],NoAnswer,No answer for domain: adnxs.com on server: 114.114.114.114
+2024-11-14T05:47:47.005680,admanmedia.com,208.67.222.222,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,223.6.6.6,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 223.6.6.6
+2024-11-14T05:47:47.005680,adnxs.com,208.67.222.220,A,[],NoAnswer,No answer for domain: adnxs.com on server: 208.67.222.220
+2024-11-14T05:47:47.005680,adliran.ir,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2001:4860:4860::8888
+2024-11-14T05:47:47.005680,admanmedia.com,223.5.5.5,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,119.29.29.29,A,[],NoAnswer,No answer for domain: adnxs-simple.com on server: 119.29.29.29
+2024-11-14T05:47:47.005680,adnxs.com,117.50.11.11,A,['42.236.73.28'],,
+2024-11-14T05:47:47.005680,adnxs-simple.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 123.125.81.7
+2024-11-14T05:47:47.005680,admanmedia.com,223.6.6.6,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adliran.ir,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2606:4700:4700::1111
+2024-11-14T05:47:47.005680,adnxs.com,208.67.220.220,A,[],NoAnswer,No answer for domain: adnxs.com on server: 208.67.220.220
+2024-11-14T05:47:47.005680,adliran.ir,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: adliran.ir on server: 2606:4700:4700::1001
+2024-11-14T05:47:47.005680,admanmedia.com,208.67.222.220,A,['104.69.44.60'],,
+2024-11-14T05:47:47.005680,adnxs.com,114.114.115.115,A,[],NoAnswer,No answer for domain: adnxs.com on server: 114.114.115.115
+2024-11-14T05:47:47.005680,adlightning.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: adlightning.com on server: 2402:4e00::
+2024-11-14T05:47:47.005680,adnxs-simple.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 101.226.4.7
+2024-11-14T05:47:47.005680,adnxs.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: adnxs.com on server: 101.226.4.7
+2024-11-14T05:47:47.005680,admanmedia.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: admanmedia.com on server: 101.226.4.7
+2024-11-14T05:47:47.005680,adnxs.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: adnxs.com on server: 210.21.196.6
+2024-11-14T05:47:47.005680,adnxs.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adnxs.com on server: 202.96.128.86
+2024-11-14T05:47:47.005680,adlightning.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: adlightning.com on server: 2400:da00::6666
+2024-11-14T05:47:47.005680,adnxs-simple.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: adnxs-simple.com on server: 202.96.128.86
