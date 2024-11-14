@@ -22,12 +22,12 @@ def process_file(file, mongodbOP_CM_DNSP):
     logger.info(f'Processing file: {os.path.basename(file)}')
     reader = csv.DictReader(csvfile)
     for row in reader:
-      timestamp = row['timestamp'],
-      domain = row['domain'],
-      dns_server = row['dns_server'],
-      record_type = row['record_type'],
-      answers = row['answers'],
-      error_code = row['error_code'],
+      timestamp = row['timestamp']
+      domain = row['domain']
+      dns_server = row['dns_server']
+      record_type = row['record_type']
+      answers = row['answers']
+      error_code = row['error_code']
       error_reason = row['error_reason']
       data = {
         'timestamp': timestamp,
@@ -39,7 +39,11 @@ def process_file(file, mongodbOP_CM_DNSP):
         'error_reason': error_reason
       }
       logger.info(f'Inserting DNSPoisoning data into mongodb with domain: {domain}')
-      mongodbOP_CM_DNSP.find_one_and_update(data)
+      mongodbOP_CM_DNSP.update_one(
+        {'domain': domain},
+        {'$set': data},
+        upsert=True
+      )
 
 def dump_to_mongo():
   mongodbOP_CM_DNSP = MongoDBHandler(CM_DNSP_ADC_NOV)
