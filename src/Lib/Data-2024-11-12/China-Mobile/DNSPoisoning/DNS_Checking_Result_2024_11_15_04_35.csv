@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-15T04:35:28.063258,alibaba.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.063258,alerts.in.ua,208.67.220.220,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.063258,alberta.ca,1.1.1.1,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.063258,aliapp.org,95.85.95.85,A,[],NoAnswer,No answer for domain: aliapp.org on server: 95.85.95.85
+2024-11-15T04:35:28.063258,alhurra.com,101.226.4.6,A,['184.30.13.222'],,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.063258,alibaba.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:119:35::35
+2024-11-15T04:35:28.063258,alerts.in.ua,114.114.114.114,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.063258,aliapp.org,195.208.5.1,A,[],NoAnswer,No answer for domain: aliapp.org on server: 195.208.5.1
+2024-11-15T04:35:28.063258,alibaba.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:119:53::53
+2024-11-15T04:35:28.063258,aliapp.org,2.56.220.2,A,[],NoAnswer,No answer for domain: aliapp.org on server: 2.56.220.2
+2024-11-15T04:35:28.063258,alberta.ca,9.9.9.10,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.063258,alfabank.ru,101.226.4.6,A,['217.12.104.100'],,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.063258,alibaba.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:fe::fe
+2024-11-15T04:35:28.063258,alerts.in.ua,195.208.4.1,A,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 195.208.4.1
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.063258,aliapp.org,195.208.4.1,A,[],NoAnswer,No answer for domain: aliapp.org on server: 195.208.4.1
+2024-11-15T04:35:28.063258,alastonsuomi.com,123.125.81.6,A,['185.107.44.87'],,
+2024-11-15T04:35:28.063258,alhurra.com,123.125.81.6,A,['184.30.13.222'],,
+2024-11-15T04:35:28.063258,alerts.in.ua,9.9.9.10,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.063258,alerts.in.ua,208.67.222.222,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.063258,alibaba.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:fe::10
+2024-11-15T04:35:28.063258,aliapp.org,8.8.4.4,A,[],NoAnswer,No answer for domain: aliapp.org on server: 8.8.4.4
+2024-11-15T04:35:28.063258,alerts.in.ua,195.208.5.1,A,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 195.208.5.1
+2024-11-15T04:35:28.063258,alibaba.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.063258,alberta.ca,208.67.220.222,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.063258,aliapp.org,1.0.0.1,A,[],NoAnswer,No answer for domain: aliapp.org on server: 1.0.0.1
+2024-11-15T04:35:28.063258,alberta.ca,94.140.15.15,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.063258,alibaba.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.063258,alfabank.ru,180.76.76.76,A,['217.12.104.100'],,
+2024-11-15T04:35:28.063258,alibaba.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.063258,alhurra.com,218.30.118.6,A,['184.30.13.222'],,
+2024-11-15T04:35:28.063258,alerts.in.ua,94.140.15.15,A,"['172.67.6.115', '104.22.45.225', '104.22.44.225']",,
+2024-11-15T04:35:28.063258,alberta.ca,208.67.222.220,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.063258,aleqaria.com.eg,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.063258,alibaba.ir,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.063258,aliapp.org,1.1.1.1,A,[],NoAnswer,No answer for domain: aliapp.org on server: 1.1.1.1
+2024-11-15T04:35:28.063258,alberta.ca,94.140.14.14,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.063258,alerts.in.ua,94.140.14.14,A,"['172.67.6.115', '104.22.45.225', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2402:4e00::
+2024-11-15T04:35:28.064242,alibaba.ir,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.064242,alberta.ca,208.67.222.222,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,208.67.220.222,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,alberta.ca,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 9.9.9.9
+2024-11-15T04:35:28.064242,alberta.ca,195.208.5.1,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 195.208.5.1
+2024-11-15T04:35:28.064242,alerts.in.ua,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 123.125.81.7
+2024-11-15T04:35:28.064242,alberta.ca,208.67.220.220,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.064242,alibaba.ir,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:119:53::53
+2024-11-15T04:35:28.064242,alhurra.com,211.136.17.107,A,['23.49.121.64'],,
+2024-11-15T04:35:28.064242,alibaba.ir,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.064242,alberta.ca,195.208.4.1,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 195.208.4.1
+2024-11-15T04:35:28.064242,alerts.in.ua,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-15T04:35:28.064242,alhurra.com,117.50.11.11,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,algolia.com,77.88.8.1,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,2.56.220.2,A,"['104.22.44.225', '172.67.6.115', '104.22.45.225']",,
+2024-11-15T04:35:28.064242,alibaba.ir,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.064242,alcmpn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 2400:da00::6666
+2024-11-15T04:35:28.064242,alerts.in.ua,208.67.222.220,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.064242,algolia.com,1.0.0.1,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2400:3200:baba::1
+2024-11-15T04:35:28.064242,alhurra.com,114.114.115.115,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,alerts.in.ua,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 9.9.9.9
+2024-11-15T04:35:28.064242,alibaba.ir,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.064242,alerts.in.ua,62.76.62.76,A,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 62.76.62.76
+2024-11-15T04:35:28.064242,alhurra.com,223.5.5.5,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,alibaba.ir,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.064242,alhurra.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alhurra.com on server: 202.96.128.86
+2024-11-15T04:35:28.064242,alhurra.com,180.76.76.76,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.064242,alerts.in.ua,123.125.81.6,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.064242,alhurra.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alhurra.com on server: 210.21.196.6
+2024-11-15T04:35:28.064242,alfabank.ru,117.50.11.11,A,['217.12.104.100'],,
+2024-11-15T04:35:28.064242,alerts.in.ua,101.226.4.6,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:119:35::35
+2024-11-15T04:35:28.064242,alibaba.ir,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.064242,alastonsuomi.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 123.125.81.7
+2024-11-15T04:35:28.064242,alerts.in.ua,211.136.17.107,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 2400:da00::6666
+2024-11-15T04:35:28.064242,alhurra.com,223.6.6.6,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,alibaba.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2402:4e00::
+2024-11-15T04:35:28.064242,alberta.ca,8.8.8.8,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.064242,alastonsuomi.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 101.226.4.7
+2024-11-15T04:35:28.064242,algolia.com,1.1.1.1,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,alhurra.com,119.29.29.29,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,alerts.in.ua,117.50.11.11,A,"['104.22.45.225', '104.22.44.225', '172.67.6.115']",,
+2024-11-15T04:35:28.064242,alibaba.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.064242,alberta.ca,62.76.62.76,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 62.76.62.76
+2024-11-15T04:35:28.064242,alberta.ca,8.8.4.4,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,algolia.com,8.8.8.8,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:fe::fe
+2024-11-15T04:35:28.064242,alhurra.com,94.140.15.15,A,['23.42.81.33'],,
+2024-11-15T04:35:28.064242,alibaba.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2400:3200::1
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.064242,alberta.ca,223.5.5.5,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,218.30.118.6,A,"['104.22.44.225', '172.67.6.115', '104.22.45.225']",,
+2024-11-15T04:35:28.064242,algolia.com,2.56.220.2,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,alhurra.com,114.114.114.114,A,['184.30.13.222'],,
+2024-11-15T04:35:28.064242,alibaba.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.064242,alberta.ca,223.6.6.6,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2400:3200::1
+2024-11-15T04:35:28.064242,alfabank.ru,211.136.17.107,A,['217.12.104.100'],,
+2024-11-15T04:35:28.064242,aliapp.org,8.8.8.8,A,[],NoAnswer,No answer for domain: aliapp.org on server: 8.8.8.8
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.064242,alibaba.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.064242,alibaba.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alibaba.com on server: 2400:da00::6666
+2024-11-15T04:35:28.064242,alberta.ca,77.88.8.1,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 77.88.8.1
+2024-11-15T04:35:28.064242,alberta.ca,114.114.115.115,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,223.5.5.5,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,algolia.com,77.88.8.8,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.064242,aliapp.org,62.76.62.76,A,[],NoAnswer,No answer for domain: aliapp.org on server: 62.76.62.76
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:0:ccd::2
+2024-11-15T04:35:28.064242,alerts.in.ua,95.85.95.85,A,"['104.22.45.225', '104.22.44.225', '172.67.6.115']",,
+2024-11-15T04:35:28.064242,alibaba.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.064242,alerts.in.ua,223.6.6.6,A,"['104.22.45.225', '104.22.44.225', '172.67.6.115']",,
+2024-11-15T04:35:28.064242,alfabank.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 101.226.4.7
+2024-11-15T04:35:28.064242,alberta.ca,62.76.76.62,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 62.76.76.62
+2024-11-15T04:35:28.064242,alfabank.ru,218.30.118.6,A,['217.12.104.100'],,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.064242,alberta.ca,114.114.114.114,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.064242,alibaba.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.064242,alerts.in.ua,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-15T04:35:28.064242,aliapp.org,62.76.76.62,A,[],NoAnswer,No answer for domain: aliapp.org on server: 62.76.76.62
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.064242,alibaba.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.064242,alberta.ca,2.56.220.2,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,62.76.76.62,A,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 62.76.76.62
+2024-11-15T04:35:28.064242,algolia.com,95.85.95.85,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,alfabank.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 202.96.128.86
+2024-11-15T04:35:28.064242,alibaba.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.064242,alberta.ca,77.88.8.8,A,[],NoNameservers,No nameservers for domain: alberta.ca on server: 77.88.8.8
+2024-11-15T04:35:28.064242,alastonsuomi.com,101.226.4.6,A,['185.107.44.87'],,
+2024-11-15T04:35:28.064242,alerts.in.ua,119.29.29.29,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,algolia.com,8.8.4.4,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:fe::10
+2024-11-15T04:35:28.064242,aliapp.org,77.88.8.1,A,[],NoAnswer,No answer for domain: aliapp.org on server: 77.88.8.1
+2024-11-15T04:35:28.064242,alibaba.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.064242,alerts.in.ua,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 210.21.196.6
+2024-11-15T04:35:28.064242,alberta.ca,1.0.0.1,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.064242,aleqaria.com.eg,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aleqaria.com.eg on server: 2620:0:ccc::2
+2024-11-15T04:35:28.064242,alerts.in.ua,180.76.76.76,A,"['104.22.44.225', '104.22.45.225', '172.67.6.115']",,
+2024-11-15T04:35:28.064242,alibaba.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.064242,alerts.in.ua,114.114.115.115,A,"['172.67.6.115', '104.22.45.225', '104.22.44.225']",,
+2024-11-15T04:35:28.064242,algolia.com,62.76.76.62,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.064242,alberta.ca,95.85.95.85,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.064242,alerts.in.ua,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 202.96.128.86
+2024-11-15T04:35:28.064242,alibaba.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.064242,alfabank.ru,123.125.81.6,A,['217.12.104.100'],,
+2024-11-15T04:35:28.064242,alexa.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:fe::fe
+2024-11-15T04:35:28.064242,alhurra.com,94.140.14.14,A,['23.42.81.33'],,
+2024-11-15T04:35:28.065242,alexa.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.065242,aliapp.org,77.88.8.8,A,[],NoAnswer,No answer for domain: aliapp.org on server: 77.88.8.8
+2024-11-15T04:35:28.065242,alexa.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.065242,alexa.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.065242,alfabank.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 210.21.196.6
+2024-11-15T04:35:28.065242,alexa.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.065242,algolianet.com,101.226.4.6,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.065242,alhurra.com,208.67.220.222,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,alhurra.com,208.67.222.220,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,alhurra.com,208.67.222.222,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,alfabank.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.065242,alhurra.com,208.67.220.220,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,algolianet.com,123.125.81.6,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.065242,algolianet.com,117.50.11.11,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.065242,alfabank.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.065242,alexa.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2400:3200::1
+2024-11-15T04:35:28.065242,alexa.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.065242,alexa.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.065242,alhurra.com,9.9.9.10,A,['23.67.137.158'],,
+2024-11-15T04:35:28.065242,algolianet.com,211.136.17.107,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.065242,alexa.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.065242,algolianet.com,218.30.118.6,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.065242,alexa.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.065242,algolianet.com,119.29.29.29,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.065242,alexa.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.065242,alhurra.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alhurra.com on server: 101.226.4.7
+2024-11-15T04:35:28.065242,algolianet.com,180.76.76.76,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.065242,alfabank.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.065242,alexa.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:119:53::53
+2024-11-15T04:35:28.065242,alhurra.com,8.8.8.8,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,alhurra.com,195.208.4.1,A,['23.210.166.184'],,
+2024-11-15T04:35:28.065242,alexa.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2402:4e00::
+2024-11-15T04:35:28.065242,alhurra.com,195.208.5.1,A,['23.210.166.184'],,
+2024-11-15T04:35:28.065242,alfabank.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 123.125.81.7
+2024-11-15T04:35:28.065242,alhurra.com,62.76.76.62,A,['23.36.232.50'],,
+2024-11-15T04:35:28.065242,alhurra.com,77.88.8.8,A,['23.42.221.211'],,
+2024-11-15T04:35:28.065242,alexa.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.065242,alhurra.com,62.76.62.76,A,['23.210.166.184'],,
+2024-11-15T04:35:28.065242,alexa.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:119:35::35
+2024-11-15T04:35:28.065242,alhurra.com,95.85.95.85,A,['104.103.150.126'],,
+2024-11-15T04:35:28.065242,alhurra.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alhurra.com on server: 123.125.81.7
+2024-11-15T04:35:28.065242,alexa.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.065242,alhurra.com,77.88.8.1,A,['23.42.221.211'],,
+2024-11-15T04:35:28.065242,alexa.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.065242,alhurra.com,1.1.1.1,A,['23.218.30.36'],,
+2024-11-15T04:35:28.065242,alexa.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.065242,alhurra.com,2.56.220.2,A,['104.103.150.126'],,
+2024-11-15T04:35:28.065242,alexa.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.065242,alexa.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2620:fe::10
+2024-11-15T04:35:28.065242,alhurra.com,8.8.4.4,A,['184.30.13.222'],,
+2024-11-15T04:35:28.065242,alhurra.com,1.0.0.1,A,['72.246.163.224'],,
+2024-11-15T04:35:28.065242,albumaty.com,1.1.1.1,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alfabank.ru,195.208.4.1,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,albumaty.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.065242,alcmpn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2402:4e00::
+2024-11-15T04:35:28.065242,alibaba.ir,119.29.29.29,A,['45.89.201.10'],,
+2024-11-15T04:35:28.065242,albumaty.com,1.0.0.1,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,8.8.8.8,A,"['44.199.79.168', '52.204.128.141', '34.231.54.170', '54.86.166.4', '54.85.193.206', '3.224.18.245']",,
+2024-11-15T04:35:28.065242,alibaba-inc.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.065242,alibaba.ir,223.6.6.6,A,['45.89.201.10'],,
+2024-11-15T04:35:28.065242,albumaty.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.065242,alcmpn.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-15T04:35:28.065242,alibaba-inc.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.065242,alfabank.ru,2.56.220.2,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,albumaty.com,195.208.4.1,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alfabank.ru,195.208.5.1,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alexa.com,2.56.220.2,A,"['3.224.18.245', '54.85.193.206', '44.199.79.168', '52.204.128.141', '54.86.166.4', '34.231.54.170']",,
+2024-11-15T04:35:28.065242,albumaty.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:fe::10
+2024-11-15T04:35:28.065242,alastonsuomi.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.065242,alibaba-inc.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.065242,alcmpn.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-15T04:35:28.065242,albumaty.com,195.208.5.1,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,77.88.8.8,A,"['52.204.128.141', '3.224.18.245', '54.86.166.4', '44.199.79.168', '54.85.193.206', '34.231.54.170']",,
+2024-11-15T04:35:28.065242,albumaty.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:119:35::35
+2024-11-15T04:35:28.065242,alfabank.ru,1.0.0.1,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alcmpn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.065242,alexa.com,208.67.220.222,A,"['34.231.54.170', '44.199.79.168', '52.204.128.141', '54.85.193.206', '54.86.166.4', '3.224.18.245']",,
+2024-11-15T04:35:28.065242,albumaty.com,62.76.62.76,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.065242,alexa.com,117.50.11.11,A,"['52.204.128.141', '3.224.18.245', '54.86.166.4', '34.231.54.170', '44.199.79.168', '54.85.193.206']",,
+2024-11-15T04:35:28.065242,albumaty.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.065242,albumaty.com,9.9.9.10,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,94.140.15.15,A,"['52.204.128.141', '44.199.79.168', '3.224.18.245', '54.86.166.4', '34.231.54.170', '54.85.193.206']",,
+2024-11-15T04:35:28.065242,albumaty.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.065242,alfabank.ru,1.1.1.1,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alibaba.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.065242,alcmpn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.065242,albumaty.com,8.8.8.8,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,208.67.222.220,A,"['44.199.79.168', '52.204.128.141', '54.85.193.206', '54.86.166.4', '3.224.18.245', '34.231.54.170']",,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.065242,albumaty.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.065242,alibaba.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.065242,alfabank.ru,95.85.95.85,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,albumaty.com,8.8.4.4,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,94.140.14.14,A,"['3.224.18.245', '54.86.166.4', '34.231.54.170', '54.85.193.206', '52.204.128.141', '44.199.79.168']",,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.065242,alfabank.ru,77.88.8.8,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alcmpn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:fe::10
+2024-11-15T04:35:28.065242,albumaty.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.065242,alexa.com,62.76.76.62,A,"['44.199.79.168', '54.85.193.206', '34.231.54.170', '54.86.166.4', '3.224.18.245', '52.204.128.141']",,
+2024-11-15T04:35:28.065242,alfabank.ru,77.88.8.1,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.065242,albumaty.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.065242,alcmpn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:119:53::53
+2024-11-15T04:35:28.065242,alibaba.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alibaba.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.065242,albumaty.com,62.76.76.62,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,8.8.4.4,A,"['54.85.193.206', '44.199.79.168', '34.231.54.170', '3.224.18.245', '52.204.128.141', '54.86.166.4']",,
+2024-11-15T04:35:28.065242,alexa.com,123.125.81.6,A,"['54.86.166.4', '3.224.18.245', '52.204.128.141', '44.199.79.168', '54.85.193.206', '34.231.54.170']",,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.065242,albumaty.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.065242,alcmpn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.065242,alibaba-inc.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.065242,albumaty.com,77.88.8.8,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,195.208.4.1,A,"['54.85.193.206', '44.199.79.168', '54.86.166.4', '34.231.54.170', '3.224.18.245', '52.204.128.141']",,
+2024-11-15T04:35:28.065242,alexa.com,101.226.4.6,A,"['34.231.54.170', '44.199.79.168', '54.86.166.4', '54.85.193.206', '52.204.128.141', '3.224.18.245']",,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.065242,albumaty.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.065242,alibaba-inc.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2402:4e00::
+2024-11-15T04:35:28.065242,albumaty.com,77.88.8.1,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,62.76.62.76,A,"['3.224.18.245', '34.231.54.170', '54.86.166.4', '44.199.79.168', '52.204.128.141', '54.85.193.206']",,
+2024-11-15T04:35:28.065242,alfabank.ru,8.8.8.8,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.065242,albumaty.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:119:53::53
+2024-11-15T04:35:28.065242,alcmpn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.065242,alibaba-inc.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.065242,albumaty.com,95.85.95.85,A,['51.91.119.25'],,
+2024-11-15T04:35:28.065242,alexa.com,195.208.5.1,A,"['44.199.79.168', '54.86.166.4', '54.85.193.206', '34.231.54.170', '52.204.128.141', '3.224.18.245']",,
+2024-11-15T04:35:28.065242,alfabank.ru,8.8.4.4,A,['217.12.104.100'],,
+2024-11-15T04:35:28.065242,alastonsuomi.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.065242,albumaty.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.065242,alcmpn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.065242,alibaba-inc.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2400:3200::1
+2024-11-15T04:35:28.066242,albumaty.com,2.56.220.2,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alexa.com,77.88.8.1,A,"['52.204.128.141', '44.199.79.168', '34.231.54.170', '3.224.18.245', '54.85.193.206', '54.86.166.4']",,
+2024-11-15T04:35:28.066242,alfabank.ru,223.5.5.5,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alastonsuomi.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.066242,albumaty.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2620:fe::fe
+2024-11-15T04:35:28.066242,alcmpn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:fe::fe
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.066242,algolianet.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: algolianet.com on server: 123.125.81.7
+2024-11-15T04:35:28.066242,alexa.com,211.136.17.107,A,"['52.204.128.141', '54.86.166.4', '3.224.18.245', '44.199.79.168', '34.231.54.170', '54.85.193.206']",,
+2024-11-15T04:35:28.066242,alfabank.ru,119.29.29.29,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,123.125.81.6,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,algolianet.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: algolianet.com on server: 210.21.196.6
+2024-11-15T04:35:28.066242,algolianet.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: algolianet.com on server: 202.96.128.86
+2024-11-15T04:35:28.066242,albumaty.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.066242,alcmpn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2620:119:35::35
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.066242,alexa.com,95.85.95.85,A,"['54.86.166.4', '34.231.54.170', '44.199.79.168', '54.85.193.206', '52.204.128.141', '3.224.18.245']",,
+2024-11-15T04:35:28.066242,alhurra.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alhurra.com on server: 9.9.9.9
+2024-11-15T04:35:28.066242,alfabank.ru,208.67.220.222,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,albumaty.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:119:53::53
+2024-11-15T04:35:28.066242,alastonsuomi.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.066242,alcmpn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.066242,alfabank.ru,223.6.6.6,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,algolianet.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: algolianet.com on server: 101.226.4.7
+2024-11-15T04:35:28.066242,albumaty.com,94.140.14.14,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.066242,alexa.com,218.30.118.6,A,"['44.199.79.168', '3.224.18.245', '52.204.128.141', '54.86.166.4', '54.85.193.206', '34.231.54.170']",,
+2024-11-15T04:35:28.066242,albumaty.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.066242,albumaty.com,208.67.222.220,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alibaba.ir,211.136.17.107,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alexa.com,1.1.1.1,A,"['54.85.193.206', '52.204.128.141', '44.199.79.168', '3.224.18.245', '34.231.54.170', '54.86.166.4']",,
+2024-11-15T04:35:28.066242,alexa.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alexa.com on server: 2400:da00::6666
+2024-11-15T04:35:28.066242,alibaba-inc.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.066242,alcmpn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.066242,alfabank.ru,208.67.222.220,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alexa.com,180.76.76.76,A,"['34.231.54.170', '44.199.79.168', '52.204.128.141', '54.85.193.206', '54.86.166.4', '3.224.18.245']",,
+2024-11-15T04:35:28.066242,alibaba.ir,117.50.11.11,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alfabank.ru,208.67.220.220,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:119:35::35
+2024-11-15T04:35:28.066242,alcmpn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.066242,albumaty.com,208.67.220.222,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alberta.ca,119.29.29.29,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.066242,alibaba.ir,218.30.118.6,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alcmpn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.066242,alberta.ca,2402:4e00::,AAAA,[],NoNameservers,No nameservers for domain: alberta.ca on server: 2402:4e00::
+2024-11-15T04:35:28.066242,alexa.com,208.67.222.222,A,"['54.86.166.4', '3.224.18.245', '34.231.54.170', '44.199.79.168', '52.204.128.141', '54.85.193.206']",,
+2024-11-15T04:35:28.066242,alfabank.ru,208.67.222.222,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,albumaty.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.066242,alcmpn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.066242,alberta.ca,123.125.81.6,A,[],NoNameservers,No nameservers for domain: alberta.ca on server: 123.125.81.6
+2024-11-15T04:35:28.066242,alexa.com,208.67.220.220,A,"['52.204.128.141', '54.85.193.206', '54.86.166.4', '3.224.18.245', '34.231.54.170', '44.199.79.168']",,
+2024-11-15T04:35:28.066242,alberta.ca,101.226.4.6,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.066242,alibaba-inc.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 2400:da00::6666
+2024-11-15T04:35:28.066242,albumaty.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.066242,albumaty.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2402:4e00::
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.066242,alberta.ca,211.136.17.107,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.066242,alexa.com,119.29.29.29,A,"['52.204.128.141', '44.199.79.168', '34.231.54.170', '3.224.18.245', '54.85.193.206', '54.86.166.4']",,
+2024-11-15T04:35:28.066242,alberta.ca,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 123.125.81.7
+2024-11-15T04:35:28.066242,alberta.ca,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 101.226.4.7
+2024-11-15T04:35:28.066242,alberta.ca,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2400:3200::1
+2024-11-15T04:35:28.066242,alibaba.ir,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 210.21.196.6
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.066242,alexa.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alexa.com on server: 210.21.196.6
+2024-11-15T04:35:28.066242,alberta.ca,117.50.11.11,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.066242,alberta.ca,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alberta.ca on server: 2400:da00::6666
+2024-11-15T04:35:28.066242,alastonsuomi.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.066242,alberta.ca,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2400:3200:baba::1
+2024-11-15T04:35:28.066242,alcmpn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:fe::fe
+2024-11-15T04:35:28.066242,alexa.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alexa.com on server: 123.125.81.7
+2024-11-15T04:35:28.066242,alibaba.ir,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 202.96.128.86
+2024-11-15T04:35:28.066242,alfabank.ru,9.9.9.10,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,223.5.5.5,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,albumaty.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.066242,alcmpn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.066242,alibaba-inc.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2620:fe::10
+2024-11-15T04:35:28.066242,alberta.ca,218.30.118.6,A,"['142.229.246.30', '142.229.226.127']",,
+2024-11-15T04:35:28.066242,alexa.com,9.9.9.10,A,"['54.85.193.206', '3.224.18.245', '54.86.166.4', '52.204.128.141', '44.199.79.168', '34.231.54.170']",,
+2024-11-15T04:35:28.066242,alfabank.ru,114.114.114.114,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alexa.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alexa.com on server: 101.226.4.7
+2024-11-15T04:35:28.066242,alcmpn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.066242,alberta.ca,180.76.76.76,A,"['142.229.226.127', '142.229.246.30']",,
+2024-11-15T04:35:28.066242,alexa.com,223.5.5.5,A,"['34.231.54.170', '54.86.166.4', '54.85.193.206', '52.204.128.141', '3.224.18.245', '44.199.79.168']",,
+2024-11-15T04:35:28.066242,alfabank.ru,114.114.115.115,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,114.114.115.115,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alberta.ca,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.066242,alcmpn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.066242,alibaba.ir,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 101.226.4.7
+2024-11-15T04:35:28.066242,alexa.com,223.6.6.6,A,"['34.231.54.170', '3.224.18.245', '44.199.79.168', '52.204.128.141', '54.85.193.206']",,
+2024-11-15T04:35:28.066242,alfabank.ru,62.76.62.76,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,101.226.4.6,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alberta.ca,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.066242,albumaty.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2400:3200::1
+2024-11-15T04:35:28.066242,alibaba-inc.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.066242,albumaty.com,208.67.222.222,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alexa.com,1.0.0.1,A,"['3.224.18.245', '54.85.193.206', '54.86.166.4', '34.231.54.170', '44.199.79.168', '52.204.128.141']",,
+2024-11-15T04:35:28.066242,alfabank.ru,94.140.15.15,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,94.140.15.15,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alberta.ca,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:0:ccc::2
+2024-11-15T04:35:28.066242,albumaty.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: albumaty.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.066242,alibaba-inc.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.066242,albumaty.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: albumaty.com on server: 2400:da00::6666
+2024-11-15T04:35:28.066242,alexa.com,114.114.115.115,A,"['54.85.193.206', '54.86.166.4', '44.199.79.168']",,
+2024-11-15T04:35:28.066242,alfabank.ru,62.76.76.62,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alibaba.ir,114.114.114.114,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alberta.ca,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:0:ccd::2
+2024-11-15T04:35:28.066242,alcmpn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2400:3200::1
+2024-11-15T04:35:28.066242,alexa.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alexa.com on server: 202.96.128.86
+2024-11-15T04:35:28.066242,albumaty.com,208.67.220.220,A,['51.91.119.25'],,
+2024-11-15T04:35:28.066242,alexa.com,114.114.114.114,A,"['54.86.166.4', '44.199.79.168', '52.204.128.141']",,
+2024-11-15T04:35:28.066242,alfabank.ru,94.140.14.14,A,['217.12.104.100'],,
+2024-11-15T04:35:28.066242,alfabank.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 9.9.9.9
+2024-11-15T04:35:28.066242,alcmpn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alcmpn.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.066242,alibaba.ir,180.76.76.76,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alibaba-inc.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alibaba-inc.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.066242,algolia.net,119.29.29.29,A,"['149.202.84.123', '91.109.20.242', '103.254.154.6']",,
+2024-11-15T04:35:28.066242,alibaba-inc.com,123.125.81.6,A,['121.0.17.65'],,
+2024-11-15T04:35:28.066242,alcmpn.com,77.88.8.8,A,['104.154.80.119'],,
+2024-11-15T04:35:28.066242,alibaba.ir,208.67.222.220,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alberta.ca,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 210.21.196.6
+2024-11-15T04:35:28.066242,alexa.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.066242,algolianet.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:fe::10
+2024-11-15T04:35:28.066242,algolia.net,180.76.76.76,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.066242,alcmpn.com,2.56.220.2,A,['104.154.80.119'],,
+2024-11-15T04:35:28.066242,alibaba.ir,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.066242,alibaba-inc.com,62.76.62.76,A,['121.0.17.65'],,
+2024-11-15T04:35:28.066242,alibaba.ir,208.67.222.222,A,['45.89.201.10'],,
+2024-11-15T04:35:28.066242,alerts.in.ua,2001:4860:4860::8888,AAAA,"['2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2001:4860:4860::8844,AAAA,"['2600:140b:a00:b87::1135', '2600:140b:a00:b81::1135']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,211.136.17.107,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,albumaty.com,94.140.15.15,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,208.67.220.220,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,algolianet.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2400:3200::1
+2024-11-15T04:35:28.067241,alexa.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.067241,alibaba.ir,208.67.220.220,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alcmpn.com,9.9.9.10,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,alibaba.ir,94.140.14.14,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,algolianet.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.067241,alibaba.ir,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2402:4e00::
+2024-11-15T04:35:28.067241,albumaty.com,180.76.76.76,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,94.140.14.14,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,180.76.76.76,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,9.9.9.10,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alexa.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alexa.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.067241,alhurra.com,2a0c:a9c7:8::1,AAAA,"['2a02:26f0:41:599::1135', '2a02:26f0:41:59b::1135']",,
+2024-11-15T04:35:28.067241,alexa.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alexa.com on server: 9.9.9.9
+2024-11-15T04:35:28.067241,alcmpn.com,62.76.76.62,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,algolia.net,94.140.15.15,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,195.208.4.1,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2001:6d0:d6::2001,AAAA,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.067241,alhurra.com,2a0c:a9c7:9::1,AAAA,"['2a02:26f0:41:599::1135', '2a02:26f0:41:59b::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2400:3200::1
+2024-11-15T04:35:28.067241,alibaba.ir,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 123.125.81.7
+2024-11-15T04:35:28.067241,alberta.ca,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alberta.ca on server: 202.96.128.86
+2024-11-15T04:35:28.067241,albumaty.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: albumaty.com on server: 9.9.9.9
+2024-11-15T04:35:28.067241,alibaba.ir,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2400:3200:baba::1
+2024-11-15T04:35:28.067241,alcmpn.com,77.88.8.1,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,aliapp.org,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: aliapp.org on server: 2400:da00::6666
+2024-11-15T04:35:28.067241,alibaba-inc.com,101.226.4.6,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,208.67.220.222,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-15T04:35:28.067241,algolianet.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:119:53::53
+2024-11-15T04:35:28.067241,alibaba.ir,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.067241,albumaty.com,114.114.114.114,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,114.114.115.115,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,119.29.29.29,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,195.208.5.1,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2001:6d0:6d0::2001,AAAA,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.067241,alhurra.com,2620:0:ccc::2,AAAA,"['2600:140b:a00:b81::1135', '2600:140b:a00:b87::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.067241,algolia.net,223.6.6.6,A,"['103.254.154.6', '91.109.20.242', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,117.50.11.11,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,algolia.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: algolia.net on server: 210.21.196.6
+2024-11-15T04:35:28.067241,alerts.in.ua,2001:4860:4860::8844,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 123.125.81.7
+2024-11-15T04:35:28.067241,albumaty.com,218.30.118.6,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,alibaba-inc.com,223.6.6.6,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,algolia.net,195.208.4.1,A,"['149.202.84.123', '91.109.20.242', '103.254.154.6']",,
+2024-11-15T04:35:28.067241,alerts.in.ua,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-15T04:35:28.067241,alhurra.com,2001:4860:4860::8888,AAAA,"['2600:140b:a00:b81::1135', '2600:140b:a00:b87::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,95.85.95.85,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,algolia.net,223.5.5.5,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,218.30.118.6,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2620:119:53::53,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,albumaty.com,211.136.17.107,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,62.76.62.76,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,208.67.222.220,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 2400:da00::6666
+2024-11-15T04:35:28.067241,alhurra.com,2620:fe::10,AAAA,"['2600:1406:5400:28a::1135', '2600:1406:5400:28e::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,1.1.1.1,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,algolia.net,114.114.114.114,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alcmpn.com,8.8.8.8,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,alibaba.ir,1.0.0.1,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alibaba-inc.com,94.140.15.15,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,algolianet.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.067241,albumaty.com,114.114.115.115,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2620:fe::10,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,223.5.5.5,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,algolia.net,208.67.222.220,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba.ir,8.8.8.8,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2620:119:35::35,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2606:4700:4700::1111,AAAA,"['2600:1406:5400:28a::1135', '2600:1406:5400:28e::1135']",,
+2024-11-15T04:35:28.067241,algolia.net,208.67.220.222,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alcmpn.com,195.208.5.1,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,alibaba.ir,8.8.4.4,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alhurra.com,2606:4700:4700::1001,AAAA,"['2600:1406:5400:28e::1135', '2600:1406:5400:28a::1135']",,
+2024-11-15T04:35:28.067241,albumaty.com,119.29.29.29,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,77.88.8.8,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,114.114.114.114,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2a0c:a9c7:9::1,AAAA,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.067241,alcmpn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 9.9.9.9
+2024-11-15T04:35:28.067241,alhurra.com,2a03:90c0:999d::1,AAAA,"['2600:1417:3f:b82::1135', '2600:1417:3f:b94::1135']",,
+2024-11-15T04:35:28.067241,alcmpn.com,62.76.62.76,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,alibaba-inc.com,114.114.115.115,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,algolia.net,62.76.76.62,A,"['149.202.84.123', '91.109.20.242', '103.254.154.6']",,
+2024-11-15T04:35:28.067241,alerts.in.ua,2402:4e00::,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673']",,
+2024-11-15T04:35:28.067241,alhurra.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a02:26f0:9500:582::1135', '2a02:26f0:9500:589::1135']",,
+2024-11-15T04:35:28.067241,alcmpn.com,195.208.4.1,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,algolia.net,2.56.220.2,A,"['149.202.84.123', '91.109.20.242', '103.254.154.6']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,9.9.9.10,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,62.76.62.76,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alibaba-inc.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 210.21.196.6
+2024-11-15T04:35:28.067241,alhurra.com,2620:fe::fe,AAAA,"['2600:1406:5400:28a::1135', '2600:1406:5400:28e::1135']",,
+2024-11-15T04:35:28.067241,albumaty.com,117.50.11.11,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,77.88.8.1,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,208.67.220.220,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,195.208.4.1,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2400:3200::1,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1']",,
+2024-11-15T04:35:28.067241,algolianet.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:119:35::35
+2024-11-15T04:35:28.067241,alibaba.ir,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:0:ccd::2
+2024-11-15T04:35:28.067241,albumaty.com,223.5.5.5,A,['51.91.119.25'],,
+2024-11-15T04:35:28.067241,algolia.net,1.0.0.1,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alibaba.com on server: 210.21.196.6
+2024-11-15T04:35:28.067241,alibaba.ir,77.88.8.1,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2400:3200:baba::1,AAAA,"['2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1', '2606:4700:10::ac43:673']",,
+2024-11-15T04:35:28.067241,alhurra.com,2a02:6b8::feed:0ff,AAAA,"['2a02:26f0:9500:582::1135', '2a02:26f0:9500:589::1135']",,
+2024-11-15T04:35:28.067241,alcmpn.com,95.85.95.85,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,algolia.net,95.85.95.85,A,"['149.202.84.123', '103.254.154.6', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,208.67.222.222,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,62.76.76.62,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2a10:50c0::ad1:ff,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2620:119:53::53,AAAA,"['2600:140b:a00:b87::1135', '2600:140b:a00:b81::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.067241,algolia.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: algolia.net on server: 202.96.128.86
+2024-11-15T04:35:28.067241,algolia.net,9.9.9.10,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,208.67.220.222,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,2.56.220.2,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2a10:50c0::ad2:ff,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2a03:90c0:9992::1,AAAA,"['2600:1417:3f:b94::1135', '2600:1417:3f:b82::1135']",,
+2024-11-15T04:35:28.067241,alcmpn.com,1.1.1.1,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,algolia.net,208.67.222.222,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,94.140.14.14,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.ir,77.88.8.8,A,['45.89.201.10'],,
+2024-11-15T04:35:28.067241,alerts.in.ua,2620:0:ccc::2,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2620:119:35::35,AAAA,"['2600:140b:a00:b81::1135', '2600:140b:a00:b87::1135']",,
+2024-11-15T04:35:28.067241,alibaba.ir,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:0:ccc::2
+2024-11-15T04:35:28.067241,alcmpn.com,1.0.0.1,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,algolia.net,195.208.5.1,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.067241,alibaba-inc.com,77.88.8.1,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,alibaba.com,101.226.4.6,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.067241,alerts.in.ua,2620:0:ccd::2,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2ce1']",,
+2024-11-15T04:35:28.067241,alhurra.com,2001:6d0:6d0::2001,AAAA,"['2a02:26f0:41:599::1135', '2a02:26f0:41:59b::1135']",,
+2024-11-15T04:35:28.067241,alcmpn.com,8.8.4.4,A,['104.154.80.119'],,
+2024-11-15T04:35:28.067241,alibaba.ir,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alibaba.ir on server: 9.9.9.9
+2024-11-15T04:35:28.067241,alibaba-inc.com,62.76.76.62,A,['121.0.17.65'],,
+2024-11-15T04:35:28.067241,albumaty.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: albumaty.com on server: 202.96.128.86
+2024-11-15T04:35:28.067241,alerts.in.ua,2a0c:a9c7:8::1,AAAA,[],NXDOMAIN,Non-existent domain: alerts.in.ua on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.068241,alhurra.com,2001:6d0:d6::2001,AAAA,"['2a02:26f0:e80:183::1135', '2a02:26f0:e80:195::1135']",,
+2024-11-15T04:35:28.068241,alibaba.ir,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:119:35::35
+2024-11-15T04:35:28.068241,albumaty.com,223.6.6.6,A,['51.91.119.25'],,
+2024-11-15T04:35:28.068241,algolia.net,8.8.4.4,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.068241,alibaba-inc.com,195.208.5.1,A,['121.0.17.65'],,
+2024-11-15T04:35:28.068241,alibaba.com,117.50.11.11,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.068241,alerts.in.ua,2620:fe::fe,AAAA,"['2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.068241,algolianet.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.068241,alibaba.ir,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:119:53::53
+2024-11-15T04:35:28.068241,alibaba-inc.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 202.96.128.86
+2024-11-15T04:35:28.068241,algolia.net,1.1.1.1,A,"['149.202.84.123', '91.109.20.242', '103.254.154.6']",,
+2024-11-15T04:35:28.068241,alibaba.com,123.125.81.6,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.068241,alerts.in.ua,2606:4700:4700::1111,AAAA,"['2606:4700:10::ac43:673', '2606:4700:10::6816:2de1', '2606:4700:10::6816:2ce1']",,
+2024-11-15T04:35:28.068241,algolianet.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.068241,alibaba.ir,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:fe::fe
+2024-11-15T04:35:28.068241,alastonsuomi.com,8.8.8.8,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alibaba.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alibaba.com on server: 101.226.4.7
+2024-11-15T04:35:28.068241,algolia.net,211.136.17.107,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.068241,alibaba-inc.com,95.85.95.85,A,['121.0.17.65'],,
+2024-11-15T04:35:28.068241,alibaba.com,218.30.118.6,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.068241,alerts.in.ua,2606:4700:4700::1001,AAAA,"['2606:4700:10::6816:2de1', '2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673']",,
+2024-11-15T04:35:28.068241,alerts.in.ua,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 2400:da00::6666
+2024-11-15T04:35:28.068241,alibaba.ir,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2620:fe::10
+2024-11-15T04:35:28.068241,alastonsuomi.com,8.8.4.4,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,albumaty.com,123.125.81.6,A,['51.91.119.25'],,
+2024-11-15T04:35:28.068241,algolia.net,117.50.11.11,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.068241,alibaba-inc.com,77.88.8.8,A,['121.0.17.65'],,
+2024-11-15T04:35:28.068241,alibaba.com,211.136.17.107,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.068241,alerts.in.ua,2a03:90c0:999d::1,AAAA,"['2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.068241,algolianet.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.068241,alibaba.ir,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.068241,albumaty.com,101.226.4.6,A,['51.91.119.25'],,
+2024-11-15T04:35:28.068241,alibaba-inc.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 9.9.9.9
+2024-11-15T04:35:28.068241,algolia.net,218.30.118.6,A,"['91.109.20.242', '103.254.154.6', '149.202.84.123']",,
+2024-11-15T04:35:28.068241,alibaba-inc.com,2.56.220.2,A,['121.0.17.65'],,
+2024-11-15T04:35:28.068241,alerts.in.ua,2a03:90c0:9992::1,AAAA,"['2606:4700:10::6816:2ce1', '2606:4700:10::ac43:673', '2606:4700:10::6816:2de1']",,
+2024-11-15T04:35:28.068241,algolianet.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2402:4e00::
+2024-11-15T04:35:28.068241,alcmpn.com,223.5.5.5,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolia.net,123.125.81.6,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.068241,alibaba.ir,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alibaba.ir on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.068241,alcmpn.com,117.50.11.11,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,114.114.115.115,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,algolianet.com,223.6.6.6,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,208.67.222.222,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,alcmpn.com,114.114.114.114,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,alcmpn.com,114.114.115.115,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,94.140.15.15,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,algolianet.com,223.5.5.5,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,211.136.17.107,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,62.76.62.76,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,218.30.118.6,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,195.208.4.1,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-15T04:35:28.068241,albumaty.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: albumaty.com on server: 210.21.196.6
+2024-11-15T04:35:28.068241,algolianet.com,114.114.114.114,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-15T04:35:28.068241,alcmpn.com,180.76.76.76,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,77.88.8.8,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,algolianet.com,62.76.76.62,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,223.6.6.6,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,2.56.220.2,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,119.29.29.29,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,77.88.8.1,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,77.88.8.1,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,algolianet.com,195.208.5.1,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,62.76.76.62,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.068241,algolianet.com,208.67.220.222,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,2.56.220.2,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,algolia.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: algolia.net on server: 9.9.9.9
+2024-11-15T04:35:28.068241,aleqaria.com.eg,77.88.8.8,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,algolianet.com,94.140.14.14,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,95.85.95.85,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,alibaba.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alibaba.com on server: 123.125.81.7
+2024-11-15T04:35:28.068241,alcmpn.com,208.67.220.220,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,208.67.222.220,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,8.8.4.4,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,albumaty.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: albumaty.com on server: 123.125.81.7
+2024-11-15T04:35:28.068241,aleqaria.com.eg,1.0.0.1,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.068241,algolianet.com,95.85.95.85,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,albumaty.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: albumaty.com on server: 101.226.4.7
+2024-11-15T04:35:28.068241,algolia.net,101.226.4.6,A,"['103.254.154.6', '149.202.84.123', '91.109.20.242']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,8.8.8.8,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,algolianet.com,208.67.220.220,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,123.125.81.6,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,8.8.8.8,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,208.67.222.220,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,1.1.1.1,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,algolianet.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: algolianet.com on server: 2400:da00::6666
+2024-11-15T04:35:28.068241,alcmpn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 210.21.196.6
+2024-11-15T04:35:28.068241,alcmpn.com,208.67.220.222,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,8.8.4.4,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,aleqaria.com.eg,1.1.1.1,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.068241,algolianet.com,9.9.9.10,A,"['104.16.84.13', '104.16.83.13']",,
+2024-11-15T04:35:28.068241,alcmpn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 202.96.128.86
+2024-11-15T04:35:28.068241,alcmpn.com,101.226.4.6,A,['104.154.80.119'],,
+2024-11-15T04:35:28.068241,algolianet.com,208.67.222.222,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alastonsuomi.com,211.136.17.107,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,algolia.com,62.76.62.76,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.068241,aliapp.org,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.068241,alfabank.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:119:35::35
+2024-11-15T04:35:28.068241,alastonsuomi.com,117.50.11.11,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alfabank.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:0:ccc::2
+2024-11-15T04:35:28.068241,algolia.com,195.208.4.1,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.068241,aliapp.org,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.068241,algolia.com,211.136.17.107,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.068241,alfabank.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:0:ccd::2
+2024-11-15T04:35:28.068241,aliapp.org,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:fe::fe
+2024-11-15T04:35:28.068241,alastonsuomi.com,218.30.118.6,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alfabank.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:fe::fe
+2024-11-15T04:35:28.068241,alastonsuomi.com,208.67.220.222,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,algolianet.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: algolianet.com on server: 9.9.9.9
+2024-11-15T04:35:28.068241,alfabank.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:fe::10
+2024-11-15T04:35:28.068241,aliapp.org,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.068241,algolianet.com,1.0.0.1,A,"['104.16.83.13', '104.16.84.13']",,
+2024-11-15T04:35:28.068241,alfabank.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2620:119:53::53
+2024-11-15T04:35:28.068241,aliapp.org,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.068241,alastonsuomi.com,77.88.8.8,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,algolia.com,218.30.118.6,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.068241,algolia.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: algolia.net on server: 123.125.81.7
+2024-11-15T04:35:28.068241,alastonsuomi.com,195.208.4.1,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,algolia.com,117.50.11.11,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.068241,alfabank.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.068241,aliapp.org,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.068241,alastonsuomi.com,208.67.220.220,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alcmpn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 101.226.4.7
+2024-11-15T04:35:28.068241,alfabank.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.068241,aliapp.org,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.068241,algolia.net,8.8.8.8,A,"['91.109.20.242', '149.202.84.123', '103.254.154.6']",,
+2024-11-15T04:35:28.068241,alfabank.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.068241,aliapp.org,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.068241,alastonsuomi.com,9.9.9.10,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alfabank.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.068241,alcmpn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: alcmpn.com on server: 123.125.81.7
+2024-11-15T04:35:28.068241,aliapp.org,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.068241,alastonsuomi.com,94.140.14.14,A,['185.107.44.87'],,
+2024-11-15T04:35:28.068241,alfabank.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.068241,algolia.com,101.226.4.6,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.068241,algolia.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: algolia.net on server: 101.226.4.7
+2024-11-15T04:35:28.068241,algolia.com,123.125.81.6,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.068241,aliapp.org,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.068241,alastonsuomi.com,95.85.95.85,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alastonsuomi.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 210.21.196.6
+2024-11-15T04:35:28.069241,aliapp.org,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.069241,alastonsuomi.com,1.1.1.1,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: algolia.com on server: 202.96.128.86
+2024-11-15T04:35:28.069241,alfabank.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.069241,aliapp.org,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.069241,algolia.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: algolia.com on server: 210.21.196.6
+2024-11-15T04:35:28.069241,alastonsuomi.com,2.56.220.2,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,119.29.29.29,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,alhurra.com,2400:3200:baba::1,AAAA,"['2600:1417:76:195::1135', '2600:1417:76:18e::1135']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,114.114.115.115,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alfabank.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.069241,alfabank.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.069241,algolia.com,180.76.76.76,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,208.67.222.222,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alhurra.com,2402:4e00::,AAAA,"['2600:140e:6:a99::1135', '2600:140e:6:abb::1135']",,
+2024-11-15T04:35:28.069241,algolia.com,208.67.220.220,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,algolia.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.069241,alhurra.com,2a10:50c0::ad2:ff,AAAA,"['2600:1417:3f:b82::1135', '2600:1417:3f:b94::1135']",,
+2024-11-15T04:35:28.069241,algolia.com,208.67.220.222,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,180.76.76.76,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alhurra.com,2400:3200::1,AAAA,"['2600:1417:76:195::1135', '2600:1417:76:18e::1135']",,
+2024-11-15T04:35:28.069241,algolia.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.069241,algolia.com,114.114.115.115,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,algolia.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.069241,aliapp.org,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2400:3200:baba::1
+2024-11-15T04:35:28.069241,alastonsuomi.com,119.29.29.29,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,223.6.6.6,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,aliapp.org,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2402:4e00::
+2024-11-15T04:35:28.069241,alastonsuomi.com,1.0.0.1,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,208.67.222.222,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,algolia.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.069241,aliapp.org,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.069241,aliapp.org,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.069241,algolia.com,208.67.222.220,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,algolia.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.069241,aliapp.org,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2400:3200::1
+2024-11-15T04:35:28.069241,alastonsuomi.com,62.76.76.62,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alastonsuomi.com,223.6.6.6,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alfabank.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.069241,aliapp.org,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:0:ccd::2
+2024-11-15T04:35:28.069241,alastonsuomi.com,114.114.114.114,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,9.9.9.10,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,algolia.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.069241,aliapp.org,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.069241,alastonsuomi.com,223.5.5.5,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,94.140.15.15,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,algolia.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: algolia.com on server: 101.226.4.7
+2024-11-15T04:35:28.069241,aliapp.org,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:119:53::53
+2024-11-15T04:35:28.069241,alastonsuomi.com,94.140.15.15,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,223.5.5.5,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,alfabank.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.069241,aliapp.org,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:0:ccc::2
+2024-11-15T04:35:28.069241,alastonsuomi.com,208.67.222.220,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,195.208.5.1,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,alfabank.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2402:4e00::
+2024-11-15T04:35:28.069241,alhurra.com,2620:0:ccd::2,AAAA,"['2600:140b:a00:b81::1135', '2600:140b:a00:b87::1135']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,62.76.62.76,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,alhurra.com,2a10:50c0::ad1:ff,AAAA,"['2600:1417:3f:b94::1135', '2600:1417:3f:b82::1135']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,77.88.8.1,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,94.140.14.14,A,"['104.17.255.197', '104.16.240.197']",,
+2024-11-15T04:35:28.069241,alfabank.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2400:3200::1
+2024-11-15T04:35:28.069241,aliapp.org,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:fe::10
+2024-11-15T04:35:28.069241,alastonsuomi.com,195.208.5.1,A,['185.107.44.87'],,
+2024-11-15T04:35:28.069241,algolia.com,114.114.114.114,A,"['104.16.240.197', '104.17.255.197']",,
+2024-11-15T04:35:28.069241,alfabank.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2400:3200:baba::1
+2024-11-15T04:35:28.069241,aliapp.org,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: aliapp.org on server: 2620:119:35::35
+2024-11-15T04:35:28.069241,aleqaria.com.eg,62.76.62.76,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,119.29.29.29,A,[],NoAnswer,No answer for domain: aliapp.org on server: 119.29.29.29
+2024-11-15T04:35:28.069241,algolia.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.069241,alfabank.ru,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alfabank.ru on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.069241,alibaba-inc.com,8.8.4.4,A,['121.0.17.65'],,
+2024-11-15T04:35:28.069241,algolia.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2400:3200::1
+2024-11-15T04:35:28.069241,aleqaria.com.eg,9.9.9.10,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,alibaba-inc.com,8.8.8.8,A,['121.0.17.65'],,
+2024-11-15T04:35:28.069241,algolia.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.069241,alhurra.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alhurra.com on server: 2400:da00::6666
+2024-11-15T04:35:28.069241,aliapp.org,208.67.222.220,A,[],NoAnswer,No answer for domain: aliapp.org on server: 208.67.222.220
+2024-11-15T04:35:28.069241,aleqaria.com.eg,195.208.4.1,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.069241,algolia.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.069241,aliapp.org,208.67.220.222,A,[],NoAnswer,No answer for domain: aliapp.org on server: 208.67.220.222
+2024-11-15T04:35:28.069241,aleqaria.com.eg,195.208.5.1,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,algolia.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.069241,algolia.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.069241,aliapp.org,218.30.118.6,A,[],NoAnswer,No answer for domain: aliapp.org on server: 218.30.118.6
+2024-11-15T04:35:28.069241,aliapp.org,211.136.17.107,A,[],NoAnswer,No answer for domain: aliapp.org on server: 211.136.17.107
+2024-11-15T04:35:28.069241,alerts.in.ua,8.8.4.4,A,"['104.22.44.225', '104.22.45.225', '172.67.6.115']",,
+2024-11-15T04:35:28.069241,alerts.in.ua,1.0.0.1,A,"['172.67.6.115', '104.22.45.225', '104.22.44.225']",,
+2024-11-15T04:35:28.069241,algolia.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: algolia.com on server: 123.125.81.7
+2024-11-15T04:35:28.069241,alerts.in.ua,1.1.1.1,A,"['172.67.6.115', '104.22.44.225', '104.22.45.225']",,
+2024-11-15T04:35:28.069241,alastonsuomi.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 202.96.128.86
+2024-11-15T04:35:28.069241,algolia.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.069241,algolia.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: algolia.com on server: 9.9.9.9
+2024-11-15T04:35:28.069241,algolia.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.069241,alerts.in.ua,8.8.8.8,A,"['104.22.45.225', '172.67.6.115', '104.22.44.225']",,
+2024-11-15T04:35:28.069241,alfabank.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alfabank.ru on server: 2400:da00::6666
+2024-11-15T04:35:28.069241,algolia.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.069241,aleqaria.com.eg,101.226.4.6,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,alibaba-inc.com,1.1.1.1,A,['121.0.17.65'],,
+2024-11-15T04:35:28.069241,alastonsuomi.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 9.9.9.9
+2024-11-15T04:35:28.069241,alibaba-inc.com,1.0.0.1,A,['121.0.17.65'],,
+2024-11-15T04:35:28.069241,algolia.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.069241,aleqaria.com.eg,117.50.11.11,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,223.5.5.5,A,[],NoAnswer,No answer for domain: aliapp.org on server: 223.5.5.5
+2024-11-15T04:35:28.069241,algolia.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.069241,aleqaria.com.eg,123.125.81.6,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,117.50.11.11,A,[],NoAnswer,No answer for domain: aliapp.org on server: 117.50.11.11
+2024-11-15T04:35:28.069241,aleqaria.com.eg,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 9.9.9.9
+2024-11-15T04:35:28.069241,aleqaria.com.eg,218.30.118.6,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,114.114.115.115,A,[],NoAnswer,No answer for domain: aliapp.org on server: 114.114.115.115
+2024-11-15T04:35:28.069241,algolia.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.069241,aleqaria.com.eg,211.136.17.107,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.069241,aliapp.org,223.6.6.6,A,[],NoAnswer,No answer for domain: aliapp.org on server: 223.6.6.6
+2024-11-15T04:35:28.069241,aliapp.org,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aliapp.org on server: 101.226.4.7
+2024-11-15T04:35:28.069241,aliapp.org,114.114.114.114,A,[],NoAnswer,No answer for domain: aliapp.org on server: 114.114.114.114
+2024-11-15T04:35:28.069241,algolia.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.069241,aliapp.org,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aliapp.org on server: 210.21.196.6
+2024-11-15T04:35:28.069241,algolia.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.069241,aleqaria.com.eg,119.29.29.29,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,94.140.14.14,A,[],NoAnswer,No answer for domain: aliapp.org on server: 94.140.14.14
+2024-11-15T04:35:28.069241,algolia.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2402:4e00::
+2024-11-15T04:35:28.069241,aleqaria.com.eg,180.76.76.76,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,94.140.15.15,A,[],NoAnswer,No answer for domain: aliapp.org on server: 94.140.15.15
+2024-11-15T04:35:28.069241,aleqaria.com.eg,223.5.5.5,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,208.67.222.222,A,[],NoAnswer,No answer for domain: aliapp.org on server: 208.67.222.222
+2024-11-15T04:35:28.069241,algolia.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.069241,aleqaria.com.eg,223.6.6.6,A,"['104.21.34.125', '172.67.205.14']",,
+2024-11-15T04:35:28.069241,aliapp.org,208.67.220.220,A,[],NoAnswer,No answer for domain: aliapp.org on server: 208.67.220.220
+2024-11-15T04:35:28.069241,algolia.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:fe::fe
+2024-11-15T04:35:28.069241,aleqaria.com.eg,114.114.114.114,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,aliapp.org,101.226.4.6,A,[],NoAnswer,No answer for domain: aliapp.org on server: 101.226.4.6
+2024-11-15T04:35:28.069241,algolia.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.069241,aleqaria.com.eg,114.114.115.115,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,algolia.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.069241,aleqaria.com.eg,101.226.4.7,A,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 101.226.4.7
+2024-11-15T04:35:28.069241,aleqaria.com.eg,94.140.14.14,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.069241,algolia.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:119:35::35
+2024-11-15T04:35:28.070241,aleqaria.com.eg,94.140.15.15,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.070241,aliapp.org,123.125.81.6,A,[],NoAnswer,No answer for domain: aliapp.org on server: 123.125.81.6
+2024-11-15T04:35:28.070241,algolia.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:119:53::53
+2024-11-15T04:35:28.070241,aleqaria.com.eg,208.67.222.220,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.070241,aliapp.org,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aliapp.org on server: 123.125.81.7
+2024-11-15T04:35:28.070241,algolia.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:fe::10
+2024-11-15T04:35:28.070241,aleqaria.com.eg,208.67.220.222,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.070241,aliapp.org,9.9.9.10,A,[],NoAnswer,No answer for domain: aliapp.org on server: 9.9.9.10
+2024-11-15T04:35:28.070241,aleqaria.com.eg,208.67.222.222,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.070241,aliapp.org,180.76.76.76,A,[],NoAnswer,No answer for domain: aliapp.org on server: 180.76.76.76
+2024-11-15T04:35:28.070241,algolia.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2620:0:ccd::2
+2024-11-15T04:35:28.070241,aleqaria.com.eg,208.67.220.220,A,"['172.67.205.14', '104.21.34.125']",,
+2024-11-15T04:35:28.070241,algolia.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: algolia.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.070241,alibaba.com,114.114.115.115,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alberta.ca,2a02:6b8::feed:0ff,AAAA,[],NoNameservers,No nameservers for domain: alberta.ca on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.070241,aleqaria.com.eg,123.125.81.7,A,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 123.125.81.7
+2024-11-15T04:35:28.070241,algolianet.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.070241,alibaba.com,208.67.220.222,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.070241,algolianet.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.070241,alibaba.com,94.140.15.15,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,algolia.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:119:35::35
+2024-11-15T04:35:28.070241,algolia.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.070241,alberta.ca,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2a03:90c0:999d::1
+2024-11-15T04:35:28.070241,algolia.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:119:53::53
+2024-11-15T04:35:28.070241,alibaba.com,114.114.114.114,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.070241,algolia.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: algolia.com on server: 2400:da00::6666
+2024-11-15T04:35:28.070241,algolia.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:fe::fe
+2024-11-15T04:35:28.070241,alibaba.com,208.67.222.220,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alberta.ca,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.070241,algolia.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:fe::10
+2024-11-15T04:35:28.070241,alibaba.com,94.140.14.14,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alberta.ca,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:119:53::53
+2024-11-15T04:35:28.070241,algolia.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.070241,alberta.ca,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2606:4700:4700::1001
+2024-11-15T04:35:28.070241,algolia.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.070241,aleqaria.com.eg,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 202.96.128.86
+2024-11-15T04:35:28.070241,alibaba.com,1.0.0.1,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,algolia.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.070241,alberta.ca,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:fe::10
+2024-11-15T04:35:28.070241,algolia.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.070241,alibaba.com,95.85.95.85,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.070241,algolianet.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2606:4700:4700::1111
+2024-11-15T04:35:28.070241,alberta.ca,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:119:35::35
+2024-11-15T04:35:28.070241,alibaba.com,62.76.76.62,A,"['47.246.131.55', '47.246.131.30']",,
+2024-11-15T04:35:28.070241,algolia.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2400:3200::1
+2024-11-15T04:35:28.070241,alberta.ca,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2620:fe::fe
+2024-11-15T04:35:28.070241,aleqaria.com.eg,210.21.196.6,A,[],Timeout,Timeout occurred for domain: aleqaria.com.eg on server: 210.21.196.6
+2024-11-15T04:35:28.070241,alibaba.com,62.76.62.76,A,"['47.246.131.55', '47.246.131.30']",,
+2024-11-15T04:35:28.070241,alibaba.com,2.56.220.2,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.070241,algolianet.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.070241,aliapp.org,9.9.9.9,A,[],Timeout,Timeout occurred for domain: aliapp.org on server: 9.9.9.9
+2024-11-15T04:35:28.070241,alberta.ca,2a02:6b8:0:1::feed:0ff,AAAA,[],NoNameservers,No nameservers for domain: alberta.ca on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.070241,aliapp.org,202.96.128.86,A,[],Timeout,Timeout occurred for domain: aliapp.org on server: 202.96.128.86
+2024-11-15T04:35:28.070241,algolia.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.070241,alastonsuomi.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2400:3200::1
+2024-11-15T04:35:28.070241,algolianet.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.070241,alibaba.com,77.88.8.8,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2400:3200:baba::1
+2024-11-15T04:35:28.070241,algolia.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.070241,alibaba.com,9.9.9.10,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a10:50c0::ad1:ff
+2024-11-15T04:35:28.070241,algolia.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2400:3200:baba::1
+2024-11-15T04:35:28.070241,alibaba.com,208.67.220.220,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a10:50c0::ad2:ff
+2024-11-15T04:35:28.070241,algolia.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:0:ccc::2
+2024-11-15T04:35:28.070241,alibaba.com,195.208.5.1,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alberta.ca,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.070241,algolia.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2620:0:ccd::2
+2024-11-15T04:35:28.070241,alibaba.com,208.67.222.222,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alberta.ca,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2001:4860:4860::8844
+2024-11-15T04:35:28.070241,algolianet.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2620:fe::fe
+2024-11-15T04:35:28.070241,alibaba.com,195.208.4.1,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alibaba.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: alibaba.com on server: 202.96.128.86
+2024-11-15T04:35:28.070241,alastonsuomi.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2402:4e00::
+2024-11-15T04:35:28.070241,alberta.ca,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: alberta.ca on server: 2001:4860:4860::8888
+2024-11-15T04:35:28.070241,algolianet.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.070241,alibaba.com,8.8.4.4,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:fe::10
+2024-11-15T04:35:28.070241,algolia.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: algolia.net on server: 2402:4e00::
+2024-11-15T04:35:28.070241,alibaba.com,1.1.1.1,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:119:35::35
+2024-11-15T04:35:28.070241,algolianet.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2001:6d0:d6::2001
+2024-11-15T04:35:28.070241,alibaba.com,77.88.8.1,A,"['47.246.131.30', '47.246.131.55']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:119:53::53
+2024-11-15T04:35:28.070241,algolianet.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.070241,alibaba.com,8.8.8.8,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:0:ccc::2
+2024-11-15T04:35:28.070241,algolia.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: algolia.net on server: 2400:da00::6666
+2024-11-15T04:35:28.070241,alibaba.com,223.6.6.6,A,"['203.119.204.130', '203.119.238.27']",,
+2024-11-15T04:35:28.070241,alberta.ca,2a0c:a9c7:8::1,AAAA,[],Timeout,Timeout occurred for domain: alberta.ca on server: 2a0c:a9c7:8::1
+2024-11-15T04:35:28.070241,alastonsuomi.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.070241,alibaba.com,119.29.29.29,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alastonsuomi.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: alastonsuomi.com on server: 2620:fe::fe
+2024-11-15T04:35:28.070241,algolianet.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.070241,alibaba.com,223.5.5.5,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,algolianet.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a03:90c0:9992::1
+2024-11-15T04:35:28.070241,alibaba.com,180.76.76.76,A,"['203.119.238.27', '203.119.204.130']",,
+2024-11-15T04:35:28.070241,alberta.ca,2a0c:a9c7:9::1,AAAA,[],Timeout,Timeout occurred for domain: alberta.ca on server: 2a0c:a9c7:9::1
+2024-11-15T04:35:28.070241,algolianet.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a02:6b8::feed:0ff
+2024-11-15T04:35:28.070241,alerts.in.ua,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alerts.in.ua on server: 101.226.4.7
+2024-11-15T04:35:28.070241,alastonsuomi.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: alastonsuomi.com on server: 2400:da00::6666
+2024-11-15T04:35:28.070241,alibaba.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: alibaba.com on server: 9.9.9.9
+2024-11-15T04:35:28.070241,alibaba-inc.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: alibaba-inc.com on server: 101.226.4.7
+2024-11-15T04:35:28.070241,algolianet.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: algolianet.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-15T04:35:28.070241,alberta.ca,2001:6d0:6d0::2001,AAAA,[],Timeout,Timeout occurred for domain: alberta.ca on server: 2001:6d0:6d0::2001
+2024-11-15T04:35:28.070241,alberta.ca,2001:6d0:d6::2001,AAAA,[],Timeout,Timeout occurred for domain: alberta.ca on server: 2001:6d0:d6::2001
