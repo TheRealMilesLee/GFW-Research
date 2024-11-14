@@ -18,37 +18,37 @@ except OperationFailure as e:
 #connect to collection
 
 class MongoDBHandler:
-  def __init__(self, collection):
-    self.collection = collection
+    def __init__(self, collection):
+        self.collection = collection
 
-  def find_one_and_update(self, data: dict) -> None:
-    if self.collection.find_one(data):
-      self.collection.update_one(data, {"$set": data})
-    else:
-      self.collection.insert_one(data)
+    def find_one_and_update(self, query: dict, update_data: dict, upsert: bool) -> None:
+        """
+        Find one document and update it with the specified update data.
+        `update_data` should include MongoDB operators like $set or $addToSet.
+        """
+        self.collection.find_one_and_update(query, update_data, upsert=upsert)
 
+    def delete_many(self, data: dict) -> None:
+        self.collection.delete_many(data)
 
-  def delete_many(self, data: dict) -> None:
-    self.collection.delete_many(data)
+    def lookup(self, data: dict) -> bool:
+        return bool(self.collection.find_one(data))
 
-  def lookup(self, data: dict) -> bool:
-    if self.collection.find_one(data):
-      return True
-    return False
+    def insert_one(self, data: dict) -> None:
+        self.collection.insert_one(data)
 
-  def insert_one(self, data: dict) -> None:
-    self.collection.insert_one(data)
+    def delete_one(self, data: dict) -> None:
+        self.collection.delete_one(data)
 
+    def update_one(self, query: dict, update_data: dict, upsert: bool) -> None:
+        """
+        Update one document with the specified update data.
+        `update_data` should include MongoDB operators like $set or $addToSet.
+        """
+        self.collection.update_one(query, update_data, upsert=upsert)
 
-  def delete_one(self, data: dict) -> None:
-    self.collection.delete_one(data)
+    def aggregate(self, pipeline: list) -> list:
+        return list(self.collection.aggregate(pipeline))
 
-
-  def update_one(self, data: dict) -> None:
-    self.collection.update_one(data, {"$set": data})
-
-  def aggregate(self, pipeline: list) -> list:
-    return self.collection.aggregate(pipeline)
-
-  def find(self, data: dict) -> list:
-    return self.collection.find(data)
+    def find(self, data: dict) -> list:
+        return list(self.collection.find(data))
