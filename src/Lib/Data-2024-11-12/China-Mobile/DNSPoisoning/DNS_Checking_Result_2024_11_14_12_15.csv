@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T12:15:31.474522,baycrews.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2400:3200::1
+2024-11-14T12:15:31.474522,battle.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.474522,bayer.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.474522,batotoo.com,2402:4e00::,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.474522,basspro.com,119.29.29.29,A,['23.50.25.61'],,
+2024-11-14T12:15:31.474522,bayer.com,117.50.11.11,A,['75.2.28.136'],,
+2024-11-14T12:15:31.474522,bayern.de,1.1.1.1,A,['195.200.71.187'],,
+2024-11-14T12:15:31.474522,bayer.com,123.125.81.6,A,['75.2.28.136'],,
+2024-11-14T12:15:31.474522,baseball-reference.com,2.56.220.2,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.474522,batch.com,119.29.29.29,A,['76.76.21.21'],,
+2024-11-14T12:15:31.474522,battle.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.474522,baseball-reference.com,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T12:15:31.474522,bayern.de,1.0.0.1,A,['195.200.71.187'],,
+2024-11-14T12:15:31.474522,bathandbodyworks.com,195.208.4.1,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.474522,bayer.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.474522,bayer.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.474522,baseball-reference.com,208.67.220.222,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.474522,bathandbodyworks.com,1.0.0.1,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.474522,baseball-reference.com,94.140.14.14,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.474522,bayern.de,195.208.5.1,A,['195.200.71.187'],,
+2024-11-14T12:15:31.474522,batch.com,114.114.114.114,A,['76.76.21.21'],,
+2024-11-14T12:15:31.474522,bayer.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.474522,batotoo.com,2400:3200::1,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.474522,batotoo.com,2620:fe::10,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.474522,basspro.com,2.56.220.2,A,['23.210.101.89'],,
+2024-11-14T12:15:31.474522,bayer.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.474522,bayer.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.474522,bayern.de,62.76.62.76,A,['195.200.71.187'],,
+2024-11-14T12:15:31.474522,batotoo.com,2620:119:35::35,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.474522,bathandbodyworks.com,62.76.76.62,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.474522,baseball-reference.com,208.67.222.222,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.474522,bathandbodyworks.com,62.76.62.76,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.474522,baseball-reference.com,208.67.222.220,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.474522,battle.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.474522,bayer.com,218.30.118.6,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,bayer.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.475522,bathandbodyworks.com,95.85.95.85,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.475522,bayern.de,195.208.4.1,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,bayern.de,9.9.9.10,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,baycrews.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.475522,battle.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.475522,baseball-reference.com,195.208.5.1,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T12:15:31.475522,baycrews.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.475522,bayern.de,77.88.8.8,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,208.67.222.222,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.475522,bayern.de,62.76.76.62,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,9.9.9.10,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,77.88.8.8,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.475522,bayern.de,77.88.8.1,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,208.67.220.220,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.475522,basspro.com,195.208.4.1,A,['23.54.5.251'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,77.88.8.1,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.475522,batch.com,117.50.11.11,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,baycrews.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2400:3200:baba::1
+2024-11-14T12:15:31.475522,baseball-reference.com,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T12:15:31.475522,basspro.com,77.88.8.8,A,['23.43.16.253'],,
+2024-11-14T12:15:31.475522,batch.com,223.5.5.5,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,bayer.com,223.6.6.6,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,batotoo.com,2400:3200:baba::1,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.475522,baycrews.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2402:4e00::
+2024-11-14T12:15:31.475522,baseball-reference.com,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T12:15:31.475522,basspro.com,62.76.76.62,A,['23.36.235.95'],,
+2024-11-14T12:15:31.475522,batch.com,223.6.6.6,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,bayer.com,119.29.29.29,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,battle.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.475522,baycrews.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:0:ccc::2
+2024-11-14T12:15:31.475522,batch.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: batch.com on server: 210.21.196.6
+2024-11-14T12:15:31.475522,basspro.com,208.67.220.220,A,['23.7.209.218'],,
+2024-11-14T12:15:31.475522,bayern.de,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bayern.de on server: 9.9.9.9
+2024-11-14T12:15:31.475522,bayern.de,2.56.220.2,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,batotoo.com,2620:fe::fe,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.475522,baycrews.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:0:ccd::2
+2024-11-14T12:15:31.475522,baseball-reference.com,8.8.8.8,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 9.9.9.9
+2024-11-14T12:15:31.475522,batch.com,114.114.115.115,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,batotoo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: batotoo.com on server: 2400:da00::6666
+2024-11-14T12:15:31.475522,bayer.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.475522,basspro.com,195.208.5.1,A,['23.46.119.205'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 9.9.9.9
+2024-11-14T12:15:31.475522,bathandbodyworks.com,1.1.1.1,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.475522,bayer.com,180.76.76.76,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T12:15:31.475522,baycrews.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 2400:da00::6666
+2024-11-14T12:15:31.475522,batotoo.com,2620:0:ccd::2,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,basspro.com,9.9.9.10,A,['23.197.129.29'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,9.9.9.10,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.475522,bayer.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:119:53::53
+2024-11-14T12:15:31.475522,baseball-reference.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T12:15:31.475522,batotoo.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,8.8.4.4,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.475522,basspro.com,208.67.222.222,A,['23.7.209.218'],,
+2024-11-14T12:15:31.475522,batotoo.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,bartleby.com,101.226.4.6,A,"['108.157.254.36', '108.157.254.38', '108.157.254.111', '108.157.254.58']",,
+2024-11-14T12:15:31.475522,bayer.com,114.114.114.114,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,basspro.com,223.6.6.6,A,['23.7.209.218'],,
+2024-11-14T12:15:31.475522,bayer.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.475522,bayern.de,8.8.4.4,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,195.208.5.1,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.475522,battle.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.475522,bayer.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:fe::10
+2024-11-14T12:15:31.475522,baseball-reference.com,1.1.1.1,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.475522,basspro.com,62.76.62.76,A,['23.54.5.251'],,
+2024-11-14T12:15:31.475522,bayer.com,211.136.17.107,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,bayer.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bayer.com on server: 210.21.196.6
+2024-11-14T12:15:31.475522,bayer.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:119:35::35
+2024-11-14T12:15:31.475522,battle.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.475522,basspro.com,223.5.5.5,A,['23.47.103.178'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,8.8.8.8,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.475522,baseball-reference.com,95.85.95.85,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.475522,bayer.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2620:fe::fe
+2024-11-14T12:15:31.475522,baseball-reference.com,8.8.4.4,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.475522,basspro.com,208.67.222.220,A,['23.7.209.218'],,
+2024-11-14T12:15:31.475522,batch.com,101.226.4.6,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,bayer.com,101.226.4.6,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,battle.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.475522,basspro.com,208.67.220.222,A,['23.7.209.218'],,
+2024-11-14T12:15:31.475522,bartleby.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bartleby.com on server: 101.226.4.7
+2024-11-14T12:15:31.475522,batch.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: batch.com on server: 202.96.128.86
+2024-11-14T12:15:31.475522,battle.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.475522,bayer.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.475522,baseball-reference.com,1.0.0.1,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.475522,basspro.com,94.140.14.14,A,['23.5.2.2'],,
+2024-11-14T12:15:31.475522,bartleby.com,117.50.11.11,A,"['108.157.254.111', '108.157.254.58', '108.157.254.36', '108.157.254.38']",,
+2024-11-14T12:15:31.475522,batch.com,218.30.118.6,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,batotoo.com,2620:119:53::53,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,basspro.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: basspro.com on server: 9.9.9.9
+2024-11-14T12:15:31.475522,bartleby.com,123.125.81.6,A,"['108.157.254.36', '108.157.254.38', '108.157.254.111', '108.157.254.58']",,
+2024-11-14T12:15:31.475522,bayer.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.475522,bayer.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bayer.com on server: 202.96.128.86
+2024-11-14T12:15:31.475522,basspro.com,77.88.8.1,A,['184.30.240.243'],,
+2024-11-14T12:15:31.475522,batch.com,211.136.17.107,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,batotoo.com,2620:0:ccc::2,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,bayern.de,95.85.95.85,A,['195.200.71.187'],,
+2024-11-14T12:15:31.475522,bartleby.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bartleby.com on server: 123.125.81.7
+2024-11-14T12:15:31.475522,bayer.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.475522,bayer.com,114.114.115.115,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,114.114.115.115,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.475522,basspro.com,94.140.15.15,A,['23.5.2.2'],,
+2024-11-14T12:15:31.475522,baseball-reference.com,114.114.114.114,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.475522,batch.com,180.76.76.76,A,['76.76.21.21'],,
+2024-11-14T12:15:31.475522,bathandbodyworks.com,2.56.220.2,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.475522,bayer.com,223.5.5.5,A,['75.2.28.136'],,
+2024-11-14T12:15:31.475522,batotoo.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.475522,baseball-reference.com,94.140.15.15,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.475522,batch.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: batch.com on server: 101.226.4.7
+2024-11-14T12:15:31.475522,batotoo.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3121::1', '2a06:98c1:3120::1']",,
+2024-11-14T12:15:31.476523,bayer.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.476523,bayern.de,8.8.8.8,A,['195.200.71.187'],,
+2024-11-14T12:15:31.476523,batch.com,123.125.81.6,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,batotoo.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.476523,bayer.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.476523,batch.com,77.88.8.1,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,bato.to,195.208.4.1,A,[],NXDOMAIN,Non-existent domain: bato.to on server: 195.208.4.1
+2024-11-14T12:15:31.476523,bathandbodyworks.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.476523,baycrews.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:119:53::53
+2024-11-14T12:15:31.476523,basspro.com,114.114.114.114,A,['23.47.103.178'],,
+2024-11-14T12:15:31.476523,basspro.com,114.114.115.115,A,['23.47.103.178'],,
+2024-11-14T12:15:31.476523,basecamp.com,208.67.220.222,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.476523,bato.to,195.208.5.1,A,[],NXDOMAIN,Non-existent domain: bato.to on server: 195.208.5.1
+2024-11-14T12:15:31.476523,basspro.com,123.125.81.6,A,['23.7.209.218'],,
+2024-11-14T12:15:31.476523,batch.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.476523,batch.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: batch.com on server: 123.125.81.7
+2024-11-14T12:15:31.476523,batotoo.com,101.226.4.6,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.476523,basspro.com,101.226.4.6,A,['23.7.209.218'],,
+2024-11-14T12:15:31.476523,bayer.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bayer.com on server: 123.125.81.7
+2024-11-14T12:15:31.476523,batch.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.476523,battwo.com,2620:119:35::35,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.476523,basf.com,8.8.8.8,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,bato.to,9.9.9.10,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,battle.net,195.208.4.1,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,batch.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.476523,basf.com,62.76.62.76,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,batch.com,1.1.1.1,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,bayer.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bayer.com on server: 101.226.4.7
+2024-11-14T12:15:31.476523,battle.net,195.208.5.1,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,batch.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.476523,baycrews.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:fe::10
+2024-11-14T12:15:31.476523,batch.com,8.8.8.8,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,bato.to,114.114.115.115,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,battle.net,208.67.220.222,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,basecamp.com,101.226.4.6,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,batch.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.476523,baycrews.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:119:35::35
+2024-11-14T12:15:31.476523,batch.com,8.8.4.4,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,basecamp.com,117.50.11.11,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,bato.to,2.56.220.2,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,batotoo.com,117.50.11.11,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.476523,batch.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.476523,baycrews.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.476523,basecamp.com,123.125.81.6,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,bato.to,94.140.15.15,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,basecamp.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: basecamp.com on server: 123.125.81.7
+2024-11-14T12:15:31.476523,batch.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.476523,battle.net,94.140.14.14,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2620:fe::fe
+2024-11-14T12:15:31.476523,battle.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: battle.net on server: 9.9.9.9
+2024-11-14T12:15:31.476523,basf.com,195.208.4.1,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.476523,bato.to,77.88.8.8,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,basf.com,195.208.5.1,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,batch.com,94.140.14.14,A,['0.0.0.0'],,
+2024-11-14T12:15:31.476523,battwo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: battwo.com on server: 2400:da00::6666
+2024-11-14T12:15:31.476523,battle.net,1.1.1.1,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,bato.to,62.76.76.62,A,[],NXDOMAIN,Non-existent domain: bato.to on server: 62.76.76.62
+2024-11-14T12:15:31.476523,basspro.com,180.76.76.76,A,['23.47.103.178'],,
+2024-11-14T12:15:31.476523,basf.com,77.88.8.1,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,basecamp.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: basecamp.com on server: 101.226.4.7
+2024-11-14T12:15:31.476523,battle.net,1.0.0.1,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,batch.com,208.67.220.222,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,bato.to,223.6.6.6,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,bathandbodyworks.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.476523,batotoo.com,123.125.81.6,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.476523,batch.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.476523,basf.com,62.76.76.62,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,basecamp.com,94.140.15.15,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,baycrews.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.476523,baycrews.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.476523,bato.to,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bato.to on server: 9.9.9.9
+2024-11-14T12:15:31.476523,bathandbodyworks.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.476523,battle.net,62.76.62.76,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,bato.to,218.30.118.6,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,bato.to,211.136.17.107,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,basecamp.com,94.140.14.14,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.476523,basspro.com,211.136.17.107,A,['104.115.173.49'],,
+2024-11-14T12:15:31.476523,batotoo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: batotoo.com on server: 123.125.81.7
+2024-11-14T12:15:31.476523,basecamp.com,223.6.6.6,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,batch.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:119:35::35
+2024-11-14T12:15:31.476523,battle.net,8.8.8.8,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.476523,batch.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:119:53::53
+2024-11-14T12:15:31.476523,battle.net,62.76.76.62,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.476523,bato.to,208.67.222.222,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,basecamp.com,119.29.29.29,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,baycrews.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.476523,batch.com,195.208.5.1,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,batch.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:fe::10
+2024-11-14T12:15:31.476523,basf.com,2.56.220.2,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,batotoo.com,218.30.118.6,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.476523,batotoo.com,211.136.17.107,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.476523,batch.com,94.140.15.15,A,['0.0.0.0'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.476523,bato.to,1.0.0.1,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,bato.to,114.114.114.114,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,batch.com,1.0.0.1,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,battwo.com,2402:4e00::,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.476523,basf.com,77.88.8.8,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,battle.net,77.88.8.1,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,basf.com,1.0.0.1,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.476523,bato.to,95.85.95.85,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,batch.com,77.88.8.8,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,battwo.com,2400:3200::1,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.476523,basf.com,95.85.95.85,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,bato.to,223.5.5.5,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,basspro.com,117.50.11.11,A,['23.7.209.218'],,
+2024-11-14T12:15:31.476523,batch.com,2a10:50c0::ad2:ff,AAAA,['::'],,
+2024-11-14T12:15:31.476523,battwo.com,2400:3200:baba::1,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.476523,basecamp.com,114.114.115.115,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.476523,basspro.com,218.30.118.6,A,['23.7.209.218'],,
+2024-11-14T12:15:31.476523,bato.to,208.67.220.220,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,basspro.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: basspro.com on server: 123.125.81.7
+2024-11-14T12:15:31.476523,batch.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2400:3200::1
+2024-11-14T12:15:31.476523,battwo.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.476523,basecamp.com,223.5.5.5,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.476523,batch.com,208.67.220.220,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,bato.to,208.67.222.220,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,battle.net,2.56.220.2,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,batch.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.476523,basspro.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: basspro.com on server: 101.226.4.7
+2024-11-14T12:15:31.476523,basf.com,8.8.4.4,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,bato.to,208.67.220.222,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.476523,batch.com,95.85.95.85,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,batch.com,2a10:50c0::ad1:ff,AAAA,['::'],,
+2024-11-14T12:15:31.476523,battle.net,77.88.8.8,A,['137.221.106.104'],,
+2024-11-14T12:15:31.476523,basf.com,1.1.1.1,A,['13.248.131.227'],,
+2024-11-14T12:15:31.476523,batch.com,208.67.222.222,A,['76.76.21.21'],,
+2024-11-14T12:15:31.476523,baycrews.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.476523,batotoo.com,119.29.29.29,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.476523,bato.to,94.140.14.14,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.476523,battwo.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.477521,batch.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2402:4e00::
+2024-11-14T12:15:31.477521,batch.com,208.67.222.220,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,basecamp.com,218.30.118.6,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.477521,batotoo.com,180.76.76.76,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.477521,baycrews.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.477521,basecamp.com,211.136.17.107,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.477521,basspro.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: basspro.com on server: 202.96.128.86
+2024-11-14T12:15:31.477521,battle.net,8.8.4.4,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,batch.com,9.9.9.10,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,battwo.com,2620:0:ccd::2,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,batch.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.477521,basecamp.com,180.76.76.76,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.477521,batch.com,2.56.220.2,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,battle.net,95.85.95.85,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,batch.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2620:fe::fe
+2024-11-14T12:15:31.477521,battwo.com,2620:0:ccc::2,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.477521,basecamp.com,114.114.114.114,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.477521,batch.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: batch.com on server: 2400:da00::6666
+2024-11-14T12:15:31.477521,batch.com,195.208.4.1,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,bato.to,119.29.29.29,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.477521,battle.net,9.9.9.10,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,baycrews.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baycrews.jp on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.477521,batch.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.477521,batotoo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: batotoo.com on server: 101.226.4.7
+2024-11-14T12:15:31.477521,basspro.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: basspro.com on server: 210.21.196.6
+2024-11-14T12:15:31.477521,battle.net,208.67.222.222,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,bato.to,62.76.62.76,A,[],NXDOMAIN,Non-existent domain: bato.to on server: 62.76.62.76
+2024-11-14T12:15:31.477521,battwo.com,2620:119:53::53,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,batotoo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: batotoo.com on server: 202.96.128.86
+2024-11-14T12:15:31.477521,bato.to,180.76.76.76,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.477521,batch.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.477521,battle.net,208.67.220.220,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,batch.com,62.76.76.62,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,batch.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.477521,batch.com,62.76.62.76,A,['76.76.21.21'],,
+2024-11-14T12:15:31.477521,battle.net,208.67.222.220,A,['137.221.106.104'],,
+2024-11-14T12:15:31.477521,bato.to,77.88.8.1,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.477521,basspro.com,8.8.8.8,A,['23.7.209.218'],,
+2024-11-14T12:15:31.477521,batch.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.477521,batmanapollo.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.477521,battle.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.477521,battle.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:119:35::35
+2024-11-14T12:15:31.477521,basspro.com,8.8.4.4,A,['23.7.209.218'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2400:3200:baba::1
+2024-11-14T12:15:31.477521,battle.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:fe::fe
+2024-11-14T12:15:31.477521,baskatip.com.tr,94.140.14.14,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,baskatip.com.tr,208.67.222.220,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2402:4e00::
+2024-11-14T12:15:31.477521,battle.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:fe::10
+2024-11-14T12:15:31.477521,bato.to,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.477521,battle.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.477521,baskatip.com.tr,208.67.220.220,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,battwo.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,batotoo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: batotoo.com on server: 210.21.196.6
+2024-11-14T12:15:31.477521,batmanapollo.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.477521,battwo.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,baskatip.com.tr,208.67.220.222,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:0:ccc::2
+2024-11-14T12:15:31.477521,battwo.com,2620:fe::10,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,bato.to,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bato.to on server: 202.96.128.86
+2024-11-14T12:15:31.477521,baskatip.com.tr,180.76.76.76,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,battwo.com,2620:fe::fe,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,bato.to,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bato.to on server: 210.21.196.6
+2024-11-14T12:15:31.477521,baskatip.com.tr,223.6.6.6,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.477521,battwo.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.477521,basecamp.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: basecamp.com on server: 202.96.128.86
+2024-11-14T12:15:31.477521,batch.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: batch.com on server: 9.9.9.9
+2024-11-14T12:15:31.477521,baskatip.com.tr,119.29.29.29,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,bato.to,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.477521,battwo.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,baskatip.com.tr,9.9.9.10,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2400:3200::1
+2024-11-14T12:15:31.477521,baskatip.com.tr,208.67.222.222,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,battwo.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,battwo.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3121::3', '2a06:98c1:3120::3']",,
+2024-11-14T12:15:31.477521,basecamp.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: basecamp.com on server: 210.21.196.6
+2024-11-14T12:15:31.477521,battle.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:0:ccc::2
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:fe::fe
+2024-11-14T12:15:31.477521,battle.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:0:ccd::2
+2024-11-14T12:15:31.477521,batmanapollo.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.477521,baskatip.com.tr,101.226.4.6,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:fe::10
+2024-11-14T12:15:31.477521,baskatip.com.tr,223.5.5.5,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,baskatip.com.tr,114.114.114.114,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.477521,baskatip.com.tr,211.136.17.107,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,baskatip.com.tr,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 101.226.4.7
+2024-11-14T12:15:31.477521,battle.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2400:3200:baba::1
+2024-11-14T12:15:31.477521,baskatip.com.tr,123.125.81.6,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,bato.to,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:0:ccd::2
+2024-11-14T12:15:31.477521,battle.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2402:4e00::
+2024-11-14T12:15:31.477521,baskatip.com.tr,94.140.15.15,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,bato.to,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.477521,battle.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.477521,battle.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2400:3200::1
+2024-11-14T12:15:31.477521,baskatip.com.tr,114.114.115.115,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,batmanapollo.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.477521,battwo.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,baskatip.com.tr,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 123.125.81.7
+2024-11-14T12:15:31.477521,baskatip.com.tr,218.30.118.6,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,battle.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:119:35::35
+2024-11-14T12:15:31.477521,baskatip.com.tr,195.208.5.1,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,battle.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2620:119:53::53
+2024-11-14T12:15:31.477521,batmanapollo.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2620:119:53::53
+2024-11-14T12:15:31.477521,battle.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: battle.net on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.477521,baskatip.com.tr,62.76.62.76,A,['185.216.114.10'],,
+2024-11-14T12:15:31.477521,bato.to,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.477521,battwo.com,2606:4700:4700::1111,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.477521,baskatip.com.tr,195.208.4.1,A,['185.216.114.10'],,
+2024-11-14T12:15:31.478523,battwo.com,2606:4700:4700::1001,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.478523,baskatip.com.tr,77.88.8.1,A,['185.216.114.10'],,
+2024-11-14T12:15:31.478523,baskatip.com.tr,117.50.11.11,A,['185.216.114.10'],,
+2024-11-14T12:15:31.478523,battwo.com,2001:4860:4860::8888,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.478523,batmanapollo.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 2400:da00::6666
+2024-11-14T12:15:31.478523,baskatip.com.tr,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 202.96.128.86
+2024-11-14T12:15:31.478523,baskatip.com.tr,62.76.76.62,A,['185.216.114.10'],,
+2024-11-14T12:15:31.478523,battwo.com,2001:4860:4860::8844,AAAA,"['2606:4700:3031::ac43:d713', '2606:4700:3035::6815:5630']",,
+2024-11-14T12:15:31.478523,battwo.com,208.67.222.222,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,batmanapollo.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.478523,battwo.com,2a03:90c0:9992::1,AAAA,"['2606:4700:3035::6815:5630', '2606:4700:3031::ac43:d713']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,223.5.5.5,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.478523,batotoo.com,208.67.222.220,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.478523,batotoo.com,77.88.8.1,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,battwo.com,208.67.220.220,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,batotoo.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3120::3', '2a06:98c1:3121::3']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,223.6.6.6,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.478523,bato.to,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:fe::10
+2024-11-14T12:15:31.478523,bayern.de,180.76.76.76,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,battwo.com,119.29.29.29,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,batotoo.com,77.88.8.8,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,basecamp.com,208.67.220.220,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,batotoo.com,223.5.5.5,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,bayern.de,218.30.118.6,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,batotoo.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.478523,battwo.com,195.208.4.1,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,bato.to,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.478523,basecamp.com,2.56.220.2,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,batotoo.com,195.208.4.1,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,battwo.com,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T12:15:31.478523,bato.to,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2402:4e00::
+2024-11-14T12:15:31.478523,batotoo.com,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T12:15:31.478523,basecamp.com,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T12:15:31.478523,battwo.com,114.114.114.114,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,bartleby.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.478523,bato.to,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:119:35::35
+2024-11-14T12:15:31.478523,basecamp.com,1.1.1.1,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,batotoo.com,94.140.15.15,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,batotoo.com,2001:4860:4860::8888,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.478523,bartleby.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.478523,basecamp.com,95.85.95.85,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.478523,battle.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: battle.net on server: 2400:da00::6666
+2024-11-14T12:15:31.478523,batotoo.com,2606:4700:4700::1111,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.478523,baskatip.com.tr,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 210.21.196.6
+2024-11-14T12:15:31.478523,batmanapollo.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.478523,bato.to,117.50.11.11,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.478523,bayern.de,119.29.29.29,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,baskatip.com.tr,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 9.9.9.9
+2024-11-14T12:15:31.478523,basecamp.com,8.8.8.8,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,batotoo.com,208.67.222.222,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,bayern.de,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bayern.de on server: 123.125.81.7
+2024-11-14T12:15:31.478523,bartleby.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.478523,bato.to,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2400:3200:baba::1
+2024-11-14T12:15:31.478523,basecamp.com,8.8.4.4,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,bayern.de,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bayern.de on server: 210.21.196.6
+2024-11-14T12:15:31.478523,baycrews.jp,8.8.8.8,A,['184.84.53.49'],,
+2024-11-14T12:15:31.478523,bartleby.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.478523,bato.to,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:0:ccd::2
+2024-11-14T12:15:31.478523,basecamp.com,1.0.0.1,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.478523,batotoo.com,208.67.220.220,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.478523,battwo.com,208.67.222.220,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,bayern.de,123.125.81.6,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,bato.to,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.478523,bato.to,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bato.to on server: 101.226.4.7
+2024-11-14T12:15:31.478523,battwo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: battwo.com on server: 123.125.81.7
+2024-11-14T12:15:31.478523,bayern.de,101.226.4.6,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,batotoo.com,2606:4700:4700::1001,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.478523,battwo.com,117.50.11.11,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 101.226.4.7
+2024-11-14T12:15:31.478523,batotoo.com,9.9.9.10,A,"['188.114.97.4', '188.114.96.4']",,
+2024-11-14T12:15:31.478523,battwo.com,114.114.115.115,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,123.125.81.6,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.478523,bayern.de,94.140.15.15,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,batotoo.com,94.140.14.14,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,218.30.118.6,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.478523,bato.to,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:119:53::53
+2024-11-14T12:15:31.478523,battwo.com,180.76.76.76,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,211.136.17.107,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.478523,bayern.de,211.136.17.107,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,batotoo.com,95.85.95.85,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.478523,bato.to,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:0:ccc::2
+2024-11-14T12:15:31.478523,bartleby.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.478523,batotoo.com,8.8.4.4,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,117.50.11.11,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.478523,battwo.com,101.226.4.6,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,battwo.com,123.125.81.6,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,baseball-reference.com,101.226.4.6,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.478523,bato.to,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2620:fe::fe
+2024-11-14T12:15:31.478523,batotoo.com,2.56.220.2,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.478523,battwo.com,218.30.118.6,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,bayern.de,94.140.14.14,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,battwo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: battwo.com on server: 101.226.4.7
+2024-11-14T12:15:31.478523,bato.to,2a0c:a9c7:8::1,AAAA,[],NXDOMAIN,Non-existent domain: bato.to on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.478523,batotoo.com,2001:4860:4860::8844,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.478523,battwo.com,211.136.17.107,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.478523,bato.to,123.125.81.6,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.478523,battwo.com,223.5.5.5,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.478523,bato.to,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bato.to on server: 2400:da00::6666
+2024-11-14T12:15:31.478523,bayern.de,223.5.5.5,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,baseball-reference.com,119.29.29.29,A,"['104.18.22.245', '104.18.23.245']",,
+2024-11-14T12:15:31.478523,batotoo.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3035::6815:5757', '2606:4700:3030::ac43:8e88']",,
+2024-11-14T12:15:31.478523,basspro.com,1.0.0.1,A,['23.42.84.29'],,
+2024-11-14T12:15:31.478523,batotoo.com,62.76.76.62,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.478523,bayern.de,223.6.6.6,A,['195.200.71.187'],,
+2024-11-14T12:15:31.478523,bato.to,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.478523,baseball-reference.com,180.76.76.76,A,"['104.18.23.245', '104.18.22.245']",,
+2024-11-14T12:15:31.478523,batotoo.com,62.76.62.76,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T12:15:31.478523,bartleby.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.478523,basecamp.com,208.67.222.222,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.478523,battwo.com,9.9.9.10,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,bayern.de,117.50.11.11,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,bato.to,2001:6d0:d6::2001,AAAA,[],NXDOMAIN,Non-existent domain: bato.to on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.479522,basecamp.com,208.67.222.220,A,"['104.18.15.58', '104.18.14.58']",,
+2024-11-14T12:15:31.479522,batotoo.com,114.114.115.115,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.479522,bato.to,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bato.to on server: 123.125.81.7
+2024-11-14T12:15:31.479522,bayern.de,208.67.222.222,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,bato.to,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.479522,batotoo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: batotoo.com on server: 9.9.9.9
+2024-11-14T12:15:31.479522,baseball-reference.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 123.125.81.7
+2024-11-14T12:15:31.479522,bayern.de,208.67.220.220,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,basecamp.com,9.9.9.10,A,"['104.18.14.58', '104.18.15.58']",,
+2024-11-14T12:15:31.479522,bato.to,101.226.4.6,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.479522,batotoo.com,1.0.0.1,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.479522,battwo.com,208.67.220.222,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.479522,bato.to,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.479522,basecamp.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T12:15:31.479522,batotoo.com,8.8.8.8,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.479522,battwo.com,94.140.14.14,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,batotoo.com,2a03:90c0:9992::1,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.479522,bayern.de,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bayern.de on server: 202.96.128.86
+2024-11-14T12:15:31.479522,batotoo.com,208.67.220.222,A,"['104.21.87.87', '172.67.142.136']",,
+2024-11-14T12:15:31.479522,basecamp.com,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T12:15:31.479522,battwo.com,94.140.15.15,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,bato.to,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bato.to on server: 2400:3200::1
+2024-11-14T12:15:31.479522,bayern.de,208.67.222.220,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,basecamp.com,62.76.76.62,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T12:15:31.479522,basspro.com,1.1.1.1,A,['23.42.115.32'],,
+2024-11-14T12:15:31.479522,batotoo.com,1.1.1.1,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.479522,baseball-reference.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 202.96.128.86
+2024-11-14T12:15:31.479522,bato.to,2a0c:a9c7:9::1,AAAA,[],NXDOMAIN,Non-existent domain: bato.to on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.479522,baseball-reference.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 210.21.196.6
+2024-11-14T12:15:31.479522,bayern.de,208.67.220.222,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,batotoo.com,223.6.6.6,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.479522,basspro.com,95.85.95.85,A,['23.210.101.89'],,
+2024-11-14T12:15:31.479522,basecamp.com,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T12:15:31.479522,battwo.com,223.6.6.6,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,bayern.de,114.114.114.114,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,batotoo.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3030::ac43:8e88', '2606:4700:3035::6815:5757']",,
+2024-11-14T12:15:31.479522,batotoo.com,114.114.114.114,A,"['172.67.142.136', '104.21.87.87']",,
+2024-11-14T12:15:31.479522,bayern.de,114.114.115.115,A,['195.200.71.187'],,
+2024-11-14T12:15:31.479522,bayer.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.479522,bato.to,2001:6d0:6d0::2001,AAAA,[],NXDOMAIN,Non-existent domain: bato.to on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.479522,basecamp.com,77.88.8.1,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T12:15:31.479522,bayern.de,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.479522,bayern.de,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:119:53::53
+2024-11-14T12:15:31.479522,bayern.de,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:119:35::35
+2024-11-14T12:15:31.479522,bayern.de,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.479522,bayern.de,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.479522,bayer.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2400:3200::1
+2024-11-14T12:15:31.479522,bayer.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.479522,bayern.de,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:fe::fe
+2024-11-14T12:15:31.479522,battwo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: battwo.com on server: 9.9.9.9
+2024-11-14T12:15:31.479522,bayern.de,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.479522,bayer.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.479522,bayern.de,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.479522,bayern.de,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.479522,bayern.de,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.479522,bayern.de,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.479522,bayern.de,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:0:ccd::2
+2024-11-14T12:15:31.479522,bayern.de,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:fe::10
+2024-11-14T12:15:31.479522,bayern.de,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.479522,bayern.de,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2620:0:ccc::2
+2024-11-14T12:15:31.479522,bayern.de,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.479522,bayer.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bayer.com on server: 2402:4e00::
+2024-11-14T12:15:31.479522,bayern.de,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2400:3200:baba::1
+2024-11-14T12:15:31.479522,bayern.de,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.479522,bayern.de,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.479522,bayern.de,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2402:4e00::
+2024-11-14T12:15:31.479522,bayern.de,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2400:3200::1
+2024-11-14T12:15:31.479522,battwo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: battwo.com on server: 210.21.196.6
+2024-11-14T12:15:31.479522,bayern.de,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.479522,bayern.de,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bayern.de on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.479522,battwo.com,8.8.4.4,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.479522,basspro.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:fe::fe
+2024-11-14T12:15:31.479522,bartleby.com,195.208.5.1,A,"['3.164.68.50', '3.164.68.65', '3.164.68.17', '3.164.68.4']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,208.67.220.220,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battwo.com,1.1.1.1,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.479522,basspro.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:fe::10
+2024-11-14T12:15:31.479522,bartleby.com,208.67.222.222,A,"['13.35.186.106', '13.35.186.116', '13.35.186.22', '13.35.186.34']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,123.125.81.6,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battwo.com,77.88.8.1,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.479522,basspro.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:119:35::35
+2024-11-14T12:15:31.479522,bato.to,1.1.1.1,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.479522,bartleby.com,77.88.8.8,A,"['18.66.102.109', '18.66.102.6', '18.66.102.99', '18.66.102.30']",,
+2024-11-14T12:15:31.479522,basspro.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:119:53::53
+2024-11-14T12:15:31.479522,battwo.com,62.76.76.62,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,bartleby.com,211.136.17.107,A,"['108.157.254.111', '108.157.254.36', '108.157.254.58', '108.157.254.38']",,
+2024-11-14T12:15:31.479522,battle.net,114.114.114.114,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,basspro.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.479522,bartleby.com,208.67.220.220,A,"['13.35.186.116', '13.35.186.22', '13.35.186.34', '13.35.186.106']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,211.136.17.107,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battle.net,114.114.115.115,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,basspro.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.479522,basecamp.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: basecamp.com on server: 9.9.9.9
+2024-11-14T12:15:31.479522,bayern.de,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bayern.de on server: 101.226.4.7
+2024-11-14T12:15:31.479522,battle.net,119.29.29.29,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,basspro.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.479522,bartleby.com,95.85.95.85,A,"['13.35.186.106', '13.35.186.34', '13.35.186.116', '13.35.186.22']",,
+2024-11-14T12:15:31.479522,bato.to,8.8.4.4,A,"['185.181.60.49', '94.102.49.153']",,
+2024-11-14T12:15:31.479522,battwo.com,8.8.8.8,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,basspro.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.479522,bartleby.com,218.30.118.6,A,"['108.157.254.36', '108.157.254.58', '108.157.254.38', '108.157.254.111']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,62.76.76.62,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battwo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: battwo.com on server: 202.96.128.86
+2024-11-14T12:15:31.479522,basspro.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.479522,batmanapollo.ru,9.9.9.10,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battwo.com,77.88.8.8,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.479522,basspro.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.479522,bartleby.com,77.88.8.1,A,"['3.164.68.4', '3.164.68.17', '3.164.68.65', '3.164.68.50']",,
+2024-11-14T12:15:31.479522,bayern.de,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bayern.de on server: 2400:da00::6666
+2024-11-14T12:15:31.479522,bayer.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bayer.com on server: 2400:da00::6666
+2024-11-14T12:15:31.479522,batch.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: batch.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.479522,bartleby.com,195.208.4.1,A,"['3.164.68.17', '3.164.68.4', '3.164.68.65', '3.164.68.50']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,101.226.4.6,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battle.net,94.140.15.15,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,basspro.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.479522,bartleby.com,180.76.76.76,A,"['13.35.186.106', '13.35.186.116', '13.35.186.22', '13.35.186.34']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,117.50.11.11,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 117.50.11.11
+2024-11-14T12:15:31.479522,battle.net,123.125.81.6,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,batmanapollo.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 101.226.4.7
+2024-11-14T12:15:31.479522,bartleby.com,8.8.4.4,A,"['13.35.186.106', '13.35.186.22', '13.35.186.116', '13.35.186.34']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,218.30.118.6,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battle.net,101.226.4.6,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,bartleby.com,114.114.114.114,A,"['3.166.228.89', '3.166.228.82', '3.166.228.67']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,195.208.4.1,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battle.net,223.6.6.6,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,bartleby.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bartleby.com on server: 210.21.196.6
+2024-11-14T12:15:31.479522,bartleby.com,223.6.6.6,A,"['52.84.162.54', '52.84.162.82', '52.84.162.26', '52.84.162.72']",,
+2024-11-14T12:15:31.479522,baskatip.com.tr,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2402:4e00::
+2024-11-14T12:15:31.479522,batmanapollo.ru,195.208.5.1,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,basspro.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.479522,bartleby.com,1.1.1.1,A,"['3.166.228.82', '3.166.228.18', '3.166.228.67', '3.166.228.89']",,
+2024-11-14T12:15:31.479522,basspro.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.479522,bartleby.com,119.29.29.29,A,"['108.157.254.58', '108.157.254.38', '108.157.254.111', '108.157.254.36']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,114.114.114.114,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,battle.net,218.30.118.6,A,['137.221.106.104'],,
+2024-11-14T12:15:31.479522,baskatip.com.tr,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2400:3200:baba::1
+2024-11-14T12:15:31.479522,bartleby.com,223.5.5.5,A,"['52.84.162.54', '52.84.162.72', '52.84.162.82', '52.84.162.26']",,
+2024-11-14T12:15:31.479522,batmanapollo.ru,94.140.15.15,A,['81.200.117.113'],,
+2024-11-14T12:15:31.479522,batmanapollo.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 9.9.9.9
+2024-11-14T12:15:31.480527,basspro.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.480527,bartleby.com,62.76.62.76,A,"['3.164.68.17', '3.164.68.4', '3.164.68.65', '3.164.68.50']",,
+2024-11-14T12:15:31.480527,batmanapollo.ru,62.76.62.76,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,bartleby.com,208.67.222.220,A,"['13.35.186.22', '13.35.186.34', '13.35.186.106', '13.35.186.116']",,
+2024-11-14T12:15:31.480527,bartleby.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bartleby.com on server: 202.96.128.86
+2024-11-14T12:15:31.480527,battle.net,223.5.5.5,A,['137.221.106.104'],,
+2024-11-14T12:15:31.480527,basspro.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.480527,batmanapollo.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 123.125.81.7
+2024-11-14T12:15:31.480527,bato.to,8.8.8.8,A,"['94.102.49.153', '185.181.60.49']",,
+2024-11-14T12:15:31.480527,basspro.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.480527,bartleby.com,208.67.220.222,A,"['13.35.186.22', '13.35.186.34', '13.35.186.106', '13.35.186.116']",,
+2024-11-14T12:15:31.480527,battle.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: battle.net on server: 101.226.4.7
+2024-11-14T12:15:31.480527,battle.net,211.136.17.107,A,['137.221.106.104'],,
+2024-11-14T12:15:31.480527,batmanapollo.ru,180.76.76.76,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,basspro.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2402:4e00::
+2024-11-14T12:15:31.480527,bartleby.com,8.8.8.8,A,"['13.35.186.22', '13.35.186.34', '13.35.186.116', '13.35.186.106']",,
+2024-11-14T12:15:31.480527,battle.net,117.50.11.11,A,['137.221.106.104'],,
+2024-11-14T12:15:31.480527,batmanapollo.ru,208.67.222.222,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,bartleby.com,94.140.15.15,A,"['13.225.131.91', '13.225.131.97', '13.225.131.115', '13.225.131.20']",,
+2024-11-14T12:15:31.480527,batmanapollo.ru,208.67.220.222,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,batmanapollo.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 210.21.196.6
+2024-11-14T12:15:31.480527,basspro.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2400:3200::1
+2024-11-14T12:15:31.480527,battwo.com,2.56.220.2,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.480527,batmanapollo.ru,94.140.14.14,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,basspro.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: basspro.com on server: 2400:da00::6666
+2024-11-14T12:15:31.480527,bartleby.com,62.76.76.62,A,"['3.164.68.4', '3.164.68.17', '3.164.68.65', '3.164.68.50']",,
+2024-11-14T12:15:31.480527,bartleby.com,94.140.14.14,A,"['13.225.131.91', '13.225.131.97', '13.225.131.115', '13.225.131.20']",,
+2024-11-14T12:15:31.480527,batmanapollo.ru,223.6.6.6,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,battle.net,180.76.76.76,A,['137.221.106.104'],,
+2024-11-14T12:15:31.480527,battwo.com,62.76.62.76,A,"['104.21.86.48', '172.67.215.19']",,
+2024-11-14T12:15:31.480527,basspro.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.480527,batmanapollo.ru,119.29.29.29,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,bartleby.com,2.56.220.2,A,"['13.35.186.106', '13.35.186.34', '13.35.186.22', '13.35.186.116']",,
+2024-11-14T12:15:31.480527,bartleby.com,1.0.0.1,A,"['13.225.142.39', '13.225.142.44', '13.225.142.14', '13.225.142.90']",,
+2024-11-14T12:15:31.480527,basspro.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.480527,batmanapollo.ru,114.114.115.115,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,battwo.com,95.85.95.85,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.480527,basspro.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.480527,batmanapollo.ru,223.5.5.5,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,basspro.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.480527,bartleby.com,9.9.9.10,A,"['18.66.102.109', '18.66.102.6', '18.66.102.99', '18.66.102.30']",,
+2024-11-14T12:15:31.480527,bartleby.com,114.114.115.115,A,"['3.166.228.82', '3.166.228.67', '3.166.228.18']",,
+2024-11-14T12:15:31.480527,battwo.com,1.0.0.1,A,"['172.67.215.19', '104.21.86.48']",,
+2024-11-14T12:15:31.480527,batmanapollo.ru,208.67.222.220,A,['81.200.117.113'],,
+2024-11-14T12:15:31.480527,basspro.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basspro.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.480527,baycrews.jp,119.29.29.29,A,['23.66.149.217'],,
+2024-11-14T12:15:31.480527,bartleby.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:fe::10
+2024-11-14T12:15:31.480527,bayer.com,62.76.62.76,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,basf.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.480527,bayer.com,94.140.14.14,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,battle.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: battle.net on server: 210.21.196.6
+2024-11-14T12:15:31.480527,basf.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.480527,bartleby.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.480527,bartleby.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:119:53::53
+2024-11-14T12:15:31.480527,baycrews.jp,208.67.220.222,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,baycrews.jp,223.5.5.5,A,['23.66.149.217'],,
+2024-11-14T12:15:31.480527,basf.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.480527,bartleby.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2400:3200::1
+2024-11-14T12:15:31.480527,bayer.com,195.208.4.1,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baycrews.jp,114.114.114.114,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,basf.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.480527,bayer.com,77.88.8.1,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baycrews.jp,114.114.115.115,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,basf.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:119:53::53
+2024-11-14T12:15:31.480527,bayer.com,62.76.76.62,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,basf.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.480527,bayer.com,77.88.8.8,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baseball-reference.com,2a03:90c0:999d::1,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.480527,baseball-reference.com,2001:4860:4860::8844,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.480527,bayer.com,195.208.5.1,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baycrews.jp,62.76.62.76,A,['23.54.10.237'],,
+2024-11-14T12:15:31.480527,basf.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.480527,bayer.com,94.140.15.15,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baseball-reference.com,2606:4700:4700::1111,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.480527,battle.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: battle.net on server: 123.125.81.7
+2024-11-14T12:15:31.480527,baycrews.jp,195.208.4.1,A,['23.54.10.237'],,
+2024-11-14T12:15:31.480527,bartleby.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:fe::fe
+2024-11-14T12:15:31.480527,basecamp.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.480527,baycrews.jp,77.88.8.1,A,['184.51.224.42'],,
+2024-11-14T12:15:31.480527,bayer.com,95.85.95.85,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,basecamp.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2400:3200::1
+2024-11-14T12:15:31.480527,baycrews.jp,208.67.220.220,A,['23.36.96.74'],,
+2024-11-14T12:15:31.480527,bayer.com,208.67.220.222,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.480527,basecamp.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.480527,baycrews.jp,62.76.76.62,A,['23.211.64.42'],,
+2024-11-14T12:15:31.480527,bartleby.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.480527,baycrews.jp,208.67.222.220,A,['23.36.96.74'],,
+2024-11-14T12:15:31.480527,baseball-reference.com,2606:4700:4700::1001,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.480527,bayer.com,2.56.220.2,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.480527,basf.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:119:35::35
+2024-11-14T12:15:31.480527,bayer.com,1.1.1.1,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.480527,basf.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.480527,baycrews.jp,195.208.5.1,A,['23.54.10.237'],,
+2024-11-14T12:15:31.480527,baycrews.jp,208.67.222.222,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,basecamp.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.480527,bayer.com,1.0.0.1,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bayer.com,208.67.222.220,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.480527,basecamp.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.480527,baseball-reference.com,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3122:e000::5', '2a06:98c1:3123:e000::5']",,
+2024-11-14T12:15:31.480527,baycrews.jp,9.9.9.10,A,['23.45.108.53'],,
+2024-11-14T12:15:31.480527,bartleby.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2402:4e00::
+2024-11-14T12:15:31.480527,basf.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.480527,basf.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.480527,baycrews.jp,101.226.4.6,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,baycrews.jp,77.88.8.8,A,['23.57.160.28'],,
+2024-11-14T12:15:31.480527,baseball-reference.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T12:15:31.480527,basecamp.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:119:53::53
+2024-11-14T12:15:31.480527,batmanapollo.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: batmanapollo.ru on server: 202.96.128.86
+2024-11-14T12:15:31.480527,bayer.com,8.8.8.8,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baseball-reference.com,2001:4860:4860::8888,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.480527,baycrews.jp,95.85.95.85,A,['23.51.36.35'],,
+2024-11-14T12:15:31.480527,bayer.com,8.8.4.4,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bartleby.com on server: 9.9.9.9
+2024-11-14T12:15:31.480527,basf.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.480527,baycrews.jp,2.56.220.2,A,['23.51.36.35'],,
+2024-11-14T12:15:31.480527,baycrews.jp,123.125.81.6,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,bartleby.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.480527,basf.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:fe::10
+2024-11-14T12:15:31.480527,baycrews.jp,1.0.0.1,A,['23.48.182.80'],,
+2024-11-14T12:15:31.480527,bartleby.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.480527,basf.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.480527,baycrews.jp,211.136.17.107,A,['104.115.231.66'],,
+2024-11-14T12:15:31.480527,basf.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2620:fe::fe
+2024-11-14T12:15:31.480527,baycrews.jp,223.6.6.6,A,['173.223.91.37'],,
+2024-11-14T12:15:31.480527,baskatip.com.tr,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baskatip.com.tr on server: 2400:da00::6666
+2024-11-14T12:15:31.480527,bartleby.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.480527,basecamp.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.480527,bayer.com,208.67.222.222,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,baycrews.jp,117.50.11.11,A,['184.84.53.49'],,
+2024-11-14T12:15:31.480527,bartleby.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:119:35::35
+2024-11-14T12:15:31.480527,baycrews.jp,94.140.14.14,A,['23.51.194.73'],,
+2024-11-14T12:15:31.480527,bayer.com,208.67.220.220,A,['75.2.28.136'],,
+2024-11-14T12:15:31.480527,bartleby.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.480527,basecamp.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2402:4e00::
+2024-11-14T12:15:31.480527,baycrews.jp,94.140.15.15,A,['23.51.194.73'],,
+2024-11-14T12:15:31.480527,battle.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: battle.net on server: 202.96.128.86
+2024-11-14T12:15:31.480527,bartleby.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bartleby.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.480527,baycrews.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 101.226.4.7
+2024-11-14T12:15:31.481527,baycrews.jp,8.8.4.4,A,['125.252.231.67'],,
+2024-11-14T12:15:31.481527,baycrews.jp,218.30.118.6,A,['23.36.96.74'],,
+2024-11-14T12:15:31.481527,baycrews.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 202.96.128.86
+2024-11-14T12:15:31.481527,basf.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.481527,baycrews.jp,1.1.1.1,A,['23.51.131.117'],,
+2024-11-14T12:15:31.481527,baycrews.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 123.125.81.7
+2024-11-14T12:15:31.481527,baseball-reference.com,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T12:15:31.481527,basf.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.481527,baycrews.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 9.9.9.9
+2024-11-14T12:15:31.481527,baycrews.jp,180.76.76.76,A,['23.77.22.108'],,
+2024-11-14T12:15:31.481527,bayer.com,9.9.9.10,A,['75.2.28.136'],,
+2024-11-14T12:15:31.481527,baseball-reference.com,2a03:90c0:9992::1,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.481527,basf.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.481527,bathandbodyworks.com,123.125.81.6,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.481527,baskatip.com.tr,2.56.220.2,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.481527,basecamp.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.481527,baskatip.com.tr,77.88.8.8,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,baskatip.com.tr,95.85.95.85,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.481527,baseball-reference.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3123:e000::b', '2a06:98c1:3122:e000::b']",,
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:0:ccd::2,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.481527,basf.com,117.50.11.11,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,211.136.17.107,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:0:ccc::2
+2024-11-14T12:15:31.481527,basf.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.481527,baycrews.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baycrews.jp on server: 210.21.196.6
+2024-11-14T12:15:31.481527,baseball-reference.com,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3122:e000::', '2a06:98c1:3123:e000::']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.481527,basecamp.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: basecamp.com on server: 2400:da00::6666
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:0:ccd::2
+2024-11-14T12:15:31.481527,batmanapollo.ru,77.88.8.1,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,baseball-reference.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:fe::fe
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:119:35::35
+2024-11-14T12:15:31.481527,basf.com,208.67.220.220,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bartleby.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bartleby.com on server: 2400:da00::6666
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:0:ccc::2,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:119:53::53
+2024-11-14T12:15:31.481527,basf.com,114.114.115.115,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,94.140.14.14,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.481527,bayer.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bayer.com on server: 9.9.9.9
+2024-11-14T12:15:31.481527,batmanapollo.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.481527,basf.com,180.76.76.76,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,218.30.118.6,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basf.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.481527,basecamp.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.481527,basf.com,218.30.118.6,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,77.88.8.8,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,basecamp.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.481527,basf.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2402:4e00::
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:fe::fe
+2024-11-14T12:15:31.481527,bathandbodyworks.com,94.140.15.15,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:fe::10
+2024-11-14T12:15:31.481527,basf.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2620:fe::10
+2024-11-14T12:15:31.481527,batmanapollo.ru,8.8.8.8,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,basecamp.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:119:35::35
+2024-11-14T12:15:31.481527,basf.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: basf.com on server: 2400:3200::1
+2024-11-14T12:15:31.481527,baskatip.com.tr,1.0.0.1,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.481527,batmanapollo.ru,2.56.220.2,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,basecamp.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.481527,basf.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: basf.com on server: 2400:da00::6666
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a10:50c0::ad1:ff
+2024-11-14T12:15:31.481527,bathandbodyworks.com,114.114.114.114,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,8.8.4.4,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.481527,basecamp.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a03:90c0:9992::1
+2024-11-14T12:15:31.481527,basf.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: basf.com on server: 9.9.9.9
+2024-11-14T12:15:31.481527,baskatip.com.tr,1.1.1.1,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,basecamp.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:15:31.481527,basf.com,211.136.17.107,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.481527,bathandbodyworks.com,208.67.220.222,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2620:fe::fe
+2024-11-14T12:15:31.481527,baskatip.com.tr,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:15:31.481527,bathandbodyworks.com,223.6.6.6,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.481527,baskatip.com.tr,8.8.8.8,A,['185.216.114.10'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.481527,baskatip.com.tr,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2400:3200::1
+2024-11-14T12:15:31.481527,basf.com,9.9.9.10,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,basecamp.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.481527,batmanapollo.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.481527,basf.com,119.29.29.29,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,1.0.0.1,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:119:35::35,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:0:ccc::2
+2024-11-14T12:15:31.481527,basf.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: basf.com on server: 123.125.81.7
+2024-11-14T12:15:31.481527,bathandbodyworks.com,117.50.11.11,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,208.67.222.220,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:119:53::53,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:0:ccd::2
+2024-11-14T12:15:31.481527,basf.com,101.226.4.6,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,basf.com,114.114.114.114,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,223.5.5.5,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2402:4e00::
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:fe::fe,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:119:53::53
+2024-11-14T12:15:31.481527,bathandbodyworks.com,208.67.220.220,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,baseball-reference.com,2620:fe::10,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.481527,basf.com,123.125.81.6,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,101.226.4.6,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,basecamp.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.481527,baskatip.com.tr,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.481527,basf.com,94.140.14.14,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,95.85.95.85,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,basecamp.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: basecamp.com on server: 2001:4860:4860::8844
+2024-11-14T12:15:31.481527,baskatip.com.tr,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.481527,batmanapollo.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2a03:90c0:999d::1
+2024-11-14T12:15:31.481527,basf.com,94.140.15.15,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,bathandbodyworks.com,119.29.29.29,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.481527,baseball-reference.com,2402:4e00::,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:fe::10
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2400:3200:baba::1
+2024-11-14T12:15:31.481527,basf.com,208.67.220.222,A,['13.248.131.227'],,
+2024-11-14T12:15:31.481527,batmanapollo.ru,8.8.4.4,A,['81.200.117.113'],,
+2024-11-14T12:15:31.481527,basf.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: basf.com on server: 202.96.128.86
+2024-11-14T12:15:31.481527,baskatip.com.tr,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2620:119:35::35
+2024-11-14T12:15:31.481527,bathandbodyworks.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2001:6d0:d6::2001
+2024-11-14T12:15:31.482530,basf.com,208.67.222.222,A,['13.248.131.227'],,
+2024-11-14T12:15:31.482530,bathandbodyworks.com,114.114.115.115,A,"['98.158.52.206', '98.158.60.206']",,
+2024-11-14T12:15:31.482530,baseball-reference.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700::6812:17f5', '2606:4700::6812:16f5']",,
+2024-11-14T12:15:31.482530,bathandbodyworks.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 101.226.4.7
+2024-11-14T12:15:31.482530,bathandbodyworks.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2400:3200::1
+2024-11-14T12:15:31.482530,basf.com,223.5.5.5,A,['13.248.131.227'],,
+2024-11-14T12:15:31.482530,batmanapollo.ru,1.1.1.1,A,['81.200.117.113'],,
+2024-11-14T12:15:31.482530,baseball-reference.com,2400:3200:baba::1,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.482530,baskatip.com.tr,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2606:4700:4700::1111
+2024-11-14T12:15:31.482530,baskatip.com.tr,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2606:4700:4700::1001
+2024-11-14T12:15:31.482530,basf.com,223.6.6.6,A,['13.248.131.227'],,
+2024-11-14T12:15:31.482530,bathandbodyworks.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:15:31.482530,baseball-reference.com,2400:3200::1,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.482530,bathandbodyworks.com,180.76.76.76,A,"['98.158.60.206', '98.158.52.206']",,
+2024-11-14T12:15:31.482530,baskatip.com.tr,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baskatip.com.tr on server: 2a0c:a9c7:9::1
+2024-11-14T12:15:31.482530,basf.com,208.67.222.220,A,['13.248.131.227'],,
+2024-11-14T12:15:31.482530,bathandbodyworks.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bathandbodyworks.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:15:31.482530,baseball-reference.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700::6812:16f5', '2606:4700::6812:17f5']",,
+2024-11-14T12:15:31.482530,batmanapollo.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: batmanapollo.ru on server: 2001:4860:4860::8888
+2024-11-14T12:15:31.482530,basf.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: basf.com on server: 210.21.196.6
+2024-11-14T12:15:31.482530,bathandbodyworks.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 202.96.128.86
+2024-11-14T12:15:31.482530,bathandbodyworks.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 123.125.81.7
+2024-11-14T12:15:31.482530,bathandbodyworks.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 2400:da00::6666
+2024-11-14T12:15:31.482530,basf.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: basf.com on server: 101.226.4.7
+2024-11-14T12:15:31.482530,baseball-reference.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baseball-reference.com on server: 2400:da00::6666
+2024-11-14T12:15:31.482530,bathandbodyworks.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bathandbodyworks.com on server: 210.21.196.6

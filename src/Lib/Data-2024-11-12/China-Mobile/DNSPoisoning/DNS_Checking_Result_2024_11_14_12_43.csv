@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T12:43:24.043697,behance.net,195.208.4.1,A,['162.125.18.129'],,
+2024-11-14T12:43:24.043697,belka-games.com,1.0.0.1,A,['138.201.152.52'],,
+2024-11-14T12:43:24.043697,bell.ca,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:0:ccc::2
+2024-11-14T12:43:24.043697,bell.ca,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:119:53::53
+2024-11-14T12:43:24.043697,beelinegprs.ru,77.88.8.8,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 77.88.8.8
+2024-11-14T12:43:24.044697,belka-games.com,94.140.15.15,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,belka-games.com,95.85.95.85,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,belka-games.com,114.114.114.114,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,behance.net,1.0.0.1,A,['108.160.166.142'],,
+2024-11-14T12:43:24.044697,belka-games.com,114.114.115.115,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,2.56.220.2,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2.56.220.2
+2024-11-14T12:43:24.044697,bell.ca,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.044697,bell.ca,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.044697,beget.tech,119.29.29.29,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,behance.net,62.76.76.62,A,['108.160.169.171'],,
+2024-11-14T12:43:24.044697,behance.net,62.76.62.76,A,['173.234.53.168'],,
+2024-11-14T12:43:24.044697,beget.tech,114.114.114.114,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,94.140.14.14,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 94.140.14.14
+2024-11-14T12:43:24.044697,bell.ca,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.044697,beget.ru,2.56.220.2,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,belka-games.com,223.6.6.6,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,208.67.220.222,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 208.67.220.222
+2024-11-14T12:43:24.044697,bell.ca,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.044697,behance.net,95.85.95.85,A,['69.63.178.13'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,195.208.5.1,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 195.208.5.1
+2024-11-14T12:43:24.044697,beget.tech,117.50.11.11,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,208.67.222.222,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 208.67.222.222
+2024-11-14T12:43:24.044697,bell.ca,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.044697,behance.net,208.67.222.222,A,['108.160.167.167'],,
+2024-11-14T12:43:24.044697,belka-games.com,208.67.220.222,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,belka-games.com,94.140.14.14,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,208.67.222.220,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 208.67.222.220
+2024-11-14T12:43:24.044697,behance.net,77.88.8.8,A,['31.13.64.7'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,9.9.9.10,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 9.9.9.10
+2024-11-14T12:43:24.044697,bell.ca,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.044697,belka-games.com,223.5.5.5,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,behance.net,77.88.8.1,A,['108.160.170.41'],,
+2024-11-14T12:43:24.044697,belka-games.com,119.29.29.29,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beget.ru,195.208.4.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,208.67.220.220,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 208.67.220.220
+2024-11-14T12:43:24.044697,bell.ca,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:fe::10
+2024-11-14T12:43:24.044697,beget.tech,223.5.5.5,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,62.76.76.62,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 62.76.76.62
+2024-11-14T12:43:24.044697,bell.ca,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.044697,beget.ru,77.88.8.8,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.tech,223.6.6.6,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,bell.ca,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2400:3200:baba::1
+2024-11-14T12:43:24.044697,beget.ru,62.76.76.62,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,195.208.4.1,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 195.208.4.1
+2024-11-14T12:43:24.044697,beget.ru,208.67.220.220,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,bell.ca,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2402:4e00::
+2024-11-14T12:43:24.044697,beelinegprs.ru,8.8.8.8,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 8.8.8.8
+2024-11-14T12:43:24.044697,beget.ru,195.208.5.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.tech,114.114.115.115,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,belka-games.com,195.208.4.1,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:119:35::35
+2024-11-14T12:43:24.044697,beelinegprs.ru,77.88.8.1,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 77.88.8.1
+2024-11-14T12:43:24.044697,beget.ru,119.29.29.29,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,1.1.1.1,A,['74.86.151.162'],,
+2024-11-14T12:43:24.044697,bell.ca,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.044697,beelinegprs.ru,62.76.62.76,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 62.76.62.76
+2024-11-14T12:43:24.044697,beget.ru,9.9.9.10,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,9.9.9.10,A,['69.171.227.37'],,
+2024-11-14T12:43:24.044697,belka-games.com,62.76.76.62,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.044697,beeline.ru,101.226.4.6,A,['217.118.87.98'],,
+2024-11-14T12:43:24.044697,beget.ru,208.67.222.222,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,8.8.4.4,A,['69.171.229.11'],,
+2024-11-14T12:43:24.044697,beget.tech,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beget.tech on server: 210.21.196.6
+2024-11-14T12:43:24.044697,belka-games.com,62.76.62.76,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2400:3200::1
+2024-11-14T12:43:24.044697,beget.ru,223.6.6.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,195.208.5.1,A,['202.160.130.118'],,
+2024-11-14T12:43:24.044697,belka-games.com,208.67.220.220,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.044697,beelinegprs.ru,1.1.1.1,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 1.1.1.1
+2024-11-14T12:43:24.044697,behance.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: behance.net on server: 9.9.9.9
+2024-11-14T12:43:24.044697,beelinegprs.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 9.9.9.9
+2024-11-14T12:43:24.044697,belka-games.com,208.67.222.220,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beget.ru,62.76.62.76,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,bell.ca,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.044697,beget.ru,223.5.5.5,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,8.8.8.8,A,['31.13.80.54'],,
+2024-11-14T12:43:24.044697,belka-games.com,9.9.9.10,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.044697,beelinegprs.ru,8.8.4.4,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 8.8.4.4
+2024-11-14T12:43:24.044697,beget.ru,208.67.222.220,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beeline.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beeline.ru on server: 101.226.4.7
+2024-11-14T12:43:24.044697,belka-games.com,208.67.222.222,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beget.tech,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beget.tech on server: 202.96.128.86
+2024-11-14T12:43:24.044697,beget.tech,101.226.4.6,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,1.0.0.1,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 1.0.0.1
+2024-11-14T12:43:24.044697,beget.ru,208.67.220.222,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,belka-games.com,77.88.8.8,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,95.85.95.85,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 95.85.95.85
+2024-11-14T12:43:24.044697,beget.ru,94.140.14.14,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beget.ru on server: 9.9.9.9
+2024-11-14T12:43:24.044697,belka-games.com,77.88.8.1,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.044697,beget.tech,218.30.118.6,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beget.ru,77.88.8.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beeline.ru,123.125.81.6,A,['217.118.87.98'],,
+2024-11-14T12:43:24.044697,beget.tech,211.136.17.107,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,bell.ca,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:0:ccd::2
+2024-11-14T12:43:24.044697,beelinegprs.ru,114.114.115.115,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 114.114.115.115
+2024-11-14T12:43:24.044697,beget.ru,94.140.15.15,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.tech,180.76.76.76,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,114.114.114.114,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 114.114.114.114
+2024-11-14T12:43:24.044697,beget.ru,114.114.114.114,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,behance.net,2.56.220.2,A,['202.160.128.96'],,
+2024-11-14T12:43:24.044697,belka-games.com,2.56.220.2,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,bell.ca,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.044697,beelinegprs.ru,94.140.15.15,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 94.140.15.15
+2024-11-14T12:43:24.044697,beget.ru,114.114.115.115,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.tech,123.125.81.6,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,bell.ca,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bell.ca on server: 2620:fe::fe
+2024-11-14T12:43:24.044697,belka-games.com,195.208.5.1,A,['138.201.152.52'],,
+2024-11-14T12:43:24.044697,beget.tech,77.88.8.1,A,['5.101.158.143'],,
+2024-11-14T12:43:24.044697,beeline.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:119:35::35
+2024-11-14T12:43:24.044697,beforward.jp,208.67.220.222,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.044697,beget.ru,123.125.81.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beeline.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beeline.ru on server: 123.125.81.7
+2024-11-14T12:43:24.044697,beeline.ru,117.50.11.11,A,['217.118.87.98'],,
+2024-11-14T12:43:24.044697,beget.ru,101.226.4.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beeline.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:119:53::53
+2024-11-14T12:43:24.044697,beget.com,8.8.8.8,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beget.com,62.76.62.76,A,['193.168.47.254'],,
+2024-11-14T12:43:24.044697,beelinegprs.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.044697,beget.tech,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beget.tech on server: 101.226.4.7
+2024-11-14T12:43:24.045696,beforward.jp,101.226.4.6,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:0:ccc::2
+2024-11-14T12:43:24.045696,beget.tech,8.8.8.8,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beget.tech,1.1.1.1,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beget.tech,8.8.4.4,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:0:ccd::2
+2024-11-14T12:43:24.045696,beforward.jp,123.125.81.6,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:119:35::35
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:119:53::53
+2024-11-14T12:43:24.045696,beget.tech,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beget.tech on server: 123.125.81.7
+2024-11-14T12:43:24.045696,bell-labs.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 2400:da00::6666
+2024-11-14T12:43:24.045696,beget.com,195.208.4.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:fe::fe
+2024-11-14T12:43:24.045696,beget.com,195.208.5.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,94.140.14.14,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2620:fe::10
+2024-11-14T12:43:24.045696,beget.com,77.88.8.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.ru,180.76.76.76,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.045696,beget.com,62.76.76.62,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.045696,beget.tech,208.67.220.222,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beforward.jp,94.140.15.15,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.045696,beforward.jp,94.140.14.14,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beget.ru,211.136.17.107,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beforward.jp,223.6.6.6,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,belka-games.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: belka-games.com on server: 9.9.9.9
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.045696,beforward.jp,119.29.29.29,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beget.tech,195.208.5.1,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.045696,beget.com,2.56.220.2,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,94.140.15.15,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beforward.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beforward.jp on server: 123.125.81.7
+2024-11-14T12:43:24.045696,beget.com,77.88.8.8,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,1.0.0.1,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beforward.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beforward.jp on server: 101.226.4.7
+2024-11-14T12:43:24.045696,beget.com,1.0.0.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,77.88.8.8,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.045696,beget.com,95.85.95.85,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beforward.jp,117.50.11.11,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.045696,beforward.jp,114.114.115.115,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beget.ru,218.30.118.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.045696,beforward.jp,223.5.5.5,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beget.tech,208.67.220.220,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.045696,beget.com,8.8.4.4,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beget.ru on server: 123.125.81.7
+2024-11-14T12:43:24.045696,beget.ru,117.50.11.11,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,95.85.95.85,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beget.com,1.1.1.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,208.67.222.222,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beelinegprs.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.045696,beforward.jp,218.30.118.6,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beeline.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2400:3200:baba::1
+2024-11-14T12:43:24.045696,beget.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beget.ru on server: 101.226.4.7
+2024-11-14T12:43:24.045696,beforward.jp,211.136.17.107,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beget.tech,208.67.222.220,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beget.tech,9.9.9.10,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beforward.jp,180.76.76.76,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.045696,beeline.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2402:4e00::
+2024-11-14T12:43:24.045696,beforward.jp,114.114.114.114,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.045696,beeline.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.045696,beeline.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2400:3200::1
+2024-11-14T12:43:24.045696,beget.tech,2.56.220.2,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beget.tech,195.208.4.1,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beeline.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:fe::10
+2024-11-14T12:43:24.045696,beget.tech,62.76.76.62,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beeline.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.045696,beget.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beget.ru on server: 202.96.128.86
+2024-11-14T12:43:24.045696,beget.tech,62.76.62.76,A,['5.101.158.143'],,
+2024-11-14T12:43:24.045696,beeline.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:0:ccc::2
+2024-11-14T12:43:24.045696,beget.ru,8.8.8.8,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:fe::10
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.045696,beian.gov.cn,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.045696,beelinegprs.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.045696,bell-labs.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:fe::fe
+2024-11-14T12:43:24.045696,bell-labs.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:fe::10
+2024-11-14T12:43:24.045696,beget.pro,94.140.14.14,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beian.gov.cn,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.045696,beget.ru,8.8.4.4,A,['193.168.47.254'],,
+2024-11-14T12:43:24.045696,beget.tech,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:119:35::35
+2024-11-14T12:43:24.045696,beian.gov.cn,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.045696,beget.tech,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.045696,beget.pro,208.67.222.220,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beian.gov.cn,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.045696,beget.tech,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.045696,beian.gov.cn,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.045696,bell-labs.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:119:35::35
+2024-11-14T12:43:24.045696,beget.pro,208.67.220.220,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beget.tech,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.045696,beget.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beget.ru on server: 210.21.196.6
+2024-11-14T12:43:24.045696,bell-labs.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:119:53::53
+2024-11-14T12:43:24.045696,beeline.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beeline.ru on server: 2400:da00::6666
+2024-11-14T12:43:24.045696,beforward.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beforward.jp on server: 202.96.128.86
+2024-11-14T12:43:24.045696,beget.tech,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beget.tech on server: 9.9.9.9
+2024-11-14T12:43:24.045696,bell-labs.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2402:4e00::
+2024-11-14T12:43:24.045696,beget.pro,208.67.220.222,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beforward.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beforward.jp on server: 210.21.196.6
+2024-11-14T12:43:24.045696,bell-labs.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.045696,bell-labs.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2400:3200:baba::1
+2024-11-14T12:43:24.045696,beget.tech,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.045696,beian.gov.cn,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.045696,beget.tech,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.045696,bell-labs.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.045696,beget.pro,180.76.76.76,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beian.gov.cn,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.045696,bell-labs.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2400:3200::1
+2024-11-14T12:43:24.045696,beget.tech,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.045696,beget.tech,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.045696,beian.gov.cn,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2402:4e00::
+2024-11-14T12:43:24.045696,bell-labs.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.045696,beget.pro,223.6.6.6,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beget.tech,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.045696,beian.gov.cn,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.045696,beget.pro,119.29.29.29,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beget.tech,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:fe::fe
+2024-11-14T12:43:24.045696,beian.gov.cn,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2400:3200::1
+2024-11-14T12:43:24.045696,bell-labs.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.045696,beget.pro,9.9.9.10,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beian.gov.cn,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2400:3200:baba::1
+2024-11-14T12:43:24.045696,beget.pro,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beget.pro on server: 101.226.4.7
+2024-11-14T12:43:24.045696,bell-labs.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.045696,beget.tech,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:119:53::53
+2024-11-14T12:43:24.045696,beget.pro,208.67.222.222,A,['5.101.158.105'],,
+2024-11-14T12:43:24.045696,beian.gov.cn,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.046697,bell-labs.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.046697,beget.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:0:ccd::2
+2024-11-14T12:43:24.046697,beian.gov.cn,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.046697,beget.pro,101.226.4.6,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.ru,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.046697,bell-labs.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.046697,beget.pro,114.114.114.114,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.tech,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:0:ccc::2
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:0:ccd::2
+2024-11-14T12:43:24.046697,beget.pro,223.5.5.5,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.tech,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.046697,beian.gov.cn,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.046697,bell-labs.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.046697,beget.pro,211.136.17.107,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beian.gov.cn,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.046697,bell-labs.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.046697,beget.pro,123.125.81.6,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.tech,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.046697,behance.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: behance.net on server: 2402:4e00::
+2024-11-14T12:43:24.046697,bell-labs.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.046697,beget.pro,94.140.15.15,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.pro,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beget.pro on server: 123.125.81.7
+2024-11-14T12:43:24.046697,beget.tech,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.046697,bell-labs.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.046697,beget.pro,114.114.115.115,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.tech,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.046697,behance.net,2400:3200::1,AAAA,['2001::6ca0:a114'],,
+2024-11-14T12:43:24.046697,bell-labs.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.046697,beian.gov.cn,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.046697,beian.gov.cn,2a03:90c0:999d::1,AAAA,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.046697,behance.net,2400:3200:baba::1,AAAA,['2001::c73b:94e5'],,
+2024-11-14T12:43:24.046697,beget.ru,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:119:53::53
+2024-11-14T12:43:24.046697,bell-labs.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.046697,beget.pro,218.30.118.6,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,behance.net,2a10:50c0::ad1:ff,AAAA,['2001::c73b:9493'],,
+2024-11-14T12:43:24.046697,beget.ru,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:0:ccc::2
+2024-11-14T12:43:24.046697,belkin.com,2402:4e00::,AAAA,"['2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2482', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.046697,beget.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2400:3200:baba::1
+2024-11-14T12:43:24.046697,behance.net,2a10:50c0::ad2:ff,AAAA,['2001::6ca0:a9ba'],,
+2024-11-14T12:43:24.046697,beget.pro,195.208.5.1,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.pro,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beget.pro on server: 202.96.128.86
+2024-11-14T12:43:24.046697,beget.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2402:4e00::
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:119:53::53
+2024-11-14T12:43:24.046697,bell-labs.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.046697,beget.pro,117.50.11.11,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beget.pro,62.76.62.76,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:0:ccc::2
+2024-11-14T12:43:24.046697,beget.ru,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:fe::10
+2024-11-14T12:43:24.046697,beget.pro,195.208.4.1,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:119:35::35
+2024-11-14T12:43:24.046697,beget.ru,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:119:35::35
+2024-11-14T12:43:24.046697,bell-labs.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:0:ccc::2
+2024-11-14T12:43:24.046697,beian.gov.cn,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 2400:da00::6666
+2024-11-14T12:43:24.046697,beget.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.046697,beget.pro,77.88.8.1,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,bell-labs.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bell-labs.com on server: 2620:0:ccd::2
+2024-11-14T12:43:24.046697,beget.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2400:3200::1
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:fe::fe
+2024-11-14T12:43:24.046697,beget.pro,62.76.76.62,A,['5.101.158.105'],,
+2024-11-14T12:43:24.046697,beian.gov.cn,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2620:fe::10
+2024-11-14T12:43:24.046697,bellsouth.net,1.1.1.1,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beelinegprs.ru,223.5.5.5,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 223.5.5.5
+2024-11-14T12:43:24.046697,belka-games.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:fe::fe
+2024-11-14T12:43:24.046697,belkin.com,9.9.9.10,A,"['104.22.36.130', '172.67.43.31', '104.22.37.130']",,
+2024-11-14T12:43:24.046697,bellsouth.net,1.0.0.1,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beelinegprs.ru,223.6.6.6,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 223.6.6.6
+2024-11-14T12:43:24.046697,belka-games.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:119:53::53
+2024-11-14T12:43:24.046697,bellsouth.net,223.5.5.5,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belkin.com,2.56.220.2,A,"['172.67.43.31', '104.22.37.130', '104.22.36.130']",,
+2024-11-14T12:43:24.046697,beforward.jp,208.67.220.220,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.046697,belkin.com,77.88.8.8,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T12:43:24.046697,belka-games.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:0:ccd::2
+2024-11-14T12:43:24.046697,beforward.jp,2.56.220.2,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,belkin.com,208.67.220.220,A,"['172.67.43.31', '104.22.36.130', '104.22.37.130']",,
+2024-11-14T12:43:24.046697,bellsouth.net,114.114.114.114,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,bellsouth.net,114.114.115.115,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belkin.com,208.67.222.220,A,"['172.67.43.31', '104.22.36.130', '104.22.37.130']",,
+2024-11-14T12:43:24.046697,beforward.jp,77.88.8.8,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,bellsouth.net,208.67.222.220,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.046697,beforward.jp,1.1.1.1,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,bellsouth.net,94.140.15.15,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belkin.com,62.76.62.76,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T12:43:24.046697,beforward.jp,95.85.95.85,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,belkin.com,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T12:43:24.046697,belka-games.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.046697,bellsouth.net,62.76.62.76,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belkin.com,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T12:43:24.046697,bellsouth.net,208.67.220.220,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beforward.jp,8.8.8.8,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,belkin.com,62.76.76.62,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T12:43:24.046697,bellsouth.net,223.6.6.6,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.046697,beforward.jp,8.8.4.4,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,belkin.com,1.0.0.1,A,"['172.67.43.31', '104.22.37.130', '104.22.36.130']",,
+2024-11-14T12:43:24.046697,bellsouth.net,119.29.29.29,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:119:35::35
+2024-11-14T12:43:24.046697,beforward.jp,1.0.0.1,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.046697,belkin.com,95.85.95.85,A,"['172.67.43.31', '104.22.37.130', '104.22.36.130']",,
+2024-11-14T12:43:24.046697,beget.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beget.ru on server: 2400:da00::6666
+2024-11-14T12:43:24.046697,belka-games.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.046697,beelinegprs.ru,123.125.81.6,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 123.125.81.6
+2024-11-14T12:43:24.046697,belkin.com,8.8.4.4,A,"['104.22.37.130', '172.67.43.31', '104.22.36.130']",,
+2024-11-14T12:43:24.046697,bellsouth.net,208.67.222.222,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,behance.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: behance.net on server: 2400:da00::6666
+2024-11-14T12:43:24.046697,belkin.com,1.1.1.1,A,"['104.22.37.130', '172.67.43.31', '104.22.36.130']",,
+2024-11-14T12:43:24.046697,bellsouth.net,208.67.220.222,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beelinegprs.ru,218.30.118.6,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 218.30.118.6
+2024-11-14T12:43:24.046697,belkin.com,195.208.5.1,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T12:43:24.046697,bellsouth.net,94.140.14.14,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beelinegprs.ru,211.136.17.107,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 211.136.17.107
+2024-11-14T12:43:24.046697,belkin.com,208.67.222.222,A,"['104.22.36.130', '104.22.37.130', '172.67.43.31']",,
+2024-11-14T12:43:24.046697,bellsouth.net,77.88.8.8,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.046697,beget.pro,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beget.pro on server: 210.21.196.6
+2024-11-14T12:43:24.046697,bellsouth.net,77.88.8.1,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.046697,beelinegprs.ru,101.226.4.6,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 101.226.4.6
+2024-11-14T12:43:24.046697,belkin.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: belkin.com on server: 2400:da00::6666
+2024-11-14T12:43:24.046697,beget.pro,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beget.pro on server: 9.9.9.9
+2024-11-14T12:43:24.046697,bellsouth.net,8.8.8.8,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,belka-games.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.046697,belkin.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: belkin.com on server: 9.9.9.9
+2024-11-14T12:43:24.046697,bellsouth.net,195.208.4.1,A,['216.77.188.73'],,
+2024-11-14T12:43:24.046697,beelinegprs.ru,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 101.226.4.7
+2024-11-14T12:43:24.046697,belkin.com,8.8.8.8,A,"['104.22.36.130', '172.67.43.31', '104.22.37.130']",,
+2024-11-14T12:43:24.046697,bellemaison.jp,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 101.226.4.7
+2024-11-14T12:43:24.046697,belka-games.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:fe::10
+2024-11-14T12:43:24.046697,beelinegprs.ru,119.29.29.29,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 119.29.29.29
+2024-11-14T12:43:24.046697,beget.ru,1.0.0.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.046697,belka-games.com,117.50.11.11,A,['138.201.152.52'],,
+2024-11-14T12:43:24.046697,bellemaison.jp,123.125.81.6,A,"['23.32.20.73', '23.32.20.75']",,
+2024-11-14T12:43:24.046697,beelinegprs.ru,180.76.76.76,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 180.76.76.76
+2024-11-14T12:43:24.046697,beelinegprs.ru,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 123.125.81.7
+2024-11-14T12:43:24.047696,bellsouth.net,62.76.76.62,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,belka-games.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.047696,beforward.jp,208.67.222.222,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.047696,belka-games.com,218.30.118.6,A,['138.201.152.52'],,
+2024-11-14T12:43:24.047696,beforward.jp,208.67.222.220,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.047696,belka-games.com,211.136.17.107,A,['138.201.152.52'],,
+2024-11-14T12:43:24.047696,bellemaison.jp,101.226.4.6,A,"['23.32.20.73', '23.32.20.75']",,
+2024-11-14T12:43:24.047696,belka-games.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.047696,beelinegprs.ru,117.50.11.11,A,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 117.50.11.11
+2024-11-14T12:43:24.047696,belka-games.com,123.125.81.6,A,['138.201.152.52'],,
+2024-11-14T12:43:24.047696,belka-games.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: belka-games.com on server: 210.21.196.6
+2024-11-14T12:43:24.047696,belka-games.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2620:0:ccc::2
+2024-11-14T12:43:24.047696,beforward.jp,9.9.9.10,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.047696,belka-games.com,101.226.4.6,A,['138.201.152.52'],,
+2024-11-14T12:43:24.047696,bellsouth.net,8.8.4.4,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,belka-games.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.047696,beforward.jp,62.76.62.76,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.047696,belka-games.com,180.76.76.76,A,['138.201.152.52'],,
+2024-11-14T12:43:24.047696,bellsouth.net,9.9.9.10,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,belka-games.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.047696,beforward.jp,195.208.5.1,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.047696,beelinegprs.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 202.96.128.86
+2024-11-14T12:43:24.047696,belka-games.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: belka-games.com on server: 101.226.4.7
+2024-11-14T12:43:24.047696,bellsouth.net,95.85.95.85,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,belka-games.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.047696,beforward.jp,62.76.76.62,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.047696,belkin.com,94.140.14.14,A,"['104.22.37.130', '172.67.43.31', '104.22.36.130']",,
+2024-11-14T12:43:24.047696,beget.ru,1.1.1.1,A,['193.168.47.254'],,
+2024-11-14T12:43:24.047696,bellsouth.net,2.56.220.2,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,beforward.jp,195.208.4.1,A,"['52.192.206.160', '3.115.244.219']",,
+2024-11-14T12:43:24.047696,belkin.com,94.140.15.15,A,"['172.67.43.31', '104.22.36.130', '104.22.37.130']",,
+2024-11-14T12:43:24.047696,bellsouth.net,195.208.5.1,A,['216.77.188.73'],,
+2024-11-14T12:43:24.047696,beget.ru,95.85.95.85,A,['193.168.47.254'],,
+2024-11-14T12:43:24.047696,belka-games.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.047696,beforward.jp,77.88.8.1,A,"['3.115.244.219', '52.192.206.160']",,
+2024-11-14T12:43:24.047696,belkin.com,208.67.220.222,A,"['104.22.36.130', '104.22.37.130', '172.67.43.31']",,
+2024-11-14T12:43:24.047696,beelinegprs.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 210.21.196.6
+2024-11-14T12:43:24.047696,belkin.com,2620:fe::10,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,belnovosti.by,218.30.118.6,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belkin.com,2620:119:35::35,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:0:ccd::2
+2024-11-14T12:43:24.047696,beeline.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.047696,belkin.com,2400:3200:baba::1,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.047696,bellemaison.jp,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 123.125.81.7
+2024-11-14T12:43:24.047696,belkin.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2482', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2400:3200::1
+2024-11-14T12:43:24.047696,beeline.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.047696,belkin.com,2400:3200::1,AAAA,"['2606:4700:10::6816:2582', '2606:4700:10::6816:2482', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.047696,beeline.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.047696,belkin.com,2620:0:ccd::2,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,beeline.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.047696,belkin.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.047696,belka-games.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: belka-games.com on server: 123.125.81.7
+2024-11-14T12:43:24.047696,belkin.com,2620:119:53::53,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:0:ccc::2
+2024-11-14T12:43:24.047696,beeline.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.047696,belkin.com,2620:0:ccc::2,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.047696,beforward.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beforward.jp on server: 9.9.9.9
+2024-11-14T12:43:24.047696,belkin.com,2620:fe::fe,AAAA,"['2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2582', '2606:4700:10::6816:2482']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.047696,bellemaison.jp,117.50.11.11,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 117.50.11.11
+2024-11-14T12:43:24.047696,belkin.com,2a0c:a9c7:8::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.047696,belnovosti.by,123.125.81.6,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belkin.com,2a0c:a9c7:9::1,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T12:43:24.047696,belnovosti.by,101.226.4.6,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.047696,belnovosti.by,211.136.17.107,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belka-games.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2400:3200:baba::1
+2024-11-14T12:43:24.047696,belka-games.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: belka-games.com on server: 202.96.128.86
+2024-11-14T12:43:24.047696,belka-games.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2402:4e00::
+2024-11-14T12:43:24.047696,bellemaison.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.047696,belnovosti.by,180.76.76.76,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belka-games.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.047696,bellsouth.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 9.9.9.9
+2024-11-14T12:43:24.047696,belka-games.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: belka-games.com on server: 2400:3200::1
+2024-11-14T12:43:24.047696,beeline.ru,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.047696,belnovosti.by,210.21.196.6,A,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 210.21.196.6
+2024-11-14T12:43:24.047696,beeline.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.047696,bellemaison.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.047696,belkin.com,2001:6d0:6d0::2001,AAAA,"['2a06:98c1:3122:e000::b', '2a06:98c1:3123:e000::b']",,
+2024-11-14T12:43:24.047696,belkin.com,2001:6d0:d6::2001,AAAA,"['2a06:98c1:3123:e000::', '2a06:98c1:3122:e000::']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.047696,beeline.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.047696,beeline.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.047696,belkin.com,2a02:6b8::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.047696,belkin.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2a06:98c1:3123:e000::5', '2a06:98c1:3122:e000::5']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.047696,belnovosti.by,223.6.6.6,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,bellemaison.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.047696,belnovosti.by,119.29.29.29,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belkin.com,2a03:90c0:9992::1,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,beeline.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.047696,belnovosti.by,114.114.114.114,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,beeline.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.047696,belkin.com,2606:4700:4700::1001,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:fe::10
+2024-11-14T12:43:24.047696,beeline.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:fe::fe
+2024-11-14T12:43:24.047696,belkin.com,2a03:90c0:999d::1,AAAA,"['2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2482', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:119:35::35
+2024-11-14T12:43:24.047696,belkin.com,2001:4860:4860::8844,AAAA,"['2606:4700:10::6816:2482', '2606:4700:10::6816:2582', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:fe::fe
+2024-11-14T12:43:24.047696,beeline.ru,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2620:0:ccd::2
+2024-11-14T12:43:24.047696,belkin.com,2606:4700:4700::1111,AAAA,"['2606:4700:10::6816:2582', '2606:4700:10::6816:2482', '2606:4700:10::ac43:2b1f']",,
+2024-11-14T12:43:24.047696,belnovosti.by,114.114.115.115,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,belkin.com,2001:4860:4860::8888,AAAA,"['2606:4700:10::ac43:2b1f', '2606:4700:10::6816:2482', '2606:4700:10::6816:2582']",,
+2024-11-14T12:43:24.047696,bellemaison.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.047696,belnovosti.by,223.5.5.5,A,['93.84.112.130'],,
+2024-11-14T12:43:24.047696,bellemaison.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2620:119:53::53
+2024-11-14T12:43:24.047696,beeline.ru,8.8.8.8,A,['217.118.87.98'],,
+2024-11-14T12:43:24.047696,beian.gov.cn,208.67.220.220,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 208.67.220.220
+2024-11-14T12:43:24.047696,bell.ca,8.8.8.8,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.047696,beforward.jp,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:0:ccc::2
+2024-11-14T12:43:24.047696,behance.net,2620:0:ccc::2,AAAA,['2001::7a0a:5504'],,
+2024-11-14T12:43:24.047696,beian.gov.cn,123.125.81.6,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 123.125.81.6
+2024-11-14T12:43:24.047696,bell-labs.com,62.76.62.76,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.047696,belnovosti.by,123.125.81.7,A,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 123.125.81.7
+2024-11-14T12:43:24.047696,beforward.jp,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:119:53::53
+2024-11-14T12:43:24.047696,behance.net,2620:119:35::35,AAAA,['2001::1f0d:5e29'],,
+2024-11-14T12:43:24.047696,belnovosti.by,101.226.4.7,A,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 101.226.4.7
+2024-11-14T12:43:24.047696,beian.gov.cn,117.50.11.11,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 117.50.11.11
+2024-11-14T12:43:24.047696,bell-labs.com,1.0.0.1,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.047696,belnovosti.by,117.50.11.11,A,['93.84.112.130'],,
+2024-11-14T12:43:24.048696,beget.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.048696,behance.net,2620:119:53::53,AAAA,['2001::1f0d:4621'],,
+2024-11-14T12:43:24.048696,beeline.ru,208.67.222.220,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,belka-games.com,1.1.1.1,A,['138.201.152.52'],,
+2024-11-14T12:43:24.048696,bell-labs.com,8.8.4.4,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,bell.ca,2.56.220.2,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.048696,beforward.jp,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.048696,beget.tech,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.048696,beeline.ru,211.136.17.107,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,belnovosti.by,202.96.128.86,A,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 202.96.128.86
+2024-11-14T12:43:24.048696,bell.ca,77.88.8.8,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.048696,beeline.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beeline.ru on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.048696,beget.tech,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2402:4e00::
+2024-11-14T12:43:24.048696,beeline.ru,9.9.9.10,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,211.136.17.107,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 211.136.17.107
+2024-11-14T12:43:24.048696,bell-labs.com,8.8.8.8,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,bell-labs.com,208.67.220.220,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beforward.jp,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.048696,behance.net,2620:fe::10,AAAA,['2001::1f0d:5535'],,
+2024-11-14T12:43:24.048696,belka-games.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: belka-games.com on server: 2400:da00::6666
+2024-11-14T12:43:24.048696,bell.ca,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bell.ca on server: 2400:da00::6666
+2024-11-14T12:43:24.048696,bell.ca,95.85.95.85,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.048696,beforward.jp,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.048696,beget.tech,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.048696,beeline.ru,1.0.0.1,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,belka-games.com,8.8.4.4,A,['138.201.152.52'],,
+2024-11-14T12:43:24.048696,belkin.com,101.226.4.6,A,"['104.22.36.130', '172.67.43.31', '104.22.37.130']",,
+2024-11-14T12:43:24.048696,bell-labs.com,208.67.222.222,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beforward.jp,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:119:35::35
+2024-11-14T12:43:24.048696,behance.net,2620:0:ccd::2,AAAA,['2001::a27d:2009'],,
+2024-11-14T12:43:24.048696,beeline.ru,218.30.118.6,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,62.76.76.62,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 62.76.76.62
+2024-11-14T12:43:24.048696,bell-labs.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 101.226.4.7
+2024-11-14T12:43:24.048696,bell.ca,1.0.0.1,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.048696,beforward.jp,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.048696,beeline.ru,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beeline.ru on server: 9.9.9.9
+2024-11-14T12:43:24.048696,beian.gov.cn,9.9.9.10,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 9.9.9.10
+2024-11-14T12:43:24.048696,belkin.com,123.125.81.6,A,"['104.22.36.130', '172.67.43.31', '104.22.37.130']",,
+2024-11-14T12:43:24.048696,bell-labs.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 210.21.196.6
+2024-11-14T12:43:24.048696,beforward.jp,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:fe::fe
+2024-11-14T12:43:24.048696,behance.net,2620:fe::fe,AAAA,['2001::68f4:2e05'],,
+2024-11-14T12:43:24.048696,beeline.ru,208.67.220.220,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 101.226.4.7
+2024-11-14T12:43:24.048696,beforward.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beforward.jp on server: 2400:da00::6666
+2024-11-14T12:43:24.048696,bell-labs.com,9.9.9.10,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beforward.jp,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:fe::10
+2024-11-14T12:43:24.048696,beeline.ru,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beeline.ru on server: 210.21.196.6
+2024-11-14T12:43:24.048696,beian.gov.cn,101.226.4.6,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 101.226.4.6
+2024-11-14T12:43:24.048696,belkin.com,180.76.76.76,A,"['104.22.37.130', '172.67.43.31', '104.22.36.130']",,
+2024-11-14T12:43:24.048696,bell-labs.com,180.76.76.76,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beget.tech,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2400:3200:baba::1
+2024-11-14T12:43:24.048696,beeline.ru,180.76.76.76,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 9.9.9.9
+2024-11-14T12:43:24.048696,belkin.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: belkin.com on server: 101.226.4.7
+2024-11-14T12:43:24.048696,beeline.ru,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beeline.ru on server: 202.96.128.86
+2024-11-14T12:43:24.048696,beforward.jp,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.048696,behance.net,2a0c:a9c7:9::1,AAAA,['2001::8079:f34d'],,
+2024-11-14T12:43:24.048696,beeline.ru,2.56.220.2,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,218.30.118.6,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 218.30.118.6
+2024-11-14T12:43:24.048696,bell-labs.com,77.88.8.8,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beforward.jp,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.048696,beget.tech,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2400:3200::1
+2024-11-14T12:43:24.048696,beeline.ru,114.114.114.114,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,195.208.4.1,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 195.208.4.1
+2024-11-14T12:43:24.048696,bell-labs.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 9.9.9.9
+2024-11-14T12:43:24.048696,bell-labs.com,77.88.8.1,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beforward.jp,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.048696,beeline.ru,223.6.6.6,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,bell-labs.com,119.29.29.29,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beian.gov.cn,195.208.5.1,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 195.208.5.1
+2024-11-14T12:43:24.048696,bell-labs.com,101.226.4.6,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beian.gov.cn,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 123.125.81.7
+2024-11-14T12:43:24.048696,beeline.ru,77.88.8.8,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,bell-labs.com,62.76.76.62,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,belkin.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: belkin.com on server: 123.125.81.7
+2024-11-14T12:43:24.048696,beforward.jp,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.048696,beeline.ru,119.29.29.29,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,114.114.114.114,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 114.114.114.114
+2024-11-14T12:43:24.048696,belkin.com,119.29.29.29,A,"['104.22.37.130', '104.22.36.130', '172.67.43.31']",,
+2024-11-14T12:43:24.048696,bell.ca,1.1.1.1,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.048696,beelinegprs.ru,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2400:3200:baba::1
+2024-11-14T12:43:24.048696,beget.tech,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beget.tech on server: 2620:0:ccd::2
+2024-11-14T12:43:24.048696,beeline.ru,223.5.5.5,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beeline.ru,195.208.4.1,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,bell-labs.com,1.1.1.1,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,bell-labs.com,123.125.81.6,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beelinegprs.ru,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2402:4e00::
+2024-11-14T12:43:24.048696,beeline.ru,62.76.62.76,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,62.76.62.76,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 62.76.62.76
+2024-11-14T12:43:24.048696,belkin.com,223.5.5.5,A,"['104.22.37.130', '104.22.36.130', '172.67.43.31']",,
+2024-11-14T12:43:24.048696,bell-labs.com,117.50.11.11,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beelinegprs.ru,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.048696,behance.net,2606:4700:4700::1001,AAAA,['2001::453f:be1a'],,
+2024-11-14T12:43:24.048696,beeline.ru,208.67.222.222,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 210.21.196.6
+2024-11-14T12:43:24.048696,belkin.com,223.6.6.6,A,"['104.22.36.130', '172.67.43.31', '104.22.37.130']",,
+2024-11-14T12:43:24.048696,bell.ca,8.8.4.4,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.048696,beelinegprs.ru,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beelinegprs.ru on server: 2400:3200::1
+2024-11-14T12:43:24.048696,behance.net,2a03:90c0:999d::1,AAAA,['2001::80f2:fa9b'],,
+2024-11-14T12:43:24.048696,beeline.ru,1.1.1.1,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,belka-games.com,8.8.8.8,A,['138.201.152.52'],,
+2024-11-14T12:43:24.048696,belkin.com,114.114.114.114,A,"['172.67.43.31', '104.22.37.130', '104.22.36.130']",,
+2024-11-14T12:43:24.048696,bell-labs.com,218.30.118.6,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beforward.jp,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.048696,behance.net,2606:4700:4700::1111,AAAA,['2001::7459:f308'],,
+2024-11-14T12:43:24.048696,belkin.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: belkin.com on server: 202.96.128.86
+2024-11-14T12:43:24.048696,beian.gov.cn,180.76.76.76,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 180.76.76.76
+2024-11-14T12:43:24.048696,belkin.com,114.114.115.115,A,"['104.22.37.130', '104.22.36.130', '172.67.43.31']",,
+2024-11-14T12:43:24.048696,beeline.ru,94.140.14.14,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,bell-labs.com,211.136.17.107,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beforward.jp,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.048696,beeline.ru,8.8.4.4,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,208.67.222.222,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 208.67.222.222
+2024-11-14T12:43:24.048696,bell-labs.com,223.5.5.5,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beforward.jp,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.048696,behance.net,2001:6d0:6d0::2001,AAAA,['2001::c73b:940f'],,
+2024-11-14T12:43:24.048696,bell-labs.com,195.208.4.1,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,beeline.ru,94.140.15.15,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,208.67.220.222,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 208.67.220.222
+2024-11-14T12:43:24.048696,bell-labs.com,223.6.6.6,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,bell-labs.com,195.208.5.1,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,behance.net,2001:6d0:d6::2001,AAAA,['2001::9df0:c23'],,
+2024-11-14T12:43:24.048696,beforward.jp,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.048696,beian.gov.cn,94.140.14.14,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 94.140.14.14
+2024-11-14T12:43:24.048696,bell-labs.com,95.85.95.85,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.048696,bell-labs.com,114.114.114.114,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beeline.ru,208.67.220.222,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beforward.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2400:3200:baba::1
+2024-11-14T12:43:24.048696,behance.net,2001:4860:4860::8888,AAAA,['2001::45ab:f720'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,223.6.6.6,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 223.6.6.6
+2024-11-14T12:43:24.048696,bell-labs.com,2.56.220.2,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,bell-labs.com,114.114.115.115,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beforward.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2402:4e00::
+2024-11-14T12:43:24.048696,behance.net,2001:4860:4860::8844,AAAA,['2001::9f41:6b26'],,
+2024-11-14T12:43:24.048696,beeline.ru,77.88.8.1,A,['217.118.87.98'],,
+2024-11-14T12:43:24.048696,beian.gov.cn,119.29.29.29,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 119.29.29.29
+2024-11-14T12:43:24.048696,belkin.com,211.136.17.107,A,"['104.22.37.130', '104.22.36.130', '172.67.43.31']",,
+2024-11-14T12:43:24.048696,bell-labs.com,94.140.14.14,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.048696,beforward.jp,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.049695,behance.net,2a0c:a9c7:8::1,AAAA,['2001::43e4:6620'],,
+2024-11-14T12:43:24.049695,bell-labs.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 202.96.128.86
+2024-11-14T12:43:24.049695,beian.gov.cn,114.114.115.115,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 114.114.115.115
+2024-11-14T12:43:24.049695,beeline.ru,62.76.76.62,A,['217.118.87.98'],,
+2024-11-14T12:43:24.049695,belkin.com,117.50.11.11,A,"['104.22.37.130', '104.22.36.130', '172.67.43.31']",,
+2024-11-14T12:43:24.049695,beforward.jp,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2400:3200::1
+2024-11-14T12:43:24.049695,behance.net,2a03:90c0:9992::1,AAAA,['2001::58bf:f9b6'],,
+2024-11-14T12:43:24.049695,bell-labs.com,94.140.15.15,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.049695,beian.gov.cn,223.5.5.5,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 223.5.5.5
+2024-11-14T12:43:24.049695,beeline.ru,195.208.5.1,A,['217.118.87.98'],,
+2024-11-14T12:43:24.049695,bell-labs.com,208.67.222.220,A,"['13.248.141.142', '76.223.16.132']",,
+2024-11-14T12:43:24.049695,beforward.jp,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2620:0:ccd::2
+2024-11-14T12:43:24.049695,behance.net,2a02:6b8::feed:0ff,AAAA,['2001::c760:3e4b'],,
+2024-11-14T12:43:24.049695,beeline.ru,114.114.115.115,A,['217.118.87.98'],,
+2024-11-14T12:43:24.049695,beian.gov.cn,208.67.222.220,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 208.67.222.220
+2024-11-14T12:43:24.049695,belkin.com,218.30.118.6,A,"['172.67.43.31', '104.22.36.130', '104.22.37.130']",,
+2024-11-14T12:43:24.049695,bell-labs.com,208.67.220.222,A,"['76.223.16.132', '13.248.141.142']",,
+2024-11-14T12:43:24.049695,beforward.jp,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beforward.jp on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.049695,behance.net,2a02:6b8:0:1::feed:0ff,AAAA,['2001::1f0d:44a9'],,
+2024-11-14T12:43:24.049695,beelinegprs.ru,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beelinegprs.ru on server: 2400:da00::6666
+2024-11-14T12:43:24.049695,bellemaison.jp,9.9.9.10,A,"['2.21.20.2', '2.21.20.18']",,
+2024-11-14T12:43:24.049695,beget.tech,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beget.tech on server: 2400:da00::6666
+2024-11-14T12:43:24.049695,beget.pro,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:0:ccc::2
+2024-11-14T12:43:24.049695,bell.ca,123.125.81.6,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bell-labs.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bell-labs.com on server: 123.125.81.7
+2024-11-14T12:43:24.049695,bellemaison.jp,195.208.5.1,A,"['80.239.150.67', '80.239.150.75']",,
+2024-11-14T12:43:24.049695,beget.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.049695,bell.ca,223.6.6.6,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,beget.pro,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:0:ccd::2
+2024-11-14T12:43:24.049695,beget.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.049695,beget.pro,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:119:35::35
+2024-11-14T12:43:24.049695,beian.gov.cn,94.140.15.15,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 94.140.15.15
+2024-11-14T12:43:24.049695,bell.ca,119.29.29.29,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,62.76.62.76,A,"['2.16.56.141', '2.16.56.154']",,
+2024-11-14T12:43:24.049695,beget.pro,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:119:53::53
+2024-11-14T12:43:24.049695,bell.ca,180.76.76.76,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,beget.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.049695,bellemaison.jp,195.208.4.1,A,"['2.16.56.154', '2.16.56.141']",,
+2024-11-14T12:43:24.049695,beget.pro,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.049695,bell.ca,195.208.5.1,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,1.0.0.1,A,"['23.60.173.59', '23.60.173.72']",,
+2024-11-14T12:43:24.049695,beget.pro,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.049695,bell.ca,114.114.115.115,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,95.85.95.85,A,"['23.215.7.22', '23.215.7.20']",,
+2024-11-14T12:43:24.049695,beget.pro,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.049695,beget.ru,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.049695,bell.ca,223.5.5.5,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,8.8.4.4,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.pro,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.049695,beget.ru,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.049695,bell.ca,114.114.114.114,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,1.1.1.1,A,"['23.193.119.208', '23.193.119.200', '23.193.119.206']",,
+2024-11-14T12:43:24.049695,beget.pro,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.049695,beget.pro,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.049695,beget.ru,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.049695,bellemaison.jp,218.30.118.6,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.ru,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.049695,beget.pro,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.049695,bell.ca,208.67.222.220,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,211.136.17.107,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.ru,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.049695,beget.pro,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.049695,bell.ca,208.67.220.222,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,beget.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.049695,beget.ru,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2620:fe::fe
+2024-11-14T12:43:24.049695,beian.gov.cn,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beian.gov.cn on server: 202.96.128.86
+2024-11-14T12:43:24.049695,beeline.ru,95.85.95.85,A,['217.118.87.98'],,
+2024-11-14T12:43:24.049695,beget.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.049695,beget.pro,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:fe::10
+2024-11-14T12:43:24.049695,bell.ca,208.67.220.220,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,119.29.29.29,A,"['23.32.20.73', '23.32.20.75']",,
+2024-11-14T12:43:24.049695,beget.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.049695,beget.ru,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.049695,bell.ca,117.50.11.11,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,180.76.76.76,A,"['23.200.143.87', '23.200.143.84']",,
+2024-11-14T12:43:24.049695,beget.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.049695,belkin.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: belkin.com on server: 210.21.196.6
+2024-11-14T12:43:24.049695,bellemaison.jp,208.67.220.220,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.049695,beget.pro,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2620:fe::fe
+2024-11-14T12:43:24.049695,bell.ca,62.76.76.62,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,223.6.6.6,A,"['184.51.102.74', '184.51.102.97', '184.51.102.105', '184.51.102.112', '184.51.102.113', '184.51.102.83', '184.51.102.58']",,
+2024-11-14T12:43:24.049695,beget.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.049695,beget.ru,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.049695,bell.ca,101.226.4.6,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,208.67.220.222,A,"['23.200.143.87', '23.200.143.84']",,
+2024-11-14T12:43:24.049695,beget.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2400:3200:baba::1
+2024-11-14T12:43:24.049695,beget.com,2a0c:a9c7:9::1,AAAA,[],Timeout,Timeout occurred for domain: beget.com on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.049695,bellemaison.jp,208.67.222.222,A,"['23.200.143.87', '23.200.143.84']",,
+2024-11-14T12:43:24.049695,beget.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2402:4e00::
+2024-11-14T12:43:24.049695,beget.ru,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.049695,bell.ca,77.88.8.1,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 9.9.9.9
+2024-11-14T12:43:24.049695,bellemaison.jp,223.5.5.5,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.ru,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.049695,bellemaison.jp,8.8.8.8,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,208.67.222.220,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.pro,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.049695,beget.ru,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.049695,bellemaison.jp,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 202.96.128.86
+2024-11-14T12:43:24.049695,bellemaison.jp,114.114.115.115,A,"['23.200.143.84', '23.200.143.87']",,
+2024-11-14T12:43:24.049695,beget.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:0:ccc::2
+2024-11-14T12:43:24.049695,bell.ca,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bell.ca on server: 9.9.9.9
+2024-11-14T12:43:24.049695,beget.ru,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: beget.ru on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.049695,bell.ca,62.76.62.76,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,beget.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:0:ccd::2
+2024-11-14T12:43:24.049695,beget.pro,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.049695,bellemaison.jp,94.140.15.15,A,"['173.222.162.54', '173.222.162.53']",,
+2024-11-14T12:43:24.049695,bell.ca,195.208.4.1,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,beget.pro,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.049695,beget.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:119:35::35
+2024-11-14T12:43:24.049695,bellemaison.jp,114.114.114.114,A,"['23.200.143.87', '23.200.143.84']",,
+2024-11-14T12:43:24.049695,bell.ca,94.140.14.14,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,beget.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:119:53::53
+2024-11-14T12:43:24.049695,bell.ca,94.140.15.15,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,beget.pro,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.049695,beget.pro,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.049695,beget.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:fe::fe
+2024-11-14T12:43:24.049695,bellemaison.jp,94.140.14.14,A,"['173.222.162.54', '173.222.162.53']",,
+2024-11-14T12:43:24.049695,beget.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2620:fe::10
+2024-11-14T12:43:24.049695,bellemaison.jp,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 210.21.196.6
+2024-11-14T12:43:24.049695,bell.ca,208.67.222.222,A,"['206.47.98.98', '184.150.212.98']",,
+2024-11-14T12:43:24.049695,beget.pro,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2402:4e00::
+2024-11-14T12:43:24.049695,beget.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.049695,bellemaison.jp,77.88.8.1,A,"['2.21.245.30', '2.21.245.50']",,
+2024-11-14T12:43:24.049695,bell.ca,218.30.118.6,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.049695,bellemaison.jp,62.76.76.62,A,"['2.16.56.141', '2.16.56.154']",,
+2024-11-14T12:43:24.049695,beget.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2400:3200::1
+2024-11-14T12:43:24.049695,beget.pro,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2400:3200::1
+2024-11-14T12:43:24.049695,bell.ca,211.136.17.107,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.050695,bellemaison.jp,2.56.220.2,A,"['23.215.7.22', '23.215.7.20']",,
+2024-11-14T12:43:24.050695,bell.ca,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bell.ca on server: 123.125.81.7
+2024-11-14T12:43:24.050695,beget.pro,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2400:3200:baba::1
+2024-11-14T12:43:24.050695,bell.ca,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bell.ca on server: 101.226.4.7
+2024-11-14T12:43:24.050695,bellemaison.jp,77.88.8.8,A,"['62.115.252.17', '62.115.252.49']",,
+2024-11-14T12:43:24.050695,beget.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.050695,beget.pro,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: beget.pro on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.050695,beget.pro,2.56.220.2,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,behance.net,123.125.81.6,A,['162.125.34.133'],,
+2024-11-14T12:43:24.050695,belnovosti.by,208.67.220.220,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.050695,beget.pro,77.88.8.8,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,beget.ru,2a03:90c0:9992::1,AAAA,[],Timeout,Timeout occurred for domain: beget.ru on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.050695,belnovosti.by,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.050695,beget.pro,95.85.95.85,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,belnovosti.by,8.8.8.8,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.050695,belnovosti.by,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.050695,beget.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beget.com on server: 2400:da00::6666
+2024-11-14T12:43:24.050695,belnovosti.by,8.8.4.4,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.050695,belnovosti.by,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:119:53::53
+2024-11-14T12:43:24.050695,bell.ca,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bell.ca on server: 202.96.128.86
+2024-11-14T12:43:24.050695,behance.net,211.136.17.107,A,['74.86.151.162'],,
+2024-11-14T12:43:24.050695,belnovosti.by,95.85.95.85,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellemaison.jp,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2402:4e00::
+2024-11-14T12:43:24.050695,belnovosti.by,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.050695,bell.ca,9.9.9.10,A,"['184.150.212.98', '206.47.98.98']",,
+2024-11-14T12:43:24.050695,beget.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: beget.com on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.050695,beget.pro,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: beget.pro on server: 2400:da00::6666
+2024-11-14T12:43:24.050695,belnovosti.by,2.56.220.2,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellemaison.jp,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bellemaison.jp on server: 2400:3200:baba::1
+2024-11-14T12:43:24.050695,bell.ca,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bell.ca on server: 210.21.196.6
+2024-11-14T12:43:24.050695,beian.gov.cn,77.88.8.1,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 77.88.8.1
+2024-11-14T12:43:24.050695,belnovosti.by,9.9.9.9,A,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 9.9.9.9
+2024-11-14T12:43:24.050695,belnovosti.by,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.050695,beget.com,208.67.220.220,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,beget.com,117.50.11.11,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,beget.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: beget.com on server: 9.9.9.9
+2024-11-14T12:43:24.050695,bellsouth.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:fe::10
+2024-11-14T12:43:24.050695,beget.com,114.114.115.115,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,94.140.14.14,A,['104.244.46.57'],,
+2024-11-14T12:43:24.050695,belnovosti.by,1.1.1.1,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:119:53::53
+2024-11-14T12:43:24.050695,belnovosti.by,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.050695,beget.com,180.76.76.76,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,218.30.118.6,A,['159.106.121.75'],,
+2024-11-14T12:43:24.050695,beget.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: beget.com on server: 123.125.81.7
+2024-11-14T12:43:24.050695,belnovosti.by,1.0.0.1,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.050695,bellsouth.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.050695,beget.com,218.30.118.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,117.50.11.11,A,['128.242.240.155'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:119:35::35
+2024-11-14T12:43:24.050695,beian.gov.cn,77.88.8.8,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 77.88.8.8
+2024-11-14T12:43:24.050695,behance.net,94.140.15.15,A,['199.59.150.49'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:fe::10
+2024-11-14T12:43:24.050695,belnovosti.by,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.050695,bellsouth.net,123.125.81.6,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,beian.gov.cn,8.8.8.8,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 8.8.8.8
+2024-11-14T12:43:24.050695,beget.pro,1.0.0.1,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:fe::fe
+2024-11-14T12:43:24.050695,bellsouth.net,101.226.4.6,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,beian.gov.cn,2.56.220.2,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 2.56.220.2
+2024-11-14T12:43:24.050695,bellsouth.net,117.50.11.11,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,bellsouth.net,211.136.17.107,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a03:90c0:9992::1
+2024-11-14T12:43:24.050695,behance.net,114.114.114.114,A,['31.13.94.36'],,
+2024-11-14T12:43:24.050695,beget.pro,8.8.4.4,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2606:4700:4700::1001
+2024-11-14T12:43:24.050695,belnovosti.by,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T12:43:24.050695,beget.pro,1.1.1.1,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,beget.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: beget.com on server: 202.96.128.86
+2024-11-14T12:43:24.050695,bellsouth.net,218.30.118.6,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2400:3200::1
+2024-11-14T12:43:24.050695,beget.com,211.136.17.107,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,208.67.220.222,A,['162.125.32.13'],,
+2024-11-14T12:43:24.050695,bellsouth.net,180.76.76.76,A,['216.77.188.73'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2001:6d0:6d0::2001
+2024-11-14T12:43:24.050695,belnovosti.by,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2400:3200:baba::1
+2024-11-14T12:43:24.050695,beget.pro,8.8.8.8,A,['5.101.158.105'],,
+2024-11-14T12:43:24.050695,behance.net,223.6.6.6,A,['31.13.71.19'],,
+2024-11-14T12:43:24.050695,bellsouth.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 123.125.81.7
+2024-11-14T12:43:24.050695,bellsouth.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2001:4860:4860::8888
+2024-11-14T12:43:24.050695,belnovosti.by,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2402:4e00::
+2024-11-14T12:43:24.050695,beget.com,9.9.9.10,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: behance.net on server: 101.226.4.7
+2024-11-14T12:43:24.050695,bellsouth.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a02:6b8::feed:0ff
+2024-11-14T12:43:24.050695,belnovosti.by,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.050695,beget.com,119.29.29.29,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,beian.gov.cn,1.0.0.1,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 1.0.0.1
+2024-11-14T12:43:24.050695,belnovosti.by,62.76.76.62,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 101.226.4.7
+2024-11-14T12:43:24.050695,belnovosti.by,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2400:3200::1
+2024-11-14T12:43:24.050695,beget.com,101.226.4.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,208.67.222.220,A,['199.59.149.239'],,
+2024-11-14T12:43:24.050695,belnovosti.by,9.9.9.10,A,['178.128.195.129'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.050695,belnovosti.by,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:119:35::35
+2024-11-14T12:43:24.050695,beget.com,114.114.114.114,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,223.5.5.5,A,['118.193.202.219'],,
+2024-11-14T12:43:24.050695,belnovosti.by,208.67.222.222,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a03:90c0:999d::1
+2024-11-14T12:43:24.050695,beget.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: beget.com on server: 210.21.196.6
+2024-11-14T12:43:24.050695,behance.net,208.67.220.220,A,['69.63.180.173'],,
+2024-11-14T12:43:24.050695,belnovosti.by,195.208.5.1,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2606:4700:4700::1111
+2024-11-14T12:43:24.050695,bellsouth.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2402:4e00::
+2024-11-14T12:43:24.050695,beget.com,123.125.81.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,101.226.4.6,A,['162.125.34.133'],,
+2024-11-14T12:43:24.050695,belnovosti.by,94.140.15.15,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 210.21.196.6
+2024-11-14T12:43:24.050695,beget.com,94.140.14.14,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: belnovosti.by on server: 2400:da00::6666
+2024-11-14T12:43:24.050695,beian.gov.cn,95.85.95.85,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 95.85.95.85
+2024-11-14T12:43:24.050695,belnovosti.by,62.76.62.76,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2001:6d0:d6::2001
+2024-11-14T12:43:24.050695,bellsouth.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.050695,behance.net,119.29.29.29,A,['103.200.30.143'],,
+2024-11-14T12:43:24.050695,beget.com,94.140.15.15,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,belnovosti.by,195.208.4.1,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:0:ccc::2
+2024-11-14T12:43:24.050695,bellsouth.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:0:ccd::2
+2024-11-14T12:43:24.050695,beian.gov.cn,8.8.4.4,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 8.8.4.4
+2024-11-14T12:43:24.050695,beget.com,208.67.220.222,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2a10:50c0::ad2:ff
+2024-11-14T12:43:24.050695,belnovosti.by,208.67.220.222,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,behance.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: behance.net on server: 202.96.128.86
+2024-11-14T12:43:24.050695,behance.net,114.114.115.115,A,['31.13.94.36'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a0c:a9c7:9::1
+2024-11-14T12:43:24.050695,beget.com,208.67.222.222,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,belnovosti.by,94.140.14.14,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2001:4860:4860::8844
+2024-11-14T12:43:24.050695,belnovosti.by,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:fe::fe
+2024-11-14T12:43:24.050695,beian.gov.cn,1.1.1.1,A,[],NoAnswer,No answer for domain: beian.gov.cn on server: 1.1.1.1
+2024-11-14T12:43:24.050695,belnovosti.by,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a10:50c0::ad1:ff
+2024-11-14T12:43:24.050695,beget.com,223.5.5.5,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,behance.net,180.76.76.76,A,['157.240.21.9'],,
+2024-11-14T12:43:24.050695,belnovosti.by,77.88.8.8,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,bellsouth.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2400:3200:baba::1
+2024-11-14T12:43:24.050695,beget.com,223.6.6.6,A,['193.168.47.254'],,
+2024-11-14T12:43:24.050695,belnovosti.by,77.88.8.1,A,['93.84.112.130'],,
+2024-11-14T12:43:24.050695,belnovosti.by,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2a0c:a9c7:8::1
+2024-11-14T12:43:24.051697,beget.com,208.67.222.220,A,['193.168.47.254'],,
+2024-11-14T12:43:24.051697,belnovosti.by,208.67.222.220,A,['93.84.112.130'],,
+2024-11-14T12:43:24.051697,belnovosti.by,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: belnovosti.by on server: 2620:0:ccd::2
+2024-11-14T12:43:24.051697,bellsouth.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bellsouth.net on server: 2620:0:ccc::2
+2024-11-14T12:43:24.051697,bellsouth.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 202.96.128.86
+2024-11-14T12:43:24.051697,behance.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: behance.net on server: 123.125.81.7
+2024-11-14T12:43:24.051697,bellemaison.jp,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bellemaison.jp on server: 2400:da00::6666
+2024-11-14T12:43:24.051697,beget.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: beget.com on server: 101.226.4.7
+2024-11-14T12:43:24.051697,bellsouth.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bellsouth.net on server: 2400:da00::6666
+2024-11-14T12:43:24.051697,behance.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: behance.net on server: 210.21.196.6

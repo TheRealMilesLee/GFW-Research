@@ -1,0 +1,945 @@
+timestamp,domain,dns_server,record_type,answers,error_code,error_reason
+2024-11-14T11:48:12.933952,bahn.de,119.29.29.29,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoocdn.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.933952,baidu.com,119.29.29.29,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.933952,bacolviral.asia,2.56.220.2,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,208.67.220.222,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,badoo.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.933952,bacolviral.asia,77.88.8.8,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.com,114.114.114.114,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.933952,badoo.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2400:3200::1
+2024-11-14T11:48:12.933952,baidu.hk,195.208.4.1,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.933952,baidu.hk,1.0.0.1,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,94.140.14.14,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,208.67.222.222,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.com,117.50.11.11,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.933952,badoo.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.933952,bahn.de,2.56.220.2,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoo.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.933952,bacolviral.asia,208.67.222.220,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,badoo.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.933952,badoo.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.933952,baidu.hk,62.76.62.76,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,195.208.5.1,A,"['188.114.97.3', '188.114.96.3']",,
+2024-11-14T11:48:12.933952,baidu.hk,208.67.222.222,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,badoo.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.933952,baidu.hk,62.76.76.62,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,9.9.9.10,A,"['188.114.96.3', '188.114.97.3']",,
+2024-11-14T11:48:12.933952,badoo.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.933952,bacolviral.asia,208.67.220.220,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.hk,77.88.8.8,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,bahn.de,195.208.4.1,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,baidu.hk,77.88.8.1,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,baidu.com,223.5.5.5,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,62.76.76.62,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.hk,95.85.95.85,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,baidu.com,223.6.6.6,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.933952,bahn.de,77.88.8.8,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,bahn.de,62.76.76.62,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,bacolviral.asia,195.208.4.1,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,bahn.de,208.67.220.220,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoocdn.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.933952,bacolviral.asia,8.8.8.8,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.933952,badoo.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2402:4e00::
+2024-11-14T11:48:12.933952,baidu.com,114.114.115.115,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,bahn.de,195.208.5.1,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoocdn.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.933952,bacolviral.asia,77.88.8.1,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.hk,1.1.1.1,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.933952,bacolviral.asia,62.76.62.76,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.933952,bahn.de,9.9.9.10,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,baidu.hk,9.9.9.10,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.933952,backtrace.io,101.226.4.6,A,['76.76.21.21'],,
+2024-11-14T11:48:12.933952,bahn.de,208.67.222.222,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,baidu.hk,8.8.4.4,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.933952,baidu.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baidu.com on server: 210.21.196.6
+2024-11-14T11:48:12.933952,bahn.de,223.6.6.6,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoo.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: badoo.com on server: 2400:da00::6666
+2024-11-14T11:48:12.933952,baidu.hk,195.208.5.1,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.933952,badoo.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:fe::fe
+2024-11-14T11:48:12.933952,bacolviral.asia,1.1.1.1,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,bahn.de,62.76.62.76,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,baidu.hk,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baidu.hk on server: 9.9.9.9
+2024-11-14T11:48:12.933952,bacolviral.asia,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 9.9.9.9
+2024-11-14T11:48:12.933952,bahn.de,223.5.5.5,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,bacolviral.asia,95.85.95.85,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.933952,baidu.hk,8.8.8.8,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,badoocdn.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.933952,bahn.de,208.67.222.220,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,bacolviral.asia,8.8.4.4,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.933952,baidu.com,101.226.4.6,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.933952,bacolviral.asia,1.0.0.1,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.933952,bahn.de,208.67.220.222,A,['81.200.196.33'],,
+2024-11-14T11:48:12.933952,badoo.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.933952,badoocdn.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.933952,backtrace.io,101.226.4.7,A,[],Timeout,Timeout occurred for domain: backtrace.io on server: 101.226.4.7
+2024-11-14T11:48:12.935952,bahn.de,94.140.14.14,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,badoo.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.935952,baidu.com,218.30.118.6,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baidu.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baidu.com on server: 202.96.128.86
+2024-11-14T11:48:12.935952,backtrace.io,123.125.81.6,A,['76.76.21.21'],,
+2024-11-14T11:48:12.935952,baidu.com,211.136.17.107,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.935952,badoo.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:119:53::53
+2024-11-14T11:48:12.935952,bahn.de,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bahn.de on server: 9.9.9.9
+2024-11-14T11:48:12.935952,bacolviral.asia,114.114.115.115,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.935952,bahn.de,77.88.8.1,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,baidu.com,180.76.76.76,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.935952,bacolviral.asia,114.114.114.114,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.935952,bahn.de,94.140.15.15,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,badoo.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.935952,baidu.hk,2.56.220.2,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.935952,badoo.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:fe::10
+2024-11-14T11:48:12.935952,bacolviral.asia,94.140.15.15,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.935952,baidu.com,123.125.81.6,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,badoo.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2620:119:35::35
+2024-11-14T11:48:12.935952,bahn.de,114.114.114.114,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,bahn.de,114.114.115.115,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,baidu.com,77.88.8.1,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,77.88.8.1,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,bakecaincontrii.com,1.0.0.1,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.935952,baji.live,62.76.76.62,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T11:48:12.935952,badoo.com,208.67.220.222,A,['31.222.75.112'],,
+2024-11-14T11:48:12.935952,baji.live,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:fe::10
+2024-11-14T11:48:12.935952,bahn.de,123.125.81.6,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,baishan-cloud.net,62.76.76.62,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,bakecaincontrii.com,8.8.4.4,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.935952,baji.live,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.935952,backtrace.io,123.125.81.7,A,[],Timeout,Timeout occurred for domain: backtrace.io on server: 123.125.81.7
+2024-11-14T11:48:12.935952,bahn.de,101.226.4.6,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,baishan-cloud.net,94.140.14.14,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,77.88.8.1,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T11:48:12.935952,bakecaincontrii.com,2.56.220.2,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.935952,baji.live,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.935952,badoocdn.com,8.8.8.8,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,baishan-cloud.net,119.29.29.29,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,195.208.5.1,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T11:48:12.935952,bakecaincontrii.com,1.1.1.1,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.935952,baji.live,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.935952,badoocdn.com,62.76.62.76,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,baidu.com,1.1.1.1,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,223.6.6.6,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,1.0.0.1,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,123.125.81.6,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:fe::fe
+2024-11-14T11:48:12.935952,badoo.com,101.226.4.6,A,['31.222.67.112'],,
+2024-11-14T11:48:12.935952,baidu.com,8.8.8.8,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,223.5.5.5,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,95.85.95.85,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,baji.live,223.6.6.6,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,backtrace.io,117.50.11.11,A,['76.76.21.21'],,
+2024-11-14T11:48:12.935952,badoo.com,117.50.11.11,A,['31.222.67.112'],,
+2024-11-14T11:48:12.935952,baidu.com,8.8.4.4,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,77.88.8.8,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,2.56.220.2,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,badoocdn.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.935952,baji.live,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.935952,baji.live,114.114.115.115,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,badoo.com,123.125.81.6,A,['31.222.67.112'],,
+2024-11-14T11:48:12.935952,baji.live,77.88.8.8,A,"['188.114.98.229', '188.114.99.229']",,
+2024-11-14T11:48:12.935952,baji.live,223.5.5.5,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.935952,badoocdn.com,195.208.4.1,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,baidu.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baidu.com on server: 101.226.4.7
+2024-11-14T11:48:12.935952,baishan-cloud.net,1.0.0.1,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,bajajfinserv.in,218.30.118.6,A,['23.200.154.251'],,
+2024-11-14T11:48:12.935952,baji.live,94.140.14.14,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.935952,baidu.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baidu.com on server: 123.125.81.7
+2024-11-14T11:48:12.935952,badoocdn.com,195.208.5.1,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,baidu.com,94.140.14.14,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,2.56.220.2,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,bajajfinserv.in,114.114.114.114,A,['23.195.110.101'],,
+2024-11-14T11:48:12.935952,baji.live,208.67.222.220,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,badoocdn.com,77.88.8.1,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,bahn.de,180.76.76.76,A,['81.200.196.33'],,
+2024-11-14T11:48:12.935952,baishan-cloud.net,1.1.1.1,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,1.1.1.1,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,baji.live,208.67.220.222,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,badoocdn.com,62.76.76.62,A,['31.222.66.68'],,
+2024-11-14T11:48:12.935952,baidu.com,208.67.220.222,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.935952,baishan-cloud.net,95.85.95.85,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,badoo.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: badoo.com on server: 123.125.81.7
+2024-11-14T11:48:12.935952,baji.live,9.9.9.10,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,208.67.220.220,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.935952,bajajfinserv.in,2400:3200::1,AAAA,"['2600:1417:76:1a1::3844', '2600:1417:76:197::3844']",,
+2024-11-14T11:48:12.935952,badoo.com,94.140.15.15,A,['31.222.67.112'],,
+2024-11-14T11:48:12.935952,baishan-cloud.net,208.67.220.222,A,['183.61.189.213'],,
+2024-11-14T11:48:12.935952,baji.live,8.8.4.4,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.935952,baji.live,94.140.15.15,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.936950,baji.live,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baji.live on server: 9.9.9.9
+2024-11-14T11:48:12.936950,badoo.com,94.140.14.14,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2402:4e00::,AAAA,"['2600:140e:6:9b5::3844', '2600:140e:6:9a4::3844']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,114.114.115.115,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bahn.de,211.136.17.107,A,['81.200.196.33'],,
+2024-11-14T11:48:12.936950,baji.live,114.114.114.114,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.936950,badoo.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: badoo.com on server: 101.226.4.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,2a10:50c0::ad2:ff,AAAA,"['2600:1417:3f:78f::3844', '2600:1417:3f:783::3844']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,211.136.17.107,A,['23.195.110.101'],,
+2024-11-14T11:48:12.936950,badoo.com,223.6.6.6,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,baishan-cloud.net,208.67.222.220,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bahn.de,117.50.11.11,A,['81.200.196.33'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2400:3200:baba::1,AAAA,"['2600:1417:76:197::3844', '2600:1417:76:1a1::3844']",,
+2024-11-14T11:48:12.936950,baji.live,119.29.29.29,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.936950,baidu.com,195.208.5.1,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,badoo.com,119.29.29.29,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,baishan-cloud.net,114.114.114.114,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,baji.live,8.8.8.8,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:0:ccd::2,AAAA,"['2600:140b:ac00:1af::3844', '2600:140b:ac00:18d::3844']",,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,77.88.8.8,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T11:48:12.936950,badoocdn.com,2.56.220.2,A,['31.222.66.68'],,
+2024-11-14T11:48:12.936950,baidu.com,94.140.15.15,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,9.9.9.10,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,101.226.4.6,A,['23.195.110.101'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2a10:50c0::ad1:ff,AAAA,"['2600:1417:3f:783::3844', '2600:1417:3f:78f::3844']",,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,62.76.76.62,A,"['188.114.99.224', '188.114.98.224']",,
+2024-11-14T11:48:12.936950,baidu.com,1.0.0.1,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,208.67.220.220,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,badoocdn.com,77.88.8.8,A,['31.222.66.68'],,
+2024-11-14T11:48:12.936950,baji.live,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.936950,baji.live,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.936950,badoocdn.com,1.0.0.1,A,"['31.222.75.64', '31.222.75.65']",,
+2024-11-14T11:48:12.936950,baidu.com,77.88.8.8,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,8.8.4.4,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,117.50.11.11,A,['23.200.154.251'],,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,77.88.8.1,A,"['188.114.99.229', '188.114.98.229']",,
+2024-11-14T11:48:12.936950,baji.live,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.936950,badoocdn.com,95.85.95.85,A,['31.222.66.68'],,
+2024-11-14T11:48:12.936950,bahn.de,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bahn.de on server: 123.125.81.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,123.125.81.6,A,['23.195.110.101'],,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,95.85.95.85,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.936950,baji.live,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.936950,badoo.com,114.114.115.115,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,bahn.de,218.30.118.6,A,['81.200.196.33'],,
+2024-11-14T11:48:12.936950,bahn.de,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bahn.de on server: 101.226.4.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 2400:da00::6666
+2024-11-14T11:48:12.936950,baji.live,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.936950,badoo.com,223.5.5.5,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,baidu.com,208.67.220.220,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,8.8.8.8,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bahn.de,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bahn.de on server: 202.96.128.86
+2024-11-14T11:48:12.936950,baji.live,180.76.76.76,A,"['172.64.145.104', '104.18.42.152']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:0:ccc::2,AAAA,"['2600:140b:ac00:18d::3844', '2600:140b:ac00:1af::3844']",,
+2024-11-14T11:48:12.936950,badoocdn.com,8.8.4.4,A,['31.222.66.68'],,
+2024-11-14T11:48:12.936950,baidu.com,95.85.95.85,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 101.226.4.7
+2024-11-14T11:48:12.936950,baji.live,62.76.62.76,A,"['188.114.98.235', '188.114.99.235']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 123.125.81.7
+2024-11-14T11:48:12.936950,baji.live,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baji.live on server: 202.96.128.86
+2024-11-14T11:48:12.936950,baji.live,101.226.4.6,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.936950,baji.live,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.936950,baidu.com,208.67.222.222,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,208.67.222.222,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,badoocdn.com,1.1.1.1,A,"['31.222.75.64', '31.222.75.65']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:119:35::35,AAAA,"['2600:140b:ac00:18d::3844', '2600:140b:ac00:1af::3844']",,
+2024-11-14T11:48:12.936950,baji.live,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T11:48:12.936950,baidu.com,208.67.222.220,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.936950,badoo.com,218.30.118.6,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,119.29.29.29,A,['23.195.110.101'],,
+2024-11-14T11:48:12.936950,bain.com,123.125.81.6,A,['217.114.85.70'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:119:53::53,AAAA,"['2600:140b:ac00:1af::3844', '2600:140b:ac00:18d::3844']",,
+2024-11-14T11:48:12.936950,badoo.com,211.136.17.107,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,baidu.com,9.9.9.10,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,bain.com,101.226.4.6,A,['217.114.85.70'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,180.76.76.76,A,['23.200.154.251'],,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,8.8.8.8,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:fe::fe,AAAA,"['2600:1406:5e00:298::3844', '2600:1406:5e00:2a8::3844']",,
+2024-11-14T11:48:12.936950,badoo.com,180.76.76.76,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,bahn.de,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bahn.de on server: 210.21.196.6
+2024-11-14T11:48:12.936950,baishan-cloud.net,195.208.4.1,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,223.5.5.5,A,['23.200.154.251'],,
+2024-11-14T11:48:12.936950,baidu.com,2.56.220.2,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,2620:fe::10,AAAA,"['2600:1406:5e00:2a8::3844', '2600:1406:5e00:298::3844']",,
+2024-11-14T11:48:12.936950,badoo.com,114.114.114.114,A,['31.222.67.112'],,
+2024-11-14T11:48:12.936950,baidu.com,195.208.4.1,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,bain.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bain.com on server: 101.226.4.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,223.6.6.6,A,['23.200.154.251'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 202.96.128.86
+2024-11-14T11:48:12.936950,bajajfinserv.in,2a0c:a9c7:9::1,AAAA,"['2a02:2d8:0:799d::3844', '2a02:2d8:0:798b::3844']",,
+2024-11-14T11:48:12.936950,bajajfinserv.in,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 210.21.196.6
+2024-11-14T11:48:12.936950,baji.live,211.136.17.107,A,[],NoNameservers,No nameservers for domain: baji.live on server: 211.136.17.107
+2024-11-14T11:48:12.936950,baishan-cloud.net,62.76.62.76,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bakecaincontrii.com,62.76.62.76,A,"['188.114.99.235', '188.114.98.235']",,
+2024-11-14T11:48:12.936950,baidu.com,62.76.76.62,A,"['39.156.66.10', '110.242.68.66']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,195.208.5.1,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,baji.live,208.67.222.222,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.936950,bain.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bain.com on server: 123.125.81.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,2001:6d0:d6::2001,AAAA,"['2a02:2d8:3:99c::3844', '2a02:2d8:3:983::3844']",,
+2024-11-14T11:48:12.936950,baji.live,117.50.11.11,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.936950,baidu.com,62.76.62.76,A,"['110.242.68.66', '39.156.66.10']",,
+2024-11-14T11:48:12.936950,baishan-cloud.net,94.140.15.15,A,['183.61.189.213'],,
+2024-11-14T11:48:12.936950,bajajfinserv.in,114.114.115.115,A,['23.195.110.101'],,
+2024-11-14T11:48:12.936950,baji.live,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baji.live on server: 123.125.81.7
+2024-11-14T11:48:12.936950,bajajfinserv.in,2a0c:a9c7:8::1,AAAA,"['2a02:26f0:41:692::3844', '2a02:26f0:41:68a::3844']",,
+2024-11-14T11:48:12.936950,bahn.de,8.8.8.8,A,['81.200.196.33'],,
+2024-11-14T11:48:12.936950,bahn.de,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.936950,baji.live,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baji.live on server: 101.226.4.7
+2024-11-14T11:48:12.936950,bakusai.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.936950,bahn.de,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:0:ccc::2
+2024-11-14T11:48:12.936950,bakusai.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.936950,bahn.de,8.8.4.4,A,['81.200.196.33'],,
+2024-11-14T11:48:12.936950,bahn.de,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:0:ccd::2
+2024-11-14T11:48:12.936950,bahesab.ir,94.140.14.14,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bakusai.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.936950,bahn.de,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:119:35::35
+2024-11-14T11:48:12.936950,bakusai.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2400:3200::1
+2024-11-14T11:48:12.936950,baji.live,218.30.118.6,A,"['104.18.42.152', '172.64.145.104']",,
+2024-11-14T11:48:12.936950,bahn.de,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:119:53::53
+2024-11-14T11:48:12.936950,bakusai.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.936950,bahesab.ir,208.67.222.220,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.936950,bakusai.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.936950,bahesab.ir,208.67.220.220,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.936950,bakusai.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.936950,bahesab.ir,208.67.220.222,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.936950,bakusai.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.936950,baji.live,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baji.live on server: 210.21.196.6
+2024-11-14T11:48:12.936950,bakusai.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.936950,bahesab.ir,180.76.76.76,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,baishan-cloud.net,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 9.9.9.9
+2024-11-14T11:48:12.936950,bakusai.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.936950,bahn.de,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.936950,bakusai.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.936950,bahesab.ir,223.6.6.6,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.936950,bakusai.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:119:53::53
+2024-11-14T11:48:12.936950,bahesab.ir,119.29.29.29,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.936950,bakusai.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.936950,bahesab.ir,9.9.9.10,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bahn.de,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.936950,bakusai.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.936950,bahesab.ir,208.67.222.222,A,['194.31.194.168'],,
+2024-11-14T11:48:12.936950,bakusai.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.937950,badoo.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: badoo.com on server: 202.96.128.86
+2024-11-14T11:48:12.937950,baidu.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baidu.com on server: 9.9.9.9
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2402:4e00::
+2024-11-14T11:48:12.937950,bahesab.ir,101.226.4.6,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahn.de,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.937950,badoo.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: badoo.com on server: 210.21.196.6
+2024-11-14T11:48:12.937950,bahesab.ir,114.114.114.114,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2400:3200:baba::1
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2400:3200::1
+2024-11-14T11:48:12.937950,bahn.de,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.937950,bahesab.ir,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2402:4e00::
+2024-11-14T11:48:12.937950,bahesab.ir,223.5.5.5,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.937950,bahesab.ir,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.937950,bakusai.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.937950,bahesab.ir,123.125.81.6,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 101.226.4.7
+2024-11-14T11:48:12.937950,bakusai.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:fe::fe
+2024-11-14T11:48:12.937950,bahesab.ir,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.937950,bahesab.ir,94.140.15.15,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,114.114.115.115,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2400:3200::1
+2024-11-14T11:48:12.937950,bakusai.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.937950,bahesab.ir,211.136.17.107,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bakusai.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:119:35::35
+2024-11-14T11:48:12.937950,bahn.de,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:fe::fe
+2024-11-14T11:48:12.937950,bahesab.ir,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 123.125.81.7
+2024-11-14T11:48:12.937950,bakusai.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.937950,bahn.de,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2620:fe::10
+2024-11-14T11:48:12.937950,bahesab.ir,218.30.118.6,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,195.208.5.1,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahn.de,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.937950,bakusai.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.937950,bahn.de,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.937950,bakusai.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2620:fe::10
+2024-11-14T11:48:12.937950,bahesab.ir,62.76.62.76,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.937950,bahesab.ir,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:0:ccc::2
+2024-11-14T11:48:12.937950,bahesab.ir,117.50.11.11,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,195.208.4.1,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahesab.ir,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 202.96.128.86
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.937950,bahesab.ir,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:0:ccd::2
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.937950,bahesab.ir,77.88.8.1,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bahn.de,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.937950,bahn.de,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.937950,bahesab.ir,62.76.76.62,A,['194.31.194.168'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2620:0:ccd::2,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.937950,baishan-cloud.net,117.50.11.11,A,['183.61.189.213'],,
+2024-11-14T11:48:12.937950,bain.com,117.50.11.11,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,2.56.220.2,A,['23.54.58.64'],,
+2024-11-14T11:48:12.937950,bain.com,95.85.95.85,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,77.88.8.1,A,['104.103.65.80'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a0c:a9c7:8::1,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,badoo.com,208.67.220.220,A,['31.222.75.112'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,94.140.14.14,A,['23.222.206.91'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,223.5.5.5,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,223.6.6.6,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,2620:fe::10,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bain.com,211.136.17.107,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,94.140.15.15,A,['23.222.206.91'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2001:6d0:d6::2001,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,badoo.com,2.56.220.2,A,['31.222.67.112'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,208.67.220.220,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,badoo.com,77.88.8.8,A,['31.222.67.112'],,
+2024-11-14T11:48:12.937950,badoo.com,1.1.1.1,A,['31.222.75.112'],,
+2024-11-14T11:48:12.937950,badoo.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.937950,bain.com,1.0.0.1,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,badoo.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.937950,bajajfinserv.in,208.67.220.222,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,badoo.com,95.85.95.85,A,['31.222.67.112'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2620:119:35::35,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bain.com,62.76.62.76,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,208.67.222.220,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,badoo.com,8.8.8.8,A,['31.222.67.112'],,
+2024-11-14T11:48:12.937950,bain.com,77.88.8.1,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a03:90c0:9992::1,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,badoo.com,8.8.4.4,A,['31.222.67.112'],,
+2024-11-14T11:48:12.937950,bain.com,62.76.76.62,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,baishan-cloud.net,101.226.4.6,A,['183.61.189.213'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2620:fe::fe,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,badoo.com,1.0.0.1,A,['31.222.75.112'],,
+2024-11-14T11:48:12.937950,bain.com,218.30.118.6,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bahesab.ir,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 2400:da00::6666
+2024-11-14T11:48:12.937950,bacolviral.asia,2620:0:ccc::2,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,123.125.81.6,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.937950,bain.com,77.88.8.8,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,208.67.222.222,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,bakecaincontrii.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 2400:da00::6666
+2024-11-14T11:48:12.937950,bahesab.ir,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 210.21.196.6
+2024-11-14T11:48:12.937950,bajajfinserv.in,1.1.1.1,A,['59.151.136.215'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2606:4700:4700::1001,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,bahesab.ir,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bahesab.ir on server: 9.9.9.9
+2024-11-14T11:48:12.937950,bacolviral.asia,218.30.118.6,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.937950,bain.com,2.56.220.2,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,95.85.95.85,A,['23.54.58.64'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2402:4e00::,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,211.136.17.107,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.937950,bajajfinserv.in,8.8.4.4,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,bain.com,119.29.29.29,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2001:6d0:6d0::2001,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bain.com,180.76.76.76,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,1.0.0.1,A,['23.222.206.91'],,
+2024-11-14T11:48:12.937950,badoo.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.937950,bacolviral.asia,101.226.4.6,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.937950,bain.com,114.114.115.115,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,117.50.11.11,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bain.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bain.com on server: 202.96.128.86
+2024-11-14T11:48:12.937950,bain.com,223.6.6.6,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,8.8.8.8,A,['23.195.110.101'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a03:90c0:999d::1,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,baishan-cloud.net,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 123.125.81.7
+2024-11-14T11:48:12.937950,bacolviral.asia,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 101.226.4.7
+2024-11-14T11:48:12.937950,bajajfinserv.in,195.208.5.1,A,['23.52.86.101'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a0c:a9c7:9::1,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,119.29.29.29,A,"['104.21.72.10', '172.67.173.104']",,
+2024-11-14T11:48:12.937950,bahn.de,1.0.0.1,A,['81.200.196.33'],,
+2024-11-14T11:48:12.937950,bain.com,223.5.5.5,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,9.9.9.10,A,['23.206.210.128'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bajajfinserv.in on server: 9.9.9.9
+2024-11-14T11:48:12.937950,bacolviral.asia,180.76.76.76,A,"['172.67.173.104', '104.21.72.10']",,
+2024-11-14T11:48:12.937950,bain.com,195.208.4.1,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,62.76.62.76,A,['23.32.24.208'],,
+2024-11-14T11:48:12.937950,badoo.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.937950,badoo.com,208.67.222.222,A,['31.222.75.112'],,
+2024-11-14T11:48:12.937950,bain.com,195.208.5.1,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,bajajfinserv.in,195.208.4.1,A,['23.32.24.208'],,
+2024-11-14T11:48:12.937950,badoo.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.937950,badoo.com,208.67.222.220,A,['31.222.75.112'],,
+2024-11-14T11:48:12.937950,bain.com,94.140.15.15,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,baishan-cloud.net,218.30.118.6,A,['183.61.189.213'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2400:3200:baba::1,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.937950,bacolviral.asia,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 123.125.81.7
+2024-11-14T11:48:12.937950,bain.com,114.114.114.114,A,['217.114.85.70'],,
+2024-11-14T11:48:12.937950,baishan-cloud.net,211.136.17.107,A,['183.61.189.213'],,
+2024-11-14T11:48:12.937950,bacolviral.asia,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.938950,badoo.com,9.9.9.10,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bain.com,208.67.222.220,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,bain.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bain.com on server: 210.21.196.6
+2024-11-14T11:48:12.938950,bajajfinserv.in,77.88.8.8,A,['23.34.234.24'],,
+2024-11-14T11:48:12.938950,badoo.com,62.76.62.76,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bain.com,94.140.14.14,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,bajajfinserv.in,62.76.76.62,A,['2.21.188.155'],,
+2024-11-14T11:48:12.938950,bacolviral.asia,2620:119:53::53,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.938950,badoo.com,195.208.5.1,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bain.com,208.67.220.220,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,baishan-cloud.net,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 101.226.4.7
+2024-11-14T11:48:12.938950,badoo.com,62.76.76.62,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bahn.de,1.1.1.1,A,['81.200.196.33'],,
+2024-11-14T11:48:12.938950,bain.com,208.67.220.222,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,baishan-cloud.net,123.125.81.6,A,['183.61.189.213'],,
+2024-11-14T11:48:12.938950,badoo.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.938950,bacolviral.asia,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 202.96.128.86
+2024-11-14T11:48:12.938950,bacolviral.asia,2606:4700:4700::1111,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.938950,bahn.de,95.85.95.85,A,['81.200.196.33'],,
+2024-11-14T11:48:12.938950,badoo.com,195.208.4.1,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bain.com,9.9.9.10,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,baishan-cloud.net,180.76.76.76,A,['183.61.189.213'],,
+2024-11-14T11:48:12.938950,bacolviral.asia,2400:3200::1,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.938950,bain.com,208.67.222.222,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,badoo.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: badoo.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.938950,badoo.com,77.88.8.1,A,['31.222.67.112'],,
+2024-11-14T11:48:12.938950,bakusai.com,95.85.95.85,A,"['138.2.30.209', '138.2.7.199', '138.2.0.163']",,
+2024-11-14T11:48:12.938950,bacolviral.asia,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 210.21.196.6
+2024-11-14T11:48:12.938950,bain.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.938950,bakusai.com,1.0.0.1,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baike.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.938950,bakusai.com,62.76.62.76,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bakusai.com,208.67.220.220,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baike.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.938950,baike.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.938950,baike.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.938950,bakusai.com,208.67.222.220,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bakusai.com,208.67.220.222,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bain.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bain.com on server: 9.9.9.9
+2024-11-14T11:48:12.938950,baike.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.938950,bakusai.com,94.140.14.14,A,"['138.2.30.209', '138.2.7.199', '138.2.0.163']",,
+2024-11-14T11:48:12.938950,baike.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.938950,bakusai.com,8.8.4.4,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bain.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.938950,bakusai.com,1.1.1.1,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baike.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.938950,baike.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.938950,bakusai.com,195.208.4.1,A,"['138.2.7.199', '138.2.30.209', '138.2.0.163']",,
+2024-11-14T11:48:12.938950,bain.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.938950,baike.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:119:53::53
+2024-11-14T11:48:12.938950,baike.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:fe::10
+2024-11-14T11:48:12.938950,bakusai.com,195.208.5.1,A,"['138.2.7.199', '138.2.30.209', '138.2.0.163']",,
+2024-11-14T11:48:12.938950,baike.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:119:35::35
+2024-11-14T11:48:12.938950,bakusai.com,208.67.222.222,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bain.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.938950,baike.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2402:4e00::
+2024-11-14T11:48:12.938950,bakusai.com,9.9.9.10,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bakusai.com,77.88.8.1,A,"['138.2.30.209', '138.2.7.199', '138.2.0.163']",,
+2024-11-14T11:48:12.938950,baike.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.938950,baike.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:fe::fe
+2024-11-14T11:48:12.938950,baike.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.938950,bakusai.com,62.76.76.62,A,"['138.2.7.199', '138.2.0.163', '138.2.30.209']",,
+2024-11-14T11:48:12.938950,baike.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2400:3200::1
+2024-11-14T11:48:12.938950,baike.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.938950,bakusai.com,2.56.220.2,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baike.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.938950,baike.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.938950,bakusai.com,77.88.8.8,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baike.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.938950,baike.com,208.67.220.220,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.938950,badoo.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: badoo.com on server: 9.9.9.9
+2024-11-14T11:48:12.938950,bald-news.com,208.67.222.222,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,baidu.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.938950,bain.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.938950,bald-news.com,2001:4860:4860::8888,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.938950,baike.com,123.125.81.6,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.938950,bakusai.com,223.5.5.5,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baidu.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.938950,bald-news.com,2a03:90c0:999d::1,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.938950,backtrace.io,208.67.220.220,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,baike.com,117.50.11.11,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.938950,bald-news.com,62.76.62.76,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,bacolviral.asia,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bacolviral.asia on server: 2400:da00::6666
+2024-11-14T11:48:12.938950,baidu.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.938950,bain.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:119:53::53
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:119:53::53
+2024-11-14T11:48:12.938950,bald-news.com,2a0c:a9c7:9::1,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.938950,backtrace.io,1.0.0.1,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,bain.com,1.1.1.1,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,bakusai.com,223.6.6.6,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,baidu.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2402:4e00::
+2024-11-14T11:48:12.938950,bain.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.938950,baishan-cloud.net,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 202.96.128.86
+2024-11-14T11:48:12.938950,bakusai.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bakusai.com on server: 2402:4e00::
+2024-11-14T11:48:12.938950,baji.live,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2402:4e00::
+2024-11-14T11:48:12.938950,backtrace.io,211.136.17.107,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,baishan-cloud.net,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 210.21.196.6
+2024-11-14T11:48:12.938950,baike.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baike.com on server: 2400:da00::6666
+2024-11-14T11:48:12.938950,bain.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:119:35::35
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:119:35::35
+2024-11-14T11:48:12.938950,bald-news.com,2620:119:35::35,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.938950,backtrace.io,77.88.8.1,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,baike.com,211.136.17.107,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.938950,bakusai.com,114.114.115.115,A,['141.147.179.237'],,
+2024-11-14T11:48:12.938950,bakusai.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bakusai.com on server: 9.9.9.9
+2024-11-14T11:48:12.938950,bald-news.com,2001:4860:4860::8844,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.938950,bald-news.com,117.50.11.11,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.938950,backtrace.io,9.9.9.9,A,[],Timeout,Timeout occurred for domain: backtrace.io on server: 9.9.9.9
+2024-11-14T11:48:12.938950,bakusai.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bakusai.com on server: 210.21.196.6
+2024-11-14T11:48:12.938950,bald-news.com,211.136.17.107,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,baidu.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.938950,bain.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.938950,bald-news.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bald-news.com on server: 9.9.9.9
+2024-11-14T11:48:12.938950,bain.com,8.8.4.4,A,['217.114.85.70'],,
+2024-11-14T11:48:12.938950,bakusai.com,218.30.118.6,A,"['138.2.7.199', '138.2.0.163', '138.2.30.209']",,
+2024-11-14T11:48:12.938950,bald-news.com,101.226.4.6,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.938950,baidu.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2400:3200::1
+2024-11-14T11:48:12.938950,baike.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baike.com on server: 101.226.4.7
+2024-11-14T11:48:12.938950,bald-news.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bald-news.com on server: 210.21.196.6
+2024-11-14T11:48:12.938950,backtrace.io,218.30.118.6,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.938950,bakusai.com,119.29.29.29,A,"['138.2.0.163', '138.2.30.209', '138.2.7.199']",,
+2024-11-14T11:48:12.938950,baike.com,62.76.76.62,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.938950,bald-news.com,180.76.76.76,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,baidu.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.938950,bakecaincontrii.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:fe::fe
+2024-11-14T11:48:12.938950,baishan-cloud.net,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.938950,backtrace.io,180.76.76.76,A,['76.76.21.21'],,
+2024-11-14T11:48:12.938950,baike.com,9.9.9.10,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.938950,bald-news.com,62.76.76.62,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,bahn.de,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2402:4e00::
+2024-11-14T11:48:12.938950,bald-news.com,218.30.118.6,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.938950,baishan-cloud.net,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2620:fe::10
+2024-11-14T11:48:12.939950,bald-news.com,2620:fe::fe,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,8.8.4.4,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bald-news.com,195.208.4.1,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,bald-news.com,208.67.220.222,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,bahn.de,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2400:3200::1
+2024-11-14T11:48:12.939950,baishan-cloud.net,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.939950,bald-news.com,2620:fe::10,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,195.208.5.1,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,101.226.4.6,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bald-news.com,77.88.8.1,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.939950,bald-news.com,2001:6d0:d6::2001,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,119.29.29.29,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bahn.de,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bahn.de on server: 2400:da00::6666
+2024-11-14T11:48:12.939950,bald-news.com,123.125.81.6,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,bain.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:fe::fe
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.939950,bald-news.com,2606:4700:4700::1111,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,208.67.222.220,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,218.30.118.6,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bald-news.com,8.8.4.4,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.939950,baishan-cloud.net,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.939950,bald-news.com,2001:6d0:6d0::2001,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,94.140.15.15,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,backtrace.io,202.96.128.86,A,[],Timeout,Timeout occurred for domain: backtrace.io on server: 202.96.128.86
+2024-11-14T11:48:12.939950,baike.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: baike.com on server: 9.9.9.9
+2024-11-14T11:48:12.939950,bald-news.com,223.6.6.6,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,baidu.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:119:35::35
+2024-11-14T11:48:12.939950,bald-news.com,2.56.220.2,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,baike.com,195.208.4.1,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,backtrace.io,223.5.5.5,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.939950,bain.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.939950,bald-news.com,1.0.0.1,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,bain.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2620:fe::10
+2024-11-14T11:48:12.939950,bald-news.com,2620:0:ccc::2,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.939950,backtrace.io,1.1.1.1,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,195.208.5.1,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bald-news.com,95.85.95.85,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.939950,bald-news.com,195.208.5.1,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,bald-news.com,2a03:90c0:9992::1,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,223.6.6.6,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.939950,baike.com,114.114.114.114,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bakusai.com,211.136.17.107,A,['141.147.179.237'],,
+2024-11-14T11:48:12.939950,bain.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.939950,baidu.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:fe::10
+2024-11-14T11:48:12.939950,bald-news.com,9.9.9.10,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,backtrace.io,114.114.115.115,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.939950,bald-news.com,2a10:50c0::ad1:ff,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,bald-news.com,8.8.8.8,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,baidu.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:119:53::53
+2024-11-14T11:48:12.939950,baike.com,94.140.15.15,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bald-news.com,114.114.115.115,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,baji.live,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2400:3200::1
+2024-11-14T11:48:12.939950,bald-news.com,2606:4700:4700::1001,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,bain.com,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.939950,backtrace.io,195.208.4.1,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bald-news.com,223.5.5.5,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.939950,bakusai.com,101.226.4.6,A,['141.147.179.237'],,
+2024-11-14T11:48:12.939950,baji.live,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2400:3200:baba::1
+2024-11-14T11:48:12.939950,baike.com,62.76.62.76,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bakusai.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bakusai.com on server: 2400:da00::6666
+2024-11-14T11:48:12.939950,bain.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.939950,backtrace.io,210.21.196.6,A,[],Timeout,Timeout occurred for domain: backtrace.io on server: 210.21.196.6
+2024-11-14T11:48:12.939950,backtrace.io,77.88.8.8,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baidu.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:fe::fe
+2024-11-14T11:48:12.939950,baishan-cloud.net,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.939950,baji.live,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.939950,bald-news.com,2620:119:53::53,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,9.9.9.10,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,bain.com,8.8.8.8,A,['217.114.85.70'],,
+2024-11-14T11:48:12.939950,bald-news.com,1.1.1.1,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,baidu.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.939950,bain.com,2a02:6b8:0:1::feed:0ff,AAAA,[],Timeout,Timeout occurred for domain: bain.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.939950,bald-news.com,2400:3200:baba::1,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,62.76.76.62,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,180.76.76.76,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bald-news.com,77.88.8.8,A,"['104.21.73.115', '172.67.162.67']",,
+2024-11-14T11:48:12.939950,bald-news.com,208.67.220.220,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.939950,bain.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.939950,baji.live,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.939950,baike.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baike.com on server: 123.125.81.7
+2024-11-14T11:48:12.939950,backtrace.io,8.8.8.8,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,208.67.222.222,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,baike.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baike.com on server: 210.21.196.6
+2024-11-14T11:48:12.939950,bald-news.com,208.67.222.220,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.939950,bain.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2402:4e00::
+2024-11-14T11:48:12.939950,bald-news.com,2a02:6b8::feed:0ff,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,94.140.14.14,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,208.67.220.222,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bald-news.com,94.140.14.14,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.939950,bain.com,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.939950,bald-news.com,2620:0:ccd::2,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,95.85.95.85,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,94.140.14.14,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bakusai.com,94.140.15.15,A,"['138.2.7.199', '138.2.0.163', '138.2.30.209']",,
+2024-11-14T11:48:12.939950,bald-news.com,119.29.29.29,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,bahn.de,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: bahn.de on server: 2400:3200:baba::1
+2024-11-14T11:48:12.939950,bain.com,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.939950,bakecaincontrii.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bakecaincontrii.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.939950,bald-news.com,2a10:50c0::ad2:ff,AAAA,"['2606:4700:3035::ac43:a243', '2606:4700:3031::6815:4973']",,
+2024-11-14T11:48:12.939950,backtrace.io,208.67.220.222,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,223.6.6.6,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.939950,bakusai.com,114.114.114.114,A,['141.147.179.237'],,
+2024-11-14T11:48:12.939950,bald-news.com,114.114.114.114,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baidu.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.939950,baishan-cloud.net,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.939950,baji.live,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:0:ccc::2
+2024-11-14T11:48:12.939950,bald-news.com,2400:3200::1,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.939950,backtrace.io,62.76.62.76,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,119.29.29.29,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bakusai.com,180.76.76.76,A,['141.147.179.237'],,
+2024-11-14T11:48:12.939950,baishan-cloud.net,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.939950,baji.live,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:0:ccd::2
+2024-11-14T11:48:12.939950,backtrace.io,2.56.220.2,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baike.com,114.114.115.115,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,bald-news.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bald-news.com on server: 2400:da00::6666
+2024-11-14T11:48:12.939950,bald-news.com,94.140.15.15,A,"['172.67.162.67', '104.21.73.115']",,
+2024-11-14T11:48:12.939950,baike.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baike.com on server: 202.96.128.86
+2024-11-14T11:48:12.939950,bakusai.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bakusai.com on server: 101.226.4.7
+2024-11-14T11:48:12.939950,bald-news.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bald-news.com on server: 202.96.128.86
+2024-11-14T11:48:12.939950,baji.live,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:119:35::35
+2024-11-14T11:48:12.939950,baike.com,223.5.5.5,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.939950,backtrace.io,208.67.222.222,A,['76.76.21.21'],,
+2024-11-14T11:48:12.939950,baidu.com,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.939950,bain.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2400:3200::1
+2024-11-14T11:48:12.939950,baji.live,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baji.live on server: 2620:119:53::53
+2024-11-14T11:48:12.940950,bain.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.940950,baidu.com,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.940950,backtrace.io,114.114.114.114,A,['76.76.21.21'],,
+2024-11-14T11:48:12.940950,baike.com,208.67.222.220,A,"['122.14.229.17', '122.14.229.15']",,
+2024-11-14T11:48:12.940950,bald-news.com,2a0c:a9c7:8::1,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.940950,bakusai.com,123.125.81.6,A,"['138.2.7.199', '138.2.0.163', '138.2.30.209']",,
+2024-11-14T11:48:12.940950,baidu.com,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baidu.com on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.940950,bain.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: bain.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.940950,bald-news.com,2402:4e00::,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.940950,baike.com,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.940950,bahesab.ir,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.940950,bain.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: bain.com on server: 2400:da00::6666
+2024-11-14T11:48:12.940950,baike.com,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.940950,badoocdn.com,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:0:ccd::2
+2024-11-14T11:48:12.940950,baidu.hk,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.940950,bahesab.ir,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.940950,baidu.hk,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.940950,bahesab.ir,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.940950,baidu.hk,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.940950,bahesab.ir,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.940950,bahesab.ir,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.940950,baidu.hk,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.940950,bahesab.ir,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.940950,baidu.hk,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.940950,bahesab.ir,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:fe::fe
+2024-11-14T11:48:12.940950,baidu.hk,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.940950,bahesab.ir,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:fe::10
+2024-11-14T11:48:12.940950,baike.com,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baike.com on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.940950,bald-news.com,2a02:6b8:0:1::feed:0ff,AAAA,"['2606:4700:3031::6815:4973', '2606:4700:3035::ac43:a243']",,
+2024-11-14T11:48:12.940950,baidu.hk,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.940950,bahesab.ir,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.940950,bahesab.ir,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.940950,baidu.hk,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.940950,bahesab.ir,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.940950,baidu.hk,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.940950,bahesab.ir,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.940950,baidu.hk,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:119:53::53
+2024-11-14T11:48:12.940950,bahesab.ir,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.940950,baidu.hk,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:0:ccd::2
+2024-11-14T11:48:12.940950,badoocdn.com,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:0:ccc::2
+2024-11-14T11:48:12.940950,baidu.hk,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:fe::10
+2024-11-14T11:48:12.940950,bahesab.ir,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.940950,badoocdn.com,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:119:53::53
+2024-11-14T11:48:12.940950,baidu.hk,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:119:35::35
+2024-11-14T11:48:12.940950,badoocdn.com,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2400:3200::1
+2024-11-14T11:48:12.940950,baidu.hk,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:fe::fe
+2024-11-14T11:48:12.940950,bahesab.ir,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:119:53::53
+2024-11-14T11:48:12.940950,badoocdn.com,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2402:4e00::
+2024-11-14T11:48:12.940950,badoocdn.com,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:119:35::35
+2024-11-14T11:48:12.940950,baidu.hk,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.940950,bahesab.ir,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: bahesab.ir on server: 2620:119:35::35
+2024-11-14T11:48:12.940950,baidu.hk,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2400:3200::1
+2024-11-14T11:48:12.940950,badoocdn.com,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.940950,baidu.hk,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2402:4e00::
+2024-11-14T11:48:12.940950,badoocdn.com,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2400:3200:baba::1
+2024-11-14T11:48:12.940950,baidu.hk,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.940950,badoocdn.com,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:fe::fe
+2024-11-14T11:48:12.940950,baidu.hk,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2400:3200:baba::1
+2024-11-14T11:48:12.940950,badoocdn.com,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2620:fe::10
+2024-11-14T11:48:12.940950,baidu.hk,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.940950,baidu.hk,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2620:0:ccc::2
+2024-11-14T11:48:12.940950,badoocdn.com,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.940950,baidu.hk,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.940950,badoocdn.com,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: badoocdn.com on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.940950,baidu.hk,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baidu.hk on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.940950,bahesab.ir,2.56.220.2,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,baidu.hk,123.125.81.6,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,180.76.76.76,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,backtrace.io,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:119:35::35
+2024-11-14T11:48:12.940950,bajajfinserv.in,2001:6d0:6d0::2001,AAAA,"['2a02:26f0:41:692::3844', '2a02:26f0:41:68a::3844']",,
+2024-11-14T11:48:12.940950,bahesab.ir,77.88.8.8,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,9.9.9.10,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.940950,backtrace.io,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2400:3200::1
+2024-11-14T11:48:12.940950,baishan-cloud.net,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:119:53::53
+2024-11-14T11:48:12.940950,bahesab.ir,95.85.95.85,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,117.50.11.11,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,backtrace.io,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:fe::fe
+2024-11-14T11:48:12.940950,bajajfinserv.in,2a02:6b8:0:1::feed:0ff,AAAA,"['2001:2030:4e:89::3844', '2001:2030:4e:9d::3844']",,
+2024-11-14T11:48:12.940950,bakusai.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bakusai.com on server: 123.125.81.7
+2024-11-14T11:48:12.940950,bakecaincontrii.com,218.30.118.6,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.940950,backtrace.io,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.940950,baishan-cloud.net,2620:119:35::35,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:119:35::35
+2024-11-14T11:48:12.940950,badoocdn.com,117.50.11.11,A,['31.222.66.68'],,
+2024-11-14T11:48:12.940950,baidu.hk,211.136.17.107,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,195.208.4.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T11:48:12.940950,bajajfinserv.in,2a02:6b8::feed:0ff,AAAA,"['2a02:26f0:e80:18f::3844', '2a02:26f0:e80:18a::3844']",,
+2024-11-14T11:48:12.940950,bakusai.com,117.50.11.11,A,"['138.2.7.199', '138.2.0.163', '138.2.30.209']",,
+2024-11-14T11:48:12.940950,baidu.hk,117.50.11.11,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.940950,bakusai.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bakusai.com on server: 202.96.128.86
+2024-11-14T11:48:12.940950,baji.live,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baji.live on server: 2400:da00::6666
+2024-11-14T11:48:12.940950,baike.com,77.88.8.1,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,195.208.5.1,A,"['188.114.98.224', '188.114.99.224']",,
+2024-11-14T11:48:12.940950,backtrace.io,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2402:4e00::
+2024-11-14T11:48:12.940950,bajajfinserv.in,2a03:90c0:999d::1,AAAA,"['2600:1417:3f:78f::3844', '2600:1417:3f:783::3844']",,
+2024-11-14T11:48:12.940950,badoocdn.com,208.67.220.220,A,"['31.222.75.65', '31.222.75.64']",,
+2024-11-14T11:48:12.940950,badoocdn.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 2400:da00::6666
+2024-11-14T11:48:12.940950,baidu.hk,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baidu.hk on server: 2400:da00::6666
+2024-11-14T11:48:12.940950,backtrace.io,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.940950,bajajfinserv.in,2a03:90c0:9992::1,AAAA,"['2600:1417:3f:78f::3844', '2600:1417:3f:783::3844']",,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,114.114.114.114,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.940950,baidu.hk,94.140.14.14,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,114.114.115.115,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,backtrace.io,2a03:90c0:9992::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a03:90c0:9992::1
+2024-11-14T11:48:12.940950,badoocdn.com,114.114.115.115,A,['31.222.66.68'],,
+2024-11-14T11:48:12.940950,bajajfinserv.in,2606:4700:4700::1111,AAAA,"['2600:1406:6c00:181::3844', '2600:1406:6c00:18f::3844']",,
+2024-11-14T11:48:12.940950,badoocdn.com,180.76.76.76,A,['31.222.66.68'],,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,208.67.220.222,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.940950,baidu.hk,218.30.118.6,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.940950,backtrace.io,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.940950,bajajfinserv.in,2606:4700:4700::1001,AAAA,"['2600:1406:bc00:f8d::3844', '2600:1406:bc00:f8e::3844']",,
+2024-11-14T11:48:12.940950,badoocdn.com,218.30.118.6,A,['31.222.66.68'],,
+2024-11-14T11:48:12.940950,bakecaincontrii.com,94.140.15.15,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,baike.com,77.88.8.8,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.940950,backtrace.io,2606:4700:4700::1001,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2606:4700:4700::1001
+2024-11-14T11:48:12.940950,baidu.com,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baidu.com on server: 2400:da00::6666
+2024-11-14T11:48:12.940950,bakecaincontrii.com,223.5.5.5,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,baishan-cloud.net,2620:fe::fe,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:fe::fe
+2024-11-14T11:48:12.940950,baidu.hk,94.140.15.15,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.940950,baishan-cloud.net,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:fe::10
+2024-11-14T11:48:12.940950,bakecaincontrii.com,223.6.6.6,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.940950,backtrace.io,2001:4860:4860::8844,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2001:4860:4860::8844
+2024-11-14T11:48:12.940950,baike.com,8.8.8.8,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.940950,baishan-cloud.net,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:0:ccd::2
+2024-11-14T11:48:12.940950,bahesab.ir,1.0.0.1,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,baike.com,2.56.220.2,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.940950,backtrace.io,2a03:90c0:999d::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a03:90c0:999d::1
+2024-11-14T11:48:12.940950,baishan-cloud.net,2a10:50c0::ad2:ff,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a10:50c0::ad2:ff
+2024-11-14T11:48:12.940950,bahesab.ir,8.8.4.4,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,baidu.hk,114.114.114.114,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.940950,badoocdn.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 9.9.9.9
+2024-11-14T11:48:12.940950,backtrace.io,2001:4860:4860::8888,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2001:4860:4860::8888
+2024-11-14T11:48:12.940950,bajajfinserv.in,2001:4860:4860::8844,AAAA,"['2600:140b:ac00:18d::3844', '2600:140b:ac00:1af::3844']",,
+2024-11-14T11:48:12.940950,bahesab.ir,1.1.1.1,A,['194.31.194.168'],,
+2024-11-14T11:48:12.940950,badoocdn.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 123.125.81.7
+2024-11-14T11:48:12.940950,bakecaincontrii.com,101.226.4.6,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.940950,backtrace.io,2606:4700:4700::1111,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2606:4700:4700::1111
+2024-11-14T11:48:12.940950,baishan-cloud.net,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.941950,badoocdn.com,211.136.17.107,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,208.67.220.222,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,9.9.9.9,A,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 9.9.9.9
+2024-11-14T11:48:12.941950,badoocdn.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 202.96.128.86
+2024-11-14T11:48:12.941950,bajajfinserv.in,2001:4860:4860::8888,AAAA,"['2600:140b:ac00:18d::3844', '2600:140b:ac00:1af::3844']",,
+2024-11-14T11:48:12.941950,bahesab.ir,8.8.8.8,A,['194.31.194.168'],,
+2024-11-14T11:48:12.941950,baidu.hk,223.6.6.6,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.941950,baidu.hk,101.226.4.7,A,[],Timeout,Timeout occurred for domain: baidu.hk on server: 101.226.4.7
+2024-11-14T11:48:12.941950,badoocdn.com,9.9.9.10,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,badoocdn.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 210.21.196.6
+2024-11-14T11:48:12.941950,backtrace.io,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2400:3200:baba::1
+2024-11-14T11:48:12.941950,baishan-cloud.net,2402:4e00::,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2402:4e00::
+2024-11-14T11:48:12.941950,bakecaincontrii.com,202.96.128.86,A,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 202.96.128.86
+2024-11-14T11:48:12.941950,badoocdn.com,119.29.29.29,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,208.67.222.220,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.941950,baike.com,1.0.0.1,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.941950,backtrace.io,2620:0:ccd::2,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:0:ccd::2
+2024-11-14T11:48:12.941950,badoocdn.com,101.226.4.6,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,208.67.222.220,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,94.140.14.14,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.941950,bacolviral.asia,2001:4860:4860::8844,AAAA,"['2606:4700:3033::ac43:ad68', '2606:4700:3032::6815:480a']",,
+2024-11-14T11:48:12.941950,baishan-cloud.net,2400:3200::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2400:3200::1
+2024-11-14T11:48:12.941950,badoocdn.com,114.114.114.114,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,223.5.5.5,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,210.21.196.6,A,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 210.21.196.6
+2024-11-14T11:48:12.941950,backtrace.io,2a10:50c0::ad1:ff,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a10:50c0::ad1:ff
+2024-11-14T11:48:12.941950,baishan-cloud.net,2400:3200:baba::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2400:3200:baba::1
+2024-11-14T11:48:12.941950,baidu.hk,202.96.128.86,A,[],Timeout,Timeout occurred for domain: baidu.hk on server: 202.96.128.86
+2024-11-14T11:48:12.941950,baidu.hk,208.67.220.220,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.941950,bacolviral.asia,2001:4860:4860::8888,AAAA,"['2606:4700:3032::6815:480a', '2606:4700:3033::ac43:ad68']",,
+2024-11-14T11:48:12.941950,baishan-cloud.net,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.941950,badoocdn.com,123.125.81.6,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,101.226.4.6,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,211.136.17.107,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.941950,backtrace.io,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:0:ccc::2
+2024-11-14T11:48:12.941950,baishan-cloud.net,2001:6d0:d6::2001,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2001:6d0:d6::2001
+2024-11-14T11:48:12.941950,badoocdn.com,94.140.14.14,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baike.com,95.85.95.85,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,123.125.81.6,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 123.125.81.7
+2024-11-14T11:48:12.941950,baishan-cloud.net,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.941950,badoocdn.com,94.140.15.15,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,119.29.29.29,A,"['220.181.38.148', '39.156.66.10']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,119.29.29.29,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.941950,backtrace.io,2a0c:a9c7:8::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a0c:a9c7:8::1
+2024-11-14T11:48:12.941950,badoocdn.com,208.67.220.222,A,"['31.222.75.65', '31.222.75.64']",,
+2024-11-14T11:48:12.941950,baike.com,8.8.4.4,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.941950,bakusai.com,8.8.8.8,A,"['138.2.7.199', '138.2.30.209', '138.2.0.163']",,
+2024-11-14T11:48:12.941950,backtrace.io,2a02:6b8::feed:0ff,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a02:6b8::feed:0ff
+2024-11-14T11:48:12.941950,baishan-cloud.net,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.941950,badoocdn.com,208.67.222.222,A,"['31.222.75.64', '31.222.75.65']",,
+2024-11-14T11:48:12.941950,baidu.hk,114.114.115.115,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,208.67.220.220,A,"['172.64.152.199', '104.18.35.57']",,
+2024-11-14T11:48:12.941950,backtrace.io,2001:6d0:6d0::2001,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2001:6d0:6d0::2001
+2024-11-14T11:48:12.941950,badoocdn.com,223.5.5.5,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baike.com,1.1.1.1,A,"['122.14.229.15', '122.14.229.17']",,
+2024-11-14T11:48:12.941950,backtrace.io,2a0c:a9c7:9::1,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2a0c:a9c7:9::1
+2024-11-14T11:48:12.941950,baishan-cloud.net,2620:0:ccc::2,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2620:0:ccc::2
+2024-11-14T11:48:12.941950,badoocdn.com,223.6.6.6,A,['31.222.66.68'],,
+2024-11-14T11:48:12.941950,baidu.hk,180.76.76.76,A,"['39.156.66.10', '220.181.38.148']",,
+2024-11-14T11:48:12.941950,bakecaincontrii.com,208.67.222.222,A,"['104.18.35.57', '172.64.152.199']",,
+2024-11-14T11:48:12.941950,backtrace.io,2620:fe::10,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:fe::10
+2024-11-14T11:48:12.941950,baishan-cloud.net,2a02:6b8:0:1::feed:0ff,AAAA,[],NoAnswer,No answer for domain: baishan-cloud.net on server: 2a02:6b8:0:1::feed:0ff
+2024-11-14T11:48:12.941950,badoocdn.com,208.67.222.220,A,"['31.222.75.64', '31.222.75.65']",,
+2024-11-14T11:48:12.941950,bald-news.com,123.125.81.7,A,[],Timeout,Timeout occurred for domain: bald-news.com on server: 123.125.81.7
+2024-11-14T11:48:12.941950,backtrace.io,2620:119:53::53,AAAA,[],NoAnswer,No answer for domain: backtrace.io on server: 2620:119:53::53
+2024-11-14T11:48:12.941950,bald-news.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bald-news.com on server: 101.226.4.7
+2024-11-14T11:48:12.941950,baidu.hk,123.125.81.7,A,[],Timeout,Timeout occurred for domain: baidu.hk on server: 123.125.81.7
+2024-11-14T11:48:12.941950,baishan-cloud.net,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: baishan-cloud.net on server: 2400:da00::6666
+2024-11-14T11:48:12.941950,bakecaincontrii.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: bakecaincontrii.com on server: 101.226.4.7
+2024-11-14T11:48:12.941950,badoocdn.com,101.226.4.7,A,[],Timeout,Timeout occurred for domain: badoocdn.com on server: 101.226.4.7
+2024-11-14T11:48:12.941950,backtrace.io,2400:da00::6666,AAAA,[],Timeout,Timeout occurred for domain: backtrace.io on server: 2400:da00::6666
+2024-11-14T11:48:12.941950,baidu.hk,210.21.196.6,A,[],Timeout,Timeout occurred for domain: baidu.hk on server: 210.21.196.6
