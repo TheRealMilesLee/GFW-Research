@@ -45,6 +45,10 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
             writer.writerow(row)
 
 if __name__ == "__main__":
-  folder_path = "E:\\Developer\\SourceRepo\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\DNSPoisoning"
-  output_folder_path = "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile"
+  if os.name == 'nt':
+    folder_path = "E:\\Developer\\SourceRepo\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\DNSPoisoning"
+    output_folder_path = "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile"
+  else:
+    folder_path = "/Users/silverhand/Developer/SourceRepo/GFW-Research/src/Lib/Data-2024-11-12/China-Mobile/DNSPoisoning"
+    output_folder_path = "/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile"
   merge_csv(folder_path, output_folder_path)

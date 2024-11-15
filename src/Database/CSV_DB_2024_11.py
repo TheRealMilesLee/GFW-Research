@@ -61,7 +61,11 @@ def process_file(file, mongodbOP_CM_DNSP):
 
 def dump_to_mongo():
     mongodbOP_CM_DNSP = MongoDBHandler(CM_DNSP_ADC_NOV)
-    FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile'
+
+    if os.name == 'nt':
+      FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile'
+    else:
+      FileFolderLocation = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile'
     csv_files = [os.path.join(FileFolderLocation, file) for file in os.listdir(FileFolderLocation) if file.endswith('.csv')]
 
     # Drop the collection before inserting new data
