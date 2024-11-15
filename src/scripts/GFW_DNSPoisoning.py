@@ -22,34 +22,32 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   error_reason = None
 
   try:
-      print(f"Querying {domain} on {dns_server} for {record_type}")
-      answers = await resolver.resolve(domain, record_type)
+    print(f"Querying {domain} on {dns_server} for {record_type}")
+    answers = await resolver.resolve(domain, record_type)
   except dns.resolver.Timeout:
-      error_code = 'Timeout'
-      error_reason = f"Timeout occurred for domain: {domain} on server: {dns_server}"
+    error_code = 'Timeout'
+    error_reason = f"Timeout occurred for domain: {domain} on server: {dns_server}"
   except dns.resolver.NoAnswer:
-      error_code = 'NoAnswer'
-      error_reason = f"No answer for domain: {domain} on server: {dns_server}"
+    error_code = 'NoAnswer'
+    error_reason = f"No answer for domain: {domain} on server: {dns_server}"
   except dns.resolver.NXDOMAIN:
-      error_code = 'NXDOMAIN'
-      error_reason = f"Non-existent domain: {domain} on server: {dns_server}"
+    error_code = 'NXDOMAIN'
+    error_reason = f"Non-existent domain: {domain} on server: {dns_server}"
   except dns.resolver.YXDOMAIN:
-      error_code = 'YXDOMAIN'
-      error_reason = f"Domain name should not exist: {domain} on server: {dns_server}"
+    error_code = 'YXDOMAIN'
+    error_reason = f"Domain name should not exist: {domain} on server: {dns_server}"
   except dns.resolver.NoNameservers:
-      error_code = 'NoNameservers'
-      error_reason = f"No nameservers for domain: {domain} on server: {dns_server}"
+    error_code = 'NoNameservers'
+    error_reason = f"No nameservers for domain: {domain} on server: {dns_server}"
   except dns.resolver.ServFail:
-      error_code = 'ServFail'
-      error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
+    error_code = 'ServFail'
+    error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
   except Exception as e:
-      error_code = 'UnknownError'
-      error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
-  # 直接输出 answers 结果
+    error_code = 'UnknownError'
+    error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
   else:
-      for rdata in answers:
-          print(f"Record: {rdata}")
-
+    for rdata in answers:
+      print(f"Record: {rdata}")
 
   return {
     'domain': domain,
@@ -92,14 +90,16 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
 
   return results
 
-def save_results(results: list) -> None:
+def save_results(results: list, is_first_write=False) -> None:
   filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d_%H_%M")}.csv'
   folder_path = '../Lib/Data-2024-11-12/China-Mobile/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
 
-  print(f"Saving results to {filepath}")
-  with open(filepath, "w", newline="") as csvfile:
+  mode = "w" if is_first_write else "a"  # Use "a" mode to append data after the first write
+  print(f"{'Creating' if is_first_write else 'Appending to'} results file at {filepath}")
+
+  with open(filepath, mode, newline="") as csvfile:
     fieldnames = [
       "timestamp",
       "domain",
@@ -110,7 +110,11 @@ def save_results(results: list) -> None:
       "error_reason"
     ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
+
+    # Write header only on the first write
+    if is_first_write:
+      writer.writeheader()
+
     for row in results:
       writer.writerow({
         "timestamp": datetime.now().isoformat(),
@@ -132,12 +136,14 @@ async def main():
 
   print(f"Checking {len(domains)} domains for DNS poisoning")
 
+  is_first_write = True
   end_time = datetime.now() + timedelta(days=7)
   while datetime.now() < end_time:
     for i in range(0, len(domains), BATCH_SIZE):
       batch = domains[i:i + BATCH_SIZE]
       results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
-      save_results(results)
+      save_results(results, is_first_write=is_first_write)
+      is_first_write = False  # After the first batch, set to False to append data
       print(f"Batch completed at {datetime.now()}")
     await asyncio.sleep(3600)  # Wait for 1 hour before the next check
 
