@@ -26,7 +26,8 @@ def get_domains_list() -> list:
 
     @details This function reads a CSV file containing domain information and returns a list of domains.
     """
-    csv_file = "D:\Developer\GFW-Research\src\Import\domains_list.csv"
+    print("Reading domains list from CSV file")
+    csv_file = "D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv"
     domains = []
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
@@ -48,6 +49,7 @@ def download_geoip_database() -> None:
   # Constants
   GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), "../Import/GeoLite2-City.mmdb")
   if not os.path.exists(GEOIP_DB_PATH):
+    print("Downloading GeoLite2 City database")
     urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
 
 
@@ -63,6 +65,7 @@ def check_domain_exists(domain: str) -> bool:
   @return True if the domain exists, False otherwise.
   """
   try:
+    print(f"Checking if {domain} exists")
     ip_address = socket.gethostbyname(domain)
     return True
   except socket.gaierror:
@@ -77,14 +80,17 @@ def traceroute(domain: str, use_ipv6: bool = False) -> list:
   @exception subprocess.CalledProcessError If the traceroute command fails.
   """
   if use_ipv6:
+    print(f"Tracerouting to {domain} using IPv6")
     if shutil.which('traceroute6'):
       command = ['traceroute6', domain]
     else:
       return []  # 如果traceroute6不可用，则返回空列表
   else:
+    print(f"Tracerouting to {domain} using IPv4")
     command = ['traceroute', domain]
 
   try:
+    print(f"Running traceroute command: {' '.join(command)}")
     output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300)
     lines = output.split('\n')
     ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
@@ -104,6 +110,7 @@ def traceroute(domain: str, use_ipv6: bool = False) -> list:
       # If traceroute6 has results but no IPv4 addresses found, perform traceroute with IPv4
       ipv4_ips = traceroute(domain, use_ipv6=False)
     # Detect TCP RST and redirection
+    print(f"Checking for TCP RST and redirection for {domain}")
     rst_detected = False
     redirection_detected = False
     for ip in ips["ipv4"]:
@@ -136,6 +143,7 @@ def check_domain_ipv6_support(domain: str) -> bool:
   @return True if the domain supports IPv6, False otherwise.
   """
   try:
+    print(f"Checking if {domain} supports IPv6")
     ipv6_address = socket.getaddrinfo(domain, None, socket.AF_INET6)
     if (ipv6_address[0][3] == ''):
       print(f"{domain} does not support IPv6")
@@ -159,6 +167,7 @@ def lookup_ip(ip: str) -> str:
       Returns "Local IP lookup failed: <error_message>" if any other exception occurs.
   """
   try:
+    print(f"Looking up IP address {ip}")
     with geoip2.database.Reader("../Import/GeoLite2-City.mmdb") as reader:
       response = reader.city(ip)
       country = response.country.name
@@ -201,6 +210,7 @@ def ip_lookup(ips: dict) -> dict:
   return result
 
 def process_chunk(domains_chunk):
+  print(f"Processing chunk of {len(domains_chunk)} domains")
   chunk_results = []
   for domain in domains_chunk:
     exist = check_domain_exists(domain)
@@ -250,7 +260,7 @@ def process_domain() -> list:
   @return A list of dictionaries indicating the result of the domain processing. Each dictionary contains
   the domain, IP addresses found, and their geographical location.
   """
-
+  print("Processing domains")
   domains = get_domains_list()
   chunk_size = 512
   chunks = [domains[i:i + chunk_size] for i in range(0, len(domains), chunk_size)]
@@ -273,9 +283,10 @@ def save_to_file(results: dict) -> None:
   @return None
   """
   filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
-  folder_path = "../../Lib/Data-2024-11-12/China-Mobile/GFWLocation/"
+  folder_path = "D:\\Developer\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\GFWLocation"
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
+  print(f"Saving results to file at {filepath}")
   with open(filepath, "w") as f:
     for result in results:
       f.write(f"{result}\n")
