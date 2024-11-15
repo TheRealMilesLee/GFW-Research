@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 def merge_csv(folder_path: str, output_folder_path: str) -> None:
   """
   Merges CSV files from a specified folder into a single CSV file per date.
@@ -14,8 +13,6 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
   @param output_folder_path: The path to the folder where the merged CSV files will be saved.
   @return: None
   """
-  # Define the input and output folder paths
-
   # List all files in the input folder
   file_list = os.listdir(folder_path)
   csv_dict = {}
@@ -23,8 +20,9 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
   # Group files by date extracted from the filename
   for file_name in file_list:
     if file_name.endswith('.csv'):
-      date_str = file_name.split('_')[3:6]
-      date_key = '_'.join(date_str[:3])
+      # Extract year, month, and day from the filename
+      parts = file_name.split('_')
+      date_key = '_'.join(parts[3:6])  # e.g., '2024_11_14'
       if date_key not in csv_dict:
         csv_dict[date_key] = []
       csv_dict[date_key].append(file_name)
@@ -39,6 +37,7 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
           reader = csv.reader(csv_file)
           header = next(reader)
           if not header_written:
+            # Write header only once for each date file
             writer.writerow(header)
             header_written = True
           for row in reader:
