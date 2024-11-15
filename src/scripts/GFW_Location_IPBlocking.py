@@ -91,7 +91,8 @@ def traceroute(domain: str, use_ipv6: bool = False) -> list:
 
     try:
         print(f"Running traceroute command: {' '.join(command)}")
-        output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300)
+        # Use errors='ignore' to bypass encoding issues
+        output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300, errors='ignore')
         lines = output.split('\n')
 
         ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
