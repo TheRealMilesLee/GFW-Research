@@ -136,16 +136,22 @@ async def main():
 
   print(f"Checking {len(domains)} domains for DNS poisoning")
 
-  is_first_write = True
+  all_results = []  # Collect all results here
   end_time = datetime.now() + timedelta(days=7)
   while datetime.now() < end_time:
     for i in range(0, len(domains), BATCH_SIZE):
       batch = domains[i:i + BATCH_SIZE]
       results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
-      save_results(results, is_first_write=is_first_write)
-      is_first_write = False  # After the first batch, set to False to append data
-      print(f"Batch completed at {datetime.now()}")
+      all_results.extend(results)  # Append batch results to all_results
+
+    print(f"All batches completed at {datetime.now()}")
+
+    # Save results to CSV after all batches are processed
+    save_results(all_results, is_first_write=True)
+    all_results.clear()  # Clear results after saving to prepare for the next loop
+
     await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+
 
 if __name__ == "__main__":
   asyncio.run(main())
