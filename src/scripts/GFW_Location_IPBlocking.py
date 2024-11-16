@@ -165,19 +165,20 @@ def process_domain(domain: str) -> dict:
         "location": location
       }
 
-def process_domains_concurrently(domains: list, batch_size: int = 8) -> list:
+def process_domains_concurrently(domains: list) -> list:
   print("Processing domains concurrently")
   results = []
-  with concurrent.futures.ThreadPoolExecutor(max_workers=batch_size) as executor:
-    for i in range(0, len(domains), batch_size):
-      batch = domains[i:i + batch_size]
+  max_workers = os.cpu_count() or 1  # Use the number of CPUs available
+  with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+    for i in range(0, len(domains), max_workers):
+      batch = domains[i:i + max_workers]
       futures = [executor.submit(process_domain, domain) for domain in batch]
       for future in concurrent.futures.as_completed(futures):
         results.append(future.result())
   return results
 
-def save_to_file(results: list) -> None:
-  filename = f'GFW_Location_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv'
+def save_to_file(results: list, date_str: str) -> None:
+  filename = f'GFW_Location_results_{date_str}.csv'
   folder_path = "D:\\Developer\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\GFWLocation"
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
@@ -201,9 +202,24 @@ if __name__ == "__main__":
   end_time = start_time + timedelta(days=7)
   download_geoip_database()
 
+  all_results = []
+  date_str = datetime.now().strftime("%Y%m%d")
+
   while datetime.now() < end_time:
     domains = get_domains_list()
     results = process_domains_concurrently(domains)
-    save_to_file(results)
+    all_results.extend(results)
+
+    if len(all_results) >= 2500:
+      save_to_file(all_results, date_str)
+      all_results = []
+
+    current_date_str = datetime.now().strftime("%Y%m%d")
+    if current_date_str != date_str:
+      date_str = current_date_str
+
     print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     time.sleep(3600)  # Wait for 1 hour before next check
+
+  if all_results:
+    save_to_file(all_results, date_str)
