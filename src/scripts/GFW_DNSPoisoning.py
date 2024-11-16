@@ -139,6 +139,8 @@ async def main():
 
   all_results = []  # Collect all results here
   end_time = datetime.now() + timedelta(days=7)
+  is_first_write = True  # Flag to indicate the first write of the day
+
   while datetime.now() < end_time:
     for i in range(0, len(domains), BATCH_SIZE):
       batch = domains[i:i + BATCH_SIZE]
@@ -146,14 +148,16 @@ async def main():
       all_results.extend(results)  # Append batch results to all_results
 
       if len(all_results) >= WRITE_THRESHOLD:
-        save_results(all_results, is_first_write=True)
+        save_results(all_results, is_first_write=is_first_write)
+        is_first_write = False  # After the first write, always append
         all_results.clear()  # Clear results after saving to prepare for the next batch
 
     print(f"All batches completed at {datetime.now()}")
 
     # Save remaining results to CSV after all batches are processed
     if all_results:
-      save_results(all_results, is_first_write=False)
+      save_results(all_results, is_first_write=is_first_write)
+      is_first_write = False  # After the first write, always append
       all_results.clear()  # Clear results after saving
 
     await asyncio.sleep(3600)  # Wait for 1 hour before the next check

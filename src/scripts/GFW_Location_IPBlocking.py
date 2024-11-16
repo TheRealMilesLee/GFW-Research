@@ -183,9 +183,10 @@ def save_to_file(results: list, date_str: str) -> None:
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
   print(f"Saving results to file at {filepath}")
-  with open(filepath, "w", newline='') as f:
+  with open(filepath, "a", newline='') as f:  # Open file in append mode
     writer = csv.writer(f)
-    writer.writerow(["Domain", "IPv4", "IPv6", "Location", "RST Detected", "Redirection Detected", "Error"])
+    if f.tell() == 0:  # Check if file is empty to write header
+      writer.writerow(["Domain", "IPv4", "IPv6", "Location", "RST Detected", "Redirection Detected", "Error"])
     for result in results:
       writer.writerow([
         result.get("domain", ""),
