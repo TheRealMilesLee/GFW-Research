@@ -9,7 +9,8 @@ from get_dns_servers import get_dns_servers
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 30
 BATCH_SIZE = 16
-CONCURRENT_TASKS = 8
+CONCURRENT_TASKS = 16
+WRITE_THRESHOLD = 2500
 
 async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   resolver = dns.asyncresolver.Resolver()
@@ -91,7 +92,7 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
   return results
 
 def save_results(results: list, is_first_write=False) -> None:
-  filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d_%H_%M")}.csv'
+  filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
   folder_path = '../Lib/Data-2024-11-12/China-Mobile/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
@@ -144,14 +145,18 @@ async def main():
       results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
       all_results.extend(results)  # Append batch results to all_results
 
+      if len(all_results) >= WRITE_THRESHOLD:
+        save_results(all_results, is_first_write=True)
+        all_results.clear()  # Clear results after saving to prepare for the next batch
+
     print(f"All batches completed at {datetime.now()}")
 
-    # Save results to CSV after all batches are processed
-    save_results(all_results, is_first_write=True)
-    all_results.clear()  # Clear results after saving to prepare for the next loop
+    # Save remaining results to CSV after all batches are processed
+    if all_results:
+      save_results(all_results, is_first_write=False)
+      all_results.clear()  # Clear results after saving
 
     await asyncio.sleep(3600)  # Wait for 1 hour before the next check
-
 
 if __name__ == "__main__":
   asyncio.run(main())
