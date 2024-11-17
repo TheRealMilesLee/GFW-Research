@@ -168,7 +168,7 @@ def process_domain(domain: str) -> dict:
 def process_domains_concurrently(domains: list) -> list:
   print("Processing domains concurrently")
   results = []
-  max_workers = os.cpu_count() or 1  # Use the number of CPUs available
+  max_workers = 128
   with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
     for i in range(0, len(domains), max_workers):
       batch = domains[i:i + max_workers]
