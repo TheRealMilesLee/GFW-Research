@@ -66,7 +66,7 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
         ips["ipv6"].extend(found_ipv6)
 
     if use_ipv6 and not ips["ipv4"]:
-      ipv4_ips = traceroute(domain, use_ipv6=False)
+      traceroute(domain, use_ipv6=False)
 
     print(f"Checking for TCP RST and redirection for {domain}")
     rst_detected = False
@@ -134,6 +134,7 @@ def ip_lookup(ips: dict) -> dict:
 
 def process_domain(domain: str) -> dict:
   exist = check_domain_exists(domain)
+  ips = {"ipv4": [], "ipv6": []}
   if exist:
     result = check_domain_ipv6_support(domain)
     if result:
