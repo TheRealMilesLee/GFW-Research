@@ -6,10 +6,12 @@ import socket
 import subprocess
 import time
 from datetime import datetime, timedelta
+from ipaddress import ip_address
 from urllib.request import urlretrieve
 
 import geoip2.database
-from scapy.all import sr1, IP, TCP
+from scapy.all import IP, TCP, sr1
+
 
 def get_domains_list() -> list:
   print("Reading domains list from CSV file")
@@ -52,21 +54,21 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
     ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
     ipv6_pattern = r'([0-9a-fA-F]{1,4}(?::[0-9a-fA-F]{1,4}){7})'
 
-    ips = {
-      "ipv4": [],
-      "ipv6": []
-    }
+    ips = {"ipv4": [], "ipv6": []}
+    invalid_ips = []  # Store invalid IPs
 
     for line in lines:
       found_ipv4 = re.findall(ipv4_pattern, line)
       found_ipv6 = re.findall(ipv6_pattern, line)
       if found_ipv4:
-        ips["ipv4"].extend(found_ipv4)
+        for ip in found_ipv4:
+          try:
+            ip_address(ip)
+            ips["ipv4"].append(ip)
+          except ValueError:
+            invalid_ips.append(ip)
       if found_ipv6 and use_ipv6:
         ips["ipv6"].extend(found_ipv6)
-
-    if use_ipv6 and not ips["ipv4"]:
-      traceroute(domain, use_ipv6=False)
 
     print(f"Checking for TCP RST and redirection for {domain}")
     rst_detected = False
@@ -81,14 +83,14 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
         if resp[TCP].flags == "SA" and resp[IP].src != ip:
           redirection_detected = True
 
-    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected}
+    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected, "invalid_ips": invalid_ips}
 
   except subprocess.CalledProcessError as e:
     print(f"Error running traceroute for {domain}: {e}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False}
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
   except subprocess.TimeoutExpired:
     print(f"Traceroute command timed out for {domain}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False}
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
 
 def check_domain_ipv6_support(domain: str) -> bool:
   try:
@@ -133,50 +135,32 @@ def ip_lookup(ips: dict) -> dict:
   return result
 
 def process_domain(domain: str) -> dict:
-  exist = check_domain_exists(domain)
-  ips = {"ipv4": [], "ipv6": []}
-  if exist:
-    result = check_domain_ipv6_support(domain)
-    if result:
-      traceroute_output = traceroute(domain, use_ipv6=True)
+    exist = check_domain_exists(domain)
+    if exist:
+        result = check_domain_ipv6_support(domain)
+        if result:
+            traceroute_output = traceroute(domain, use_ipv6=True)
+        else:
+            traceroute_output = traceroute(domain, use_ipv6=False)
+        return {
+            "domain": domain,
+            "ips": traceroute_output["ips"],
+            "invalid_ips": traceroute_output.get("invalid_ips", []),
+            "rst_detected": traceroute_output["rst_detected"],
+            "redirection_detected": traceroute_output["redirection_detected"]
+        }
     else:
-      traceroute_output = traceroute(domain, use_ipv6=False)
-    ips = traceroute_output["ips"]
-    rst_detected = traceroute_output["rst_detected"]
-    redirection_detected = traceroute_output["redirection_detected"]
-    return {
-      "domain": domain,
-      "ips": ips,
-      "location": ip_lookup(ips),
-      "rst_detected": rst_detected,
-      "redirection_detected": redirection_detected
-    }
-  else:
-    try:
-      destination_ip = socket.gethostbyname(domain)
-    except socket.gaierror:
-      return {"domain": domain, "error": "Unable to resolve domain"}
-    if destination_ip in ips["ipv4"] or destination_ip in ips["ipv6"]:
-      return {"domain": domain, "result": f"No GFW detected (Reached destination {destination_ip})"}
-    else:
-      location = ip_lookup(ips)
-      return {
-        "domain": domain,
-        "ips": ips,
-        "location": location
-      }
+        return {"domain": domain, "error": "Domain does not exist"}
 
 def process_domains_concurrently(domains: list) -> list:
-  print("Processing domains concurrently")
-  results = []
-  max_workers = 128
-  with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-    for i in range(0, len(domains), max_workers):
-      batch = domains[i:i + max_workers]
-      futures = [executor.submit(process_domain, domain) for domain in batch]
-      for future in concurrent.futures.as_completed(futures):
-        results.append(future.result())
-  return results
+    print("Processing domains concurrently")
+    results = []
+    max_workers = 128
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = [executor.submit(process_domain, domain) for domain in domains]
+        for future in concurrent.futures.as_completed(futures):
+            results.append(future.result())
+    return results
 
 def save_to_file(results: list, date_str: str) -> None:
   filename = f'GFW_Location_results_{date_str}.csv'
@@ -184,20 +168,21 @@ def save_to_file(results: list, date_str: str) -> None:
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
   print(f"Saving results to file at {filepath}")
-  with open(filepath, "a", newline='') as f:  # Open file in append mode
+  with open(filepath, "a", newline='') as f:
     writer = csv.writer(f)
     if f.tell() == 0:  # Check if file is empty to write header
-      writer.writerow(["Domain", "IPv4", "IPv6", "Location", "RST Detected", "Redirection Detected", "Error"])
+      writer.writerow(["Domain", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
     for result in results:
       writer.writerow([
         result.get("domain", ""),
         ", ".join(result.get("ips", {}).get("ipv4", [])),
         ", ".join(result.get("ips", {}).get("ipv6", [])),
-        result.get("location", ""),
         result.get("rst_detected", ""),
         result.get("redirection_detected", ""),
+        ", ".join(result.get("invalid_ips", [])),
         result.get("error", "")
       ])
+
 
 if __name__ == "__main__":
   start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
