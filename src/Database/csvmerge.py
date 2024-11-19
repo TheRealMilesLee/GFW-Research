@@ -23,7 +23,7 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
     if file_name.endswith('.csv'):
       # Extract year, month, and day from the filename
       parts = file_name.split('_')
-      date_key = '_'.join(parts[3:6])  # e.g., '2024_11_14'
+      date_key = '_'.join(parts[3:6])  # e.g., '2024_11_17'
       if date_key not in csv_dict:
         csv_dict[date_key] = []
       csv_dict[date_key].append(file_name)
@@ -43,6 +43,11 @@ def merge_csv(folder_path: str, output_folder_path: str) -> None:
             header_written = True
           for row in reader:
             writer.writerow(row)
+
+      # Check if header was written, if not, write the default header
+      if not header_written:
+        default_header = ["timestamp", "domain", "dns_server", "record_type", "answers", "error_code", "error_reason"]
+        writer.writerow(default_header)
 
 if __name__ == "__main__":
   if os.name == 'nt':
