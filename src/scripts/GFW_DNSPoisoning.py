@@ -8,8 +8,8 @@ from get_dns_servers import get_dns_servers
 
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 30
-BATCH_SIZE = 16
-CONCURRENT_TASKS = 16
+BATCH_SIZE = 128
+CONCURRENT_TASKS = 128
 WRITE_THRESHOLD = 2500
 
 async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
