@@ -42,8 +42,14 @@ def merge_csv(folder_paths: list, output_file_path: str) -> None:
           writer.writerow(row)
 
 if __name__ == "__main__":
-  folder_paths = [
-    "/Users/silverhand/Developer/SourceRepo/GFW-Research/src/Lib/Data-2024-11-12/China-Mobile/DNSPoisoning/Nov14"
-  ]
-  output_file_path = "/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile/merged_2024_11_15.csv"
+  if os.name == 'nt':
+    folder_paths = [
+      "E:\\Developer\\SourceRepo\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\DNSPoisoning\\Nov15"
+    ]
+    output_file_path = "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile\\merged_2024_11_15.csv"
+  else:
+    folder_paths = [
+      "/Users/silverhand/Developer/SourceRepo/GFW-Research/src/Lib/Data-2024-11-12/China-Mobile/DNSPoisoning/Nov14"
+    ]
+    output_file_path = "/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile/merged_2024_11_15.csv"
   merge_csv(folder_paths, output_file_path)
