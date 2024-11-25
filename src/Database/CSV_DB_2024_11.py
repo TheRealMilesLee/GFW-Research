@@ -8,6 +8,7 @@ from DBOperations import ADC_db, MongoDBHandler
 
 CM_DNSP_ADC_NOV = ADC_db['ChinaMobile-DNSPoisoning-November']
 
+
 # Config Logger
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
