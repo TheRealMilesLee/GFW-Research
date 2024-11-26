@@ -83,6 +83,10 @@ def dump_to_mongo():
   logger.info('Dropping the collection before inserting new data')
   CM_GFWL_ADC_NOV.drop()
 
+  # Create index for domain field
+  logger.info('Creating index for domain field')
+  CM_GFWL_ADC_NOV.create_index('domain', unique=True)
+
   with concurrent.futures.ThreadPoolExecutor() as executor:
     futures = [executor.submit(processingFile, file, mongodbOP_CM_GFWL) for file in csv_files]
     for future in concurrent.futures.as_completed(futures):

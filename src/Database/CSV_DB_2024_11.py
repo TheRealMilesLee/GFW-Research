@@ -8,7 +8,6 @@ from DBOperations import ADC_db, MongoDBHandler
 
 CM_DNSP_ADC_NOV = ADC_db['ChinaMobile-DNSPoisoning-November']
 
-
 # Config Logger
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -72,6 +71,10 @@ def dump_to_mongo():
     # Drop the collection before inserting new data
     logger.info('Dropping the collection before inserting new data')
     CM_DNSP_ADC_NOV.drop()
+
+    # Create an index for the domain field
+    logger.info('Creating index for the domain field')
+    CM_DNSP_ADC_NOV.create_index('domain')
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = [executor.submit(process_file, file, mongodbOP_CM_DNSP) for file in csv_files]
