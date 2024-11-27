@@ -1,20 +1,190 @@
-"""
-This file is meant to merge the database tables in the Mongodb.
-We have two databases, afterDomainChange and beforeDomainChange. In those database, we have three type of the collections:
-
-1. DNSPoisoning
-2. IPBlocking
-3. GFW Location
-
-The purpose of this file is to merge the tables in the two databases. The merging process is done by the domain name.
-So in the end, we wish we only have one database, with three table: DNSPoisoning, IPBlocking, GFW Location.
-
-The key of the merging would be base on domains. If the domain is the same, we will merge the data together.
-"""
 import concurrent.futures
-import csv
 import logging
-import os
 from collections import defaultdict
+from itertools import chain  # 用于展平嵌套列表
+from threading import Lock
 
-from DBOperations import ADC_db, BDC_db, MongoDBHandler
+from DBOperations import ADC_db, Merged_db, CompareGroup_db, MongoDBHandler
+
+# Config Logger
+for handler in logging.root.handlers[:]:
+  logging.root.removeHandler(handler)
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# DNSPoisoning Constants
+ADC_CM_DNSP = MongoDBHandler(ADC_db['China-Mobile-DNSPoisoning'])
+ERROR_DOMAIN_DSP_ADC_CM = MongoDBHandler(ADC_db['ERROR_CODES'])
+ADC_CT_DNSP = MongoDBHandler(ADC_db['China-Telecom-DNSPoisoning'])
+ADC_UCD_DNSP = MongoDBHandler(ADC_db['UCDavis-Server-DNSPoisoning'])
+ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db['ChinaMobile-DNSPoisoning-November'])
+Merged_db_DNSP = MongoDBHandler(Merged_db['DNSPoisoning'])
+CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db['DNSPoisoning'])
+
+
+class DNSPoisoningMerger:
+  def __init__(self, adc_cm_dnsp_nov, adc_cm_dnsp, error_domain_dsp_adc_cm, adc_ct_dnsp, adc_ucd_dnsp, merged_db_dnsp, compare_group_db_dnsp):
+    self.adc_cm_dnsp_nov = adc_cm_dnsp_nov
+    self.adc_cm_dnsp = adc_cm_dnsp
+    self.error_domain_dsp_adc_cm = error_domain_dsp_adc_cm
+    self.adc_ct_dnsp = adc_ct_dnsp
+    self.adc_ucd_dnsp = adc_ucd_dnsp
+    self.merged_db_dnsp = merged_db_dnsp
+    self.compare_group_db_dnsp = compare_group_db_dnsp
+    self.processed_domains = defaultdict(lambda: defaultdict(set))
+    self.lock = Lock()  # Ensure thread-safe operations on shared data
+
+  def merge_documents(self):
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+      futures = [
+        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov),
+        executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp),
+        executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp),
+        executor.submit(self._merge_documents, self.adc_ucd_dnsp, self._merge_adc_ucd_dnsp),
+      ]
+      for future in concurrent.futures.as_completed(futures):
+        try:
+          future.result()
+        except Exception as e:
+          logger.error(f"Error in thread execution: {e}")
+    self._finalize_documents()
+
+  def _merge_documents(self, db_handler, merge_function):
+    logger.info(f"Merging documents from {db_handler.collection.name}")
+    try:
+      documents = db_handler.find({})
+      for document in documents:
+        merge_function(document)
+    except Exception as e:
+      logger.error(f"Error in _merge_documents: {e}")
+
+  def _merge_adc_cm_dnsp_nov(self, document):
+    self._process_document(self._format_document(
+      domain=document.get('domain', ''),
+      answers=document.get('answers', []),
+      dns_server=document.get('dns_server', []),
+      error_code=document.get('error_code', []),
+      error_reason=document.get('error_reason', []),
+      record_type=document.get('record_type', []),
+      timestamp=document.get('timestamp', [])
+    ))
+
+  def _merge_adc_cm_dnsp(self, document):
+    domain = document.get('domain', '')
+    if not domain:
+      logger.warning(f"Skipping document with missing domain: {document}")
+      return
+
+    for res in document.get('results', []):
+      error_document = list(self.error_domain_dsp_adc_cm.find({"domain": domain}))
+      if error_document:
+        error_code = error_document[0].get('error_code', [])
+        error_reason = error_document[0].get('error_reason', [])
+        record_type = error_document[0].get('record_type', [])
+      else:
+        error_code = []
+        error_reason = []
+        record_type = []
+
+      self._process_document(self._format_document(
+        domain=domain,
+        answers=res.get('result_ipv4', []) + res.get('result_ipv6', []),
+        dns_server=[res.get('dns_server', '')],
+        error_code=error_code,
+        error_reason=error_reason,
+        record_type=record_type,
+        timestamp=[res.get('timestamp', '')],
+      ))
+
+  def _merge_adc_ct_dnsp(self, document):
+    domain = document.get('domain', '')
+    if not domain:
+      logger.warning(f"Skipping document with missing domain: {document}")
+      return
+
+    for res in document.get('results', []):
+      self._process_document(self._format_document(
+        domain=domain,
+        answers=res.get('china_result_ipv4', []) +
+                res.get('china_result_ipv6', []) +
+                res.get('global_result_ipv4', []) +
+                res.get('global_result_ipv6', []),
+        timestamp=[res.get('timestamp', '')]
+      ))
+
+  def _merge_adc_ucd_dnsp(self, document):
+    self._process_document(self._format_document(
+      domain=document.get('domain', ''),
+      answers=document.get('china_result_ipv4', []) +
+              document.get('china_result_ipv6', []) +
+              document.get('global_result_ipv4', []) +
+              document.get('global_result_ipv6', []),
+      timestamp=[document.get('timestamp', '')]
+    ))
+
+  def _format_document(self, domain, answers, dns_server=None, timestamp=None, error_code=None, error_reason=None, record_type=None):
+    return {
+      "domain": domain,
+      "answers": answers,
+      "dns_server": dns_server or [],
+      "timestamp": timestamp or [],
+      "error_code": error_code or [],
+      "error_reason": error_reason or [],
+      "record_type": record_type or []
+    }
+
+  def _process_document(self, document):
+    try:
+      domain = document['domain']
+      if not domain:
+        logger.warning(f"Document with missing domain skipped: {document}")
+        return
+
+      with self.lock:
+        for key, value in document.items():
+          if key != 'domain':  # domain 不需要去重
+            if isinstance(value, list):
+              # 展平嵌套列表并移除空值
+              flat_values = set(chain.from_iterable(v if isinstance(v, list) else [v] for v in value))
+              logger.info(f"Update domain: {document['domain']}")
+              self.processed_domains[domain][key].update(flat_values)
+            else:
+              logger.info(f"Add domain: {document['domain']}")
+              self.processed_domains[domain][key].add(value)
+    except Exception as e:
+      logger.error(f"Error processing document: {document}, {e}")
+
+
+  def _finalize_documents(self):
+    try:
+      for domain, data in self.processed_domains.items():
+        finalized_document = {"domain": domain}
+        for key, value in data.items():
+          finalized_document[key] = list(filter(None, value))  # Remove empty values
+        logger.info(f"Finalized document: {finalized_document}")
+        self._insert_document(finalized_document)
+    except Exception as e:
+      logger.error(f"Error finalizing documents: {e}")
+
+  def _insert_document(self, document):
+    try:
+      logger.info(f'Inserting DNSPoisoning data into MongoDB with domain: {document["domain"]}')
+      if 'UCDavis-Server-DNSPoisoning' in document['domain']:
+        self.compare_group_db_dnsp.insert_one(document)
+      else:
+        self.merged_db_dnsp.insert_one(document)
+    except Exception as e:
+      logger.error(f"Error inserting document: {document}, {e}")
+
+
+if __name__ == '__main__':
+  try:
+    logger.info("Starting DNSPoisoningMerger")
+    Merged_db_DNSP.collection.delete_many({})  # Clear the merged collection before starting
+    logger.info("Merged collection cleared")
+    merger = DNSPoisoningMerger(ADC_CM_DNSP_NOV, ADC_CM_DNSP, ERROR_DOMAIN_DSP_ADC_CM, ADC_CT_DNSP, ADC_UCD_DNSP, Merged_db_DNSP, CompareGroup_db_DNSP)
+    logger.info("Merging documents")
+    merger.merge_documents()
+  except Exception as e:
+    logger.error(f"Unexpected error in main: {e}")
