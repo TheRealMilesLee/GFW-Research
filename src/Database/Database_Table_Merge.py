@@ -22,6 +22,8 @@ ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db['ChinaMobile-DNSPoisoning-November'])
 Merged_db_DNSP = MongoDBHandler(Merged_db['DNSPoisoning'])
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db['DNSPoisoning'])
 
+MAX_WORKERS = 16  # Maximum number of threads to use for parallel processing
+
 
 class DNSPoisoningMerger:
   def __init__(self, adc_cm_dnsp_nov, adc_cm_dnsp, error_domain_dsp_adc_cm, adc_ct_dnsp, adc_ucd_dnsp, merged_db_dnsp, compare_group_db_dnsp):
@@ -36,7 +38,7 @@ class DNSPoisoningMerger:
     self.lock = Lock()  # Ensure thread-safe operations on shared data
 
   def merge_documents(self):
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
       futures = [
         executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov),
         executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp),
@@ -182,6 +184,7 @@ if __name__ == '__main__':
   try:
     logger.info("Starting DNSPoisoningMerger")
     Merged_db_DNSP.collection.delete_many({})  # Clear the merged collection before starting
+    CompareGroup_db_DNSP.collection.delete_many({})  # Clear the compare group collection before starting
     logger.info("Merged collection cleared")
     merger = DNSPoisoningMerger(ADC_CM_DNSP_NOV, ADC_CM_DNSP, ERROR_DOMAIN_DSP_ADC_CM, ADC_CT_DNSP, ADC_UCD_DNSP, Merged_db_DNSP, CompareGroup_db_DNSP)
     logger.info("Merging documents")
