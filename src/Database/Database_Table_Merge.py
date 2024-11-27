@@ -1,7 +1,7 @@
 import concurrent.futures
 import logging
 from collections import defaultdict
-from itertools import chain  # 用于展平嵌套列表
+from itertools import chain
 from threading import Lock
 
 from DBOperations import ADC_db, Merged_db, CompareGroup_db, MongoDBHandler
@@ -22,7 +22,8 @@ ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db['ChinaMobile-DNSPoisoning-November'])
 Merged_db_DNSP = MongoDBHandler(Merged_db['DNSPoisoning'])
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db['DNSPoisoning'])
 
-MAX_WORKERS = 16  # Maximum number of threads to use for parallel processing
+MAX_WORKERS = 32  # Increase the number of threads
+BATCH_SIZE = 100  # Number of documents to insert in a single batch
 
 
 class DNSPoisoningMerger:
@@ -35,7 +36,7 @@ class DNSPoisoningMerger:
     self.merged_db_dnsp = merged_db_dnsp
     self.compare_group_db_dnsp = compare_group_db_dnsp
     self.processed_domains = defaultdict(lambda: defaultdict(set))
-    self.lock = Lock()  # Ensure thread-safe operations on shared data
+    self.lock = Lock()
 
   def merge_documents(self):
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -109,9 +110,9 @@ class DNSPoisoningMerger:
       self._process_document(self._format_document(
         domain=domain,
         answers=res.get('china_result_ipv4', []) +
-                res.get('china_result_ipv6', []) +
-                res.get('global_result_ipv4', []) +
-                res.get('global_result_ipv6', []),
+            res.get('china_result_ipv6', []) +
+            res.get('global_result_ipv4', []) +
+            res.get('global_result_ipv6', []),
         timestamp=[res.get('timestamp', '')]
       ))
 
@@ -119,9 +120,9 @@ class DNSPoisoningMerger:
     self._process_document(self._format_document(
       domain=document.get('domain', ''),
       answers=document.get('china_result_ipv4', []) +
-              document.get('china_result_ipv6', []) +
-              document.get('global_result_ipv4', []) +
-              document.get('global_result_ipv6', []),
+          document.get('china_result_ipv6', []) +
+          document.get('global_result_ipv4', []) +
+          document.get('global_result_ipv6', []),
       timestamp=[document.get('timestamp', '')]
     ))
 
@@ -145,46 +146,51 @@ class DNSPoisoningMerger:
 
       with self.lock:
         for key, value in document.items():
-          if key != 'domain':  # domain 不需要去重
+          if key != 'domain':
             if isinstance(value, list):
-              # 展平嵌套列表并移除空值
               flat_values = set(chain.from_iterable(v if isinstance(v, list) else [v] for v in value))
-              logger.info(f"Update domain: {document['domain']}")
+              logger.info(f"Adding {len(flat_values)} values to {key} for domain {domain}")
               self.processed_domains[domain][key].update(flat_values)
             else:
-              logger.info(f"Add domain: {document['domain']}")
+              logger.info(f"Adding {value} to {key} for domain {domain}")
               self.processed_domains[domain][key].add(value)
     except Exception as e:
       logger.error(f"Error processing document: {document}, {e}")
 
-
   def _finalize_documents(self):
     try:
+      batch = []
       for domain, data in self.processed_domains.items():
         finalized_document = {"domain": domain}
         for key, value in data.items():
-          finalized_document[key] = list(filter(None, value))  # Remove empty values
-        logger.info(f"Finalized document: {finalized_document}")
-        self._insert_document(finalized_document)
+          finalized_document[key] = list(filter(None, value))
+        batch.append(finalized_document)
+        if len(batch) >= BATCH_SIZE:
+          self._insert_documents(batch)
+          batch = []
+      if batch:
+        self._insert_documents(batch)
     except Exception as e:
       logger.error(f"Error finalizing documents: {e}")
 
-  def _insert_document(self, document):
+  def _insert_documents(self, documents):
     try:
-      logger.info(f'Inserting DNSPoisoning data into MongoDB with domain: {document["domain"]}')
-      if 'UCDavis-Server-DNSPoisoning' in document['domain']:
-        self.compare_group_db_dnsp.insert_one(document)
-      else:
-        self.merged_db_dnsp.insert_one(document)
+      logger.info(f'Inserting batch of {len(documents)} documents into MongoDB')
+      compare_group_docs = [doc for doc in documents if 'UCDavis-Server-DNSPoisoning' in doc['domain']]
+      merged_docs = [doc for doc in documents if 'UCDavis-Server-DNSPoisoning' not in doc['domain']]
+      if compare_group_docs:
+        self.compare_group_db_dnsp.insert_many(compare_group_docs)
+      if merged_docs:
+        self.merged_db_dnsp.insert_many(merged_docs)
     except Exception as e:
-      logger.error(f"Error inserting document: {document}, {e}")
+      logger.error(f"Error inserting documents: {e}")
 
 
 if __name__ == '__main__':
   try:
     logger.info("Starting DNSPoisoningMerger")
-    Merged_db_DNSP.collection.delete_many({})  # Clear the merged collection before starting
-    CompareGroup_db_DNSP.collection.delete_many({})  # Clear the compare group collection before starting
+    Merged_db_DNSP.collection.delete_many({})
+    CompareGroup_db_DNSP.collection.delete_many({})
     logger.info("Merged collection cleared")
     merger = DNSPoisoningMerger(ADC_CM_DNSP_NOV, ADC_CM_DNSP, ERROR_DOMAIN_DSP_ADC_CM, ADC_CT_DNSP, ADC_UCD_DNSP, Merged_db_DNSP, CompareGroup_db_DNSP)
     logger.info("Merging documents")
