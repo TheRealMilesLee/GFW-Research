@@ -445,21 +445,21 @@ class TraceRouteMerger:
 
 if __name__ == "__main__":
     try:
-        # logger.info("Starting DNSPoisoningMerger")
-        # Merged_db_DNSP.collection.delete_many({})
-        # CompareGroup_db_DNSP.collection.delete_many({})
-        # logger.info("Merged collection cleared")
-        # merger = DNSPoisoningMerger(
-        #     ADC_CM_DNSP_NOV,
-        #     ADC_CM_DNSP,
-        #     ERROR_DOMAIN_DSP_ADC_CM,
-        #     ADC_CT_DNSP,
-        #     ADC_UCD_DNSP,
-        #     Merged_db_DNSP,
-        #     CompareGroup_db_DNSP,
-        # )
-        # logger.info("Merging documents")
-        # merger.merge_documents()
+        logger.info("Starting DNSPoisoningMerger")
+        Merged_db_DNSP.collection.delete_many({})
+        CompareGroup_db_DNSP.collection.delete_many({})
+        logger.info("Merged collection cleared")
+        merger = DNSPoisoningMerger(
+            ADC_CM_DNSP_NOV,
+            ADC_CM_DNSP,
+            ERROR_DOMAIN_DSP_ADC_CM,
+            ADC_CT_DNSP,
+            ADC_UCD_DNSP,
+            Merged_db_DNSP,
+            CompareGroup_db_DNSP,
+        )
+        logger.info("Merging documents")
+        merger.merge_documents()
 
         logger.info("Starting TraceRouteMerger")
         Merged_db_TR.collection.delete_many({})
