@@ -1,5 +1,6 @@
 import concurrent.futures
 import logging
+import multiprocessing
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
@@ -11,10 +12,11 @@ for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
 
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler(), logging.FileHandler('merge_performance.log')]
 )
 logger = logging.getLogger(__name__)
-
 # DNSPoisoning Constants
 ADC_CM_DNSP = MongoDBHandler(ADC_db["China-Mobile-DNSPoisoning"])
 ERROR_DOMAIN_DSP_ADC_CM = MongoDBHandler(ADC_db["ERROR_CODES"])
@@ -24,8 +26,10 @@ ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
 
-MAX_WORKERS = 32  # Increase the number of threads
-BATCH_SIZE = 100  # Number of documents to insert in a single batch
+# Optimize worker count based on CPU cores
+CPU_CORES = multiprocessing.cpu_count()
+MAX_WORKERS = max(CPU_CORES * 2, 32)  # Dynamically set workers
+BATCH_SIZE = 500  # Increased batch size for more efficient processing
 
 
 class DNSPoisoningMerger:
@@ -77,7 +81,7 @@ class DNSPoisoningMerger:
     def _merge_documents(self, db_handler, merge_function):
         logger.info(f"Merging documents from {db_handler.collection.name}")
         try:
-            documents = db_handler.find({})
+            documents = list(db_handler.find({}))  # Pre-load all documents into memory
             for document in documents:
                 merge_function(document)
         except Exception as e:
@@ -205,7 +209,7 @@ class DNSPoisoningMerger:
                 for key, value in data.items():
                     finalized_document[key] = list(filter(None, value))
                 batch.append(finalized_document)
-                logger.info("Starting inserting the documents")
+
                 if len(batch) >= BATCH_SIZE:
                     self._insert_documents(batch)
                     batch = []
@@ -218,15 +222,14 @@ class DNSPoisoningMerger:
         try:
             logger.info(f"Inserting batch of {len(documents)} documents into MongoDB")
             compare_group_docs = [
-                doc
-                for doc in documents
-                if "UCDavis-Server-DNSPoisoning" in doc["domain"]
+                doc for doc in documents
+                if "UCDavis-Server-DNSPoisoning" in doc.get("domain", "")
             ]
             merged_docs = [
-                doc
-                for doc in documents
-                if "UCDavis-Server-DNSPoisoning" not in doc["domain"]
+                doc for doc in documents
+                if "UCDavis-Server-DNSPoisoning" not in doc.get("domain", "")
             ]
+
             if compare_group_docs:
                 self.compare_group_db_dnsp.insert_many(compare_group_docs)
             if merged_docs:
@@ -285,7 +288,7 @@ class TraceRouteMerger:
     def _merge_documents(self, db_handler, merge_function):
         logger.info(f"Merging documents from {db_handler.collection.name}")
         try:
-            documents = db_handler.find({})
+            documents = list(db_handler.find({}))  # Pre-load all documents into memory
             for document in documents:
                 merge_function(document)
         except Exception as e:
@@ -394,6 +397,14 @@ class TraceRouteMerger:
         except Exception as e:
             logger.error(f"Error processing document: {document}, {e}")
 
+    def _determine_status(self, values):
+        if all(v == "yes" for v in values):
+            return "yes"
+        elif all(v == "no" for v in values):
+            return "no"
+        else:
+            return "sometimes"
+
     def _finalize_documents(self):
         try:
             batch = []
@@ -405,7 +416,7 @@ class TraceRouteMerger:
                     else:
                         finalized_document[key] = list(filter(None, value))
                 batch.append(finalized_document)
-                logger.info("Starting inserting the documents")
+
                 if len(batch) >= BATCH_SIZE:
                     self._insert_documents(batch)
                     batch = []
@@ -414,27 +425,18 @@ class TraceRouteMerger:
         except Exception as e:
             logger.error(f"Error finalizing documents: {e}")
 
-    def _determine_status(self, values):
-        if all(v == "yes" for v in values):
-            return "yes"
-        elif all(v == "no" for v in values):
-            return "no"
-        else:
-            return "sometimes"
-
     def _insert_documents(self, documents):
         try:
             logger.info(f"Inserting batch of {len(documents)} documents into MongoDB")
             compare_group_docs = [
-                doc
-                for doc in documents
-                if "ChinaMobile-GFWLocation-November" in doc["domain"]
+                doc for doc in documents
+                if "ChinaMobile-GFWLocation-November" in doc.get("domain", "")
             ]
             merged_docs = [
-                doc
-                for doc in documents
-                if "ChinaMobile-GFWLocation-November" not in doc["domain"]
+                doc for doc in documents
+                if "ChinaMobile-GFWLocation-November" not in doc.get("domain", "")
             ]
+
             if compare_group_docs:
                 self.compare_group_db_tr.insert_many(compare_group_docs)
             if merged_docs:

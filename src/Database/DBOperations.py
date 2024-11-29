@@ -57,3 +57,6 @@ class MongoDBHandler:
 
     def insert_many(self, data: list) -> None:
         self.collection.insert_many(data)
+
+    def find(self, data: dict) -> list:
+        return list(self.collection.find(data))
