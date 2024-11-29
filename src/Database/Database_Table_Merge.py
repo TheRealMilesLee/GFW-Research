@@ -156,7 +156,8 @@ class DNSPoisoningMerger:
                 + document.get("global_result_ipv4", [])
                 + document.get("global_result_ipv6", []),
                 timestamp=[document.get("timestamp", "")],
-            )
+            ),
+            compare_group=True
         )
 
     def _format_document(
@@ -179,7 +180,7 @@ class DNSPoisoningMerger:
             "record_type": record_type or [],
         }
 
-    def _process_document(self, document):
+    def _process_document(self, document, compare_group=False):
         try:
             domain = document["domain"]
             if not domain:
@@ -198,6 +199,8 @@ class DNSPoisoningMerger:
                             self.processed_domains[domain][key].update(flat_values)
                         else:
                             self.processed_domains[domain][key].add(value)
+                if compare_group:
+                    self.compare_group_db_dnsp.insert_one(document)
         except Exception as e:
             logger.error(f"Error processing document: {document}, {e}")
 
@@ -221,17 +224,10 @@ class DNSPoisoningMerger:
     def _insert_documents(self, documents):
         try:
             logger.info(f"Inserting batch of {len(documents)} documents into MongoDB")
-            compare_group_docs = [
-                doc for doc in documents
-                if "UCDavis-Server-DNSPoisoning" in doc.get("domain", "")
-            ]
             merged_docs = [
                 doc for doc in documents
                 if "UCDavis-Server-DNSPoisoning" not in doc.get("domain", "")
             ]
-
-            if compare_group_docs:
-                self.compare_group_db_dnsp.insert_many(compare_group_docs)
             if merged_docs:
                 self.merged_db_dnsp.insert_many(merged_docs)
         except Exception as e:
@@ -428,19 +424,7 @@ class TraceRouteMerger:
     def _insert_documents(self, documents):
         try:
             logger.info(f"Inserting batch of {len(documents)} documents into MongoDB")
-            compare_group_docs = [
-                doc for doc in documents
-                if "ChinaMobile-GFWLocation-November" in doc.get("domain", "")
-            ]
-            merged_docs = [
-                doc for doc in documents
-                if "ChinaMobile-GFWLocation-November" not in doc.get("domain", "")
-            ]
-
-            if compare_group_docs:
-                self.compare_group_db_tr.insert_many(compare_group_docs)
-            if merged_docs:
-                self.merged_db_tr.insert_many(merged_docs)
+            self.merged_db_tr.insert_many(documents)
         except Exception as e:
             logger.error(f"Error inserting documents: {e}")
 
