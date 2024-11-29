@@ -59,7 +59,10 @@ def process_file(filename, error_file_dir):
 def merge_and_insert_error_codes():
     # Drop the db first before inserting
     error_codes.drop()
-    error_file_dir = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/China-Mobile/Error/'
+    if os.name == 'nt':
+        error_file_dir = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\AfterDomainChange\\China-Mobile\\Error'
+    else:
+        error_file_dir = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/China-Mobile/Error/'
     merged_data = defaultdict(lambda: {
         "timestamp": set(),
         "dns_server": set(),
@@ -88,6 +91,9 @@ def merge_and_insert_error_codes():
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"])
         })
+
+    # Create an index on the domain field
+    error_codes.create_index("domain")
 
 if __name__ == '__main__':
     merge_and_insert_error_codes()
