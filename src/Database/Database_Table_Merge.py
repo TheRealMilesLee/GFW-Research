@@ -4,7 +4,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, Merged_db, CompareGroup_db, MongoDBHandler
+from DBOperations import ADC_db, CompareGroup_db, Merged_db, MongoDBHandler
 
 # Config Logger
 for handler in logging.root.handlers[:]:
@@ -237,7 +237,6 @@ class DNSPoisoningMerger:
 
 ####################################################### Merge TraceRoute Results ######################################################
 
-
 # TraceRouteConstants
 ADC_CT_GFWL = MongoDBHandler(ADC_db["China-Telecom-GFWLocation"])
 ADC_CT_IPB = MongoDBHandler(ADC_db["China-Telecom-IPBlocking"])
@@ -273,9 +272,7 @@ class TraceRouteMerger:
                     self._merge_documents, self.adc_ct_ipb, self._merge_adc_ct_ipb
                 ),
                 executor.submit(
-                    self._merge_documents,
-                    self.adc_cm_gfwl_nov,
-                    self._merge_adc_cm_gfwl_nov,
+                    self._merge_documents, self.adc_cm_gfwl_nov, self._merge_adc_cm_gfwl_nov
                 ),
             ]
             for future in concurrent.futures.as_completed(futures):
@@ -391,12 +388,8 @@ class TraceRouteMerger:
                                     v if isinstance(v, list) else [v] for v in value
                                 )
                             )
-                            logger.info(
-                                f"Adding {len(flat_values)} values to {key} for domain {domain}"
-                            )
                             self.processed_domains[domain][key].update(flat_values)
                         else:
-                            logger.info(f"Adding {value} to {key} for domain {domain}")
                             self.processed_domains[domain][key].add(value)
         except Exception as e:
             logger.error(f"Error processing document: {document}, {e}")
@@ -412,6 +405,7 @@ class TraceRouteMerger:
                     else:
                         finalized_document[key] = list(filter(None, value))
                 batch.append(finalized_document)
+                logger.info("Starting inserting the documents")
                 if len(batch) >= BATCH_SIZE:
                     self._insert_documents(batch)
                     batch = []
@@ -451,20 +445,30 @@ class TraceRouteMerger:
 
 if __name__ == "__main__":
     try:
-        logger.info("Starting DNSPoisoningMerger")
-        Merged_db_DNSP.collection.delete_many({})
-        CompareGroup_db_DNSP.collection.delete_many({})
+        # logger.info("Starting DNSPoisoningMerger")
+        # Merged_db_DNSP.collection.delete_many({})
+        # CompareGroup_db_DNSP.collection.delete_many({})
+        # logger.info("Merged collection cleared")
+        # merger = DNSPoisoningMerger(
+        #     ADC_CM_DNSP_NOV,
+        #     ADC_CM_DNSP,
+        #     ERROR_DOMAIN_DSP_ADC_CM,
+        #     ADC_CT_DNSP,
+        #     ADC_UCD_DNSP,
+        #     Merged_db_DNSP,
+        #     CompareGroup_db_DNSP,
+        # )
+        # logger.info("Merging documents")
+        # merger.merge_documents()
+
+        logger.info("Starting TraceRouteMerger")
+        Merged_db_TR.collection.delete_many({})
+        CompareGroup_db_TR.collection.delete_many({})
         logger.info("Merged collection cleared")
-        merger = DNSPoisoningMerger(
-            ADC_CM_DNSP_NOV,
-            ADC_CM_DNSP,
-            ERROR_DOMAIN_DSP_ADC_CM,
-            ADC_CT_DNSP,
-            ADC_UCD_DNSP,
-            Merged_db_DNSP,
-            CompareGroup_db_DNSP,
+        TraceRouteMergerWorkflow = TraceRouteMerger(
+            ADC_CT_GFWL, ADC_CT_IPB, ADC_CM_GFWL_NOV, Merged_db_TR, CompareGroup_db_TR
         )
         logger.info("Merging documents")
-        merger.merge_documents()
+        TraceRouteMergerWorkflow.merge_documents()
     except Exception as e:
         logger.error(f"Unexpected error in main: {e}")
