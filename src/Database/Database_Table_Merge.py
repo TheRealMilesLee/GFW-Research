@@ -24,7 +24,7 @@ ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
 
-MAX_WORKERS = 64  # Increase the number of threads
+MAX_WORKERS = 32  # Increase the number of threads
 BATCH_SIZE = 100  # Number of documents to insert in a single batch
 
 
