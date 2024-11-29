@@ -4,7 +4,7 @@ import multiprocessing
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
-
+from tqdm import tqdm
 from DBOperations import ADC_db, CompareGroup_db, Merged_db, MongoDBHandler
 
 # Config Logger
@@ -82,7 +82,7 @@ class DNSPoisoningMerger:
         logger.info(f"Merging documents from {db_handler.collection.name}")
         try:
             documents = list(db_handler.find({}))  # Pre-load all documents into memory
-            for document in documents:
+            for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
                 merge_function(document)
         except Exception as e:
             logger.error(f"Error in _merge_documents: {e}")
@@ -289,7 +289,7 @@ class TraceRouteMerger:
         logger.info(f"Merging documents from {db_handler.collection.name}")
         try:
             documents = list(db_handler.find({}))  # Pre-load all documents into memory
-            for document in documents:
+            for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
                 merge_function(document)
         except Exception as e:
             logger.error(f"Error in _merge_documents: {e}")
