@@ -4,8 +4,9 @@ import multiprocessing
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
-from tqdm import tqdm
+
 from DBOperations import ADC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from tqdm import tqdm
 
 # Config Logger
 for handler in logging.root.handlers[:]:
@@ -101,22 +102,34 @@ class DNSPoisoningMerger:
         )
 
     def _merge_adc_cm_dnsp(self, document):
+        """
+        优化后的 _merge_adc_cm_dnsp 函数，保持原有的逻辑和调用方式，但增加缓存和查询优化。
+        """
         domain = document.get("domain", "")
         if not domain:
             logger.warning(f"Skipping document with missing domain: {document}")
             return
 
-        for res in document.get("results", []):
-            error_document = list(self.error_domain_dsp_adc_cm.find({"domain": domain}))
-            if error_document:
-                error_code = error_document[0].get("error_code", [])
-                error_reason = error_document[0].get("error_reason", [])
-                record_type = error_document[0].get("record_type", [])
-            else:
-                error_code = []
-                error_reason = []
-                record_type = []
+        # 使用缓存避免重复查询
+        if not hasattr(self, "_domain_cache"):
+            self._domain_cache = {}
 
+        if domain not in self._domain_cache:
+            # 优化 MongoDB 查询，限制返回字段
+            error_document = self.error_domain_dsp_adc_cm.find_one(
+                {"domain": domain},
+                {"error_code": 1, "error_reason": 1, "record_type": 1, "_id": 0}
+            )
+            self._domain_cache[domain] = error_document or {}
+
+        # 从缓存中获取查询结果
+        cached_doc = self._domain_cache[domain]
+        error_code = cached_doc.get("error_code", [])
+        error_reason = cached_doc.get("error_reason", [])
+        record_type = cached_doc.get("record_type", [])
+
+        # 遍历 results,保留原调用逻辑
+        for res in document.get("results", []):
             self._process_document(
                 self._format_document(
                     domain=domain,
@@ -125,7 +138,7 @@ class DNSPoisoningMerger:
                     error_code=error_code,
                     error_reason=error_reason,
                     record_type=record_type,
-                    timestamp=[res.get("timestamp", "")],
+                    timestamp=[res.get("timestamp", "")]
                 )
             )
 

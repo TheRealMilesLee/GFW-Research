@@ -58,5 +58,5 @@ class MongoDBHandler:
     def insert_many(self, data: list) -> None:
         self.collection.insert_many(data)
 
-    def find(self, data: dict) -> list:
-        return list(self.collection.find(data))
+    def find_one(self, data: dict, projection: dict = None) -> dict:
+        return self.collection.find_one(data, projection)
