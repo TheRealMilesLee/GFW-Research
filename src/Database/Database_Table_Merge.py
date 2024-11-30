@@ -185,12 +185,12 @@ class DNSPoisoningMerger:
     ):
         return {
             "domain": domain,
-            "answers": answers,
-            "dns_server": dns_server or [],
-            "timestamp": timestamp or [],
-            "error_code": error_code or [],
-            "error_reason": error_reason or [],
-            "record_type": record_type or [],
+            "answers": list(filter(None, answers)),
+            "dns_server": list(filter(None, dns_server or [])),
+            "timestamp": list(filter(None, timestamp or [])),
+            "error_code": list(filter(None, error_code or [])),
+            "error_reason": list(filter(None, error_reason or [])),
+            "record_type": list(filter(None, record_type or [])),
         }
 
     def _process_document(self, document, compare_group=False):
