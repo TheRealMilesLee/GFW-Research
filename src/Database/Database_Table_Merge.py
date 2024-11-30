@@ -185,12 +185,12 @@ class DNSPoisoningMerger:
     ):
         return {
             "domain": domain,
-            "answers": list(filter(None, answers)),
-            "dns_server": list(filter(None, dns_server or [])),
-            "timestamp": list(filter(None, timestamp or [])),
-            "error_code": list(filter(None, error_code or [])),
-            "error_reason": list(filter(None, error_reason or [])),
-            "record_type": list(filter(None, record_type or [])),
+            "answers": answers,
+            "dns_server": dns_server or [],
+            "timestamp": timestamp or [],
+            "error_code": error_code or [],
+            "error_reason": error_reason or [],
+            "record_type": record_type or [],
         }
 
     def _process_document(self, document, compare_group=False):
@@ -212,12 +212,10 @@ class DNSPoisoningMerger:
                             self.processed_domains[domain][key].update(flat_values)
                         else:
                             self.processed_domains[domain][key].add(value)
-                if compare_group:
-                    self.compare_group_db_dnsp.insert_one(document)
         except Exception as e:
             logger.error(f"Error processing document: {document}, {e}")
 
-    def _finalize_documents(self):
+    def _finalize_documents(self, compare_group=False):
         try:
             batch = []
             for domain, data in self.processed_domains.items():
@@ -234,15 +232,21 @@ class DNSPoisoningMerger:
         except Exception as e:
             logger.error(f"Error finalizing documents: {e}")
 
-    def _insert_documents(self, documents):
+    def _insert_documents(self, documents, compare_group=False):
         try:
             logger.info(f"Inserting batch of {len(documents)} documents into MongoDB")
             merged_docs = [
                 doc for doc in documents
                 if "UCDavis-Server-DNSPoisoning" not in doc.get("domain", "")
             ]
+            compare_group_docs = [
+                doc for doc in documents
+                if "UCDavis-Server-DNSPoisoning" in doc.get("domain", "")
+            ]
             if merged_docs:
                 self.merged_db_dnsp.insert_many(merged_docs)
+            if compare_group:
+                self.compare_group_db_dnsp.insert_many(compare_group_docs)
         except Exception as e:
             logger.error(f"Error inserting documents: {e}")
 
