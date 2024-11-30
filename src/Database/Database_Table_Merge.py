@@ -5,7 +5,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from DBOperations import ADC_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
@@ -22,11 +22,8 @@ logger = logging.getLogger(__name__)
 ADC_CM_DNSP = MongoDBHandler(ADC_db["China-Mobile-DNSPoisoning"])
 ERROR_DOMAIN_DSP_ADC_CM = MongoDBHandler(ADC_db["ERROR_CODES"])
 ADC_CT_DNSP = MongoDBHandler(ADC_db["China-Telecom-DNSPoisoning"])
-ADC_UCD_DNSP = MongoDBHandler(ADC_db["UCDavis-Server-DNSPoisoning"])
 ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
-CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
-
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 32)  # Dynamically set workers
@@ -156,19 +153,6 @@ class DNSPoisoningMerger:
         ),
         compare_group
       )
-
-  def _merge_adc_ucd_dnsp(self, document, compare_group=False):
-    self._process_document(
-      self._format_document(
-        domain=document.get("domain", ""),
-        answers=document.get("china_result_ipv4", [])
-        + document.get("china_result_ipv6", [])
-        + document.get("global_result_ipv4", [])
-        + document.get("global_result_ipv6", []),
-        timestamp=[document.get("timestamp", "")],
-      ),
-      compare_group
-    )
 
   def _format_document(
     self,
@@ -454,9 +438,7 @@ if __name__ == "__main__":
       ADC_CM_DNSP,
       ERROR_DOMAIN_DSP_ADC_CM,
       ADC_CT_DNSP,
-      ADC_UCD_DNSP,
       Merged_db_DNSP,
-      CompareGroup_db_DNSP,
     )
     logger.info("Merging documents")
     merger.merge_documents()
