@@ -59,6 +59,7 @@ class DumpingData:
             }
             logger.info(f'Inserting DNSPoisoning data into mongodb with domain: {domain}')
             mongodbOP_CM_DNSP.insert_one(data)
+    mongodbOP_CM_DNSP.create_index('domain')
 
   def GFWLocation_ADC_dump_CT(self, folder: str, collection: str, compareGroup: bool) -> None:
     mongodbOP_GFWL_ADC = MongoDBHandler(collection)
@@ -99,6 +100,8 @@ class DumpingData:
       futures = [executor.submit(process_file, file) for file in os.listdir(FileFolderLocation)]
       concurrent.futures.wait(futures)
 
+    mongodbOP_GFWL_ADC.create_index('domain')
+
   def extract_timestamp(self, filename: str) -> str:
     return filename.split('_')[0]
 
@@ -116,6 +119,7 @@ class DumpingData:
               mongodbOP_DNSP_ADC.insert_one(data)
             except json.JSONDecodeError as e:
               print(f"Error parsing line: {e}")
+    mongodbOP_DNSP_ADC.create_index('domain')
 
   def IPBlocking_ADC_dump(self, folder: str, collection: str, CT: bool, compareGroup: bool) -> None:
     mongodbOP_IPB_ADC = MongoDBHandler(collection)
@@ -147,6 +151,7 @@ class DumpingData:
             }
             logger.info(f'Inserting IPBlocking data into mongodb with domain: {domain}')
             mongodbOP_IPB_ADC.insert_one(data)
+    mongodbOP_IPB_ADC.create_index('domain')
 
 def main():
   dump = DumpingData()
