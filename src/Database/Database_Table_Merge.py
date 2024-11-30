@@ -60,13 +60,13 @@ class DNSPoisoningMerger:
           self._merge_adc_cm_dnsp_nov,
         ),
         executor.submit(
-          self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, compare_group=False
+          self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp
         ),
         executor.submit(
-          self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, compare_group=False
+          self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp
         ),
         executor.submit(
-          self._merge_documents, self.adc_ucd_dnsp, self._merge_adc_ucd_dnsp, compare_group=True
+          self._merge_documents, self.adc_ucd_dnsp, self._merge_adc_ucd_dnsp
         ),
       ]
       for future in concurrent.futures.as_completed(futures):
@@ -76,17 +76,16 @@ class DNSPoisoningMerger:
           logger.error(f"Error in thread execution: {e}")
     self._finalize_documents()
 
-  def _merge_documents(self, db_handler, merge_function, compare_group=False):
+  def _merge_documents(self, db_handler, merge_function):
     logger.info(f"Merging documents from {db_handler.collection.name}")
     try:
       documents = list(db_handler.find({}))  # Pre-load all documents into memory
       for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
-        document["compare_group"] = compare_group
         merge_function(document)
     except Exception as e:
       logger.error(f"Error in _merge_documents: {e}")
 
-  def _merge_adc_cm_dnsp_nov(self, document, compare_group=False):
+  def _merge_adc_cm_dnsp_nov(self, document):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -97,10 +96,10 @@ class DNSPoisoningMerger:
         record_type=document.get("record_type", []),
         timestamp=document.get("timestamp", []),
       ),
-      compare_group
+
     )
 
-  def _merge_adc_cm_dnsp(self, document, compare_group=False):
+  def _merge_adc_cm_dnsp(self, document):
     domain = document.get("domain", "")
     if not domain:
       logger.warning(f"Skipping document with missing domain: {document}")
@@ -132,10 +131,10 @@ class DNSPoisoningMerger:
           record_type=record_type,
           timestamp=[res.get("timestamp", "")]
         ),
-        compare_group
+
       )
 
-  def _merge_adc_ct_dnsp(self, document, compare_group=False):
+  def _merge_adc_ct_dnsp(self, document):
     domain = document.get("domain", "")
     if not domain:
       logger.warning(f"Skipping document with missing domain: {document}")
@@ -151,7 +150,7 @@ class DNSPoisoningMerger:
           + res.get("global_result_ipv6", []),
           timestamp=[res.get("timestamp", "")],
         ),
-        compare_group
+
       )
 
   def _format_document(
@@ -174,7 +173,7 @@ class DNSPoisoningMerger:
       "record_type": record_type or [],
     }
 
-  def _process_document(self, document, compare_group=False):
+  def _process_document(self, document):
     try:
       domain = document["domain"]
       if not domain:
@@ -200,35 +199,27 @@ class DNSPoisoningMerger:
   def _finalize_documents(self):
     try:
       batch = []
-      compare_group_batch = []
+
       for domain, data in self.processed_domains.items():
         finalized_document = {"domain": domain}
         for key, value in data.items():
           finalized_document[key] = list(filter(None, value))
-
-        if finalized_document.get("compare_group", False):
-          compare_group_batch.append(finalized_document)
-        else:
           batch.append(finalized_document)
 
         if len(batch) >= BATCH_SIZE:
-          self._insert_documents(batch, compare_group_batch)
+          self._insert_documents(batch, )
           batch = []
-          compare_group_batch = []
 
-      if batch or compare_group_batch:
-        self._insert_documents(batch, compare_group_batch)
+      if batch:
+        self._insert_documents(batch)
     except Exception as e:
       logger.error(f"Error finalizing documents: {e}")
 
-  def _insert_documents(self, batch, compare_group_batch):
+  def _insert_documents(self, batch):
     try:
       if batch:
         logger.info(f"Inserting batch of {len(batch)} documents into Merged MongoDB")
         self.merged_db_dnsp.insert_many(batch)
-      if compare_group_batch:
-        logger.info(f"Inserting batch of {len(compare_group_batch)} documents into CompareGroup MongoDB")
-        self.compare_group_db_dnsp.insert_many(compare_group_batch)
     except Exception as e:
       logger.error(f"Error inserting documents: {e}")
 
@@ -239,8 +230,6 @@ ADC_CT_GFWL = MongoDBHandler(ADC_db["China-Telecom-GFWLocation"])
 ADC_CT_IPB = MongoDBHandler(ADC_db["China-Telecom-IPBlocking"])
 ADC_CM_GFWL_NOV = MongoDBHandler(ADC_db["ChinaMobile-GFWLocation-November"])
 Merged_db_TR = MongoDBHandler(Merged_db["TraceRouteResult"])
-CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
-
 
 class TraceRouteMerger:
   def __init__(
@@ -249,13 +238,11 @@ class TraceRouteMerger:
     adc_ct_ipb,
     adc_cm_gfwl_nov,
     merged_db_tr,
-    compare_group_db_tr,
   ):
     self.adc_ct_gfwl = adc_ct_gfwl
     self.adc_ct_ipb = adc_ct_ipb
     self.adc_cm_gfwl_nov = adc_cm_gfwl_nov
     self.merged_db_tr = merged_db_tr
-    self.compare_group_db_tr = compare_group_db_tr
     self.processed_domains = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
 
@@ -431,7 +418,6 @@ if __name__ == "__main__":
   try:
     logger.info("Starting DNSPoisoningMerger")
     Merged_db_DNSP.collection.delete_many({})
-    CompareGroup_db_DNSP.collection.delete_many({})
     logger.info("Merged collection cleared")
     merger = DNSPoisoningMerger(
       ADC_CM_DNSP_NOV,
@@ -445,10 +431,10 @@ if __name__ == "__main__":
 
     logger.info("Starting TraceRouteMerger")
     Merged_db_TR.collection.delete_many({})
-    CompareGroup_db_TR.collection.delete_many({})
+
     logger.info("Merged collection cleared")
     TraceRouteMergerWorkflow = TraceRouteMerger(
-      ADC_CT_GFWL, ADC_CT_IPB, ADC_CM_GFWL_NOV, Merged_db_TR, CompareGroup_db_TR
+      ADC_CT_GFWL, ADC_CT_IPB, ADC_CM_GFWL_NOV, Merged_db_TR
     )
     logger.info("Merging documents")
     TraceRouteMergerWorkflow.merge_documents()
