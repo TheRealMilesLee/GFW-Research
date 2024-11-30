@@ -84,7 +84,6 @@ class DNSPoisoningMerger:
     try:
       documents = list(db_handler.find({}))  # Pre-load all documents into memory
       for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
-        # 添加 compare_group 标记到文档中
         document["compare_group"] = compare_group
         merge_function(document)
     except Exception as e:
@@ -217,44 +216,37 @@ class DNSPoisoningMerger:
   def _finalize_documents(self):
     try:
       batch = []
+      compare_group_batch = []
       for domain, data in self.processed_domains.items():
         finalized_document = {"domain": domain}
         for key, value in data.items():
           finalized_document[key] = list(filter(None, value))
 
-        # 检查 compare_group 标记并插入到相应的数据库
         if finalized_document.get("compare_group", False):
-          batch.append(finalized_document)
+          compare_group_batch.append(finalized_document)
         else:
           batch.append(finalized_document)
 
         if len(batch) >= BATCH_SIZE:
-          self._insert_documents(batch)
+          self._insert_documents(batch, compare_group_batch)
           batch = []
-      if batch:
-        self._insert_documents(batch)
+          compare_group_batch = []
+
+      if batch or compare_group_batch:
+        self._insert_documents(batch, compare_group_batch)
     except Exception as e:
       logger.error(f"Error finalizing documents: {e}")
 
-  def _insert_documents(self, documents):
+  def _insert_documents(self, batch, compare_group_batch):
     try:
-      merged_docs = [
-        doc for doc in documents
-        if "UCDavis-Server-DNSPoisoning" not in doc.get("domain", "")
-      ]
-      compare_group_docs = [
-        doc for doc in documents
-        if "UCDavis-Server-DNSPoisoning" in doc.get("domain", "")
-      ]
-      if merged_docs:
-        logger.info(f"Inserting batch of {len(merged_docs)} documents into Merged MongoDB")
-        self.merged_db_dnsp.insert_many(merged_docs)
-      if compare_group_docs:
-        logger.info(f"Inserting batch of {len(compare_group_docs)} documents into CompareGroup MongoDB")
-        self.compare_group_db_dnsp.insert_many(compare_group_docs)
+      if batch:
+        logger.info(f"Inserting batch of {len(batch)} documents into Merged MongoDB")
+        self.merged_db_dnsp.insert_many(batch)
+      if compare_group_batch:
+        logger.info(f"Inserting batch of {len(compare_group_batch)} documents into CompareGroup MongoDB")
+        self.compare_group_db_dnsp.insert_many(compare_group_batch)
     except Exception as e:
       logger.error(f"Error inserting documents: {e}")
-
 
 ####################################################### Merge TraceRoute Results ######################################################
 
