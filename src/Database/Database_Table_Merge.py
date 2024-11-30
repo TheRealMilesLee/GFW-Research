@@ -37,17 +37,13 @@ class DNSPoisoningMerger:
     adc_cm_dnsp,
     error_domain_dsp_adc_cm,
     adc_ct_dnsp,
-    adc_ucd_dnsp,
     merged_db_dnsp,
-    compare_group_db_dnsp,
   ):
     self.adc_cm_dnsp_nov = adc_cm_dnsp_nov
     self.adc_cm_dnsp = adc_cm_dnsp
     self.error_domain_dsp_adc_cm = error_domain_dsp_adc_cm
     self.adc_ct_dnsp = adc_ct_dnsp
-    self.adc_ucd_dnsp = adc_ucd_dnsp
     self.merged_db_dnsp = merged_db_dnsp
-    self.compare_group_db_dnsp = compare_group_db_dnsp
     self.processed_domains = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
 
