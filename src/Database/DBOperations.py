@@ -59,3 +59,11 @@ class MongoDBHandler:
 
     def find_one(self, data: dict, projection: dict = None) -> dict:
         return self.collection.find_one(data, projection)
+
+    def count_documents(self, data: dict) -> int:
+        return self.collection.count_documents(data)
+
+    def create_index(self, index: str, unique: bool) -> None:
+        self.collection.create_index(index, unique=unique)
+    def drop(self) -> None:
+        self.collection.drop()  # Drop the collection
