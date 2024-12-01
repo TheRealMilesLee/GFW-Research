@@ -5,7 +5,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, BDC_db, Merged_db, MongoDBHandler
+from DBOperations import ADC_db, BDC_db, Merged_db, CompareGroup_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
@@ -20,23 +20,27 @@ ADC_CM_DNSP = MongoDBHandler(ADC_db["China-Mobile-DNSPoisoning"])
 ADC_CT_DNSP = MongoDBHandler(ADC_db["China-Telecom-DNSPoisoning"])
 ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
 ERROR_DOMAIN_DSP_ADC_CM = MongoDBHandler(ADC_db["ERROR_CODES"])
-UCDS_DNSP = MongoDBHandler(ADC_db["UCDavis-Server-DNSPoisoning"])
 
 # TraceRoute Constants for AfterDomainChange
 ADC_CM_GFWL = MongoDBHandler(ADC_db["China-Mobile-GFWLocation"])
 ADC_CT_GFWL = MongoDBHandler(ADC_db["China-Telecom-GFWLocation"])
 ADC_CT_IPB = MongoDBHandler(ADC_db["China-Telecom-IPBlocking"])
 ADC_CM_GFWL_NOV = MongoDBHandler(ADC_db["ChinaMobile-GFWLocation-November"])
-UCDS_GFWL = MongoDBHandler(ADC_db["UCDavis-Server-GFWLocation"])
-UCDS_IPB = MongoDBHandler(ADC_db["UCDavis-Server-IPBlocking"])
 
 # DNSPoisoning Constants for BeforeDomainChange
 BDC_CM_DNSP = MongoDBHandler(BDC_db["China-Mobile-DNSPoisoning"])
-BDC_UCDS_DNSP = MongoDBHandler(BDC_db["UCDavis-CompareGroup-DNSPoisoning"])
 
 # TraceRoute Constants for BeforeDomainChange
 BDC_CM_GFWL = MongoDBHandler(BDC_db["China-Mobile-GFWLocation"])
 BDC_CT_IPB = MongoDBHandler(BDC_db["China-Telecom-IPBlocking"])
+
+# CompareGroup DNSPoisoning Constants
+UCDS_DNSP = MongoDBHandler(ADC_db["UCDavis-Server-DNSPoisoning"])
+BDC_UCDS_DNSP = MongoDBHandler(BDC_db["UCDavis-CompareGroup-DNSPoisoning"])
+
+# CompareGroup TraceRoute Constants
+UCDS_GFWL = MongoDBHandler(ADC_db["UCDavis-Server-GFWLocation"])
+UCDS_IPB = MongoDBHandler(ADC_db["UCDavis-Server-IPBlocking"])
 BDC_UCDS_GFWL = MongoDBHandler(BDC_db["UCDavis-CompareGroup-GFWLocation"])
 BDC_UCDS_IPB = MongoDBHandler(BDC_db["UCDavis-CompareGroup-IPBlocking"])
 
@@ -44,6 +48,9 @@ BDC_UCDS_IPB = MongoDBHandler(BDC_db["UCDavis-CompareGroup-IPBlocking"])
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 Merged_db_TR = MongoDBHandler(Merged_db["TraceRouteResult"])
 
+# CompareGroup database handler
+CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
+CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
@@ -71,6 +78,8 @@ class Merger:
     bdc_ucds_ipb,
     merged_db_dnsp,
     merged_db_tr,
+    comparegroup_db_dnsp,
+    comparegroup_db_tr,
   ):
     self.adc_cm_dnsp = adc_cm_dnsp
     self.adc_cm_gfwl = adc_cm_gfwl
@@ -91,6 +100,8 @@ class Merger:
     self.bdc_ucds_ipb = bdc_ucds_ipb
     self.merged_db_dnsp = merged_db_dnsp
     self.merged_db_tr = merged_db_tr
+    self.comparegroup_db_dnsp = comparegroup_db_dnsp
+    self.comparegroup_db_tr = comparegroup_db_tr
     self.processed_domains_dnsp = defaultdict(lambda: defaultdict(set))
     self.processed_domains_tr = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
@@ -99,23 +110,23 @@ class Merger:
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
       futures = [
         # DNSPoisoning Constants
-        executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, self.processed_domains_dnsp),
-        executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, self.processed_domains_dnsp),
-        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp),
-        executor.submit(self._merge_documents, self.ucds_dnsp, self._merge_ucds_dnsp, self.processed_domains_dnsp),
-        executor.submit(self._merge_documents, self.bdc_cm_dnsp, self._merge_bdc_cm_dnsp, self.processed_domains_dnsp),
-        executor.submit(self._merge_documents, self.bdc_ucds_dnsp, self._merge_bdc_ucds_dnsp, self.processed_domains_dnsp),
+        executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
+        executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
+        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp, self.merged_db_dnsp),
+        executor.submit(self._merge_documents, self.ucds_dnsp, self._merge_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp),
+        executor.submit(self._merge_documents, self.bdc_cm_dnsp, self._merge_bdc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
+        executor.submit(self._merge_documents, self.bdc_ucds_dnsp, self._merge_bdc_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp),
         # TraceRoute Constants
-        executor.submit(self._merge_documents, self.adc_cm_gfwl, self._merge_adc_cm_gfwl, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.adc_ct_gfwl, self._merge_adc_ct_gfwl, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.adc_ct_ipb, self._merge_adc_ct_ipb, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.adc_cm_gfwl_nov, self._merge_adc_cm_gfwl_nov, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.ucds_gfwl, self._merge_ucds_gfwl, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.ucds_ipb, self._merge_ucds_ipb, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.bdc_cm_gfwl, self._merge_bdc_cm_gfwl, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.bdc_ct_ipb, self._merge_bdc_ct_ipb, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.bdc_ucds_gfwl, self._merge_bdc_ucds_gfwl, self.processed_domains_tr),
-        executor.submit(self._merge_documents, self.bdc_ucds_ipb, self._merge_bdc_ucds_ipb, self.processed_domains_tr),
+        executor.submit(self._merge_documents, self.adc_cm_gfwl, self._merge_adc_cm_gfwl, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.adc_ct_gfwl, self._merge_adc_ct_gfwl, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.adc_ct_ipb, self._merge_adc_ct_ipb, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.adc_cm_gfwl_nov, self._merge_adc_cm_gfwl_nov, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.ucds_gfwl, self._merge_ucds_gfwl, self.processed_domains_tr, self.comparegroup_db_tr),
+        executor.submit(self._merge_documents, self.ucds_ipb, self._merge_ucds_ipb, self.processed_domains_tr, self.comparegroup_db_tr),
+        executor.submit(self._merge_documents, self.bdc_cm_gfwl, self._merge_bdc_cm_gfwl, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.bdc_ct_ipb, self._merge_bdc_ct_ipb, self.processed_domains_tr, self.merged_db_tr),
+        executor.submit(self._merge_documents, self.bdc_ucds_gfwl, self._merge_bdc_ucds_gfwl, self.processed_domains_tr, self.comparegroup_db_tr),
+        executor.submit(self._merge_documents, self.bdc_ucds_ipb, self._merge_bdc_ucds_ipb, self.processed_domains_tr, self.comparegroup_db_tr),
       ]
       for future in concurrent.futures.as_completed(futures):
         try:
@@ -124,8 +135,10 @@ class Merger:
           logger.error(f"Error in thread execution: {e}")
     self._finalize_documents(self.processed_domains_dnsp, self.merged_db_dnsp, is_traceroute=False)
     self._finalize_documents(self.processed_domains_tr, self.merged_db_tr, is_traceroute=True)
+    self._finalize_documents(self.processed_domains_dnsp, self.comparegroup_db_dnsp, is_traceroute=False)
+    self._finalize_documents(self.processed_domains_tr, self.comparegroup_db_tr, is_traceroute=True)
 
-  def _merge_documents(self, db_handler, merge_function, processed_domains):
+  def _merge_documents(self, db_handler, merge_function, processed_domains, target_db):
     logger.info(f"Merging documents from {db_handler.collection.name}")
     try:
       documents = list(db_handler.find({}))  # Pre-load all documents into memory
@@ -364,7 +377,7 @@ class Merger:
     except Exception as e:
       logger.error(f"Error processing document: {document}, {e}")
 
-  def _finalize_documents(self, processed_domains, merged_db, is_traceroute=False):
+  def _finalize_documents(self, processed_domains, target_db, is_traceroute=False):
     try:
       batch = []
 
@@ -399,19 +412,19 @@ class Merger:
         batch.append(finalized_document)
 
         if len(batch) >= BATCH_SIZE:
-          self._insert_documents(batch, merged_db)
+          self._insert_documents(batch, target_db)
           batch = []
 
       if batch:
-        self._insert_documents(batch, merged_db)
+        self._insert_documents(batch, target_db)
     except Exception as e:
       logger.error(f"Error finalizing documents: {e}")
 
-  def _insert_documents(self, batch, merged_db):
+  def _insert_documents(self, batch, target_db):
     try:
       if batch:
-        logger.info(f"Inserting batch of {len(batch)} documents into {merged_db.collection.name}")
-        merged_db.insert_many(batch)
+        logger.info(f"Inserting batch of {len(batch)} documents into {target_db.collection.name}")
+        target_db.insert_many(batch)
     except Exception as e:
       logger.error(f"Error inserting documents: {e}")
 
@@ -420,7 +433,9 @@ if __name__ == "__main__":
     logger.info("Starting DNSPoisoningMerger")
     Merged_db_DNSP.collection.drop()
     Merged_db_TR.collection.drop()
-    logger.info("Merged collections cleared")
+    CompareGroup_db_DNSP.collection.drop()
+    CompareGroup_db_TR.collection.drop()
+    logger.info("Merged and CompareGroup collections cleared")
     merger = Merger(
       ADC_CM_DNSP,
       ADC_CM_GFWL,
@@ -441,8 +456,10 @@ if __name__ == "__main__":
       BDC_UCDS_IPB,
       Merged_db_DNSP,
       Merged_db_TR,
+      CompareGroup_db_DNSP,
+      CompareGroup_db_TR,
     )
-    logger.info("Merging documents")
     merger.merge_documents()
+    logger.info("DNSPoisoningMerger completed")
   except Exception as e:
-    logger.error(f"Unexpected error in main: {e}")
+    logger.error(f"Error in DNSPoisoningMerger: {e}")

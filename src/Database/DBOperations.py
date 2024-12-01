@@ -12,6 +12,7 @@ try:
   BDC_db = client.BeforeDomainChange
   ADC_db = client.AfterDomainChange
   Merged_db = client.MergedDatabase
+  CompareGroup_db = client.CompareGroup
 except ConnectionFailure as e:
   logger.error(f"Could not connect to the server: {e}")
 except OperationFailure as e:
