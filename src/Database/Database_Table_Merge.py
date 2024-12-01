@@ -375,6 +375,8 @@ class Merger:
 
       for domain, data in processed_domains.items():
         finalized_document = {"domain": domain}
+        if not any(v for v in finalized_document.values() if v):  # Skip document if all fields are empty
+          continue
         for key, value in data.items():
           finalized_document[key] = list(filter(None, value))
         # Remove _id field to avoid duplicate key error
