@@ -27,8 +27,10 @@ UCD_DNSP_ADC = MongoDBHandler(ADC_db['UCDavis-Server-DNSPoisoning'])
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 
-AfterDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\AfterDomainChange\\'
-
+if os.name == 'nt':
+  AfterDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\AfterDomainChange\\'
+else:
+  AfterDomainChangeFolder = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/'
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -444,16 +446,16 @@ def insert_to_db(results: list, db_handler: MongoDBHandler):
 def main():
   with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     # China Mobile
-    CM_DNSP_results = executor.submit(CM_DNSP, AfterDomainChangeFolder + 'China-Mobile\\DNSPoisoning\\')
-    CM_GFWL_results = executor.submit(CM_GFWL, AfterDomainChangeFolder + 'China-Mobile\\GFWLocation\\')
+    CM_DNSP_results = executor.submit(CM_DNSP, os.path.join(AfterDomainChangeFolder, 'China-Mobile', 'DNSPoisoning/'))
+    CM_GFWL_results = executor.submit(CM_GFWL, os.path.join(AfterDomainChangeFolder, 'China-Mobile', 'GFWLocation/'))
     # China Telecom
-    CT_DNSP_results = executor.submit(CT_DNSP, AfterDomainChangeFolder + 'China-Telecom\\DNSPoisoning\\')
-    CT_GFWL_results = executor.submit(CT_GFWL, AfterDomainChangeFolder + 'China-Telecom\\GFWDeployed\\')
-    CT_IPB_results = executor.submit(CT_IPB, AfterDomainChangeFolder + 'China-Telecom\\IPBlocking\\')
+    CT_DNSP_results = executor.submit(CT_DNSP, os.path.join(AfterDomainChangeFolder, 'China-Telecom', 'DNSPoisoning/'))
+    CT_GFWL_results = executor.submit(CT_GFWL, os.path.join(AfterDomainChangeFolder, 'China-Telecom', 'GFWDeployed/'))
+    CT_IPB_results = executor.submit(CT_IPB, os.path.join(AfterDomainChangeFolder, 'China-Telecom', 'IPBlocking/'))
     # Compare Group
-    UCD_DNSP_results = executor.submit(UCD_DNSP, AfterDomainChangeFolder + 'UCDavis-Server\\DNSPoisoning\\')
-    UCD_GFWL_results = executor.submit(UCD_GFWL, AfterDomainChangeFolder + 'UCDavis-Server\\GFWLocation\\')
-    UCD_IPB_results = executor.submit(UCD_IPB, AfterDomainChangeFolder + 'UCDavis-Server\\IPBlocking\\')
+    UCD_DNSP_results = executor.submit(UCD_DNSP, os.path.join(AfterDomainChangeFolder, 'UCDavis-Server', 'DNSPoisoning/'))
+    UCD_GFWL_results = executor.submit(UCD_GFWL, os.path.join(AfterDomainChangeFolder, 'UCDavis-Server', 'GFWLocation/'))
+    UCD_IPB_results = executor.submit(UCD_IPB, os.path.join(AfterDomainChangeFolder, 'UCDavis-Server', 'IPBlocking/'))
 
     # Insert to DB
     insert_to_db(CM_DNSP_results.result(), CM_DNSP_ADC)

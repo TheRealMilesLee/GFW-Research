@@ -8,7 +8,10 @@ from DBOperations import BDC_db, MongoDBHandler
 from tqdm import tqdm
 
 # Constants
-BeforeDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange'
+if os.name == 'nt':
+  BeforeDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange'
+else:
+  BeforeDomainChangeFolder = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/BeforeDomainChange/'
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 
@@ -195,13 +198,13 @@ class insert_into_db:
 if __name__ == "__main__":
   logger.info("Databases cleaned up")
   processors = [
-    CM_DNSP_Processor(MongoDBHandler(BDC_db['China-Mobile-DNSPoisoning']), BeforeDomainChangeFolder + '\\DNSPoisoning\\'),
-    CM_GFWL_Processor(MongoDBHandler(BDC_db['China-Mobile-GFWLocation']), BeforeDomainChangeFolder + '\\GFWLocation\\'),
-    CM_IPB_Processor(MongoDBHandler(BDC_db['China-Mobile-IPBlocking']), BeforeDomainChangeFolder + '\\IPBlocking\\'),
-    CT_IPB_Processor(MongoDBHandler(BDC_db['China-Telecom-IPBlocking']), BeforeDomainChangeFolder + '\\Mac\\IPBlocking\\'),
-    UCD_DNSP_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-DNSPoisoning']), BeforeDomainChangeFolder + '\\CompareGroup\\DNSPoisoning\\'),
-    UCD_GFWL_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-GFWLocation']), BeforeDomainChangeFolder + '\\CompareGroup\\GFWLocation\\'),
-    UCD_IPB_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-IPBlocking']), BeforeDomainChangeFolder + '\\CompareGroup\\IPBlocking\\')
+    CM_DNSP_Processor(MongoDBHandler(BDC_db['China-Mobile-DNSPoisoning']), os.path.join(BeforeDomainChangeFolder, 'DNSPoisoning/')),
+    CM_GFWL_Processor(MongoDBHandler(BDC_db['China-Mobile-GFWLocation']), os.path.join(BeforeDomainChangeFolder, 'GFWLocation/')),
+    CM_IPB_Processor(MongoDBHandler(BDC_db['China-Mobile-IPBlocking']), os.path.join(BeforeDomainChangeFolder, 'IPBlocking/')),
+    CT_IPB_Processor(MongoDBHandler(BDC_db['China-Telecom-IPBlocking']), os.path.join(BeforeDomainChangeFolder, 'Mac', 'IPBlocking')),
+    UCD_DNSP_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-DNSPoisoning']), os.path.join(BeforeDomainChangeFolder, 'CompareGroup', 'DNSPoisoning/')),
+    UCD_GFWL_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-GFWLocation']), os.path.join(BeforeDomainChangeFolder, 'CompareGroup', 'GFWLocation/')),
+    UCD_IPB_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-IPBlocking']), os.path.join(BeforeDomainChangeFolder, 'CompareGroup', 'IPBlocking/'))
   ]
   def process_processor(processor):
     results = processor.process()
