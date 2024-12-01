@@ -144,11 +144,12 @@ def CT_DNSP(folder_location: str) -> list:
         for row in csv_reader:
           if row[0] == 'timestamp':
             continue
+          determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
           formatted_document = {
             "timestamp": row[0],
             "domain": row[1],
             "answers": row[2] + row[3] + row[4] + row[5],
-            "is_poisoned": (row[6].lower() == 'true') and (row[7].lower() == 'true') and (row[8].lower() == 'true')
+            "is_poisoned": determind_poisoned
           }
           readingResults.append(formatted_document)
 
@@ -167,8 +168,7 @@ def CT_DNSP(folder_location: str) -> list:
       merged_results[domain]['timestamp'].append(result['timestamp'])
     if result['answers'] and result['answers'] not in merged_results[domain]['answers']:
       merged_results[domain]['answers'].append(result['answers'])
-    if result['is_poisoned'] and result['is_poisoned'] not in merged_results[domain]['is_poisoned']:
-      merged_results[domain]['is_poisoned'].append(result['is_poisoned'])
+    merged_results[domain]['is_poisoned'] = result['is_poisoned']
 
   readingResults = list(merged_results.values())
     # create unique index for domain
@@ -295,11 +295,12 @@ def UCD_DNSP(folder_location: str) -> list:
         for row in csv_reader:
           if row[0] == 'timestamp':
             continue
+          determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
           formatted_document = {
             "timestamp": row[0],
             "domain": row[1],
             "answers": row[2] + row[3] + row[4] + row[5],
-            "is_poisoned": (row[6].lower() == 'true') and (row[7].lower() == 'true') and (row[8].lower() == 'true')
+            "is_poisoned": determind_poisoned
           }
           CompareGroupResults.append(formatted_document)
 
@@ -318,8 +319,7 @@ def UCD_DNSP(folder_location: str) -> list:
       merged_results[domain]['timestamp'].append(result['timestamp'])
     if result['answers'] and result['answers'] not in merged_results[domain]['answers']:
       merged_results[domain]['answers'].append(result['answers'])
-    if result['is_poisoned'] and result['is_poisoned'] not in merged_results[domain]['is_poisoned']:
-      merged_results[domain]['is_poisoned'].append(result['is_poisoned'])
+    merged_results[domain]['is_poisoned'] = result['is_poisoned']
 
   CompareGroupResults = list(merged_results.values())
     # create unique index for domain
