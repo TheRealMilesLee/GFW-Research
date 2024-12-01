@@ -359,12 +359,15 @@ class Merger:
                   v if isinstance(v, list) else [v] for v in value
                 )
               )
+              # Remove empty values
+              flat_values = {v for v in flat_values if v}
               processed_domains[domain][key].update(flat_values)
             else:
-              processed_domains[domain][key].add(value)
-
+              if value:  # Only add non-empty values
+                processed_domains[domain][key].add(value)
     except Exception as e:
       logger.error(f"Error processing document: {document}, {e}")
+
 
   def _finalize_documents(self, processed_domains, merged_db):
     try:
