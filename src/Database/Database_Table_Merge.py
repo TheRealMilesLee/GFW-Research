@@ -374,7 +374,10 @@ class Merger:
         finalized_document = {"domain": domain}
         for key, value in data.items():
           finalized_document[key] = list(filter(None, value))
-          batch.append(finalized_document)
+        # Remove _id field to avoid duplicate key error
+        if '_id' in finalized_document:
+          del finalized_document['_id']
+        batch.append(finalized_document)
 
         if len(batch) >= BATCH_SIZE:
           self._insert_documents(batch, merged_db)
@@ -388,10 +391,6 @@ class Merger:
   def _insert_documents(self, batch, merged_db):
     try:
       if batch:
-        # Remove _id field to avoid duplicate key error
-        for document in batch:
-          if '_id' in document:
-            del document['_id']
         logger.info(f"Inserting batch of {len(batch)} documents into {merged_db.collection.name}")
         merged_db.insert_many(batch)
     except Exception as e:
@@ -400,8 +399,8 @@ class Merger:
 if __name__ == "__main__":
   try:
     logger.info("Starting DNSPoisoningMerger")
-    Merged_db_DNSP.collection.drop()
-    Merged_db_TR.collection.drop()
+    Merged_db_DNSP.drop()
+    Merged_db_TR.drop()
     logger.info("Merged collections cleared")
     merger = Merger(
       ADC_CM_DNSP,
