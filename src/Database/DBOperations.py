@@ -66,5 +66,9 @@ class MongoDBHandler:
 
     def create_index(self, index: str, unique: bool) -> None:
         self.collection.create_index(index, unique=unique)
+
     def drop(self) -> None:
         self.collection.drop()  # Drop the collection
+
+    def get_all_documents(self) -> list:
+        return list(self.collection.find())

@@ -1,11 +1,12 @@
 import concurrent.futures
 import logging
 import multiprocessing
+import re
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, BDC_db, Merged_db, CompareGroup_db, MongoDBHandler
+from DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
@@ -153,6 +154,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -162,6 +164,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -172,6 +175,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("answers", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -181,6 +185,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -194,6 +199,7 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -208,6 +214,7 @@ class Merger:
         error_code=document.get("error_code", []),
         error_reason=document.get("error_reason", []),
         record_type=document.get("record_type", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -220,6 +227,7 @@ class Merger:
         error_code=document.get("error", []),
         location=document.get("location", []),
         record_type=document.get("record_type", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -230,6 +238,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("answers", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -239,6 +248,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -252,6 +262,7 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -262,6 +273,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -271,6 +283,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -284,6 +297,7 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -294,6 +308,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        is_traceroute=False,
       ),
       processed_domains
     )
@@ -303,6 +318,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -316,6 +332,7 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        is_traceroute=True,
       ),
       processed_domains
     )
@@ -335,22 +352,59 @@ class Merger:
     is_accessible=None,
     problem_domain=None,
     location=None,
+    is_traceroute=False,
   ):
-    return {
-      "domain": domain,
-      "timestamp": timestamp or [],
-      "answers": answers or [],
-      "dns_server": dns_server or [],
-      "error_code": error_code or [],
-      "error_reason": error_reason or [],
-      "record_type": record_type or [],
-      "results_ip": results_ip or [],
-      "ip_type": ip_type or [],
-      "port": port or [],
-      "is_accessible": is_accessible or [],
-      "problem_domain": problem_domain or False,
-      "location": location or [],
-    }
+    if is_traceroute:
+      return {
+        "domain": domain,
+        "timestamp": timestamp or [],
+        "results_ip": results_ip or [],
+        "ip_type": ip_type or [],
+        "port": port or [],
+        "is_accessible": is_accessible or [],
+        "problem_domain": problem_domain or False,
+        "location": location or [],
+      }
+    else:
+      all_ips = set()
+      pattern = r"\b(?:\d{1,3}\.){3}\d{1,3}\b|\b[0-9a-fA-F:]+\b"
+      for answer in answers:
+        # 将答案拉平，并将嵌套字符串转换为列表
+        if isinstance(answer, str):
+          flat_values = re.findall(pattern, answer)
+        elif isinstance(answer, list):
+          flat_values = set(
+            chain.from_iterable(
+                re.findall(pattern, str(v)) if isinstance(v, str) else [v] for v in answer
+            )
+          )
+        else:
+          flat_values = []
+        # 拉平后加入去重集合
+        all_ips.update(flat_values)
+      unique_ips = list(all_ips)
+      is_poisoned = False
+      internal_ip_patterns = [
+        r"^10\.", r"^172\.(1[6-9]|2[0-9]|3[0-1])\.", r"^192\.168\.",
+        r"^127\.", r"^0\.", r"^::1", r"^fe80", r"^fc00", r"^fd00"
+      ]
+      for ip in unique_ips:
+        for pattern in internal_ip_patterns:
+          if re.match(pattern, ip):
+            is_poisoned = True
+            break
+      return {
+        "domain": domain,
+        "timestamp": timestamp or [],
+        "answers": unique_ips or [],
+        "dns_server": dns_server or [],
+        "error_code": error_code or [],
+        "error_reason": error_reason or [],
+        "record_type": record_type or [],
+        "is_poisoned": is_poisoned or False,
+      }
+
+
 
   def _process_document(self, document, processed_domains):
     try:
@@ -402,6 +456,7 @@ class Merger:
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"]),
             "timestamp": list(data["timestamp"]),
+            "is_poisoned": bool(data["is_poisoned"]),
           }
         for key, value in data.items():
           if key not in finalized_document:
@@ -427,6 +482,7 @@ class Merger:
         target_db.insert_many(batch)
     except Exception as e:
       logger.error(f"Error inserting documents: {e}")
+
 
 if __name__ == "__main__":
   try:
