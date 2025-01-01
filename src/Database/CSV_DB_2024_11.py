@@ -2,12 +2,15 @@ import concurrent.futures
 import csv
 import logging
 import os
+import multiprocessing
 from collections import defaultdict
+import ast
 
 from DBOperations import ADC_db, MongoDBHandler
-
+from tqdm import tqdm
+CPU_CORES = multiprocessing.cpu_count()
 CM_DNSP_ADC_NOV = ADC_db['ChinaMobile-DNSPoisoning-November']
-
+MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 # Config Logger
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -25,23 +28,27 @@ def process_file(file, mongodbOP_CM_DNSP):
 
         # 将数据分类到字典中，准备合并
         for row in reader:
-            key = row['domain']
-            data_dict[key]['timestamp'].append(row['timestamp'])
-            data_dict[key]['record_type'].append(row['record_type'])
-            data_dict[key]['answers'].append(row['answers'])
-            data_dict[key]['error_code'].append(row['error_code'])
-            data_dict[key]['error_reason'].append(row['error_reason'])
-            data_dict[key]['dns_server'].append(row['dns_server'])
+            try:
+                dns_servers = ast.literal_eval(row['dns_server'])  # 使用 ast.literal_eval 安全地将字符串转换为列表
+            except (ValueError, SyntaxError):
+                dns_servers = [row['dns_server']]  # 如果转换失败，则将其视为单个 DNS 服务器
+            for dns_server in dns_servers:
+                key = (row['domain'], dns_server)  # 使用(domain, dns_server)作为唯一键
+                data_dict[key]['timestamp'].append(row['timestamp'])
+                data_dict[key]['record_type'].append(row['record_type'])
+                data_dict[key]['answers'].append(row['answers'])
+                data_dict[key]['error_code'].append(row['error_code'])
+                data_dict[key]['error_reason'].append(row['error_reason'])
 
         # 逐个域名处理数据并更新到MongoDB
-        for domain, value in data_dict.items():
+        for (domain, dns_server), value in tqdm(data_dict.items(), desc=f'Inserting data from {os.path.basename(file)}'):
             data = {
                 'timestamp': list(set(value['timestamp'])),
                 'record_type': list(set(value['record_type'])),
                 'answers': list(set([ans for ans in value['answers'] if ans])),
                 'error_code': list(set([code for code in value['error_code'] if code])),
                 'error_reason': list(set([reason for reason in value['error_reason'] if reason])),
-                'dns_server': list(set(value['dns_server']))
+                'dns_server': dns_server
             }
 
             # 使用 $addToSet 确保数组中的唯一值
@@ -51,13 +58,11 @@ def process_file(file, mongodbOP_CM_DNSP):
                     'record_type': {'$each': data['record_type']},
                     'answers': {'$each': data['answers']},
                     'error_code': {'$each': data['error_code']},
-                    'error_reason': {'$each': data['error_reason']},
-                    'dns_server': {'$each': data['dns_server']}
+                    'error_reason': {'$each': data['error_reason']}
                 }
             }
 
-            logger.info(f'Inserting DNSPoisoning data into MongoDB with domain: {domain}')
-            mongodbOP_CM_DNSP.update_one({'domain': domain}, update_data, upsert=True)
+            mongodbOP_CM_DNSP.update_one({'domain': domain, 'dns_server': dns_server}, update_data, upsert=True)
 
 def dump_to_mongo():
     mongodbOP_CM_DNSP = MongoDBHandler(CM_DNSP_ADC_NOV)
@@ -72,13 +77,13 @@ def dump_to_mongo():
     logger.info('Dropping the collection before inserting new data')
     CM_DNSP_ADC_NOV.drop()
 
-    # Create an index for the domain field
-    logger.info('Creating index for the domain field')
-    CM_DNSP_ADC_NOV.create_index('domain')
+    # Create an index for the domain and dns_server fields
+    logger.info('Creating index for the domain and dns_server fields')
+    CM_DNSP_ADC_NOV.create_index([('domain', 1), ('dns_server', 1)], unique=True)
 
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [executor.submit(process_file, file, mongodbOP_CM_DNSP) for file in csv_files]
-        for future in concurrent.futures.as_completed(futures):
+        for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures), desc='Processing files'):
             try:
                 future.result()
             except Exception as e:

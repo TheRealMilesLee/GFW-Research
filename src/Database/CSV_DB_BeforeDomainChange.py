@@ -34,17 +34,17 @@ class DataProcessor:
   def process(self):
     raise NotImplementedError
 
-  def merge_results(self, readingResults, unique_key):
+  def merge_results(self, readingResults, unique_keys):
     merged_results = {}
     for result in readingResults:
-      key = result[unique_key]
+      key = tuple(result[k] for k in unique_keys)  # 使用(unique_keys)作为唯一键
       if key not in merged_results:
-        merged_results[key] = {unique_key: key}
+        merged_results[key] = {k: result[k] for k in unique_keys}
         for k in result:
-          if k != unique_key:
+          if k not in unique_keys:
             merged_results[key][k] = []
       for k in result:
-        if k != unique_key and result[k] not in merged_results[key][k]:
+        if k not in unique_keys and result[k] not in merged_results[key][k]:
           merged_results[key][k].append(result[k])
     return list(merged_results.values())
 
@@ -81,18 +81,24 @@ class CM_DNSP_Processor(CSVProcessor):
     for file in os.listdir(self.folder_location):
       if file.endswith('.csv'):
         readingResults.extend(self.process_csv(file))
-    readingResults = self.merge_results(readingResults, 'domain')
-    self.db_handler.create_index('domain', unique=True)
+    readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
+    self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
 
   def format_row(self, row):
     determined_poisoned = toBoolean(row[7]) and toBoolean(row[8])
-    return {
-      'timestamp': row[0],
-      'domain': row[1],
-      'results': ','.join([r for r in row[2:6] if len(r) > 7]),
-      'is_poisoned': determined_poisoned
-    }
+    dns_servers = eval(row[2])  # 将字符串转换为列表
+    formatted_documents = []
+    for dns_server in dns_servers:
+      formatted_document = {
+        'timestamp': row[0],
+        'domain': row[1],
+        'dns_server': dns_server,
+        'results': ','.join([r for r in row[3:7] if len(r) > 7]),
+        'is_poisoned': determined_poisoned
+      }
+      formatted_documents.append(formatted_document)
+    return formatted_documents
 
 class CM_GFWL_Processor(TextProcessor):
   def process(self):
@@ -101,8 +107,8 @@ class CM_GFWL_Processor(TextProcessor):
     for file in os.listdir(self.folder_location):
       if file.endswith('.txt'):
         readingResults.extend(self.process_txt(file))
-    readingResults = self.merge_results(readingResults, 'domain')
-    self.db_handler.create_index('domain', unique=True)
+    readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
+    self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
 
   def format_line(self, line):
@@ -114,7 +120,7 @@ class CM_GFWL_Processor(TextProcessor):
       result = "No GFW detection"
     else:
       result = "Traceroute Failed"
-    return {"domain": domain, "result": result}
+    return {"domain": domain, "dns_server": "unknown", "result": result}
 
 class CM_IPB_Processor(CSVProcessor, TextProcessor):
   def process(self):
@@ -125,18 +131,19 @@ class CM_IPB_Processor(CSVProcessor, TextProcessor):
         readingResults.extend(self.process_csv(file))
       elif file.endswith('.txt'):
         readingResults.extend(self.process_txt(file))
-    readingResults = self.merge_results(readingResults, 'domain')
-    self.db_handler.create_index('domain', unique=True)
+    readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
+    self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
 
   def format_row(self, row):
     return {
       "timestamp": row[0],
       "domain": row[1],
-      "results_ip": row[2],
-      "ip_type": row[3],
-      "port": row[4],
-      "is_accessible": row[5]
+      "dns_server": row[2],
+      "results_ip": row[3],
+      "ip_type": row[4],
+      "port": row[5],
+      "is_accessible": row[6]
     }
 
   def format_line(self, line):
@@ -146,7 +153,7 @@ class CM_IPB_Processor(CSVProcessor, TextProcessor):
       result = result.split('(')[1].strip(')')
     else:
       result = "Not Found"
-    return {"domain": domain, "result": result}
+    return {"domain": domain, "dns_server": "unknown", "result": result}
 
 class CT_IPB_Processor(CSVProcessor):
   def process(self):
@@ -155,7 +162,7 @@ class CT_IPB_Processor(CSVProcessor):
     for file in os.listdir(self.folder_location):
       if file.endswith('.csv'):
         readingResults.extend(self.process_csv(file))
-    readingResults = self.merge_results(readingResults, 'domain')
+    readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
     for result in readingResults:
       if 'is_accessible' in result:
         if 'True' in result['is_accessible'] and 'False' in result['is_accessible']:
@@ -164,17 +171,18 @@ class CT_IPB_Processor(CSVProcessor):
           result['is_accessible'] = 'True'
         else:
           result['is_accessible'] = 'False'
-    self.db_handler.create_index('domain', unique=True)
+    self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
 
   def format_row(self, row):
     return {
       "timestamp": row[0],
       "domain": row[1],
-      "results_ip": row[2],
-      "ip_type": row[3],
-      "port": row[4],
-      "is_accessible": row[5]
+      "dns_server": row[2],
+      "results_ip": row[3],
+      "ip_type": row[4],
+      "port": row[5],
+      "is_accessible": row[6]
     }
 
 class UCD_DNSP_Processor(CM_DNSP_Processor):

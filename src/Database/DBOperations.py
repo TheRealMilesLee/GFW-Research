@@ -72,3 +72,9 @@ class MongoDBHandler:
 
     def get_all_documents(self) -> list:
         return list(self.collection.find())
+
+    def distinct(self, field: str) -> list:
+        return self.collection.distinct(field)
+
+    def getAllDocuments(self):
+        return self.collection.find()

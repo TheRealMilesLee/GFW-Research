@@ -50,35 +50,37 @@ def CM_DNSP(folder_location: str) -> list:
         for row in csv_reader:
           if row[0] == 'timestamp':
             continue
-          formatted_document = {
-            'timestamp': row[0],
-            'domain': row[1],
-            'dns_server': row[2],
-            'results': row[3] + row[4]
-          }
-          readingResults.append(formatted_document)
+          try:
+            dns_servers = ast.literal_eval(row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
+          except (ValueError, SyntaxError):
+            dns_servers = [row[2]]  # 如果转换失败，则将其视为单个 DNS 服务器
+          for dns_server in dns_servers:
+            formatted_document = {
+              'timestamp': row[0],
+              'domain': row[1],
+              'dns_server': dns_server,
+              'results': row[3] + row[4]
+            }
+            readingResults.append(formatted_document)
 
   # Data merge and cleanup
   merged_results = {}
   for result in readingResults:
-    domain = result['domain']
-    if domain not in merged_results:
-      merged_results[domain] = {
-        'domain': domain,
+    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
+    if key not in merged_results:
+      merged_results[key] = {
+        'domain': result['domain'],
+        'dns_server': result['dns_server'],
         'timestamp': [],
-        'dns_server': [],
         'results': []
       }
-    if result['timestamp'] and result['timestamp'] not in merged_results[domain]['timestamp']:
-      merged_results[domain]['timestamp'].append(result['timestamp'])
-    if result['dns_server'] and result['dns_server'] not in merged_results[domain]['dns_server']:
-      merged_results[domain]['dns_server'].append(result['dns_server'])
-    if result['results'] and result['results'] not in merged_results[domain]['results']:
-      merged_results[domain]['results'].append(result['results'])
+    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
+      merged_results[key]['timestamp'].append(result['timestamp'])
+    if result['results'] and result['results'] not in merged_results[key]['results']:
+      merged_results[key]['results'].append(result['results'])
 
   readingResults = list(merged_results.values())
-  # create unique index for domain
-  CM_DNSP_ADC.create_index('domain', unique=True)
+  CM_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
   return readingResults
 
 def CM_GFWL(folder_location: str) -> list:
@@ -146,35 +148,40 @@ def CT_DNSP(folder_location: str) -> list:
         for row in csv_reader:
           if row[0] == 'timestamp':
             continue
-          determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
-          formatted_document = {
-            "timestamp": row[0],
-            "domain": row[1],
-            "answers": row[2] + row[3] + row[4] + row[5],
-            "is_poisoned": determind_poisoned
-          }
-          readingResults.append(formatted_document)
+          try:
+            dns_servers = ast.literal_eval(row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
+          except (ValueError, SyntaxError):
+            dns_servers = [row[2]]  # 如果转换失败，则将其视为单个 DNS 服务器
+          for dns_server in dns_servers:
+            determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
+            formatted_document = {
+              "timestamp": row[0],
+              "domain": row[1],
+              "dns_server": dns_server,
+              "answers": row[3] + row[4] + row[5],
+              "is_poisoned": determind_poisoned
+            }
+            readingResults.append(formatted_document)
 
   # Data merge and cleanup
   merged_results = {}
   for result in readingResults:
-    domain = result['domain']
-    if domain not in merged_results:
-      merged_results[domain] = {
-        'domain': domain,
+    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
+    if key not in merged_results:
+      merged_results[key] = {
+        'domain': result['domain'],
+        'dns_server': result['dns_server'],
         'timestamp': [],
         'answers': [],
-        'is_poisoned': []
+        'is_poisoned': result['is_poisoned']
       }
-    if result['timestamp'] and result['timestamp'] not in merged_results[domain]['timestamp']:
-      merged_results[domain]['timestamp'].append(result['timestamp'])
-    if result['answers'] and result['answers'] not in merged_results[domain]['answers']:
-      merged_results[domain]['answers'].append(result['answers'])
-    merged_results[domain]['is_poisoned'] = result['is_poisoned']
+    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
+      merged_results[key]['timestamp'].append(result['timestamp'])
+    if result['answers'] and result['answers'] not in merged_results[key]['answers']:
+      merged_results[key]['answers'].append(result['answers'])
 
   readingResults = list(merged_results.values())
-    # create unique index for domain
-  CT_DNSP_ADC.create_index('domain', unique=True)
+  CT_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
   return readingResults
 
 def CT_GFWL(folder_location: str) -> list:
@@ -301,7 +308,8 @@ def UCD_DNSP(folder_location: str) -> list:
           formatted_document = {
             "timestamp": row[0],
             "domain": row[1],
-            "answers": row[2] + row[3] + row[4] + row[5],
+            "dns_server": row[2],
+            "answers": row[3] + row[4] + row[5],
             "is_poisoned": determind_poisoned
           }
           CompareGroupResults.append(formatted_document)
@@ -309,23 +317,22 @@ def UCD_DNSP(folder_location: str) -> list:
   # Data merge and cleanup
   merged_results = {}
   for result in CompareGroupResults:
-    domain = result['domain']
-    if domain not in merged_results:
-      merged_results[domain] = {
-        'domain': domain,
+    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
+    if key not in merged_results:
+      merged_results[key] = {
+        'domain': result['domain'],
+        'dns_server': result['dns_server'],
         'timestamp': [],
         'answers': [],
-        'is_poisoned': []
+        'is_poisoned': result['is_poisoned']
       }
-    if result['timestamp'] and result['timestamp'] not in merged_results[domain]['timestamp']:
-      merged_results[domain]['timestamp'].append(result['timestamp'])
-    if result['answers'] and result['answers'] not in merged_results[domain]['answers']:
-      merged_results[domain]['answers'].append(result['answers'])
-    merged_results[domain]['is_poisoned'] = result['is_poisoned']
+    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
+      merged_results[key]['timestamp'].append(result['timestamp'])
+    if result['answers'] and result['answers'] not in merged_results[key]['answers']:
+      merged_results[key]['answers'].append(result['answers'])
 
   CompareGroupResults = list(merged_results.values())
-    # create unique index for domain
-  UCD_DNSP_ADC.create_index('domain', unique=True)
+  UCD_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
   return CompareGroupResults
 
 def UCD_GFWL(folder_location: str) -> list:

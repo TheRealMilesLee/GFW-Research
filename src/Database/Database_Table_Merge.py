@@ -2,6 +2,7 @@ import concurrent.futures
 import logging
 import multiprocessing
 import re
+import ast
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
@@ -54,7 +55,7 @@ CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
 CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
+MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
 BATCH_SIZE = 500  # Increased batch size for more efficient processing
 
 class Merger:
@@ -111,12 +112,12 @@ class Merger:
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
       futures = [
         # DNSPoisoning Constants
-        executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
-        executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
-        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp, self.merged_db_dnsp),
-        executor.submit(self._merge_documents, self.ucds_dnsp, self._merge_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp),
-        executor.submit(self._merge_documents, self.bdc_cm_dnsp, self._merge_bdc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp),
-        executor.submit(self._merge_documents, self.bdc_ucds_dnsp, self._merge_bdc_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp),
+        executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
+        executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
+        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
+        executor.submit(self._merge_documents, self.ucds_dnsp, self._merge_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp, use_dns_server=True),
+        executor.submit(self._merge_documents, self.bdc_cm_dnsp, self._merge_bdc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
+        executor.submit(self._merge_documents, self.bdc_ucds_dnsp, self._merge_bdc_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp, use_dns_server=True),
         # TraceRoute Constants
         executor.submit(self._merge_documents, self.adc_cm_gfwl, self._merge_adc_cm_gfwl, self.processed_domains_tr, self.merged_db_tr),
         executor.submit(self._merge_documents, self.adc_ct_gfwl, self._merge_adc_ct_gfwl, self.processed_domains_tr, self.merged_db_tr),
@@ -134,63 +135,71 @@ class Merger:
           future.result()
         except Exception as e:
           logger.error(f"Error in thread execution: {e}")
-    self._finalize_documents(self.processed_domains_dnsp, self.merged_db_dnsp, is_traceroute=False)
+    self._finalize_documents(self.processed_domains_dnsp, self.merged_db_dnsp, is_traceroute=False, use_dns_server=True)
     self._finalize_documents(self.processed_domains_tr, self.merged_db_tr, is_traceroute=True)
-    self._finalize_documents(self.processed_domains_dnsp, self.comparegroup_db_dnsp, is_traceroute=False)
+    self._finalize_documents(self.processed_domains_dnsp, self.comparegroup_db_dnsp, is_traceroute=False, use_dns_server=True)
     self._finalize_documents(self.processed_domains_tr, self.comparegroup_db_tr, is_traceroute=True)
 
-  def _merge_documents(self, db_handler, merge_function, processed_domains, target_db):
+  def _merge_documents(self, db_handler, merge_function, processed_domains, target_db, use_dns_server=False):
     logger.info(f"Merging documents from {db_handler.collection.name}")
     try:
       documents = list(db_handler.find({}))  # Pre-load all documents into memory
       for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
-        merge_function(document, processed_domains)
+        merge_function(document, processed_domains, use_dns_server)
     except Exception as e:
       logger.error(f"Error in _merge_documents: {e}")
 
-  def _merge_adc_cm_dnsp(self, document, processed_domains):
+  def _merge_adc_cm_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_cm_gfwl(self, document, processed_domains):
+  def _merge_adc_cm_gfwl(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_ct_dnsp(self, document, processed_domains):
+  def _merge_adc_ct_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("answers", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_ct_gfwl(self, document, processed_domains):
+  def _merge_adc_ct_gfwl(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_ct_ipb(self, document, processed_domains):
+  def _merge_adc_ct_ipb(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -199,27 +208,30 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_cm_dnsp_nov(self, document, processed_domains):
+  def _merge_adc_cm_dnsp_nov(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        dns_server=document.get("dns_server", []),
+        dns_server=document.get("dns_server", "unknown"),
         answers=document.get("results", []),
         error_code=document.get("error_code", []),
         error_reason=document.get("error_reason", []),
         record_type=document.get("record_type", []),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_adc_cm_gfwl_nov(self, document, processed_domains):
+  def _merge_adc_cm_gfwl_nov(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -227,33 +239,39 @@ class Merger:
         error_code=document.get("error", []),
         location=document.get("location", []),
         record_type=document.get("record_type", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_ucds_dnsp(self, document, processed_domains):
+  def _merge_ucds_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("answers", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_ucds_gfwl(self, document, processed_domains):
+  def _merge_ucds_gfwl(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_ucds_ipb(self, document, processed_domains):
+  def _merge_ucds_ipb(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -262,33 +280,39 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_cm_dnsp(self, document, processed_domains):
+  def _merge_bdc_cm_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_cm_gfwl(self, document, processed_domains):
+  def _merge_bdc_cm_gfwl(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_ct_ipb(self, document, processed_domains):
+  def _merge_bdc_ct_ipb(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -297,33 +321,39 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_ucds_dnsp(self, document, processed_domains):
+  def _merge_bdc_ucds_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         answers=document.get("results", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_ucds_gfwl(self, document, processed_domains):
+  def _merge_bdc_ucds_gfwl(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
         answers=document.get("result", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
-  def _merge_bdc_ucds_ipb(self, document, processed_domains):
+  def _merge_bdc_ucds_ipb(self, document, processed_domains, use_dns_server):
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
@@ -332,9 +362,11 @@ class Merger:
         ip_type=document.get("ip_type", []),
         port=document.get("port", []),
         is_accessible=document.get("is_accessible", []),
+        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
-      processed_domains
+      processed_domains,
+      use_dns_server
     )
 
   def _format_document(
@@ -397,45 +429,56 @@ class Merger:
         "domain": domain,
         "timestamp": timestamp or [],
         "answers": unique_ips or [],
-        "dns_server": dns_server or [],
+        "dns_server": dns_server or "unknown",
         "error_code": error_code or [],
         "error_reason": error_reason or [],
         "record_type": record_type or [],
         "is_poisoned": is_poisoned or False,
       }
 
-
-
-  def _process_document(self, document, processed_domains):
+  def _process_document(self, document, processed_domains, use_dns_server=False):
     try:
       domain = document["domain"]
+      try:
+        dns_servers = ast.literal_eval(document.get("dns_server", "['unknown']"))  # 使用 ast.literal_eval 安全地将字符串转换为列表
+      except (ValueError, SyntaxError):
+        dns_servers = [document.get("dns_server", "unknown")]  # 如果转换失败，则将其视为单个 DNS 服务器
       if not domain:
         logger.warning(f"Document with missing domain skipped: {document}")
         return
 
       with self.lock:
-        for key, value in document.items():
-          if key != "domain":
-            if isinstance(value, list):
-              flat_values = set(
-                chain.from_iterable(
-                  v if isinstance(v, list) else [v] for v in value
+        for dns_server in dns_servers:
+          key = (domain, dns_server) if use_dns_server else domain  # 根据Flag使用不同的唯一键
+          for field, value in document.items():
+            if field not in ["domain", "dns_server"]:
+              if isinstance(value, list):
+                flat_values = set(
+                  chain.from_iterable(
+                    v if isinstance(v, list) else [v] for v in value
+                  )
                 )
-              )
-              # Remove empty values
-              flat_values = {v for v in flat_values if v}
-              processed_domains[domain][key].update(flat_values)
-            else:
-              if value:  # Only add non-empty values
-                processed_domains[domain][key].add(value)
+                flat_values = {v for v in flat_values if v}  # 移除空值
+                processed_domains[key][field].update(flat_values)
+              else:
+                if value:  # 仅添加非空值
+                  processed_domains[key][field].add(value)
     except Exception as e:
       logger.error(f"Error processing document: {document}, {e}")
 
-  def _finalize_documents(self, processed_domains, target_db, is_traceroute=False):
+  def _finalize_documents(self, processed_domains, target_db, is_traceroute=False, use_dns_server=False):
     try:
       batch = []
 
-      for domain, data in processed_domains.items():
+      for key, data in processed_domains.items():
+        if use_dns_server:
+          domain, dns_server = key
+          if not dns_server or len(dns_server) <= 1:
+            continue  # 跳过 dns_server 为空或只有1个字符的文档
+        else:
+          domain = key
+          dns_server = None
+
         if is_traceroute:
           finalized_document = {
             "domain": domain,
@@ -450,18 +493,17 @@ class Merger:
         else:
           finalized_document = {
             "domain": domain,
+            "dns_server": dns_server,
             "answers": list(data["answers"]),
-            "dns_server": list(data["dns_server"]),
             "error_code": list(data["error_code"]),
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"]),
             "timestamp": list(data["timestamp"]),
             "is_poisoned": bool(data["is_poisoned"]),
           }
-        for key, value in data.items():
-          if key not in finalized_document:
-            finalized_document[key] = list(value)
-        # Remove _id field to avoid duplicate key error
+        for field, value in data.items():
+          if field not in finalized_document:
+            finalized_document[field] = list(value)
         if '_id' in finalized_document:
           del finalized_document['_id']
         batch.append(finalized_document)

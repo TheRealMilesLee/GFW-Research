@@ -312,9 +312,5 @@ DNS_Checking_Result_2024_11_23.csv
 DNS_Checking_Result_2024_11_24.csv
 DNS_Checking_Result_2024_11_25.csv
 DNS_Checking_Result_2024_11_26.csv
-
-Visualizatio/node_modules/
-
-/Visualization/data/MergedDatabase.DNSPoisoning.csv
-/Visualization/data/MergedDatabase.TraceRouteResult.csv
-/Visualization/node_modules/
+DNSPoisoning_Empty
+DNSPoisoning
