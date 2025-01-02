@@ -78,3 +78,6 @@ class MongoDBHandler:
 
     def getAllDocuments(self):
         return self.collection.find()
+
+    def find(self, query, projection):
+        return self.collection.find(query, projection)

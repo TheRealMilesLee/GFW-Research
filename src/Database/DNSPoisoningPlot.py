@@ -4,11 +4,27 @@ import matplotlib.pyplot as plt
 from DBOperations import CompareGroup_db, Merged_db, MongoDBHandler
 import concurrent.futures
 from tqdm import tqdm
+import re
+from collections import Counter
+import subprocess
+import tldextract
+import pycountry
+import csv
 
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
 
 categories = DNSPoisoning.distinct('error_code')
+
+# 读取 CSV 文件并创建 IP 到 Provider 的映射
+ip_to_provider = {}
+with open('E:\\Developer\\SourceRepo\\GFW-Research\\src\\Import\\dns_servers.csv', 'r') as csvfile:
+  reader = csv.DictReader(csvfile)
+  for row in reader:
+    if row['IPV4']:
+      ip_to_provider[row['IPV4']] = row['Provider']
+    if row['IPV6']:
+      ip_to_provider[row['IPV6']] = row['Provider']
 
 def DNSPoisoning_ErrorCode_Distribute():
   """
@@ -49,8 +65,69 @@ def process_domain(data):
   plt.savefig(f'{folder_name}/{domain}.png')
   plt.close()
 
+def get_server_location(server):
+  if server in ip_to_provider:
+    return ip_to_provider[server]
+  else:
+    regex = re.compile(r'^(.*?)(?: Timeout| Non-existent | No)')
+    ip_match = regex.match(server)
+    if ip_match:
+      return ip_to_provider.get(ip_match.group(1), 'Unknown')
+    else:
+      print(f'Unknown server: {server}')
+      return 'Unknown'
+
+
+def distribution_NXDomain():
+  docs = DNSPoisoning.find({"error_code": "NXDOMAIN"}, {"error_reason": 1})
+  location_counts = Counter()
+  for doc in docs:
+    error_reason = doc.get('error_reason', '')
+    if isinstance(error_reason, list):
+      error_reason = ' '.join(error_reason)
+    match = re.search(r'on server:\s*(.*)$', error_reason)
+    if match:
+      server = match.group(1).strip()
+      location = get_server_location(server)
+      location_counts[location] += 1
+
+  plt.figure(figsize=(12, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title('NXDOMAIN Error Reason Distribution by Location')
+  plt.legend(wedges, location_counts.keys(), title="Locations", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+  plt.savefig('NXDOMAIN_Distribution_by_Location.png', bbox_inches='tight')
+  plt.close()
+
+def distribution_NXDomain_exclude_yandex():
+  docs = DNSPoisoning.find({"error_code": "NXDOMAIN"}, {"error_reason": 1})
+  location_counts = Counter()
+  for doc in docs:
+    error_reason = doc.get('error_reason', '')
+    if isinstance(error_reason, list):
+      error_reason = ' '.join(error_reason)
+    match = re.search(r'on server:\s*(.*)$', error_reason)
+    if match:
+      server = match.group(1).strip()
+      location = get_server_location(server)
+      if location != 'Yandex DNS' and location != 'Yandex DNS (Additional)':
+        location_counts[location] += 1
+
+  plt.figure(figsize=(12, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title('NXDOMAIN Error Reason Distribution by Location (Yandex Excluded)')
+  plt.legend(wedges, location_counts.keys(), title="Locations", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+  plt.savefig('NXDOMAIN_Distribution_by_Location_Yandex_excluded.png', bbox_inches='tight')
+  plt.close()
+
+
 if __name__ == '__main__':
   DNSPoisoning_ErrorCode_Distribute()
-  dataFromMerged = DNSPoisoning.getAllDocuments()
-  with concurrent.futures.ProcessPoolExecutor() as executor:
-    list(tqdm(executor.map(process_domain, dataFromMerged), total=len(dataFromMerged), desc='Processing domains'))
+  # dataFromMerged = DNSPoisoning.getAllDocuments()
+  # with concurrent.futures.ProcessPoolExecutor() as executor:
+  #   list(tqdm(executor.map(process_domain, dataFromMerged), total=len(dataFromMerged), desc='Processing domains'))
+  distribution_NXDomain()
+  distribution_NXDomain_exclude_yandex()

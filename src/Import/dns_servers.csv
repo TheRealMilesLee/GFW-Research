@@ -1,36 +1,36 @@
 Region,IPV4,IPV6,Provider
-Global,8.8.8.8,2001:4860:4860::8888,Google
+Global,8.8.8.8,2001:4860:4860::8888,"Google"
 Global,8.8.4.4,2001:4860:4860::8844,Google Alternative
 Global,1.1.1.1,2606:4700:4700::1111,Cloudflare
 Global,1.0.0.1,2606:4700:4700::1001,Cloudflare Alternative
-Global,95.85.95.85,2a03:90c0:999d::1,
-Global,2.56.220.2,2a03:90c0:9992::1,
+Global,95.85.95.85,2a03:90c0:999d::1,GCore
+Global,2.56.220.2,2a03:90c0:9992::1,GCore Alternative
 Global,77.88.8.8,2a02:6b8::feed:0ff,Yandex DNS
 Global,77.88.8.1,2a02:6b8:0:1::feed:0ff,Yandex DNS Alternative
-Global,62.76.76.62,2001:6d0:6d0::2001,
-Global,62.76.62.76,2001:6d0:d6::2001,
-Global,195.208.4.1,2a0c:a9c7:8::1,
-Global,195.208.5.1,2a0c:a9c7:9::1,
+Global,62.76.76.62,2001:6d0:6d0::2001,Yandex DNS (Additional)
+Global,62.76.62.76,2001:6d0:d6::2001,Yandex DNS (Additional)
+Global,195.208.4.1,2a0c:a9c7:8::1,Yandex DNS (Additional)
+Global,195.208.5.1,2a0c:a9c7:9::1,Yandex DNS (Additional)
 Global,9.9.9.9,2620:fe::fe,Quad9
-Global,9.9.9.10,2620:fe::10,Quad9
+Global,9.9.9.10,2620:fe::10,Quad9 Alternative
 Global,208.67.222.222,2620:119:35::35,OpenDNS
 Global,208.67.220.220,2620:119:53::53,OpenDNS Alternative
-Global,208.67.222.220,2620:0:ccc::2,
-Global,208.67.220.222,2620:0:ccd::2,
+Global,208.67.222.220,2620:0:ccc::2,OpenDNS Additional
+Global,208.67.220.222,2620:0:ccd::2,OpenDNS Additional
 Global,94.140.14.14,2a10:50c0::ad1:ff,AdGuard DNS
 Global,94.140.15.15,2a10:50c0::ad2:ff,AdGuard DNS Alternative
 China,114.114.114.114,,114DNS
-China,114.114.115.115,,114 Alternative
+China,114.114.115.115,,114DNS Alternative
 China,223.5.5.5,2400:3200::1,AliDNS
 China,223.6.6.6,2400:3200:baba::1,AliDNS Alternative
 China,119.29.29.29,2402:4e00::,DNSPod
-China,180.76.76.76,,Baidu
-China,202.96.128.86,,China Telecom
-China,210.21.196.6,,China Unicom
+China,180.76.76.76,,Baidu DNS
+China,202.96.128.86,,"China Telecom"
+China,210.21.196.6,,"China Unicom"
 China,218.30.118.6,,CUCC DNS
-China,211.136.17.107,,China Mobile
-China,117.50.11.11,2400:da00::6666,One DNS
+China,211.136.17.107,,"China Mobile"
+China,117.50.11.11,2400:da00::6666,OneDNS
 China,123.125.81.6,,Baidu DNS
 China,101.226.4.6,,Tencent DNS
 China,123.125.81.7,,Baidu DNS Alternative
-China,101.226.4.7,,Tencent DNS Alternative
+China,101.226.4.7,,"Tencent DNS Alternative"
