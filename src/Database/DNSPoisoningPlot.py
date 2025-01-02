@@ -52,5 +52,5 @@ def process_domain(data):
 if __name__ == '__main__':
   DNSPoisoning_ErrorCode_Distribute()
   dataFromMerged = DNSPoisoning.getAllDocuments()
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ProcessPoolExecutor() as executor:
     list(tqdm(executor.map(process_domain, dataFromMerged), total=len(dataFromMerged), desc='Processing domains'))
