@@ -92,7 +92,7 @@ def distribution_NXDomain():
       location_counts[location] += 1
 
   plt.figure(figsize=(15, 6))
-  texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
   plt.title('NXDOMAIN Error Reason Distribution by Location')
@@ -114,18 +114,84 @@ def distribution_NXDomain_exclude_yandex():
         location_counts[location] += 1
 
   plt.figure(figsize=(15, 6))
-  texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
   plt.title('NXDOMAIN Error Reason Distribution by Location (Yandex Excluded)')
   plt.savefig('NXDOMAIN_Distribution_by_Location_Yandex_excluded.png', bbox_inches='tight')
   plt.close()
 
+def distribution_NoAnswer():
+  docs = DNSPoisoning.find({"error_code": "NoAnswer"}, {"error_reason": 1})
+  location_counts = Counter()
+  for doc in docs:
+    error_reason = doc.get('error_reason', '')
+    if isinstance(error_reason, list):
+      error_reason = ' '.join(error_reason)
+    match = re.search(r'on server:\s*(.*)$', error_reason)
+    if match:
+      server = match.group(1).strip()
+      location = get_server_location(server)
+      location_counts[location] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title('NoAnswer Error Reason Distribution by Location')
+  plt.savefig('NoAnswer_Distribution_by_Location.png', bbox_inches='tight')
+  plt.close()
+
+def distribution_NoNameservers():
+  docs = DNSPoisoning.find({"error_code": "NoNameservers"}, {"error_reason": 1})
+  location_counts = Counter()
+  for doc in docs:
+    error_reason = doc.get('error_reason', '')
+    if isinstance(error_reason, list):
+      error_reason = ' '.join(error_reason)
+    match = re.search(r'on server:\s*(.*)$', error_reason)
+    if match:
+      server = match.group(1).strip()
+      location = get_server_location(server)
+      location_counts[location] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title('NoNameservers Error Reason Distribution by Location')
+  plt.savefig('NoNameservers_Distribution_by_Location.png', bbox_inches='tight')
+  plt.close()
+
+def distribution_Timeout():
+  docs = DNSPoisoning.find({"error_code": "Timeout"}, {"error_reason": 1})
+  location_counts = Counter()
+  for doc in docs:
+    error_reason = doc.get('error_reason', '')
+    if isinstance(error_reason, list):
+      error_reason = ' '.join(error_reason)
+    match = re.search(r'on server:\s*(.*)$', error_reason)
+    if match:
+      server = match.group(1).strip()
+      location = get_server_location(server)
+      location_counts[location] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title('Timeout Error Reason Distribution by Location')
+  plt.savefig('Timeout_Distribution_by_Location.png', bbox_inches='tight')
+  plt.close()
 
 if __name__ == '__main__':
-  DNSPoisoning_ErrorCode_Distribute()
+  # DNSPoisoning_ErrorCode_Distribute()
   # dataFromMerged = DNSPoisoning.getAllDocuments()
   # with concurrent.futures.ProcessPoolExecutor() as executor:
   #   list(tqdm(executor.map(process_domain, dataFromMerged), total=len(dataFromMerged), desc='Processing domains'))
-  distribution_NXDomain()
-  distribution_NXDomain_exclude_yandex()
+  # distribution_NXDomain()
+  # distribution_NXDomain_exclude_yandex()
+  distribution_NoAnswer()
+  distribution_NoNameservers()
+  distribution_Timeout()
+
