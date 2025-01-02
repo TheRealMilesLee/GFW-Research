@@ -91,12 +91,11 @@ def distribution_NXDomain():
       location = get_server_location(server)
       location_counts[location] += 1
 
-  plt.figure(figsize=(12, 6))
-  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140)
+  plt.figure(figsize=(15, 6))
+  texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
   plt.title('NXDOMAIN Error Reason Distribution by Location')
-  plt.legend(wedges, location_counts.keys(), title="Locations", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
   plt.savefig('NXDOMAIN_Distribution_by_Location.png', bbox_inches='tight')
   plt.close()
 
@@ -114,12 +113,11 @@ def distribution_NXDomain_exclude_yandex():
       if location != 'Yandex DNS' and location != 'Yandex DNS (Additional)':
         location_counts[location] += 1
 
-  plt.figure(figsize=(12, 6))
-  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140)
+  plt.figure(figsize=(15, 6))
+  texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
   plt.title('NXDOMAIN Error Reason Distribution by Location (Yandex Excluded)')
-  plt.legend(wedges, location_counts.keys(), title="Locations", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
   plt.savefig('NXDOMAIN_Distribution_by_Location_Yandex_excluded.png', bbox_inches='tight')
   plt.close()
 
