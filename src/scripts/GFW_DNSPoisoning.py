@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 
 import dns.asyncresolver
 from get_dns_servers import get_dns_servers
+import py7zr
 
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 30
@@ -43,6 +44,12 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   except dns.resolver.ServFail:
     error_code = 'ServFail'
     error_reason = f"Server failure for domain: {domain} on server: {dns_server}"
+  except dns.resolver.Refused:
+    error_code = 'REFUSED'
+    error_reason = f"Server refused to answer for domain: {domain} on server: {dns_server}"
+  except dns.resolver.FormErr:
+    error_code = 'FORMERR'
+    error_reason = f"Format error for domain: {domain} on server: {dns_server}"
   except Exception as e:
     error_code = 'UnknownError'
     error_reason = f"Unexpected error querying {domain} on {dns_server}: {e}"
@@ -82,7 +89,7 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
       dns_results = await future
       results.append(dns_results)
     except Exception as e:
-      error_folder_path = '../Lib/Data-2024-11-12/China-Mobile/Error'
+      error_folder_path = '../Lib/Data-2025-1/China-Mobile/Error'
       os.makedirs(error_folder_path, exist_ok=True)
       error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
       error_filepath = os.path.join(error_folder_path, error_filename)
@@ -93,74 +100,90 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
 
 def save_results(results: list, is_first_write=False) -> None:
   filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
-  folder_path = '../Lib/Data-2024-11-12/China-Mobile/DNSPoisoning'
+  folder_path = '../Lib/Data-2025-1/China-Mobile/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
 
   mode = "w" if is_first_write else "a"  # Use "a" mode to append data after the first write
   print(f"{'Creating' if is_first_write else 'Appending to'} results file at {filepath}")
 
-  with open(filepath, mode, newline="") as csvfile:
-    fieldnames = [
-      "timestamp",
-      "domain",
-      "dns_server",
-      "record_type",
-      "answers",
-      "error_code",
-      "error_reason"
-    ]
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+  try:
+    with open(filepath, mode, newline="") as csvfile:
+      fieldnames = [
+        "timestamp",
+        "domain",
+        "dns_server",
+        "record_type",
+        "answers",
+        "error_code",
+        "error_reason"
+      ]
+      writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-    # Write header only on the first write
-    if is_first_write:
-      writer.writeheader()
+      # Write header only on the first write
+      if is_first_write:
+        writer.writeheader()
 
-    for row in results:
-      writer.writerow({
-        "timestamp": datetime.now().isoformat(),
-        "domain": row['domain'],
-        "dns_server": row['dns_server'],
-        "record_type": row['record_type'],
-        "answers": row['answers'],
-        "error_code": row['error_code'],
-        "error_reason": row['error_reason']
-      })
+      for row in results:
+        writer.writerow({
+          "timestamp": datetime.now().isoformat(),
+          "domain": row['domain'],
+          "dns_server": row['dns_server'],
+          "record_type": row['record_type'],
+          "answers": row['answers'],
+          "error_code": row['error_code'],
+          "error_reason": row['error_reason']
+        })
+  except Exception as e:
+    print(f"Error saving results to file: {e}")
 
 async def main():
-  ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
-  file_path = os.path.join(os.path.dirname(__file__), 'D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv')
+  try:
+    ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
+    file_path = os.path.join(os.path.dirname(__file__), 'D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv')
 
-  with open(file_path, 'r') as file:
-    reader = csv.reader(file)
-    domains = [row[0].strip() for row in reader]
+    with open(file_path, 'r') as file:
+      reader = csv.reader(file)
+      domains = [row[0].strip() for row in reader]
 
-  print(f"Checking {len(domains)} domains for DNS poisoning")
+    print(f"Checking {len(domains)} domains for DNS poisoning")
 
-  all_results = []  # Collect all results here
-  end_time = datetime.now() + timedelta(days=7)
-  is_first_write = True  # Flag to indicate the first write of the day
+    all_results = []  # Collect all results here
+    end_time = datetime.now() + timedelta(days=7)
+    is_first_write = True  # Flag to indicate the first write of the day
 
-  while datetime.now() < end_time:
-    for i in range(0, len(domains), BATCH_SIZE):
-      batch = domains[i:i + BATCH_SIZE]
-      results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
-      all_results.extend(results)  # Append batch results to all_results
+    while datetime.now() < end_time:
+      for i in range(0, len(domains), BATCH_SIZE):
+        batch = domains[i:i + BATCH_SIZE]
+        results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
+        all_results.extend(results)  # Append batch results to all_results
 
-      if len(all_results) >= WRITE_THRESHOLD:
+        if len(all_results) >= WRITE_THRESHOLD:
+          save_results(all_results, is_first_write=is_first_write)
+          is_first_write = False  # After the first write, always append
+          all_results.clear()  # Clear results after saving to prepare for the next batch
+
+      print(f"All batches completed at {datetime.now()}")
+
+      # Save remaining results to CSV after all batches are processed
+      if all_results:
         save_results(all_results, is_first_write=is_first_write)
         is_first_write = False  # After the first write, always append
-        all_results.clear()  # Clear results after saving to prepare for the next batch
-
-    print(f"All batches completed at {datetime.now()}")
-
-    # Save remaining results to CSV after all batches are processed
-    if all_results:
-      save_results(all_results, is_first_write=is_first_write)
-      is_first_write = False  # After the first write, always append
-      all_results.clear()  # Clear results after saving
-
-    await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+        all_results.clear()  # Clear results after saving
+        # After all domains are processed, compress the CSV file
+        folder_path = '../Lib/Data-2025-1/China-Mobile/DNSPoisoning'
+        filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
+        filepath = f"{folder_path}/{filename}"
+        compressed_filepath = f"{folder_path}/{filename}.7z"
+        try:
+          with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}], compression_level=9) as archive:
+            archive.write(filepath, arcname=filename)
+          print(f"CSV file compressed to {compressed_filepath}")
+        except Exception as e:
+          print(f"Error compressing CSV file: {e}")
+        await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+  except Exception as e:
+    print(f"Error in main execution: {e}")
 
 if __name__ == "__main__":
   asyncio.run(main())

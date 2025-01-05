@@ -12,6 +12,8 @@ aiosignal==1.3.1
     # via aiohttp
 attrs==24.2.0
     # via aiohttp
+brotli==1.1.0
+    # via py7zr
 certifi==2024.8.30
     # via requests
 charset-normalizer==3.4.0
@@ -38,6 +40,8 @@ idna==3.10
     # via
     #   requests
     #   yarl
+inflate64==1.0.1
+    # via py7zr
 kiwisolver==1.4.7
     # via matplotlib
 matplotlib==3.9.3
@@ -48,6 +52,8 @@ multidict==6.1.0
     # via
     #   aiohttp
     #   yarl
+multivolumefile==0.2.3
+    # via py7zr
 numpy==2.1.3
     # via
     #   contourpy
@@ -60,12 +66,24 @@ propcache==0.2.0
     # via
     #   aiohttp
     #   yarl
+psutil==6.1.1
+    # via py7zr
+py7zr==0.22.0
+    # via -r requirements.in
+pybcj==1.0.3
+    # via py7zr
+pycryptodomex==3.21.0
+    # via py7zr
 pymongo==4.10.1
     # via -r requirements.in
 pyparsing==3.2.0
     # via matplotlib
+pyppmd==1.1.1
+    # via py7zr
 python-dateutil==2.9.0.post0
     # via matplotlib
+pyzstd==0.16.2
+    # via py7zr
 requests==2.32.3
     # via
     #   -r requirements.in
@@ -74,6 +92,8 @@ scapy==2.6.1
     # via -r requirements.in
 six==1.16.0
     # via python-dateutil
+texttable==1.7.0
+    # via py7zr
 tqdm==4.67.1
     # via -r requirements.in
 urllib3==2.2.3

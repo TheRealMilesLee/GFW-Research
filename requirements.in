@@ -16,3 +16,6 @@ tqdm
 
 # drawing the graph
 matplotlib
+
+# zip the file
+py7zr

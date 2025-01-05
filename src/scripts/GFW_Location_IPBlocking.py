@@ -4,11 +4,11 @@ import os
 import re
 import socket
 import subprocess
-import time
 from datetime import datetime, timedelta
+from time import sleep
 from ipaddress import ip_address
 from urllib.request import urlretrieve
-
+import py7zr
 import geoip2.database
 from scapy.all import IP, TCP, sr1
 
@@ -17,18 +17,26 @@ def get_domains_list() -> list:
   print("Reading domains list from CSV file")
   csv_file = "D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv"
   domains = []
-  with open(csv_file, 'r') as file:
-    reader = csv.reader(file)
-    next(reader)  # Skip the header row
-    for row in reader:
-      domains.append(row[0])
+  try:
+    with open(csv_file, 'r') as file:
+      reader = csv.reader(file)
+      next(reader)  # Skip the header row
+      for row in reader:
+        domains.append(row[0])
+  except FileNotFoundError:
+    print(f"File not found: {csv_file}")
+  except Exception as e:
+    print(f"Error reading domains list: {e}")
   return domains
 
 def download_geoip_database() -> None:
   GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), "../Import/GeoLite2-City.mmdb")
   if not os.path.exists(GEOIP_DB_PATH):
-    print("Downloading GeoLite2 City database")
-    urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
+    try:
+      print("Downloading GeoLite2 City database")
+      urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
+    except Exception as e:
+      print(f"Error downloading GeoLite2 City database: {e}")
 
 def check_domain_exists(domain: str) -> bool:
   try:
@@ -36,6 +44,9 @@ def check_domain_exists(domain: str) -> bool:
     ip_address = socket.gethostbyname(domain)
     return True
   except socket.gaierror:
+    return False
+  except Exception as e:
+    print(f"Error checking domain existence: {e}")
     return False
 
 def traceroute(domain: str, use_ipv6: bool = False) -> dict:
@@ -75,13 +86,16 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
     redirection_detected = False
 
     for ip in ips["ipv4"]:
-      pkt = IP(dst=ip) / TCP(dport=80, flags="S")
-      resp = sr1(pkt, timeout=2, verbose=0)
-      if resp and resp.haslayer(TCP):
-        if resp[TCP].flags == "RA":
-          rst_detected = True
-        if resp[TCP].flags == "SA" and resp[IP].src != ip:
-          redirection_detected = True
+      try:
+        pkt = IP(dst=ip) / TCP(dport=80, flags="S")
+        resp = sr1(pkt, timeout=2, verbose=0)
+        if resp and resp.haslayer(TCP):
+          if resp[TCP].flags == "RA":
+            rst_detected = True
+          if resp[TCP].flags == "SA" and resp[IP].src != ip:
+            redirection_detected = True
+      except Exception as e:
+        print(f"Error checking TCP RST and redirection for {ip}: {e}")
 
     return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected, "invalid_ips": invalid_ips}
 
@@ -90,6 +104,9 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
     return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
   except subprocess.TimeoutExpired:
     print(f"Traceroute command timed out for {domain}")
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
+  except Exception as e:
+    print(f"Error during traceroute for {domain}: {e}")
     return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
 
 def check_domain_ipv6_support(domain: str) -> bool:
@@ -103,6 +120,9 @@ def check_domain_ipv6_support(domain: str) -> bool:
       print(f"{domain} supports IPv6")
       return True
   except socket.gaierror:
+    return False
+  except Exception as e:
+    print(f"Error checking IPv6 support for {domain}: {e}")
     return False
 
 def lookup_ip(ip: str) -> str:
@@ -135,78 +155,100 @@ def ip_lookup(ips: dict) -> dict:
   return result
 
 def process_domain(domain: str) -> dict:
+  try:
     exist = check_domain_exists(domain)
     if exist:
-        result = check_domain_ipv6_support(domain)
-        if result:
-            traceroute_output = traceroute(domain, use_ipv6=True)
-        else:
-            traceroute_output = traceroute(domain, use_ipv6=False)
-        return {
-            "domain": domain,
-            "ips": traceroute_output["ips"],
-            "invalid_ips": traceroute_output.get("invalid_ips", []),
-            "rst_detected": traceroute_output["rst_detected"],
-            "redirection_detected": traceroute_output["redirection_detected"]
-        }
+      result = check_domain_ipv6_support(domain)
+      if result:
+        traceroute_output = traceroute(domain, use_ipv6=True)
+      else:
+        traceroute_output = traceroute(domain, use_ipv6=False)
+      return {
+        "domain": domain,
+        "ips": traceroute_output["ips"],
+        "invalid_ips": traceroute_output.get("invalid_ips", []),
+        "rst_detected": traceroute_output["rst_detected"],
+        "redirection_detected": traceroute_output["redirection_detected"]
+      }
     else:
-        return {"domain": domain, "error": "Domain does not exist"}
+      return {"domain": domain, "error": "Domain does not exist"}
+  except Exception as e:
+    print(f"Error processing domain {domain}: {e}")
+    return {"domain": domain, "error": str(e)}
 
 def process_domains_concurrently(domains: list) -> list:
-    print("Processing domains concurrently")
-    results = []
-    max_workers = 128
+  print("Processing domains concurrently")
+  results = []
+  max_workers = 128
+  try:
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [executor.submit(process_domain, domain) for domain in domains]
-        for future in concurrent.futures.as_completed(futures):
-            results.append(future.result())
-    return results
+      futures = [executor.submit(process_domain, domain) for domain in domains]
+      for future in concurrent.futures.as_completed(futures):
+        results.append(future.result())
+  except Exception as e:
+    print(f"Error processing domains concurrently: {e}")
+  return results
 
 def save_to_file(results: list, date_str: str) -> None:
   filename = f'GFW_Location_results_{date_str}.csv'
-  folder_path = "D:\\Developer\\GFW-Research\\src\\Lib\\Data-2024-11-12\\China-Mobile\\GFWLocation"
+  folder_path = "D:\\Developer\\GFW-Research\\src\\Lib\\Data-2025-1\\China-Mobile\\GFWLocation"
   os.makedirs(folder_path, exist_ok=True)
   filepath = os.path.join(folder_path, filename)
   print(f"Saving results to file at {filepath}")
-  with open(filepath, "a", newline='') as f:
-    writer = csv.writer(f)
-    if f.tell() == 0:  # Check if file is empty to write header
-      writer.writerow(["Domain", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
-    for result in results:
-      writer.writerow([
-        result.get("domain", ""),
-        ", ".join(result.get("ips", {}).get("ipv4", [])),
-        ", ".join(result.get("ips", {}).get("ipv6", [])),
-        result.get("rst_detected", ""),
-        result.get("redirection_detected", ""),
-        ", ".join(result.get("invalid_ips", [])),
-        result.get("error", "")
-      ])
-
+  try:
+    with open(filepath, "a", newline='') as f:
+      writer = csv.writer(f)
+      if f.tell() == 0:  # Check if file is empty to write header
+        writer.writerow(["Domain", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
+      for result in results:
+        writer.writerow([
+          result.get("domain", ""),
+          ", ".join(result.get("ips", {}).get("ipv4", [])),
+          ", ".join(result.get("ips", {}).get("ipv6", [])),
+          result.get("rst_detected", ""),
+          result.get("redirection_detected", ""),
+          ", ".join(result.get("invalid_ips", [])),
+          result.get("error", "")
+        ])
+  except Exception as e:
+    print(f"Error saving results to file: {e}")
 
 if __name__ == "__main__":
-  start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-  end_time = start_time + timedelta(days=7)
-  download_geoip_database()
+  try:
+    start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    end_time = start_time + timedelta(days=7)
+    download_geoip_database()
 
-  all_results = []
-  date_str = datetime.now().strftime("%Y%m%d")
+    all_results = []
+    date_str = datetime.now().strftime("%Y%m%d")
 
-  while datetime.now() < end_time:
-    domains = get_domains_list()
-    results = process_domains_concurrently(domains)
-    all_results.extend(results)
+    while datetime.now() < end_time:
+      domains = get_domains_list()
+      results = process_domains_concurrently(domains)
+      all_results.extend(results)
 
-    if len(all_results) >= 2500:
+      if len(all_results) >= 2500:
+        save_to_file(all_results, date_str)
+        all_results = []
+
+      current_date_str = datetime.now().strftime("%Y%m%d")
+      if current_date_str != date_str:
+        date_str = current_date_str
+
+      print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+      # After all domains are processed, compress the CSV file
+      folder_path = '../Lib/Data-2025-1/China-Mobile/GFWLocation'
+      filename = f'GFW_Location_Results_{datetime.now().strftime("%Y_%m_%d")}.csv'
+      filepath = f"{folder_path}/{filename}"
+      compressed_filepath = f"{folder_path}/{filename}.7z"
+      try:
+        with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}], compression_level=9) as archive:
+          archive.write(filepath, arcname=filename)
+        print(f"CSV file compressed to {compressed_filepath}")
+      except Exception as e:
+        print(f"Error compressing CSV file: {e}")
+      sleep(3600)  # Wait for 1 hour before the next check
+    if all_results:
       save_to_file(all_results, date_str)
-      all_results = []
-
-    current_date_str = datetime.now().strftime("%Y%m%d")
-    if current_date_str != date_str:
-      date_str = current_date_str
-
-    print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-    time.sleep(3600)  # Wait for 1 hour before next check
-
-  if all_results:
-    save_to_file(all_results, date_str)
+  except Exception as e:
+    print(f"Error in main execution: {e}")
