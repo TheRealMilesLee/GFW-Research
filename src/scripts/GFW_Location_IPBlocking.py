@@ -242,7 +242,7 @@ if __name__ == "__main__":
       filepath = f"{folder_path}/{filename}"
       compressed_filepath = f"{folder_path}/{filename}.7z"
       try:
-        with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}], compression_level=9) as archive:
+        with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}]) as archive:
           archive.write(filepath, arcname=filename)
         print(f"CSV file compressed to {compressed_filepath}")
       except Exception as e:
