@@ -36,6 +36,10 @@ BDC_CM_DNSP = MongoDBHandler(BDC_db["China-Mobile-DNSPoisoning"])
 BDC_CM_GFWL = MongoDBHandler(BDC_db["China-Mobile-GFWLocation"])
 BDC_CT_IPB = MongoDBHandler(BDC_db["China-Telecom-IPBlocking"])
 
+# 2025 Data Constants for AfterDocmainChange (Placed in another table named 2025)
+ADC_CM_DNSP_2025 = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-2025-January"]) # DNSPosioning
+ADC_CM_GFWL_2025 = MongoDBHandler(ADC_db["ChinaMobile-GFWLocation-2025-January"]) # TraceRoute
+
 # CompareGroup DNSPoisoning Constants
 UCDS_DNSP = MongoDBHandler(ADC_db["UCDavis-Server-DNSPoisoning"])
 BDC_UCDS_DNSP = MongoDBHandler(BDC_db["UCDavis-CompareGroup-DNSPoisoning"])
@@ -49,6 +53,8 @@ BDC_UCDS_IPB = MongoDBHandler(BDC_db["UCDavis-CompareGroup-IPBlocking"])
 # Merged database handler
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 Merged_db_TR = MongoDBHandler(Merged_db["TraceRouteResult"])
+Merged_db_2025_DNS = MongoDBHandler(Merged_db["2025_DNS"])  # 新增
+Merged_db_2025_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])  # 新增
 
 # CompareGroup database handler
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
@@ -82,6 +88,10 @@ class Merger:
     merged_db_tr,
     comparegroup_db_dnsp,
     comparegroup_db_tr,
+    adc_cm_dnsp_2025,
+    adc_cm_gfwl_2025,
+    merged_db_2025_dns,       # 新增
+    merged_db_2025_gfwl,      # 新增
   ):
     self.adc_cm_dnsp = adc_cm_dnsp
     self.adc_cm_gfwl = adc_cm_gfwl
@@ -104,6 +114,10 @@ class Merger:
     self.merged_db_tr = merged_db_tr
     self.comparegroup_db_dnsp = comparegroup_db_dnsp
     self.comparegroup_db_tr = comparegroup_db_tr
+    self.adc_cm_dnsp_2025 = adc_cm_dnsp_2025
+    self.adc_cm_gfwl_2025 = adc_cm_gfwl_2025
+    self.merged_db_2025_dns = merged_db_2025_dns       # 新增
+    self.merged_db_2025_gfwl = merged_db_2025_gfwl     # 新增
     self.processed_domains_dnsp = defaultdict(lambda: defaultdict(set))
     self.processed_domains_tr = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
@@ -129,6 +143,9 @@ class Merger:
         executor.submit(self._merge_documents, self.bdc_ct_ipb, self._merge_bdc_ct_ipb, self.processed_domains_tr, self.merged_db_tr),
         executor.submit(self._merge_documents, self.bdc_ucds_gfwl, self._merge_bdc_ucds_gfwl, self.processed_domains_tr, self.comparegroup_db_tr),
         executor.submit(self._merge_documents, self.bdc_ucds_ipb, self._merge_bdc_ucds_ipb, self.processed_domains_tr, self.comparegroup_db_tr),
+        # 2025 Data Constants
+        executor.submit(self._merge_documents, self.adc_cm_dnsp_2025, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_2025_dns, use_dns_server=True),   # 新增
+        executor.submit(self._merge_documents, self.adc_cm_gfwl_2025, self._merge_adc_cm_gfwl, self.processed_domains_tr, self.merged_db_2025_gfwl),                     # 新增
       ]
       for future in concurrent.futures.as_completed(futures):
         try:
@@ -139,6 +156,8 @@ class Merger:
     self._finalize_documents(self.processed_domains_tr, self.merged_db_tr, is_traceroute=True)
     self._finalize_documents(self.processed_domains_dnsp, self.comparegroup_db_dnsp, is_traceroute=False, use_dns_server=True)
     self._finalize_documents(self.processed_domains_tr, self.comparegroup_db_tr, is_traceroute=True)
+    self._finalize_documents(self.processed_domains_dnsp, self.merged_db_2025_dns, is_traceroute=False, use_dns_server=True)  # 新增
+    self._finalize_documents(self.processed_domains_tr, self.merged_db_2025_gfwl, is_traceroute=True)                      # 新增
 
   def _merge_documents(self, db_handler, merge_function, processed_domains, target_db, use_dns_server=False):
     logger.info(f"Merging documents from {db_handler.collection.name}")
@@ -531,6 +550,8 @@ if __name__ == "__main__":
     logger.info("Starting DNSPoisoningMerger")
     Merged_db_DNSP.collection.drop()
     Merged_db_TR.collection.drop()
+    Merged_db_2025_DNS.collection.drop()      # 新增
+    Merged_db_2025_GFWL.collection.drop()     # 新增
     CompareGroup_db_DNSP.collection.drop()
     CompareGroup_db_TR.collection.drop()
     logger.info("Merged and CompareGroup collections cleared")
@@ -556,6 +577,10 @@ if __name__ == "__main__":
       Merged_db_TR,
       CompareGroup_db_DNSP,
       CompareGroup_db_TR,
+      ADC_CM_DNSP_2025,
+      ADC_CM_GFWL_2025,
+      Merged_db_2025_DNS,   # 新增
+      Merged_db_2025_GFWL,  # 新增
     )
     merger.merge_documents()
     logger.info("DNSPoisoningMerger completed")

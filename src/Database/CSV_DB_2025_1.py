@@ -10,7 +10,7 @@ from DBOperations import ADC_db, MongoDBHandler
 from tqdm import tqdm
 CPU_CORES = multiprocessing.cpu_count()
 CM_DNSP_ADC_JAN = ADC_db['ChinaMobile-DNSPoisoning-2025-January']
-MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
+MAX_WORKERS = max(CPU_CORES * 2, 256)  # Dynamically set workers
 # Config Logger
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -28,6 +28,9 @@ def process_file(file, mongodbOP_CM_DNSP):
 
         # 将数据分类到字典中，准备合并
         for row in reader:
+            if 'dns_server' not in row:
+                logger.error(f"Missing 'dns_server' key in row: {row}")
+                continue
             try:
                 dns_servers = ast.literal_eval(row['dns_server'])  # 使用 ast.literal_eval 安全地将字符串转换为列表
             except (ValueError, SyntaxError):
@@ -68,9 +71,9 @@ def dump_to_mongo():
     mongodbOP_CM_DNSP = MongoDBHandler(CM_DNSP_ADC_JAN)
 
     if os.name == 'nt':
-      FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2025-1\\ChinaMobile'
+      FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2025-1\\China-Mobile\\DNSPoisoning'
     else:
-      FileFolderLocation = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2025-1/ChinaMobile'
+      FileFolderLocation = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2025-1/ChinaMobile/DNSPosioning'
     csv_files = [os.path.join(FileFolderLocation, file) for file in os.listdir(FileFolderLocation) if file.endswith('.csv')]
 
     # Drop the collection before inserting new data

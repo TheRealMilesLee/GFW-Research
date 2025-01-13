@@ -74,7 +74,7 @@ def dump_to_mongo():
   mongodbOP_CM_GFWL = MongoDBHandler(CM_GFWL_ADC_JAN)
 
   if os.name == 'nt':
-    FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2025-1\\ChinaMobile\\GFWLocation'
+    FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2025-1\\China-Mobile\\GFWLocation'
   else:
     FileFolderLocation = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2025-1/ChinaMobile/GFWLocation'
   csv_files = [os.path.join(FileFolderLocation, file) for file in os.listdir(FileFolderLocation) if file.endswith('.csv')]
