@@ -7,14 +7,14 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from .DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
 for handler in logging.root.handlers[:]:
   logging.root.removeHandler(handler)
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')  # 修正格式字符串
 logger = logging.getLogger(__name__)
 
 # DNSPoisoning Constants for AfterDomainChange
@@ -65,7 +65,7 @@ CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
 CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
+MAX_WORKERS = max(CPU_CORES * 2, 256)  # Dynamically set workers
 BATCH_SIZE = 10000  # Increased batch size for more efficient processing
 
 class Merger:
@@ -197,8 +197,9 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("result", []),
-        dns_server=document.get("dns_server", "unknown"),
+        answers=document.get("ips", []),
+        error=document.get("error", []),
+        mark=document.get("mark", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -222,8 +223,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("result", []),
-        dns_server=document.get("dns_server", "unknown"),
+        answers=document.get("results", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -235,11 +235,9 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        results_ip=document.get("results_ip", []),
-        ip_type=document.get("ip_type", []),
-        port=document.get("port", []),
+        ipv4=document.get("IPv4", []),
+        ipv6=document.get("IPv6", []),
         is_accessible=document.get("is_accessible", []),
-        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
       processed_domains,
@@ -266,11 +264,13 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("results", []),
-        error_code=document.get("error", []),
-        location=document.get("location", []),
-        record_type=document.get("record_type", []),
-        dns_server=document.get("dns_server", "unknown"),
+        error=document.get("Error", []),
+        ipv4=document.get("IPv4", []),
+        ipv6=document.get("IPv6", []),
+        invalid_ip=document.get("Invalid IP", []),
+        rst_detected=document.get("RST Detected", []),
+        redirection_detected=document.get("Redirection Detected", []),
+        timestamp=document.get("timestamp", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -294,8 +294,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("result", []),
-        dns_server=document.get("dns_server", "unknown"),
+        answers=document.get("results", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -307,11 +306,9 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        results_ip=document.get("results_ip", []),
-        ip_type=document.get("ip_type", []),
-        port=document.get("port", []),
+        ipv4=document.get("IPv4", []),
+        ipv6=document.get("IPv6", []),
         is_accessible=document.get("is_accessible", []),
-        dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
       processed_domains,
@@ -406,27 +403,33 @@ class Merger:
     timestamp=None,
     answers=None,
     dns_server=None,
+    is_traceroute=False,
+    error=None,
+    mark=None,
+    ipv4=None,
+    ipv6=None,
+    invalid_ip=None,
     error_code=None,
     error_reason=None,
     record_type=None,
-    results_ip=None,
-    ip_type=None,
+    rst_detected=None,
+    redirection_detected=None,
     port=None,
+    ip_type=None,
     is_accessible=None,
-    problem_domain=None,
-    location=None,
-    is_traceroute=False,
   ):
     if is_traceroute:
       return {
         "domain": domain,
         "timestamp": timestamp or [],
-        "results_ip": results_ip or [],
-        "ip_type": ip_type or [],
-        "port": port or [],
-        "is_accessible": is_accessible or [],
-        "problem_domain": problem_domain or False,
-        "location": location or [],
+        "results": answers or [],
+        "error": error or [],
+        "mark": mark or [],
+        "IPv4": ipv4 or [],
+        "IPv6": ipv6 or [],
+        "invalid_ip": invalid_ip or [],
+        "rst_detected": rst_detected or [],
+        "redirection_detected": redirection_detected or []
       }
     else:
       all_ips = set()
@@ -498,68 +501,92 @@ class Merger:
       logger.error(f"Error processing document: {document}, {e}")
 
   def _finalize_documents(self, processed_domains, target_db, is_traceroute=False, use_dns_server=False):
-    try:
-      batch = []
+    batch = []
+    counter = 0  # 自增数字
+    error_code_data = self.error_domain_dsp_adc_cm.find({})
 
-      if target_db in [self.merged_db_2025_gfwl, self.merged_db_2024_gfwl]:
-        # 直接使用原始格式输出
-        try:
-          logger.info(f"Inserting original format documents into {target_db.collection.name}")
-          for document in processed_domains.values():
-            self._insert_documents(list(document.values()), target_db)
-        except Exception as e:
-          logger.error(f"Error inserting original format documents: {e}")
+    for key, data in processed_domains.items():
+      if use_dns_server:
+        domain, dns_server = key
+        if not dns_server or len(dns_server) <= 1:
+          continue  # 跳过 dns_server 为空或只有1个字符的文档
       else:
-        for key, data in processed_domains.items():
-          if use_dns_server:
-            domain, dns_server = key
-            if not dns_server or len(dns_server) <= 1:
-              continue  # 跳过 dns_server 为空或只有1个字符的文档
-          else:
-            domain = key
-            dns_server = None
+        domain = key
+        dns_server = None
+      if target_db.collection.name not in ["2025_GFWL", "2024_Nov_GFWL", "2025_DNS", "2024_Nov_DNS"]:
+        if is_traceroute:
+          finalized_document = {
+            "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
+            "domain": domain,
+            "timestamp": list(data["timestamp"]),
+            "ips": list(data.get("answers", [])),
+            "error": list(data.get("error", [])),
+            "mark": list(data.get("mark", [])),
+            "results": list(data.get("results", [])),
+            "IPv4": list(data.get("IPv4", [])),
+            "IPv6": list(data.get("IPv6", [])),
+            "is_accessible": list(data.get("is_accessible", [])),
+          }
+        else:
+          finalized_document = {
+            "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
+            "domain": domain,
+            "dns_server": dns_server,
+            "answers": list(data["answers"]),
+            "error_code": list(data["error_code"]),
+            "error_reason": list(data["error_reason"]),
+            "record_type": list(data["record_type"]),
+            "timestamp": list(data["timestamp"]),
+            "is_poisoned": bool(data["is_poisoned"]),
+          }
+        for field, value in data.items():
+          if field not in finalized_document:
+            finalized_document[field] = list(value)
+        batch.append(finalized_document)
+        counter += 1  # 自增数字增加
+        if domain in error_code_data:
+          error_info = error_code_data[domain]
+          finalized_document["error_code"] = error_info.get("error_code", [])
+          finalized_document["error_reason"] = error_info.get("error_reason", [])
+      else:
+        if is_traceroute:
+          finalized_document = {
+            "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
+            "domain": domain,
+            "timestamp": list(data["timestamp"]),
+            "Error": list(data.get("Error", [])),
+            "mark": list(data.get("mark", [])),
+            "IPv4": list(data.get("IPv4", [])),
+            "IPv6": list(data.get("IPv6", [])),
+            "invalid_ip": list(data.get("invalid_ip", [])),
+            "rst_detected": list(data.get("rst_detected", [])),
+            "redirection_detected": list(data.get("redirection_detected", [])),
+          }
+        else:
+          finalized_document = {
+            "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
+            "domain": domain,
+            "dns_server": dns_server,
+            "answers": list(data["answers"]),
+            "error_code": list(data["error_code"]),
+            "error_reason": list(data["error_reason"]),
+            "record_type": list(data["record_type"]),
+            "timestamp": list(data["timestamp"]),
+            "is_poisoned": bool(data["is_poisoned"]),
+          }
+        for field, value in data.items():
+          if field not in finalized_document:
+            finalized_document[field] = list(value)
+        batch.append(finalized_document)
+        counter += 1
 
-          if is_traceroute:
-            finalized_document = {
-              "domain": domain,
-              "timestamp": list(data["timestamp"]),
-              "error": list(set(data.get("error", [])) | set(data.get("Error", []))),  # 使用集合合并 'error' 和 'Error'
-              "IPv4": list(set(data["results_ip"])),  # 去重
-              "IPv6": list(set(data["results_ip"])),
-              "Invalid IP": list(set(data["results_ip"])),
-              "RST Detected": list(set(data["results_ip"])),
-              "Redirection Detected": list(set(data["results_ip"])),
-              "is_accessible": list(set(data["is_accessible"])),
-              "problem_domain": bool(data.get("problem_domain", False)),
-              "location": list(set(data["location"])),
-            }
-            # 根据需要添加或合并更多字段
-          else:
-            finalized_document = {
-              "domain": domain,
-              "dns_server": dns_server,
-              "answers": list(data["answers"]),
-              "error_code": list(data["error_code"]),
-              "error_reason": list(data["error_reason"]),
-              "record_type": list(data["record_type"]),
-              "timestamp": list(data["timestamp"]),
-              "is_poisoned": bool(data["is_poisoned"]),
-            }
-          for field, value in data.items():
-            if field not in finalized_document:
-              finalized_document[field] = list(value)
-          if '_id' in finalized_document:
-            del finalized_document['_id']
-          batch.append(finalized_document)
+      if len(batch) >= BATCH_SIZE:
+        self._insert_documents(batch, target_db)
+        batch = []
+    if batch:
+      self._insert_documents(batch, target_db)
 
-          if len(batch) >= BATCH_SIZE:
-            self._insert_documents(batch, target_db)
-            batch = []
 
-        if batch:
-          self._insert_documents(batch, target_db)
-    except Exception as e:
-      logger.error(f"Error finalizing documents: {e}")
 
   def _insert_documents(self, batch, target_db):
     try:

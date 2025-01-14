@@ -100,8 +100,6 @@ class CM_DNSP_Processor(CSVProcessor):
       formatted_documents.append(formatted_document)
     return formatted_documents
 
-
-
 class UCD_DNSP_Processor(CM_DNSP_Processor):
   pass
 
