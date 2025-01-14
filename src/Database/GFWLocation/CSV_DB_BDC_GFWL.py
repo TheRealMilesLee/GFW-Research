@@ -5,7 +5,6 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 from ..DBOperations import BDC_db, MongoDBHandler
-from tqdm import tqdm
 
 # Constants
 if os.name == 'nt':
@@ -23,6 +22,7 @@ for handler in logging.root.handlers[:]:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 # 创建 logger
 logger = logging.getLogger(__name__)
+
 def toBoolean(value: str) -> bool:
   return value == 'True'
 
@@ -47,6 +47,13 @@ class DataProcessor:
         if k not in unique_keys and result[k] not in merged_results[key][k]:
           merged_results[key][k].append(result[k])
     return list(merged_results.values())
+
+  def process_files(self, file_extension, process_method):
+    readingResults = []
+    for file in os.listdir(self.folder_location):
+      if file.endswith(file_extension):
+        readingResults.extend(process_method(file))
+    return readingResults
 
 class CSVProcessor(DataProcessor):
   def process_csv(self, file):
@@ -77,10 +84,7 @@ class TextProcessor(DataProcessor):
 class CM_GFWL_Processor(TextProcessor):
   def process(self):
     self.db_handler.drop()
-    readingResults = []
-    for file in os.listdir(self.folder_location):
-      if file.endswith('.txt'):
-        readingResults.extend(self.process_txt(file))
+    readingResults = self.process_files('.txt', self.process_txt)
     readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
     self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
@@ -99,24 +103,27 @@ class CM_GFWL_Processor(TextProcessor):
 class CM_IPB_Processor(CSVProcessor, TextProcessor):
   def process(self):
     self.db_handler.drop()
-    readingResults = []
-    for file in os.listdir(self.folder_location):
-      if file.endswith('.csv'):
-        readingResults.extend(self.process_csv(file))
-      elif file.endswith('.txt'):
-        readingResults.extend(self.process_txt(file))
+    readingResults = self.process_files('.csv', self.process_csv)
+    readingResults.extend(self.process_files('.txt', self.process_txt))
     readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
     self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
     return readingResults
 
   def format_row(self, row):
+    ipv4 = []
+    ipv6 = []
+    for ip in row[3].split(','):
+      ip = ip.strip()
+      if ':' in ip:
+        ipv6.append(ip)
+      else:
+        ipv4.append(ip)
     return {
       "timestamp": row[0],
       "domain": row[1],
       "dns_server": row[2],
-      "results_ip": row[3],
-      "ip_type": row[4],
-      "port": row[5],
+      "IPv4": ipv4,
+      "IPv6": ipv6,
       "is_accessible": row[6]
     }
 
@@ -132,10 +139,7 @@ class CM_IPB_Processor(CSVProcessor, TextProcessor):
 class CT_IPB_Processor(CSVProcessor):
   def process(self):
     self.db_handler.drop()
-    readingResults = []
-    for file in os.listdir(self.folder_location):
-      if file.endswith('.csv'):
-        readingResults.extend(self.process_csv(file))
+    readingResults = self.process_files('.csv', self.process_csv)
     readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
     for result in readingResults:
       if 'is_accessible' in result:
@@ -149,13 +153,19 @@ class CT_IPB_Processor(CSVProcessor):
     return readingResults
 
   def format_row(self, row):
+    ipv4 = []
+    ipv6 = []
+    for ip in row[3].split(','):
+      ip = ip.strip()
+      if ':' in ip:
+        ipv6.append(ip)
+      else:
+        ipv4.append(ip)
     return {
       "timestamp": row[0],
       "domain": row[1],
-      "dns_server": row[2],
-      "results_ip": row[3],
-      "ip_type": row[4],
-      "port": row[5],
+      "IPv4": ipv4,
+      "IPv6": ipv6,
       "is_accessible": row[6]
     }
 

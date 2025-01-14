@@ -7,7 +7,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from Database.DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
@@ -20,14 +20,12 @@ logger = logging.getLogger(__name__)
 # DNSPoisoning Constants for AfterDomainChange
 ADC_CM_DNSP = MongoDBHandler(ADC_db["China-Mobile-DNSPoisoning"])
 ADC_CT_DNSP = MongoDBHandler(ADC_db["China-Telecom-DNSPoisoning"])
-ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
 ERROR_DOMAIN_DSP_ADC_CM = MongoDBHandler(ADC_db["ERROR_CODES"])
 
 # TraceRoute Constants for AfterDomainChange
 ADC_CM_GFWL = MongoDBHandler(ADC_db["China-Mobile-GFWLocation"])
 ADC_CT_GFWL = MongoDBHandler(ADC_db["China-Telecom-GFWLocation"])
 ADC_CT_IPB = MongoDBHandler(ADC_db["China-Telecom-IPBlocking"])
-ADC_CM_GFWL_NOV = MongoDBHandler(ADC_db["ChinaMobile-GFWLocation-November"])
 
 # DNSPoisoning Constants for BeforeDomainChange
 BDC_CM_DNSP = MongoDBHandler(BDC_db["China-Mobile-DNSPoisoning"])
@@ -35,6 +33,10 @@ BDC_CM_DNSP = MongoDBHandler(BDC_db["China-Mobile-DNSPoisoning"])
 # TraceRoute Constants for BeforeDomainChange
 BDC_CM_GFWL = MongoDBHandler(BDC_db["China-Mobile-GFWLocation"])
 BDC_CT_IPB = MongoDBHandler(BDC_db["China-Telecom-IPBlocking"])
+
+# 2024 November Data Constants for AfterDocmainChange (Placed in another table named 2024)
+ADC_CM_DNSP_NOV = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-November"])
+ADC_CM_GFWL_NOV = MongoDBHandler(ADC_db["ChinaMobile-GFWLocation-November"])
 
 # 2025 Data Constants for AfterDocmainChange (Placed in another table named 2025)
 ADC_CM_DNSP_2025 = MongoDBHandler(ADC_db["ChinaMobile-DNSPoisoning-2025-January"]) # DNSPosioning
@@ -55,6 +57,8 @@ Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 Merged_db_TR = MongoDBHandler(Merged_db["TraceRouteResult"])
 Merged_db_2025_DNS = MongoDBHandler(Merged_db["2025_DNS"])  # 新增
 Merged_db_2025_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])  # 新增
+Merged_db_2024_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])  # 新增
+Merged_db_2024_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])  # 新增
 
 # CompareGroup database handler
 CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
@@ -92,6 +96,8 @@ class Merger:
     adc_cm_gfwl_2025,
     merged_db_2025_dns,       # 新增
     merged_db_2025_gfwl,      # 新增
+    merged_db_2024_dns,       # 新增
+    merged_db_2024_gfwl,      # 新增
   ):
     self.adc_cm_dnsp = adc_cm_dnsp
     self.adc_cm_gfwl = adc_cm_gfwl
@@ -118,6 +124,8 @@ class Merger:
     self.adc_cm_gfwl_2025 = adc_cm_gfwl_2025
     self.merged_db_2025_dns = merged_db_2025_dns       # 新增
     self.merged_db_2025_gfwl = merged_db_2025_gfwl     # 新增
+    self.merged_db_2024_dns = merged_db_2024_dns       # 新增
+    self.merged_db_2024_gfwl = merged_db_2024_gfwl     # 新增
     self.processed_domains_dnsp = defaultdict(lambda: defaultdict(set))
     self.processed_domains_tr = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
@@ -128,7 +136,6 @@ class Merger:
         # DNSPoisoning Constants
         executor.submit(self._merge_documents, self.adc_cm_dnsp, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
         executor.submit(self._merge_documents, self.adc_ct_dnsp, self._merge_adc_ct_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
-        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
         executor.submit(self._merge_documents, self.ucds_dnsp, self._merge_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp, use_dns_server=True),
         executor.submit(self._merge_documents, self.bdc_cm_dnsp, self._merge_bdc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_dnsp, use_dns_server=True),
         executor.submit(self._merge_documents, self.bdc_ucds_dnsp, self._merge_bdc_ucds_dnsp, self.processed_domains_dnsp, self.comparegroup_db_dnsp, use_dns_server=True),
@@ -136,7 +143,7 @@ class Merger:
         executor.submit(self._merge_documents, self.adc_cm_gfwl, self._merge_adc_cm_gfwl, self.processed_domains_tr, self.merged_db_tr),
         executor.submit(self._merge_documents, self.adc_ct_gfwl, self._merge_adc_ct_gfwl, self.processed_domains_tr, self.merged_db_tr),
         executor.submit(self._merge_documents, self.adc_ct_ipb, self._merge_adc_ct_ipb, self.processed_domains_tr, self.merged_db_tr),
-        executor.submit(self._merge_documents, self.adc_cm_gfwl_nov, self._merge_adc_cm_gfwl_nov, self.processed_domains_tr, self.merged_db_tr),
+
         executor.submit(self._merge_documents, self.ucds_gfwl, self._merge_ucds_gfwl, self.processed_domains_tr, self.comparegroup_db_tr),
         executor.submit(self._merge_documents, self.ucds_ipb, self._merge_ucds_ipb, self.processed_domains_tr, self.comparegroup_db_tr),
         executor.submit(self._merge_documents, self.bdc_cm_gfwl, self._merge_bdc_cm_gfwl, self.processed_domains_tr, self.merged_db_tr),
@@ -146,6 +153,9 @@ class Merger:
         # 2025 Data Constants
         executor.submit(self._merge_documents, self.adc_cm_dnsp_2025, self._merge_adc_cm_dnsp, self.processed_domains_dnsp, self.merged_db_2025_dns, use_dns_server=True),   # 新增
         executor.submit(self._merge_documents, self.adc_cm_gfwl_2025, self._merge_adc_cm_gfwl, self.processed_domains_tr, self.merged_db_2025_gfwl),                     # 新增
+        # 2024 November Data Constants
+        executor.submit(self._merge_documents, self.adc_cm_dnsp_nov, self._merge_adc_cm_dnsp_nov, self.processed_domains_dnsp, self.merged_db_2024_dns, use_dns_server=True),  # 新增
+        executor.submit(self._merge_documents, self.adc_cm_gfwl_nov, self._merge_adc_cm_gfwl_nov, self.processed_domains_tr, self.merged_db_2024_gfwl),                  # 新增
       ]
       for future in concurrent.futures.as_completed(futures):
         try:
@@ -158,6 +168,8 @@ class Merger:
     self._finalize_documents(self.processed_domains_tr, self.comparegroup_db_tr, is_traceroute=True)
     self._finalize_documents(self.processed_domains_dnsp, self.merged_db_2025_dns, is_traceroute=False, use_dns_server=True)  # 新增
     self._finalize_documents(self.processed_domains_tr, self.merged_db_2025_gfwl, is_traceroute=True)                      # 新增
+    self._finalize_documents(self.processed_domains_dnsp, self.merged_db_2024_dns, is_traceroute=False, use_dns_server=True)  # 新增
+    self._finalize_documents(self.processed_domains_tr, self.merged_db_2024_gfwl, is_traceroute=True)                      # 新增
 
   def _merge_documents(self, db_handler, merge_function, processed_domains, target_db, use_dns_server=False):
     logger.info(f"Merging documents from {db_handler.collection.name}")
@@ -489,54 +501,63 @@ class Merger:
     try:
       batch = []
 
-      for key, data in processed_domains.items():
-        if use_dns_server:
-          domain, dns_server = key
-          if not dns_server or len(dns_server) <= 1:
-            continue  # 跳过 dns_server 为空或只有1个字符的文档
-        else:
-          domain = key
-          dns_server = None
+      if target_db in [self.merged_db_2025_gfwl, self.merged_db_2024_gfwl]:
+        # 直接使用原始格式输出
+        try:
+          logger.info(f"Inserting original format documents into {target_db.collection.name}")
+          for document in processed_domains.values():
+            self._insert_documents(list(document.values()), target_db)
+        except Exception as e:
+          logger.error(f"Error inserting original format documents: {e}")
+      else:
+        for key, data in processed_domains.items():
+          if use_dns_server:
+            domain, dns_server = key
+            if not dns_server or len(dns_server) <= 1:
+              continue  # 跳过 dns_server 为空或只有1个字符的文档
+          else:
+            domain = key
+            dns_server = None
 
-        if is_traceroute:
-          finalized_document = {
-            "domain": domain,
-            "timestamp": list(data["timestamp"]),
-            "error": list(set(data.get("error", [])) | set(data.get("Error", []))),  # 使用集合合并 'error' 和 'Error'
-            "IPv4": list(set(data["results_ip"])),  # 去重
-            "IPv6": list(set(data["results_ip"])),
-            "Invalid IP": list(set(data["results_ip"])),
-            "RST Detected": list(set(data["results_ip"])),
-            "Redirection Detected": list(set(data["results_ip"])),
-            "is_accessible": list(set(data["is_accessible"])),
-            "problem_domain": bool(data.get("problem_domain", False)),
-            "location": list(set(data["location"])),
-          }
-          # 根据需要添加或合并更多字段
-        else:
-          finalized_document = {
-            "domain": domain,
-            "dns_server": dns_server,
-            "answers": list(data["answers"]),
-            "error_code": list(data["error_code"]),
-            "error_reason": list(data["error_reason"]),
-            "record_type": list(data["record_type"]),
-            "timestamp": list(data["timestamp"]),
-            "is_poisoned": bool(data["is_poisoned"]),
-          }
-        for field, value in data.items():
-          if field not in finalized_document:
-            finalized_document[field] = list(value)
-        if '_id' in finalized_document:
-          del finalized_document['_id']
-        batch.append(finalized_document)
+          if is_traceroute:
+            finalized_document = {
+              "domain": domain,
+              "timestamp": list(data["timestamp"]),
+              "error": list(set(data.get("error", [])) | set(data.get("Error", []))),  # 使用集合合并 'error' 和 'Error'
+              "IPv4": list(set(data["results_ip"])),  # 去重
+              "IPv6": list(set(data["results_ip"])),
+              "Invalid IP": list(set(data["results_ip"])),
+              "RST Detected": list(set(data["results_ip"])),
+              "Redirection Detected": list(set(data["results_ip"])),
+              "is_accessible": list(set(data["is_accessible"])),
+              "problem_domain": bool(data.get("problem_domain", False)),
+              "location": list(set(data["location"])),
+            }
+            # 根据需要添加或合并更多字段
+          else:
+            finalized_document = {
+              "domain": domain,
+              "dns_server": dns_server,
+              "answers": list(data["answers"]),
+              "error_code": list(data["error_code"]),
+              "error_reason": list(data["error_reason"]),
+              "record_type": list(data["record_type"]),
+              "timestamp": list(data["timestamp"]),
+              "is_poisoned": bool(data["is_poisoned"]),
+            }
+          for field, value in data.items():
+            if field not in finalized_document:
+              finalized_document[field] = list(value)
+          if '_id' in finalized_document:
+            del finalized_document['_id']
+          batch.append(finalized_document)
 
-        if len(batch) >= BATCH_SIZE:
+          if len(batch) >= BATCH_SIZE:
+            self._insert_documents(batch, target_db)
+            batch = []
+
+        if batch:
           self._insert_documents(batch, target_db)
-          batch = []
-
-      if batch:
-        self._insert_documents(batch, target_db)
     except Exception as e:
       logger.error(f"Error finalizing documents: {e}")
 
@@ -556,6 +577,8 @@ if __name__ == "__main__":
     Merged_db_TR.collection.drop()
     Merged_db_2025_DNS.collection.drop()      # 新增
     Merged_db_2025_GFWL.collection.drop()     # 新增
+    Merged_db_2024_DNS.collection.drop()      # 新增
+    Merged_db_2024_GFWL.collection.drop()     # 新增
     CompareGroup_db_DNSP.collection.drop()
     CompareGroup_db_TR.collection.drop()
     logger.info("Merged and CompareGroup collections cleared")
@@ -585,6 +608,8 @@ if __name__ == "__main__":
       ADC_CM_GFWL_2025,
       Merged_db_2025_DNS,   # 新增
       Merged_db_2025_GFWL,  # 新增
+      Merged_db_2024_DNS,   # 新增
+      Merged_db_2024_GFWL,  # 新增
     )
     merger.merge_documents()
     logger.info("DNSPoisoningMerger completed")
