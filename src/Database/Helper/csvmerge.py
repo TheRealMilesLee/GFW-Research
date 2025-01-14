@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 def merge_csv(folder_paths: list, output_folder_path: str) -> None:
   csv_dict = {}
 

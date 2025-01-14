@@ -5,7 +5,7 @@ import os
 from collections import defaultdict
 from datetime import datetime
 
-from DBOperations import ADC_db, MongoDBHandler
+from ..DBOperations import ADC_db, MongoDBHandler
 
 # Config Logger
 for handler in logging.root.handlers[:]:

@@ -7,7 +7,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from Database.DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger

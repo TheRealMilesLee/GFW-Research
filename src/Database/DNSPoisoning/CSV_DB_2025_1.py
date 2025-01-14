@@ -6,7 +6,7 @@ import multiprocessing
 from collections import defaultdict
 import ast
 
-from DBOperations import ADC_db, MongoDBHandler
+from ..DBOperations import ADC_db, MongoDBHandler
 from tqdm import tqdm
 CPU_CORES = multiprocessing.cpu_count()
 CM_DNSP_ADC_JAN = ADC_db['ChinaMobile-DNSPoisoning-2025-January']

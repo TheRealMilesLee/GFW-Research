@@ -1,7 +1,7 @@
 import matplotlib
 matplotlib.use('Agg')  # 使用非交互式后端
 import matplotlib.pyplot as plt
-from DBOperations import CompareGroup_db, Merged_db, MongoDBHandler
+from ..DBOperations import CompareGroup_db, Merged_db, MongoDBHandler
 import concurrent.futures
 from tqdm import tqdm
 import re

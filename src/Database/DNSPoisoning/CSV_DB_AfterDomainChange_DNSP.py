@@ -7,7 +7,7 @@ import os
 import os.path
 
 import tqdm
-from DBOperations import ADC_db, MongoDBHandler
+from ..DBOperations import ADC_db, MongoDBHandler
 from tqdm import tqdm
 
 # TestResults

@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from DBOperations import ADC_db, BDC_db, Merged_db, MongoDBHandler
+from ..DBOperations import ADC_db, BDC_db, Merged_db, MongoDBHandler
 
 error_codes = ADC_db['ERROR_CODES']
 
