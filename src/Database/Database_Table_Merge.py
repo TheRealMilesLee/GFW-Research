@@ -62,7 +62,7 @@ CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
-BATCH_SIZE = 500  # Increased batch size for more efficient processing
+BATCH_SIZE = 10000  # Increased batch size for more efficient processing
 
 class Merger:
   def __init__(
@@ -502,13 +502,17 @@ class Merger:
           finalized_document = {
             "domain": domain,
             "timestamp": list(data["timestamp"]),
-            "Error": list(data["error"]),
-            "IPv4": list(data["results_ip"]),
-            "IPv6": list(data["results_ip"]),
-            "Invalid IP": list(data["results_ip"]),
-            "RST Detected": list(data["results_ip"]),
-            "Redirection Detected": list(data["results_ip"]),
+            "error": list(set(data.get("error", [])) | set(data.get("Error", []))),  # 使用集合合并 'error' 和 'Error'
+            "IPv4": list(set(data["results_ip"])),  # 去重
+            "IPv6": list(set(data["results_ip"])),
+            "Invalid IP": list(set(data["results_ip"])),
+            "RST Detected": list(set(data["results_ip"])),
+            "Redirection Detected": list(set(data["results_ip"])),
+            "is_accessible": list(set(data["is_accessible"])),
+            "problem_domain": bool(data.get("problem_domain", False)),
+            "location": list(set(data["location"])),
           }
+          # 根据需要添加或合并更多字段
         else:
           finalized_document = {
             "domain": domain,
