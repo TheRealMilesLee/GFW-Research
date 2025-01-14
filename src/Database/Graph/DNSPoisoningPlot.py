@@ -167,21 +167,17 @@ def distribution_Timeout(destination_db, output_folder):
 # 查找数据库中包含 rst_detected 字段的文档，统计 rst_detected 字段的值的分布
 def distribution_GFWL_rst_detected(destination_db, output_folder):
   total_docs = destination_db.count_documents({})
-  docs_with_rst_detected = destination_db.count_documents({"rst_detected": { "$elemMatch": { "$exists": True } }})
+  docs_with_rst_detected = destination_db.count_documents({"rst_detected": { "$exists": True }})
   rst_detected_ratio = docs_with_rst_detected / total_docs * 100
 
-  location_counts = Counter()
-  docs = destination_db.find({"rst_detected": { "$elemMatch": { "$exists": True } }})
-  for doc in docs:
-    for rst_detected in doc['rst_detected']:
-      location_counts[rst_detected] += 1
-
   plt.figure(figsize=(15, 6))
-  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
-  plt.setp(autotexts, size=10, weight="bold", color="white")
-  plt.setp(texts, size=10)
+  plt.bar(['Total Docs', 'RST Detected'], [total_docs, docs_with_rst_detected])
+  plt.text('Total Docs', total_docs, total_docs, ha='center', va='bottom')
+  plt.text('RST Detected', docs_with_rst_detected, docs_with_rst_detected, ha='center', va='bottom')
+  plt.xlabel('Document Type')
+  plt.ylabel('Number of Documents')
   plt.title(f'RST Detected Distribution (Ratio: {rst_detected_ratio:.2f}%)')
-  plt.savefig(f'{output_folder}/RST_Detected_Distribution.png', bbox_inches='tight')
+  plt.savefig(f'{output_folder}/RST_Detected_Distribution.png')
   plt.close()
 
 # 查找数据库中包含redirection_detected字段的文档，统计redirection_detected字段的值的分布
@@ -190,40 +186,53 @@ def distribution_GFWL_redirection_detected(destination_db, output_folder):
   docs_with_redirection_detected = destination_db.count_documents({"redirection_detected": { "$elemMatch": { "$exists": True } }})
   redirection_detected_ratio = docs_with_redirection_detected / total_docs * 100
 
-  location_counts = Counter()
-  docs = destination_db.find({"redirection_detected": { "$elemMatch": { "$exists": True } }})
-  for doc in docs:
-    for redirection_detected in doc['redirection_detected']:
-      location_counts[redirection_detected] += 1
-
   plt.figure(figsize=(15, 6))
-  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
-  plt.setp(autotexts, size=10, weight="bold", color="white")
-  plt.setp(texts, size=10)
+  plt.bar(['Total Docs', 'Redirection Detected'], [total_docs, docs_with_redirection_detected])
+  plt.text('Total Docs', total_docs, total_docs, ha='center', va='bottom')
+  plt.text('Redirection Detected', docs_with_redirection_detected, docs_with_redirection_detected, ha='center', va='bottom')
+  plt.xlabel('Document Type')
+  plt.ylabel('Number of Documents')
   plt.title(f'Redirection Detected Distribution (Ratio: {redirection_detected_ratio:.2f}%)')
-  plt.savefig(f'{output_folder}/Redirection_Detected_Distribution.png', bbox_inches='tight')
+  plt.savefig(f'{output_folder}/Redirection_Detected_Distribution.png')
   plt.close()
 
-# 查找数据库中Error字段的文档，统计Error字段的值的分布
+# 查找数据库中Error字段的文档, 统计Error字段的值的分布
 def distribution_GFWL_Error(destination_db, output_folder):
   total_docs = destination_db.count_documents({})
-  docs_with_error = destination_db.count_documents({"Error": { "$elemMatch": { "$exists": True } }})
+  docs_with_error = destination_db.count_documents({"error": { "$elemMatch": { "$exists": True } }})
   error_ratio = docs_with_error / total_docs * 100
 
-  location_counts = Counter()
-  docs = destination_db.find({"Error": { "$elemMatch": { "$exists": True } }})
+  error_counts = Counter()
+  docs = destination_db.find({"error": { "$elemMatch": { "$exists": True } }})
   for doc in docs:
-    for error in doc['Error']:
-      location_counts[error] += 1
+    for error in doc['error']:
+      error_counts[error] += 1
 
   plt.figure(figsize=(15, 6))
-  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
-  plt.setp(autotexts, size=10, weight="bold", color="white")
-  plt.setp(texts, size=10)
+  plt.bar(error_counts.keys(), error_counts.values())
+  for error, count in error_counts.items():
+    plt.text(error, count, str(count), ha='center', va='bottom')
+  plt.xlabel('Error')
+  plt.ylabel('Number of Occurrences')
   plt.title(f'Error Distribution (Ratio: {error_ratio:.2f}%)')
   plt.savefig(f'{output_folder}/Error_Distribution.png', bbox_inches='tight')
   plt.close()
 
+# 查找数据库中包含invalid_ip字段的文档, 统计其不为空的文档占总文档数量的比例
+def distribution_GFWL_invalid_ip(destination_db, output_folder):
+  total_docs = destination_db.count_documents({})
+  docs_with_invalid_ip = destination_db.count_documents({"invalid_ip": { "$exists": True }})
+  invalid_ip_ratio = docs_with_invalid_ip / total_docs * 100
+
+  plt.figure(figsize=(15, 6))
+  plt.bar(['Valid IP', 'Invalid IP'], [total_docs - docs_with_invalid_ip, docs_with_invalid_ip])
+  plt.text('Valid IP', total_docs - docs_with_invalid_ip, total_docs - docs_with_invalid_ip, ha='center', va='bottom')
+  plt.text('Invalid IP', docs_with_invalid_ip, docs_with_invalid_ip, ha='center', va='bottom')
+  plt.xlabel('IP Type')
+  plt.ylabel('Number of Occurrences')
+  plt.title(f'IP Type Distribution (Ratio: {invalid_ip_ratio:.2f}%)')
+  plt.savefig(f'{output_folder}/IP_Type_Distribution.png')
+  plt.close()
 
 if __name__ == '__main__':
   DNSPoisoning_ErrorCode_Distribute(DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
@@ -242,6 +251,7 @@ if __name__ == '__main__':
   distribution_GFWL_rst_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_GFWL_redirection_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_GFWL_Error(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+  distribution_GFWL_invalid_ip(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
 
   DNSPoisoning_ErrorCode_Distribute(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_NXDomain(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
@@ -252,3 +262,4 @@ if __name__ == '__main__':
   distribution_GFWL_rst_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_GFWL_redirection_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_GFWL_Error(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+  distribution_GFWL_invalid_ip(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
