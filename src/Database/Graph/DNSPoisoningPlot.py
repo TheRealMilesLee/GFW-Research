@@ -164,6 +164,67 @@ def distribution_Timeout(destination_db, output_folder):
   plt.savefig(f'{output_folder}/Timeout_Distribution_by_Location.png', bbox_inches='tight')
   plt.close()
 
+# 查找数据库中包含 rst_detected 字段的文档，统计 rst_detected 字段的值的分布
+def distribution_GFWL_rst_detected(destination_db, output_folder):
+  total_docs = destination_db.count_documents({})
+  docs_with_rst_detected = destination_db.count_documents({"rst_detected": { "$elemMatch": { "$exists": True } }})
+  rst_detected_ratio = docs_with_rst_detected / total_docs * 100
+
+  location_counts = Counter()
+  docs = destination_db.find({"rst_detected": { "$elemMatch": { "$exists": True } }})
+  for doc in docs:
+    for rst_detected in doc['rst_detected']:
+      location_counts[rst_detected] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title(f'RST Detected Distribution (Ratio: {rst_detected_ratio:.2f}%)')
+  plt.savefig(f'{output_folder}/RST_Detected_Distribution.png', bbox_inches='tight')
+  plt.close()
+
+# 查找数据库中包含redirection_detected字段的文档，统计redirection_detected字段的值的分布
+def distribution_GFWL_redirection_detected(destination_db, output_folder):
+  total_docs = destination_db.count_documents({})
+  docs_with_redirection_detected = destination_db.count_documents({"redirection_detected": { "$elemMatch": { "$exists": True } }})
+  redirection_detected_ratio = docs_with_redirection_detected / total_docs * 100
+
+  location_counts = Counter()
+  docs = destination_db.find({"redirection_detected": { "$elemMatch": { "$exists": True } }})
+  for doc in docs:
+    for redirection_detected in doc['redirection_detected']:
+      location_counts[redirection_detected] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title(f'Redirection Detected Distribution (Ratio: {redirection_detected_ratio:.2f}%)')
+  plt.savefig(f'{output_folder}/Redirection_Detected_Distribution.png', bbox_inches='tight')
+  plt.close()
+
+# 查找数据库中Error字段的文档，统计Error字段的值的分布
+def distribution_GFWL_Error(destination_db, output_folder):
+  total_docs = destination_db.count_documents({})
+  docs_with_error = destination_db.count_documents({"Error": { "$elemMatch": { "$exists": True } }})
+  error_ratio = docs_with_error / total_docs * 100
+
+  location_counts = Counter()
+  docs = destination_db.find({"Error": { "$elemMatch": { "$exists": True } }})
+  for doc in docs:
+    for error in doc['Error']:
+      location_counts[error] += 1
+
+  plt.figure(figsize=(15, 6))
+  wedges, texts, autotexts = plt.pie(location_counts.values(), labels=location_counts.keys(), autopct='%1.1f%%', startangle=140, pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  plt.title(f'Error Distribution (Ratio: {error_ratio:.2f}%)')
+  plt.savefig(f'{output_folder}/Error_Distribution.png', bbox_inches='tight')
+  plt.close()
+
+
 if __name__ == '__main__':
   DNSPoisoning_ErrorCode_Distribute(DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
   distribution_NXDomain(DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
@@ -178,6 +239,9 @@ if __name__ == '__main__':
   distribution_NoAnswer(merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_NoNameservers(merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_Timeout(merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+  distribution_GFWL_rst_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+  distribution_GFWL_redirection_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+  distribution_GFWL_Error(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
 
   DNSPoisoning_ErrorCode_Distribute(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_NXDomain(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
@@ -185,3 +249,6 @@ if __name__ == '__main__':
   distribution_NoAnswer(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_NoNameservers(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_Timeout(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+  distribution_GFWL_rst_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+  distribution_GFWL_redirection_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+  distribution_GFWL_Error(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
