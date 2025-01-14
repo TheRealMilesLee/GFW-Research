@@ -52,8 +52,8 @@ class MongoDBHandler:
     def aggregate(self, pipeline: list) -> list:
         return list(self.collection.aggregate(pipeline))
 
-    def find(self, data: dict) -> list:
-        return list(self.collection.find(data))
+    def find(self, data: dict, projection: dict = None) -> list:
+        return list(self.collection.find(data, projection))
 
     def insert_many(self, data: list) -> None:
         self.collection.insert_many(data)
@@ -78,5 +78,6 @@ class MongoDBHandler:
 
     def getAllDocuments(self):
         return self.collection.find()
+
 
 
