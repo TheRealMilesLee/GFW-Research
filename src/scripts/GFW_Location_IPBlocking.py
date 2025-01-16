@@ -101,13 +101,13 @@ def traceroute(domain: str, use_ipv6: bool = False) -> dict:
 
   except subprocess.CalledProcessError as e:
     print(f"Error running traceroute for {domain}: {e}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": str(e)}
   except subprocess.TimeoutExpired:
     print(f"Traceroute command timed out for {domain}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": "Traceroute timed out"}
   except Exception as e:
     print(f"Error during traceroute for {domain}: {e}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": []}
+    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": str(e)}
 
 def check_domain_ipv6_support(domain: str) -> bool:
   try:
