@@ -18,15 +18,54 @@ merged_2025_Jan_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])
 
 categories = DNSPoisoning.distinct('error_code')
 
+# 添加提供商到区域的映射
+provider_region_map = {
+    "Google": "U.S. DNS Provider",
+    "Google Alternative": "U.S. DNS Provider",
+    "Cloudflare": "U.S. DNS Provider",
+    "Cloudflare Alternative": "U.S. DNS Provider",
+    "GCore": "Luxembourg DNS Provider",
+    "GCore Alternative": "Luxembourg DNS Provider",
+    "Yandex DNS": "Russia DNS Provider",
+    "Yandex DNS Alternative": "Russia DNS Provider",
+    "Yandex DNS (Additional)": "Russia DNS Provider",
+    "Quad9": "Zürich DNS Provider",
+    "Quad9 Alternative": "Zürich DNS Provider",
+    "OpenDNS": "U.S. DNS Provider",
+    "OpenDNS Alternative": "U.S. DNS Provider",
+    "OpenDNS Additional": "U.S. DNS Provider",
+    "AdGuard DNS": "Cyprus DNS Provider",
+    "AdGuard DNS Alternative": "Cyprus DNS Provider",
+    "114DNS": "China DNS Provider",
+    "114DNS Alternative": "China DNS Provider",
+    "AliDNS": "China DNS Provider",
+    "AliDNS Alternative": "China DNS Provider",
+    "DNSPod": "China DNS Provider",
+    "Baidu DNS": "China DNS Provider",
+    "China Telecom": "China DNS Provider",
+    "China Unicom": "China DNS Provider",
+    "CUCC DNS": "China DNS Provider",
+    "China Mobile": "China DNS Provider",
+    "OneDNS": "China DNS Provider",
+    "Tencent DNS": "China DNS Provider",
+    "Baidu DNS Alternative": "China DNS Provider",
+    "Tencent DNS Alternative": "China DNS Provider"
+}
+
 # 读取 CSV 文件并创建 IP 到 Provider 的映射
 ip_to_provider = {}
+ip_to_region = {}
 with open('E:\\Developer\\SourceRepo\\GFW-Research\\src\\Import\\dns_servers.csv', 'r') as csvfile:
-  reader = csv.DictReader(csvfile)
-  for row in reader:
-    if row['IPV4']:
-      ip_to_provider[row['IPV4']] = row['Provider']
-    if row['IPV6']:
-      ip_to_provider[row['IPV6']] = row['Provider']
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        provider = row['Provider']
+        region = provider_region_map.get(provider, 'Other DNS Provider')
+        if row['IPV4']:
+            ip_to_provider[row['IPV4']] = provider
+            ip_to_region[row['IPV4']] = region
+        if row['IPV6']:
+            ip_to_provider[row['IPV6']] = provider
+            ip_to_region[row['IPV6']] = region
 
 def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     """
@@ -62,6 +101,43 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         sanitized_server = server.replace(':', '_').replace('/', '_')
         fig.savefig(f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png')
         plt.close(fig)  # 确保图形被关闭
+
+def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db, output_folder):
+    """
+    按区域绘制错误代码分布，以对比中国区与其他区域的DNS服务商在错误代码上的差异。
+    """
+    region_to_servers = {}
+    for server, region in ip_to_region.items():
+        region_to_servers.setdefault(region, []).append(server)
+
+    for region, servers in region_to_servers.items():
+        error_code_count = Counter()
+        for server in servers:
+            provider = ip_to_provider.get(server, 'Unknown Provider')
+            docs = destination_db.find({'dns_server': server})
+            for doc in docs:
+                error_code = doc.get('error_code')
+                if error_code:
+                    error_code_str = str(error_code) if isinstance(error_code, list) else error_code
+                    error_code_count[error_code_str] += 1
+
+        if not error_code_count:
+            print(f'No error codes found for region: {region}')
+            continue
+
+        fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+        error_codes = list(error_code_count.keys())
+        counts = list(error_code_count.values())
+        ax.bar(error_codes, counts, color='skyblue')
+        for i, count in enumerate(counts):
+            ax.text(i, count, str(count), ha='center', va='bottom')
+        ax.set_xlabel('Error Code')
+        ax.set_ylabel('Number of Occurrences')
+        ax.set_title(f'Error Code Distribution for {region}')
+        plt.setp(ax.get_xticklabels(), rotation=45)
+        sanitized_region = region.replace(':', '_').replace('/', '_')
+        fig.savefig(f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png')
+        plt.close(fig)
 
 def get_server_location(server):
   if server in ip_to_provider:
@@ -271,6 +347,7 @@ if __name__ == '__main__':
   with ThreadPoolExecutor() as executor:
     tasks = [
         executor.submit(DNSPoisoning_ErrorCode_Distribute, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST'),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST'),
         executor.submit(distribution_NXDomain, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
         executor.submit(distribution_NXDomain_exclude_yandex, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
         executor.submit(distribution_NoAnswer, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
@@ -278,6 +355,7 @@ if __name__ == '__main__':
         executor.submit(distribution_Timeout, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
 
         executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'),
         executor.submit(distribution_NXDomain, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
         executor.submit(distribution_NXDomain_exclude_yandex, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
         executor.submit(distribution_NoAnswer, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
@@ -289,6 +367,7 @@ if __name__ == '__main__':
         executor.submit(distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
 
         executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
         executor.submit(distribution_NXDomain, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
         executor.submit(distribution_NXDomain_exclude_yandex, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
         executor.submit(distribution_NoAnswer, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
