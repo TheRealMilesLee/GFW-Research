@@ -168,7 +168,8 @@ def process_domain(domain: str) -> dict:
         "ips": traceroute_output["ips"],
         "invalid_ips": traceroute_output.get("invalid_ips", []),
         "rst_detected": traceroute_output["rst_detected"],
-        "redirection_detected": traceroute_output["redirection_detected"]
+        "redirection_detected": traceroute_output["redirection_detected"],
+        "error": traceroute_output.get("error", "")
       }
     else:
       return {"domain": domain, "error": "Domain does not exist"}
