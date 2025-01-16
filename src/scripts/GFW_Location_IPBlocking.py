@@ -49,15 +49,36 @@ def check_domain_exists(domain: str) -> bool:
     print(f"Error checking domain existence: {e}")
     return False
 
-def traceroute(domain: str, use_ipv6: bool = False) -> dict:
-  if use_ipv6:
-    print(f"Tracerouting to {domain} using IPv6")
-    command = ['tracert', '-6', domain]
-  else:
-    print(f"Tracerouting to {domain} using IPv4")
-    command = ['tracert', '-4', domain]
-
+def get_dns_servers() -> list:
+  print("读取DNS服务器列表")
+  csv_file = "E:/Developer/SourceRepo/GFW-Research/src/Import/dns_servers.csv"
+  dns_servers = []
   try:
+    with open(csv_file, 'r') as file:
+      reader = csv.DictReader(file)
+      for row in reader:
+        dns_servers.append(row['IPV4'])
+  except FileNotFoundError:
+    print(f"文件未找到: {csv_file}")
+  except Exception as e:
+    print(f"读取DNS服务器列表时出错: {e}")
+  return dns_servers
+
+def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
+  print(f"使用DNS服务器 {dns_server} 进行 traceroute")
+  try:
+    # 使用指定DNS服务器解析域名
+    resolver = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    resolver.settimeout(5)
+    resolver.connect((dns_server, 53))
+    resolver.close()
+    if use_ipv6:
+      print(f"Tracerouting to {domain} using IPv6")
+      command = ['tracert', '-6', domain]
+    else:
+      print(f"Tracerouting to {domain} using IPv4")
+      command = ['tracert', '-4', domain]
+
     print(f"Running traceroute command: {' '.join(command)}")
     output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300, errors='ignore')
     lines = output.split('\n')
@@ -154,38 +175,42 @@ def ip_lookup(ips: dict) -> dict:
     return {"error": "No IP addresses available for lookup"}
   return result
 
-def process_domain(domain: str) -> dict:
+def process_domain(domain: str, dns_servers: list) -> list:
+  results = []
   try:
     exist = check_domain_exists(domain)
     if exist:
-      result = check_domain_ipv6_support(domain)
-      if result:
-        traceroute_output = traceroute(domain, use_ipv6=True)
-      else:
-        traceroute_output = traceroute(domain, use_ipv6=False)
-      return {
-        "domain": domain,
-        "ips": traceroute_output["ips"],
-        "invalid_ips": traceroute_output.get("invalid_ips", []),
-        "rst_detected": traceroute_output["rst_detected"],
-        "redirection_detected": traceroute_output["redirection_detected"],
-        "error": traceroute_output.get("error", "")
-      }
+      for dns in dns_servers:
+        result = check_domain_ipv6_support(domain)
+        if result:
+          traceroute_output = traceroute(domain, dns, use_ipv6=True)
+        else:
+          traceroute_output = traceroute(domain, dns, use_ipv6=False)
+        results.append({
+          "domain": domain,
+          "dns_server": dns,
+          "ips": traceroute_output.get("ips", {}),
+          "invalid_ips": traceroute_output.get("invalid_ips", []),
+          "rst_detected": traceroute_output.get("rst_detected", False),
+          "redirection_detected": traceroute_output.get("redirection_detected", False),
+          "error": traceroute_output.get("error", "")
+        })
     else:
-      return {"domain": domain, "error": "Domain does not exist"}
+      results.append({"domain": domain, "error": "Domain does not exist"})
   except Exception as e:
-    print(f"Error processing domain {domain}: {e}")
-    return {"domain": domain, "error": str(e)}
+    print(f"处理域名 {domain} 时发生错误: {e}")
+    results.append({"domain": domain, "error": str(e)})
+  return results
 
-def process_domains_concurrently(domains: list) -> list:
+def process_domains_concurrently(domains: list, dns_servers: list) -> list:
   print("Processing domains concurrently")
   results = []
   max_workers = 128
   try:
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-      futures = [executor.submit(process_domain, domain) for domain in domains]
+      futures = [executor.submit(process_domain, domain, dns_servers) for domain in domains]
       for future in concurrent.futures.as_completed(futures):
-        results.append(future.result())
+        results.extend(future.result())
   except Exception as e:
     print(f"Error processing domains concurrently: {e}")
   return results
@@ -200,10 +225,11 @@ def save_to_file(results: list, date_str: str) -> None:
     with open(filepath, "a", newline='') as f:
       writer = csv.writer(f)
       if f.tell() == 0:  # Check if file is empty to write header
-        writer.writerow(["Domain", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
+        writer.writerow(["Domain", "DNS Server", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
       for result in results:
         writer.writerow([
           result.get("domain", ""),
+          result.get("dns_server", ""),
           ", ".join(result.get("ips", {}).get("ipv4", [])),
           ", ".join(result.get("ips", {}).get("ipv6", [])),
           result.get("rst_detected", ""),
@@ -219,13 +245,14 @@ if __name__ == "__main__":
     start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
     end_time = start_time + timedelta(days=7)
     download_geoip_database()
+    dns_servers = get_dns_servers()  # 获取DNS服务器列表
 
     all_results = []
     date_str = datetime.now().strftime("%Y%m%d")
 
     while datetime.now() < end_time:
       domains = get_domains_list()
-      results = process_domains_concurrently(domains)
+      results = process_domains_concurrently(domains, dns_servers)
       all_results.extend(results)
 
       if len(all_results) >= 2500:
