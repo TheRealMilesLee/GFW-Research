@@ -10,11 +10,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
-GFWLocation = MongoDBHandler(Merged_db["GFWLocation"])
 merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
-merged_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
-merged_2025_Jan_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])
 
 categories = DNSPoisoning.distinct('error_code')
 
@@ -257,75 +254,6 @@ def distribution_Timeout(destination_db, output_folder):
     fig.savefig(f'{output_folder}/Timeout_Distribution_by_Location.png', bbox_inches='tight')
     plt.close(fig)  # 确保图形被关闭
 
-# 查找数据库中包含 rst_detected 字段的文档，统计 rst_detected 字段的值的分布
-def distribution_GFWL_rst_detected(destination_db, output_folder):
-    total_docs = destination_db.count_documents({})
-    docs_with_rst_detected = destination_db.count_documents({"rst_detected": { "$exists": True }})
-    rst_detected_ratio = docs_with_rst_detected / total_docs * 100
-
-    fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)  # 使用基于 Figure 的接口
-    ax.bar(['Total Docs', 'RST Detected'], [total_docs, docs_with_rst_detected])
-    ax.text('Total Docs', total_docs, total_docs, ha='center', va='bottom')
-    ax.text('RST Detected', docs_with_rst_detected, docs_with_rst_detected, ha='center', va='bottom')
-    ax.set_xlabel('Document Type')
-    ax.set_ylabel('Number of Documents')
-    ax.set_title(f'RST Detected Distribution (Ratio: {rst_detected_ratio:.2f}%)')
-    fig.savefig(f'{output_folder}/RST_Detected_Distribution.png')
-    plt.close(fig)  # 确保图形被关闭
-
-# 查找数据库中包含redirection_detected字段的文档，统计redirection_detected字段的值的分布
-def distribution_GFWL_redirection_detected(destination_db, output_folder):
-    total_docs = destination_db.count_documents({})
-    docs_with_redirection_detected = destination_db.count_documents({"redirection_detected": { "$elemMatch": { "$exists": True } }})
-    redirection_detected_ratio = docs_with_redirection_detected / total_docs * 100
-
-    fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)  # 使用基于 Figure 的接口
-    ax.bar(['Total Docs', 'Redirection Detected'], [total_docs, docs_with_redirection_detected])
-    ax.text('Total Docs', total_docs, total_docs, ha='center', va='bottom')
-    ax.text('Redirection Detected', docs_with_redirection_detected, docs_with_redirection_detected, ha='center', va='bottom')
-    ax.set_xlabel('Document Type')
-    ax.set_ylabel('Number of Documents')
-    ax.set_title(f'Redirection Detected Distribution (Ratio: {redirection_detected_ratio:.2f}%)')
-    fig.savefig(f'{output_folder}/Redirection_Detected_Distribution.png')
-    plt.close(fig)  # 确保图形被关闭
-
-# 查找数据库中Error字段的文档, 统计Error字段的值的分布
-def distribution_GFWL_Error(destination_db, output_folder):
-    total_docs = destination_db.count_documents({})
-    docs_with_error = destination_db.count_documents({"error": { "$elemMatch": { "$exists": True } }})
-    error_ratio = docs_with_error / total_docs * 100
-
-    error_counts = Counter()
-    docs = destination_db.find({"error": { "$elemMatch": { "$exists": True } }})
-    for doc in docs:
-        for error in doc['error']:
-            error_counts[error] += 1
-
-    fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)  # 使用基于 Figure 的接口
-    ax.bar(error_counts.keys(), error_counts.values())
-    for error, count in error_counts.items():
-        ax.text(error, count, str(count), ha='center', va='bottom')
-    ax.set_xlabel('Error')
-    ax.set_ylabel('Number of Occurrences')
-    ax.set_title(f'Error Distribution (Ratio: {error_ratio:.2f}%)')
-    fig.savefig(f'{output_folder}/Error_Distribution.png', bbox_inches='tight')
-    plt.close(fig)  # 确保图形被关闭
-
-# 查找数据库中包含invalid_ip字段的文档, 统计其不为空的文档占总文档数量的比例
-def distribution_GFWL_invalid_ip(destination_db, output_folder):
-    total_docs = destination_db.count_documents({})
-    docs_with_invalid_ip = destination_db.count_documents({"invalid_ip": { "$exists": True }})
-    invalid_ip_ratio = docs_with_invalid_ip / total_docs * 100
-
-    fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)  # 使用基于 Figure 的接口
-    ax.bar(['Valid IP', 'Invalid IP'], [total_docs - docs_with_invalid_ip, docs_with_invalid_ip])
-    ax.text('Valid IP', total_docs - docs_with_invalid_ip, total_docs - docs_with_invalid_ip, ha='center', va='bottom')
-    ax.text('Invalid IP', docs_with_invalid_ip, docs_with_invalid_ip, ha='center', va='bottom')
-    ax.set_xlabel('IP Type')
-    ax.set_ylabel('Number of Occurrences')
-    ax.set_title(f'IP Type Distribution (Ratio: {invalid_ip_ratio:.2f}%)')
-    fig.savefig(f'{output_folder}/IP_Type_Distribution.png')
-    plt.close(fig)  # 确保图形被关闭
 
 if __name__ == '__main__':
   def ensure_folder_exists(folder_path):
@@ -361,10 +289,6 @@ if __name__ == '__main__':
         executor.submit(distribution_NoAnswer, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
         executor.submit(distribution_NoNameservers, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
         executor.submit(distribution_Timeout, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-        executor.submit(distribution_GFWL_rst_detected, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-        executor.submit(distribution_GFWL_redirection_detected, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-        executor.submit(distribution_GFWL_Error, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-        executor.submit(distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
 
         executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
         executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
@@ -373,10 +297,6 @@ if __name__ == '__main__':
         executor.submit(distribution_NoAnswer, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
         executor.submit(distribution_NoNameservers, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
         executor.submit(distribution_Timeout, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-        executor.submit(distribution_GFWL_rst_detected, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-        executor.submit(distribution_GFWL_redirection_detected, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-        executor.submit(distribution_GFWL_Error, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-        executor.submit(distribution_GFWL_invalid_ip, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
     ]
 
     for task in tasks:

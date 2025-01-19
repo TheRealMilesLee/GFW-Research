@@ -19,3 +19,7 @@ matplotlib
 
 # zip the file
 py7zr
+
+# Network graph
+networkx
+scipy
