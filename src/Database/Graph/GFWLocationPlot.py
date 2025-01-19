@@ -7,6 +7,7 @@ import os
 import networkx as nx
 import logging
 import multiprocessing
+from collections import Counter
 
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 256)  # Dynamically set workers
@@ -144,24 +145,19 @@ def distribution_GFWL_invalid_ip(destination_db, output_folder):
   plt.close(fig)
 
 
-def ip_hops_path(destination_db, output_folder, domain=None):
+def ip_hops_core_path(destination_db, output_folder, domain=None, top_n=10, frequency_threshold=5):
   G = nx.DiGraph()
   unique_edges = set()
 
   query = {"ips": {"$exists": True, "$ne": []}}
   if domain:
     query["domain"] = domain
-  cursor = destination_db.find(
-    query,
-    {"ips": 1}
-  )
+  cursor = destination_db.find(query, {"ips": 1})
 
-  batch_size = 10000
-  batch_edges = []
-  batch_nodes = set()
   total_paths = 0
-  total_edges = 0
 
+  # Step 1: Parse data and construct graph
+  edge_frequency = Counter()
   for doc in cursor:
     ips_strings = doc.get('ips', [])
     for ips_str in ips_strings:
@@ -170,68 +166,89 @@ def ip_hops_path(destination_db, output_folder, domain=None):
         continue
       hops = ips[1:]
       for i in range(len(hops) - 1):
-        edge = (hops[i], hops[i+1])
-        if edge not in unique_edges:
-          batch_edges.append(edge)
-          unique_edges.add(edge)
-          total_edges += 1
-      batch_nodes.update(hops)
+        edge = (hops[i], hops[i + 1])
+        edge_frequency[edge] += 1
+        unique_edges.add(edge)
       total_paths += 1
 
-    if len(batch_edges) >= batch_size:
-      G.add_edges_from(batch_edges)
-      batch_edges = []
-    if len(batch_nodes) >= batch_size:
-      G.add_nodes_from(batch_nodes)
-      batch_nodes = set()
+  # Step 2: Add edges to graph based on frequency threshold
+  for edge, freq in edge_frequency.items():
+    if freq >= frequency_threshold:
+      G.add_edge(*edge, weight=freq)
 
-  if batch_edges:
-    G.add_edges_from(batch_edges)
-  if batch_nodes:
-    G.add_nodes_from(batch_nodes)
+  # Step 3: Identify top N core paths by edge weight
+  sorted_edges = sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse=True)
+  top_edges = sorted_edges[:top_n]
+  core_nodes = set()
+  for edge in top_edges:
+    core_nodes.add(edge[0])
+    core_nodes.add(edge[1])
 
-  logger.info(f'Total paths processed: {total_paths}')
-  logger.info(f'Total edges added to the graph: {total_edges}')
-  logger.info(f'Total unique nodes: {len(G.nodes)}')
+  subG = G.subgraph(core_nodes).copy()
 
-  sources = [node for node in G.nodes if G.in_degree(node) == 0]
-  if not sources:
-    sources = list(G.nodes)[:1]
-  hop_levels = {}
-  current_level = 0
-  queue = []
-  for source in sources:
-    hop_levels[source] = current_level
-    queue.append(source)
+  # Step 4: Layered layout for hops
+  sources = [node for node in subG.nodes if subG.in_degree(node) == 0]
+  hop_levels = {source: 0 for source in sources}
 
+  current_level = 1
+  queue = list(sources)
   while queue:
     next_queue = []
-    current_level += 1
     for node in queue:
-      for neighbor in G.successors(node):
+      for neighbor in subG.successors(node):
         if neighbor not in hop_levels:
           hop_levels[neighbor] = current_level
           next_queue.append(neighbor)
     queue = next_queue
+    current_level += 1
 
+  # Assign positions
   levels = {}
   for node, level in hop_levels.items():
     levels.setdefault(level, []).append(node)
-
   pos = {}
-  x_gap = 0.5
-  y_gap = 0.5
-  for level in sorted(levels.keys()):
-    nodes = levels[level]
+  x_gap = 10
+  y_gap = 20
+  for level, nodes in levels.items():
     for i, node in enumerate(nodes):
-      pos[node] = (i * x_gap, level * y_gap)
+      pos[node] = (i * x_gap, -level * y_gap)
 
-  plt.figure(figsize=(100, 50))  # 根据需要调整图形尺寸
-  nx.draw_networkx_nodes(G, pos, node_size=20, node_color='blue', alpha=0.6)
-  nx.draw_networkx_edges(G, pos, arrowstyle='->', arrowsize=5, edge_color='gray', alpha=0.3)
-  nx.draw_networkx_labels(G, pos, font_size=6, font_color='black')
-  plt.title(f'IP Hops Path Network{" for " + domain if domain else ""}')
-  filename = f'IP_Hops_Path_Network{"_" + domain if domain else ""}.png'
+  # 找到终结节点（出度为 0 的节点）
+  end_nodes = [node for node in subG.nodes if subG.out_degree(node) == 0]
+  # Step 5: Visualize core hops with end nodes
+  plt.figure(figsize=(15, 7))
+
+  # 绘制普通节点
+  nx.draw_networkx_nodes(subG, pos, nodelist=[node for node in subG.nodes if node not in end_nodes],
+                        node_size=200, node_color='blue')
+
+  # 绘制终结节点
+  nx.draw_networkx_nodes(subG, pos, nodelist=end_nodes, node_size=300, node_color='green', label='End Nodes')
+
+  # 绘制边
+  nx.draw_networkx_edges(subG, pos, edge_color='gray', arrowsize=10)
+
+  # 调整标签的位置
+  label_pos = {node: (x, y - 5) for node, (x, y) in pos.items()}  # 标签下移 5 单位
+  nx.draw_networkx_labels(subG, label_pos, font_size=8, font_color='black')
+
+  # 高亮最重要的边
+  top_edges = [(u, v) for u, v, _ in top_edges]
+  nx.draw_networkx_edges(subG, pos, edgelist=top_edges, edge_color='red', width=2)
+  # 添加图例说明红线是最重要的边
+  plt.legend(['Normal Edge', 'Important Edge'], fontsize=10)
+
+
+  # 标注终结节点为 "End"
+  for node in end_nodes:
+    x, y = pos[node]
+    plt.text(x, y - 10, 'End', fontsize=8, color='green', ha='center')
+
+  # 添加图例
+  plt.legend(scatterpoints=1, loc='best', fontsize=10)
+
+  plt.title(f'Optimized Core IP Hops Network{" for " + domain if domain else ""}', fontsize=16)
+  filename = f'Optimized_Core_IP_Hops_Network{"_" + domain if domain else ""}.png'
   plt.savefig(f'{output_folder}/IP_Path/{filename}', bbox_inches='tight')
   plt.close()
 
@@ -244,7 +261,7 @@ if __name__ == '__main__':
     'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
     'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
     'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'
+    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
     'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
   ]
   for folder in folders:
@@ -254,16 +271,16 @@ if __name__ == '__main__':
   distribution_GFWL_redirection_detected(GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
   distribution_GFWL_Error(GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
   distribution_GFWL_invalid_ip(GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-  ip_hops_path(GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
+  ip_hops_core_path(GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
 
   distribution_GFWL_Error(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_GFWL_rst_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_GFWL_redirection_detected(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
   distribution_GFWL_invalid_ip(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-  ip_hops_path(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+  ip_hops_core_path(merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
 
   distribution_GFWL_Error(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_GFWL_rst_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_GFWL_redirection_detected(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
   distribution_GFWL_invalid_ip(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-  ip_hops_path(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+  ip_hops_core_path(merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
