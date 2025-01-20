@@ -24,9 +24,9 @@ def process_file(file, mongodbOP_CM_DNSP):
     with open(file, 'r') as csvfile:
         logger.info(f'Processing file: {os.path.basename(file)}')
         reader = csv.DictReader(csvfile)
-        data_dict = defaultdict(lambda: defaultdict(list))
+        data_dict = defaultdict(list)  # 修改为存储文档列表
 
-        # 将数据分类到字典中，准备合并
+        # 将数据分类到字典中，准备插入
         for row in reader:
             if 'dns_server' not in row:
                 logger.error(f"Missing 'dns_server' key in row: {row}")
@@ -36,36 +36,21 @@ def process_file(file, mongodbOP_CM_DNSP):
             except (ValueError, SyntaxError):
                 dns_servers = [row['dns_server']]  # 如果转换失败，则将其视为单个 DNS 服务器
             for dns_server in dns_servers:
-                key = (row['domain'], dns_server)  # 使用(domain, dns_server)作为唯一键
-                data_dict[key]['timestamp'].append(row['timestamp'])
-                data_dict[key]['record_type'].append(row['record_type'])
-                data_dict[key]['answers'].append(row['answers'])
-                data_dict[key]['error_code'].append(row['error_code'])
-                data_dict[key]['error_reason'].append(row['error_reason'])
-
-        # 逐个域名处理数据并更新到MongoDB
-        for (domain, dns_server), value in tqdm(data_dict.items(), desc=f'Inserting data from {os.path.basename(file)}'):
-            data = {
-                'timestamp': list(set(value['timestamp'])),
-                'record_type': list(set(value['record_type'])),
-                'answers': list(set([ans for ans in value['answers'] if ans])),
-                'error_code': list(set([code for code in value['error_code'] if code])),
-                'error_reason': list(set([reason for reason in value['error_reason'] if reason])),
-                'dns_server': dns_server
-            }
-
-            # 使用 $addToSet 确保数组中的唯一值
-            update_data = {
-                '$addToSet': {
-                    'timestamp': {'$each': data['timestamp']},
-                    'record_type': {'$each': data['record_type']},
-                    'answers': {'$each': data['answers']},
-                    'error_code': {'$each': data['error_code']},
-                    'error_reason': {'$each': data['error_reason']}
+                document = {
+                    'timestamp': row['timestamp'],
+                    'domain': row['domain'],
+                    'dns_server': dns_server,
+                    'record_type': row['record_type'],
+                    'answers': row['answers'],
+                    'error_code': row['error_code'],
+                    'error_reason': row['error_reason']
                 }
-            }
+                data_dict[(row['domain'], dns_server)].append(document)
 
-            mongodbOP_CM_DNSP.update_one({'domain': domain, 'dns_server': dns_server}, update_data, upsert=True)
+        # 逐个域名和 DNS 服务器插入多个文档到 MongoDB
+        for (domain, dns_server), documents in tqdm(data_dict.items(), desc=f'Inserting data from {os.path.basename(file)}'):
+            for doc in documents:
+                mongodbOP_CM_DNSP.insert_one(doc)
 
 def dump_to_mongo():
     mongodbOP_CM_DNSP = MongoDBHandler(CM_DNSP_ADC_JAN)
@@ -80,9 +65,9 @@ def dump_to_mongo():
     logger.info('Dropping the collection before inserting new data')
     CM_DNSP_ADC_JAN.drop()
 
-    # Create an index for the domain and dns_server fields
-    logger.info('Creating index for the domain and dns_server fields')
-    CM_DNSP_ADC_JAN.create_index([('domain', 1), ('dns_server', 1)], unique=True)
+    # Create an index for the domain, dns_server, and timestamp fields
+    logger.info('Creating index for the domain, dns_server, and timestamp fields')
+    CM_DNSP_ADC_JAN.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [executor.submit(process_file, file, mongodbOP_CM_DNSP) for file in csv_files]

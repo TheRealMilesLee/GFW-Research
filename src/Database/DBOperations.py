@@ -1,4 +1,5 @@
 import logging
+import pymongo
 
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
@@ -55,8 +56,18 @@ class MongoDBHandler:
     def find(self, data: dict, projection: dict = None) -> list:
         return list(self.collection.find(data, projection))
 
-    def insert_many(self, data: list) -> None:
-        self.collection.insert_many(data)
+    def insert_many(self, documents, ordered=True):
+        for doc in documents:
+            doc.pop("_id", None)  # 移除 '_id' 字段
+        try:
+            self.collection.insert_many(documents, ordered=ordered)
+        except pymongo.errors.BulkWriteError as e:
+            # 处理批量写入错误
+            logger.error(f"Bulk write error: {e.details}")
+            raise
+        except Exception as e:
+            logger.error(f"Error inserting documents: {e}")
+            raise
 
     def find_one(self, data: dict, projection: dict = None) -> dict:
         return self.collection.find_one(data, projection)

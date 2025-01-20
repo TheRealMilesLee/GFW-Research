@@ -7,7 +7,8 @@ from collections import Counter
 import csv
 import os
 from concurrent.futures import ThreadPoolExecutor
-
+from datetime import datetime
+import matplotlib.dates as mdates
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
 merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
@@ -258,6 +259,49 @@ def distribution_Timeout(destination_db, output_folder):
   fig.savefig(f'{output_folder}/Timeout_Distribution_by_Location.png', bbox_inches='tight')
   plt.close(fig)  # 确保图形被关闭
 
+def access_timely_distribution(destination_db, output_folder):
+    """
+    绘制能否访问的时间趋势
+    """
+    # 查询所有文档，提取域名和时间戳
+    docs = destination_db.find({}, {"domain": 1, "timestamp": 1, "error_code": 1})
+    access_data = {}
+
+    for doc in docs:
+        timestamp = doc.get('timestamp')
+        domain = doc.get('domain')
+        error_code = doc.get('error_code')
+        if not timestamp or not domain:
+            continue
+        date = timestamp.replace(hour=0, minute=0, second=0, microsecond=0)
+        if date not in access_data:
+            access_data[date] = {'accessible': set(), 'inaccessible': set()}
+        if error_code:
+            access_data[date]['inaccessible'].add(domain)
+        else:
+            access_data[date]['accessible'].add(domain)
+
+    # 聚合数据
+    dates = sorted(access_data.keys())
+    accessible_counts = [len(access_data[date]['accessible']) for date in dates]
+    inaccessible_counts = [len(access_data[date]['inaccessible']) for date in dates]
+
+    # 绘制趋势图
+    fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+    ax.plot(dates, accessible_counts, label='可访问', color='green')
+    ax.plot(dates, inaccessible_counts, label='不可访问', color='red')
+    ax.set_xlabel('时间戳')
+    ax.set_ylabel('域名数量')
+    ax.set_title('可访问与不可访问域名数量的时间趋势')
+    ax.legend()
+
+    # 格式化X轴为日期
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+    ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+
+    plt.setp(ax.get_xticklabels(), rotation=45)
+    fig.savefig(f'{output_folder}/access_timely_distribution.png')
+    plt.close(fig)
 
 if __name__ == '__main__':
   def ensure_folder_exists(folder_path):
@@ -285,6 +329,7 @@ if __name__ == '__main__':
       executor.submit(distribution_NoAnswer, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
       executor.submit(distribution_NoNameservers, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
       executor.submit(distribution_Timeout, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
+      executor.submit(access_timely_distribution, DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
 
       executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'),
       executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'),
@@ -293,6 +338,7 @@ if __name__ == '__main__':
       executor.submit(distribution_NoAnswer, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
       executor.submit(distribution_NoNameservers, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
       executor.submit(distribution_Timeout, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
+      executor.submit(access_timely_distribution, merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
 
       executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
       executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'),
@@ -301,6 +347,7 @@ if __name__ == '__main__':
       executor.submit(distribution_NoAnswer, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
       executor.submit(distribution_NoNameservers, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
       executor.submit(distribution_Timeout, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
+      executor.submit(access_timely_distribution, merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
     ]
 
     for task in tasks:

@@ -43,9 +43,9 @@ def process_file(file, mongodbOP_CM_DNSP):
         # 逐个域名处理数据并更新到MongoDB
         for (domain, dns_server), value in tqdm(data_dict.items(), desc=f'Inserting data from {os.path.basename(file)}'):
             data = {
-                'timestamp': list(set(value['timestamp'])),
+                'timestamp': value['timestamp'],  # 不聚合 timestamp
                 'record_type': list(set(value['record_type'])),
-                'answers': list(set([ans for ans in value['answers'] if ans])),
+                'answers': sorted(list(set([ans for ans in value['answers'] if ans]))),
                 'error_code': list(set([code for code in value['error_code'] if code])),
                 'error_reason': list(set([reason for reason in value['error_reason'] if reason])),
                 'dns_server': dns_server
@@ -77,9 +77,9 @@ def dump_to_mongo():
     logger.info('Dropping the collection before inserting new data')
     CM_DNSP_ADC_NOV.drop()
 
-    # Create an index for the domain and dns_server fields
-    logger.info('Creating index for the domain and dns_server fields')
-    CM_DNSP_ADC_NOV.create_index([('domain', 1), ('dns_server', 1)], unique=True)
+    # Create an index for the domain, dns_server, and timestamp fields
+    logger.info('Creating index for the domain, dns_server, and timestamp fields')
+    CM_DNSP_ADC_NOV.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [executor.submit(process_file, file, mongodbOP_CM_DNSP) for file in csv_files]

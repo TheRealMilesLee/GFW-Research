@@ -6,7 +6,7 @@ import ast
 from collections import defaultdict
 from itertools import chain
 from threading import Lock
-
+import pymongo
 from .DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
@@ -513,177 +513,138 @@ class Merger:
       else:
         domain = key
         dns_server = None
-      if target_db.collection.name not in ["2025_GFWL", "2024_Nov_GFWL", "2025_DNS", "2024_Nov_DNS"]:
-        if is_traceroute:
-          finalized_document = {
-            "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
-            "domain": domain,
-            "timestamp": list(data["timestamp"]),
-            "ips": list(data.get("answers", [])) + list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
-            "error": list(data.get("error", [])),
-            "error_reason": list(data.get("Error Reason", [])),
-            "mark": list(data.get("mark", [])),
-            "results": list(data.get("results", [])),
-            "is_accessible": list(data.get("is_accessible", [])),
-          }
-          # 检查是否包含内网地址
-          if '127.0.0.1' in data.get('IPv4', []) or '::1' in data.get('IPv6', []):
-              finalized_document['error'].append('Blocked')
-              finalized_document['error_reason'].append('Internal IP Address Blocked')
-          # 检查特定错误信息
-          for error in data.get('results', []):
-            if error == 'Traceroute timed out':
-              finalized_document['error'].append('Timeout')
-            elif error == 'No Answer':
-              finalized_document['error'].append('NoAnswer')
-            elif error == 'Traceroute Failed':
-              finalized_document['error'].append('Failed')
-            elif error == 'Not Found':
-              finalized_document['error'].append('NotFound')
-            elif error == 'Network Unreachable':
-              finalized_document['error'].append('NetworkUnreachable')
-            elif error == 'Host Unreachable':
-              finalized_document['error'].append('HostUnreachable')
-            elif error == 'Protocol Unreachable':
-              finalized_document['error'].append('ProtocolUnreachable')
-            elif error == 'Port Unreachable':
-              finalized_document['error'].append('PortUnreachable')
-            elif error == 'Fragmentation Needed':
-              finalized_document['error'].append('FragmentationNeeded')
-            elif error == 'Source Route Failed':
-              finalized_document['error'].append('SourceRouteFailed')
-            elif error == 'Destination Network Unknown':
-              finalized_document['error'].append('DestinationNetworkUnknown')
-            elif error == 'Destination Host Unknown':
-              finalized_document['error'].append('DestinationHostUnknown')
-            elif error == 'Source Host Isolated':
-              finalized_document['error'].append('SourceHostIsolated')
-            elif error == 'Communication with Destination Network Administratively Prohibited':
-              finalized_document['error'].append('CommunicationWithDestinationNetworkAdministrativelyProhibited')
-            elif error == 'Communication with Destination Host Administratively Prohibited':
-              finalized_document['error'].append('CommunicationWithDestinationHostAdministrativelyProhibited')
-            elif error == 'Destination Network Unreachable for Type of Service':
-              finalized_document['error'].append('DestinationNetworkUnreachableForTypeOfService')
-            elif error == 'Destination Host Unreachable for Type of Service':
-              finalized_document['error'].append('DestinationHostUnreachableForTypeOfService')
-            elif error == 'Communication Administratively Prohibited':
-              finalized_document['error'].append('CommunicationAdministrativelyProhibited')
-            elif error == 'Host Precedence Violation':
-              finalized_document['error'].append('HostPrecedenceViolation')
-            elif error == 'Precedence cutoff in effect':
-              finalized_document['error'].append('PrecedenceCutoffInEffect')
+
+      timestamps = data.get("timestamp", [])
+      for timestamp in timestamps:
+        if use_dns_server:
+          if target_db.collection.name not in ["2025_GFWL", "2024_Nov_GFWL", "2025_DNS", "2024_Nov_DNS"]:
+            if is_traceroute:
+              finalized_document = {
+                # "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{dns_server}-{counter}",
+                "domain": domain,
+                "timestamp": timestamp,
+                "ips": list(data.get("answers", [])) + list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
+                "error": list(data.get("error", [])),
+                "error_reason": list(data.get("Error Reason", [])),
+                "mark": list(data.get("mark", [])),
+                "results": list(data.get("results", [])),
+                "is_accessible": list(data.get("is_accessible", [])),
+              }
+              # 检查是否包含内网地址
+              if '127.0.0.1' in data.get('IPv4', []) or '::1' in data.get('IPv6', []):
+                  finalized_document['error'].append('Blocked')
+                  finalized_document['error_reason'].append('Internal IP Address Blocked')
+              # 检查特定错误信息
+              for error in data.get('results', []):
+                if error == 'Traceroute timed out':
+                  finalized_document['error'].append('Timeout')
+                elif error == 'No Answer':
+                  finalized_document['error'].append('NoAnswer')
+                elif error == 'Traceroute Failed':
+                  finalized_document['error'].append('Failed')
+                elif error == 'Not Found':
+                  finalized_document['error'].append('NotFound')
+                elif error == 'Network Unreachable':
+                  finalized_document['error'].append('NetworkUnreachable')
+                elif error == 'Host Unreachable':
+                  finalized_document['error'].append('HostUnreachable')
+                elif error == 'Protocol Unreachable':
+                  finalized_document['error'].append('ProtocolUnreachable')
+                elif error == 'Port Unreachable':
+                  finalized_document['error'].append('PortUnreachable')
+                elif error == 'Fragmentation Needed':
+                  finalized_document['error'].append('FragmentationNeeded')
+                elif error == 'Source Route Failed':
+                  finalized_document['error'].append('SourceRouteFailed')
+                elif error == 'Destination Network Unknown':
+                  finalized_document['error'].append('DestinationNetworkUnknown')
+                elif error == 'Destination Host Unknown':
+                  finalized_document['error'].append('DestinationHostUnknown')
+                elif error == 'Source Host Isolated':
+                  finalized_document['error'].append('SourceHostIsolated')
+                elif error == 'Communication with Destination Network Administratively Prohibited':
+                  finalized_document['error'].append('CommunicationWithDestinationNetworkAdministrativelyProhibited')
+                elif error == 'Communication with Destination Host Administratively Prohibited':
+                  finalized_document['error'].append('CommunicationWithDestinationHostAdministrativelyProhibited')
+                elif error == 'Destination Network Unreachable for Type of Service':
+                  finalized_document['error'].append('DestinationNetworkUnreachableForTypeOfService')
+                elif error == 'Destination Host Unreachable for Type of Service':
+                  finalized_document['error'].append('DestinationHostUnreachableForTypeOfService')
+                elif error == 'Communication Administratively Prohibited':
+                  finalized_document['error'].append('CommunicationAdministrativelyProhibited')
+                elif error == 'Host Precedence Violation':
+                  finalized_document['error'].append('HostPrecedenceViolation')
+                elif error == 'Precedence cutoff in effect':
+                  finalized_document['error'].append('PrecedenceCutoffInEffect')
+            else:
+              finalized_document = {
+                # "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{dns_server}-{counter}",
+                "domain": domain,
+                "dns_server": dns_server,
+                "answers": list(data["answers"]),
+                "error_code": list(data["error_code"]),
+                "error_reason": list(data["error_reason"]),
+                "record_type": list(data["record_type"]),
+                "timestamp": timestamp,
+                "is_poisoned": bool(data["is_poisoned"]),
+              }
+          else:
+            # ...existing code for specific collections...
+            finalized_document = {
+              # "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{dns_server}-{counter}",
+              "domain": domain,
+              "dns_server": dns_server,
+              "answers": list(data["answers"]),
+              "error_code": list(data["error_code"]),
+              "error_reason": list(data["error_reason"]),
+              "record_type": list(data["record_type"]),
+              "timestamp": timestamp,
+              "is_poisoned": bool(data["is_poisoned"]),
+            }
         else:
+          # Handle documents without dns_server
           finalized_document = {
-            "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
+            # "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
             "domain": domain,
-            "dns_server": dns_server,
             "answers": list(data["answers"]),
             "error_code": list(data["error_code"]),
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"]),
-            "timestamp": list(data["timestamp"]),
+            "timestamp": timestamp,
             "is_poisoned": bool(data["is_poisoned"]),
           }
+
         for field, value in data.items():
-          if field not in finalized_document:
+          if field not in finalized_document and field != "timestamp":
             finalized_document[field] = list(value)
+
+        # 移除 '_id' 字段以避免重复键错误
+        finalized_document.pop("_id", None)
+
         batch.append(finalized_document)
         counter += 1  # 自增数字增加
+
         if domain in error_code_data:
           error_info = error_code_data[domain]
           finalized_document["error_code"] = error_info.get("error_code", [])
           finalized_document["error_reason"] = error_info.get("error_reason", [])
-      else:
-        if is_traceroute:
-          finalized_document = {
-            "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
-            "domain": domain,
-            "timestamp": list(data["timestamp"]),
-            "error": list(data.get("Error", [])),
-            "error_reason": list(data.get("Error Reason", [])),
-            "mark": list(data.get("mark", [])),
-            "ips": list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
-            "invalid_ip": list(data.get("invalid_ip", [])),
-            "rst_detected": list(data.get("rst_detected", [])),
-            "redirection_detected": list(data.get("redirection_detected", [])),
-          }
-          # 检查是否包含内网地址
-          if '127.0.0.1' in data.get('IPv4', []) or '::1' in data.get('IPv6', []):
-              finalized_document['error'].append('Blocked')
-              finalized_document['error_reason'].append('Internal IP Address Blocked')
-          # 检查特定错误信息
-          for error in data.get('results', []):
-            if error == 'Traceroute timed out':
-              finalized_document['error'].append('Timeout')
-            elif error == 'No Answer':
-              finalized_document['error'].append('NoAnswer')
-            elif error == 'Traceroute Failed':
-              finalized_document['error'].append('Failed')
-            elif error == 'Not Found':
-              finalized_document['error'].append('NotFound')
-            elif error == 'Network Unreachable':
-              finalized_document['error'].append('NetworkUnreachable')
-            elif error == 'Host Unreachable':
-              finalized_document['error'].append('HostUnreachable')
-            elif error == 'Protocol Unreachable':
-              finalized_document['error'].append('ProtocolUnreachable')
-            elif error == 'Port Unreachable':
-              finalized_document['error'].append('PortUnreachable')
-            elif error == 'Fragmentation Needed':
-              finalized_document['error'].append('FragmentationNeeded')
-            elif error == 'Source Route Failed':
-              finalized_document['error'].append('SourceRouteFailed')
-            elif error == 'Destination Network Unknown':
-              finalized_document['error'].append('DestinationNetworkUnknown')
-            elif error == 'Destination Host Unknown':
-              finalized_document['error'].append('DestinationHostUnknown')
-            elif error == 'Source Host Isolated':
-              finalized_document['error'].append('SourceHostIsolated')
-            elif error == 'Communication with Destination Network Administratively Prohibited':
-              finalized_document['error'].append('CommunicationWithDestinationNetworkAdministrativelyProhibited')
-            elif error == 'Communication with Destination Host Administratively Prohibited':
-              finalized_document['error'].append('CommunicationWithDestinationHostAdministrativelyProhibited')
-            elif error == 'Destination Network Unreachable for Type of Service':
-              finalized_document['error'].append('DestinationNetworkUnreachableForTypeOfService')
-            elif error == 'Destination Host Unreachable for Type of Service':
-              finalized_document['error'].append('DestinationHostUnreachableForTypeOfService')
-            elif error == 'Communication Administratively Prohibited':
-              finalized_document['error'].append('CommunicationAdministrativelyProhibited')
-            elif error == 'Host Precedence Violation':
-              finalized_document['error'].append('HostPrecedenceViolation')
-            elif error == 'Precedence cutoff in effect':
-              finalized_document['error'].append('PrecedenceCutoffInEffect')
-        else:
-          finalized_document = {
-            "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
-            "domain": domain,
-            "dns_server": dns_server,
-            "answers": list(data["answers"]),
-            "error_code": list(data["error_code"]),
-            "error_reason": list(data["error_reason"]),
-            "record_type": list(data["record_type"]),
-            "timestamp": list(data["timestamp"]),
-            "is_poisoned": bool(data["is_poisoned"]),
-          }
-        for field, value in data.items():
-          if field not in finalized_document:
-            finalized_document[field] = list(value)
-        batch.append(finalized_document)
-        counter += 1
 
-      if len(batch) >= BATCH_SIZE:
+        if len(batch) >= BATCH_SIZE:
+          self._insert_documents(batch, target_db)
+          batch = []
+
+      if batch:
         self._insert_documents(batch, target_db)
-        batch = []
-    if batch:
-      self._insert_documents(batch, target_db)
-
-
 
   def _insert_documents(self, batch, target_db):
     try:
       if batch:
         logger.info(f"Inserting batch of {len(batch)} documents into {target_db.collection.name}")
-        target_db.insert_many(batch)
+        target_db.insert_many(batch, ordered=False)  # 已添加 ordered=False
+    except pymongo.errors.BulkWriteError as e:
+      for error in e.details.get('writeErrors', []):
+        if error.get('code') != 11000:
+          logger.error(f"Error inserting document: {error}")
     except Exception as e:
       logger.error(f"Error inserting documents: {e}")
 

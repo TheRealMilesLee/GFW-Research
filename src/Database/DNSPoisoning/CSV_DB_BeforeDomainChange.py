@@ -2,22 +2,21 @@ import csv
 import logging
 import multiprocessing
 import os
-from concurrent.futures import ThreadPoolExecutor
-
+import tqdm
+import ast
+import re
 from ..DBOperations import BDC_db, MongoDBHandler
-from tqdm import tqdm
+import hashlib
 
 # Constants
-if os.name == 'nt':
-  BeforeDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange'
-else:
-  BeforeDomainChangeFolder = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/BeforeDomainChange/'
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 
+CM_DNSP_BDC = MongoDBHandler(BDC_db['China-Mobile-DNSPoisoning'])
+UCD_DNSP_BDC = MongoDBHandler(BDC_db['UCDavis-CompareGroup-DNSPoisoning'])
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:
-    logging.root.removeHandler(handler)
+  logging.root.removeHandler(handler)
 
 # 设置基本配置
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
@@ -26,102 +25,41 @@ logger = logging.getLogger(__name__)
 def toBoolean(value: str) -> bool:
   return value == 'True'
 
-class DataProcessor:
-  def __init__(self, db_handler, folder_location):
-    self.db_handler = db_handler
-    self.folder_location = folder_location
+# DNS Poisoning results
+def BDC_DNSP_Dump(db, folder_location: str) -> list:
+  db.drop()  # Clear the collection before inserting new data
+  file_list = os.listdir(folder_location)
+  counter = 0
+  for file_name in tqdm.tqdm(file_list, desc=f'Processing {db.collection.name} '):
+    if file_name.endswith('.csv'):
+      with open(os.path.join(folder_location, file_name), 'r', encoding='utf-8') as file:
+        csv_reader = csv.reader(file)
+        batch_results = []
+        for row in csv_reader:
+          if row[0] == 'timestamp':
+            continue
+          try:
+            timestamp = row[0]
+            domain = row[1]
+            ipv4_results = set(filter(lambda ip: re.match(r'^\d{1,3}(\.\d{1,3}){3}$', ip), ast.literal_eval(row[2]) + ast.literal_eval(row[4])))
+            ipv6_results = set(filter(lambda ip: len(ip) > 2 and re.match(r'^[0-9a-fA-F:]+$', ip), ast.literal_eval(row[3]) + ast.literal_eval(row[5])))
 
-  def process(self):
-    raise NotImplementedError
+            result = {
+              "_id": f"{db.collection.name}-{domain}-{timestamp}-{counter}",
+              'timestamp': timestamp,
+              'domain': domain,
+              'IPv4': list(ipv4_results),
+              'IPv6': list(ipv6_results),
+            }
+            batch_results.append(result)
+            counter += 1
+          except Exception as e:
+            logger.error(f"Error processing row: {row}, error: {e}")
+    if batch_results:
+      db.insert_many(batch_results)
+  # Create indexes
+  db.create_index([('domain', 1), ('timestamp', 1)], unique=False)
 
-  def merge_results(self, readingResults, unique_keys):
-    merged_results = {}
-    for result in readingResults:
-      key = tuple(result[k] for k in unique_keys)  # 使用(unique_keys)作为唯一键
-      if key not in merged_results:
-        merged_results[key] = {k: result[k] for k in unique_keys}
-        for k in result:
-          if k not in unique_keys:
-            merged_results[key][k] = []
-      for k in result:
-        if k not in unique_keys and result[k] not in merged_results[key][k]:
-          merged_results[key][k].append(result[k])
-    return list(merged_results.values())
-
-class CSVProcessor(DataProcessor):
-  def process_csv(self, file):
-    readingResults = []
-    with open(os.path.join(self.folder_location, file), 'r', encoding='utf-8') as csv_file:
-      csv_reader = csv.reader(csv_file)
-      for row in csv_reader:
-        if row[0] == 'timestamp':
-          continue
-        readingResults.append(self.format_row(row))
-    return readingResults
-
-  def format_row(self, row):
-    raise NotImplementedError
-
-class TextProcessor(DataProcessor):
-  def process_txt(self, file):
-    readingResults = []
-    with open(os.path.join(self.folder_location, file), 'r', encoding='utf-8') as file:
-      lines = file.read().strip().split('\n')
-      for line in lines:
-        readingResults.append(self.format_line(line))
-    return readingResults
-
-  def format_line(self, line):
-    raise NotImplementedError
-
-class CM_DNSP_Processor(CSVProcessor):
-  def process(self):
-    self.db_handler.drop()
-    readingResults = []
-    for file in os.listdir(self.folder_location):
-      if file.endswith('.csv'):
-        readingResults.extend(self.process_csv(file))
-    readingResults = self.merge_results(readingResults, ['domain', 'dns_server'])
-    self.db_handler.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
-    return readingResults
-
-  def format_row(self, row):
-    determined_poisoned = toBoolean(row[7]) and toBoolean(row[8])
-    dns_servers = eval(row[2])  # 将字符串转换为列表
-    formatted_documents = []
-    for dns_server in dns_servers:
-      formatted_document = {
-        'timestamp': row[0],
-        'domain': row[1],
-        'dns_server': dns_server,
-        'results': ','.join([r for r in row[3:7] if len(r) > 7]),
-        'is_poisoned': determined_poisoned
-      }
-      formatted_documents.append(formatted_document)
-    return formatted_documents
-
-class UCD_DNSP_Processor(CM_DNSP_Processor):
-  pass
-
-class insert_into_db:
-  def __init__(self, db_handler, data):
-    self.db_handler = db_handler
-    self.data = data
-
-  def insert(self):
-    self.db_handler.insert_many(self.data)
-
-# Example usage
-if __name__ == "__main__":
-  logger.info("Databases cleaned up")
-  processors = [
-    CM_DNSP_Processor(MongoDBHandler(BDC_db['China-Mobile-DNSPoisoning']), os.path.join(BeforeDomainChangeFolder, 'DNSPoisoning/')),
-    UCD_DNSP_Processor(MongoDBHandler(BDC_db['UCDavis-CompareGroup-DNSPoisoning']), os.path.join(BeforeDomainChangeFolder, 'CompareGroup', 'DNSPoisoning/')),
-  ]
-  def process_processor(processor):
-    results = processor.process()
-    insert_into_db(processor.db_handler, results).insert()
-    logger.info(f"Processed {len(results)} records for {processor.__class__.__name__}")
-
-  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    executor.map(process_processor, processors)
+if __name__ == '__main__':
+  BDC_DNSP_Dump(CM_DNSP_BDC, "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange\\DNSPoisoning")
+  BDC_DNSP_Dump(UCD_DNSP_BDC, "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange\\CompareGroup\\DNSPoisoning")

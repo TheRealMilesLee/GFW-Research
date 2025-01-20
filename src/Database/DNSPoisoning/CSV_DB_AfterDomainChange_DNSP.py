@@ -60,23 +60,7 @@ def CM_DNSP(folder_location: str) -> list:
             readingResults.append(formatted_document)
 
   # Data merge and cleanup
-  merged_results = {}
-  for result in readingResults:
-    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
-    if key not in merged_results:
-      merged_results[key] = {
-        'domain': result['domain'],
-        'dns_server': result['dns_server'],
-        'timestamp': [],
-        'results': []
-      }
-    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
-      merged_results[key]['timestamp'].append(result['timestamp'])
-    if result['results'] and result['results'] not in merged_results[key]['results']:
-      merged_results[key]['results'].append(result['results'])
-
-  readingResults = list(merged_results.values())
-  CM_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
+  CM_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
   return readingResults
 
 def CT_DNSP(folder_location: str) -> list:
@@ -106,24 +90,7 @@ def CT_DNSP(folder_location: str) -> list:
             readingResults.append(formatted_document)
 
   # Data merge and cleanup
-  merged_results = {}
-  for result in readingResults:
-    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
-    if key not in merged_results:
-      merged_results[key] = {
-        'domain': result['domain'],
-        'dns_server': result['dns_server'],
-        'timestamp': [],
-        'answers': [],
-        'is_poisoned': result['is_poisoned']
-      }
-    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
-      merged_results[key]['timestamp'].append(result['timestamp'])
-    if result['answers'] and result['answers'] not in merged_results[key]['answers']:
-      merged_results[key]['answers'].append(result['answers'])
-
-  readingResults = list(merged_results.values())
-  CT_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
+  CT_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
   return readingResults
 
 def UCD_DNSP(folder_location: str) -> list:
@@ -148,24 +115,7 @@ def UCD_DNSP(folder_location: str) -> list:
           CompareGroupResults.append(formatted_document)
 
   # Data merge and cleanup
-  merged_results = {}
-  for result in CompareGroupResults:
-    key = (result['domain'], result['dns_server'])  # 使用(domain, dns_server)作为唯一键
-    if key not in merged_results:
-      merged_results[key] = {
-        'domain': result['domain'],
-        'dns_server': result['dns_server'],
-        'timestamp': [],
-        'answers': [],
-        'is_poisoned': result['is_poisoned']
-      }
-    if result['timestamp'] and result['timestamp'] not in merged_results[key]['timestamp']:
-      merged_results[key]['timestamp'].append(result['timestamp'])
-    if result['answers'] and result['answers'] not in merged_results[key]['answers']:
-      merged_results[key]['answers'].append(result['answers'])
-
-  CompareGroupResults = list(merged_results.values())
-  UCD_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1)], unique=True)  # 创建复合唯一索引
+  UCD_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
   return CompareGroupResults
 
 
