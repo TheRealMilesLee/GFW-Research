@@ -65,8 +65,8 @@ CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
 CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 256)  # Dynamically set workers
-BATCH_SIZE = 10000  # Increased batch size for more efficient processing
+MAX_WORKERS = max(CPU_CORES * 2, 512)  # Dynamically set workers
+BATCH_SIZE = 100000  # Increased batch size for more efficient processing
 
 class Merger:
   def __init__(
