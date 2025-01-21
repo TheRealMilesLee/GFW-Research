@@ -433,17 +433,38 @@ class Merger:
       }
     else:
       all_ips = set()
-      pattern = r"\b(?:\d{1,3}\.){3}\d{1,3}\b|\b[0-9a-fA-F:]+\b"
+      # 更新后的IPv4和IPv6正则表达式，移除长度限制
+      ipv4_pattern = r"\b(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\b"
+      ipv6_pattern = r"\b(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}\b"
+      pattern = f"({ipv4_pattern})|({ipv6_pattern})"
       for answer in answers:
         # 将答案拉平，并将嵌套字符串转换为列表
         if isinstance(answer, str):
-          flat_values = re.findall(pattern, answer)
+          # 移除方括号
+          cleaned_answer = answer.strip("[]")
+          # 以逗号或双引号分割
+          parts = re.split(r",|''", cleaned_answer)
+          # 修剪并过滤有效的IP地址
+          flat_values = [ip.strip().strip("'").strip('"') for ip in parts if ip.strip()]
+          flat_values = [ip for ip in flat_values if re.match(ipv4_pattern, ip) or re.match(ipv6_pattern, ip)]
         elif isinstance(answer, list):
-          flat_values = set(
-            chain.from_iterable(
-                re.findall(pattern, str(v)) if isinstance(v, str) else [v] for v in answer
-            )
-          )
+          flat_values = set()
+          for item in answer:
+            if isinstance(item, str):
+              # 移除方括号
+              cleaned_item = item.strip("[]")
+              # 以逗号或双引号分割
+              parts = re.split(r",|''", cleaned_item)
+              ips = [ip.strip().strip("'").strip('"') for ip in parts if ip.strip()]
+              # 过滤有效的IP地址
+              ips = [ip for ip in ips if re.match(ipv4_pattern, ip) or re.match(ipv6_pattern, ip)]
+              flat_values.update(ips)
+            else:
+              # 处理非字符串项，假设为有效的IP地址
+              if isinstance(item, str):
+                flat_values.add(item)
+          # ...existing code...
+          all_ips.update(flat_values)
         else:
           flat_values = []
         # 拉平后加入去重集合
