@@ -1,4 +1,5 @@
 import concurrent.futures
+import datetime
 import logging
 import multiprocessing
 import re
@@ -9,12 +10,11 @@ from threading import Lock
 import pymongo
 from .DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
-
 # Config Logger
 for handler in logging.root.handlers[:]:
   logging.root.removeHandler(handler)
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')  # 修正格式字符串
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', filename='out.log', filemode='w')  # 修正格式字符串并输出到out.log
 logger = logging.getLogger(__name__)
 
 # DNSPoisoning Constants for AfterDomainChange
@@ -131,6 +131,7 @@ class Merger:
     self.lock = Lock()
 
   def merge_documents(self):
+    logger.info("Starting merge_documents")
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
       futures = [
         # DNSPoisoning Constants
@@ -172,10 +173,10 @@ class Merger:
     self._finalize_documents(self.processed_domains_tr, self.merged_db_2024_gfwl, is_traceroute=True)                      # 新增
 
   def _merge_documents(self, db_handler, merge_function, processed_domains, target_db, use_dns_server=False):
-    logger.info(f"Merging documents from {db_handler.collection.name}")
     try:
-      documents = list(db_handler.find({}))  # Pre-load all documents into memory
-      for document in tqdm(documents, desc=f"Merging {db_handler.collection.name}"):
+      # 使用游标迭代而不是一次性加载所有文档
+      cursor = db_handler.find({})
+      for idx, document in enumerate(tqdm(cursor, desc=f"Merging {db_handler.collection.name}")):
         merge_function(document, processed_domains, use_dns_server)
     except Exception as e:
       logger.error(f"Error in _merge_documents: {e}")
@@ -439,13 +440,16 @@ class Merger:
         if isinstance(answer, str):
           flat_values = re.findall(pattern, answer)
         elif isinstance(answer, list):
+          # 修正这里以处理嵌套列表
           flat_values = set(
             chain.from_iterable(
-                re.findall(pattern, str(v)) if isinstance(v, str) else [v] for v in answer
+                re.findall(pattern, str(v)) if isinstance(v, str) else [item for item in v] for v in answer
             )
           )
         else:
           flat_values = []
+        # 添加调试日志以检查 `flat_values`
+        logger.debug(f"Flat values: {flat_values}")
         # 拉平后加入去重集合
         all_ips.update(flat_values)
       unique_ips = list(all_ips)
@@ -460,7 +464,7 @@ class Merger:
             is_poisoned = True
             break
       return {
-        "domain": domain,
+        "domain": self._normalize_domain(domain),
         "timestamp": timestamp or [],
         "answers": unique_ips or [],
         "dns_server": dns_server or "unknown",
@@ -470,9 +474,15 @@ class Merger:
         "is_poisoned": is_poisoned or False,
       }
 
+  def _normalize_domain(self, domain):
+    # 标准化域名，移除 'www.'
+    if domain.startswith("www."):
+      return domain[4:]
+    return domain
+
   def _process_document(self, document, processed_domains, use_dns_server=False):
     try:
-      domain = document["domain"]
+      domain = self._normalize_domain(document["domain"])
       try:
         dns_servers = ast.literal_eval(document.get("dns_server", "['unknown']"))  # 使用 ast.literal_eval 安全地将字符串转换为列表
       except (ValueError, SyntaxError):
@@ -481,11 +491,25 @@ class Merger:
         logger.warning(f"Document with missing domain skipped: {document}")
         return
 
+      timestamp = document.get("timestamp", None)  # 获取字段，None为默认值
+      if isinstance(timestamp, str):  # 如果是字符串
+          date = self._extract_date(timestamp)
+      elif isinstance(timestamp, list) and timestamp:  # 如果是非空数组
+          date = self._extract_date(timestamp[0])  # 提取第一个元素
+      else:  # 其他情况
+          date = "unknown"
       with self.lock:
         for dns_server in dns_servers:
-          key = (domain, dns_server) if use_dns_server else domain  # 根据Flag使用不同的唯一键
+          key = (date, domain, dns_server) if use_dns_server else (date, domain)
+          if isinstance(timestamp, list):
+            for t in timestamp:
+              processed_domains[key]['timestamp'].add(t)  # 分别添加每个 timestamp
+          elif isinstance(timestamp, str):
+            processed_domains[key]['timestamp'].add(timestamp)  # 直接添加字符串 timestamp
+          else:
+            processed_domains[key]['timestamp'].add("unknown")  # 添加默认值
           for field, value in document.items():
-            if field not in ["domain", "dns_server"]:
+            if field not in ["domain", "dns_server", "timestamp"]:
               if isinstance(value, list):
                 flat_values = set(
                   chain.from_iterable(
@@ -500,18 +524,32 @@ class Merger:
     except Exception as e:
       logger.error(f"Error processing document: {document}, {e}")
 
+  def _extract_date(self, timestamp):
+    try:
+      if isinstance(timestamp, datetime.datetime):  # 如果是 datetime 对象
+        timestamp = timestamp.isoformat()  # 转为 ISO 格式字符串
+      elif not isinstance(timestamp, str):  # 如果不是字符串，直接返回未知
+        logger.warning(f"Unexpected timestamp type: {type(timestamp)}")
+        return "unknown"
+      date = timestamp.split("T")[0]  # 提取日期部分
+      logger.debug(f"Extracted date: {date} from timestamp: {timestamp}")
+      return date
+    except Exception as e:
+      logger.error(f"Error extracting date from timestamp '{timestamp}': {e}")
+      return "unknown"
+
   def _finalize_documents(self, processed_domains, target_db, is_traceroute=False, use_dns_server=False):
     batch = []
     counter = 0  # 自增数字
-    error_code_data = self.error_domain_dsp_adc_cm.find({})
+    # 将 error_code_data 转换为字典，以域名作为键
+    error_code_documents = self.error_domain_dsp_adc_cm.find({})
+    error_code_data = {doc['domain']: doc for doc in error_code_documents if 'domain' in doc}
 
     for key, data in processed_domains.items():
       if use_dns_server:
-        domain, dns_server = key
-        if not dns_server or len(dns_server) <= 1:
-          continue  # 跳过 dns_server 为空或只有1个字符的文档
+        date, domain, dns_server = key
       else:
-        domain = key
+        date, domain = key
         dns_server = None
 
       timestamps = data.get("timestamp", [])
@@ -631,15 +669,17 @@ class Merger:
 
         if len(batch) >= BATCH_SIZE:
           self._insert_documents(batch, target_db)
+          logger.info(f"Inserted batch of {len(batch)} documents into {target_db.collection.name}")
           batch = []
 
       if batch:
         self._insert_documents(batch, target_db)
+      # 确保及时清理不需要的数据
+      del data
 
   def _insert_documents(self, batch, target_db):
     try:
       if batch:
-        logger.info(f"Inserting batch of {len(batch)} documents into {target_db.collection.name}")
         target_db.insert_many(batch, ordered=False)  # 已添加 ordered=False
     except pymongo.errors.BulkWriteError as e:
       for error in e.details.get('writeErrors', []):

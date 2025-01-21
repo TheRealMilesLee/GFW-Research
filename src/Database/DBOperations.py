@@ -57,10 +57,12 @@ class MongoDBHandler:
         return list(self.collection.find(data, projection))
 
     def insert_many(self, documents, ordered=True):
+        logger.info(f"Preparing to insert {len(documents)} documents into {self.collection.name}")
         for doc in documents:
             doc.pop("_id", None)  # 移除 '_id' 字段
         try:
             self.collection.insert_many(documents, ordered=ordered)
+            logger.info(f"Successfully inserted {len(documents)} documents into {self.collection.name}")
         except pymongo.errors.BulkWriteError as e:
             # 处理批量写入错误
             logger.error(f"Bulk write error: {e.details}")
