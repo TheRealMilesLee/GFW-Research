@@ -176,8 +176,15 @@ class Merger:
     try:
       # 使用游标迭代而不是一次性加载所有文档
       cursor = db_handler.find({})
-      for idx, document in enumerate(tqdm(cursor, desc=f"Merging {db_handler.collection.name}")):
-        merge_function(document, processed_domains, use_dns_server)
+      if isinstance(cursor, list):
+        for idx, document in enumerate(tqdm(cursor, desc=f"Merging {db_handler.collection.name}")):
+          merge_function(document, processed_domains, use_dns_server)
+      else:
+        try:
+          for idx, document in enumerate(tqdm(cursor, desc=f"Merging {db_handler.collection.name}")):
+            merge_function(document, processed_domains, use_dns_server)
+        finally:
+          cursor.close()  # 关闭游标
     except Exception as e:
       logger.error(f"Error in _merge_documents: {e}")
 
