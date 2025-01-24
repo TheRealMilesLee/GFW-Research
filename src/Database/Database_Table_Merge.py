@@ -185,7 +185,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -197,7 +197,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("ips", []),
+        ips=document.get("ips", []),
         error=document.get("error", []),
         mark=document.get("mark", []),
         is_traceroute=True,
@@ -211,7 +211,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        answers=document.get("answers", []),
+        ips=document.get("answers", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -223,7 +223,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -250,7 +250,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         dns_server=document.get("dns_server", "unknown"),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         error_code=document.get("error_code", []),
         error_reason=document.get("error_reason", []),
         record_type=document.get("record_type", []),
@@ -282,7 +282,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        answers=document.get("answers", []),
+        ips=document.get("answers", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -294,7 +294,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         is_traceroute=True,
       ),
       processed_domains,
@@ -320,7 +320,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -332,7 +332,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("result", []),
+        ips=document.get("result", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
@@ -361,7 +361,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        answers=document.get("results", []),
+        ips=document.get("results", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -373,7 +373,7 @@ class Merger:
     self._process_document(
       self._format_document(
         domain=document.get("domain", ""),
-        answers=document.get("result", []),
+        ips=document.get("result", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=True,
       ),
@@ -401,7 +401,7 @@ class Merger:
     self,
     domain,
     timestamp=None,
-    answers=None,
+    ips=None,  # 将 'answers' 改为 'ips'
     dns_server=None,
     is_traceroute=False,
     error=None,
@@ -422,7 +422,7 @@ class Merger:
       return {
         "domain": domain,
         "timestamp": timestamp or [],
-        "results": answers or [],
+        "ips": ips or [],  # 将 'answers' 或 'results' 改为 'ips'
         "error": error or [],
         "mark": mark or [],
         "IPv4": ipv4 or [],
@@ -434,41 +434,42 @@ class Merger:
     else:
       all_ips = set()
       # 更新后的IPv4和IPv6正则表达式，移除长度限制
-      ipv4_pattern = r"\b(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\.(?:25[0-5]|2[0-4]\d|1?\d{1,2})\b"
-      ipv6_pattern = r"\b(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}\b"
-      pattern = f"({ipv4_pattern})|({ipv6_pattern})"
-      for answer in answers:
-        # 将答案拉平，并将嵌套字符串转换为列表
-        if isinstance(answer, str):
-          # 移除方括号
-          cleaned_answer = answer.strip("[]")
-          # 以逗号或双引号分割
-          parts = re.split(r",|''", cleaned_answer)
-          # 修剪并过滤有效的IP地址
-          flat_values = [ip.strip().strip("'").strip('"') for ip in parts if ip.strip()]
-          flat_values = [ip for ip in flat_values if re.match(ipv4_pattern, ip) or re.match(ipv6_pattern, ip)]
-        elif isinstance(answer, list):
-          flat_values = set()
-          for item in answer:
-            if isinstance(item, str):
-              # 移除方括号
-              cleaned_item = item.strip("[]")
-              # 以逗号或双引号分割
-              parts = re.split(r",|''", cleaned_item)
-              ips = [ip.strip().strip("'").strip('"') for ip in parts if ip.strip()]
-              # 过滤有效的IP地址
-              ips = [ip for ip in ips if re.match(ipv4_pattern, ip) or re.match(ipv6_pattern, ip)]
-              flat_values.update(ips)
-            else:
-              # 处理非字符串项，假设为有效的IP地址
-              if isinstance(item, str):
-                flat_values.add(item)
-          # ...existing code...
-          all_ips.update(flat_values)
-        else:
+      # Write the answer to a log file
+      with open("ips.log", "a") as log_file:
+        log_file.write(f"{ips}\n")
+      # 将答案拉平，并将嵌套字符串转换为列表
+      if isinstance(ips, str):
+        # 移除方括号并解析为列表
+        try:
+          cleaned_answer = ast.literal_eval(ips)
+          if isinstance(cleaned_answer, list):
+            flat_values = [ip.strip() for ip in cleaned_answer if ip.strip()]
+          else:
+            flat_values = [cleaned_answer.strip()] if cleaned_answer.strip() else []
+        except (ValueError, SyntaxError):
           flat_values = []
-        # 拉平后加入去重集合
+
+      elif isinstance(ips, list):
+        flat_values = set()
+        for item in ips:
+          if isinstance(item, str):
+            # 移除方括号并解析为列表
+            try:
+              cleaned_item = ast.literal_eval(item)
+              if isinstance(cleaned_item, list):
+                ips = [ip.strip() for ip in cleaned_item if isinstance(ip, str) and ip.strip()]
+              else:
+                ips = [cleaned_item.strip()] if isinstance(cleaned_item, str) and cleaned_item.strip() else []
+            except (ValueError, SyntaxError):
+              ips = []
+            # 过滤有效的IP地址
+            flat_values.update(ips)
+          # ...existing code...
         all_ips.update(flat_values)
+      else:
+        flat_values = []
+      # 拉平后加入去重集合
+      all_ips.update(flat_values)
       unique_ips = list(all_ips)
       is_poisoned = False
       internal_ip_patterns = [
@@ -483,7 +484,7 @@ class Merger:
       return {
         "domain": domain,
         "timestamp": timestamp or [],
-        "answers": unique_ips or [],
+        "ips": unique_ips or [],  # 将 'answers' 改为 'ips'
         "dns_server": dns_server or "unknown",
         "error_code": error_code or [],
         "error_reason": error_reason or [],
@@ -540,7 +541,7 @@ class Merger:
             "_id": f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
             "domain": domain,
             "timestamp": list(data["timestamp"]),
-            "ips": list(data.get("answers", [])) + list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
+            "ips": list(data.get("ips", [])) + list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
             "error": list(data.get("error", [])),
             "error_reason": list(data.get("Error Reason", [])),
             "mark": list(data.get("mark", [])),
@@ -598,7 +599,7 @@ class Merger:
             "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
             "domain": domain,
             "dns_server": dns_server,
-            "answers": list(data["answers"]),
+            "ips": list(data["ips"]),
             "error_code": list(data["error_code"]),
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"]),
@@ -679,7 +680,7 @@ class Merger:
             "_id": f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
             "domain": domain,
             "dns_server": dns_server,
-            "answers": list(data["answers"]),
+            "ips": list(data["ips"]),
             "error_code": list(data["error_code"]),
             "error_reason": list(data["error_reason"]),
             "record_type": list(data["record_type"]),

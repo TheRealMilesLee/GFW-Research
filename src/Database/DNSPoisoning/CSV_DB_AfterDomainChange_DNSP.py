@@ -55,7 +55,7 @@ def CM_DNSP(folder_location: str) -> list:
               'timestamp': row[0],
               'domain': row[1],
               'dns_server': dns_server,
-              'results': row[3] + row[4]
+              'ips': row[3] + row[4]
             }
             readingResults.append(formatted_document)
 
@@ -84,7 +84,7 @@ def CT_DNSP(folder_location: str) -> list:
               "timestamp": row[0],
               "domain": row[1],
               "dns_server": dns_server,
-              "answers": row[3] + row[4] + row[5],
+              "ips": row[3] + row[4] + row[5],
               "is_poisoned": determind_poisoned
             }
             readingResults.append(formatted_document)
@@ -109,7 +109,7 @@ def UCD_DNSP(folder_location: str) -> list:
             "timestamp": row[0],
             "domain": row[1],
             "dns_server": row[2],
-            "answers": row[3] + row[4] + row[5],
+            "ips": row[3] + row[4] + row[5],
             "is_poisoned": determind_poisoned
           }
           CompareGroupResults.append(formatted_document)

@@ -45,7 +45,7 @@ def process_file(file, mongodbOP_CM_DNSP):
             data = {
                 'timestamp': value['timestamp'],  # 不聚合 timestamp
                 'record_type': list(set(value['record_type'])),
-                'answers': sorted(list(set([ans for ans in value['answers'] if ans]))),
+                'ips': sorted(list(set([ans for ans in value['answers'] if ans]))),
                 'error_code': list(set([code for code in value['error_code'] if code])),
                 'error_reason': list(set([reason for reason in value['error_reason'] if reason])),
                 'dns_server': dns_server
@@ -56,7 +56,7 @@ def process_file(file, mongodbOP_CM_DNSP):
                 '$addToSet': {
                     'timestamp': {'$each': data['timestamp']},
                     'record_type': {'$each': data['record_type']},
-                    'answers': {'$each': data['answers']},
+                    'ips': {'$each': data['ips']},
                     'error_code': {'$each': data['error_code']},
                     'error_reason': {'$each': data['error_reason']}
                 }

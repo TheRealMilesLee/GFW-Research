@@ -48,8 +48,7 @@ def BDC_DNSP_Dump(db, folder_location: str) -> list:
               "_id": f"{db.collection.name}-{domain}-{timestamp}-{counter}",
               'timestamp': timestamp,
               'domain': domain,
-              'IPv4': list(ipv4_results),
-              'IPv6': list(ipv6_results),
+              'ips': list(ipv4_results.union(ipv6_results)),
             }
             batch_results.append(result)
             counter += 1

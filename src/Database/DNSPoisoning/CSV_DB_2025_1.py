@@ -41,7 +41,7 @@ def process_file(file, mongodbOP_CM_DNSP):
                     'domain': row['domain'],
                     'dns_server': dns_server,
                     'record_type': row['record_type'],
-                    'answers': row['answers'],
+                    'ips': row['answers'],
                     'error_code': row['error_code'],
                     'error_reason': row['error_reason']
                 }
