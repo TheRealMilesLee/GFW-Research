@@ -51,7 +51,7 @@ def check_domain_exists(domain: str) -> bool:
 
 def get_dns_servers() -> list:
   print("读取DNS服务器列表")
-  csv_file = "E:/Developer/SourceRepo/GFW-Research/src/Import/dns_servers.csv"
+  csv_file = "D:\\Developer\\GFW-Research\\src\\Import\\dns_servers.csv"
   dns_servers = []
   try:
     with open(csv_file, 'r') as file:
