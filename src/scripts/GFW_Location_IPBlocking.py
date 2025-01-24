@@ -64,6 +64,32 @@ def get_dns_servers() -> list:
     print(f"读取DNS服务器列表时出错: {e}")
   return dns_servers
 
+def map_traceroute_error(error: str) -> str:
+    error_mapping = {
+        'Traceroute timed out': 'Timeout',
+        'No Answer': 'NoAnswer',
+        'Traceroute Failed': 'Failed',
+        'Not Found': 'NotFound',
+        'Network Unreachable': 'NetworkUnreachable',
+        'Host Unreachable': 'HostUnreachable',
+        'Protocol Unreachable': 'ProtocolUnreachable',
+        'Port Unreachable': 'PortUnreachable',
+        'Fragmentation Needed': 'FragmentationNeeded',
+        'Source Route Failed': 'SourceRouteFailed',
+        'Destination Network Unknown': 'DestinationNetworkUnknown',
+        'Destination Host Unknown': 'DestinationHostUnknown',
+        'Source Host Isolated': 'SourceHostIsolated',
+        'Communication with Destination Network Administratively Prohibited': 'CommunicationWithDestinationNetworkAdministrativelyProhibited',
+        'Communication with Destination Host Administratively Prohibited': 'CommunicationWithDestinationHostAdministrativelyProhibited',
+        'Destination Network Unreachable for Type of Service': 'DestinationNetworkUnreachableForTypeOfService',
+        'Destination Host Unreachable for Type of Service': 'DestinationHostUnreachableForTypeOfService',
+        'Communication Administratively Prohibited': 'CommunicationAdministrativelyProhibited',
+        'Host Precedence Violation': 'HostPrecedenceViolation',
+        'Precedence cutoff in effect': 'PrecedenceCutoffInEffect',
+        'Domain does not exist': 'DomainDoesNotExist'
+    }
+    return error_mapping.get(error, 'UnknownError')
+
 def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
   print(f"使用DNS服务器 {dns_server} 进行 traceroute")
   try:
@@ -118,7 +144,13 @@ def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
       except Exception as e:
         print(f"Error checking TCP RST and redirection for {ip}: {e}")
 
-    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected, "invalid_ips": invalid_ips}
+    # 添加错误映射
+    errors = []
+    for ip in invalid_ips:
+        mapped_error = map_traceroute_error(ip)  # 假设ip包含错误信息
+        errors.append(mapped_error)
+
+    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected, "invalid_ips": invalid_ips, "errors": errors}
 
   except subprocess.CalledProcessError as e:
     print(f"Error running traceroute for {domain}: {e}")
@@ -235,7 +267,7 @@ def save_to_file(results: list, date_str: str) -> None:
           result.get("rst_detected", ""),
           result.get("redirection_detected", ""),
           ", ".join(result.get("invalid_ips", [])),
-          result.get("error", "")
+          "; ".join(result.get("errors", []))  # 修改此行以包含映射后的错误
         ])
   except Exception as e:
     print(f"Error saving results to file: {e}")
