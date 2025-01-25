@@ -96,6 +96,8 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     ax.set_ylabel('Number of Occurrences')
     ax.set_title(f'Error Code Distribution for DNS Server {server} ({provider})')
     plt.setp(ax.get_xticklabels(), rotation=45)
+    total = sum(counts)
+    ax.text(0.5, 1.05, f'Total: {total} occurrences', transform=ax.transAxes, ha='center')
     sanitized_server = server.replace(':', '_').replace('/', '_')
     fig.savefig(f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png')
     plt.close(fig)  # 确保图形被关闭
@@ -135,6 +137,8 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db, output_fold
       ax.set_ylabel('Number of Occurrences')
       ax.set_title(f'Error Code Distribution for {region}')
       plt.setp(ax.get_xticklabels(), rotation=45)
+      total = sum(counts)
+      ax.text(0.5, 1.05, f'Total: {total} occurrences', transform=ax.transAxes, ha='center')
       sanitized_region = region.replace(':', '_').replace('/', '_')
       fig.savefig(f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png')
       plt.close(fig)
