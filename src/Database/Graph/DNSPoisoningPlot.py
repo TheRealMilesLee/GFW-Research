@@ -303,6 +303,55 @@ def access_timely_distribution(destination_db, output_folder):
     fig.savefig(f'{output_folder}/access_timely_distribution.png')
     plt.close(fig)
 
+def access_inaccess_distribution():
+  """
+  绘制可访问域名、不可访问域名和有时可访问域名的分布
+  """
+  # 查询所有文档，提取域名和时间戳
+  docs = DNSPoisoning.find({}, {"domain": 1, "timestamp": 1, "error_code": 1, "ips": 1})
+  access_data = {}
+
+  for doc in docs:
+    timestamp = doc.get('timestamp')
+    domain = doc.get('domain')
+    error_code = doc.get('error_code')
+    result = doc.get('ips')
+    if not timestamp or not domain:
+      continue
+    date = timestamp.replace(hour=0, minute=0, second=0, microsecond=0)
+    if date not in access_data:
+      access_data[date] = {'accessible': set(), 'inaccessible': set(), 'sometimes': set()}
+    if error_code and not result:
+      access_data[date]['inaccessible'].add(domain)
+    elif error_code and result:
+      access_data[date]['sometimes'].add(domain)
+    else:
+      access_data[date]['accessible'].add(domain)
+
+  # 聚合数据
+  dates = sorted(access_data.keys())
+  accessible_counts = [len(access_data[date]['accessible']) for date in dates]
+  inaccessible_counts = [len(access_data[date]['inaccessible']) for date in dates]
+  sometimes_counts = [len(access_data[date]['sometimes']) for date in dates]
+
+  # 绘制趋势图
+  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+  ax.plot(dates, accessible_counts, label='可访问', color='green')
+  ax.plot(dates, inaccessible_counts, label='不可访问', color='red')
+  ax.plot(dates, sometimes_counts, label='有时可访问', color='orange')
+  ax.set_xlabel('时间戳')
+  ax.set_ylabel('域名数量')
+  ax.set_title('可访问、不可访问和有时可访问域名数量的时间趋势')
+  ax.legend()
+
+  # 格式化X轴为日期
+  ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+  ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+
+  plt.setp(ax.get_xticklabels(), rotation=45)
+  fig.savefig('access_inaccess_distribution.png')
+  plt.close(fig)
+
 if __name__ == '__main__':
   def ensure_folder_exists(folder_path):
     if not os.path.exists(folder_path):
