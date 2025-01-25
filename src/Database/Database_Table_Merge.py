@@ -185,7 +185,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        ips=document.get("results", []),
+        ips=document.get("ips", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -211,7 +211,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        ips=document.get("answers", []),
+        ips=document.get("ips", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -250,7 +250,7 @@ class Merger:
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
         dns_server=document.get("dns_server", "unknown"),
-        ips=document.get("results", []),
+        ips=document.get("ips", []),
         error_code=document.get("error_code", []),
         error_reason=document.get("error_reason", []),
         record_type=document.get("record_type", []),
@@ -282,7 +282,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        ips=document.get("answers", []),
+        ips=document.get("ips", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -320,7 +320,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        ips=document.get("results", []),
+        ips=document.get("ips", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -361,7 +361,7 @@ class Merger:
       self._format_document(
         domain=document.get("domain", ""),
         timestamp=document.get("timestamp", []),
-        ips=document.get("results", []),
+        ips=document.get("ips", []),
         dns_server=document.get("dns_server", "unknown"),
         is_traceroute=False,
       ),
@@ -401,7 +401,7 @@ class Merger:
     self,
     domain,
     timestamp=None,
-    ips=None,  # 将 'answers' 改为 'ips'
+    ips=None,
     dns_server=None,
     is_traceroute=False,
     error=None,
@@ -422,7 +422,7 @@ class Merger:
       return {
         "domain": domain,
         "timestamp": timestamp or [],
-        "ips": ips or [],  # 将 'answers' 或 'results' 改为 'ips'
+        "ips": ips or [],
         "error": error or [],
         "mark": mark or [],
         "IPv4": ipv4 or [],
@@ -484,7 +484,7 @@ class Merger:
       return {
         "domain": domain,
         "timestamp": timestamp or [],
-        "ips": unique_ips or [],  # 将 'answers' 改为 'ips'
+        "ips": unique_ips or [],
         "dns_server": dns_server or "unknown",
         "error_code": error_code or [],
         "error_reason": error_reason or [],
