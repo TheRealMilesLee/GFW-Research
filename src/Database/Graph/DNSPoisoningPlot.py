@@ -1,179 +1,214 @@
 import matplotlib
-matplotlib.use('Agg')
+
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from ..DBOperations import Merged_db, MongoDBHandler
+from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from datetime import datetime
 from collections import defaultdict
 import csv
 import os
 import matplotlib.dates as mdates
+from ipaddress import ip_network, ip_address
+import re
+
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
 merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
 
-categories = DNSPoisoning.distinct('error_code')
+categories = DNSPoisoning.distinct("error_code")
 
 provider_region_map = {
-  "Google": "U.S. DNS Provider",
-  "Google Alternative": "U.S. DNS Provider",
-  "Cloudflare": "U.S. DNS Provider",
-  "Cloudflare Alternative": "U.S. DNS Provider",
-  "GCore": "Luxembourg DNS Provider",
-  "GCore Alternative": "Luxembourg DNS Provider",
-  "Yandex DNS": "Russia DNS Provider",
-  "Yandex DNS Alternative": "Russia DNS Provider",
-  "Yandex DNS (Additional)": "Russia DNS Provider",
-  "Quad9": "Zürich DNS Provider",
-  "Quad9 Alternative": "Zürich DNS Provider",
-  "OpenDNS": "U.S. DNS Provider",
-  "OpenDNS Alternative": "U.S. DNS Provider",
-  "OpenDNS Additional": "U.S. DNS Provider",
-  "AdGuard DNS": "Cyprus DNS Provider",
-  "AdGuard DNS Alternative": "Cyprus DNS Provider",
-  "114DNS": "China DNS Provider",
-  "114DNS Alternative": "China DNS Provider",
-  "AliDNS": "China DNS Provider",
-  "AliDNS Alternative": "China DNS Provider",
-  "DNSPod": "China DNS Provider",
-  "Baidu DNS": "China DNS Provider",
-  "China Telecom": "China DNS Provider",
-  "China Unicom": "China DNS Provider",
-  "CUCC DNS": "China DNS Provider",
-  "China Mobile": "China DNS Provider",
-  "OneDNS": "China DNS Provider",
-  "Tencent DNS": "China DNS Provider",
-  "Baidu DNS Alternative": "China DNS Provider",
-  "Tencent DNS Alternative": "China DNS Provider"
+    "Google": "U.S. DNS Provider",
+    "Google Alternative": "U.S. DNS Provider",
+    "Cloudflare": "U.S. DNS Provider",
+    "Cloudflare Alternative": "U.S. DNS Provider",
+    "GCore": "Luxembourg DNS Provider",
+    "GCore Alternative": "Luxembourg DNS Provider",
+    "Yandex DNS": "Russia DNS Provider",
+    "Yandex DNS Alternative": "Russia DNS Provider",
+    "Yandex DNS (Additional)": "Russia DNS Provider",
+    "Quad9": "Zürich DNS Provider",
+    "Quad9 Alternative": "Zürich DNS Provider",
+    "OpenDNS": "U.S. DNS Provider",
+    "OpenDNS Alternative": "U.S. DNS Provider",
+    "OpenDNS Additional": "U.S. DNS Provider",
+    "AdGuard DNS": "Cyprus DNS Provider",
+    "AdGuard DNS Alternative": "Cyprus DNS Provider",
+    "114DNS": "China DNS Provider",
+    "114DNS Alternative": "China DNS Provider",
+    "AliDNS": "China DNS Provider",
+    "AliDNS Alternative": "China DNS Provider",
+    "DNSPod": "China DNS Provider",
+    "Baidu DNS": "China DNS Provider",
+    "China Telecom": "China DNS Provider",
+    "China Unicom": "China DNS Provider",
+    "CUCC DNS": "China DNS Provider",
+    "China Mobile": "China DNS Provider",
+    "OneDNS": "China DNS Provider",
+    "Tencent DNS": "China DNS Provider",
+    "Baidu DNS Alternative": "China DNS Provider",
+    "Tencent DNS Alternative": "China DNS Provider",
 }
 
 # read dns servers from csv file and create a mapping from ip to provider and region
 ip_to_provider = {}
 ip_to_region = {}
-with open('E:\\Developer\\SourceRepo\\GFW-Research\\src\\Import\\dns_servers.csv', 'r') as csvfile:
+with open(
+    "E:\\Developer\\SourceRepo\\GFW-Research\\src\\Import\\dns_servers.csv",
+    "r",
+) as csvfile:
   reader = csv.DictReader(csvfile)
   for row in reader:
-    provider = row['Provider']
-    region = provider_region_map.get(provider, 'Other DNS Provider')
-    if row['IPV4']:
-      ip_to_provider[row['IPV4']] = provider
-      ip_to_region[row['IPV4']] = region
-    if row['IPV6']:
-      ip_to_provider[row['IPV6']] = provider
-      ip_to_region[row['IPV6']] = region
+    provider = row["Provider"]
+    region = provider_region_map.get(provider, "Other DNS Provider")
+    if row["IPV4"]:
+      ip_to_provider[row["IPV4"]] = provider
+      ip_to_region[row["IPV4"]] = region
+    if row["IPV6"]:
+      ip_to_provider[row["IPV6"]] = provider
+      ip_to_region[row["IPV6"]] = region
 
 
-
-def Experiment_1_Domain_Access_TimeLine(db, output_folder):
+def parse_ips(ips_string):
   """
-  绘制可访问和不可访问域名数量的时间线图
+    解析 IP 字符串，将其转化为 IP 列表。
+    支持多种格式：
+    1. 单个 IPv6 或 IPv4 地址: ['2a03:2880:f127:83:face:b00c:0:25de']
+    2. 多个 IP: ['202.160.128.205']['2a03:2880:f10c:83:face:b00c:0:25de']
+    3. 数组内的多个 IP 地址: ['111.7.202.175', '111.7.203.227']
+    """
+  if not ips_string or ips_string == "[]":
+    return []  # 空字符串直接返回空列表
+
+  # 检查是否包含嵌套数组格式
+  if isinstance(ips_string, list):
+    # 对数组中的每个元素调用parse_ips进行递归解析
+    ip_list = []
+    for sublist in ips_string:
+      ip_list.extend(parse_ips(sublist))  # 递归处理
+    return ip_list
+
+  # 处理字符串类型的IPs
+  pattern = r"\[([^\[\]]+)\]"
+  matches = re.findall(pattern, ips_string)
+
+  ip_list = []
+  for match in matches:
+    ip_list.extend(match.split(", "))
+
+  # 去掉多余的引号和空格
+  ip_list = [ip.strip("'\" ") for ip in ip_list]
+  return ip_list
+
+
+def is_private_ip(ip):
   """
-  # 从数据库中获取文档
-  docs = db.find({}, {"domain": 1, "dns_server": 1, "timestamp": 1, "error_code": 1, "ips": 1})
-  access_data = defaultdict(lambda: {'accessible': set(), 'inaccessible': set()})
+    检查 IP 是否为内网地址
+    """
+  private_blocks = [
+      ip_network("10.0.0.0/8"),
+      ip_network("172.16.0.0/12"),
+      ip_network("192.168.0.0/16"),
+      ip_network("127.0.0.0/8"),  # 本地回环地址
+      ip_network("169.254.0.0/16"),  # 链路本地地址
+      ip_network("::1/128"),  # IPv6本地回环地址
+      ip_network("fc00::/7"),  # IPv6内网地址
+      ip_network("fe80::/10"),  # IPv6链路本地地址
+  ]
 
-  for doc in docs:
-    # 提取字段
-    domain = doc.get('domain')
-    dns_server = doc.get('dns_server')
-    timestamp = doc.get('timestamp')
-    error_code = doc.get('error_code')
-    result = doc.get('ips')
-
-    print(f'domain: {domain}, dns_server: {dns_server}, timestamp: {timestamp}, error_code: {error_code}, result: {result}')
-
-    # 将timestamp标准化为datetime对象
-    if isinstance(timestamp, str):
-      timestamp = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:%S')
-    elif not isinstance(timestamp, datetime):
-      continue  # 跳过无效的timestamp数据
-
-    # 将时间标准化到小时
-    date = timestamp.replace(minute=0, second=0, microsecond=0)
-
-    # 根据error_code和ips判断是否可访问
-    if error_code or not result:
-      access_data[date]['inaccessible'].add((domain, dns_server))
-    else:
-      access_data[date]['accessible'].add((domain, dns_server))
-
-  # 按时间点聚合数据
-  dates = sorted(access_data.keys())
-  accessible_counts = [len(access_data[date]['accessible']) for date in dates]
-  inaccessible_counts = [len(access_data[date]['inaccessible']) for date in dates]
-
-  # 绘制趋势图
-  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
-  ax.plot(dates, accessible_counts, label='Accessible Domains', color='green', marker='o')
-  ax.plot(dates, inaccessible_counts, label='Inaccessible Domains', color='red', marker='o')
-  ax.set_xlabel('Timestamp')
-  ax.set_ylabel('Number of Domains')
-  ax.set_title('Domain Accessibility Timeline')
-  ax.legend()
-
-  # 格式化X轴显示日期
-  ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M'))
-  ax.xaxis.set_major_locator(mdates.AutoDateLocator())
-
-  plt.setp(ax.get_xticklabels(), rotation=45)
-  plt.grid(visible=True, linestyle='--', alpha=0.5)
-  print(f'Saving plot to {output_folder}/Experiment_1_Domain_Access_TimeLine.png')
-
-  # 保存图像
-  fig.savefig(f'{output_folder}/Experiment_1_Domain_Access_TimeLine.png')
-  plt.close(fig)
+  try:
+    ip_addr = ip_address(ip)
+    return any(ip_addr in block for block in private_blocks)
+  except ValueError:
+    # 如果 IP 无法解析，则认为不是有效地址
+    return False
 
 
+def process_data_and_plot():
+  """
+    根据多个 MongoDB 集合处理数据并绘图。
+    """
+  collections = [
+      "China-Mobile-DNSPoisoning", "China-Telecom-DNSPoisoning",
+      "ChinaMobile-DNSPoisoning-November",
+      "ChinaMobile-DNSPoisoning-2025-January"
+  ]
 
+  for collection_name in collections:
+    collection = ADC_db[collection_name]
+    cursor = collection.find()
+    # 默认字典，用于按时间聚合数据
+    aggregated_data = defaultdict(lambda: {
+        "accessible": set(),
+        "inaccessible": set()
+    })
 
+    for doc in cursor:
+      timestamp = doc.get("timestamp")
+      domain = doc.get("domain")
+      dns_server = doc.get("dns_server")
+      ips = doc.get("ips", "[]")
 
+      # 时间精确到每12小时
+      date = timestamp[:13] + ":00:00" if timestamp else None
 
+      # 确保 domain 和 dns_server 是字符串或可哈希类型
+      if isinstance(domain, list):
+        domain = ",".join(domain)  # 将列表合并为字符串，用逗号分隔
+      elif not isinstance(domain, str):
+        domain = str(domain)  # 转换为字符串
 
+      if isinstance(dns_server, list):
+        dns_server = ",".join(dns_server)  # 将列表合并为字符串，用逗号分隔
+      elif not isinstance(dns_server, str):
+        dns_server = str(dns_server)  # 转换为字符串
 
+      if date and domain and dns_server:
+        # 解析 IP 地址
+        ips_list = parse_ips(ips)
 
+        # 判断是否可访问
+        if not ips_list or all(is_private_ip(ip) for ip in ips_list):
+          aggregated_data[date]["inaccessible"].add((domain, dns_server))
+        else:
+          aggregated_data[date]["accessible"].add((domain, dns_server))
 
+    # 统计按时间聚合后的数据
+    x = sorted(aggregated_data.keys())  # 时间轴
+    print(f"Total {len(x)} data points for {collection_name}")
+    accessible = [len(aggregated_data[date]["accessible"]) for date in x]
+    inaccessible = [len(aggregated_data[date]["inaccessible"]) for date in x]
 
+    # 绘图
+    plt.figure(figsize=(25, 6))  # 拉长图片横向长度
+    plt.plot(x,
+             accessible,
+             label="Accessible Domains",
+             color="green",
+             marker="o",
+             linestyle="--")
+    plt.plot(x,
+             inaccessible,
+             label="Inaccessible Domains",
+             color="red",
+             marker="o",
+             linestyle="--")
+    plt.xlabel("Time (hourly)")
+    plt.ylabel("Number of Domains")
+    plt.title(f"Domain Accessibility Over Time ({collection_name})")
+    plt.legend()
+    plt.xticks(rotation=45, fontsize=8)
+    plt.gca().xaxis.set_major_locator(
+        mdates.HourLocator(interval=6))  # 设置X轴间距
+    plt.tight_layout()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # 保存图像
+    output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
+    output_file = f"{output_folder}{collection_name}_accessibility_plot.png"
+    plt.savefig(output_file, dpi=300)
+    print(f"Plot saved to: {output_file}")
+    plt.close()  # 显式关闭图表以释放内存
 
 
 # def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
@@ -467,24 +502,22 @@ def Experiment_1_Domain_Access_TimeLine(db, output_folder):
 #   fig.savefig('access_inaccess_distribution.png')
 #   plt.close(fig)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
+
   def ensure_folder_exists(folder_path):
     if not os.path.exists(folder_path):
       os.makedirs(folder_path)
+
   folders = [
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST',
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST',
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST',
-  'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST",
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9",
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST",
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11",
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST",
+      "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1",
   ]
   for folder in folders:
     ensure_folder_exists(folder)
 
-
-  Experiment_1_Domain_Access_TimeLine(DNSPoisoning, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-  Experiment_1_Domain_Access_TimeLine(merged_2024_Nov_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-  Experiment_1_Domain_Access_TimeLine(merged_2025_Jan_DNS, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-
-  print('All tasks completed.')
+  process_data_and_plot()
+  print("All tasks completed.")
