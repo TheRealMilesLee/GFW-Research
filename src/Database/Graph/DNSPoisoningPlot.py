@@ -208,7 +208,10 @@ def process_data_and_plot():
     plt.tight_layout()
 
     # 保存图像
-    output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
+    if os.name == "nt":
+      output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
+    elif os.name == "posix":
+      output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
     output_file = f"{output_folder}{collection_name}_accessibility_plot.png"
     plt.savefig(output_file, dpi=300)
     print(f"Plot saved to: {output_file}")
