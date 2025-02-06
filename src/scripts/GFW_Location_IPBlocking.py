@@ -29,14 +29,19 @@ def get_domains_list() -> list:
     print(f"Error reading domains list: {e}")
   return domains
 
+
 def download_geoip_database() -> None:
-  GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__), "../Import/GeoLite2-City.mmdb")
+  GEOIP_DB_PATH = os.path.join(os.path.dirname(__file__),
+                               "../Import/GeoLite2-City.mmdb")
   if not os.path.exists(GEOIP_DB_PATH):
     try:
       print("Downloading GeoLite2 City database")
-      urlretrieve("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb", GEOIP_DB_PATH)
+      urlretrieve(
+          "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb",
+          GEOIP_DB_PATH)
     except Exception as e:
       print(f"Error downloading GeoLite2 City database: {e}")
+
 
 def check_domain_exists(domain: str) -> bool:
   try:
@@ -48,6 +53,7 @@ def check_domain_exists(domain: str) -> bool:
   except Exception as e:
     print(f"Error checking domain existence: {e}")
     return False
+
 
 def get_dns_servers() -> list:
   print("读取DNS服务器列表")
@@ -64,31 +70,38 @@ def get_dns_servers() -> list:
     print(f"读取DNS服务器列表时出错: {e}")
   return dns_servers
 
+
 def map_traceroute_error(error: str) -> str:
-    error_mapping = {
-        'Traceroute timed out': 'Timeout',
-        'No Answer': 'NoAnswer',
-        'Traceroute Failed': 'Failed',
-        'Not Found': 'NotFound',
-        'Network Unreachable': 'NetworkUnreachable',
-        'Host Unreachable': 'HostUnreachable',
-        'Protocol Unreachable': 'ProtocolUnreachable',
-        'Port Unreachable': 'PortUnreachable',
-        'Fragmentation Needed': 'FragmentationNeeded',
-        'Source Route Failed': 'SourceRouteFailed',
-        'Destination Network Unknown': 'DestinationNetworkUnknown',
-        'Destination Host Unknown': 'DestinationHostUnknown',
-        'Source Host Isolated': 'SourceHostIsolated',
-        'Communication with Destination Network Administratively Prohibited': 'CommunicationWithDestinationNetworkAdministrativelyProhibited',
-        'Communication with Destination Host Administratively Prohibited': 'CommunicationWithDestinationHostAdministrativelyProhibited',
-        'Destination Network Unreachable for Type of Service': 'DestinationNetworkUnreachableForTypeOfService',
-        'Destination Host Unreachable for Type of Service': 'DestinationHostUnreachableForTypeOfService',
-        'Communication Administratively Prohibited': 'CommunicationAdministrativelyProhibited',
-        'Host Precedence Violation': 'HostPrecedenceViolation',
-        'Precedence cutoff in effect': 'PrecedenceCutoffInEffect',
-        'Domain does not exist': 'DomainDoesNotExist'
-    }
-    return error_mapping.get(error, 'UnknownError')
+  error_mapping = {
+      'Traceroute timed out': 'Timeout',
+      'No Answer': 'NoAnswer',
+      'Traceroute Failed': 'Failed',
+      'Not Found': 'NotFound',
+      'Network Unreachable': 'NetworkUnreachable',
+      'Host Unreachable': 'HostUnreachable',
+      'Protocol Unreachable': 'ProtocolUnreachable',
+      'Port Unreachable': 'PortUnreachable',
+      'Fragmentation Needed': 'FragmentationNeeded',
+      'Source Route Failed': 'SourceRouteFailed',
+      'Destination Network Unknown': 'DestinationNetworkUnknown',
+      'Destination Host Unknown': 'DestinationHostUnknown',
+      'Source Host Isolated': 'SourceHostIsolated',
+      'Communication with Destination Network Administratively Prohibited':
+      'CommunicationWithDestinationNetworkAdministrativelyProhibited',
+      'Communication with Destination Host Administratively Prohibited':
+      'CommunicationWithDestinationHostAdministrativelyProhibited',
+      'Destination Network Unreachable for Type of Service':
+      'DestinationNetworkUnreachableForTypeOfService',
+      'Destination Host Unreachable for Type of Service':
+      'DestinationHostUnreachableForTypeOfService',
+      'Communication Administratively Prohibited':
+      'CommunicationAdministrativelyProhibited',
+      'Host Precedence Violation': 'HostPrecedenceViolation',
+      'Precedence cutoff in effect': 'PrecedenceCutoffInEffect',
+      'Domain does not exist': 'DomainDoesNotExist'
+  }
+  return error_mapping.get(error, 'UnknownError')
+
 
 def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
   print(f"使用DNS服务器 {dns_server} 进行 traceroute")
@@ -106,7 +119,11 @@ def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
       command = ['tracert', '-4', domain]
 
     print(f"Running traceroute command: {' '.join(command)}")
-    output = subprocess.check_output(command, stderr=subprocess.STDOUT, encoding='utf-8', timeout=300, errors='ignore')
+    output = subprocess.check_output(command,
+                                     stderr=subprocess.STDOUT,
+                                     encoding='utf-8',
+                                     timeout=300,
+                                     errors='ignore')
     lines = output.split('\n')
 
     ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
@@ -147,20 +164,54 @@ def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
     # 添加错误映射
     errors = []
     for ip in invalid_ips:
-        mapped_error = map_traceroute_error(ip)  # 假设ip包含错误信息
-        errors.append(mapped_error)
+      mapped_error = map_traceroute_error(ip)  # 假设ip包含错误信息
+      errors.append(mapped_error)
 
-    return {"ips": ips, "rst_detected": rst_detected, "redirection_detected": redirection_detected, "invalid_ips": invalid_ips, "errors": errors}
+    return {
+        "ips": ips,
+        "rst_detected": rst_detected,
+        "redirection_detected": redirection_detected,
+        "invalid_ips": invalid_ips,
+        "errors": errors
+    }
 
   except subprocess.CalledProcessError as e:
     print(f"Error running traceroute for {domain}: {e}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": str(e)}
+    return {
+        "ips": {
+            "ipv4": [],
+            "ipv6": []
+        },
+        "rst_detected": False,
+        "redirection_detected": False,
+        "invalid_ips": [],
+        "error": str(e)
+    }
   except subprocess.TimeoutExpired:
     print(f"Traceroute command timed out for {domain}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": "Traceroute timed out"}
+    return {
+        "ips": {
+            "ipv4": [],
+            "ipv6": []
+        },
+        "rst_detected": False,
+        "redirection_detected": False,
+        "invalid_ips": [],
+        "error": "Traceroute timed out"
+    }
   except Exception as e:
     print(f"Error during traceroute for {domain}: {e}")
-    return {"ips": {"ipv4": [], "ipv6": []}, "rst_detected": False, "redirection_detected": False, "invalid_ips": [], "error": str(e)}
+    return {
+        "ips": {
+            "ipv4": [],
+            "ipv6": []
+        },
+        "rst_detected": False,
+        "redirection_detected": False,
+        "invalid_ips": [],
+        "error": str(e)
+    }
+
 
 def check_domain_ipv6_support(domain: str) -> bool:
   try:
@@ -178,6 +229,7 @@ def check_domain_ipv6_support(domain: str) -> bool:
     print(f"Error checking IPv6 support for {domain}: {e}")
     return False
 
+
 def lookup_ip(ip: str) -> str:
   try:
     print(f"Looking up IP address {ip}")
@@ -191,6 +243,7 @@ def lookup_ip(ip: str) -> str:
     return "IP address not found in local database"
   except Exception as e:
     return f"Local IP lookup failed: {str(e)}"
+
 
 def ip_lookup(ips: dict) -> dict:
   ipv6 = ips["ipv6"]
@@ -207,6 +260,7 @@ def ip_lookup(ips: dict) -> dict:
     return {"error": "No IP addresses available for lookup"}
   return result
 
+
 def process_domain(domain: str, dns_servers: list) -> list:
   results = []
   try:
@@ -219,13 +273,20 @@ def process_domain(domain: str, dns_servers: list) -> list:
         else:
           traceroute_output = traceroute(domain, dns, use_ipv6=False)
         results.append({
-          "domain": domain,
-          "dns_server": dns,
-          "ips": traceroute_output.get("ips", {}),
-          "invalid_ips": traceroute_output.get("invalid_ips", []),
-          "rst_detected": traceroute_output.get("rst_detected", False),
-          "redirection_detected": traceroute_output.get("redirection_detected", False),
-          "error": traceroute_output.get("error", "")
+            "domain":
+            domain,
+            "dns_server":
+            dns,
+            "ips":
+            traceroute_output.get("ips", {}),
+            "invalid_ips":
+            traceroute_output.get("invalid_ips", []),
+            "rst_detected":
+            traceroute_output.get("rst_detected", False),
+            "redirection_detected":
+            traceroute_output.get("redirection_detected", False),
+            "error":
+            traceroute_output.get("error", "")
         })
     else:
       results.append({"domain": domain, "error": "Domain does not exist"})
@@ -234,18 +295,24 @@ def process_domain(domain: str, dns_servers: list) -> list:
     results.append({"domain": domain, "error": str(e)})
   return results
 
+
 def process_domains_concurrently(domains: list, dns_servers: list) -> list:
   print("Processing domains concurrently")
   results = []
   max_workers = 128
   try:
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-      futures = [executor.submit(process_domain, domain, dns_servers) for domain in domains]
+    with concurrent.futures.ThreadPoolExecutor(
+        max_workers=max_workers) as executor:
+      futures = [
+          executor.submit(process_domain, domain, dns_servers)
+          for domain in domains
+      ]
       for future in concurrent.futures.as_completed(futures):
         results.extend(future.result())
   except Exception as e:
     print(f"Error processing domains concurrently: {e}")
   return results
+
 
 def save_to_file(results: list, date_str: str) -> None:
   filename = f'GFW_Location_results_{date_str}.csv'
@@ -257,24 +324,31 @@ def save_to_file(results: list, date_str: str) -> None:
     with open(filepath, "a", newline='') as f:
       writer = csv.writer(f)
       if f.tell() == 0:  # Check if file is empty to write header
-        writer.writerow(["Domain", "DNS Server", "IPv4", "IPv6", "RST Detected", "Redirection Detected", "Invalid IP", "Error"])
+        writer.writerow([
+            "Domain", "DNS Server", "IPv4", "IPv6", "RST Detected",
+            "Redirection Detected", "Invalid IP", "Error"
+        ])
       for result in results:
         writer.writerow([
-          result.get("domain", ""),
-          result.get("dns_server", ""),
-          ", ".join(result.get("ips", {}).get("ipv4", [])),
-          ", ".join(result.get("ips", {}).get("ipv6", [])),
-          result.get("rst_detected", ""),
-          result.get("redirection_detected", ""),
-          ", ".join(result.get("invalid_ips", [])),
-          "; ".join(result.get("errors", []))  # 修改此行以包含映射后的错误
+            result.get("domain", ""),
+            result.get("dns_server", ""),
+            ", ".join(result.get("ips", {}).get("ipv4", [])),
+            ", ".join(result.get("ips", {}).get("ipv6", [])),
+            result.get("rst_detected", ""),
+            result.get("redirection_detected", ""),
+            ", ".join(result.get("invalid_ips", [])),
+            "; ".join(result.get("errors", []))  # 修改此行以包含映射后的错误
         ])
   except Exception as e:
     print(f"Error saving results to file: {e}")
 
+
 if __name__ == "__main__":
   try:
-    start_time = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    start_time = datetime.now().replace(hour=0,
+                                        minute=0,
+                                        second=0,
+                                        microsecond=0)
     end_time = start_time + timedelta(days=7)
     download_geoip_database()
     dns_servers = get_dns_servers()  # 获取DNS服务器列表
@@ -287,7 +361,7 @@ if __name__ == "__main__":
       results = process_domains_concurrently(domains, dns_servers)
       all_results.extend(results)
 
-      if len(all_results) >= 2500:
+      if len(all_results) >= 1500:
         save_to_file(all_results, date_str)
         all_results = []
 
@@ -295,14 +369,20 @@ if __name__ == "__main__":
       if current_date_str != date_str:
         date_str = current_date_str
 
-      print("Results saved to file at " + datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+      print("Results saved to file at " +
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
       # After all domains are processed, compress the CSV file
       folder_path = '../Lib/Data-2025-1/China-Mobile/GFWLocation'
       filename = f'GFW_Location_Results_{datetime.now().strftime("%Y_%m_%d")}.csv'
       filepath = f"{folder_path}/{filename}"
       compressed_filepath = f"{folder_path}/{filename}.7z"
       try:
-        with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}]) as archive:
+        with py7zr.SevenZipFile(compressed_filepath,
+                                'w',
+                                filters=[{
+                                    'id': py7zr.FILTER_LZMA2,
+                                    'preset': 9
+                                }]) as archive:
           archive.write(filepath, arcname=filename)
         print(f"CSV file compressed to {compressed_filepath}")
       except Exception as e:
