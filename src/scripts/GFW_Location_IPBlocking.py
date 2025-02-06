@@ -158,6 +158,11 @@ def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
             rst_detected = True
           if resp[TCP].flags == "SA" and resp[IP].src != ip:
             redirection_detected = True
+      except OSError as e:
+        if e.errno == 9:
+          print(f"File descriptor error for {ip}: {e}")
+        else:
+          print(f"Error checking TCP RST and redirection for {ip}: {e}")
       except Exception as e:
         print(f"Error checking TCP RST and redirection for {ip}: {e}")
 
