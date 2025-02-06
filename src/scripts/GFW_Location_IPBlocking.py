@@ -10,7 +10,7 @@ from ipaddress import ip_address
 from urllib.request import urlretrieve
 import py7zr
 import geoip2.database
-from scapy.all import IP, TCP, sr1
+from scapy.all import IP, TCP, sr1, conf
 
 
 def get_domains_list() -> list:
@@ -161,10 +161,14 @@ def traceroute(domain: str, dns_server: str, use_ipv6: bool = False) -> dict:
       except OSError as e:
         if e.errno == 9:
           print(f"File descriptor error for {ip}: {e}")
+          break  # 退出循环以避免进一步的文件描述符错误
         else:
           print(f"Error checking TCP RST and redirection for {ip}: {e}")
       except Exception as e:
         print(f"Error checking TCP RST and redirection for {ip}: {e}")
+      finally:
+        # 确保清理所有打开的文件描述符
+        conf.L3socket().close()
 
     # 添加错误映射
     errors = []
