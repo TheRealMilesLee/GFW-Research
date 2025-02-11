@@ -281,14 +281,24 @@ def ensure_folder_exists(folder):
   if not os.path.exists(folder):
     os.makedirs(folder)
 if __name__ == '__main__':
-  folders = [
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
-    'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
-  ]
+  if os.name == 'nt':
+    folders = [
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
+      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
+    ]
+  elif os.name == 'posix':
+    folders = [
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9',
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9/IP_Path',
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11',
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11/IP_Path',
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1',
+      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1/IP_Path'
+    ]
   for folder in folders:
     ensure_folder_exists(folder)
 

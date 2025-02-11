@@ -132,7 +132,12 @@ class Merger:
     self.merged_db_2024_dns = merged_db_2024_dns  # 新增
     self.merged_db_2024_gfwl = merged_db_2024_gfwl  # 新增
     self.processed_domains_dnsp = defaultdict(lambda: defaultdict(set))
+    self.processed_domains_dnsp_2024_NOV = defaultdict(
+        lambda: defaultdict(set))
+    self.processed_domains_dnsp_2025 = defaultdict(lambda: defaultdict(set))
     self.processed_domains_tr = defaultdict(lambda: defaultdict(set))
+    self.processed_domains_tr_2024_NOV = defaultdict(lambda: defaultdict(set))
+    self.processed_domains_tr_2025 = defaultdict(lambda: defaultdict(set))
     self.lock = Lock()
 
   def merge_documents(self):
@@ -202,22 +207,23 @@ class Merger:
           executor.submit(self._merge_documents,
                           self.adc_cm_dnsp_2025,
                           self._merge_adc_cm_dnsp,
-                          self.processed_domains_dnsp,
+                          self.processed_domains_dnsp_2025,
                           self.merged_db_2025_dns,
                           use_dns_server=True),  # 新增
           executor.submit(self._merge_documents, self.adc_cm_gfwl_2025,
-                          self._merge_adc_cm_gfwl, self.processed_domains_tr,
+                          self._merge_adc_cm_gfwl,
+                          self.processed_domains_tr_2025,
                           self.merged_db_2025_gfwl),  # 新增
           # 2024 November Data Constants
           executor.submit(self._merge_documents,
                           self.adc_cm_dnsp_nov,
                           self._merge_adc_cm_dnsp_nov,
-                          self.processed_domains_dnsp,
+                          self.processed_domains_dnsp_2024_NOV,
                           self.merged_db_2024_dns,
                           use_dns_server=True),  # 新增
           executor.submit(self._merge_documents, self.adc_cm_gfwl_nov,
                           self._merge_adc_cm_gfwl_nov,
-                          self.processed_domains_tr,
+                          self.processed_domains_tr_2024_NOV,
                           self.merged_db_2024_gfwl),  # 新增
       ]
       for future in concurrent.futures.as_completed(futures):
@@ -239,18 +245,18 @@ class Merger:
     self._finalize_documents(self.processed_domains_tr,
                              self.comparegroup_db_tr,
                              is_traceroute=True)
-    self._finalize_documents(self.processed_domains_dnsp,
+    self._finalize_documents(self.processed_domains_dnsp_2025,
                              self.merged_db_2025_dns,
                              is_traceroute=False,
                              use_dns_server=True)  # 新增
-    self._finalize_documents(self.processed_domains_tr,
+    self._finalize_documents(self.processed_domains_tr_2025,
                              self.merged_db_2025_gfwl,
                              is_traceroute=True)  # 新增
-    self._finalize_documents(self.processed_domains_dnsp,
+    self._finalize_documents(self.processed_domains_dnsp_2024_NOV,
                              self.merged_db_2024_dns,
                              is_traceroute=False,
                              use_dns_server=True)  # 新增
-    self._finalize_documents(self.processed_domains_tr,
+    self._finalize_documents(self.processed_domains_tr_2024_NOV,
                              self.merged_db_2024_gfwl,
                              is_traceroute=True)  # 新增
 
@@ -262,9 +268,7 @@ class Merger:
                        use_dns_server=False):
     logger.info(f"Merging documents from {db_handler.collection.name}")
     try:
-      documents = list(db_handler.find(
-          {}))  # Pre-load all documents into memory
-      for document in tqdm(documents,
+      for document in tqdm(db_handler.find({}),
                            desc=f"Merging {db_handler.collection.name}"):
         merge_function(document, processed_domains, use_dns_server)
     except Exception as e:
@@ -478,9 +482,6 @@ class Merger:
     else:
       all_ips = set()
       # 更新后的IPv4和IPv6正则表达式，移除长度限制
-      # Write the answer to a log file
-      with open("ips.log", "a") as log_file:
-        log_file.write(f"{ips}\n")
       # 将答案拉平，并将嵌套字符串转换为列表
       if isinstance(ips, str):
         # 移除方括号并解析为列表
@@ -598,6 +599,8 @@ class Merger:
           f"Processing domain: {domain}, target_db: {target_db.collection.name}"
       )
 
+      with open("target_db.log", "a") as log_file:
+        log_file.write(f"{target_db.collection.name}\n")
       if target_db.collection.name not in [
           "2025_GFWL", "2024_Nov_GFWL", "2025_DNS", "2024_Nov_DNS"
       ]:
@@ -702,89 +705,16 @@ class Merger:
           finalized_document["error_reason"] = error_info.get(
               "error_reason", [])
       else:
-        if is_traceroute:
-          finalized_document = {
-              "_id":
-              f"TRACEROUTE-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
-              "domain": domain,
-              "timestamp": list(data["timestamp"]),
-              "error": list(data.get("Error", [])),
-              "error_reason": list(data.get("Error Reason", [])),
-              "mark": list(data.get("mark", [])),
-              "ips": list(data.get("IPv4", [])) + list(data.get("IPv6", [])),
-              "invalid_ip": list(data.get("invalid_ip", [])),
-              "rst_detected": list(data.get("rst_detected", [])),
-              "redirection_detected":
-              list(data.get("redirection_detected", [])),
-          }
-          # 检查是否包含内网地址
-          if '127.0.0.1' in data.get('IPv4', []) or '::1' in data.get(
-              'IPv6', []):
-            finalized_document['error'].append('Blocked')
-            finalized_document['error_reason'].append(
-                'Internal IP Address Blocked')
-          # 检查特定错误信息
-          for error in data.get('results', []):
-            if error == 'Traceroute timed out':
-              finalized_document['error'].append('Timeout')
-            elif error == 'No Answer':
-              finalized_document['error'].append('NoAnswer')
-            elif error == 'Traceroute Failed':
-              finalized_document['error'].append('Failed')
-            elif error == 'Not Found':
-              finalized_document['error'].append('NotFound')
-            elif error == 'Network Unreachable':
-              finalized_document['error'].append('NetworkUnreachable')
-            elif error == 'Host Unreachable':
-              finalized_document['error'].append('HostUnreachable')
-            elif error == 'Protocol Unreachable':
-              finalized_document['error'].append('ProtocolUnreachable')
-            elif error == 'Port Unreachable':
-              finalized_document['error'].append('PortUnreachable')
-            elif error == 'Fragmentation Needed':
-              finalized_document['error'].append('FragmentationNeeded')
-            elif error == 'Source Route Failed':
-              finalized_document['error'].append('SourceRouteFailed')
-            elif error == 'Destination Network Unknown':
-              finalized_document['error'].append('DestinationNetworkUnknown')
-            elif error == 'Destination Host Unknown':
-              finalized_document['error'].append('DestinationHostUnknown')
-            elif error == 'Source Host Isolated':
-              finalized_document['error'].append('SourceHostIsolated')
-            elif error == 'Communication with Destination Network Administratively Prohibited':
-              finalized_document['error'].append(
-                  'CommunicationWithDestinationNetworkAdministrativelyProhibited'
-              )
-            elif error == 'Communication with Destination Host Administratively Prohibited':
-              finalized_document['error'].append(
-                  'CommunicationWithDestinationHostAdministrativelyProhibited'
-              )
-            elif error == 'Destination Network Unreachable for Type of Service':
-              finalized_document['error'].append(
-                  'DestinationNetworkUnreachableForTypeOfService')
-            elif error == 'Destination Host Unreachable for Type of Service':
-              finalized_document['error'].append(
-                  'DestinationHostUnreachableForTypeOfService')
-            elif error == 'Communication Administratively Prohibited':
-              finalized_document['error'].append(
-                  'CommunicationAdministrativelyProhibited')
-            elif error == 'Host Precedence Violation':
-              finalized_document['error'].append('HostPrecedenceViolation')
-            elif error == 'Precedence cutoff in effect':
-              finalized_document['error'].append('PrecedenceCutoffInEffect')
-        else:
-          finalized_document = {
-              "_id":
-              f"DNSPOISON-{target_db.collection.name}-{is_traceroute}-{domain}-{counter}",
-              "domain": domain,
-              "dns_server": dns_server,
-              "ips": list(data["ips"]),
-              "error_code": list(data["error_code"]),
-              "error_reason": list(data["error_reason"]),
-              "record_type": list(data["record_type"]),
-              "timestamp": list(data["timestamp"]),
-              "is_poisoned": bool(data["is_poisoned"]),
-          }
+        finalized_document = {
+            "_id": f"{target_db.collection.name}-{domain}-{counter}",
+            "domain": domain,
+            "dns_server": dns_server,
+            "ips": list(data["ips"]),
+            "error_code": list(data["error_code"]),
+            "error_reason": list(data["error_reason"]),
+            "record_type": list(data["record_type"]),
+            "timestamp": list(data["timestamp"]),
+        }
         for field, value in data.items():
           if field not in finalized_document:
             finalized_document[field] = list(value)
