@@ -90,7 +90,7 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list,
       dns_results = await future
       results.append(dns_results)
     except Exception as e:
-      error_folder_path = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/CompareGroup/Error'
+      error_folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/Error'
       os.makedirs(error_folder_path, exist_ok=True)
       error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
       error_filepath = os.path.join(error_folder_path, error_filename)
@@ -102,7 +102,7 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list,
 
 def save_results(results: list, is_first_write=False) -> None:
   filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
-  folder_path = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/CompareGroup/DNSPoisoning'
+  folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
   os.makedirs(folder_path, exist_ok=True)
   filepath = f"{folder_path}/{filename}"
 
@@ -142,7 +142,7 @@ async def main():
     ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
     file_path = os.path.join(
         os.path.dirname(__file__),
-        '/home/lhengyi/Developer/SourceRepo/GFW-Research/src/Import/domains_list.csv'
+        '/home/lhengyi/Developer/GFW-Research/src/Import/domains_list.csv'
     )
 
     with open(file_path, 'r') as file:
@@ -172,7 +172,7 @@ async def main():
       is_first_write = False  # After the first write, always append
       all_results.clear()  # Clear results after saving
       # After all domains are processed, compress the CSV file
-      folder_path = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-CompareGroup/DNSPoisoning'
+      folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/Data-CompareGroup/DNSPoisoning'
       filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
       filepath = f"{folder_path}/{filename}"
       compressed_filepath = f"{folder_path}/{filename}.7z"
