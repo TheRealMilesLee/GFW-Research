@@ -151,6 +151,7 @@ async def main():
 
     print(f"Checking {len(domains)} domains for DNS poisoning")
 
+    is_first_write = True  # Initialize is_first_write
     all_results = []  # Collect all results here
     for i in range(0, len(domains), BATCH_SIZE):
       batch = domains[i:i + BATCH_SIZE]
