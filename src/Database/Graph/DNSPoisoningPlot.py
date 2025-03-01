@@ -132,93 +132,115 @@ def is_private_ip(ip):
     return False
 
 
-def process_data_and_plot():
+def get_timely_trend():
   """
-    根据多个 MongoDB 集合处理数据并绘图。
-    """
+  绘制域名可访问性随时间的变化趋势。基于每一个DNS服务器的数据
+  """
   collections = [
       "China-Mobile-DNSPoisoning", "China-Telecom-DNSPoisoning",
       "ChinaMobile-DNSPoisoning-November",
       "ChinaMobile-DNSPoisoning-2025-January"
   ]
 
-  for collection_name in collections:
-    collection = ADC_db[collection_name]
-    cursor = collection.find()
-    # 默认字典，用于按时间聚合数据
-    aggregated_data = defaultdict(lambda: {
-        "accessible": set(),
-        "inaccessible": set()
-    })
+  for dns_server in ip_to_provider.keys():
+    for collection_name in collections:
+      collection = ADC_db[collection_name]
+      cursor = collection.find({"dns_server": dns_server})
+      # 默认字典，用于按时间聚合数据
+      aggregated_data = defaultdict(lambda: {
+          "accessible": set(),
+          "inaccessible": set()
+      })
 
-    for doc in cursor:
-      timestamp = doc.get("timestamp")
-      domain = doc.get("domain")
-      dns_server = doc.get("dns_server")
-      ips = doc.get("ips", "[]")
+      for doc in cursor:
+        timestamp = doc.get("timestamp")
+        domain = doc.get("domain")
+        ips = doc.get("ips", "[]")
 
-      # 时间精确到每12小时
-      date = timestamp[:13] + ":00:00" if timestamp else None
+        # 时间精确到每四个小时
+        date = timestamp[:
+                         10] + f" {int(timestamp[11:13]) // 4 * 4:02}:00:00" if timestamp else None
 
-      # 确保 domain 和 dns_server 是字符串或可哈希类型
-      if isinstance(domain, list):
-        domain = ",".join(domain)  # 将列表合并为字符串，用逗号分隔
-      elif not isinstance(domain, str):
-        domain = str(domain)  # 转换为字符串
+        # 确保 domain 是字符串或可哈希类型
+        if isinstance(domain, list):
+          domain = ",".join(domain)  # 将列表合并为字符串，用逗号分隔
+        elif not isinstance(domain, str):
+          domain = str(domain)  # 转换为字符串
 
-      if isinstance(dns_server, list):
-        dns_server = ",".join(dns_server)  # 将列表合并为字符串，用逗号分隔
-      elif not isinstance(dns_server, str):
-        dns_server = str(dns_server)  # 转换为字符串
+        if date and domain:
+          # 解析 IP 地址
+          ips_list = parse_ips(ips)
 
-      if date and domain and dns_server:
-        # 解析 IP 地址
-        ips_list = parse_ips(ips)
+          # 判断是否可访问
+          if not ips_list or all(is_private_ip(ip) for ip in ips_list):
+            aggregated_data[date]["inaccessible"].add(domain)
+          else:
+            aggregated_data[date]["accessible"].add(domain)
 
-        # 判断是否可访问
-        if not ips_list or all(is_private_ip(ip) for ip in ips_list):
-          aggregated_data[date]["inaccessible"].add((domain, dns_server))
-        else:
-          aggregated_data[date]["accessible"].add((domain, dns_server))
+      # 合并去重
+      for date in aggregated_data:
+        aggregated_data[date]["accessible"] = list(
+            aggregated_data[date]["accessible"])
+        aggregated_data[date]["inaccessible"] = list(
+            aggregated_data[date]["inaccessible"])
 
-    # 统计按时间聚合后的数据
-    x = sorted(aggregated_data.keys())  # 时间轴
-    print(f"Total {len(x)} data points for {collection_name}")
-    accessible = [len(aggregated_data[date]["accessible"]) for date in x]
-    inaccessible = [len(aggregated_data[date]["inaccessible"]) for date in x]
+      # 统计按时间聚合后的数据
+      x = sorted(aggregated_data.keys())  # 时间轴
 
-    # 绘图
-    plt.figure(figsize=(25, 6))  # 拉长图片横向长度
-    plt.plot(x,
+      # 如果是空数据，则跳过
+      if not x:
+        print(f"No data found for {collection_name} and DNS server {dns_server}")
+        with open ("EmptyList.txt", "a") as f:
+          f.write(
+              f"No data found for {collection_name} and DNS server {dns_server}\n"
+          )
+          f.close()
+        continue
+      print(
+          f"Total {len(x)} data points for {collection_name} and DNS server {dns_server}"
+      )
+      accessible = [len(aggregated_data[date]["accessible"]) for date in x]
+      inaccessible = [
+          len(aggregated_data[date]["inaccessible"]) for date in x
+      ]
+
+      if x:  # 绘图, 如果x为空, 则不绘制
+        plt.figure(figsize=(30, 8))  # 拉长图片横向长度
+        plt.plot(x,
              accessible,
              label="Accessible Domains",
              color="green",
              marker="o",
              linestyle="--")
-    plt.plot(x,
+        plt.plot(x,
              inaccessible,
              label="Inaccessible Domains",
              color="red",
              marker="o",
              linestyle="--")
-    plt.xlabel("Time (hourly)")
-    plt.ylabel("Number of Domains")
-    plt.title(f"Domain Accessibility Over Time ({collection_name})")
-    plt.legend()
-    plt.xticks(rotation=45, fontsize=8)
-    plt.gca().xaxis.set_major_locator(
-        mdates.HourLocator(interval=6))  # 设置X轴间距
-    plt.tight_layout()
+        plt.xlabel("Time (hourly)")
+        plt.ylabel("Number of Domains")
+        plt.title(
+        f"Domain Accessibility Over Time ({collection_name} - {dns_server})"
+        )
+        plt.legend()
+        plt.xticks(rotation=25, fontsize=5)
+        plt.gca().set_xticks(x)  # 设置X轴刻度与数据点匹配
+        plt.tight_layout()
 
-    # 保存图像
-    if os.name == "nt":
-      output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
-    elif os.name == "posix":
-      output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
-    output_file = f"{output_folder}/{collection_name}_accessibility_plot.png"
-    plt.savefig(output_file, dpi=300)
-    print(f"Plot saved to: {output_file}")
-    plt.close()  # 显式关闭图表以释放内存
+        # 保存图像
+        if os.name == "nt":
+          output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
+        elif os.name == "posix":
+          output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
+
+        # 创建文件夹如果不存在
+        folder_path = os.path.join(output_folder, collection_name)
+        if not os.path.exists(folder_path):
+          os.makedirs(folder_path)
+        output_file = f"{folder_path}/{dns_server}_accessibility_plot.png"
+        plt.savefig(output_file, dpi=300)
+        plt.close()
 
 
 def plot_error_code_distribution(error_code_count, title, output_file):
@@ -524,7 +546,7 @@ if __name__ == "__main__":
     for folder in folders:
       ensure_folder_exists(folder)
 
-    process_data_and_plot()
+    get_timely_trend()
 
     with ThreadPoolExecutor() as executor:
       tasks = [
@@ -625,7 +647,7 @@ if __name__ == "__main__":
     for folder in folders:
       ensure_folder_exists(folder)
 
-    process_data_and_plot()
+    get_timely_trend()
 
     with ThreadPoolExecutor() as executor:
       tasks = [
