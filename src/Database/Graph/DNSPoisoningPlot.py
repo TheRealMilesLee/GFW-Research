@@ -3,14 +3,13 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
-from datetime import datetime
 from collections import defaultdict, Counter
 import csv
 import os
-import matplotlib.dates as mdates
 from ipaddress import ip_network, ip_address
 import re
 from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
 
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
@@ -18,6 +17,8 @@ merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
 adc_2025_Jan_DNS = MongoDBHandler(
     ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
+CPU_CORES = multiprocessing.cpu_count()
+MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
 
 categories = DNSPoisoning.distinct("error_code")
 
@@ -188,6 +189,104 @@ def plot_error_code_distribution_helper(error_code_count, title, output_file):
   plt.close(fig)
 
 
+def process_collection_timely_distribution(dns_server, collection_name):
+  collection = ADC_db[collection_name]
+  cursor = collection.find({"dns_server": dns_server})
+  # 默认字典，用于按时间聚合数据
+  aggregated_data = defaultdict(lambda: {
+      "accessible": set(),
+      "inaccessible": set()
+  })
+
+  for doc in cursor:
+    timestamp = doc.get("timestamp")
+    domain = doc.get("domain")
+    ips = doc.get("ips", "[]")
+
+    # 时间精确到每四个小时
+    date = timestamp[:
+                     10] + f" {int(timestamp[11:13]) // 4 * 4:02}:00:00" if timestamp else None
+
+    # 确保 domain 是字符串或可哈希类型
+    if isinstance(domain, list):
+      domain = ",".join(domain)  # 将列表合并为字符串，用逗号分隔
+    elif not isinstance(domain, str):
+      domain = str(domain)  # 转换为字符串
+
+    if date and domain:
+      # 解析 IP 地址
+      ips_list = parse_ips(ips)
+
+      # 判断是否可访问
+      if not ips_list or all(is_private_ip(ip) for ip in ips_list):
+        aggregated_data[date]["inaccessible"].add(domain)
+      else:
+        aggregated_data[date]["accessible"].add(domain)
+
+  # 合并去重
+  for date in aggregated_data:
+    aggregated_data[date]["accessible"] = list(
+        aggregated_data[date]["accessible"])
+    aggregated_data[date]["inaccessible"] = list(
+        aggregated_data[date]["inaccessible"])
+
+  # 统计按时间聚合后的数据
+  x = sorted(aggregated_data.keys())  # 时间轴
+
+  # 如果是空数据，则跳过
+  if not x:
+    print(
+        f"No data found for {collection_name} and DNS server {dns_server}\n")
+    with open("EmptyList.txt", "w") as f:
+      f.write(
+          f"No data found for {collection_name} and DNS server {dns_server}\n"
+      )
+      f.close()
+    return
+  print(
+      f"Total {len(x)} data points for {collection_name} and DNS server {dns_server}\n"
+  )
+  accessible = [len(aggregated_data[date]["accessible"]) for date in x]
+  inaccessible = [len(aggregated_data[date]["inaccessible"]) for date in x]
+
+  if x:  # 绘图, 如果x为空, 则不绘制
+    plt.figure(figsize=(30, 8))  # 拉长图片横向长度
+    plt.plot(x,
+             accessible,
+             label="Accessible Domains",
+             color="green",
+             marker="o",
+             linestyle="--")
+    plt.plot(x,
+             inaccessible,
+             label="Inaccessible Domains",
+             color="red",
+             marker="o",
+             linestyle="--")
+    plt.xlabel("Time (hourly)")
+    plt.ylabel("Number of Domains")
+    plt.title(
+        f"Domain Accessibility Over Time ({collection_name} - {dns_server})")
+    plt.legend()
+    plt.xticks(rotation=25, fontsize=5)
+    plt.gca().set_xticks(x)  # 设置X轴刻度与数据点匹配
+    plt.tight_layout()
+
+    # 保存图像
+    if os.name == "nt":
+      output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
+    elif os.name == "posix":
+      output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
+
+    # 创建文件夹如果不存在
+    folder_path = os.path.join(output_folder, collection_name)
+    if not os.path.exists(folder_path):
+      os.makedirs(folder_path)
+    output_file = f"{folder_path}/{dns_server}_accessibility_plot.png"
+    plt.savefig(output_file, dpi=300)
+    plt.close()
+
+
 def get_timely_trend():
   """
   绘制域名可访问性随时间的变化趋势。基于每一个DNS服务器的数据
@@ -197,108 +296,15 @@ def get_timely_trend():
       "ChinaMobile-DNSPoisoning-November",
       "ChinaMobile-DNSPoisoning-2025-January"
   ]
-
-  for dns_server in ip_to_provider.keys():
-    for collection_name in collections:
-      collection = ADC_db[collection_name]
-      cursor = collection.find({"dns_server": dns_server})
-      # 默认字典，用于按时间聚合数据
-      aggregated_data = defaultdict(lambda: {
-          "accessible": set(),
-          "inaccessible": set()
-      })
-
-      for doc in cursor:
-        timestamp = doc.get("timestamp")
-        domain = doc.get("domain")
-        ips = doc.get("ips", "[]")
-
-        # 时间精确到每四个小时
-        date = timestamp[:
-                         10] + f" {int(timestamp[11:13]) // 4 * 4:02}:00:00" if timestamp else None
-
-        # 确保 domain 是字符串或可哈希类型
-        if isinstance(domain, list):
-          domain = ",".join(domain)  # 将列表合并为字符串，用逗号分隔
-        elif not isinstance(domain, str):
-          domain = str(domain)  # 转换为字符串
-
-        if date and domain:
-          # 解析 IP 地址
-          ips_list = parse_ips(ips)
-
-          # 判断是否可访问
-          if not ips_list or all(is_private_ip(ip) for ip in ips_list):
-            aggregated_data[date]["inaccessible"].add(domain)
-          else:
-            aggregated_data[date]["accessible"].add(domain)
-
-      # 合并去重
-      for date in aggregated_data:
-        aggregated_data[date]["accessible"] = list(
-            aggregated_data[date]["accessible"])
-        aggregated_data[date]["inaccessible"] = list(
-            aggregated_data[date]["inaccessible"])
-
-      # 统计按时间聚合后的数据
-      x = sorted(aggregated_data.keys())  # 时间轴
-
-      # 如果是空数据，则跳过
-      if not x:
-        print(
-            f"No data found for {collection_name} and DNS server {dns_server}"
-        )
-        with open("EmptyList.txt", "w") as f:
-          f.write(
-              f"No data found for {collection_name} and DNS server {dns_server}\n"
-          )
-          f.close()
-        continue
-      print(
-          f"Total {len(x)} data points for {collection_name} and DNS server {dns_server}"
-      )
-      accessible = [len(aggregated_data[date]["accessible"]) for date in x]
-      inaccessible = [
-          len(aggregated_data[date]["inaccessible"]) for date in x
-      ]
-
-      if x:  # 绘图, 如果x为空, 则不绘制
-        plt.figure(figsize=(30, 8))  # 拉长图片横向长度
-        plt.plot(x,
-                 accessible,
-                 label="Accessible Domains",
-                 color="green",
-                 marker="o",
-                 linestyle="--")
-        plt.plot(x,
-                 inaccessible,
-                 label="Inaccessible Domains",
-                 color="red",
-                 marker="o",
-                 linestyle="--")
-        plt.xlabel("Time (hourly)")
-        plt.ylabel("Number of Domains")
-        plt.title(
-            f"Domain Accessibility Over Time ({collection_name} - {dns_server})"
-        )
-        plt.legend()
-        plt.xticks(rotation=25, fontsize=5)
-        plt.gca().set_xticks(x)  # 设置X轴刻度与数据点匹配
-        plt.tight_layout()
-
-        # 保存图像
-        if os.name == "nt":
-          output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\"
-        elif os.name == "posix":
-          output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
-
-        # 创建文件夹如果不存在
-        folder_path = os.path.join(output_folder, collection_name)
-        if not os.path.exists(folder_path):
-          os.makedirs(folder_path)
-        output_file = f"{folder_path}/{dns_server}_accessibility_plot.png"
-        plt.savefig(output_file, dpi=300)
-        plt.close()
+  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    tasks = []
+    for dns_server in ip_to_provider.keys():
+      for collection_name in collections:
+        tasks.append(
+            executor.submit(process_collection_timely_distribution,
+                            dns_server, collection_name))
+    for task in tasks:
+      task.result()
 
 
 def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
@@ -417,7 +423,7 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-9/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
-  with ThreadPoolExecutor() as executor:
+  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     tasks = [
         executor.submit(DNSPoisoning_ErrorCode_Distribute, DNSPoisoning,
                         f"{output_folder}/2024-9/DNS_SERVER_DIST"),
