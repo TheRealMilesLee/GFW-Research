@@ -1,7 +1,8 @@
 import matplotlib
+
 matplotlib.use('Agg')  # 使用非交互式后端
 import matplotlib.pyplot as plt
-from ..DBOperations import Merged_db, MongoDBHandler
+from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from collections import Counter
 import os
 import networkx as nx
@@ -24,6 +25,8 @@ logger = logging.getLogger(__name__)
 GFWLocation = MongoDBHandler(Merged_db["TraceRouteResult"])
 merged_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
 merged_2025_Jan_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])
+adc_db_2025_Jan_GFWL = MongoDBHandler(
+    ADC_db["ChinaMobile-GFWLocation-2025-January"])
 
 
 def plot_distribution(destination_db, output_folder, field, labels, title):
@@ -55,12 +58,17 @@ def plot_distribution(destination_db, output_folder, field, labels, title):
   fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
   ax.bar(labels, [total_docs, docs_with_field])
   ax.text(labels[0], total_docs, total_docs, ha='center', va='bottom')
-  ax.text(labels[1], docs_with_field, docs_with_field, ha='center', va='bottom')
+  ax.text(labels[1],
+          docs_with_field,
+          docs_with_field,
+          ha='center',
+          va='bottom')
   ax.set_xlabel('Document Type')
   ax.set_ylabel('Number of Documents')
   ax.set_title(f'{title} (Ratio: {ratio:.2f}%)')
   fig.savefig(f'{output_folder}/{title.replace(" ", "_")}.png')
   plt.close(fig)
+
 
 def distribution_GFWL_rst_detected(destination_db, output_folder):
   """
@@ -71,13 +79,10 @@ def distribution_GFWL_rst_detected(destination_db, output_folder):
 
   @return None
   """
-  plot_distribution(
-    destination_db,
-    output_folder,
-    "rst_detected",
-    ['Total Docs', 'RST Detected'],
-    'RST Detected Distribution'
-  )
+  plot_distribution(destination_db, output_folder, "rst_detected",
+                    ['Total Docs', 'RST Detected'],
+                    'RST Detected Distribution')
+
 
 def distribution_GFWL_redirection_detected(destination_db, output_folder):
   """
@@ -89,12 +94,14 @@ def distribution_GFWL_redirection_detected(destination_db, output_folder):
   @return None
   """
   plot_distribution(
-    destination_db,
-    output_folder,
-    {"redirection_detected": {"$elemMatch": {"$exists": True}}},
-    ['Total Docs', 'Redirection Detected'],
-    'Redirection Detected Distribution'
-  )
+      destination_db, output_folder,
+      {"redirection_detected": {
+          "$elemMatch": {
+              "$exists": True
+          }
+      }}, ['Total Docs', 'Redirection Detected'],
+      'Redirection Detected Distribution')
+
 
 def distribution_GFWL_Error(destination_db, output_folder):
   """
@@ -111,11 +118,16 @@ def distribution_GFWL_Error(destination_db, output_folder):
   """
   logger.info('Start to plot Error Distribution')
   total_docs = destination_db.count_documents({})
-  docs_with_error = destination_db.count_documents({"error": { "$elemMatch": { "$exists": True } }})
+  docs_with_error = destination_db.count_documents(
+      {"error": {
+          "$elemMatch": {
+              "$exists": True
+          }
+      }})
   error_ratio = docs_with_error / total_docs * 100
 
   error_counts = Counter()
-  docs = destination_db.find({"error": { "$elemMatch": { "$exists": True } }})
+  docs = destination_db.find({"error": {"$elemMatch": {"$exists": True}}})
   for doc in docs:
     for error in doc['error']:
       error_counts[error] += 1
@@ -130,6 +142,7 @@ def distribution_GFWL_Error(destination_db, output_folder):
   fig.savefig(f'{output_folder}/Error_Distribution.png', bbox_inches='tight')
   plt.close(fig)
 
+
 def distribution_GFWL_invalid_ip(destination_db, output_folder):
   """
   @brief Plots the distribution of valid and invalid IP addresses in the database.
@@ -143,15 +156,15 @@ def distribution_GFWL_invalid_ip(destination_db, output_folder):
 
   @return None
   """
-  plot_distribution(
-    destination_db,
-    output_folder,
-    "invalid_ip",
-    ['Valid IP', 'Invalid IP'],
-    'IP Type Distribution'
-  )
+  plot_distribution(destination_db, output_folder, "invalid_ip",
+                    ['Valid IP', 'Invalid IP'], 'IP Type Distribution')
 
-def ip_hops_core_path(destination_db, output_folder, domain=None, top_n=10, frequency_threshold=5):
+
+def ip_hops_core_path(destination_db,
+                      output_folder,
+                      domain=None,
+                      top_n=10,
+                      frequency_threshold=5):
   """
   @brief Constructs and visualizes core IP hops paths.
 
@@ -197,7 +210,9 @@ def ip_hops_core_path(destination_db, output_folder, domain=None, top_n=10, freq
       G.add_edge(*edge, weight=freq)
 
   # Step 3: Identify top N core paths by edge weight
-  sorted_edges = sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse=True)
+  sorted_edges = sorted(G.edges(data=True),
+                        key=lambda x: x[2]['weight'],
+                        reverse=True)
   top_edges = sorted_edges[:top_n]
   core_nodes = set()
   for edge in top_edges:
@@ -238,89 +253,165 @@ def ip_hops_core_path(destination_db, output_folder, domain=None, top_n=10, freq
   plt.figure(figsize=(15, 7))
 
   # Draw core nodes
-  nx.draw_networkx_nodes(subG, pos, nodelist=[node for node in subG.nodes if node not in end_nodes],
-                        node_size=200, node_color='blue', label='Core Nodes')
+  nx.draw_networkx_nodes(
+      subG,
+      pos,
+      nodelist=[node for node in subG.nodes if node not in end_nodes],
+      node_size=200,
+      node_color='blue',
+      label='Core Nodes')
 
   # Draw end nodes
-  nx.draw_networkx_nodes(subG, pos, nodelist=end_nodes, node_size=300, node_color='green', label='End Nodes')
+  nx.draw_networkx_nodes(subG,
+                         pos,
+                         nodelist=end_nodes,
+                         node_size=300,
+                         node_color='green',
+                         label='End Nodes')
 
   # Draw normal edges
-  nx.draw_networkx_edges(subG, pos, edge_color='gray', arrowsize=10, label='Normal Edges')
+  nx.draw_networkx_edges(subG,
+                         pos,
+                         edge_color='gray',
+                         arrowsize=10,
+                         label='Normal Edges')
 
   # Adjust label position
-  label_pos = {node: (x, y - 5) for node, (x, y) in pos.items()}  # Label offset by 5 units
+  label_pos = {
+      node: (x, y - 5)
+      for node, (x, y) in pos.items()
+  }  # Label offset by 5 units
   nx.draw_networkx_labels(subG, label_pos, font_size=8, font_color='black')
 
   # Draw important edges
   top_edges_list = [(u, v) for u, v, _ in top_edges]
-  nx.draw_networkx_edges(subG, pos, edgelist=top_edges_list, edge_color='red', width=2, label='Important Edges')
+  nx.draw_networkx_edges(subG,
+                         pos,
+                         edgelist=top_edges_list,
+                         edge_color='red',
+                         width=2,
+                         label='Important Edges')
 
   # Create custom legend handles
-  core_node_patch = mlines.Line2D([], [], marker='o', color='blue', linestyle='None',
-                                  markersize=7, label='Core Nodes')
-  end_node_patch = mlines.Line2D([], [], marker='o', color='green', linestyle='None',
-                                 markersize=10, label='End Nodes')
-  normal_edge_line = mlines.Line2D([], [], color='gray', linewidth=2, label='Normal Edges')
-  important_edge_line = mlines.Line2D([], [], color='red', linewidth=2, label='Important Edges')
+  core_node_patch = mlines.Line2D([], [],
+                                  marker='o',
+                                  color='blue',
+                                  linestyle='None',
+                                  markersize=7,
+                                  label='Core Nodes')
+  end_node_patch = mlines.Line2D([], [],
+                                 marker='o',
+                                 color='green',
+                                 linestyle='None',
+                                 markersize=10,
+                                 label='End Nodes')
+  normal_edge_line = mlines.Line2D([], [],
+                                   color='gray',
+                                   linewidth=2,
+                                   label='Normal Edges')
+  important_edge_line = mlines.Line2D([], [],
+                                      color='red',
+                                      linewidth=2,
+                                      label='Important Edges')
 
   # Add custom legend
-  plt.legend(handles=[core_node_patch, end_node_patch, normal_edge_line, important_edge_line],
-            scatterpoints=1, loc='best', fontsize=10)
+  plt.legend(handles=[
+      core_node_patch, end_node_patch, normal_edge_line, important_edge_line
+  ],
+             scatterpoints=1,
+             loc='best',
+             fontsize=10)
 
   # Add labels for end nodes
   for node in end_nodes:
     x, y = pos[node]
     plt.text(x, y - 10, 'End', fontsize=8, color='green', ha='center')
 
-  plt.title(f'Optimized Core IP Hops Network{" for " + domain if domain else ""}', fontsize=16)
+  plt.title(
+      f'Optimized Core IP Hops Network{" for " + domain if domain else ""}',
+      fontsize=16)
   filename = f'Optimized_Core_IP_Hops_Network{"_" + domain if domain else ""}.png'
+  ensure_folder_exists(f'{output_folder}/IP_Path')
   plt.savefig(f'{output_folder}/IP_Path/{filename}', bbox_inches='tight')
   plt.close()
+
 
 def ensure_folder_exists(folder):
   if not os.path.exists(folder):
     os.makedirs(folder)
+
+
 if __name__ == '__main__':
   if os.name == 'nt':
     folders = [
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
-      'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
+        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
     ]
   elif os.name == 'posix':
     folders = [
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9',
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9/IP_Path',
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11',
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11/IP_Path',
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1',
-      '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1/IP_Path'
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9',
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9/IP_Path',
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11',
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11/IP_Path',
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1',
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1/IP_Path'
     ]
   for folder in folders:
     ensure_folder_exists(folder)
 
   with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     # 2024-9
-    executor.submit(distribution_GFWL_rst_detected, GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-    executor.submit(distribution_GFWL_redirection_detected, GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-    executor.submit(distribution_GFWL_Error, GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-    executor.submit(distribution_GFWL_invalid_ip, GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
-    executor.submit(ip_hops_core_path, GFWLocation, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9')
+    executor.submit(
+        distribution_GFWL_rst_detected, GFWLocation,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
+    executor.submit(
+        distribution_GFWL_redirection_detected, GFWLocation,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
+    executor.submit(
+        distribution_GFWL_Error, GFWLocation,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
+    executor.submit(
+        distribution_GFWL_invalid_ip, GFWLocation,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
+    executor.submit(
+        ip_hops_core_path, GFWLocation,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
 
     # 2024-11
-    executor.submit(distribution_GFWL_Error, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-    executor.submit(distribution_GFWL_rst_detected, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-    executor.submit(distribution_GFWL_redirection_detected, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-    executor.submit(distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
-    executor.submit(ip_hops_core_path, merged_2024_Nov_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11')
+    executor.submit(
+        distribution_GFWL_Error, merged_2024_Nov_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
+    executor.submit(
+        distribution_GFWL_rst_detected, merged_2024_Nov_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
+    executor.submit(
+        distribution_GFWL_redirection_detected, merged_2024_Nov_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
+    executor.submit(
+        distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
+    executor.submit(
+        ip_hops_core_path, merged_2024_Nov_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
 
     # 2025-1
-    executor.submit(distribution_GFWL_Error, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-    executor.submit(distribution_GFWL_rst_detected, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-    executor.submit(distribution_GFWL_redirection_detected, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-    executor.submit(distribution_GFWL_invalid_ip, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
-    executor.submit(ip_hops_core_path, merged_2025_Jan_GFWL, 'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1')
+    executor.submit(
+        distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
+    executor.submit(
+        distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
+    executor.submit(
+        distribution_GFWL_redirection_detected, adc_db_2025_Jan_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
+    executor.submit(
+        distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
+    executor.submit(
+        ip_hops_core_path, adc_db_2025_Jan_GFWL,
+        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
   logger.info('All tasks completed.')
