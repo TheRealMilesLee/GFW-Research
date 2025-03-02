@@ -16,6 +16,8 @@ from concurrent.futures import ThreadPoolExecutor
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
 merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
+adc_2025_Jan_DNS = MongoDBHandler(
+    ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
 
 categories = DNSPoisoning.distinct("error_code")
 
@@ -132,6 +134,60 @@ def is_private_ip(ip):
     return False
 
 
+def get_server_location(server):
+  if server in ip_to_provider:
+    return ip_to_provider[server]
+  else:
+    regex = re.compile(r'^(.*?)(?: Timeout| Non-existent | No)')
+    ip_match = regex.match(server)
+    if ip_match:
+      return ip_to_provider.get(ip_match.group(1), 'Unknown')
+    else:
+      print(f'Unknown server: {server}')
+      return 'Unknown'
+
+
+def plot_pie_chart_helper(location_counts, title, output_file):
+  fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
+  wedges, texts, autotexts = ax.pie(location_counts.values(),
+                                    labels=location_counts.keys(),
+                                    autopct='%1.1f%%',
+                                    startangle=140,
+                                    pctdistance=0.85)
+  plt.setp(autotexts, size=10, weight="bold", color="white")
+  plt.setp(texts, size=10)
+  ax.set_title(title)
+  fig.savefig(output_file, bbox_inches='tight')
+  plt.close(fig)
+
+
+def plot_error_code_distribution_helper(error_code_count, title, output_file):
+  # Remove entries with zero count and empty or [] data
+  error_code_count = {
+      k: v
+      for k, v in error_code_count.items() if v > 0 and k not in ["", "[]"]
+  }
+
+  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+  error_codes = list(error_code_count.keys())
+  counts = list(error_code_count.values())
+  total = sum(counts)
+  ax.bar(error_codes, counts, color='skyblue')
+  for i, count in enumerate(counts):
+    percentage = (count / total) * 100
+    ax.text(i,
+            count,
+            f"{count}\n({percentage:.1f}%)",
+            ha='center',
+            va='bottom')
+  ax.set_xlabel('Error Code')
+  ax.set_ylabel('Number of Occurrences')
+  ax.set_title(f"{title} (Total: {total} occurrences)")
+  plt.setp(ax.get_xticklabels(), rotation=25)
+  fig.savefig(output_file)
+  plt.close(fig)
+
+
 def get_timely_trend():
   """
   绘制域名可访问性随时间的变化趋势。基于每一个DNS服务器的数据
@@ -189,8 +245,10 @@ def get_timely_trend():
 
       # 如果是空数据，则跳过
       if not x:
-        print(f"No data found for {collection_name} and DNS server {dns_server}")
-        with open ("EmptyList.txt", "a") as f:
+        print(
+            f"No data found for {collection_name} and DNS server {dns_server}"
+        )
+        with open("EmptyList.txt", "w") as f:
           f.write(
               f"No data found for {collection_name} and DNS server {dns_server}\n"
           )
@@ -207,21 +265,21 @@ def get_timely_trend():
       if x:  # 绘图, 如果x为空, 则不绘制
         plt.figure(figsize=(30, 8))  # 拉长图片横向长度
         plt.plot(x,
-             accessible,
-             label="Accessible Domains",
-             color="green",
-             marker="o",
-             linestyle="--")
+                 accessible,
+                 label="Accessible Domains",
+                 color="green",
+                 marker="o",
+                 linestyle="--")
         plt.plot(x,
-             inaccessible,
-             label="Inaccessible Domains",
-             color="red",
-             marker="o",
-             linestyle="--")
+                 inaccessible,
+                 label="Inaccessible Domains",
+                 color="red",
+                 marker="o",
+                 linestyle="--")
         plt.xlabel("Time (hourly)")
         plt.ylabel("Number of Domains")
         plt.title(
-        f"Domain Accessibility Over Time ({collection_name} - {dns_server})"
+            f"Domain Accessibility Over Time ({collection_name} - {dns_server})"
         )
         plt.legend()
         plt.xticks(rotation=25, fontsize=5)
@@ -243,27 +301,6 @@ def get_timely_trend():
         plt.close()
 
 
-def plot_error_code_distribution(error_code_count, title, output_file):
-  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
-  error_codes = list(error_code_count.keys())
-  counts = list(error_code_count.values())
-  ax.bar(error_codes, counts, color='skyblue')
-  for i, count in enumerate(counts):
-    ax.text(i, count, str(count), ha='center', va='bottom')
-  ax.set_xlabel('Error Code')
-  ax.set_ylabel('Number of Occurrences')
-  ax.set_title(title)
-  plt.setp(ax.get_xticklabels(), rotation=45)
-  total = sum(counts)
-  ax.text(0.5,
-          -1,
-          f'Total: {total} occurrences',
-          transform=ax.transAxes,
-          ha='center')
-  fig.savefig(output_file)
-  plt.close(fig)
-
-
 def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
   """
   Plot the distribution of error codes for each DNS server in the DNS poisoning data.
@@ -277,9 +314,11 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     for doc in docs:
       error_code = doc.get('error_code')
       if error_code:
-        error_code_str = str(error_code) if isinstance(error_code,
-                                                       list) else error_code
-        error_code_count[error_code_str] += 1
+        if isinstance(error_code, list):
+          for code in error_code:
+            error_code_count[str(code)] += 1
+      else:
+        error_code_count[str(error_code)] += 1
 
     if not error_code_count:
       print(f'No error codes found for DNS server: {server}')
@@ -287,7 +326,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
 
     sanitized_server = server.replace(':', '_').replace('/', '_')
     output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
-    plot_error_code_distribution(
+    plot_error_code_distribution_helper(
         error_code_count,
         f'Error Code Distribution for DNS Server {server} ({provider})',
         output_file)
@@ -299,229 +338,62 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
   按区域绘制错误代码分布，以对比中国区与其他区域的DNS服务商在错误代码上的差异。
   """
   print('Plotting error code distribution by provider region...')
-  try:
-    region_to_servers = {}
-    for server, region in ip_to_region.items():
-      region_to_servers.setdefault(region, []).append(server)
+  region_to_error_code_count = defaultdict(Counter)
 
-    for region, servers in region_to_servers.items():
-      error_code_count = Counter()
-      for server in servers:
-        provider = ip_to_provider.get(server, 'Unknown Provider')
-        docs = destination_db.find({'dns_server': server})
-        for doc in docs:
-          error_code = doc.get('error_code')
-          if error_code:
-            error_code_str = str(error_code) if isinstance(
-                error_code, list) else error_code
-            error_code_count[error_code_str] += 1
-
-      if not error_code_count:
-        print(f'No error codes found for region: {region}')
-        continue
-
-      sanitized_region = region.replace(':', '_').replace('/', '_')
-      output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png'
-      plot_error_code_distribution(error_code_count,
-                                   f'Error Code Distribution for {region}',
-                                   output_file)
-  except Exception as e:
-    print(f'Error plotting error code distribution by provider region: {e}')
-
-
-def get_server_location(server):
-  if server in ip_to_provider:
-    return ip_to_provider[server]
-  else:
-    regex = re.compile(r'^(.*?)(?: Timeout| Non-existent | No)')
-    ip_match = regex.match(server)
-    if ip_match:
-      return ip_to_provider.get(ip_match.group(1), 'Unknown')
-    else:
-      print(f'Unknown server: {server}')
-      return 'Unknown'
-
-
-def plot_pie_chart(location_counts, title, output_file):
-  fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
-  wedges, texts, autotexts = ax.pie(location_counts.values(),
-                                    labels=location_counts.keys(),
-                                    autopct='%1.1f%%',
-                                    startangle=140,
-                                    pctdistance=0.85)
-  plt.setp(autotexts, size=10, weight="bold", color="white")
-  plt.setp(texts, size=10)
-  ax.set_title(title)
-  fig.savefig(output_file, bbox_inches='tight')
-  plt.close(fig)
-
-
-def distribution_error_code(destination_db,
-                            output_folder,
-                            error_code,
-                            exclude_yandex=False):
-  docs = destination_db.find({"error_code": error_code}, {"error_reason": 1})
-  location_counts = Counter()
-  for doc in docs:
-    error_reason = doc.get('error_reason', '')
-    if isinstance(error_reason, list):
-      error_reason = ' '.join(error_reason)
-    match = re.search(r'on server:\s*(.*)$', error_reason)
-    if match:
-      server = match.group(1).strip()
-      location = get_server_location(server)
-      if not exclude_yandex or (location != 'Yandex DNS'
-                                and location != 'Yandex DNS (Additional)'):
-        location_counts[location] += 1
-  title = f'{error_code} Error Reason Distribution by Location'
-  if exclude_yandex:
-    title += ' (Yandex Excluded)'
-  output_file = f'{output_folder}/{error_code}_Distribution_by_Location{"_Yandex_excluded" if exclude_yandex else ""}.png'
-  plot_pie_chart(location_counts, title, output_file)
-
-
-def distribution_NXDomain(destination_db, output_folder):
-  distribution_error_code(destination_db, output_folder, "NXDOMAIN")
-
-
-def distribution_NXDomain_exclude_yandex(destination_db, output_folder):
-  distribution_error_code(destination_db,
-                          output_folder,
-                          "NXDOMAIN",
-                          exclude_yandex=True)
-
-
-def distribution_NoAnswer(destination_db, output_folder):
-  distribution_error_code(destination_db, output_folder, "NoAnswer")
-
-
-def distribution_NoNameservers(destination_db, output_folder):
-  distribution_error_code(destination_db, output_folder, "NoNameservers")
-
-
-def distribution_Timeout(destination_db, output_folder):
-  distribution_error_code(destination_db, output_folder, "Timeout")
-
-
-def access_timely_distribution(destination_db, output_folder):
-  """
-    绘制能否访问的时间趋势
-    """
-  # 查询所有文档，提取域名和时间戳
-  docs = destination_db.find({}, {
-      "domain": 1,
-      "timestamp": 1,
-      "error_code": 1
-  })
-  access_data = {}
-
-  for doc in docs:
-    timestamp = doc.get('timestamp')
-    domain = doc.get('domain')
-    error_code = doc.get('error_code')
-    if not timestamp or not domain:
-      continue
-    for ts in timestamp:
-      date = datetime.fromisoformat(ts).replace(hour=0,
-                                                minute=0,
-                                                second=0,
-                                                microsecond=0)
-      if date not in access_data:
-        access_data[date] = {'accessible': set(), 'inaccessible': set()}
+  for server, region in ip_to_region.items():
+    docs = destination_db.find({'dns_server': server})
+    for doc in docs:
+      error_code = doc.get('error_code')
       if error_code:
-        access_data[date]['inaccessible'].add(domain)
-      else:
-        access_data[date]['accessible'].add(domain)
+        if isinstance(error_code, list):
+          for code in error_code:
+            region_to_error_code_count[region][str(code)] += 1
+        else:
+          region_to_error_code_count[region][str(error_code)] += 1
 
-  # 聚合数据
-  dates = sorted(access_data.keys())
-  accessible_counts = [len(access_data[date]['accessible']) for date in dates]
-  inaccessible_counts = [
-      len(access_data[date]['inaccessible']) for date in dates
-  ]
-
-  # 绘制趋势图
-  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
-  ax.plot(dates, accessible_counts, label='Accessible', color='green')
-  ax.plot(dates, inaccessible_counts, label='Inaccessible', color='red')
-  ax.set_xlabel('TimeStamp')
-  ax.set_ylabel('Number of Domains')
-  ax.set_title('Timely Distribution of Accessible and Inaccessible Domains')
-  ax.legend()
-
-  # 格式化X轴为日期
-  ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-  ax.xaxis.set_major_locator(mdates.AutoDateLocator())
-
-  plt.setp(ax.get_xticklabels(), rotation=45)
-  fig.savefig(f'{output_folder}/access_timely_distribution.png')
-  plt.close(fig)
-
-
-def access_inaccess_distribution():
-  """
-  绘制可访问域名、不可访问域名和有时可访问域名的分布
-  """
-  # 查询所有文档，提取域名和时间戳
-  docs = DNSPoisoning.find({}, {
-      "domain": 1,
-      "timestamp": 1,
-      "error_code": 1,
-      "ips": 1
-  })
-  access_data = {}
-
-  for doc in docs:
-    timestamp = doc.get('timestamp')
-    domain = doc.get('domain')
-    error_code = doc.get('error_code')
-    result = doc.get('ips')
-    if not timestamp or not domain:
+  for region, error_code_count in region_to_error_code_count.items():
+    if not error_code_count:
+      print(f'No error codes found for region: {region}')
       continue
-    date = timestamp.replace(hour=0, minute=0, second=0, microsecond=0)
-    if date not in access_data:
-      access_data[date] = {
-          'accessible': set(),
-          'inaccessible': set(),
-          'sometimes': set()
-      }
-    if error_code and not result:
-      access_data[date]['inaccessible'].add(domain)
-    elif error_code and result:
-      access_data[date]['sometimes'].add(domain)
-    else:
-      access_data[date]['accessible'].add(domain)
 
-  # 聚合数据
-  dates = sorted(access_data.keys())
-  accessible_counts = [len(access_data[date]['accessible']) for date in dates]
-  inaccessible_counts = [
-      len(access_data[date]['inaccessible']) for date in dates
-  ]
-  sometimes_counts = [len(access_data[date]['sometimes']) for date in dates]
+    sanitized_region = region.replace(':', '_').replace('/', '_')
+    output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png'
+    plot_error_code_distribution_helper(
+        error_code_count, f'Error Code Distribution for {region}',
+        output_file)
 
-  # 绘制趋势图
-  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
-  ax.plot(dates, accessible_counts, label='Accessible', color='green')
-  ax.plot(dates, inaccessible_counts, label='Inaccessible', color='red')
-  ax.plot(dates,
-          sometimes_counts,
-          label='Sometimes Accessible',
-          color='orange')
-  ax.set_xlabel('Timestamp')
-  ax.set_ylabel('Number of domains')
-  ax.set_title(
-      'Distribution of Accessible, Inaccessible, and Sometimes Accessible Domains'
-  )
-  ax.legend()
 
-  # 格式化X轴为日期
-  ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-  ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+def distribution_error_code(destination_db, output_folder):
+  """
+  绘制每个错误代码的DNS服务器占比分布图
+  """
+  error_code_to_server_count = defaultdict(Counter)
+  all_error_codes = set()
 
-  plt.setp(ax.get_xticklabels(), rotation=45)
-  fig.savefig('access_inaccess_distribution.png')
-  plt.close(fig)
+  for server in ip_to_provider.keys():
+    docs = destination_db.find({'dns_server': server})
+    for doc in docs:
+      error_code = doc.get('error_code')
+      if error_code:
+        if isinstance(error_code, list):
+          for code in error_code:
+            error_code_to_server_count[str(code)][ip_to_region[server]] += 1
+            all_error_codes.add(str(code))
+        else:
+          error_code_to_server_count[str(error_code)][
+              ip_to_region[server]] += 1
+          all_error_codes.add(str(error_code))
+
+  for error_code in all_error_codes:
+    server_count = error_code_to_server_count[error_code]
+    if not server_count:
+      print(f'No servers found for error code: {error_code}')
+      continue
+
+    output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{error_code}.png'
+    plot_pie_chart_helper(
+        server_count, f'DNS Servers Distribution for Error Code {error_code}',
+        output_file)
 
 
 if __name__ == "__main__":
@@ -534,223 +406,39 @@ if __name__ == "__main__":
     for task in tasks:
       task.result()
 
-  if os.name == "nt":
-    folders = [
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST",
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9",
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST",
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11",
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST",
-        "E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1",
+  get_timely_trend()
+
+  if os.name == "posix":
+    output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
+  elif os.name == "nt":
+    output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
+
+  ensure_folder_exists(output_folder)
+  ensure_folder_exists(f"{output_folder}/2024-9/DNS_SERVER_DIST")
+  ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
+  with ThreadPoolExecutor() as executor:
+    tasks = [
+        executor.submit(DNSPoisoning_ErrorCode_Distribute, DNSPoisoning,
+                        f"{output_folder}/2024-9/DNS_SERVER_DIST"),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute,
+                        merged_2024_Nov_DNS,
+                        f"{output_folder}/2024-11/DNS_SERVER_DIST"),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
+                        f"{output_folder}/2025-1/DNS_SERVER_DIST"),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        DNSPoisoning, f"{output_folder}/2024-9"),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        merged_2024_Nov_DNS, f"{output_folder}/2024-11"),
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        adc_2025_Jan_DNS, f"{output_folder}/2025-1"),
+        executor.submit(distribution_error_code, DNSPoisoning,
+                        f"{output_folder}/2024-9"),
+        executor.submit(distribution_error_code, merged_2024_Nov_DNS,
+                        f"{output_folder}/2024-11"),
+        executor.submit(distribution_error_code, adc_2025_Jan_DNS,
+                        f"{output_folder}/2025-1")
     ]
-    for folder in folders:
-      ensure_folder_exists(folder)
-
-    get_timely_trend()
-
-    with ThreadPoolExecutor() as executor:
-      tasks = [
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              distribution_NoAnswer, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              distribution_NoNameservers, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              distribution_Timeout, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              access_timely_distribution, DNSPoisoning,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9'),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-              merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              distribution_NoAnswer, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              distribution_NoNameservers, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              distribution_Timeout, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              access_timely_distribution, merged_2024_Nov_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11'),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-              merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-          executor.submit(
-              distribution_NoAnswer, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-          executor.submit(
-              distribution_NoNameservers, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-          executor.submit(
-              distribution_Timeout, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-          executor.submit(
-              access_timely_distribution, merged_2025_Jan_DNS,
-              'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1'),
-      ]
-
-      execute_tasks(executor, tasks)
-
-    print("All tasks completed.")
-  elif os.name == "posix":
-    folders = [
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9/DNS_SERVER_DIST",
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9",
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11/DNS_SERVER_DIST",
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11",
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1/DNS_SERVER_DIST",
-        "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1",
-    ]
-    for folder in folders:
-      ensure_folder_exists(folder)
-
-    get_timely_trend()
-
-    with ThreadPoolExecutor() as executor:
-      tasks = [
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              distribution_NoAnswer, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              distribution_NoNameservers, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              distribution_Timeout, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              access_timely_distribution, DNSPoisoning,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-              merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              distribution_NoAnswer, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              distribution_NoNameservers, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              distribution_Timeout, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              access_timely_distribution, merged_2024_Nov_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-              merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1/DNS_SERVER_DIST'
-          ),
-          executor.submit(
-              distribution_NXDomain, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-          executor.submit(
-              distribution_NXDomain_exclude_yandex, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-          executor.submit(
-              distribution_NoAnswer, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-          executor.submit(
-              distribution_NoNameservers, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-          executor.submit(
-              distribution_Timeout, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-          executor.submit(
-              access_timely_distribution, merged_2025_Jan_DNS,
-              '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1'
-          ),
-      ]
-
     execute_tasks(executor, tasks)
 
-    print("All tasks completed.")
+  print("All tasks completed.")
