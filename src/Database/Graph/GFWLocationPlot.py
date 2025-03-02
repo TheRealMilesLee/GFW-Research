@@ -342,76 +342,53 @@ def ensure_folder_exists(folder):
 
 
 if __name__ == '__main__':
-  if os.name == 'nt':
-    folders = [
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9',
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-9\\IP_Path',
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11',
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2024-11\\IP_Path',
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1',
-        'E:\\Developer\\SourceRepo\\GFW-Research\\Pic\\2025-1\\IP_Path'
-    ]
-  elif os.name == 'posix':
-    folders = [
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9',
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-9/IP_Path',
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11',
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2024-11/IP_Path',
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1',
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic2025-1/IP_Path'
-    ]
-  for folder in folders:
-    ensure_folder_exists(folder)
+  if os.name == 'posix':
+    output_folder = '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic'
+  else:
+    output_folder = 'D:\\ Developer\\SourceRepo\\GFW-Research\\Pic'
+
+  ensure_folder_exists(output_folder)
+  ensure_folder_exists(f'{output_folder}/2024-9')
+  ensure_folder_exists(f'{output_folder}/2024-9/IP_Path')
+  ensure_folder_exists(f'{output_folder}/2024-11')
+  ensure_folder_exists(f'{output_folder}/2024-11/IP_Path')
+  ensure_folder_exists(f'{output_folder}/2025-1')
+  ensure_folder_exists(f'{output_folder}/2025-1/IP_Path')
 
   with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    # 2024-9
-    executor.submit(
-        distribution_GFWL_rst_detected, GFWLocation,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
-    executor.submit(
-        distribution_GFWL_redirection_detected, GFWLocation,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
-    executor.submit(
-        distribution_GFWL_Error, GFWLocation,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
-    executor.submit(
-        distribution_GFWL_invalid_ip, GFWLocation,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
-    executor.submit(
-        ip_hops_core_path, GFWLocation,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-9')
+    # 2024 September Data
+    executor.submit(distribution_GFWL_rst_detected, GFWLocation,
+                    f'{output_folder}/2024-9')
+    executor.submit(distribution_GFWL_redirection_detected, GFWLocation,
+                    f'{output_folder}/2024-9')
+    executor.submit(distribution_GFWL_Error, GFWLocation,
+                    f'{output_folder}/2024-9')
+    executor.submit(distribution_GFWL_invalid_ip, GFWLocation,
+                    f'{output_folder}/2024-9')
+    executor.submit(ip_hops_core_path, GFWLocation, f'{output_folder}/2024-9')
 
-    # 2024-11
-    executor.submit(
-        distribution_GFWL_Error, merged_2024_Nov_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
-    executor.submit(
-        distribution_GFWL_rst_detected, merged_2024_Nov_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
-    executor.submit(
-        distribution_GFWL_redirection_detected, merged_2024_Nov_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
-    executor.submit(
-        distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
-    executor.submit(
-        ip_hops_core_path, merged_2024_Nov_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2024-11')
+    # 2024 November Data
+    executor.submit(distribution_GFWL_rst_detected, merged_2024_Nov_GFWL,
+                    f'{output_folder}/2024-11')
+    executor.submit(distribution_GFWL_redirection_detected,
+                    merged_2024_Nov_GFWL, f'{output_folder}/2024-11')
+    executor.submit(distribution_GFWL_Error, merged_2024_Nov_GFWL,
+                    f'{output_folder}/2024-11')
+    executor.submit(distribution_GFWL_invalid_ip, merged_2024_Nov_GFWL,
+                    f'{output_folder}/2024-11')
+    executor.submit(ip_hops_core_path, merged_2024_Nov_GFWL,
+                    f'{output_folder}/2024-11')
 
-    # 2025-1
-    executor.submit(
-        distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
-    executor.submit(
-        distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
-    executor.submit(
-        distribution_GFWL_redirection_detected, adc_db_2025_Jan_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
-    executor.submit(
-        distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
-    executor.submit(
-        ip_hops_core_path, adc_db_2025_Jan_GFWL,
-        '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic/2025-1')
+    # 2025 January Data
+    executor.submit(distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
+                    f'{output_folder}/2025-1')
+    executor.submit(distribution_GFWL_redirection_detected,
+                    adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
+    executor.submit(distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
+                    f'{output_folder}/2025-1')
+    executor.submit(distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
+                    f'{output_folder}/2025-1')
+    executor.submit(ip_hops_core_path, adc_db_2025_Jan_GFWL,
+                    f'{output_folder}/2025-1')
+
   logger.info('All tasks completed.')
