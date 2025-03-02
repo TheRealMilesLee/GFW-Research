@@ -318,11 +318,10 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         if isinstance(error_code, list):
           for code in error_code:
             error_code_count[str(code)] += 1
-      else:
-        error_code_count[str(error_code)] += 1
+        else:
+          error_code_count[str(error_code)] += 1
 
     if not error_code_count:
-      print(f'No error codes found for DNS server: {server}')
       continue  # 跳过没有错误代码的服务器
 
     sanitized_server = server.replace(':', '_').replace('/', '_')
@@ -351,7 +350,6 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
             region_to_error_code_count[region][str(code)] += 1
         else:
           region_to_error_code_count[region][str(error_code)] += 1
-
   for region, error_code_count in region_to_error_code_count.items():
     if not error_code_count:
       print(f'No error codes found for region: {region}')
@@ -407,7 +405,7 @@ if __name__ == "__main__":
     for task in tasks:
       task.result()
 
-  get_timely_trend()
+  # get_timely_trend()
 
   if os.name == "posix":
     output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
