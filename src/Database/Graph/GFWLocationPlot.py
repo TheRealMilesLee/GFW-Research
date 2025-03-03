@@ -25,7 +25,8 @@ logger = logging.getLogger(__name__)
 # Merged_db constants
 GFWLocation = MongoDBHandler(Merged_db["TraceRouteResult"])
 merge_db_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
-merge_db_2025_Jan_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])
+adc_db_2025_GFWL = MongoDBHandler(
+    ADC_db["ChinaMobile-GFWLocation-2025-January"])
 
 
 def ip_hops_core_path(destination_db,
@@ -328,27 +329,42 @@ def plot_dst_distribution(destination_db, output_folder, use_ipv4_only=False):
 def plot_rst_detect(destination_db, output_folder):
   """
   1. 抓取目标数据库中的rst_detected字段, 统计出现次数, 并绘制直方图.
-  2. 如果数组为空则为Not detected, 如果不为空则为Detected.
+  2. 如果数组为空或者只有False则为Not detected, 如果只有True则为Detected, 如果即有True也有False则为Occured.
   """
-  query = {"rst_detected": {"$exists": True}}
-  cursor = destination_db.find(query, {"rst_detected": 1})
+  query = {
+      "$or": [{
+          "rst_detected": {
+              "$exists": True
+          }
+      }, {
+          "RST Detected": {
+              "$exists": True
+          }
+      }]
+  }
+  cursor = destination_db.find(query, {"rst_detected": 1, "RST Detected": 1})
   rst_detected = 0
   not_detected = 0
+  occured = 0
   for doc in cursor:
-    if doc.get('rst_detected'):
+    rst_values = doc.get('rst_detected') or doc.get('RST Detected')
+    if not rst_values or all(val is False for val in rst_values):
+      not_detected += 1
+    elif all(val is True for val in rst_values):
       rst_detected += 1
     else:
-      not_detected += 1
+      occured += 1
+
   # 绘制饼图
   plt.figure(figsize=(8, 8))
-  plt.pie([rst_detected, not_detected],
-          labels=['Detected', 'Not detected'],
-          colors=['red', 'green'],
+  plt.pie([rst_detected, not_detected, occured],
+          labels=['Detected', 'Not detected', 'Occured'],
+          colors=['red', 'green', 'yellow'],
           autopct='%1.1f%%',
           startangle=140)
   plt.title("The distribution of RST detected")
 
-  # 绘制颜色图例，红色为检测到，绿色为未检测到
+  # 绘制颜色图例，红色为检测到，绿色为未检测到，黄色为发生过
   plt.legend(handles=[
       mlines.Line2D([], [],
                     color='red',
@@ -358,6 +374,11 @@ def plot_rst_detect(destination_db, output_folder):
       mlines.Line2D([], [],
                     color='green',
                     label='Not detected',
+                    marker='o',
+                    linestyle='None'),
+      mlines.Line2D([], [],
+                    color='yellow',
+                    label='Occured',
                     marker='o',
                     linestyle='None')
   ],
@@ -389,15 +410,17 @@ if __name__ == '__main__':
   ip_hops_core_path(merge_db_2024_Nov_GFWL,
                     f'{output_folder}/2024-11',
                     use_ipv4_only=True)
-  # ip_hops_core_path(adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
+  ip_hops_core_path(adc_db_2025_GFWL,
+                    f'{output_folder}/2025-1',
+                    use_ipv4_only=True)
 
   plot_dst_distribution(GFWLocation, f'{output_folder}/2024-9')
   plot_dst_distribution(merge_db_2024_Nov_GFWL,
                         f'{output_folder}/2024-11',
                         use_ipv4_only=True)
-  plot_dst_distribution(merge_db_2025_Jan_GFWL,
+  plot_dst_distribution(adc_db_2025_GFWL,
                         f'{output_folder}/2025-1',
                         use_ipv4_only=True)
 
   plot_rst_detect(merge_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
-  plot_rst_detect(merge_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
+  plot_rst_detect(adc_db_2025_GFWL, f'{output_folder}/2025-1')
