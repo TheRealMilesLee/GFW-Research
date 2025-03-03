@@ -31,7 +31,8 @@ def ip_hops_core_path(destination_db,
                       output_folder,
                       domain=None,
                       top_n=50,
-                      frequency_threshold=25):
+                      frequency_threshold=25,
+                      use_ipv4_only=False):
   """
     Constructs and visualizes core IP hops paths.
     """
@@ -40,15 +41,28 @@ def ip_hops_core_path(destination_db,
   ip_frequency = Counter()
   hops_list = []
 
-  query = {"ips": {"$exists": True, "$ne": []}}
+  if destination_db == merge_db_2024_Nov_GFWL:
+    query = {"IPv4": {"$exists": True, "$ne": []}}
+  elif use_ipv4_only:
+    query = {"IPv4": {"$exists": True, "$ne": []}}
+  else:
+    query = {"ips": {"$exists": True, "$ne": []}}
   if domain:
     query["domain"] = domain
-  cursor = destination_db.find(query, {"ips": 1})
+  cursor = destination_db.find(query, {"ips": 1, "IPv4": 1, "IPv6": 1})
 
   for doc in cursor:
-    ips_strings = doc.get('ips', [])
+    if destination_db == merge_db_2024_Nov_GFWL or use_ipv4_only:
+      ips_strings = doc.get('IPv4', [])
+    else:
+      ips_strings = doc.get('ips', [])
+      if not ips_strings:
+        ips_strings = doc.get('IPv4', []) + doc.get('IPv6', [])
     for ips_str in ips_strings:
-      ips = [ip.strip() for ip in ips_str.split(';') if ip.strip()]
+      if destination_db == merge_db_2024_Nov_GFWL or use_ipv4_only:
+        ips = [ip.strip() for ip in ips_str.split(',') if ip.strip()]
+      else:
+        ips = [ip.strip() for ip in ips_str.split(';') if ip.strip()]
       if len(ips) <= 2:
         continue
       if ips[0] == '127.0.0.1':
@@ -182,22 +196,51 @@ def ip_hops_core_path(destination_db,
   plt.close()
 
 
-def plot_reached_dst_distribution(destination_db, output_folder):
+def plot_dst_distribution(destination_db, output_folder, use_ipv4_only=False):
   """
   1. 抓取目标数据库中的ips字段, 数组中第一个就是目标IP, 从[1]开始如果出现目标IP或'Reached'字样则视为到达.
-  2. 统计成功到达目标的次数, 并绘制直方图.
+  2. 如果ips字段为空数组, 则fallback到IPv4和IPv6这两个字段去找.
+  3. 统计成功到达目标的次数, 并绘制直方图.
   """
-  query = {"ips": {"$exists": True, "$ne": []}}
-  cursor = destination_db.find(query, {"ips": 1})
+  if use_ipv4_only:
+    query = {"IPv4": {"$exists": True}}
+    cursor = destination_db.find(query, {"IPv4": 1})
+  else:
+    query = {
+        "$or": [{
+            "ips": {
+                "$exists": True
+            }
+        }, {
+            "IPv4": {
+                "$exists": True
+            }
+        }, {
+            "IPv6": {
+                "$exists": True
+            }
+        }]
+    }
+    cursor = destination_db.find(query, {"ips": 1, "IPv4": 1, "IPv6": 1})
+
   reached_dst = 0
   unreached_dst = 0
   total = 0
   labels = ['Reached', 'Unreached']
   field = 'destination_reached'
   for doc in cursor:
-    ips_strings = doc.get('ips', [])
+    if use_ipv4_only:
+      ips_strings = doc.get('IPv4', [])
+    else:
+      ips_strings = doc.get('ips', [])
+      if not ips_strings:
+        ips_strings = doc.get('IPv4', []) + doc.get('IPv6', [])
+
     for ips_str in ips_strings:
-      ips = [ip.strip() for ip in ips_str.split(';') if ip.strip()]
+      ips = [ip.strip() for ip in ips_str.split(',')
+             if ip.strip()] if use_ipv4_only else [
+                 ip.strip() for ip in ips_str.split(';') if ip.strip()
+             ]
       if len(ips) <= 1:
         unreached_dst += 1
       elif ips[0] in ips[1:] or 'Reached' in ips:
@@ -205,31 +248,35 @@ def plot_reached_dst_distribution(destination_db, output_folder):
       else:
         unreached_dst += 1
       total += 1
-  # 绘制饼图
-  plt.figure(figsize=(8, 8))
-  plt.pie([reached_dst, unreached_dst],
-          labels=labels,
-          colors=['green', 'red'],
-          autopct='%1.1f%%',
-          startangle=140)
-  plt.title("The distribution of destination reached")
 
-  # 绘制颜色图例，红色为未到达，绿色为到达
-  plt.legend(handles=[
-      mlines.Line2D([], [],
-                    color='green',
-                    label='Reached',
-                    marker='o',
-                    linestyle='None'),
-      mlines.Line2D([], [],
-                    color='red',
-                    label='Unreached',
-                    marker='o',
-                    linestyle='None')
-  ],
-             loc='best')
-  plt.savefig(f'{output_folder}/{field}.png', bbox_inches='tight')
-  plt.close()
+  # 绘制饼图
+  if reached_dst + unreached_dst > 0:
+    plt.figure(figsize=(8, 8))
+    plt.pie([reached_dst, unreached_dst],
+            labels=labels,
+            colors=['green', 'red'],
+            autopct='%1.1f%%',
+            startangle=140)
+    plt.title("The distribution of destination reached")
+
+    # 绘制颜色图例，红色为未到达，绿色为到达
+    plt.legend(handles=[
+        mlines.Line2D([], [],
+                      color='green',
+                      label='Reached',
+                      marker='o',
+                      linestyle='None'),
+        mlines.Line2D([], [],
+                      color='red',
+                      label='Unreached',
+                      marker='o',
+                      linestyle='None')
+    ],
+               loc='best')
+    plt.savefig(f'{output_folder}/{field}.png', bbox_inches='tight')
+    plt.close()
+  else:
+    logger.warning("No data to plot for destination reached distribution.")
 
 
 def plot_rst_detect(destination_db, output_folder):
@@ -293,46 +340,18 @@ if __name__ == '__main__':
   ensure_folder_exists(f'{output_folder}/2025-1/IP_Path')
 
   ip_hops_core_path(GFWLocation, f'{output_folder}/2024-9')
-  # ip_hops_core_path(adc_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
+  ip_hops_core_path(merge_db_2024_Nov_GFWL,
+                    f'{output_folder}/2024-11',
+                    use_ipv4_only=True)
   # ip_hops_core_path(adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
 
-  plot_reached_dst_distribution(GFWLocation, f'{output_folder}/2024-9')
+  plot_dst_distribution(GFWLocation, f'{output_folder}/2024-9')
+  plot_dst_distribution(merge_db_2024_Nov_GFWL,
+                        f'{output_folder}/2024-11',
+                        use_ipv4_only=True)
+  plot_dst_distribution(merge_db_2025_Jan_GFWL,
+                        f'{output_folder}/2025-1',
+                        use_ipv4_only=True)
+
   plot_rst_detect(merge_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
   plot_rst_detect(merge_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
-# with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-#   # 2024 September Data
-#   executor.submit(distribution_GFWL_rst_detected, GFWLocation,
-#                   f'{output_folder}/2024-9')
-#   executor.submit(distribution_GFWL_redirection_detected, GFWLocation,
-#                   f'{output_folder}/2024-9')
-#   executor.submit(distribution_GFWL_Error, GFWLocation,
-#                   f'{output_folder}/2024-9')
-#   executor.submit(distribution_GFWL_invalid_ip, GFWLocation,
-#                   f'{output_folder}/2024-9')
-#   executor.submit(ip_hops_core_path, GFWLocation, f'{output_folder}/2024-9')
-
-#   # 2024 November Data
-#   executor.submit(distribution_GFWL_rst_detected, adc_db_2024_Nov_GFWL,
-#                   f'{output_folder}/2024-11')
-#   executor.submit(distribution_GFWL_redirection_detected,
-#                   adc_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
-#   executor.submit(distribution_GFWL_Error, adc_db_2024_Nov_GFWL,
-#                   f'{output_folder}/2024-11')
-#   executor.submit(distribution_GFWL_invalid_ip, adc_db_2024_Nov_GFWL,
-#                   f'{output_folder}/2024-11')
-#   executor.submit(ip_hops_core_path, adc_db_2024_Nov_GFWL,
-#                   f'{output_folder}/2024-11')
-
-#   # 2025 January Data
-#   executor.submit(distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
-#                   f'{output_folder}/2025-1')
-#   executor.submit(distribution_GFWL_redirection_detected,
-#                   adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
-#   executor.submit(distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
-#                   f'{output_folder}/2025-1')
-#   executor.submit(distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
-#                   f'{output_folder}/2025-1')
-#   executor.submit(ip_hops_core_path, adc_db_2025_Jan_GFWL,
-#                   f'{output_folder}/2025-1')
-
-# logger.info('All tasks completed.')
