@@ -23,10 +23,8 @@ logger = logging.getLogger(__name__)
 
 # Merged_db constants
 GFWLocation = MongoDBHandler(Merged_db["TraceRouteResult"])
-adc_db_2024_Nov_GFWL = MongoDBHandler(
-    ADC_db["ChinaMobile-GFWLocation-2024-November"])
-adc_db_2025_Jan_GFWL = MongoDBHandler(
-    ADC_db["ChinaMobile-GFWLocation-2025-January"])
+merge_db_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
+merge_db_2025_Jan_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])
 
 
 def ip_hops_core_path(destination_db,
@@ -184,131 +182,95 @@ def ip_hops_core_path(destination_db,
   plt.close()
 
 
-# def plot_distribution(destination_db, output_folder, field, labels, title):
-#   """
-#   @brief Plots the distribution of documents based on a specified field.
+def plot_reached_dst_distribution(destination_db, output_folder):
+  """
+  1. 抓取目标数据库中的ips字段, 数组中第一个就是目标IP, 从[1]开始如果出现目标IP或'Reached'字样则视为到达.
+  2. 统计成功到达目标的次数, 并绘制直方图.
+  """
+  query = {"ips": {"$exists": True, "$ne": []}}
+  cursor = destination_db.find(query, {"ips": 1})
+  reached_dst = 0
+  unreached_dst = 0
+  total = 0
+  labels = ['Reached', 'Unreached']
+  field = 'destination_reached'
+  for doc in cursor:
+    ips_strings = doc.get('ips', [])
+    for ips_str in ips_strings:
+      ips = [ip.strip() for ip in ips_str.split(';') if ip.strip()]
+      if len(ips) <= 1:
+        unreached_dst += 1
+      elif ips[0] in ips[1:] or 'Reached' in ips:
+        reached_dst += 1
+      else:
+        unreached_dst += 1
+      total += 1
+  # 绘制饼图
+  plt.figure(figsize=(8, 8))
+  plt.pie([reached_dst, unreached_dst],
+          labels=labels,
+          colors=['green', 'red'],
+          autopct='%1.1f%%',
+          startangle=140)
+  plt.title("The distribution of destination reached")
 
-#   This function calculates the ratio of documents with the specified field in the
-#   MongoDB collection and plots a bar chart showing the total number of documents
-#   and the number with the field. The plot is saved as a PNG file in the
-#   specified output folder.
+  # 绘制颜色图例，红色为未到达，绿色为到达
+  plt.legend(handles=[
+      mlines.Line2D([], [],
+                    color='green',
+                    label='Reached',
+                    marker='o',
+                    linestyle='None'),
+      mlines.Line2D([], [],
+                    color='red',
+                    label='Unreached',
+                    marker='o',
+                    linestyle='None')
+  ],
+             loc='best')
+  plt.savefig(f'{output_folder}/{field}.png', bbox_inches='tight')
+  plt.close()
 
-#   @param destination_db The MongoDB collection object to query the documents from.
-#   @param output_folder The folder path where the output plot image will be saved.
-#   @param field The field to check for existence or a query dictionary.
-#   @param labels The labels for the bar chart.
-#   @param title The title of the plot.
 
-#   @return None
-#   """
-#   logger.info(f'Start to plot {title}')
-#   total_docs = destination_db.count_documents({})
-#   if isinstance(field, dict):
-#     query = field
-#   else:
-#     query = {field: {"$exists": True}}
-#   docs_with_field = destination_db.count_documents(query)
-#   ratio = docs_with_field / total_docs * 100
+def plot_rst_detect(destination_db, output_folder):
+  """
+  1. 抓取目标数据库中的rst_detected字段, 统计出现次数, 并绘制直方图.
+  2. 如果数组为空则为Not detected, 如果不为空则为Detected.
+  """
+  query = {"rst_detected": {"$exists": True}}
+  cursor = destination_db.find(query, {"rst_detected": 1})
+  rst_detected = 0
+  not_detected = 0
+  for doc in cursor:
+    if doc.get('rst_detected'):
+      rst_detected += 1
+    else:
+      not_detected += 1
+  # 绘制饼图
+  plt.figure(figsize=(8, 8))
+  plt.pie([rst_detected, not_detected],
+          labels=['Detected', 'Not detected'],
+          colors=['red', 'green'],
+          autopct='%1.1f%%',
+          startangle=140)
+  plt.title("The distribution of RST detected")
 
-#   fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
-#   ax.bar(labels, [total_docs, docs_with_field])
-#   ax.text(labels[0], total_docs, total_docs, ha='center', va='bottom')
-#   ax.text(labels[1],
-#           docs_with_field,
-#           docs_with_field,
-#           ha='center',
-#           va='bottom')
-#   ax.set_xlabel('Document Type')
-#   ax.set_ylabel('Number of Documents')
-#   ax.set_title(f'{title} (Ratio: {ratio:.2f}%)')
-#   fig.savefig(f'{output_folder}/{title.replace(" ", "_")}.png')
-#   plt.close(fig)
-
-# def distribution_GFWL_rst_detected(destination_db, output_folder):
-#   """
-#   @brief Plots the distribution of documents with RST detected.
-
-#   @param destination_db The MongoDB collection object to query the documents from.
-#   @param output_folder The folder path where the output plot image will be saved.
-
-#   @return None
-#   """
-#   plot_distribution(destination_db, output_folder, "rst_detected",
-#                     ['Total Docs', 'RST Detected'],
-#                     'RST Detected Distribution')
-
-# def distribution_GFWL_redirection_detected(destination_db, output_folder):
-#   """
-#   @brief Plots the distribution of documents with redirection detected.
-
-#   @param destination_db The MongoDB collection object to query for documents.
-#   @param output_folder The folder path where the output plot image will be saved.
-
-#   @return None
-#   """
-#   plot_distribution(
-#       destination_db, output_folder,
-#       {"redirection_detected": {
-#           "$elemMatch": {
-#               "$exists": True
-#           }
-#       }}, ['Total Docs', 'Redirection Detected'],
-#       'Redirection Detected Distribution')
-
-# def distribution_GFWL_Error(destination_db, output_folder):
-#   """
-#   @brief Plots the error distribution from the given database.
-
-#   This function retrieves documents from the specified database, calculates the error ratio,
-#   counts the occurrences of each error, and generates a bar plot showing the distribution
-#   of errors. The plot is saved as an image in the specified output folder.
-
-#   @param destination_db The database connection object to retrieve documents from.
-#   @param output_folder The folder path where the error distribution plot image will be saved.
-
-#   @return None
-#   """
-#   logger.info('Start to plot Error Distribution')
-#   total_docs = destination_db.count_documents({})
-#   docs_with_error = destination_db.count_documents(
-#       {"error": {
-#           "$elemMatch": {
-#               "$exists": True
-#           }
-#       }})
-#   error_ratio = docs_with_error / total_docs * 100
-
-#   error_counts = Counter()
-#   docs = destination_db.find({"error": {"$elemMatch": {"$exists": True}}})
-#   for doc in docs:
-#     for error in doc['error']:
-#       error_counts[error] += 1
-
-#   fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
-#   ax.bar(error_counts.keys(), error_counts.values())
-#   for error, count in error_counts.items():
-#     ax.text(error, count, str(count), ha='center', va='bottom')
-#   ax.set_xlabel('Error')
-#   ax.set_ylabel('Number of Occurrences')
-#   ax.set_title(f'Error Distribution (Ratio: {error_ratio:.2f}%)')
-#   fig.savefig(f'{output_folder}/Error_Distribution.png', bbox_inches='tight')
-#   plt.close(fig)
-
-# def distribution_GFWL_invalid_ip(destination_db, output_folder):
-#   """
-#   @brief Plots the distribution of valid and invalid IP addresses in the database.
-
-#   This function calculates the ratio of documents with invalid IP addresses to the total number of documents
-#   in the specified database. It then generates a bar plot showing the number of valid and invalid IP addresses
-#   and saves the plot to the specified output folder.
-
-#   @param destination_db The database connection object to query for documents.
-#   @param output_folder The folder path where the plot image will be saved.
-
-#   @return None
-#   """
-#   plot_distribution(destination_db, output_folder, "invalid_ip",
-#                     ['Valid IP', 'Invalid IP'], 'IP Type Distribution')
+  # 绘制颜色图例，红色为检测到，绿色为未检测到
+  plt.legend(handles=[
+      mlines.Line2D([], [],
+                    color='red',
+                    label='Detected',
+                    marker='o',
+                    linestyle='None'),
+      mlines.Line2D([], [],
+                    color='green',
+                    label='Not detected',
+                    marker='o',
+                    linestyle='None')
+  ],
+             loc='best')
+  plt.savefig(f'{output_folder}/RST_Detected.png', bbox_inches='tight')
+  plt.close()
 
 
 def ensure_folder_exists(folder):
@@ -334,40 +296,43 @@ if __name__ == '__main__':
   # ip_hops_core_path(adc_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
   # ip_hops_core_path(adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
 
-  # with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-  #   # 2024 September Data
-  #   executor.submit(distribution_GFWL_rst_detected, GFWLocation,
-  #                   f'{output_folder}/2024-9')
-  #   executor.submit(distribution_GFWL_redirection_detected, GFWLocation,
-  #                   f'{output_folder}/2024-9')
-  #   executor.submit(distribution_GFWL_Error, GFWLocation,
-  #                   f'{output_folder}/2024-9')
-  #   executor.submit(distribution_GFWL_invalid_ip, GFWLocation,
-  #                   f'{output_folder}/2024-9')
-  #   executor.submit(ip_hops_core_path, GFWLocation, f'{output_folder}/2024-9')
+  plot_reached_dst_distribution(GFWLocation, f'{output_folder}/2024-9')
+  plot_rst_detect(merge_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
+  plot_rst_detect(merge_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
+# with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+#   # 2024 September Data
+#   executor.submit(distribution_GFWL_rst_detected, GFWLocation,
+#                   f'{output_folder}/2024-9')
+#   executor.submit(distribution_GFWL_redirection_detected, GFWLocation,
+#                   f'{output_folder}/2024-9')
+#   executor.submit(distribution_GFWL_Error, GFWLocation,
+#                   f'{output_folder}/2024-9')
+#   executor.submit(distribution_GFWL_invalid_ip, GFWLocation,
+#                   f'{output_folder}/2024-9')
+#   executor.submit(ip_hops_core_path, GFWLocation, f'{output_folder}/2024-9')
 
-  #   # 2024 November Data
-  #   executor.submit(distribution_GFWL_rst_detected, adc_db_2024_Nov_GFWL,
-  #                   f'{output_folder}/2024-11')
-  #   executor.submit(distribution_GFWL_redirection_detected,
-  #                   adc_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
-  #   executor.submit(distribution_GFWL_Error, adc_db_2024_Nov_GFWL,
-  #                   f'{output_folder}/2024-11')
-  #   executor.submit(distribution_GFWL_invalid_ip, adc_db_2024_Nov_GFWL,
-  #                   f'{output_folder}/2024-11')
-  #   executor.submit(ip_hops_core_path, adc_db_2024_Nov_GFWL,
-  #                   f'{output_folder}/2024-11')
+#   # 2024 November Data
+#   executor.submit(distribution_GFWL_rst_detected, adc_db_2024_Nov_GFWL,
+#                   f'{output_folder}/2024-11')
+#   executor.submit(distribution_GFWL_redirection_detected,
+#                   adc_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
+#   executor.submit(distribution_GFWL_Error, adc_db_2024_Nov_GFWL,
+#                   f'{output_folder}/2024-11')
+#   executor.submit(distribution_GFWL_invalid_ip, adc_db_2024_Nov_GFWL,
+#                   f'{output_folder}/2024-11')
+#   executor.submit(ip_hops_core_path, adc_db_2024_Nov_GFWL,
+#                   f'{output_folder}/2024-11')
 
-  #   # 2025 January Data
-  #   executor.submit(distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
-  #                   f'{output_folder}/2025-1')
-  #   executor.submit(distribution_GFWL_redirection_detected,
-  #                   adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
-  #   executor.submit(distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
-  #                   f'{output_folder}/2025-1')
-  #   executor.submit(distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
-  #                   f'{output_folder}/2025-1')
-  #   executor.submit(ip_hops_core_path, adc_db_2025_Jan_GFWL,
-  #                   f'{output_folder}/2025-1')
+#   # 2025 January Data
+#   executor.submit(distribution_GFWL_rst_detected, adc_db_2025_Jan_GFWL,
+#                   f'{output_folder}/2025-1')
+#   executor.submit(distribution_GFWL_redirection_detected,
+#                   adc_db_2025_Jan_GFWL, f'{output_folder}/2025-1')
+#   executor.submit(distribution_GFWL_Error, adc_db_2025_Jan_GFWL,
+#                   f'{output_folder}/2025-1')
+#   executor.submit(distribution_GFWL_invalid_ip, adc_db_2025_Jan_GFWL,
+#                   f'{output_folder}/2025-1')
+#   executor.submit(ip_hops_core_path, adc_db_2025_Jan_GFWL,
+#                   f'{output_folder}/2025-1')
 
-  # logger.info('All tasks completed.')
+# logger.info('All tasks completed.')
