@@ -1,4 +1,5 @@
 import matplotlib
+import numpy as np
 
 matplotlib.use('Agg')  # 使用非交互式后端
 import matplotlib.pyplot as plt
@@ -97,13 +98,16 @@ def ip_hops_core_path(destination_db,
   end_nodes &= set(subG.nodes)
 
   # 计算层次布局
+
   hop_levels = {'192.168.0.1': 0}
   queue, current_level = ['192.168.0.1'], 1
+  visited = set(['192.168.0.1'])  # 用于记录已经访问过的节点
   while queue:
     next_queue = []
     for node in queue:
       for neighbor in subG.successors(node):
         if neighbor not in hop_levels:
+          visited.add(neighbor)
           hop_levels[neighbor] = current_level
           next_queue.append(neighbor)
     queue, current_level = next_queue, current_level + 1
@@ -121,10 +125,29 @@ def ip_hops_core_path(destination_db,
 
   # 确保所有节点有位置
   pos.update({node: (0, 0) for node in subG.nodes if node not in pos})
-  # 如果(0, 0)或(0, 1)或(1, 0)已被占用，向右移动
-  occupied_positions = {(0, 0), (0, 1), (1, 0)}
-  if any(pos.get(node) in occupied_positions for node in pos):
-    pos = {node: (x + 15, y) for node, (x, y) in pos.items()}
+  # 确保所有邻居节点的位置都被正确计算
+  for node in subG.nodes:
+    if node not in pos:
+      pos[node] = (0, 0)
+
+  # 检查所有节点，如果有任何重叠或者距离较近则移动
+  def is_too_close(pos1, pos2, min_distance=20):
+    return abs(pos1[0] -
+               pos2[0]) < min_distance and abs(pos1[1] -
+                                               pos2[1]) < min_distance
+
+  for node1, pos1 in pos.items():
+    for node2, pos2 in pos.items():
+      if node1 != node2 and is_too_close(pos1, pos2):
+        # 移动节点，避免重叠
+        if pos1[0] <= pos2[0]:
+          pos[node2] = (pos2[0] + 15, pos2[1])
+        else:
+          pos[node2] = (pos2[0] - 15, pos2[1])
+        if pos1[1] <= pos2[1]:
+          pos[node2] = (pos2[0], pos2[1] + 15)
+        else:
+          pos[node2] = (pos2[0], pos2[1] - 15)
 
   # 画图
   plt.figure(figsize=(20, 7))
@@ -160,14 +183,37 @@ def ip_hops_core_path(destination_db,
                          width=2,
                          label='Frequent Edges')
 
-  # 调整标签
-  nx.draw_networkx_labels(subG, {
-      node: (x, y + 10)
-      for node, (x, y) in pos.items()
-  },
-                          font_size=8,
-                          font_color='black')
+  # 计算标签位置并动态调整
+  for node, (x, y) in pos.items():
+    angle = 25  # 初始旋转角度
+    # 动态平移标签，避免重叠
+    offset_x = 5
+    offset_y = 5
 
+    # 特定标签移15
+    if node in ['223.120.6.70', '223.119.66.102', '223.120.2.246']:
+      offset_x += 15
+    elif node in ['192.168.0.1', '192.168.1.1']:
+      offset_x -= 15
+    elif node in ['100.104.0.1']:
+      offset_y += 2
+
+    x += offset_x
+    y += offset_y
+
+    # 动态调整角度，确保不超过90度
+    if angle > 90:
+      angle = 80
+
+    # 旋转文本并加粗标签
+    plt.annotate(node, (x, y),
+                 textcoords="offset points",
+                 xytext=(0, 5),
+                 ha='center',
+                 va='center',
+                 fontsize=8,
+                 fontweight='bold',
+                 rotation=angle)
   # 自定义图例
   legend_handles = [
       mlines.Line2D([], [],
