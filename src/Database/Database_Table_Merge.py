@@ -584,7 +584,10 @@ class Merger:
                           use_dns_server=False):
     batch = []
     counter = 0  # 自增数字
-    error_code_data = self.error_domain_dsp_adc_cm.find({})
+    error_code_data = {
+        doc["domain"]: doc
+        for doc in self.error_domain_dsp_adc_cm.find({})
+    }  # 获取所有错误域名数据
 
     for key, data in processed_domains.items():
       if use_dns_server:
@@ -598,9 +601,6 @@ class Merger:
       logger.info(
           f"Processing domain: {domain}, target_db: {target_db.collection.name}"
       )
-
-      with open("target_db.log", "a") as log_file:
-        log_file.write(f"{target_db.collection.name}\n")
       if target_db.collection.name not in [
           "2025_GFWL", "2024_Nov_GFWL", "2025_DNS", "2024_Nov_DNS"
       ]:
@@ -701,6 +701,7 @@ class Merger:
         counter += 1  # 自增数字增加
         if domain in error_code_data:
           error_info = error_code_data[domain]
+          finalized_document["dns_server"] = error_info.get("dns_server", [])
           finalized_document["error_code"] = error_info.get("error_code", [])
           finalized_document["error_reason"] = error_info.get(
               "error_reason", [])

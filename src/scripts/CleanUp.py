@@ -9,6 +9,10 @@ merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
 adc_2025_Jan_DNS = MongoDBHandler(
     ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
+GFWLocation = MongoDBHandler(Merged_db["TraceRouteResult"])
+merge_db_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
+adc_db_2025_GFWL = MongoDBHandler(
+    ADC_db["ChinaMobile-GFWLocation-2025-January"])
 
 
 def cleanDomains():
@@ -50,7 +54,7 @@ def cleanDomains():
         not result['answers'] or result['answers'] == '[]'
         for result in results
     ]):
-      with open("InvalidDomains.txt", "a") as file:
+      with open("InvalidDomains.txt", "w") as file:
         file.write(f"{domain}\n")
       print(f"{domain} is invalid")
 
@@ -67,6 +71,9 @@ def cleanDomains():
     merged_2024_Nov_DNS.delete_many({"domain": domain})
     merged_2025_Jan_DNS.delete_many({"domain": domain})
     adc_2025_Jan_DNS.delete_many({"domain": domain})
+    GFWLocation.delete_many({"domain": domain})
+    merge_db_2024_Nov_GFWL.delete_many({"domain": domain})
+    adc_db_2025_GFWL.delete_many({"domain": domain})
 
 
 if __name__ == "__main__":

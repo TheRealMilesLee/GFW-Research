@@ -405,7 +405,7 @@ if __name__ == "__main__":
     for task in tasks:
       task.result()
 
-  # get_timely_trend()
+  get_timely_trend()
 
   if os.name == "posix":
     output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"

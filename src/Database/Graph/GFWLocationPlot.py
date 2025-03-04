@@ -387,6 +387,49 @@ def plot_rst_detect(destination_db, output_folder):
   plt.close()
 
 
+def plot_invalid_ip(destination_db, output_folder):
+  """
+  1. 抓取目标数据库中的Invalid IP字段, 统计数量，绘制饼图
+  2. Invalid IP 字段是个Array, 内容可能为"", 也可能为一个字符串的IP地址。对于""的情况, 考虑为Valid IP
+  """
+  query = {"Invalid IP": {"$exists": True}}
+  cursor = destination_db.find(query, {"Invalid IP": 1})
+  valid_ip = 0
+  invalid_ip = 0
+  for doc in cursor:
+    invalid_ips = doc.get('Invalid IP')
+    if not invalid_ips:
+      valid_ip += 1
+    else:
+      invalid_ip += len(invalid_ips)
+
+  # 绘制饼图
+  plt.figure(figsize=(8, 8))
+  plt.pie([valid_ip, invalid_ip],
+          labels=['Valid IP', 'Invalid IP'],
+          colors=['green', 'red'],
+          autopct='%1.1f%%',
+          startangle=140)
+  plt.title("The distribution of Invalid IP")
+
+  # 绘制颜色图例，红色为无效IP，绿色为有效IP
+  plt.legend(handles=[
+      mlines.Line2D([], [],
+                    color='green',
+                    label='Valid IP',
+                    marker='o',
+                    linestyle='None'),
+      mlines.Line2D([], [],
+                    color='red',
+                    label='Invalid IP',
+                    marker='o',
+                    linestyle='None')
+  ],
+             loc='best')
+  plt.savefig(f'{output_folder}/Invalid_IP.png', bbox_inches='tight')
+  plt.close()
+
+
 def ensure_folder_exists(folder):
   if not os.path.exists(folder):
     os.makedirs(folder)
@@ -396,31 +439,37 @@ if __name__ == '__main__':
   if os.name == 'posix':
     output_folder = '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic'
   else:
-    output_folder = 'D:\\ Developer\\SourceRepo\\GFW-Research\\Pic'
+    output_folder = 'D:\\Developer\\SourceRepo\\GFW-Research\\Pic'
 
-  ensure_folder_exists(output_folder)
-  ensure_folder_exists(f'{output_folder}/2024-9')
-  ensure_folder_exists(f'{output_folder}/2024-9/IP_Path')
-  ensure_folder_exists(f'{output_folder}/2024-11')
-  ensure_folder_exists(f'{output_folder}/2024-11/IP_Path')
-  ensure_folder_exists(f'{output_folder}/2025-1')
-  ensure_folder_exists(f'{output_folder}/2025-1/IP_Path')
+  subfolders = ['2024-9', '2024-11', '2025-1']
+  for subfolder in subfolders:
+    folder_path = f'{output_folder}/{subfolder}'
+    ensure_folder_exists(folder_path)
+    ensure_folder_exists(f'{folder_path}/IP_Path')
 
-  ip_hops_core_path(GFWLocation, f'{output_folder}/2024-9')
-  ip_hops_core_path(merge_db_2024_Nov_GFWL,
-                    f'{output_folder}/2024-11',
-                    use_ipv4_only=True)
-  ip_hops_core_path(adc_db_2025_GFWL,
-                    f'{output_folder}/2025-1',
-                    use_ipv4_only=True)
-
-  plot_dst_distribution(GFWLocation, f'{output_folder}/2024-9')
-  plot_dst_distribution(merge_db_2024_Nov_GFWL,
-                        f'{output_folder}/2024-11',
-                        use_ipv4_only=True)
-  plot_dst_distribution(adc_db_2025_GFWL,
-                        f'{output_folder}/2025-1',
-                        use_ipv4_only=True)
-
-  plot_rst_detect(merge_db_2024_Nov_GFWL, f'{output_folder}/2024-11')
-  plot_rst_detect(adc_db_2025_GFWL, f'{output_folder}/2025-1')
+  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    futures = [
+        executor.submit(ip_hops_core_path, GFWLocation,
+                        f'{output_folder}/2024-9'),
+        executor.submit(ip_hops_core_path, merge_db_2024_Nov_GFWL,
+                        f'{output_folder}/2024-11', None, 50, 25, True),
+        executor.submit(ip_hops_core_path, adc_db_2025_GFWL,
+                        f'{output_folder}/2025-1', None, 50, 25, True),
+        executor.submit(plot_dst_distribution, GFWLocation,
+                        f'{output_folder}/2024-9'),
+        executor.submit(plot_dst_distribution, merge_db_2024_Nov_GFWL,
+                        f'{output_folder}/2024-11', True),
+        executor.submit(plot_dst_distribution, adc_db_2025_GFWL,
+                        f'{output_folder}/2025-1', True),
+        executor.submit(plot_rst_detect, merge_db_2024_Nov_GFWL,
+                        f'{output_folder}/2024-11'),
+        executor.submit(plot_rst_detect, adc_db_2025_GFWL,
+                        f'{output_folder}/2025-1'),
+        executor.submit(plot_invalid_ip, merge_db_2024_Nov_GFWL,
+                        f'{output_folder}/2024-11'),
+        executor.submit(plot_invalid_ip, adc_db_2025_GFWL,
+                        f'{output_folder}/2025-1')
+    ]
+    for future in futures:
+      future.result()
+  logger.info("All done.")
