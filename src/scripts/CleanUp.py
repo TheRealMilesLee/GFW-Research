@@ -23,7 +23,7 @@ def cleanDomains():
   4. 对于每一个domain, 在数据库中查找, 如果所有的结果的answer栏都为空, 则print出这个domain
   """
   # 1. 从Lib/CompareGroup/DNSPoisoning/中读取所有的CSV文件
-  folder_path = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/CompareGroup/DNSPoisoning'
+  folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
   all_results = []
   for root, dirs, files in os.walk(folder_path):
     for file in files:
