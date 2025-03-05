@@ -251,6 +251,7 @@ def get_timely_trend():
 
 
 def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
+  print('Plotting error code distribution by DNS server...')
   dns_servers = list(ip_to_provider.keys())
   for server in dns_servers:
     provider = ip_to_provider.get(server, 'Unknown Provider')
@@ -300,6 +301,7 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
 
 
 def distribution_error_code(destination_db, output_folder):
+  print('Plotting DNS server distribution for each error code...')
   error_code_to_server_count = defaultdict(Counter)
   all_error_codes = set()
   for server in ip_to_provider.keys():
@@ -346,13 +348,19 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  DNSPoisoning_ErrorCode_Distribute(DNSPoisoning, f"{output_folder}/2024-9/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(merged_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      DNSPoisoning, f"{output_folder}/2024-9/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      merged_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(DNSPoisoning, f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2025_Jan_DNS, f"{output_folder}/2025-1")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(DNSPoisoning,
+                                                   f"{output_folder}/2024-9")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2025_Jan_DNS,
+                                                   f"{output_folder}/2025-1")
 
   distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
   distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
