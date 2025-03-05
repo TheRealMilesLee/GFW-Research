@@ -239,7 +239,7 @@ def get_timely_trend():
         plt.xticks(rotation=25, fontsize=5)
         plt.gca().set_xticks(x)
         plt.tight_layout()
-        output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
+        output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
         if os.name == "nt":
           output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
         folder_path = os.path.join(output_folder, collection_name)
@@ -338,7 +338,7 @@ def execute_tasks(executor, tasks):
 
 if __name__ == "__main__":
   # get_timely_trend()
-  output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
+  output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
   ensure_folder_exists(output_folder)
