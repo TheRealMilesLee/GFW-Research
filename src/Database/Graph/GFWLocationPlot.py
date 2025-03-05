@@ -345,7 +345,7 @@ def plot_rst_detect(destination_db, output_folder):
 
 if __name__ == '__main__':
   if os.name == 'posix':
-    output_folder = '/home/silverhand/Developer/SourceRepo/GFW-Research/Pic'
+    output_folder = '/home/lhengyi/Developer/GFW-Research/Pic'
   else:
     output_folder = 'D:\\Developer\\SourceRepo\\GFW-Research\\Pic'
 

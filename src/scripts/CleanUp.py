@@ -65,7 +65,7 @@ def delete_domain(domain):
 
 
 def cleanDomains():
-  folder_path = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/CompareGroup/DNSPoisoning'
+  folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
   all_results = read_csv_files(folder_path)
   print(f"Total {len(all_results)} records")
 
