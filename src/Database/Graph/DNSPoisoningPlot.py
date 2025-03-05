@@ -255,7 +255,9 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
   for server in dns_servers:
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
-    docs = destination_db.find({'dns_server': server})
+    docs = destination_db.find({'dns_server': server},
+                               projection={'error_code': 1},
+                               batch_size=500)
     for doc in docs:
       error_code = doc.get('error_code')
       if error_code:
