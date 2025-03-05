@@ -705,10 +705,10 @@ class Merger:
           finalized_document["error_code"] = error_info.get("error_code", [])
           finalized_document["error_reason"] = error_info.get(
               "error_reason", [])
-          # 移除 "erying" 和 "former"
+          # 移除 "erying", "refuse" 和 "former"
           finalized_document["error_code"] = [
               ec for ec in finalized_document["error_code"]
-              if ec.lower() not in ["erying", "former"]
+              if ec.lower() not in ["erying", "former", "refuse"]
           ]
       else:
         finalized_document = {

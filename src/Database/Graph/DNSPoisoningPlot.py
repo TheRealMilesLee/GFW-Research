@@ -142,7 +142,8 @@ def plot_pie_chart_helper(location_counts, title, output_file):
 def plot_error_code_distribution_helper(error_code_count, title, output_file):
   error_code_count = {
       k: v
-      for k, v in error_code_count.items() if v > 0 and k not in ["", "[]"]
+      for k, v in error_code_count.items()
+      if v > 0 and k not in ["", "[]", "erying", "refuse", "former"]
   }
   fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
   error_codes = list(error_code_count.keys())
@@ -318,6 +319,8 @@ def distribution_error_code(destination_db, output_folder):
               ip_to_region[server]] += 1
           all_error_codes.add(str(error_code))
   for error_code in all_error_codes:
+    if error_code in ["erying", "refuse", "former"]:
+      continue
     server_count = error_code_to_server_count[error_code]
     if not server_count:
       print(f'No servers found for error code: {error_code}')
