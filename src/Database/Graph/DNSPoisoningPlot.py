@@ -285,7 +285,7 @@ def execute_tasks(executor, tasks):
     task.result()
 
 if __name__ == "__main__":
-  get_timely_trend()
+  # get_timely_trend()
   output_folder = "/home/silverhand/Developer/SourceRepo/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
