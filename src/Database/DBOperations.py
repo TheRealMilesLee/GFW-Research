@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 # Connect to local mongodb server and connect to the BeforeDomainChange database
 try:
   client = MongoClient(
-      'mongodb://Hengyi-admin:TheMilesLee710%23@localhost:11451/',
+      'mongodb://Hengyi-admin:TheMilesLee710%23@carib.cs.ucdavis.edu:11451/',
       maxPoolSize=65535)
   BDC_db = client.BeforeDomainChange
   ADC_db = client.AfterDomainChange

@@ -705,6 +705,11 @@ class Merger:
           finalized_document["error_code"] = error_info.get("error_code", [])
           finalized_document["error_reason"] = error_info.get(
               "error_reason", [])
+          # 移除 "erying" 和 "former"
+          finalized_document["error_code"] = [
+              ec for ec in finalized_document["error_code"]
+              if ec.lower() not in ["erying", "former"]
+          ]
       else:
         finalized_document = {
             "_id": f"{target_db.collection.name}-{domain}-{counter}",
