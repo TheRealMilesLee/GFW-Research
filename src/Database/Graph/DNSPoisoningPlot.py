@@ -255,9 +255,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
   for server in dns_servers:
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
-    docs = destination_db.find({'dns_server': server},
-                               projection={'error_code': 1},
-                               batch_size=500)
+    docs = destination_db.find({'dns_server': server})
     for doc in docs:
       error_code = doc.get('error_code')
       if error_code:
@@ -347,28 +345,16 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-9/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
-  with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    tasks = [
-        executor.submit(DNSPoisoning_ErrorCode_Distribute, DNSPoisoning,
-                        f"{output_folder}/2024-9/DNS_SERVER_DIST"),
-        executor.submit(DNSPoisoning_ErrorCode_Distribute,
-                        merged_2024_Nov_DNS,
-                        f"{output_folder}/2024-11/DNS_SERVER_DIST"),
-        executor.submit(DNSPoisoning_ErrorCode_Distribute,
-                        merged_2025_Jan_DNS,
-                        f"{output_folder}/2025-1/DNS_SERVER_DIST"),
-        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                        DNSPoisoning, f"{output_folder}/2024-9"),
-        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                        merged_2024_Nov_DNS, f"{output_folder}/2024-11"),
-        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                        merged_2025_Jan_DNS, f"{output_folder}/2025-1"),
-        executor.submit(distribution_error_code, DNSPoisoning,
-                        f"{output_folder}/2024-9"),
-        executor.submit(distribution_error_code, merged_2024_Nov_DNS,
-                        f"{output_folder}/2024-11"),
-        executor.submit(distribution_error_code, merged_2025_Jan_DNS,
-                        f"{output_folder}/2025-1")
-    ]
-    execute_tasks(executor, tasks)
+
+  DNSPoisoning_ErrorCode_Distribute(DNSPoisoning, f"{output_folder}/2024-9/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(merged_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(DNSPoisoning, f"{output_folder}/2024-9")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2025_Jan_DNS, f"{output_folder}/2025-1")
+
+  distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
+  distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  distribution_error_code(merged_2025_Jan_DNS, f"{output_folder}/2025-1")
   print("All tasks completed.")
