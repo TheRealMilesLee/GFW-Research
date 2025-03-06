@@ -10,7 +10,8 @@ from ipaddress import ip_network, ip_address
 import re
 from concurrent.futures import ThreadPoolExecutor
 import multiprocessing
-
+import numpy as np
+import matplotlib.pyplot as plt
 # Merged_db constants
 DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
 merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
@@ -165,6 +166,28 @@ def plot_error_code_distribution_helper(error_code_count, title, output_file):
   plt.close(fig)
 
 
+def plot_error_code_distribution_provider_region_stacked(
+    region_to_error_code_count, title, output_file):
+  regions = sorted(region_to_error_code_count.keys())
+  all_codes = sorted(
+      set().union(*[c.keys() for c in region_to_error_code_count.values()]))
+  x = np.arange(len(regions))
+  bottom = [0] * len(regions)
+  plt.figure(figsize=(12, 6))
+  for code in all_codes:
+    counts = [region_to_error_code_count[r].get(code, 0) for r in regions]
+    plt.bar(x, counts, bottom=bottom, label=code)
+    bottom = [bottom[i] + counts[i] for i in range(len(regions))]
+  plt.xticks(x, regions, rotation=25)
+  plt.xlabel("DNS Provider Region")
+  plt.ylabel("Occurrences")
+  plt.title(title)
+  plt.legend()
+  plt.tight_layout()
+  plt.savefig(output_file)
+  plt.close()
+
+
 def get_timely_trend():
   collections = [
       "China-Mobile-DNSPoisoning", "China-Telecom-DNSPoisoning",
@@ -301,6 +324,36 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
         output_file)
 
 
+def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+    destination_db, output_folder):
+  """
+   1. 按照上一个函数一样绘制出按照DNS提供商所在的地域聚合的错误码分布图
+   2. 将所有地域聚合到一张图中
+  """
+  print('Plotting error code distribution by provider region...')
+  region_to_error_code_count = defaultdict(Counter)
+  for server, region in ip_to_region.items():
+    docs = destination_db.find({'dns_server': server})
+    for doc in docs:
+      error_code = doc.get('error_code')
+      if error_code:
+        if isinstance(error_code, list):
+          for code in error_code:
+            region_to_error_code_count[region][str(code)] += 1
+        else:
+          region_to_error_code_count[region][str(error_code)] += 1
+  all_error_code_count = Counter()
+  for region, error_code_count in region_to_error_code_count.items():
+    all_error_code_count.update(error_code_count)
+  if not all_error_code_count:
+    print(f'No error codes found for all regions')
+    return
+  output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_All.png'
+  plot_error_code_distribution_provider_region_stacked(
+      region_to_error_code_count, 'Error Code Distribution for All Regions',
+      output_file)
+
+
 def distribution_error_code(destination_db, output_folder):
   print('Plotting DNS server distribution for each error code...')
   error_code_to_server_count = defaultdict(Counter)
@@ -364,6 +417,13 @@ if __name__ == "__main__":
       merged_2024_Nov_DNS, f"{output_folder}/2024-11")
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2025_Jan_DNS,
                                                    f"{output_folder}/2025-1")
+
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      DNSPoisoning, f"{output_folder}/2024-9")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      merged_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
   distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
