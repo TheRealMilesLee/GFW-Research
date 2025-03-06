@@ -45,16 +45,6 @@ ADC_CM_DNSP_2025 = MongoDBHandler(
 ADC_CM_GFWL_2025 = MongoDBHandler(
     ADC_db["ChinaMobile-GFWLocation-2025-January"])  # TraceRoute
 
-# CompareGroup DNSPoisoning Constants
-UCDS_DNSP = MongoDBHandler(ADC_db["UCDavis-Server-DNSPoisoning"])
-BDC_UCDS_DNSP = MongoDBHandler(BDC_db["UCDavis-CompareGroup-DNSPoisoning"])
-
-# CompareGroup TraceRoute Constants
-UCDS_GFWL = MongoDBHandler(ADC_db["UCDavis-Server-GFWLocation"])
-UCDS_IPB = MongoDBHandler(ADC_db["UCDavis-Server-IPBlocking"])
-BDC_UCDS_GFWL = MongoDBHandler(BDC_db["UCDavis-CompareGroup-GFWLocation"])
-BDC_UCDS_IPB = MongoDBHandler(BDC_db["UCDavis-CompareGroup-IPBlocking"])
-
 # Merged database handler
 Merged_db_DNSP = MongoDBHandler(Merged_db["DNSPoisoning"])
 Merged_db_TR = MongoDBHandler(Merged_db["TraceRouteResult"])
@@ -63,9 +53,6 @@ Merged_db_2025_GFWL = MongoDBHandler(Merged_db["2025_GFWL"])  # 新增
 Merged_db_2024_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])  # 新增
 Merged_db_2024_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])  # 新增
 
-# CompareGroup database handler
-CompareGroup_db_DNSP = MongoDBHandler(CompareGroup_db["DNSPoisoning"])
-CompareGroup_db_TR = MongoDBHandler(CompareGroup_db["TraceRouteResult"])
 # Optimize worker count based on CPU cores
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 512)  # Dynamically set workers
@@ -84,19 +71,11 @@ class Merger:
       adc_cm_dnsp_nov,
       adc_cm_gfwl_nov,
       error_domain_dsp_adc_cm,
-      ucds_dnsp,
-      ucds_gfwl,
-      ucds_ipb,
       bdc_cm_dnsp,
       bdc_cm_gfwl,
       bdc_ct_ipb,
-      bdc_ucds_dnsp,
-      bdc_ucds_gfwl,
-      bdc_ucds_ipb,
       merged_db_dnsp,
       merged_db_tr,
-      comparegroup_db_dnsp,
-      comparegroup_db_tr,
       adc_cm_dnsp_2025,
       adc_cm_gfwl_2025,
       merged_db_2025_dns,  # 新增
@@ -112,19 +91,11 @@ class Merger:
     self.adc_cm_dnsp_nov = adc_cm_dnsp_nov
     self.adc_cm_gfwl_nov = adc_cm_gfwl_nov
     self.error_domain_dsp_adc_cm = error_domain_dsp_adc_cm
-    self.ucds_dnsp = ucds_dnsp
-    self.ucds_gfwl = ucds_gfwl
-    self.ucds_ipb = ucds_ipb
     self.bdc_cm_dnsp = bdc_cm_dnsp
     self.bdc_cm_gfwl = bdc_cm_gfwl
     self.bdc_ct_ipb = bdc_ct_ipb
-    self.bdc_ucds_dnsp = bdc_ucds_dnsp
-    self.bdc_ucds_gfwl = bdc_ucds_gfwl
-    self.bdc_ucds_ipb = bdc_ucds_ipb
     self.merged_db_dnsp = merged_db_dnsp
     self.merged_db_tr = merged_db_tr
-    self.comparegroup_db_dnsp = comparegroup_db_dnsp
-    self.comparegroup_db_tr = comparegroup_db_tr
     self.adc_cm_dnsp_2025 = adc_cm_dnsp_2025
     self.adc_cm_gfwl_2025 = adc_cm_gfwl_2025
     self.merged_db_2025_dns = merged_db_2025_dns  # 新增
@@ -158,23 +129,12 @@ class Merger:
                           self.merged_db_dnsp,
                           use_dns_server=True),
           executor.submit(self._merge_documents,
-                          self.ucds_dnsp,
-                          self._merge_ucds_dnsp,
-                          self.processed_domains_dnsp,
-                          self.comparegroup_db_dnsp,
-                          use_dns_server=True),
-          executor.submit(self._merge_documents,
                           self.bdc_cm_dnsp,
                           self._merge_bdc_cm_dnsp,
                           self.processed_domains_dnsp,
                           self.merged_db_dnsp,
                           use_dns_server=True),
-          executor.submit(self._merge_documents,
-                          self.bdc_ucds_dnsp,
-                          self._merge_bdc_ucds_dnsp,
-                          self.processed_domains_dnsp,
-                          self.comparegroup_db_dnsp,
-                          use_dns_server=True),
+
           # TraceRoute Constants
           executor.submit(self._merge_documents, self.adc_cm_gfwl,
                           self._merge_adc_cm_gfwl, self.processed_domains_tr,
@@ -185,24 +145,12 @@ class Merger:
           executor.submit(self._merge_documents, self.adc_ct_ipb,
                           self._merge_adc_ct_ipb, self.processed_domains_tr,
                           self.merged_db_tr),
-          executor.submit(self._merge_documents, self.ucds_gfwl,
-                          self._merge_ucds_gfwl, self.processed_domains_tr,
-                          self.comparegroup_db_tr),
-          executor.submit(self._merge_documents, self.ucds_ipb,
-                          self._merge_ucds_ipb, self.processed_domains_tr,
-                          self.comparegroup_db_tr),
           executor.submit(self._merge_documents, self.bdc_cm_gfwl,
                           self._merge_bdc_cm_gfwl, self.processed_domains_tr,
                           self.merged_db_tr),
           executor.submit(self._merge_documents, self.bdc_ct_ipb,
                           self._merge_bdc_ct_ipb, self.processed_domains_tr,
                           self.merged_db_tr),
-          executor.submit(self._merge_documents, self.bdc_ucds_gfwl,
-                          self._merge_bdc_ucds_gfwl,
-                          self.processed_domains_tr, self.comparegroup_db_tr),
-          executor.submit(self._merge_documents, self.bdc_ucds_ipb,
-                          self._merge_bdc_ucds_ipb, self.processed_domains_tr,
-                          self.comparegroup_db_tr),
           # 2025 Data Constants
           executor.submit(self._merge_documents,
                           self.adc_cm_dnsp_2025,
@@ -352,35 +300,6 @@ class Merger:
             is_traceroute=True,
         ), processed_domains, use_dns_server)
 
-  def _merge_ucds_dnsp(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            timestamp=document.get("timestamp", []),
-            ips=document.get("ips", []),
-            dns_server=document.get("dns_server", "unknown"),
-            is_traceroute=False,
-        ), processed_domains, use_dns_server)
-
-  def _merge_ucds_gfwl(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            ips=document.get("results", []),
-            is_traceroute=True,
-        ), processed_domains, use_dns_server)
-
-  def _merge_ucds_ipb(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            timestamp=document.get("timestamp", []),
-            ipv4=document.get("IPv4", []),
-            ipv6=document.get("IPv6", []),
-            is_accessible=document.get("is_accessible", []),
-            is_traceroute=True,
-        ), processed_domains, use_dns_server)
-
   def _merge_bdc_cm_dnsp(self, document, processed_domains, use_dns_server):
     self._process_document(
         self._format_document(
@@ -413,38 +332,6 @@ class Merger:
             is_traceroute=True,
         ), processed_domains, use_dns_server)
 
-  def _merge_bdc_ucds_dnsp(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            timestamp=document.get("timestamp", []),
-            ips=document.get("ips", []),
-            dns_server=document.get("dns_server", "unknown"),
-            is_traceroute=False,
-        ), processed_domains, use_dns_server)
-
-  def _merge_bdc_ucds_gfwl(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            ips=document.get("result", []),
-            dns_server=document.get("dns_server", "unknown"),
-            is_traceroute=True,
-        ), processed_domains, use_dns_server)
-
-  def _merge_bdc_ucds_ipb(self, document, processed_domains, use_dns_server):
-    self._process_document(
-        self._format_document(
-            domain=document.get("domain", ""),
-            timestamp=document.get("timestamp", []),
-            results_ip=document.get("results_ip", []),
-            ip_type=document.get("ip_type", []),
-            port=document.get("port", []),
-            is_accessible=document.get("is_accessible", []),
-            dns_server=document.get("dns_server", "unknown"),
-            is_traceroute=True,
-        ), processed_domains, use_dns_server)
-
   def _format_document(
       self,
       domain,
@@ -462,9 +349,6 @@ class Merger:
       record_type=None,
       rst_detected=None,
       redirection_detected=None,
-      port=None,
-      ip_type=None,
-      is_accessible=None,
   ):
     if is_traceroute:
       return {
@@ -753,8 +637,6 @@ if __name__ == "__main__":
     Merged_db_2025_GFWL.collection.drop()  # 新增
     Merged_db_2024_DNS.collection.drop()  # 新增
     Merged_db_2024_GFWL.collection.drop()  # 新增
-    CompareGroup_db_DNSP.collection.drop()
-    CompareGroup_db_TR.collection.drop()
     logger.info("Merged and CompareGroup collections cleared")
     merger = Merger(
         ADC_CM_DNSP,
@@ -765,19 +647,11 @@ if __name__ == "__main__":
         ADC_CM_DNSP_NOV,
         ADC_CM_GFWL_NOV,
         ERROR_DOMAIN_DSP_ADC_CM,
-        UCDS_DNSP,
-        UCDS_GFWL,
-        UCDS_IPB,
         BDC_CM_DNSP,
         BDC_CM_GFWL,
         BDC_CT_IPB,
-        BDC_UCDS_DNSP,
-        BDC_UCDS_GFWL,
-        BDC_UCDS_IPB,
         Merged_db_DNSP,
         Merged_db_TR,
-        CompareGroup_db_DNSP,
-        CompareGroup_db_TR,
         ADC_CM_DNSP_2025,
         ADC_CM_GFWL_2025,
         Merged_db_2025_DNS,  # 新增
