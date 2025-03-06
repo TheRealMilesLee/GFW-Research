@@ -281,14 +281,25 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
     docs = destination_db.find({'dns_server': server})
+    domain_record_errors = defaultdict(lambda: defaultdict(set))
     for doc in docs:
-      error_code = doc.get('error_code')
-      if error_code:
-        if isinstance(error_code, list):
-          for code in error_code:
-            error_code_count[str(code)] += 1
-        else:
-          error_code_count[str(error_code)] += 1
+      domain = doc.get("domain")
+      record_type = doc.get("record_type")
+      if domain and record_type:
+        ec = doc.get("error_code", [])
+        if isinstance(ec, str):
+          ec = [ec]
+        for code in ec:
+          domain_record_errors[domain][record_type].add(code)
+    for domain, rec_map in domain_record_errors.items():
+      no_answer_for_A = 'NoAnswer' in rec_map.get('A', set())
+      no_answer_for_AAAA = 'NoAnswer' in rec_map.get('AAAA', set())
+      if no_answer_for_A and no_answer_for_AAAA:
+        error_code_count['NoAnswer'] += 1
+      for r_type, codeset in rec_map.items():
+        for c in codeset:
+          if c != 'NoAnswer':
+            error_code_count[c] += 1
     if not error_code_count:
       continue
     sanitized_server = server.replace(':', '_').replace('/', '_')
