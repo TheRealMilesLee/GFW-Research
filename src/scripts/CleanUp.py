@@ -88,7 +88,7 @@ def cleanDomains():
   with concurrent.futures.ThreadPoolExecutor(
       max_workers=MAX_WORKERS) as executor:
     for domain in invalid_domains:
-      # executor.submit(delete_domain, domain)
+      executor.submit(delete_domain, domain)
       executor.submit(cleanNoAnswer, DNSPoisoning)
       executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
       executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
