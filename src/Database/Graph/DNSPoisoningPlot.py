@@ -86,15 +86,24 @@ def parse_ips(ips_string):
   if isinstance(ips_string, list):
     ip_list = []
     for sublist in ips_string:
-      ip_list.extend(parse_ips(sublist))
+      if isinstance(sublist, (list, str)):
+        ip_list.extend(parse_ips(sublist))
+      else:
+        print(f"Unexpected type in IP list: {type(sublist)} -> {sublist}")
     return ip_list
-  pattern = r"\[([^\[\]]+)\]"
-  matches = re.findall(pattern, ips_string)
-  ip_list = []
-  for match in matches:
-    ip_list.extend(match.split(", "))
-  ip_list = [ip.strip("'\" ") for ip in ip_list]
-  return ip_list
+  if not isinstance(ips_string, str):
+    print(f"Invalid IP string format: {ips_string}")
+    return []
+  try:
+    pattern = r"\[([^\[\]]+)\]"
+    matches = re.findall(pattern, ips_string)
+    ip_list = [
+        ip.strip("'\" ") for match in matches for ip in match.split(", ")
+    ]
+    return ip_list
+  except Exception as e:
+    print(f"Error parsing IPs: {e}, input={ips_string}")
+    return []
 
 
 def is_private_ip(ip):
