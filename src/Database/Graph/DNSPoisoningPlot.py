@@ -168,6 +168,7 @@ def plot_error_code_distribution_helper(error_code_count, title, output_file):
 
 def plot_error_code_distribution_provider_region_stacked(
     region_to_error_code_count, title, output_file):
+  print(f"Plotting error code distribution for {title}...")
   regions = sorted(region_to_error_code_count.keys())
   all_codes = sorted(
       set().union(*[c.keys() for c in region_to_error_code_count.values()]))
