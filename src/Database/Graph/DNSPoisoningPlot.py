@@ -290,16 +290,18 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         if isinstance(ec, str):
           ec = [ec]
         for code in ec:
+          if record_type == "A" and code == "NoAnswer":
+            # Lookup the AAAA record for the same domain
+            aaaa_doc = destination_db.find_one({
+                'dns_server': server,
+                'domain': domain,
+                'record_type': 'AAAA'
+            })
+            if aaaa_doc and aaaa_doc.get('error_code') == 'NoAnswer':
+              domain_record_errors[domain][record_type].add(code)
+            else:
+              continue
           domain_record_errors[domain][record_type].add(code)
-    for domain, rec_map in domain_record_errors.items():
-      no_answer_for_A = 'NoAnswer' in rec_map.get('A', set())
-      no_answer_for_AAAA = 'NoAnswer' in rec_map.get('AAAA', set())
-      if no_answer_for_A and no_answer_for_AAAA:
-        error_code_count['NoAnswer'] += 1
-      for r_type, codeset in rec_map.items():
-        for c in codeset:
-          if c != 'NoAnswer':
-            error_code_count[c] += 1
     if not error_code_count:
       continue
     sanitized_server = server.replace(':', '_').replace('/', '_')
