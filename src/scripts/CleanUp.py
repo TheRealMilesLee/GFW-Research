@@ -97,31 +97,47 @@ def cleanDomains():
 
 def cleanNoAnswer(db):
   """
-  1. 根据domain 查询error_code包含NoAnswer的记录
-  2. 根据查询到的记录拉通检查record_type有A和AAAA(i.e. 是否NoAnswer这个error code同时出现在了A记录和AAAA记录中)
-  3. 如果同时出现, 则保留,如同NoAnswer只出现在A记录或者只出现在AAAA记录, 则删除NoAnswer在error_code中的记录
-  """
+    1. 根据 domain 查询 error_code 包含 NoAnswer 的记录
+    2. 检查同一 domain 下 record_type 是否同时有 A 和 AAAA 记录含 NoAnswer
+    3. 如果同时出现，则保留；否则，从 error_code 中删除 NoAnswer
+    """
+
+  # 查询所有 error_code 包含 "NoAnswer" 的文档
   results = db.find({"error_code": "NoAnswer"})
+
   for result in results:
     domain = result["domain"]
-    IPV4_record = db.find({
+
+    # 查询该 domain 是否有 A 和 AAAA 类型的 NoAnswer 记录
+    has_ipv4 = db.count_documents({
         "domain": domain,
         "record_type": "A",
         "error_code": "NoAnswer"
-    })
-    IPV6_Record = db.find({
+    }) > 0
+
+    has_ipv6 = db.count_documents({
         "domain": domain,
         "record_type": "AAAA",
         "error_code": "NoAnswer"
-    })
-    if IPV4_record and IPV6_Record:
+    }) > 0
+
+    # 如果 A 和 AAAA 记录都含有 NoAnswer，则保留
+    if has_ipv4 and has_ipv6:
       continue
-    else:
-      # 从error_code中删除NoAnswer
-      db.update_many({"domain": domain},
-                     {"$pull": {
-                         "error_code": "NoAnswer"
-                     }})
+
+    # 否则，从 error_code 中删除 "NoAnswer"
+    db.update_many(
+        {
+            "domain": domain,
+            "record_type": {
+                "$in": ["A", "AAAA"]
+            },  # 仅作用于 A 和 AAAA 记录
+            "error_code": "NoAnswer"
+        },
+        {"$pull": {
+            "error_code": "NoAnswer"
+        }})
+    print(f"Cleaned NoAnswer for {domain}")
 
 
 if __name__ == "__main__":
