@@ -289,19 +289,28 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         ec = doc.get("error_code", [])
         if isinstance(ec, str):
           ec = [ec]
-        for code in ec:
-          if record_type == "A" and code == "NoAnswer":
-            # Lookup the AAAA record for the same domain
-            aaaa_doc = destination_db.find_one({
-                'dns_server': server,
-                'domain': domain,
-                'record_type': 'AAAA'
-            })
-            if aaaa_doc and aaaa_doc.get('error_code') == 'NoAnswer':
+        if record_type in ("A", "AAAA"):
+          # 只暂存“NoAnswer”即可，先不做双向核验
+          if "NoAnswer" in ec:
+            domain_record_errors[domain][record_type].add("NoAnswer")
+          for code in ec:
+            if code != "NoAnswer":
               domain_record_errors[domain][record_type].add(code)
-            else:
-              continue
-          domain_record_errors[domain][record_type].add(code)
+        else:
+          for code in ec:
+            domain_record_errors[domain][record_type].add(code)
+    # 核验 A、AAAA 是否都出现了 NoAnswer
+    for d, recs in domain_record_errors.items():
+      if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
+          "AAAA", set()):
+        if not ("NoAnswer" in recs.get("A", set())
+                and "NoAnswer" in recs.get("AAAA", set())):
+          recs["A"].discard("NoAnswer")
+          recs["AAAA"].discard("NoAnswer")
+    for d, recs in domain_record_errors.items():
+      for rtype, codes in recs.items():
+        for c in codes:
+          error_code_count[c] += 1
     if not error_code_count:
       continue
     sanitized_server = server.replace(':', '_').replace('/', '_')
