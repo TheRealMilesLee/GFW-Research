@@ -327,14 +327,36 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
   region_to_error_code_count = defaultdict(Counter)
   for server, region in ip_to_region.items():
     docs = destination_db.find({'dns_server': server})
+    domain_record_errors = defaultdict(lambda: defaultdict(set))
     for doc in docs:
-      error_code = doc.get('error_code')
-      if error_code:
-        if isinstance(error_code, list):
-          for code in error_code:
-            region_to_error_code_count[region][str(code)] += 1
+      domain = doc.get("domain")
+      record_type = doc.get("record_type")
+      if domain and record_type:
+        ec = doc.get("error_code", [])
+        if isinstance(ec, str):
+          ec = [ec]
+        if record_type in ("A", "AAAA"):
+          # 只暂存“NoAnswer”即可，先不做双向核验
+          if "NoAnswer" in ec:
+            domain_record_errors[domain][record_type].add("NoAnswer")
+          for code in ec:
+            if code != "NoAnswer":
+              domain_record_errors[domain][record_type].add(code)
         else:
-          region_to_error_code_count[region][str(error_code)] += 1
+          for code in ec:
+            domain_record_errors[domain][record_type].add(code)
+    # 核验 A、AAAA 是否都出现了 NoAnswer
+    for d, recs in domain_record_errors.items():
+      if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
+          "AAAA", set()):
+        if not ("NoAnswer" in recs.get("A", set())
+                and "NoAnswer" in recs.get("AAAA", set())):
+          recs["A"].discard("NoAnswer")
+          recs["AAAA"].discard("NoAnswer")
+    for d, recs in domain_record_errors.items():
+      for rtype, codes in recs.items():
+        for c in codes:
+          region_to_error_code_count[region][str(c)] += 1
   for region, error_code_count in region_to_error_code_count.items():
     if not error_code_count:
       print(f'No error codes found for region: {region}')
