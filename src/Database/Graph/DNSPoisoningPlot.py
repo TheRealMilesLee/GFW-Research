@@ -461,13 +461,13 @@ if __name__ == "__main__":
   DNSPoisoning_ErrorCode_Distribute(
       merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
   DNSPoisoning_ErrorCode_Distribute(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+      merged_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion(DNSPoisoning,
                                                    f"{output_folder}/2024-9")
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
       merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2025_Jan_DNS,
                                                    f"{output_folder}/2025-1")
 
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
@@ -475,9 +475,9 @@ if __name__ == "__main__":
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
       merged_2024_Nov_DNS, f"{output_folder}/2024-11")
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+      merged_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
   distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+  distribution_error_code(merged_2025_Jan_DNS, f"{output_folder}/2025-1")
   print("All tasks completed.")
