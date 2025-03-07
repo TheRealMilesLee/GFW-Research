@@ -307,12 +307,12 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
             if isinstance(code, list):
               code = str(code)
             if code != "NoAnswer":
-              domain_record_errors[domain][record_type].add(code)
+              domain_record_errors[domain][record_type].add(str(code))
         else:
           for code in ec:
             if isinstance(code, list):
               code = str(code)
-            domain_record_errors[domain][record_type].add(code)
+            domain_record_errors[domain][record_type].add(str(code))
     # 核验 A、AAAA 是否都出现了 NoAnswer
     for d, recs in domain_record_errors.items():
       if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
