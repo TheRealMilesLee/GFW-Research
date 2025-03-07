@@ -7,7 +7,7 @@ from collections import defaultdict
 from itertools import chain
 from threading import Lock
 
-from .DBOperations import ADC_db, BDC_db, CompareGroup_db, Merged_db, MongoDBHandler
+from .DBOperations import ADC_db, BDC_db, Merged_db, MongoDBHandler
 from tqdm import tqdm
 
 # Config Logger
@@ -185,13 +185,6 @@ class Merger:
                              use_dns_server=True)
     self._finalize_documents(self.processed_domains_tr,
                              self.merged_db_tr,
-                             is_traceroute=True)
-    self._finalize_documents(self.processed_domains_dnsp,
-                             self.comparegroup_db_dnsp,
-                             is_traceroute=False,
-                             use_dns_server=True)
-    self._finalize_documents(self.processed_domains_tr,
-                             self.comparegroup_db_tr,
                              is_traceroute=True)
     self._finalize_documents(self.processed_domains_dnsp_2025,
                              self.merged_db_2025_dns,
@@ -637,7 +630,7 @@ if __name__ == "__main__":
     Merged_db_2025_GFWL.collection.drop()  # 新增
     Merged_db_2024_DNS.collection.drop()  # 新增
     Merged_db_2024_GFWL.collection.drop()  # 新增
-    logger.info("Merged and CompareGroup collections cleared")
+    logger.info("Merged collections cleared")
     merger = Merger(
         ADC_CM_DNSP,
         ADC_CM_GFWL,
