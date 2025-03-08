@@ -98,7 +98,7 @@ def cleanDomains():
     for domain in invalid_domains:
       delete_domain(domain)
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
     executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
     executor.submit(cleanNoAnswer, adc_2025_Jan_DNS)
