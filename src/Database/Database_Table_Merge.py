@@ -358,25 +358,19 @@ class Merger:
       }
     else:
       all_ips = set()
-      # 更新后的IPv4和IPv6正则表达式，移除长度限制
-      # 将答案拉平，并将嵌套字符串转换为列表
       if isinstance(ips, str):
-        # 移除方括号并解析为列表
         try:
-          cleaned_answer = ast.literal_eval(ips)
-          if isinstance(cleaned_answer, list):
-            flat_values = [ip.strip() for ip in cleaned_answer if ip.strip()]
+          cleaned_ips = ast.literal_eval(ips)
+          if isinstance(cleaned_ips, list):
+            flat_values = [ip.strip() for ip in cleaned_ips if ip.strip()]
           else:
-            flat_values = [cleaned_answer.strip()
-                           ] if cleaned_answer.strip() else []
+            flat_values = [cleaned_ips.strip()] if cleaned_ips.strip() else []
         except (ValueError, SyntaxError):
           flat_values = []
-
       elif isinstance(ips, list):
         flat_values = set()
         for item in ips:
           if isinstance(item, str):
-            # 移除方括号并解析为列表
             try:
               cleaned_item = ast.literal_eval(item)
               if isinstance(cleaned_item, list):
@@ -389,13 +383,10 @@ class Merger:
                     cleaned_item, str) and cleaned_item.strip() else []
             except (ValueError, SyntaxError):
               ips = []
-            # 过滤有效的IP地址
             flat_values.update(ips)
-          # ...existing code...
         all_ips.update(flat_values)
       else:
         flat_values = []
-      # 拉平后加入去重集合
       all_ips.update(flat_values)
       unique_ips = list(all_ips)
       is_poisoned = False
