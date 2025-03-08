@@ -127,16 +127,7 @@ def cleanNoAnswer(db):
     if has_ipv4 and has_ipv6:
       continue
 
-    # 先删除 error_code 仅包含 "NoAnswer" 的文档
-    db.delete_many({
-        "domain": domain,
-        "record_type": {
-            "$in": ["A", "AAAA"]
-        },
-        "error_code": ["NoAnswer"]  # error_code 仅包含 NoAnswer
-    })
-
-    # 对于 error_code 还包含其他内容的文档，仅删除 NoAnswer
+    # 仅删除 NoAnswer的entry
     db.update_many(
         {
             "domain": domain,
