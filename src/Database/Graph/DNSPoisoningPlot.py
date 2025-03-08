@@ -183,7 +183,9 @@ def plot_error_code_distribution_provider_region_stacked(
       set().union(*[c.keys() for c in region_to_error_code_count.values()]))
   x = np.arange(len(regions))
   bottom = [0] * len(regions)
-  region_totals = [sum(region_to_error_code_count[r].values()) for r in regions]
+  region_totals = [
+      sum(region_to_error_code_count[r].values()) for r in regions
+  ]
   plt.figure(figsize=(12, 6))
   for code in all_codes:
     counts = [region_to_error_code_count[r].get(code, 0) for r in regions]
@@ -192,7 +194,12 @@ def plot_error_code_distribution_provider_region_stacked(
       if c > 0:
         y_pos = bottom[i] + c / 2
         percent = (c / region_totals[i]) * 100
-        plt.text(x[i], y_pos, f"{percent:.1f}%", ha='center', va='center', fontsize=8)
+        plt.text(x[i],
+                 y_pos,
+                 f"{percent:.1f}%",
+                 ha='center',
+                 va='center',
+                 fontsize=8)
     bottom = [bottom[j] + counts[j] for j in range(len(regions))]
   plt.xticks(x, regions, rotation=25)
   plt.xlabel("DNS Provider Region")
@@ -463,7 +470,7 @@ def execute_tasks(executor, tasks):
 
 
 if __name__ == "__main__":
-  # get_timely_trend()
+  get_timely_trend()
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
