@@ -90,6 +90,9 @@ def cleanDomains():
   if os.path.exists("InvalidDomains.txt"):
     os.remove("InvalidDomains.txt")
 
+  # 重新创建InvalidDomains.txt文件
+  if not os.path.exists("InvalidDomains.txt"):
+    open("InvalidDomains.txt", "w").close()
   with open("InvalidDomains.txt", "r") as file:
     invalid_domains = [line.strip() for line in file]
   print(f"Total {len(invalid_domains)} invalid domains")
