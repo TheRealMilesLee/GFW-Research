@@ -51,10 +51,12 @@ def read_domains(file_path):
   return domains
 
 
-def check_domain(db, domain):
-  results = db.find({"domain": domain})
-  if results and all(
-      [not result['ips'] or result['ips'] == '[]' for result in results]):
+def check_domain(compare_db, target_db, domain):
+  compare_results = compare_db.find({"domain": domain})
+  target_results = target_db.find({"domain": domain})
+  # 如果对比库与目标库的IPS都为空则视为无效域名
+  if compare_results and all([not r['ips'] or r['ips'] == '[]' for r in compare_results]) \
+     and target_results and all([not r['ips'] or r['ips'] == '[]' for r in target_results]):
     with open("InvalidDomains.txt", "a") as file:
       file.write(f"{domain}\n")
     print(f"{domain} is invalid")
@@ -84,7 +86,7 @@ def cleanDomains():
 
   with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
     for domain in domains:
-      executor.submit(check_domain, db, domain)
+      executor.submit(check_domain, db, DNSPoisoning, domain)
 
   if os.path.exists("InvalidDomains.txt"):
     with open("InvalidDomains.txt", "r") as file:
@@ -108,8 +110,10 @@ def cleanNoAnswer(db):
     3. 如果同时出现，则保留；否则从 error_code 中删除 NoAnswer这个entry
     """
   print(f"Cleaning NoAnswer for {db.collection.name}")
-  # 查询所有 error_code 包含 "NoAnswer" 的文档
-  cursor = db.find({"error_code": "NoAnswer"})
+  total_docs = db.count_documents({"error_code": "NoAnswer"})
+  processed = 0
+  batch_size = 20000
+  cursor = db.find({"error_code": "NoAnswer"}).batch_size(batch_size)
 
   for result in cursor:
     domain = result["domain"]
@@ -144,6 +148,9 @@ def cleanNoAnswer(db):
             "error_code": "NoAnswer"
         }},
         upsert=False)
+    processed += 1
+    if processed % 10000 == 0:
+      print(f"已处理 {processed}/{total_docs} 条文档")
   cursor.close()
   print(f"Cleaned NoAnswer for {db.collection.name}")
 
