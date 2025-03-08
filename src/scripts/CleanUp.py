@@ -13,8 +13,6 @@ GFWLocation = MongoDBHandler(Merged_db["TraceRouteResult"])
 merge_db_2024_Nov_GFWL = MongoDBHandler(Merged_db["2024_Nov_GFWL"])
 adc_db_2025_GFWL = MongoDBHandler(
     ADC_db["ChinaMobile-GFWLocation-2025-January"])
-CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 
 
 def read_csv_files(folder_path):
@@ -90,10 +88,13 @@ def cleanDomains():
   #   for domain in invalid_domains:
   #     delete_domain(domain)
 
-  cleanNoAnswer(DNSPoisoning)
-  cleanNoAnswer(merged_2024_Nov_DNS)
-  cleanNoAnswer(merged_2025_Jan_DNS)
-  cleanNoAnswer(adc_2025_Jan_DNS)
+  with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
+    executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
+
+  with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.submit(cleanNoAnswer, adc_2025_Jan_DNS)
+    executor.submit(cleanNoAnswer, DNSPoisoning)
 
 
 def cleanNoAnswer(db):
@@ -102,7 +103,7 @@ def cleanNoAnswer(db):
     2. 检查同一 domain 下 record_type 是否同时有 A 和 AAAA 记录含 NoAnswer
     3. 如果同时出现，则保留；否则从 error_code 中删除 NoAnswer这个entry
     """
-
+  print(f"Cleaning NoAnswer for {db.collection.name}")
   # 查询所有 error_code 包含 "NoAnswer" 的文档
   results = db.find({"error_code": "NoAnswer"})
 
@@ -139,6 +140,7 @@ def cleanNoAnswer(db):
             "error_code": "NoAnswer"
         }},
         upsert=False)
+    print(f"Removed NoAnswer for {domain}")
 
 
 if __name__ == "__main__":
