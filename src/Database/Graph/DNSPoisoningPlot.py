@@ -319,7 +319,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
             if isinstance(code, list):
               code = str(code)
             if code != "NoAnswer":
-              domain_record_errors[domain][str(record_type)].add(str(code))
+              domain_record_errors[domain][record_type].add(code)
         else:
           for code in ec:
             if isinstance(code, list):
@@ -431,7 +431,7 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
           for code in error_codes:
             if isinstance(code, list):
               code = str(code)
-            domain_record_errors[domain][record_type].add(code)
+            domain_record_errors[domain][str(record_type)].add(code)
 
     for domain, recs in domain_record_errors.items():
       if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
@@ -445,7 +445,7 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
       for rtype, codes in recs.items():
         for code in codes:
           region_to_error_code_count[region][str(code)] += 1
-          
+
   for region in region_to_error_code_count:
     for skip_code in ["erying", "refuse", "former"]:
       region_to_error_code_count[region].pop(skip_code, None)
@@ -488,7 +488,7 @@ def distribution_error_code(destination_db, output_folder):
           for code in ec:
             if isinstance(code, list):
               code = str(code)
-            domain_record_errors[domain][record_type].add(code)
+            domain_record_errors[domain][str(record_type)].add(code)
     for d, recs in domain_record_errors.items():
       if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
           "AAAA", set()):
@@ -525,7 +525,6 @@ def execute_tasks(executor, tasks):
 
 
 if __name__ == "__main__":
-  get_timely_trend()
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
@@ -558,4 +557,6 @@ if __name__ == "__main__":
   distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
   distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
   distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+
+  get_timely_trend()
   print("All tasks completed.")
