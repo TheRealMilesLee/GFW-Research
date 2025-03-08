@@ -29,6 +29,8 @@ def read_csv_files(folder_path):
                 "timestamp", "domain", "dns_server", "record_type", "answers",
                 "error_code", "error_reason"
             }:
+              # Convert answers to ips
+              row['ips'] = eval(row['answers'])
               all_results.append(row)
             else:
               print(f"Skipping file {file_path} due to incorrect columns")
@@ -51,9 +53,8 @@ def read_domains(file_path):
 
 def check_domain(db, domain):
   results = db.find({"domain": domain})
-  if results and all([
-      not result['answers'] or result['answers'] == '[]' for result in results
-  ]):
+  if results and all(
+      [not result['ips'] or result['ips'] == '[]' for result in results]):
     with open("InvalidDomains.txt", "a") as file:
       file.write(f"{domain}\n")
     print(f"{domain} is invalid")
@@ -89,9 +90,9 @@ def cleanDomains():
     invalid_domains = [line.strip() for line in file]
   print(f"Total {len(invalid_domains)} invalid domains")
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
-    for domain in invalid_domains:
-      delete_domain(domain)
+  # with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+  #   for domain in invalid_domains:
+  #     delete_domain(domain)
 
   with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
