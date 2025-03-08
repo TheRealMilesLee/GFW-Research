@@ -86,13 +86,13 @@ def cleanDomains():
     for domain in domains:
       executor.submit(check_domain, db, domain)
 
-  with open("InvalidDomains.txt", "r") as file:
-    invalid_domains = [line.strip() for line in file]
-  print(f"Total {len(invalid_domains)} invalid domains")
-
-  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
-    for domain in invalid_domains:
-      delete_domain(domain)
+  if os.path.exists("InvalidDomains.txt"):
+    with open("InvalidDomains.txt", "r") as file:
+      invalid_domains = [line.strip() for line in file]
+    print(f"Total {len(invalid_domains)} invalid domains")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+      for domain in invalid_domains:
+        delete_domain(domain)
 
   with concurrent.futures.ThreadPoolExecutor(max_workers=64) as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
