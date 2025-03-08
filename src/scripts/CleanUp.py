@@ -137,7 +137,8 @@ def cleanNoAnswer(db):
         },
         {"$pull": {
             "error_code": "NoAnswer"
-        }})
+        }},
+        upsert=False)
 
 
 if __name__ == "__main__":
