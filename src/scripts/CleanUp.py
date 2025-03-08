@@ -24,17 +24,17 @@ def read_csv_files(folder_path):
         with open(file_path, 'r') as file:
           reader = csv.DictReader(file)
           for row in reader:
-            # Ensure columns correspond to timestamp, domain, dns_server, record_type, answers, error_code, error_reason
+            # Ensure columns correspond to timestamp, domain, dns_server, record_type, ips, error_code, error_reason
             if set(row.keys()) == {
-                "timestamp", "domain", "dns_server", "record_type", "answers",
+                "timestamp", "domain", "dns_server", "record_type", "ips",
                 "error_code", "error_reason"
             }:
-              # Convert answers to ips
-              row['ips'] = eval(row['answers'])
+              # Convert ips from string to array
+              row["ips"] = row["ips"].strip('[]').split(', ')
               all_results.append(row)
             else:
               print(f"Skipping file {file_path} due to incorrect columns")
-  return all_results
+        return all_results
 
 
 def import_to_db(db, data):
@@ -86,13 +86,17 @@ def cleanDomains():
     for domain in domains:
       executor.submit(check_domain, db, domain)
 
+  # 删除之前的InvalidDomains.txt文件
+  if os.path.exists("InvalidDomains.txt"):
+    os.remove("InvalidDomains.txt")
+
   with open("InvalidDomains.txt", "r") as file:
     invalid_domains = [line.strip() for line in file]
   print(f"Total {len(invalid_domains)} invalid domains")
 
-  # with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
-  #   for domain in invalid_domains:
-  #     delete_domain(domain)
+  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+    for domain in invalid_domains:
+      delete_domain(domain)
 
   with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
