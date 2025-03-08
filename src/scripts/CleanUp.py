@@ -24,7 +24,14 @@ def read_csv_files(folder_path):
         with open(file_path, 'r') as file:
           reader = csv.DictReader(file)
           for row in reader:
-            all_results.append(row)
+            # Ensure columns correspond to timestamp, domain, dns_server, record_type, answers, error_code, error_reason
+            if set(row.keys()) == {
+                "timestamp", "domain", "dns_server", "record_type", "answers",
+                "error_code", "error_reason"
+            }:
+              all_results.append(row)
+            else:
+              print(f"Skipping file {file_path} due to incorrect columns")
   return all_results
 
 
@@ -63,32 +70,30 @@ def delete_domain(domain):
 
 
 def cleanDomains():
-  # folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
-  # all_results = read_csv_files(folder_path)
-  # print(f"Total {len(all_results)} records")
+  folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
+  all_results = read_csv_files(folder_path)
+  print(f"Total {len(all_results)} records")
 
-  # db = MongoDBHandler(Merged_db['CompareGroup'])
-  # import_to_db(db, all_results)
+  db = MongoDBHandler(Merged_db['CompareGroup'])
+  import_to_db(db, all_results)
 
-  # domains_file_path = os.path.join(os.path.dirname(__file__),
-  #                                  '../Import/domains_list.csv')
-  # domains = read_domains(domains_file_path)
+  domains_file_path = os.path.join(os.path.dirname(__file__),
+                                   '../Import/domains_list.csv')
+  domains = read_domains(domains_file_path)
 
-  # with concurrent.futures.ThreadPoolExecutor(
-  #     max_workers=MAX_WORKERS) as executor:
-  #   for domain in domains:
-  #     executor.submit(check_domain, db, domain)
+  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+    for domain in domains:
+      executor.submit(check_domain, db, domain)
 
-  # with open("InvalidDomains.txt", "r") as file:
-  #   invalid_domains = [line.strip() for line in file]
-  # print(f"Total {len(invalid_domains)} invalid domains")
+  with open("InvalidDomains.txt", "r") as file:
+    invalid_domains = [line.strip() for line in file]
+  print(f"Total {len(invalid_domains)} invalid domains")
 
-  # with concurrent.futures.ThreadPoolExecutor(
-  #     max_workers=MAX_WORKERS) as executor:
-  #   for domain in invalid_domains:
-  #     delete_domain(domain)
+  with concurrent.futures.ThreadPoolExecutor(max_workers=32) as executor:
+    for domain in invalid_domains:
+      delete_domain(domain)
 
-  with concurrent.futures.ThreadPoolExecutor() as executor:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=16) as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
     executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
     executor.submit(cleanNoAnswer, adc_2025_Jan_DNS)
