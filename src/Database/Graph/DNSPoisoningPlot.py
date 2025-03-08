@@ -8,7 +8,6 @@ import csv
 import os
 from ipaddress import ip_network, ip_address
 import re
-from concurrent.futures import ThreadPoolExecutor
 import multiprocessing
 import numpy as np
 import matplotlib.pyplot as plt
@@ -402,21 +401,55 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
 def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
     destination_db, output_folder):
   """
-   1. 按照上一个函数一样绘制出按照DNS提供商所在的地域聚合的错误码分布图
-   2. 将所有地域聚合到一张图中
-  """
+    1. 按照上一个函数一样绘制出按照DNS提供商所在的地域聚合的错误码分布图
+    2. 将所有地域聚合到一张图中
+    """
   print('Plotting error code distribution by provider region...')
   region_to_error_code_count = defaultdict(Counter)
+
   for server, region in ip_to_region.items():
     docs = destination_db.find({'dns_server': server})
+    domain_record_errors = defaultdict(lambda: defaultdict(set))
+
     for doc in docs:
-      error_code = doc.get('error_code')
-      if error_code:
-        if isinstance(error_code, list):
-          for code in error_code:
-            region_to_error_code_count[region][str(code)] += 1
+      domain = doc.get("domain")
+      record_type = doc.get("record_type")
+      if domain and record_type:
+        error_codes = doc.get("error_code", [])
+        if isinstance(error_codes, str):
+          error_codes = [error_codes]
+
+        if record_type in ("A", "AAAA"):
+          if "NoAnswer" in error_codes:
+            domain_record_errors[domain][record_type].add("NoAnswer")
+          for code in error_codes:
+            if isinstance(code, list):
+              code = str(code)
+            if code != "NoAnswer":
+              domain_record_errors[domain][record_type].add(code)
         else:
-          region_to_error_code_count[region][str(error_code)] += 1
+          for code in error_codes:
+            if isinstance(code, list):
+              code = str(code)
+            domain_record_errors[domain][record_type].add(code)
+
+    for domain, recs in domain_record_errors.items():
+      if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
+          "AAAA", set()):
+        if not ("NoAnswer" in recs.get("A", set())
+                and "NoAnswer" in recs.get("AAAA", set())):
+          recs["A"].discard("NoAnswer")
+          recs["AAAA"].discard("NoAnswer")
+
+    for domain, recs in domain_record_errors.items():
+      for rtype, codes in recs.items():
+        for code in codes:
+          region_to_error_code_count[region][str(code)] += 1
+          
+  for region in region_to_error_code_count:
+    for skip_code in ["erying", "refuse", "former"]:
+      region_to_error_code_count[region].pop(skip_code, None)
+
   all_error_code_count = Counter()
   for region, error_code_count in region_to_error_code_count.items():
     all_error_code_count.update(error_code_count)
@@ -433,19 +466,41 @@ def distribution_error_code(destination_db, output_folder):
   print('Plotting DNS server distribution for each error code...')
   error_code_to_server_count = defaultdict(Counter)
   all_error_codes = set()
+  domain_record_errors = defaultdict(lambda: defaultdict(set))
   for server in ip_to_provider.keys():
     docs = destination_db.find({'dns_server': server})
     for doc in docs:
-      error_code = doc.get('error_code')
-      if error_code:
-        if isinstance(error_code, list):
-          for code in error_code:
-            error_code_to_server_count[str(code)][ip_to_region[server]] += 1
-            all_error_codes.add(str(code))
+      domain = doc.get("domain")
+      record_type = doc.get("record_type")
+      if domain and record_type:
+        ec = doc.get("error_code", [])
+        if isinstance(ec, str):
+          ec = [ec]
+        if record_type in ("A", "AAAA"):
+          if "NoAnswer" in ec:
+            domain_record_errors[domain][record_type].add("NoAnswer")
+          for code in ec:
+            if isinstance(code, list):
+              code = str(code)
+            if code != "NoAnswer":
+              domain_record_errors[domain][record_type].add(code)
         else:
-          error_code_to_server_count[str(error_code)][
-              ip_to_region[server]] += 1
-          all_error_codes.add(str(error_code))
+          for code in ec:
+            if isinstance(code, list):
+              code = str(code)
+            domain_record_errors[domain][record_type].add(code)
+    for d, recs in domain_record_errors.items():
+      if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
+          "AAAA", set()):
+        if not ("NoAnswer" in recs.get("A", set())
+                and "NoAnswer" in recs.get("AAAA", set())):
+          recs["A"].discard("NoAnswer")
+          recs["AAAA"].discard("NoAnswer")
+    for d, recs in domain_record_errors.items():
+      for rtype, codes in recs.items():
+        for c in codes:
+          error_code_to_server_count[str(c)][ip_to_region[server]] += 1
+          all_error_codes.add(str(c))
   for error_code in all_error_codes:
     if error_code in ["erying", "refuse", "former"]:
       continue
