@@ -65,43 +65,42 @@ def delete_domain(domain):
 
 
 def cleanDomains():
-  folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
-  all_results = read_csv_files(folder_path)
-  print(f"Total {len(all_results)} records")
+  # folder_path = '/home/lhengyi/Developer/GFW-Research/Lib/CompareGroup/DNSPoisoning'
+  # all_results = read_csv_files(folder_path)
+  # print(f"Total {len(all_results)} records")
 
-  db = MongoDBHandler(Merged_db['CompareGroup'])
-  import_to_db(db, all_results)
+  # db = MongoDBHandler(Merged_db['CompareGroup'])
+  # import_to_db(db, all_results)
 
-  domains_file_path = os.path.join(os.path.dirname(__file__),
-                                   '../Import/domains_list.csv')
-  domains = read_domains(domains_file_path)
+  # domains_file_path = os.path.join(os.path.dirname(__file__),
+  #                                  '../Import/domains_list.csv')
+  # domains = read_domains(domains_file_path)
 
-  with concurrent.futures.ThreadPoolExecutor(
-      max_workers=MAX_WORKERS) as executor:
-    for domain in domains:
-      executor.submit(check_domain, db, domain)
+  # with concurrent.futures.ThreadPoolExecutor(
+  #     max_workers=MAX_WORKERS) as executor:
+  #   for domain in domains:
+  #     executor.submit(check_domain, db, domain)
 
-  with open("InvalidDomains.txt", "r") as file:
-    invalid_domains = [line.strip() for line in file]
-  print(f"Total {len(invalid_domains)} invalid domains")
+  # with open("InvalidDomains.txt", "r") as file:
+  #   invalid_domains = [line.strip() for line in file]
+  # print(f"Total {len(invalid_domains)} invalid domains")
 
-  with concurrent.futures.ThreadPoolExecutor(
-      max_workers=MAX_WORKERS) as executor:
-    for domain in invalid_domains:
-      executor.submit(delete_domain, domain)
-      executor.submit(cleanNoAnswer, DNSPoisoning)
-      executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
-      executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
-      executor.submit(cleanNoAnswer, adc_2025_Jan_DNS)
+  # with concurrent.futures.ThreadPoolExecutor(
+  #     max_workers=MAX_WORKERS) as executor:
+  #   for domain in invalid_domains:
+  #     delete_domain(domain)
+
+  cleanNoAnswer(DNSPoisoning)
+  cleanNoAnswer(merged_2024_Nov_DNS)
+  cleanNoAnswer(merged_2025_Jan_DNS)
+  cleanNoAnswer(adc_2025_Jan_DNS)
 
 
 def cleanNoAnswer(db):
   """
     1. 查询 error_code 包含 NoAnswer 的记录
     2. 检查同一 domain 下 record_type 是否同时有 A 和 AAAA 记录含 NoAnswer
-    3. 如果同时出现，则保留；否则：
-        - 如果 error_code 仅包含 NoAnswer，则删除该文档
-        - 否则，从 error_code 中删除 NoAnswer
+    3. 如果同时出现，则保留；否则从 error_code 中删除 NoAnswer这个entry
     """
 
   # 查询所有 error_code 包含 "NoAnswer" 的文档
