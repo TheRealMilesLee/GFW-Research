@@ -52,6 +52,9 @@ def read_domains(file_path):
 
 
 def check_domain(db, domain):
+  # 删除之前的InvalidDomains.txt文件
+  if os.path.exists("InvalidDomains.txt"):
+    os.remove("InvalidDomains.txt")
   results = db.find({"domain": domain})
   if results and all(
       [not result['ips'] or result['ips'] == '[]' for result in results]):
@@ -86,13 +89,6 @@ def cleanDomains():
     for domain in domains:
       executor.submit(check_domain, db, domain)
 
-  # 删除之前的InvalidDomains.txt文件
-  if os.path.exists("InvalidDomains.txt"):
-    os.remove("InvalidDomains.txt")
-
-  # 重新创建InvalidDomains.txt文件
-  if not os.path.exists("InvalidDomains.txt"):
-    open("InvalidDomains.txt", "w").close()
   with open("InvalidDomains.txt", "r") as file:
     invalid_domains = [line.strip() for line in file]
   print(f"Total {len(invalid_domains)} invalid domains")
