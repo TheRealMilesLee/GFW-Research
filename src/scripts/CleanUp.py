@@ -52,9 +52,6 @@ def read_domains(file_path):
 
 
 def check_domain(db, domain):
-  # 删除之前的InvalidDomains.txt文件
-  if os.path.exists("InvalidDomains.txt"):
-    os.remove("InvalidDomains.txt")
   results = db.find({"domain": domain})
   if results and all(
       [not result['ips'] or result['ips'] == '[]' for result in results]):
