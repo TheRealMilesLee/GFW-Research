@@ -91,8 +91,6 @@ def cleanDomains():
   with concurrent.futures.ThreadPoolExecutor() as executor:
     executor.submit(cleanNoAnswer, merged_2024_Nov_DNS)
     executor.submit(cleanNoAnswer, merged_2025_Jan_DNS)
-
-  with concurrent.futures.ThreadPoolExecutor() as executor:
     executor.submit(cleanNoAnswer, adc_2025_Jan_DNS)
     executor.submit(cleanNoAnswer, DNSPoisoning)
 
@@ -105,23 +103,23 @@ def cleanNoAnswer(db):
     """
   print(f"Cleaning NoAnswer for {db.collection.name}")
   # 查询所有 error_code 包含 "NoAnswer" 的文档
-  results = db.find({"error_code": "NoAnswer"})
+  cursor = db.find({"error_code": "NoAnswer"})
 
-  for result in results:
+  for result in cursor:
     domain = result["domain"]
 
     # 查询该 domain 是否有 A 和 AAAA 类型的 NoAnswer 记录
-    has_ipv4 = db.count_documents({
+    has_ipv4 = db.find_one({
         "domain": domain,
         "record_type": "A",
         "error_code": "NoAnswer"
-    }) > 0
+    }) is not None
 
-    has_ipv6 = db.count_documents({
+    has_ipv6 = db.find_one({
         "domain": domain,
         "record_type": "AAAA",
         "error_code": "NoAnswer"
-    }) > 0
+    }) is not None
 
     # 如果 A 和 AAAA 记录都含有 NoAnswer，则保留
     if has_ipv4 and has_ipv6:
@@ -140,7 +138,8 @@ def cleanNoAnswer(db):
             "error_code": "NoAnswer"
         }},
         upsert=False)
-    print(f"Removed NoAnswer for {domain}")
+  cursor.close()
+  print(f"Cleaned NoAnswer for {db.collection.name}")
 
 
 if __name__ == "__main__":
