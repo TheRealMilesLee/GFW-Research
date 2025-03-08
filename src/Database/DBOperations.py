@@ -100,3 +100,10 @@ class MongoDBHandler:
 
   def getAllDocuments(self):
     return self.collection.find()
+
+  def update_many(self, query: dict, update_data: dict, upsert: bool) -> None:
+    """
+        Update multiple documents with the specified update data.
+        `update_data` should include MongoDB operators like $set or $addToSet.
+        """
+    self.collection.update_many(query, update_data, upsert=upsert)
