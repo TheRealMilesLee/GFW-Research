@@ -107,3 +107,6 @@ class MongoDBHandler:
         `update_data` should include MongoDB operators like $set or $addToSet.
         """
     self.collection.update_many(query, update_data, upsert=upsert)
+
+  def drop_indexes(self) -> None:
+    self.collection.drop_indexes()
