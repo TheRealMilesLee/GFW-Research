@@ -1,1 +1,1 @@
-No data found for China-Telecom-DNSPoisoning and DNS server 101.226.4.7
+No data found for China-Telecom-DNSPoisoning and DNS server 2620:fe::fe
