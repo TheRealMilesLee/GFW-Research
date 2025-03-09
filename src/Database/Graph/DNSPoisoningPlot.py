@@ -13,12 +13,6 @@ import multiprocessing
 import numpy as np
 import matplotlib.pyplot as plt
 # Merged_db constants
-DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
-merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
-merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
-adc_2025_Jan_DNS = MongoDBHandler(
-    ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
-ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
 
@@ -548,7 +542,16 @@ def ensure_folder_exists(folder_path):
   if not os.path.exists(folder_path):
     os.makedirs(folder_path)
 
+
 if __name__ == "__main__":
+  # 在这里创建所需的 MongoDBHandler 实例
+  DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
+  merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
+  merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
+  adc_2025_Jan_DNS = MongoDBHandler(
+      ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
+  ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
+
   print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
