@@ -7,7 +7,7 @@ import multiprocessing
 ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
 
-def parse_txt(file_path):
+def parse_txt():
   """
     1. 读取/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/China-Mobile/Error文件夹下的txt文件
     2. 解析文件内容，文件格式如下：
@@ -28,54 +28,50 @@ def parse_txt(file_path):
 
     3. 将解析后的结果存入ERROR_CODES数据库
   """
-  ERROR_CODES.delete_many({})
-  print(f"Processing {file_path}")
-  with open(file_path, "r") as file:
-    lines = file.readlines()
-    for line in lines:
-      if "Error querying" in line:
-        domain = line.split("Error querying ")[1].split(" with ")[0]
-        # 使用更严格的分割方式获取dns_server
-        server_part = line.split(" with ")[1].split(": ")[0]
-        dns_server = server_part.split(":")[0]
-
-        # 新增对更多错误类型的判断
-        if "NXDOMAIN" in line:
-          error_code = "NXDOMAIN"
-          error_reason = "Domain does not exist"
-        elif "REFUSED" in line:
-          error_code = "REFUSED"
-          error_reason = "Query refused by server"
-        elif "FORMERR" in line:
-          error_code = "FORMERR"
-          error_reason = "Format error"
-        elif "SERVFAIL" in line:
-          error_code = "SERVFAIL"
-          error_reason = "Server failed to respond"
-        elif "timed out" in line:
-          error_code = "Timed out"
-          error_reason = "The DNS operation timed out"
-        else:
-          error_code = "Unknown"
-          error_reason = "Unknown error"
-
-        ERROR_CODES.insert_one({
-            "domain": domain,
-            "dns_server": dns_server,
-            "error_code": error_code,
-            "error_reason": error_reason
-        })
-  print(f"Finished processing {file_path}")
-  print(f"Total records: {ERROR_CODES.count_documents({})}")
-
-
-if __name__ == "__main__":
   # 读取文件夹下的所有txt文件
   path = "/home/lhengyi/Developer/GFW-Research/Lib/AfterDomainChange/China-Mobile/Error"
   files = os.listdir(path)
-  files = [os.path.join(path, file) for file in files]
+  for file in files:
+    file_path = os.path.join(path, file)
+    ERROR_CODES.delete_many({})
+    with open(file_path, "r") as file:
+      lines = file.readlines()
+      for line in lines:
+        if "Error querying" in line:
+          domain = line.split("Error querying ")[1].split(" with ")[0]
+          # 使用更严格的分割方式获取dns_server
+          server_part = line.split(" with ")[1].split(": ")[0]
+          dns_server = server_part.split(":")[0]
 
-  # 多线程处理
-  with concurrent.futures.ThreadPoolExecutor(
-      max_workers=multiprocessing.cpu_count()) as executor:
-    executor.map(parse_txt, files)
+          # 新增对更多错误类型的判断
+          if "NXDOMAIN" in line:
+            error_code = "NXDOMAIN"
+            error_reason = "Domain does not exist"
+          elif "REFUSED" in line:
+            error_code = "REFUSED"
+            error_reason = "Query refused by server"
+          elif "FORMERR" in line:
+            error_code = "FORMERR"
+            error_reason = "Format error"
+          elif "SERVFAIL" in line:
+            error_code = "SERVFAIL"
+            error_reason = "Server failed to respond"
+          elif "timed out" in line:
+            error_code = "Timed out"
+            error_reason = "The DNS operation timed out"
+          else:
+            error_code = "Unknown"
+            error_reason = "Unknown error"
+
+          ERROR_CODES.insert_one({
+              "domain": domain,
+              "dns_server": dns_server,
+              "error_code": error_code,
+              "error_reason": error_reason
+          })
+    print(f"Finished processing {file_path}")
+    print(f"Total records: {ERROR_CODES.count_documents({})}")
+
+
+if __name__ == "__main__":
+  parse_txt()
