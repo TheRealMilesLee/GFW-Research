@@ -76,7 +76,8 @@ def parse_txt():
               "error_reason": error_reason
           })
           if exists:
-            ERROR_CODES.update_one({"_id": exists["_id"]}, {"$set": record})
+            ERROR_CODES.update_one({"_id": exists["_id"]}, {"$set": record},
+                                   upsert=True)
           else:
             ERROR_CODES.insert_one(record)
     print(f"Finished processing {file_path}")
