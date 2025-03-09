@@ -38,25 +38,25 @@ def parse_txt(file_path):
         server_part = line.split(" with ")[1].split(": ")[0]
         dns_server = server_part.split(":")[0]
 
-        # 根据关键词“ answered ”来提取error_code
-        if " answered " in line:
-          code_part = line.split(" answered ")[1]
-          error_code = code_part.split()[0]
-          error_reason = " ".join(code_part.split()[1:])
+        # 新增对更多错误类型的判断
+        if "NXDOMAIN" in line:
+          error_code = "NXDOMAIN"
+          error_reason = "Domain does not exist"
+        elif "REFUSED" in line:
+          error_code = "REFUSED"
+          error_reason = "Query refused by server"
+        elif "FORMERR" in line:
+          error_code = "FORMERR"
+          error_reason = "Format error"
+        elif "SERVFAIL" in line:
+          error_code = "SERVFAIL"
+          error_reason = "Server failed to respond"
+        elif "timed out" in line:
+          error_code = "Timed out"
+          error_reason = "The DNS operation timed out"
         else:
-          # 新增对更多错误类型的判断
-          if "NXDOMAIN" in line:
-            error_code = "NXDOMAIN"
-            error_reason = "Domain does not exist"
-          elif "REFUSED" in line:
-            error_code = "REFUSED"
-            error_reason = "Query refused by server"
-          elif "FORMERR" in line:
-            error_code = "FORMERR"
-            error_reason = "Format error"
-          else:
-            error_code = line.split(": ")[1].split(":")[0]
-            error_reason = line.split(": ")[1].split(":")[1]
+          error_code = "Unknown"
+          error_reason = "Unknown error"
 
         ERROR_CODES.insert_one({
             "domain": domain,
