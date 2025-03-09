@@ -131,7 +131,7 @@ def plot_pie_chart_helper(location_counts, title, output_file):
       labels=location_counts.keys(),
       autopct=lambda pct: f"{pct:.1f}% ({int(round(pct * total / 100.0))})",
       startangle=140,
-      pctdistance=0.85)
+      pctdistance=0.6)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
   ax.set_title(f"{title} (Total: {total} occurrences)")
@@ -180,28 +180,43 @@ def plot_error_code_distribution_provider_region_stacked(
       sum(region_to_error_code_count[r].values())
       for r in region_to_error_code_count)
   plt.figure(figsize=(12, 6))
+  fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+  small_codes = set()
   for code in all_codes:
     counts = [region_to_error_code_count[r].get(code, 0) for r in regions]
-    plt.bar(x, counts, bottom=bottom, label=code)
+    bars = ax.bar(x, counts, bottom=bottom, label=code)
     for i, c in enumerate(counts):
       if c > 0:
         y_pos = bottom[i] + c / 2
         percent = (c / region_totals[i]) * 100
-        plt.text(x[i],
-                 y_pos,
-                 f"{percent:.1f}%",
-                 ha='center',
-                 va='center',
-                 fontsize=8)
+        if percent >= 2.0:
+          ax.text(x[i],
+                  y_pos,
+                  f"{percent:.1f}%",
+                  ha='center',
+                  va='center',
+                  fontsize=8)
+        else:
+          small_codes.add(code)
     bottom = [bottom[j] + counts[j] for j in range(len(regions))]
   plt.xticks(x, regions, rotation=25)
   plt.xlabel("DNS Provider Region")
   plt.ylabel("Occurrences")
   plt.title(f"{title} (Total: {grand_total} occurrences)")
-  plt.legend()
+  handles, labels = ax.get_legend_handles_labels()
+  ax.legend(handles, labels, loc='upper left')
+  if small_codes:
+    ax.text(0.98,
+            0.5,
+            f"小于2%的Error Codes:\n{', '.join(sorted(small_codes))}",
+            transform=ax.transAxes,
+            ha='right',
+            va='top',
+            bbox=dict(facecolor='white', alpha=0.8))
   plt.tight_layout()
   plt.savefig(output_file)
   plt.close()
+
 
 def get_timely_trend():
   collections = [
@@ -540,6 +555,7 @@ def ensure_folder_exists(folder_path):
   if not os.path.exists(folder_path):
     os.makedirs(folder_path)
 
+
 if __name__ == "__main__":
   # 确保 MongoDB 连接是在 __main__ 之后初始化
   DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
@@ -556,23 +572,31 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
+  DNSPoisoning_ErrorCode_Distribute(
+      ERROR_CODES, f"{output_folder}/2024-9/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  DNSPoisoning_ErrorCode_Distribute(ERROR_CODES, f"{output_folder}/2024-9/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(ERROR_CODES,
+                                                   f"{output_folder}/2024-9")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
+                                                   f"{output_folder}/2025-1")
 
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(ERROR_CODES, f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(ERROR_CODES, f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      ERROR_CODES, f"{output_folder}/2024-9")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   distribution_error_code(ERROR_CODES, f"{output_folder}/2024-9")
   distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
   distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   print("All tasks completed. Working on get timely trend...")
-  get_timely_trend()
+  # get_timely_trend()
   print("All tasks completed.")
