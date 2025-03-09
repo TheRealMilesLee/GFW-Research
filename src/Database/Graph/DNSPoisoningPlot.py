@@ -558,54 +558,70 @@ if __name__ == "__main__":
       ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
   ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
-  print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
+  # 不再使用 "spawn"，因为 ThreadPoolExecutor 不需要多进程
+  print(f"Checking concurrency. Using {MAX_WORKERS} worker threads.")
+
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
+
   ensure_folder_exists(output_folder)
   ensure_folder_exists(f"{output_folder}/2024-9/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  with concurrent.futures.ProcessPoolExecutor(
+  # ✅ 改用 ThreadPoolExecutor，线程可以共享 MongoDB 连接
+  with concurrent.futures.ThreadPoolExecutor(
       max_workers=MAX_WORKERS) as executor:
     futures = []
 
-    # 提交任务
-    submit_task(DNSPoisoning_ErrorCode_Distribute, ERROR_CODES,
-                f"{output_folder}/2024-9/DNS_SERVER_DIST")
-    submit_task(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
-                f"{output_folder}/2024-11/DNS_SERVER_DIST")
-    submit_task(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
-                f"{output_folder}/2025-1/DNS_SERVER_DIST")
-
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, ERROR_CODES,
-                f"{output_folder}/2024-9")
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-                ERROR_CODES, f"{output_folder}/2024-9")
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-                merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-                adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-
-    submit_task(distribution_error_code, ERROR_CODES,
-                f"{output_folder}/2024-9")
-    submit_task(distribution_error_code, merged_2024_Nov_DNS,
-                f"{output_folder}/2024-11")
-    submit_task(distribution_error_code, adc_2025_Jan_DNS,
-                f"{output_folder}/2025-1")
+    # 直接使用 MongoDBHandler，因为线程共享对象不会有问题
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute, ERROR_CODES,
+                        f"{output_folder}/2024-9/DNS_SERVER_DIST"))
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute,
+                        merged_2024_Nov_DNS,
+                        f"{output_folder}/2024-11/DNS_SERVER_DIST"))
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
+                        f"{output_folder}/2025-1/DNS_SERVER_DIST"))
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        ERROR_CODES, f"{output_folder}/2024-9"))
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        merged_2024_Nov_DNS, f"{output_folder}/2024-11"))
+    futures.append(
+        executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                        adc_2025_Jan_DNS, f"{output_folder}/2025-1"))
+    futures.append(
+        executor.submit(
+            DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+            ERROR_CODES, f"{output_folder}/2024-9"))
+    futures.append(
+        executor.submit(
+            DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+            merged_2024_Nov_DNS, f"{output_folder}/2024-11"))
+    futures.append(
+        executor.submit(
+            DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+            adc_2025_Jan_DNS, f"{output_folder}/2025-1"))
+    futures.append(
+        executor.submit(distribution_error_code, ERROR_CODES,
+                        f"{output_folder}/2024-9"))
+    futures.append(
+        executor.submit(distribution_error_code, merged_2024_Nov_DNS,
+                        f"{output_folder}/2024-11"))
+    futures.append(
+        executor.submit(distribution_error_code, adc_2025_Jan_DNS,
+                        f"{output_folder}/2025-1"))
 
     print("All tasks submitted. Waiting for completion...")
 
-    # 等待所有任务完成并捕获异常
     for future in futures:
       try:
-        result = future.result(timeout=30)  # 设置超时时间
+        result = future.result(timeout=30)
         print("Task completed successfully:", result)
       except Exception as e:
         print("Task failed:", e)
