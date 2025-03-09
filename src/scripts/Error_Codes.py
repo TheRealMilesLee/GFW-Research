@@ -1,9 +1,5 @@
-from ..Database.DBOperations import Merged_db, MongoDBHandler, ADC_db
-import csv
+from ..Database.DBOperations import MongoDBHandler, ADC_db
 import os
-import concurrent.futures
-import multiprocessing
-import uuid
 
 ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
