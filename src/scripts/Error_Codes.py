@@ -1,5 +1,6 @@
 from ..Database.DBOperations import MongoDBHandler, ADC_db
 import os
+import re
 
 ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
@@ -40,6 +41,14 @@ def parse_txt():
           server_part = line.split(" with ")[1].split(": ")[0]
           dns_server = server_part.split(":")[0]
 
+          # 判断record_type
+          if re.match(r"^\d{1,3}(\.\d{1,3}){3}$", dns_server):
+            record_type = "A"
+          elif re.match(r"^[0-9a-fA-F:]+$", dns_server):
+            record_type = "AAAA"
+          else:
+            record_type = "Unknown"
+
           # 新增对更多错误类型的判断
           if "NXDOMAIN" in line:
             error_code = "NXDOMAIN"
@@ -60,18 +69,22 @@ def parse_txt():
             error_code = "Unknown"
             error_reason = "Unknown error"
           record = {
-              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
+              "_id":
+              f"{domain}-{dns_server}-{error_code}-{error_reason}-{record_type}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
-              "error_reason": error_reason
+              "error_reason": error_reason,
+              "record_type": record_type
           }
           exists = ERROR_CODES.find_one({
-              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
+              "_id":
+              f"{domain}-{dns_server}-{error_code}-{error_reason}-{record_type}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
-              "error_reason": error_reason
+              "error_reason": error_reason,
+              "record_type": record_type
           })
           if exists:
             ERROR_CODES.update_one({"_id": exists["_id"]}, {"$set": record},
