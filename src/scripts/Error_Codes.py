@@ -50,7 +50,7 @@ def parse_txt():
             record_type = "Unknown"
 
           # 新增对更多错误类型的判断
-          if "NXDOMAIN" or "does not exist" in line:
+          if "NXDOMAIN" in line or "The DNS query name does not exist" in line:
             error_code = "NXDOMAIN"
             error_reason = "Domain does not exist"
           elif "REFUSED" in line:
@@ -62,7 +62,7 @@ def parse_txt():
           elif "SERVFAIL" in line:
             error_code = "SERVFAIL"
             error_reason = "Server failed to respond"
-          elif "timed out" or "The resolution lifetime expired" in line:
+          elif "timed out" in line or "The resolution lifetime expired" in line:
             error_code = "Timed out"
             error_reason = "The DNS operation timed out"
           elif "YXDOMAIN" in line:
