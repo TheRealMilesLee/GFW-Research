@@ -29,6 +29,7 @@ def parse_txt(file_path):
     3. 将解析后的结果存入ERROR_CODES数据库
   """
   ERROR_CODES.delete_many({})
+  print(f"Processing {file_path}")
   with open(file_path, "r") as file:
     lines = file.readlines()
     for line in lines:
@@ -64,6 +65,8 @@ def parse_txt(file_path):
             "error_code": error_code,
             "error_reason": error_reason
         })
+  print(f"Finished processing {file_path}")
+  print(f"Total records: {ERROR_CODES.count_documents({})}")
 
 
 if __name__ == "__main__":
