@@ -548,12 +548,6 @@ def ensure_folder_exists(folder_path):
   if not os.path.exists(folder_path):
     os.makedirs(folder_path)
 
-
-def execute_tasks(executor, tasks):
-  for task in tasks:
-    task.result()
-
-
 if __name__ == "__main__":
   print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
