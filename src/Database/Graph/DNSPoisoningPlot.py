@@ -130,15 +130,17 @@ def get_server_location(server):
 
 
 def plot_pie_chart_helper(location_counts, title, output_file):
+  total = sum(location_counts.values())
   fig, ax = plt.subplots(figsize=(15, 6), constrained_layout=True)
-  wedges, texts, autotexts = ax.pie(location_counts.values(),
-                                    labels=location_counts.keys(),
-                                    autopct='%1.1f%%',
-                                    startangle=140,
-                                    pctdistance=0.85)
+  wedges, texts, autotexts = ax.pie(
+      location_counts.values(),
+      labels=location_counts.keys(),
+      autopct=lambda pct: f"{pct:.1f}% ({int(round(pct * total / 100.0))})",
+      startangle=140,
+      pctdistance=0.85)
   plt.setp(autotexts, size=10, weight="bold", color="white")
   plt.setp(texts, size=10)
-  ax.set_title(title)
+  ax.set_title(f"{title} (Total: {total} occurrences)")
   fig.savefig(output_file, bbox_inches='tight')
   plt.close(fig)
 
@@ -180,6 +182,9 @@ def plot_error_code_distribution_provider_region_stacked(
   region_totals = [
       sum(region_to_error_code_count[r].values()) for r in regions
   ]
+  grand_total = sum(
+      sum(region_to_error_code_count[r].values())
+      for r in region_to_error_code_count)
   plt.figure(figsize=(12, 6))
   for code in all_codes:
     counts = [region_to_error_code_count[r].get(code, 0) for r in regions]
@@ -198,7 +203,7 @@ def plot_error_code_distribution_provider_region_stacked(
   plt.xticks(x, regions, rotation=25)
   plt.xlabel("DNS Provider Region")
   plt.ylabel("Occurrences")
-  plt.title(title)
+  plt.title(f"{title} (Total: {grand_total} occurrences)")
   plt.legend()
   plt.tight_layout()
   plt.savefig(output_file)
@@ -273,9 +278,10 @@ def get_timely_trend():
                  linestyle="--")
         plt.xlabel("Time (hourly)")
         plt.ylabel("Number of Domains")
+        total_points = sum(accessible) + sum(inaccessible)
         plt.title(
-            f"Domain Accessibility Over Time ({collection_name} - {dns_server})"
-        )
+            f"Domain Accessibility Over Time ({collection_name} - {dns_server}) "
+            f"(Total: {total_points} occurrences)")
         plt.legend()
         plt.xticks(rotation=25, fontsize=5)
         plt.gca().set_xticks(x)
@@ -553,7 +559,6 @@ if __name__ == "__main__":
   # 确保 MongoDB 连接是在 __main__ 之后初始化
   DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
   merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
-  merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
   adc_2025_Jan_DNS = MongoDBHandler(
       ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
   ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
@@ -619,7 +624,6 @@ if __name__ == "__main__":
 
     for future in futures:
       result = future.result(timeout=3000)
-
 
   print("All tasks completed. Working on get timely trend...")
   get_timely_trend()
