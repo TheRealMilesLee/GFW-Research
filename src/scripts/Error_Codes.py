@@ -65,13 +65,15 @@ def parse_txt():
 
           print(
               f"Inserting {domain} {dns_server} {error_code} {error_reason}")
-          ERROR_CODES.insert_one({
+          record = {
               "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
               "error_reason": error_reason
-          })
+          }
+          ERROR_CODES.update_one({"_id": record["_id"]}, {"$set": record},
+                                 upsert=True)
     print(f"Finished processing {file_path}")
     print(f"Total records: {ERROR_CODES.count_documents({})}")
 
