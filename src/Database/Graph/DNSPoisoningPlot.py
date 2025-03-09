@@ -12,8 +12,9 @@ import re
 import multiprocessing
 import numpy as np
 import matplotlib.pyplot as plt
+
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
+MAX_WORKERS = max(CPU_CORES * 2, 96)  # Dynamically set workers
 
 provider_region_map = {
     "Google": "U.S. DNS Provider",
@@ -541,7 +542,8 @@ def ensure_folder_exists(folder_path):
 
 
 if __name__ == "__main__":
-  # 在这里创建所需的 MongoDBHandler 实例
+
+  multiprocessing.set_start_method("spawn", force=True)
   DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
   merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
   merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
@@ -589,5 +591,8 @@ if __name__ == "__main__":
                     f"{output_folder}/2024-11")
     executor.submit(distribution_error_code, adc_2025_Jan_DNS,
                     f"{output_folder}/2025-1")
-    executor.submit(get_timely_trend)
+  print("All tasks submitted. Waiting for completion...")
+  executor.shutdown(wait=True)
+  print("All tasks completed. Working on get timely trend...")
+  get_timely_trend()
   print("All tasks completed.")
