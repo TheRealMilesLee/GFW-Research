@@ -304,7 +304,6 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
     docs = destination_db.find({'dns_server': server})
-    print(f"{len(docs)} records found for {server}")
     domain_record_errors = defaultdict(lambda: defaultdict(set))
     for doc in docs:
       domain = doc.get("domain")
@@ -314,14 +313,14 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         if isinstance(ec, str):
           ec = [ec]
         if record_type in ("A", "AAAA"):
-          # 只暂存“NoAnswer”即可，先不做双向核验
+          # 只暂存“NoAnswer”即可,先不做双向核验
           if "NoAnswer" in ec:
-            domain_record_errors[domain][record_type].add("NoAnswer")
+            domain_record_errors[domain][str(record_type)].add("NoAnswer")
           for code in ec:
             if isinstance(code, list):
               code = str(code)
             if code != "NoAnswer":
-              domain_record_errors[domain][record_type].add(code)
+              domain_record_errors[domain][str(record_type)].add(code)
         else:
           for code in ec:
             if isinstance(code, list):
