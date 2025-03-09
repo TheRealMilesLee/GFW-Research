@@ -7,9 +7,6 @@ import uuid
 
 ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
-ERROR_CODES.drop_indexes()
-ERROR_CODES.create_index([("_id", 1)], unique=True)
-
 
 def parse_txt():
   """
