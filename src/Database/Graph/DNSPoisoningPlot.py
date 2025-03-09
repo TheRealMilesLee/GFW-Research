@@ -304,6 +304,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
     docs = destination_db.find({'dns_server': server})
+    print(f"Processing {server}...")
     domain_record_errors = defaultdict(lambda: defaultdict(set))
     for doc in docs:
       domain = doc.get("domain")
@@ -405,7 +406,7 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
     1. 按照上一个函数一样绘制出按照DNS提供商所在的地域聚合的错误码分布图
     2. 将所有地域聚合到一张图中
     """
-  print('Plotting error code distribution by provider region...')
+  print('Plotting Aggregated error code distribution by provider region...')
   region_to_error_code_count = defaultdict(Counter)
 
   for server, region in ip_to_region.items():
