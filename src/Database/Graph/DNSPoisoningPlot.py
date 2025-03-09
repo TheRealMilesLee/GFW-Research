@@ -6,6 +6,7 @@ from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from collections import defaultdict, Counter
 import csv
 import os
+import concurrent.futures
 from ipaddress import ip_network, ip_address
 import re
 import multiprocessing
@@ -352,6 +353,9 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
           error_code_count,
           f'Error Code Distribution for DNS Server {server} ({provider})',
           output_file)
+  print(
+      f'\033[92mError code distribution by DNS server completed for {destination_db.collection.name}.\033[0m\n'
+  )
 
 
 def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
@@ -408,6 +412,9 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
     plot_error_code_distribution_helper(
         error_code_count, f'Error Code Distribution for {region}',
         output_file)
+  print(
+      f'\033[92mError code distribution by provider region completed for {destination_db.collection.name}.\033[0m\n'
+  )
 
 
 def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
@@ -474,6 +481,9 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
   plot_error_code_distribution_provider_region_stacked(
       region_to_error_code_count, 'Error Code Distribution for All Regions',
       output_file)
+  print(
+      f'\033[92mAggregated error code distribution by provider region completed for {destination_db.collection.name}.\033[0m\n'
+  )
 
 
 def distribution_error_code(destination_db, output_folder):
@@ -529,6 +539,9 @@ def distribution_error_code(destination_db, output_folder):
     plot_pie_chart_helper(
         server_count, f'DNS Servers Distribution for Error Code {error_code}',
         output_file)
+  print(
+      f'\033[92mDNS server distribution for each error code completed for {destination_db.collection.name}.\033[0m\n'
+  )
 
 
 def ensure_folder_exists(folder_path):
@@ -542,6 +555,7 @@ def execute_tasks(executor, tasks):
 
 
 if __name__ == "__main__":
+  print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
   if os.name == "nt":
     output_folder = "E:\\Developer\\SourceRepo\\GFW-Research\\Pic"
@@ -550,30 +564,34 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  DNSPoisoning_ErrorCode_Distribute(
-      ERROR_CODES, f"{output_folder}/2024-9/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
-
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(ERROR_CODES,
-                                                   f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
-                                                   f"{output_folder}/2025-1")
-
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      ERROR_CODES, f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-
-  distribution_error_code(ERROR_CODES, f"{output_folder}/2024-9")
-  distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-
-  # get_timely_trend()
+  with concurrent.futures.ProcessPoolExecutor(
+      max_workers=MAX_WORKERS) as executor:
+    executor.submit(DNSPoisoning_ErrorCode_Distribute, ERROR_CODES,
+                    f"{output_folder}/2024-9/DNS_SERVER_DIST")
+    executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
+                    f"{output_folder}/2024-11/DNS_SERVER_DIST")
+    executor.submit(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
+                    f"{output_folder}/2025-1/DNS_SERVER_DIST")
+    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                    ERROR_CODES, f"{output_folder}/2024-9")
+    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                    merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                    adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+    executor.submit(
+        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+        ERROR_CODES, f"{output_folder}/2024-9")
+    executor.submit(
+        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+        merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+    executor.submit(
+        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+        adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+    executor.submit(distribution_error_code, ERROR_CODES,
+                    f"{output_folder}/2024-9")
+    executor.submit(distribution_error_code, merged_2024_Nov_DNS,
+                    f"{output_folder}/2024-11")
+    executor.submit(distribution_error_code, adc_2025_Jan_DNS,
+                    f"{output_folder}/2025-1")
+    executor.submit(get_timely_trend)
   print("All tasks completed.")
