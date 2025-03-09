@@ -64,14 +64,12 @@ def parse_txt():
             error_code = "Unknown"
             error_reason = "Unknown error"
           record = {
-              "_id":
-              f"{domain}-{dns_server}-{error_code}-{error_reason}-{uuid.uuid4()}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
               "error_reason": error_reason
           }
-          ERROR_CODES.update_one({"_id": record["_id"]}, {"$set": record},
+          ERROR_CODES.update_one({"domain": domain}, {"$set": record},
                                  upsert=True)
     print(f"Finished processing {file_path}")
     print(f"Total records: {ERROR_CODES.count_documents({})}")
