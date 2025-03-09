@@ -17,6 +17,7 @@ merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
 merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
 adc_2025_Jan_DNS = MongoDBHandler(
     ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
+ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
 
@@ -534,29 +535,29 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
   DNSPoisoning_ErrorCode_Distribute(
-      DNSPoisoning, f"{output_folder}/2024-9/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
-  DNSPoisoning_ErrorCode_Distribute(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+      ERROR_CODES, f"{output_folder}/2024-9/DNS_SERVER_DIST")
+  # DNSPoisoning_ErrorCode_Distribute(
+  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  # DNSPoisoning_ErrorCode_Distribute(
+  #     adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(DNSPoisoning,
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(ERROR_CODES,
                                                    f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
-                                                   f"{output_folder}/2025-1")
+  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
+  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
+  #                                                  f"{output_folder}/2025-1")
 
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      DNSPoisoning, f"{output_folder}/2024-9")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-      adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+      ERROR_CODES, f"{output_folder}/2024-9")
+  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+  #     adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
-  distribution_error_code(DNSPoisoning, f"{output_folder}/2024-9")
-  distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+  distribution_error_code(ERROR_CODES, f"{output_folder}/2024-9")
+  # distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  # distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
-  get_timely_trend()
+  # get_timely_trend()
   print("All tasks completed.")
