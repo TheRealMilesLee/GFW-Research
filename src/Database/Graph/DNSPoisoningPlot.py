@@ -10,6 +10,7 @@ import concurrent.futures
 from ipaddress import ip_network, ip_address
 import re
 import multiprocessing
+from multiprocessing import set_start_method
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -541,17 +542,21 @@ def ensure_folder_exists(folder_path):
     os.makedirs(folder_path)
 
 
-if __name__ == "__main__":
+def submit_task(func, *args):
+  future = executor.submit(func, *args)
+  futures.append(future)
 
-  multiprocessing.set_start_method("spawn", force=True)
+
+if __name__ == "__main__":
+  set_start_method("spawn", force=True)
+
+  # 确保 MongoDB 连接是在 __main__ 之后初始化
   DNSPoisoning = MongoDBHandler(Merged_db["DNSPoisoning"])
   merged_2024_Nov_DNS = MongoDBHandler(Merged_db["2024_Nov_DNS"])
   merged_2025_Jan_DNS = MongoDBHandler(Merged_db["2025_DNS"])
   adc_2025_Jan_DNS = MongoDBHandler(
       ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
   ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
-
-  categories = DNSPoisoning.distinct("error_code")
 
   print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
@@ -564,35 +569,47 @@ if __name__ == "__main__":
 
   with concurrent.futures.ProcessPoolExecutor(
       max_workers=MAX_WORKERS) as executor:
-    executor.submit(DNSPoisoning_ErrorCode_Distribute, ERROR_CODES,
-                    f"{output_folder}/2024-9/DNS_SERVER_DIST")
-    executor.submit(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
-                    f"{output_folder}/2024-11/DNS_SERVER_DIST")
-    executor.submit(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
-                    f"{output_folder}/2025-1/DNS_SERVER_DIST")
-    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                    ERROR_CODES, f"{output_folder}/2024-9")
-    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                    merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-    executor.submit(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
-                    adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-    executor.submit(
-        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-        ERROR_CODES, f"{output_folder}/2024-9")
-    executor.submit(
-        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-        merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-    executor.submit(
-        DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
-        adc_2025_Jan_DNS, f"{output_folder}/2025-1")
-    executor.submit(distribution_error_code, ERROR_CODES,
-                    f"{output_folder}/2024-9")
-    executor.submit(distribution_error_code, merged_2024_Nov_DNS,
-                    f"{output_folder}/2024-11")
-    executor.submit(distribution_error_code, adc_2025_Jan_DNS,
-                    f"{output_folder}/2025-1")
-  print("All tasks submitted. Waiting for completion...")
-  executor.shutdown(wait=True)
+    futures = []
+
+    # 提交任务
+    submit_task(DNSPoisoning_ErrorCode_Distribute, ERROR_CODES,
+                f"{output_folder}/2024-9/DNS_SERVER_DIST")
+    submit_task(DNSPoisoning_ErrorCode_Distribute, merged_2024_Nov_DNS,
+                f"{output_folder}/2024-11/DNS_SERVER_DIST")
+    submit_task(DNSPoisoning_ErrorCode_Distribute, adc_2025_Jan_DNS,
+                f"{output_folder}/2025-1/DNS_SERVER_DIST")
+
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion, ERROR_CODES,
+                f"{output_folder}/2024-9")
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion,
+                adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+                ERROR_CODES, f"{output_folder}/2024-9")
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+                merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+    submit_task(DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate,
+                adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+
+    submit_task(distribution_error_code, ERROR_CODES,
+                f"{output_folder}/2024-9")
+    submit_task(distribution_error_code, merged_2024_Nov_DNS,
+                f"{output_folder}/2024-11")
+    submit_task(distribution_error_code, adc_2025_Jan_DNS,
+                f"{output_folder}/2025-1")
+
+    print("All tasks submitted. Waiting for completion...")
+
+    # 等待所有任务完成并捕获异常
+    for future in futures:
+      try:
+        result = future.result(timeout=30)  # 设置超时时间
+        print("Task completed successfully:", result)
+      except Exception as e:
+        print("Task failed:", e)
+
   print("All tasks completed. Working on get timely trend...")
   get_timely_trend()
   print("All tasks completed.")
