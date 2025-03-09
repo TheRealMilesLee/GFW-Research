@@ -69,8 +69,16 @@ def parse_txt():
               "error_code": error_code,
               "error_reason": error_reason
           }
-          ERROR_CODES.update_one({"domain": domain}, {"$set": record},
-                                 upsert=True)
+          exists = ERROR_CODES.find_one({
+              "domain": domain,
+              "dns_server": dns_server,
+              "error_code": error_code,
+              "error_reason": error_reason
+          })
+          if exists:
+            ERROR_CODES.update_one({"_id": exists["_id"]}, {"$set": record})
+          else:
+            ERROR_CODES.insert_one(record)
     print(f"Finished processing {file_path}")
     print(f"Total records: {ERROR_CODES.count_documents({})}")
 
