@@ -1,9 +1,10 @@
 import matplotlib
 
 matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # 先导入 plt
+
 plt.rcParams["font.sans-serif"] = ["Noto Sans CJK SC"]
 plt.rcParams["axes.unicode_minus"] = False
-import matplotlib.pyplot as plt
 from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from collections import defaultdict, Counter
 import csv
