@@ -64,12 +64,14 @@ def parse_txt():
             error_code = "Unknown"
             error_reason = "Unknown error"
           record = {
+              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
               "error_reason": error_reason
           }
           exists = ERROR_CODES.find_one({
+              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
