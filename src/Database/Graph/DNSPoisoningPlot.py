@@ -12,11 +12,8 @@ import re
 import multiprocessing
 import numpy as np
 import matplotlib.pyplot as plt
-# Merged_db constants
 CPU_CORES = multiprocessing.cpu_count()
 MAX_WORKERS = max(CPU_CORES * 2, 128)  # Dynamically set workers
-
-categories = DNSPoisoning.distinct("error_code")
 
 provider_region_map = {
     "Google": "U.S. DNS Provider",
@@ -551,6 +548,8 @@ if __name__ == "__main__":
   adc_2025_Jan_DNS = MongoDBHandler(
       ADC_db["ChinaMobile-DNSPoisoning-2025-January"])
   ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
+
+  categories = DNSPoisoning.distinct("error_code")
 
   print(f"Checking concurrency. Using {MAX_WORKERS} worker processes.")
   output_folder = "/home/lhengyi/Developer/GFW-Research/Pic"
