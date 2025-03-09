@@ -66,6 +66,7 @@ def parse_txt():
           print(
               f"Inserting {domain} {dns_server} {error_code} {error_reason}")
           ERROR_CODES.insert_one({
+              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
