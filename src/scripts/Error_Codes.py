@@ -28,12 +28,12 @@ def parse_txt():
 
     3. 将解析后的结果存入ERROR_CODES数据库
   """
+  ERROR_CODES.delete_many({})
   # 读取文件夹下的所有txt文件
   path = "/home/lhengyi/Developer/GFW-Research/Lib/AfterDomainChange/China-Mobile/Error"
   files = os.listdir(path)
   for file in files:
     file_path = os.path.join(path, file)
-    ERROR_CODES.delete_many({})
     with open(file_path, "r") as file:
       lines = file.readlines()
       for line in lines:
