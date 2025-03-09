@@ -143,7 +143,7 @@ def plot_error_code_distribution_helper(error_code_count, title, output_file):
   error_code_count = {
       k: v
       for k, v in error_code_count.items()
-      if v > 0 and k not in ["", "[]", "erying", "refuse"]
+      if v > 0 and k not in ["", "[]", "erying"]
   }
   fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
   error_codes = list(error_code_count.keys())
@@ -351,11 +351,16 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     if len(error_code_count) == 0:
       continue
     else:
-      for skip_code in ["erying", "refuse"]:
+      for skip_code in ["erying"]:
         error_code_count.pop(skip_code, None)
       for code in error_code_count:
         if code == "former":
           code = "FORMERROR"
+        elif code == "refuse":
+          code = "REFUSED"
+          # Delete the empty error code
+        if code == "" or code == "[]" or code == " ":
+          error_code_count.pop(code, None)
       sanitized_server = server.replace(':', '_').replace('/', '_')
       output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
       plot_error_code_distribution_helper(
@@ -416,6 +421,10 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
     for code in error_code_count:
       if code == "former":
         code = "FORMERROR"
+      elif code == "refuse":
+        code = "REFUSED"
+      if code == "" or code == "[]" or code == " ":
+        error_code_count.pop(code, None)
     sanitized_region = region.replace(':', '_').replace('/', '_')
     output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png'
     plot_error_code_distribution_helper(
@@ -446,9 +455,10 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
         error_codes = doc.get("error_code", [])
         if isinstance(error_codes, str):
           error_codes = [error_codes]
-        # 新增过滤：若 collection 为 ChinaMobile-DNSPoisoning-2025-January 则忽略空error_code
-        if destination_db.collection.name == "ChinaMobile-DNSPoisoning-2025-January":
-          error_codes = [code for code in error_codes if code.strip() not in ["", " "]]
+          # Ignore empty error codes
+          error_codes = [
+              code for code in error_codes if code.strip() not in ["", " "]
+          ]
 
         if record_type in ("A", "AAAA"):
           if "NoAnswer" in error_codes:
@@ -483,6 +493,10 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
     for code in region_to_error_code_count[region]:
       if code == "former":
         code = "FORMERROR"
+      elif code == "refuse":
+        code = "REFUSED"
+      if code == "" or code == "[]" or code == " ":
+        region_to_error_code_count[region].pop(code, None)
   all_error_code_count = Counter()
   for region, error_code_count in region_to_error_code_count.items():
     all_error_code_count.update(error_code_count)
@@ -543,6 +557,10 @@ def distribution_error_code(destination_db, output_folder):
   for error_code in all_error_codes:
     if error_code == "former":
       error_code = "FORMERROR"
+    elif error_code == "refuse":
+      error_code = "REFUSED"
+    if error_code == "" or error_code == "[]" or error_code == " ":
+      all_error_codes.remove(error_code)
     server_count = error_code_to_server_count[error_code]
     if not server_count:
       print(f'No servers found for error code: {error_code}')
