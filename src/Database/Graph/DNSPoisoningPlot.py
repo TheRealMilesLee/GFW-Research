@@ -11,6 +11,13 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+def sanitize_error_code(code):
+  mapping = {"former": "FORMERROR", "refuse": "REFUSED"}
+  new_code = mapping.get(code, code)
+  return new_code if new_code.strip() not in ["", "[]", " "] else None
+
+
 provider_region_map = {
     "Google": "U.S. DNS Provider",
     "Google Alternative": "U.S. DNS Provider",
@@ -351,16 +358,13 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     if len(error_code_count) == 0:
       continue
     else:
-      for skip_code in ["erying"]:
-        error_code_count.pop(skip_code, None)
-      for code in error_code_count:
-        if code == "former":
-          code = "FORMERROR"
-        elif code == "refuse":
-          code = "REFUSED"
-          # Delete the empty error code
-        if code == "" or code == "[]" or code == " ":
-          error_code_count.pop(code, None)
+      # 去除空 error code 并标准化
+      new_error_code_count = Counter()
+      for code, count in error_code_count.items():
+        s_code = sanitize_error_code(code)
+        if s_code:
+          new_error_code_count[s_code] += count
+      error_code_count = new_error_code_count
       sanitized_server = server.replace(':', '_').replace('/', '_')
       output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
       plot_error_code_distribution_helper(
@@ -416,15 +420,13 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
     if not error_code_count:
       print(f'No error codes found for region: {region}')
       continue
-    for skip_code in ["erying", "refuse"]:
-      error_code_count.pop(skip_code, None)
-    for code in error_code_count:
-      if code == "former":
-        code = "FORMERROR"
-      elif code == "refuse":
-        code = "REFUSED"
-      if code == "" or code == "[]" or code == " ":
-        error_code_count.pop(code, None)
+    # 用 helper 函数过滤并标准化 error_code_count
+    new_error_code_count = Counter()
+    for code, count in error_code_count.items():
+      s_code = sanitize_error_code(code)
+      if s_code:
+        new_error_code_count[s_code] += count
+    error_code_count = new_error_code_count
     sanitized_region = region.replace(':', '_').replace('/', '_')
     output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png'
     plot_error_code_distribution_helper(
@@ -488,15 +490,12 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
           region_to_error_code_count[region][str(code)] += 1
 
   for region in region_to_error_code_count:
-    for skip_code in ["erying", "refuse"]:
-      region_to_error_code_count[region].pop(skip_code, None)
-    for code in region_to_error_code_count[region]:
-      if code == "former":
-        code = "FORMERROR"
-      elif code == "refuse":
-        code = "REFUSED"
-      if code == "" or code == "[]" or code == " ":
-        region_to_error_code_count[region].pop(code, None)
+    new_count = Counter()
+    for code, cnt in region_to_error_code_count[region].items():
+      s_code = sanitize_error_code(code)
+      if s_code:
+        new_count[s_code] += cnt
+    region_to_error_code_count[region] = new_count
   all_error_code_count = Counter()
   for region, error_code_count in region_to_error_code_count.items():
     all_error_code_count.update(error_code_count)
@@ -551,16 +550,14 @@ def distribution_error_code(destination_db, output_folder):
         for c in codes:
           error_code_to_server_count[str(c)][ip_to_region[server]] += 1
           all_error_codes.add(str(c))
+  # 用 helper 函数过滤并标准化 all_error_codes
+  sanitized_errors = set()
+  for code in all_error_codes:
+    s_code = sanitize_error_code(code)
+    if s_code:
+      sanitized_errors.add(s_code)
+  all_error_codes = sanitized_errors
   for error_code in all_error_codes:
-    if error_code in ["erying", "refuse"]:
-      continue
-  for error_code in all_error_codes:
-    if error_code == "former":
-      error_code = "FORMERROR"
-    elif error_code == "refuse":
-      error_code = "REFUSED"
-    if error_code == "" or error_code == "[]" or error_code == " ":
-      all_error_codes.remove(error_code)
     server_count = error_code_to_server_count[error_code]
     if not server_count:
       print(f'No servers found for error code: {error_code}')
