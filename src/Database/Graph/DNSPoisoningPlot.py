@@ -446,6 +446,9 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
         error_codes = doc.get("error_code", [])
         if isinstance(error_codes, str):
           error_codes = [error_codes]
+        # 新增过滤：若 collection 为 ChinaMobile-DNSPoisoning-2025-January 则忽略空error_code
+        if destination_db.collection.name == "ChinaMobile-DNSPoisoning-2025-January":
+          error_codes = [code for code in error_codes if code.strip() not in ["", " "]]
 
         if record_type in ("A", "AAAA"):
           if "NoAnswer" in error_codes:
