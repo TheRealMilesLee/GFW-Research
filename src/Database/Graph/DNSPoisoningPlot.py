@@ -304,7 +304,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
     provider = ip_to_provider.get(server, 'Unknown Provider')
     error_code_count = Counter()
     docs = destination_db.find({'dns_server': server})
-    print(f"Processing {server}...")
+    print(f"{len(docs)} records found for {server}")
     domain_record_errors = defaultdict(lambda: defaultdict(set))
     for doc in docs:
       domain = doc.get("domain")
@@ -327,6 +327,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
             if isinstance(code, list):
               code = str(code)
             domain_record_errors[domain][str(record_type)].add(str(code))
+    print(f"{len(domain_record_errors)} domains found for {server}")
     # 核验 A、AAAA 是否都出现了 NoAnswer
     for d, recs in domain_record_errors.items():
       if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
@@ -343,6 +344,7 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
       continue
     sanitized_server = server.replace(':', '_').replace('/', '_')
     output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
+    print(f"Have total {len(error_code_count)} error codes for {server}")
     plot_error_code_distribution_helper(
         error_code_count,
         f'Error Code Distribution for DNS Server {server} ({provider})',
