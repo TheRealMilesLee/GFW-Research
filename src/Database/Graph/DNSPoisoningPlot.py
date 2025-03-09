@@ -1,10 +1,7 @@
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # 先导入 plt
-
-plt.rcParams["font.sans-serif"] = ["Noto Sans CJK SC"]
-plt.rcParams["axes.unicode_minus"] = False
+import matplotlib.pyplot as plt
 from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from collections import defaultdict, Counter
 import csv
@@ -192,15 +189,16 @@ def plot_error_code_distribution_provider_region_stacked(
       if c > 0:
         y_pos = bottom[i] + c / 2
         percent = (c / region_totals[i]) * 100
-        if percent >= 2.0:
-          ax.text(x[i],
-                  y_pos,
-                  f"{percent:.1f}%",
-                  ha='center',
-                  va='center',
-                  fontsize=8)
-        else:
-          small_codes.add(code)
+        if percent > 0:  # 仅当百分比大于0时才显示
+          if percent >= 0.5:
+            ax.text(x[i],
+                    y_pos,
+                    f"{percent:.1f}%",
+                    ha='center',
+                    va='center',
+                    fontsize=8)
+          else:
+            small_codes.add(code)
     bottom = [bottom[j] + counts[j] for j in range(len(regions))]
   plt.xticks(x, regions, rotation=25)
   plt.xlabel("DNS Provider Region")
@@ -209,13 +207,14 @@ def plot_error_code_distribution_provider_region_stacked(
   handles, labels = ax.get_legend_handles_labels()
   ax.legend(handles, labels, loc='upper left')
   if small_codes:
-    ax.text(0.98,
-            0.5,
-            f"小于2%的Error Codes:\n{', '.join(sorted(small_codes))}",
-            transform=ax.transAxes,
-            ha='right',
-            va='top',
-            bbox=dict(facecolor='white', alpha=0.8))
+    ax.text(
+        0.98,
+        0.5,
+        f"Error codes occurrence less than 0.5%:\n{', '.join(sorted(small_codes))}",
+        transform=ax.transAxes,
+        ha='right',
+        va='top',
+        bbox=dict(facecolor='white', alpha=0.8))
   plt.tight_layout()
   plt.savefig(output_file)
   plt.close()
