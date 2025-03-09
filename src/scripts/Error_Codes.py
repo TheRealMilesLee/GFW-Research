@@ -50,7 +50,7 @@ def parse_txt():
             record_type = "Unknown"
 
           # 新增对更多错误类型的判断
-          if "NXDOMAIN" in line:
+          if "NXDOMAIN" or "does not exist" in line:
             error_code = "NXDOMAIN"
             error_reason = "Domain does not exist"
           elif "REFUSED" in line:
@@ -65,9 +65,19 @@ def parse_txt():
           elif "timed out" in line:
             error_code = "Timed out"
             error_reason = "The DNS operation timed out"
-          else:
-            error_code = "Unknown"
-            error_reason = "Unknown error"
+          elif "YXDOMAIN" in line:
+            error_code = "YXDOMAIN"
+            error_reason = "Domain exists but should not"
+          elif "YXRRSET" in line:
+            error_code = "YXRRSET"
+            error_reason = "Resource record set exists but should not"
+          elif "NOTIMP" in line:
+            error_code = "NOTIMP"
+            error_reason = "Query not implemented by server"
+          elif "NOTAUTH" in line:
+            error_code = "NOTAUTH"
+            error_reason = "Server not authoritative for zone"
+
           record = {
               "_id":
               f"{domain}-{dns_server}-{error_code}-{error_reason}-{record_type}",
