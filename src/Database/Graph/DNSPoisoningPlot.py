@@ -1,6 +1,8 @@
 import matplotlib
 
 matplotlib.use("Agg")
+plt.rcParams["font.sans-serif"] = ["Noto Sans CJK SC"]
+plt.rcParams["axes.unicode_minus"] = False
 import matplotlib.pyplot as plt
 from ..DBOperations import Merged_db, MongoDBHandler, ADC_db
 from collections import defaultdict, Counter
