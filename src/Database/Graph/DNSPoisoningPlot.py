@@ -619,7 +619,6 @@ if __name__ == "__main__":
 
     for future in futures:
       result = future.result(timeout=3000)
-      print("Task completed successfully:", result)
 
 
   print("All tasks completed. Working on get timely trend...")
