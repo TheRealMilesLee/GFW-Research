@@ -326,7 +326,6 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
             if isinstance(code, list):
               code = str(code)
             domain_record_errors[domain][str(record_type)].add(str(code))
-    print(f"{len(domain_record_errors)} domains found for {server}")
     # 核验 A、AAAA 是否都出现了 NoAnswer
     for d, recs in domain_record_errors.items():
       if "NoAnswer" in recs.get("A", set()) or "NoAnswer" in recs.get(
@@ -340,7 +339,6 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
         for c in codes:
           error_code_count[c] += 1
     if len(error_code_count) == 0:
-      print(f'No error codes found for {server}')
       continue
     else:
       for skip_code in ["erying", "refuse"]:
@@ -350,7 +348,6 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
           code = "FORMERROR"
       sanitized_server = server.replace(':', '_').replace('/', '_')
       output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
-      print(f"Have total {len(error_code_count)} error codes for {server}")
       plot_error_code_distribution_helper(
           error_code_count,
           f'Error Code Distribution for DNS Server {server} ({provider})',
