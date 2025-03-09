@@ -28,6 +28,7 @@ def parse_txt(file_path):
 
     3. 将解析后的结果存入ERROR_CODES数据库
   """
+  ERROR_CODES.delete_many({})
   with open(file_path, "r") as file:
     lines = file.readlines()
     for line in lines:
