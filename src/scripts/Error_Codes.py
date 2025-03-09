@@ -62,7 +62,7 @@ def parse_txt():
           elif "SERVFAIL" in line:
             error_code = "SERVFAIL"
             error_reason = "Server failed to respond"
-          elif "timed out" in line:
+          elif "timed out" or "The resolution lifetime expired" in line:
             error_code = "Timed out"
             error_reason = "The DNS operation timed out"
           elif "YXDOMAIN" in line:
