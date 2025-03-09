@@ -3,6 +3,7 @@ import csv
 import os
 import concurrent.futures
 import multiprocessing
+import uuid
 
 ERROR_CODES = MongoDBHandler(ADC_db["ERROR_CODES"])
 
@@ -62,11 +63,9 @@ def parse_txt():
           else:
             error_code = "Unknown"
             error_reason = "Unknown error"
-
-          print(
-              f"Inserting {domain} {dns_server} {error_code} {error_reason}")
           record = {
-              "_id": f"{domain}-{dns_server}-{error_code}-{error_reason}",
+              "_id":
+              f"{domain}-{dns_server}-{error_code}-{error_reason}-{uuid.uuid4()}",
               "domain": domain,
               "dns_server": dns_server,
               "error_code": error_code,
