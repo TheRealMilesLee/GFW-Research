@@ -569,8 +569,6 @@ if __name__ == "__main__":
   ensure_folder_exists(f"{output_folder}/2024-9/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2024-11/DNS_SERVER_DIST")
   ensure_folder_exists(f"{output_folder}/2025-1/DNS_SERVER_DIST")
-
-  # ✅ 改用 ThreadPoolExecutor，线程可以共享 MongoDB 连接
   with concurrent.futures.ThreadPoolExecutor(
       max_workers=MAX_WORKERS) as executor:
     futures = []
@@ -620,11 +618,9 @@ if __name__ == "__main__":
     print("All tasks submitted. Waiting for completion...")
 
     for future in futures:
-      try:
-        result = future.result(timeout=30)
-        print("Task completed successfully:", result)
-      except Exception as e:
-        print("Task failed:", e)
+      result = future.result(timeout=3000)
+      print("Task completed successfully:", result)
+
 
   print("All tasks completed. Working on get timely trend...")
   get_timely_trend()
