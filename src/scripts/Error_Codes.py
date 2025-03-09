@@ -63,6 +63,8 @@ def parse_txt():
             error_code = "Unknown"
             error_reason = "Unknown error"
 
+          print(
+              f"Inserting {domain} {dns_server} {error_code} {error_reason}")
           ERROR_CODES.insert_one({
               "domain": domain,
               "dns_server": dns_server,
