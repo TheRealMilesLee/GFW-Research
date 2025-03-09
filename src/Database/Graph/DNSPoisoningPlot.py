@@ -153,7 +153,7 @@ def plot_error_code_distribution_helper(error_code_count, title, output_file):
   error_code_count = {
       k: v
       for k, v in error_code_count.items()
-      if v > 0 and k not in ["", "[]", "erying", "refuse", "former"]
+      if v > 0 and k not in ["", "[]", "erying", "refuse"]
   }
   fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
   error_codes = list(error_code_count.keys())
@@ -339,15 +339,22 @@ def DNSPoisoning_ErrorCode_Distribute(destination_db, output_folder):
       for rtype, codes in recs.items():
         for c in codes:
           error_code_count[c] += 1
-    if not error_code_count:
+    if len(error_code_count) == 0:
+      print(f'No error codes found for {server}')
       continue
-    sanitized_server = server.replace(':', '_').replace('/', '_')
-    output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
-    print(f"Have total {len(error_code_count)} error codes for {server}")
-    plot_error_code_distribution_helper(
-        error_code_count,
-        f'Error Code Distribution for DNS Server {server} ({provider})',
-        output_file)
+    else:
+      for skip_code in ["erying", "refuse"]:
+        error_code_count.pop(skip_code, None)
+      for code in error_code_count:
+        if code == "former":
+          code = "FORMERROR"
+      sanitized_server = server.replace(':', '_').replace('/', '_')
+      output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_server}_{provider}.png'
+      print(f"Have total {len(error_code_count)} error codes for {server}")
+      plot_error_code_distribution_helper(
+          error_code_count,
+          f'Error Code Distribution for DNS Server {server} ({provider})',
+          output_file)
 
 
 def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
@@ -394,6 +401,11 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion(destination_db,
     if not error_code_count:
       print(f'No error codes found for region: {region}')
       continue
+    for skip_code in ["erying", "refuse"]:
+      error_code_count.pop(skip_code, None)
+    for code in error_code_count:
+      if code == "former":
+        code = "FORMERROR"
     sanitized_region = region.replace(':', '_').replace('/', '_')
     output_file = f'{output_folder}/DNSPoisoning_ErrorCode_Distribute_{sanitized_region}.png'
     plot_error_code_distribution_helper(
@@ -450,9 +462,11 @@ def DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
           region_to_error_code_count[region][str(code)] += 1
 
   for region in region_to_error_code_count:
-    for skip_code in ["erying", "refuse", "former"]:
+    for skip_code in ["erying", "refuse"]:
       region_to_error_code_count[region].pop(skip_code, None)
-
+    for code in region_to_error_code_count[region]:
+      if code == "former":
+        code = "FORMERROR"
   all_error_code_count = Counter()
   for region, error_code_count in region_to_error_code_count.items():
     all_error_code_count.update(error_code_count)
@@ -505,8 +519,11 @@ def distribution_error_code(destination_db, output_folder):
           error_code_to_server_count[str(c)][ip_to_region[server]] += 1
           all_error_codes.add(str(c))
   for error_code in all_error_codes:
-    if error_code in ["erying", "refuse", "former"]:
+    if error_code in ["erying", "refuse"]:
       continue
+  for error_code in all_error_codes:
+    if error_code == "former":
+      error_code = "FORMERROR"
     server_count = error_code_to_server_count[error_code]
     if not server_count:
       print(f'No servers found for error code: {error_code}')
@@ -538,28 +555,28 @@ if __name__ == "__main__":
 
   DNSPoisoning_ErrorCode_Distribute(
       ERROR_CODES, f"{output_folder}/2024-9/DNS_SERVER_DIST")
-  # DNSPoisoning_ErrorCode_Distribute(
-  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
-  # DNSPoisoning_ErrorCode_Distribute(
-  #     adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11/DNS_SERVER_DIST")
+  DNSPoisoning_ErrorCode_Distribute(
+      adc_2025_Jan_DNS, f"{output_folder}/2025-1/DNS_SERVER_DIST")
 
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion(ERROR_CODES,
                                                    f"{output_folder}/2024-9")
-  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
-  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
-  #                                                  f"{output_folder}/2025-1")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion(adc_2025_Jan_DNS,
+                                                   f"{output_folder}/2025-1")
 
   DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
       ERROR_CODES, f"{output_folder}/2024-9")
-  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-  #     merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  # DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
-  #     adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  DNSPoisoning_ErrorCode_Distribute_ProviderRegion_Aggregate(
+      adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   distribution_error_code(ERROR_CODES, f"{output_folder}/2024-9")
-  # distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
-  # distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
+  distribution_error_code(merged_2024_Nov_DNS, f"{output_folder}/2024-11")
+  distribution_error_code(adc_2025_Jan_DNS, f"{output_folder}/2025-1")
 
   # get_timely_trend()
   print("All tasks completed.")
