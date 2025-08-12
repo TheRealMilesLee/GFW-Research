@@ -26,7 +26,7 @@ MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 if os.name == 'nt':
   AfterDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\AfterDomainChange\\'
 else:
-  AfterDomainChangeFolder = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/'
+  AfterDomainChangeFolder = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/'
 
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:

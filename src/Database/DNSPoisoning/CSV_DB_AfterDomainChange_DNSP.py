@@ -7,8 +7,9 @@ import os
 import os.path
 
 import tqdm
-from ..DBOperations import ADC_db, MongoDBHandler
 from tqdm import tqdm
+
+from ..DBOperations import ADC_db, MongoDBHandler
 
 # TestResults
 CM_DNSP_ADC = MongoDBHandler(ADC_db['China-Mobile-DNSPoisoning'])
@@ -24,22 +25,24 @@ MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
 if os.name == 'nt':
   AfterDomainChangeFolder = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\AfterDomainChange\\'
 else:
-  AfterDomainChangeFolder = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/'
+  AfterDomainChangeFolder = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/AfterDomainChange/'
 # 移除所有现有的处理程序
 for handler in logging.root.handlers[:]:
-    logging.root.removeHandler(handler)
+  logging.root.removeHandler(handler)
 
 # 设置基本配置
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 # 创建 logger
 logger = logging.getLogger(__name__)
 
+
 # DNS Poisoning results
 def CM_DNSP(folder_location: str) -> list:
   readingResults = []
   CM_DNSP_ADC.drop()
   file_list = os.listdir(folder_location)
-  for file_name in tqdm(file_list, desc='Processing China-Mobile-DNSPoisoning'):
+  for file_name in tqdm(file_list,
+                        desc='Processing China-Mobile-DNSPoisoning'):
     if file_name.endswith('.csv'):
       with open(folder_location + file_name, 'r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
@@ -47,27 +50,32 @@ def CM_DNSP(folder_location: str) -> list:
           if row[0] == 'timestamp':
             continue
           try:
-            dns_servers = ast.literal_eval(row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
+            dns_servers = ast.literal_eval(
+                row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
           except (ValueError, SyntaxError):
             dns_servers = [row[2]]  # 如果转换失败，则将其视为单个 DNS 服务器
           for dns_server in dns_servers:
             formatted_document = {
-              'timestamp': row[0],
-              'domain': row[1],
-              'dns_server': dns_server,
-              'ips': row[3] + row[4]
+                'timestamp': row[0],
+                'domain': row[1],
+                'dns_server': dns_server,
+                'ips': row[3] + row[4]
             }
             readingResults.append(formatted_document)
 
   # Data merge and cleanup
-  CM_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
+  CM_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1),
+                            ('timestamp', 1)],
+                           unique=False)  # 创建包含timestamp的复合唯一索引
   return readingResults
+
 
 def CT_DNSP(folder_location: str) -> list:
   readingResults = []
   CT_DNSP_ADC.drop()
   file_list = os.listdir(folder_location)
-  for file_name in tqdm(file_list, desc='Processing China-Telecom-DNSPoisoning'):
+  for file_name in tqdm(file_list,
+                        desc='Processing China-Telecom-DNSPoisoning'):
     if file_name.endswith('.csv'):
       with open(folder_location + file_name, 'r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
@@ -75,47 +83,58 @@ def CT_DNSP(folder_location: str) -> list:
           if row[0] == 'timestamp':
             continue
           try:
-            dns_servers = ast.literal_eval(row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
+            dns_servers = ast.literal_eval(
+                row[2])  # 使用 ast.literal_eval 安全地将字符串转换为列表
           except (ValueError, SyntaxError):
             dns_servers = [row[2]]  # 如果转换失败，则将其视为单个 DNS 服务器
           for dns_server in dns_servers:
-            determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
+            determind_poisoned = (row[7].strip().lower()
+                                  == 'true') and (row[8].strip().lower()
+                                                  == 'true')
             formatted_document = {
-              "timestamp": row[0],
-              "domain": row[1],
-              "dns_server": dns_server,
-              "ips": row[3] + row[4] + row[5],
-              "is_poisoned": determind_poisoned
+                "timestamp": row[0],
+                "domain": row[1],
+                "dns_server": dns_server,
+                "ips": row[3] + row[4] + row[5],
+                "is_poisoned": determind_poisoned
             }
             readingResults.append(formatted_document)
 
   # Data merge and cleanup
-  CT_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
+  CT_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1),
+                            ('timestamp', 1)],
+                           unique=False)  # 创建包含timestamp的复合唯一索引
   return readingResults
+
 
 def UCD_DNSP(folder_location: str) -> list:
   CompareGroupResults = []
   UCD_DNSP_ADC.drop()
   file_list = os.listdir(folder_location)
-  for file_name in tqdm(file_list, desc='Processing UCDavis-Server-DNSPoisoning'):
+  for file_name in tqdm(file_list,
+                        desc='Processing UCDavis-Server-DNSPoisoning'):
     if file_name.endswith('.csv'):
       with open(folder_location + file_name, 'r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
         for row in csv_reader:
           if row[0] == 'timestamp':
             continue
-          determind_poisoned = (row[7].strip().lower() == 'true') and (row[8].strip().lower() == 'true')
+          determind_poisoned = (row[7].strip().lower()
+                                == 'true') and (row[8].strip().lower()
+                                                == 'true')
           formatted_document = {
-            "timestamp": row[0],
-            "domain": row[1],
-            "dns_server": row[2],
-            "ips": row[3] + row[4] + row[5],
-            "is_poisoned": determind_poisoned
+              "timestamp": row[0],
+              "domain": row[1],
+              "dns_server": row[2],
+              "ips": row[3] + row[4] + row[5],
+              "is_poisoned": determind_poisoned
           }
           CompareGroupResults.append(formatted_document)
 
   # Data merge and cleanup
-  UCD_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
+  UCD_DNSP_ADC.create_index([('domain', 1), ('dns_server', 1),
+                             ('timestamp', 1)],
+                            unique=False)  # 创建包含timestamp的复合唯一索引
   return CompareGroupResults
 
 
@@ -124,14 +143,25 @@ def insert_to_db(results: list, db_handler: MongoDBHandler):
     for result in tqdm(results, desc='Inserting to DB'):
       db_handler.insert_one(result)
 
+
 def main():
-  with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+  with concurrent.futures.ThreadPoolExecutor(
+      max_workers=MAX_WORKERS) as executor:
     # China Mobile
-    CM_DNSP_results = executor.submit(CM_DNSP, os.path.join(AfterDomainChangeFolder, 'China-Mobile', 'DNSPoisoning/'))
+    CM_DNSP_results = executor.submit(
+        CM_DNSP,
+        os.path.join(AfterDomainChangeFolder, 'China-Mobile',
+                     'DNSPoisoning/'))
     # China Telecom
-    CT_DNSP_results = executor.submit(CT_DNSP, os.path.join(AfterDomainChangeFolder, 'China-Telecom', 'DNSPoisoning/'))
+    CT_DNSP_results = executor.submit(
+        CT_DNSP,
+        os.path.join(AfterDomainChangeFolder, 'China-Telecom',
+                     'DNSPoisoning/'))
     # Compare Group
-    UCD_DNSP_results = executor.submit(UCD_DNSP, os.path.join(AfterDomainChangeFolder, 'UCDavis-Server', 'DNSPoisoning/'))
+    UCD_DNSP_results = executor.submit(
+        UCD_DNSP,
+        os.path.join(AfterDomainChangeFolder, 'UCDavis-Server',
+                     'DNSPoisoning/'))
 
     # Insert to DB
     insert_to_db(CM_DNSP_results.result(), CM_DNSP_ADC)

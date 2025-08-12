@@ -1,12 +1,14 @@
+import ast
 import csv
+import hashlib
 import logging
 import multiprocessing
 import os
-import tqdm
-import ast
 import re
+
+import tqdm
+
 from ..DBOperations import BDC_db, MongoDBHandler
-import hashlib
 
 # Constants
 CPU_CORES = multiprocessing.cpu_count()
@@ -22,17 +24,23 @@ for handler in logging.root.handlers[:]:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 # 创建 logger
 logger = logging.getLogger(__name__)
+
+
 def toBoolean(value: str) -> bool:
   return value == 'True'
+
 
 # DNS Poisoning results
 def BDC_DNSP_Dump(db, folder_location: str) -> list:
   db.drop()  # Clear the collection before inserting new data
   file_list = os.listdir(folder_location)
   counter = 0
-  for file_name in tqdm.tqdm(file_list, desc=f'Processing {db.collection.name} '):
+  for file_name in tqdm.tqdm(file_list,
+                             desc=f'Processing {db.collection.name} '):
     if file_name.endswith('.csv'):
-      with open(os.path.join(folder_location, file_name), 'r', encoding='utf-8') as file:
+      with open(os.path.join(folder_location, file_name),
+                'r',
+                encoding='utf-8') as file:
         csv_reader = csv.reader(file)
         batch_results = []
         for row in csv_reader:
@@ -41,14 +49,20 @@ def BDC_DNSP_Dump(db, folder_location: str) -> list:
           try:
             timestamp = row[0]
             domain = row[1]
-            ipv4_results = set(filter(lambda ip: re.match(r'^\d{1,3}(\.\d{1,3}){3}$', ip), ast.literal_eval(row[2]) + ast.literal_eval(row[4])))
-            ipv6_results = set(filter(lambda ip: len(ip) > 2 and re.match(r'^[0-9a-fA-F:]+$', ip), ast.literal_eval(row[3]) + ast.literal_eval(row[5])))
+            ipv4_results = set(
+                filter(lambda ip: re.match(r'^\d{1,3}(\.\d{1,3}){3}$', ip),
+                       ast.literal_eval(row[2]) + ast.literal_eval(row[4])))
+            ipv6_results = set(
+                filter(
+                    lambda ip: len(ip) > 2 and re.match(
+                        r'^[0-9a-fA-F:]+$', ip),
+                    ast.literal_eval(row[3]) + ast.literal_eval(row[5])))
 
             result = {
-              "_id": f"{db.collection.name}-{domain}-{timestamp}-{counter}",
-              'timestamp': timestamp,
-              'domain': domain,
-              'ips': list(ipv4_results.union(ipv6_results)),
+                "_id": f"{db.collection.name}-{domain}-{timestamp}-{counter}",
+                'timestamp': timestamp,
+                'domain': domain,
+                'ips': list(ipv4_results.union(ipv6_results)),
             }
             batch_results.append(result)
             counter += 1
@@ -59,6 +73,13 @@ def BDC_DNSP_Dump(db, folder_location: str) -> list:
   # Create indexes
   db.create_index([('domain', 1), ('timestamp', 1)], unique=False)
 
+
 if __name__ == '__main__':
-  BDC_DNSP_Dump(CM_DNSP_BDC, "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange\\DNSPoisoning")
-  BDC_DNSP_Dump(UCD_DNSP_BDC, "E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\BeforeDomainChange\\CompareGroup\\DNSPoisoning")
+  BDC_DNSP_Dump(
+      CM_DNSP_BDC,
+      "/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/BeforeDomainChange/DNSPoisoning"
+  )
+  BDC_DNSP_Dump(
+      UCD_DNSP_BDC,
+      "/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/BeforeDomainChange/CompareGroup/DNSPoisoning"
+  )
