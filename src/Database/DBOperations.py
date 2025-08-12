@@ -1,6 +1,6 @@
 import logging
-import pymongo
 
+import pymongo
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
 
@@ -9,9 +9,8 @@ logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 # Connect to local mongodb server and connect to the BeforeDomainChange database
 try:
-  client = MongoClient(
-      'mongodb://Hengyi-admin:TheMilesLee710%23@carib.cs.ucdavis.edu:11451/',
-      maxPoolSize=65535)
+  client = MongoClient('mongodb://admin:TheMilesLee710@127.0.0.1:27017/',
+                       maxPoolSize=65535)
   BDC_db = client.BeforeDomainChange
   ADC_db = client.AfterDomainChange
   Merged_db = client.MergedDatabase
