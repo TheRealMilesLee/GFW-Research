@@ -1,13 +1,15 @@
+import ast
 import concurrent.futures
 import csv
 import logging
-import os
 import multiprocessing
+import os
 from collections import defaultdict
-import ast
+
+from tqdm import tqdm
 
 from ..DBOperations import ADC_db, MongoDBHandler
-from tqdm import tqdm
+
 CPU_CORES = multiprocessing.cpu_count()
 CM_DNSP_ADC_NOV = ADC_db['ChinaMobile-DNSPoisoning-November']
 MAX_WORKERS = max(CPU_CORES * 2, 64)  # Dynamically set workers
@@ -16,7 +18,9 @@ for handler in logging.root.handlers[:]:
   logging.root.removeHandler(handler)
 
 # 设置基本配置
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # 创建 logger
 logger = logging.getLogger(__name__)
 
@@ -63,24 +67,37 @@ def dump_to_mongo():
   if os.name == 'nt':
     FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2024-11\\ChinaMobile'
   else:
-    FileFolderLocation = '/Users/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile'
-  csv_files = [os.path.join(FileFolderLocation, file) for file in os.listdir(FileFolderLocation) if file.endswith('.csv')]
+    FileFolderLocation = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2024-11/ChinaMobile'
+  csv_files = [
+      os.path.join(FileFolderLocation, file)
+      for file in os.listdir(FileFolderLocation) if file.endswith('.csv')
+  ]
 
   # Drop the collection before inserting new data
   logger.info('Dropping the collection before inserting new data')
   CM_DNSP_ADC_NOV.drop()
 
   # Create an index for the domain, dns_server, and timestamp fields
-  logger.info('Creating index for the domain, dns_server, and timestamp fields')
-  CM_DNSP_ADC_NOV.create_index([('domain', 1), ('dns_server', 1), ('timestamp', 1)], unique=False)  # 创建包含timestamp的复合唯一索引
+  logger.info(
+      'Creating index for the domain, dns_server, and timestamp fields')
+  CM_DNSP_ADC_NOV.create_index([('domain', 1), ('dns_server', 1),
+                                ('timestamp', 1)],
+                               unique=False)  # 创建包含timestamp的复合唯一索引
 
-  with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    futures = [executor.submit(process_file, file, mongodbOP_CM_DNSP) for file in csv_files]
-    for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures), desc='Processing files'):
+  with concurrent.futures.ThreadPoolExecutor(
+      max_workers=MAX_WORKERS) as executor:
+    futures = [
+        executor.submit(process_file, file, mongodbOP_CM_DNSP)
+        for file in csv_files
+    ]
+    for future in tqdm(concurrent.futures.as_completed(futures),
+                       total=len(futures),
+                       desc='Processing files'):
       try:
         future.result()
       except Exception as e:
         logger.error(f'Error processing file: {e}')
+
 
 if __name__ == '__main__':
   dump_to_mongo()
