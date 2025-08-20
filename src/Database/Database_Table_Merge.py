@@ -31,9 +31,9 @@ logger = logging.getLogger(__name__)
 
 # 优化的配置常量
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = min(CPU_CORES * 2, 32)  # 限制最大工作线程数，避免过度消耗资源
+MAX_WORKERS = max(CPU_CORES * 2, 64)  # 限制最大工作线程数，避免过度消耗资源
 BATCH_SIZE = 5000  # 减少批处理大小，降低内存使用
-MEMORY_LIMIT_MB = 1024  # 内存限制（MB）
+MEMORY_LIMIT_MB = 131072  # 内存限制（MB）
 
 # 内网IP模式（预编译正则表达式提高性能）
 INTERNAL_IP_PATTERNS = [
@@ -49,7 +49,6 @@ INTERNAL_IP_PATTERNS = [
 ]
 
 
-# 数据库处理器初始化（延迟初始化减少内存使用）
 def get_database_handlers():
   """延迟初始化数据库处理器"""
   return {
@@ -108,7 +107,7 @@ def get_database_handlers():
 
 
 class OptimizedMerger:
-  """优化的数据合并器，提高性能和内存效率"""
+  """优化的数据合并器，提高性能和内存效率，保留tqdm进度条"""
 
   def __init__(self, db_handlers: Dict[str, MongoDBHandler]):
     self.db_handlers = db_handlers
@@ -135,104 +134,26 @@ class OptimizedMerger:
         self._error_code_cache = {}
     return self._error_code_cache
 
-  def _get_documents_generator(
+  def _get_documents_with_progress(
       self, db_handler: MongoDBHandler) -> Generator[Dict, None, None]:
-    """使用生成器减少内存使用"""
+    """使用生成器减少内存使用，带有tqdm进度条显示"""
     try:
+      # 先获取文档总数以显示进度
+      total_docs = db_handler.collection.count_documents({})
+      logger.info(
+          f"Processing {total_docs} documents from {db_handler.collection.name}"
+      )
+
       # 使用cursor而不是将所有文档加载到内存
       cursor = db_handler.collection.find({})
-      for document in cursor:
-        yield document
-    except Exception as e:
-      logger.error(
-          f"Error getting documents from {db_handler.collection.name}: {e}")
 
-  def _is_ip_poisoned(self, ips: List[str]) -> bool:
-    """优化的IP毒化检测"""
-    if not ips:
-      return False
-
-    for ip in ips:
-      if not isinstance(ip, str):
-        continue
-      for pattern in INTERNAL_IP_PATTERNS:
-        if pattern.match(ip):
-          return True
-    return False
-
-  def _clean_and_parse_ips(self, ips: Union[str, List[str]]) -> List[str]:
-    """优化的IP清理和解析"""
-    if not ips:
-      return []
-
-    all_ips = set()
-
-    if isinstance(ips, str):
-      try:
-        cleaned_ips = ast.literal_eval(ips)
-        if isinstance(cleaned_ips, list):
-          all_ips.update(ip.strip() for ip in cleaned_ips
-                         if isinstance(ip, str) and ip.strip())
-        else:
-          if isinstance(cleaned_ips, str) and cleaned_ips.strip():
-            all_ips.add(cleaned_ips.strip())
-      except (ValueError, SyntaxError):
-        # 如果解析失败，尝试作为简单字符串处理
-        if ips.strip():
-          all_ips.add(ips.strip())
-    elif isinstance(ips, list):
-      for item in ips:
-        if isinstance(item, str):
-          try:
-            cleaned_item = ast.literal_eval(item)
-            if isinstance(cleaned_item, list):
-              all_ips.update(ip.strip() for ip in cleaned_item
-                             if isinstance(ip, str) and ip.strip())
-            else:
-              if isinstance(cleaned_item, str) and cleaned_item.strip():
-                all_ips.add(cleaned_item.strip())
-          except (ValueError, SyntaxError):
-            if item.strip():
-              all_ips.add(item.strip())
-
-    return list(all_ips)
-
-
-class OptimizedMerger:
-  """优化的数据合并器，提高性能和内存效率"""
-
-  def __init__(self, db_handlers: Dict[str, MongoDBHandler]):
-    self.db_handlers = db_handlers
-    self.processed_domains_dnsp = defaultdict(lambda: defaultdict(set))
-    self.processed_domains_dnsp_2024_NOV = defaultdict(
-        lambda: defaultdict(set))
-    self.processed_domains_dnsp_2025 = defaultdict(lambda: defaultdict(set))
-    self.processed_domains_tr = defaultdict(lambda: defaultdict(set))
-    self.processed_domains_tr_2024_NOV = defaultdict(lambda: defaultdict(set))
-    self.processed_domains_tr_2025 = defaultdict(lambda: defaultdict(set))
-    self.lock = Lock()
-    self._error_code_cache = None
-
-  def _get_error_code_data(self) -> Dict[str, Any]:
-    """缓存错误代码数据，避免重复查询"""
-    if self._error_code_cache is None:
-      try:
-        self._error_code_cache = {
-            doc["domain"]: doc
-            for doc in self.db_handlers['ERROR_DOMAIN_DSP_ADC_CM'].find({})
-        }
-      except Exception as e:
-        logger.warning(f"Failed to load error code data: {e}")
-        self._error_code_cache = {}
-    return self._error_code_cache
-
-  def _get_documents_generator(
-      self, db_handler: MongoDBHandler) -> Generator[Dict, None, None]:
-    """使用生成器减少内存使用"""
-    try:
-      # 使用cursor而不是将所有文档加载到内存
-      cursor = db_handler.collection.find({})
-      for document in cursor:
+      # 添加tqdm进度条，显示详细的处理进度
+      for document in tqdm(cursor,
+                           total=total_docs,
+                           desc=f"Merging {db_handler.collection.name}",
+                           unit="docs",
+                           unit_scale=True,
+                           dynamic_ncols=True):
         yield document
     except Exception as e:
       logger.error(
@@ -289,7 +210,9 @@ class OptimizedMerger:
     return list(all_ips)
 
   def merge_documents(self):
-    """主要的文档合并方法"""
+    """主要的文档合并方法，显示详细的进度信息"""
+    logger.info("Starting document merge with enhanced progress tracking...")
+
     with concurrent.futures.ThreadPoolExecutor(
         max_workers=MAX_WORKERS) as executor:
       futures = []
@@ -346,35 +269,41 @@ class OptimizedMerger:
                                  use_dns_server)
         futures.append(future)
 
-      # 等待所有任务完成
+      # 等待所有任务完成，并显示整体进度
+      logger.info(f"Launched {len(futures)} parallel merge tasks")
+      completed_tasks = 0
       for future in concurrent.futures.as_completed(futures):
         try:
           future.result()
+          completed_tasks += 1
+          logger.info(
+              f"Completed {completed_tasks}/{len(futures)} merge tasks")
         except Exception as e:
           logger.error(f"Error in thread execution: {e}")
 
-    # 最终化文档
-    self._finalize_documents(self.processed_domains_dnsp,
-                             self.db_handlers['Merged_db_DNSP'],
-                             is_traceroute=False,
-                             use_dns_server=True)
-    self._finalize_documents(self.processed_domains_tr,
-                             self.db_handlers['Merged_db_TR'],
-                             is_traceroute=True)
-    self._finalize_documents(self.processed_domains_dnsp_2025,
-                             self.db_handlers['Merged_db_2025_DNS'],
-                             is_traceroute=False,
-                             use_dns_server=True)
-    self._finalize_documents(self.processed_domains_tr_2025,
-                             self.db_handlers['Merged_db_2025_GFWL'],
-                             is_traceroute=True)
-    self._finalize_documents(self.processed_domains_dnsp_2024_NOV,
-                             self.db_handlers['Merged_db_2024_DNS'],
-                             is_traceroute=False,
-                             use_dns_server=True)
-    self._finalize_documents(self.processed_domains_tr_2024_NOV,
-                             self.db_handlers['Merged_db_2024_GFWL'],
-                             is_traceroute=True)
+    # 最终化文档，带进度显示
+    logger.info("Starting document finalization...")
+    finalization_tasks = [
+        (self.processed_domains_dnsp, self.db_handlers['Merged_db_DNSP'],
+         False, True, "DNS Poisoning"),
+        (self.processed_domains_tr, self.db_handlers['Merged_db_TR'], True,
+         False, "TraceRoute"),
+        (self.processed_domains_dnsp_2025,
+         self.db_handlers['Merged_db_2025_DNS'], False, True, "2025 DNS"),
+        (self.processed_domains_tr_2025,
+         self.db_handlers['Merged_db_2025_GFWL'], True, False, "2025 GFWL"),
+        (self.processed_domains_dnsp_2024_NOV,
+         self.db_handlers['Merged_db_2024_DNS'], False, True, "2024 Nov DNS"),
+        (self.processed_domains_tr_2024_NOV,
+         self.db_handlers['Merged_db_2024_GFWL'], True, False,
+         "2024 Nov GFWL"),
+    ]
+
+    for i, (processed_domains, target_db, is_traceroute, use_dns_server,
+            desc) in enumerate(finalization_tasks):
+      logger.info(f"Finalizing {desc} ({i+1}/{len(finalization_tasks)})...")
+      self._finalize_documents(processed_domains, target_db, is_traceroute,
+                               use_dns_server)
 
   def _merge_documents(self,
                        db_handler,
@@ -382,11 +311,11 @@ class OptimizedMerger:
                        processed_domains,
                        target_db,
                        use_dns_server=False):
-    """合并文档的通用方法"""
-    logger.info(f"Merging documents from {db_handler.collection.name}")
+    """合并文档的通用方法，带有进度显示"""
+    logger.info(f"Starting merge for {db_handler.collection.name}")
     try:
       document_count = 0
-      for document in self._get_documents_generator(db_handler):
+      for document in self._get_documents_with_progress(db_handler):
         merge_function(document, processed_domains, use_dns_server)
         document_count += 1
 
@@ -394,8 +323,13 @@ class OptimizedMerger:
         if document_count % 1000 == 0:
           gc.collect()
 
+      logger.info(
+          f"Completed merge for {db_handler.collection.name}, processed {document_count} documents"
+      )
+
     except Exception as e:
-      logger.error(f"Error in _merge_documents: {e}")
+      logger.error(
+          f"Error in _merge_documents for {db_handler.collection.name}: {e}")
 
   def _merge_adc_cm_dnsp(self, document, processed_domains, use_dns_server):
     """合并 ADC China Mobile DNS Poisoning 数据"""
@@ -604,12 +538,19 @@ class OptimizedMerger:
                           target_db,
                           is_traceroute=False,
                           use_dns_server=False):
-    """最终化文档并批量插入"""
+    """最终化文档并批量插入，带有进度显示"""
     batch = []
     counter = 0
     error_code_data = self._get_error_code_data()
 
-    for key, data in processed_domains.items():
+    total_domains = len(processed_domains)
+    logger.info(
+        f"Finalizing {total_domains} domains for {target_db.collection.name}")
+
+    # 使用tqdm显示文档最终化进度
+    for key, data in tqdm(processed_domains.items(),
+                          desc=f"Finalizing {target_db.collection.name}",
+                          unit="domains"):
       try:
         if use_dns_server:
           domain, dns_server = key
@@ -618,10 +559,6 @@ class OptimizedMerger:
         else:
           domain = key
           dns_server = None
-
-        logger.info(
-            f"Processing domain: {domain}, target_db: {target_db.collection.name}"
-        )
 
         finalized_document = self._create_finalized_document(
             domain, dns_server, data, target_db, is_traceroute, counter,
@@ -641,6 +578,9 @@ class OptimizedMerger:
 
     if batch:
       self._insert_documents(batch, target_db)
+
+    logger.info(
+        f"Finalized {counter} documents for {target_db.collection.name}")
 
   def _create_finalized_document(self, domain, dns_server, data, target_db,
                                  is_traceroute, counter, error_code_data):
@@ -780,7 +720,7 @@ class OptimizedMerger:
 def main():
   """主函数"""
   try:
-    logger.info("Starting OptimizedMerger")
+    logger.info("Starting OptimizedMerger with enhanced progress tracking")
 
     # 获取数据库处理器
     db_handlers = get_database_handlers()
