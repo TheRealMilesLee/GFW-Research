@@ -31,8 +31,8 @@ logger = logging.getLogger(__name__)
 
 # 优化的配置常量
 CPU_CORES = multiprocessing.cpu_count()
-MAX_WORKERS = max(CPU_CORES * 2, 64)  # 限制最大工作线程数，避免过度消耗资源
-BATCH_SIZE = 5000  # 减少批处理大小，降低内存使用
+MAX_WORKERS = max(CPU_CORES * 2, 128)  # 限制最大工作线程数，避免过度消耗资源
+BATCH_SIZE = 10000  # 减少批处理大小，降低内存使用
 MEMORY_LIMIT_MB = 131072  # 内存限制（MB）
 
 # 内网IP模式（预编译正则表达式提高性能）
