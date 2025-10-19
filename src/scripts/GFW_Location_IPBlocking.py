@@ -1,28 +1,31 @@
 import concurrent.futures
-import csv
 import os
 import re
 import socket
 import subprocess
+import sys
 from datetime import datetime, timedelta
-from time import sleep
 from ipaddress import ip_address
+from time import sleep
 from urllib.request import urlretrieve
-import py7zr
+
 import geoip2.database
-from scapy.all import IP, TCP, sr1, conf
+from scapy.all import IP, TCP, conf, sr1
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from Database.DBOperations import ADC_db, MongoDBHandler
 
 
 def get_domains_list() -> list:
   print("Reading domains list from CSV file")
-  csv_file = "D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv"
+  csv_file = os.path.join(os.path.dirname(__file__),
+                          "../Import/domains_list.csv")
   domains = []
   try:
     with open(csv_file, 'r') as file:
-      reader = csv.reader(file)
-      next(reader)  # Skip the header row
-      for row in reader:
-        domains.append(row[0])
+      lines = file.readlines()[1:]  # Skip the header row
+      for line in lines:
+        domains.append(line.strip().split(',')[0])
   except FileNotFoundError:
     print(f"File not found: {csv_file}")
   except Exception as e:
@@ -57,13 +60,17 @@ def check_domain_exists(domain: str) -> bool:
 
 def get_dns_servers() -> list:
   print("读取DNS服务器列表")
-  csv_file = "D:\\Developer\\GFW-Research\\src\\Import\\dns_servers.csv"
+  csv_file = os.path.join(os.path.dirname(__file__),
+                          "../Import/dns_servers.csv")
   dns_servers = []
   try:
     with open(csv_file, 'r') as file:
-      reader = csv.DictReader(file)
-      for row in reader:
-        dns_servers.append(row['IPV4'])
+      lines = file.readlines()[1:]  # Skip the header row
+      for line in lines:
+        parts = line.strip().split(',')
+        if len(parts) > 0:
+          # Assuming IPV4 is the first column or you need to find the correct column
+          dns_servers.append(parts[0])
   except FileNotFoundError:
     print(f"文件未找到: {csv_file}")
   except Exception as e:
@@ -323,33 +330,43 @@ def process_domains_concurrently(domains: list, dns_servers: list) -> list:
   return results
 
 
-def save_to_file(results: list, date_str: str) -> None:
-  filename = f'GFW_Location_results_{date_str}.csv'
-  folder_path = "D:\\Developer\\GFW-Research\\src\\Lib\\Data-2025-1\\China-Mobile\\GFWLocation"
-  os.makedirs(folder_path, exist_ok=True)
-  filepath = os.path.join(folder_path, filename)
-  print(f"Saving results to file at {filepath}")
+def save_to_mongodb(results: list, mongodb_handler: MongoDBHandler) -> None:
+  """
+  将结果保存到 MongoDB
+
+  Args:
+    results: 要保存的结果列表
+    mongodb_handler: MongoDB 处理器实例
+  """
+  if not results:
+    print("No results to save")
+    return
+
+  print(f"Saving {len(results)} results to MongoDB")
   try:
-    with open(filepath, "a", newline='') as f:
-      writer = csv.writer(f)
-      if f.tell() == 0:  # Check if file is empty to write header
-        writer.writerow([
-            "Domain", "DNS Server", "IPv4", "IPv6", "RST Detected",
-            "Redirection Detected", "Invalid IP", "Error"
-        ])
-      for result in results:
-        writer.writerow([
-            result.get("domain", ""),
-            result.get("dns_server", ""),
-            ", ".join(result.get("ips", {}).get("ipv4", [])),
-            ", ".join(result.get("ips", {}).get("ipv6", [])),
-            result.get("rst_detected", ""),
-            result.get("redirection_detected", ""),
-            ", ".join(result.get("invalid_ips", [])),
-            "; ".join(result.get("errors", []))  # 修改此行以包含映射后的错误
-        ])
+    documents = []
+    for result in results:
+      doc = {
+          "domain": result.get("domain", ""),
+          "dns_server": result.get("dns_server", ""),
+          "ipv4": result.get("ips", {}).get("ipv4", []),
+          "ipv6": result.get("ips", {}).get("ipv6", []),
+          "rst_detected": result.get("rst_detected", False),
+          "redirection_detected": result.get("redirection_detected", False),
+          "invalid_ips": result.get("invalid_ips", []),
+          "errors": result.get("errors", []),
+          "error": result.get("error", ""),
+          "timestamp": datetime.now()
+      }
+      documents.append(doc)
+
+    if documents:
+      mongodb_handler.insert_many(documents, ordered=False)
+      print(
+          f"Successfully saved {len(documents)} documents to MongoDB at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+      )
   except Exception as e:
-    print(f"Error saving results to file: {e}")
+    print(f"Error saving results to MongoDB: {e}")
 
 
 if __name__ == "__main__":
@@ -363,41 +380,45 @@ if __name__ == "__main__":
     dns_servers = get_dns_servers()  # 获取DNS服务器列表
 
     all_results = []
-    date_str = datetime.now().strftime("%Y%m%d")
+    current_month = datetime.now().strftime("%Y_%m")  # 格式: 2025_10
+
+    # 根据当前月份创建或获取 MongoDB collection
+    collection_name = f"GFWLocation_{current_month}"
+    mongodb_handler = MongoDBHandler(ADC_db[collection_name])
+    print(f"Using MongoDB collection: {collection_name}")
 
     while datetime.now() < end_time:
       domains = get_domains_list()
       results = process_domains_concurrently(domains, dns_servers)
       all_results.extend(results)
 
+      # 检查是否需要切换到新的月份集合
+      new_month = datetime.now().strftime("%Y_%m")
+      if new_month != current_month:
+        # 保存剩余数据到旧集合
+        if all_results:
+          save_to_mongodb(all_results, mongodb_handler)
+          all_results = []
+
+        # 切换到新月份的集合
+        current_month = new_month
+        collection_name = f"GFWLocation_{current_month}"
+        mongodb_handler = MongoDBHandler(ADC_db[collection_name])
+        print(f"Switched to new MongoDB collection: {collection_name}")
+
+      # 每收集1500条结果就保存一次
       if len(all_results) >= 1500:
-        save_to_file(all_results, date_str)
+        save_to_mongodb(all_results, mongodb_handler)
         all_results = []
 
-      current_date_str = datetime.now().strftime("%Y%m%d")
-      if current_date_str != date_str:
-        date_str = current_date_str
-
-      print("Results saved to file at " +
+      print("Results saved to MongoDB at " +
             datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-      # After all domains are processed, compress the CSV file
-      folder_path = '../Lib/Data-2025-1/China-Mobile/GFWLocation'
-      filename = f'GFW_Location_Results_{datetime.now().strftime("%Y_%m_%d")}.csv'
-      filepath = f"{folder_path}/{filename}"
-      compressed_filepath = f"{folder_path}/{filename}.7z"
-      try:
-        with py7zr.SevenZipFile(compressed_filepath,
-                                'w',
-                                filters=[{
-                                    'id': py7zr.FILTER_LZMA2,
-                                    'preset': 9
-                                }]) as archive:
-          archive.write(filepath, arcname=filename)
-        print(f"CSV file compressed to {compressed_filepath}")
-      except Exception as e:
-        print(f"Error compressing CSV file: {e}")
+
       sleep(3600)  # Wait for 1 hour before the next check
+
+    # 保存最后剩余的结果
     if all_results:
-      save_to_file(all_results, date_str)
+      save_to_mongodb(all_results, mongodb_handler)
+
   except Exception as e:
     print(f"Error in main execution: {e}")

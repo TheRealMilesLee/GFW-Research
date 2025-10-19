@@ -1,17 +1,20 @@
 import asyncio
-import csv
 import os
+import sys
 from datetime import datetime, timedelta
 
 import dns.asyncresolver
 from get_dns_servers import get_dns_servers
-import py7zr
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from Database.DBOperations import ADC_db, MongoDBHandler
 
 # Timeout for connection attempts (in seconds)
 TIMEOUT = 30
 BATCH_SIZE = 128
 CONCURRENT_TASKS = 128
 WRITE_THRESHOLD = 2500
+
 
 async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
   resolver = dns.asyncresolver.Resolver()
@@ -58,15 +61,17 @@ async def query_dns(domain: str, dns_server: str, record_type: str) -> dict:
       print(f"Record: {rdata}")
 
   return {
-    'domain': domain,
-    'dns_server': dns_server,
-    'record_type': record_type,
-    'answers': [answer.to_text() for answer in answers],
-    'error_code': error_code,
-    'error_reason': error_reason
+      'domain': domain,
+      'dns_server': dns_server,
+      'record_type': record_type,
+      'answers': [answer.to_text() for answer in answers],
+      'error_code': error_code,
+      'error_reason': error_reason
   }
 
-async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_servers: list) -> list:
+
+async def check_poisoning(domains: list, ipv4_dns_servers: list,
+                          ipv6_dns_servers: list) -> list:
   results = []
   semaphore = asyncio.Semaphore(CONCURRENT_TASKS)
 
@@ -75,13 +80,11 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
       return await query_dns(domain, dns_server, record_type)
 
   tasks = [
-    sem_query_dns(domain, dns_server, 'A')
-    for domain in domains
-    for dns_server in ipv4_dns_servers
+      sem_query_dns(domain, dns_server, 'A') for domain in domains
+      for dns_server in ipv4_dns_servers
   ] + [
-    sem_query_dns(domain, dns_server, 'AAAA')
-    for domain in domains
-    for dns_server in ipv6_dns_servers
+      sem_query_dns(domain, dns_server, 'AAAA') for domain in domains
+      for dns_server in ipv6_dns_servers
   ]
 
   for future in asyncio.as_completed(tasks):
@@ -89,7 +92,9 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
       dns_results = await future
       results.append(dns_results)
     except Exception as e:
-      error_folder_path = '../Lib/Data-2025-1/China-Mobile/Error'
+      error_folder_path = os.path.join(
+          os.path.dirname(__file__),
+          '../Lib/AfterDomainChange/China-Mobile/Error')
       os.makedirs(error_folder_path, exist_ok=True)
       error_filename = f"ErrorDomains_{datetime.now().strftime('%Y_%m_%d')}.txt"
       error_filepath = os.path.join(error_folder_path, error_filename)
@@ -98,92 +103,102 @@ async def check_poisoning(domains: list, ipv4_dns_servers: list, ipv6_dns_server
 
   return results
 
-def save_results(results: list, is_first_write=False) -> None:
-  filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
-  folder_path = '../Lib/Data-2025-1/China-Mobile/DNSPoisoning'
-  os.makedirs(folder_path, exist_ok=True)
-  filepath = f"{folder_path}/{filename}"
 
-  mode = "w" if is_first_write else "a"  # Use "a" mode to append data after the first write
-  print(f"{'Creating' if is_first_write else 'Appending to'} results file at {filepath}")
+def save_to_mongodb(results: list, mongodb_handler: MongoDBHandler) -> None:
+  """
+  将 DNS 查询结果保存到 MongoDB
 
+  Args:
+    results: 要保存的结果列表
+    mongodb_handler: MongoDB 处理器实例
+  """
+  if not results:
+    print("No results to save")
+    return
+
+  print(f"Saving {len(results)} DNS results to MongoDB")
   try:
-    with open(filepath, mode, newline="") as csvfile:
-      fieldnames = [
-        "timestamp",
-        "domain",
-        "dns_server",
-        "record_type",
-        "answers",
-        "error_code",
-        "error_reason"
-      ]
-      writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-      # Write header only on the first write
-      if is_first_write:
-        writer.writeheader()
-
-      for row in results:
-        writer.writerow({
-          "timestamp": datetime.now().isoformat(),
+    documents = []
+    for row in results:
+      doc = {
+          "timestamp": datetime.now(),
           "domain": row['domain'],
           "dns_server": row['dns_server'],
           "record_type": row['record_type'],
           "answers": row['answers'],
           "error_code": row['error_code'],
           "error_reason": row['error_reason']
-        })
+      }
+      documents.append(doc)
+
+    if documents:
+      mongodb_handler.insert_many(documents, ordered=False)
+      print(
+          f"Successfully saved {len(documents)} documents to MongoDB at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+      )
   except Exception as e:
-    print(f"Error saving results to file: {e}")
+    print(f"Error saving results to MongoDB: {e}")
+
 
 async def main():
   try:
     ipv4_dns_servers, ipv6_dns_servers = get_dns_servers()
-    file_path = os.path.join(os.path.dirname(__file__), 'D:\\Developer\\GFW-Research\\src\\Import\\domains_list.csv')
+    file_path = os.path.join(os.path.dirname(__file__),
+                             '../Import/domains_list.csv')
 
     with open(file_path, 'r') as file:
-      reader = csv.reader(file)
-      domains = [row[0].strip() for row in reader]
+      lines = file.readlines()[1:]  # Skip the header row
+      domains = [line.strip().split(',')[0] for line in lines]
 
     print(f"Checking {len(domains)} domains for DNS poisoning")
 
     all_results = []  # Collect all results here
     end_time = datetime.now() + timedelta(days=7)
-    is_first_write = True  # Flag to indicate the first write of the day
+
+    # 根据当前月份创建或获取 MongoDB collection
+    current_month = datetime.now().strftime("%Y_%m")
+    collection_name = f"DNSPoisoning_{current_month}"
+    mongodb_handler = MongoDBHandler(ADC_db[collection_name])
+    print(f"Using MongoDB collection: {collection_name}")
 
     while datetime.now() < end_time:
       for i in range(0, len(domains), BATCH_SIZE):
         batch = domains[i:i + BATCH_SIZE]
-        results = await check_poisoning(batch, ipv4_dns_servers, ipv6_dns_servers)
+        results = await check_poisoning(batch, ipv4_dns_servers,
+                                        ipv6_dns_servers)
         all_results.extend(results)  # Append batch results to all_results
 
+        # 检查是否需要切换到新的月份集合
+        new_month = datetime.now().strftime("%Y_%m")
+        if new_month != current_month:
+          # 保存剩余数据到旧集合
+          if all_results:
+            save_to_mongodb(all_results, mongodb_handler)
+            all_results = []
+
+          # 切换到新月份的集合
+          current_month = new_month
+          collection_name = f"DNSPoisoning_{current_month}"
+          mongodb_handler = MongoDBHandler(ADC_db[collection_name])
+          print(f"Switched to new MongoDB collection: {collection_name}")
+
         if len(all_results) >= WRITE_THRESHOLD:
-          save_results(all_results, is_first_write=is_first_write)
-          is_first_write = False  # After the first write, always append
-          all_results.clear()  # Clear results after saving to prepare for the next batch
+          save_to_mongodb(all_results, mongodb_handler)
+          all_results.clear(
+          )  # Clear results after saving to prepare for the next batch
 
       print(f"All batches completed at {datetime.now()}")
 
-      # Save remaining results to CSV after all batches are processed
+      # Save remaining results to MongoDB after all batches are processed
       if all_results:
-        save_results(all_results, is_first_write=is_first_write)
-        is_first_write = False  # After the first write, always append
+        save_to_mongodb(all_results, mongodb_handler)
         all_results.clear()  # Clear results after saving
-        # After all domains are processed, compress the CSV file
-        folder_path = '../Lib/Data-2025-1/China-Mobile/DNSPoisoning'
-        filename = f'DNS_Checking_Result_{datetime.now().strftime("%Y_%m_%d")}.csv'
-        filepath = f"{folder_path}/{filename}"
-        compressed_filepath = f"{folder_path}/{filename}.7z"
-        try:
-          with py7zr.SevenZipFile(compressed_filepath, 'w', filters=[{'id': py7zr.FILTER_LZMA2, 'preset': 9}]) as archive:
-            archive.write(filepath, arcname=filename)
-          print(f"CSV file compressed to {compressed_filepath}")
-        except Exception as e:
-          print(f"Error compressing CSV file: {e}")
-        await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+
+      await asyncio.sleep(3600)  # Wait for 1 hour before the next check
+
   except Exception as e:
     print(f"Error in main execution: {e}")
+
 
 if __name__ == "__main__":
   asyncio.run(main())

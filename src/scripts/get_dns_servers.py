@@ -1,6 +1,8 @@
 import csv
+import os
 
-DNS_SERVERS = '/home/lhengyi/Developer/GFW-Research/src/Import/dns_servers.csv'
+DNS_SERVERS = os.path.join(os.path.dirname(__file__),
+                           '../Import/dns_servers.csv')
 
 
 def get_dns_servers() -> tuple:
@@ -18,9 +20,10 @@ def get_dns_servers() -> tuple:
     reader = csv.reader(file)
     next(reader)  # Skip the header row
     for row in reader:
-      ipv4_dns_servers.append(row[1])
+      if len(row) >= 2 and row[1]:  # Check if IPV4 exists
+        ipv4_dns_servers.append(row[1])
       # check row[2] for ipv6 DNS servers, if is not empty, append to ipv6_dns_servers
-      if row[2]:
+      if len(row) >= 3 and row[2]:
         ipv6_dns_servers.append(row[2])
   return ipv4_dns_servers, ipv6_dns_servers
 
