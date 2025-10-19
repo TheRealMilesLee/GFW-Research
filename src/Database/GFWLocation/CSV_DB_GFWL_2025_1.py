@@ -97,7 +97,7 @@ def dump_to_mongo():
   if os.name == 'nt':
     FileFolderLocation = 'E:\\Developer\\SourceRepo\\GFW-Research\\Lib\\Data-2025-1\\China-Mobile\\GFWLocation'
   else:
-    FileFolderLocation = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2025-1/ChinaMobile/GFWLocation'
+    FileFolderLocation = '/home/silverhand/Developer/SourceRepo/GFW-Research/Lib/Data-2025-1/China-Mobile/GFWLocation'
   csv_files = [
       os.path.join(FileFolderLocation, file)
       for file in os.listdir(FileFolderLocation) if file.endswith('.csv')

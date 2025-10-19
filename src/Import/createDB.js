@@ -1,5 +1,5 @@
-// 连接 MongoDB 实例
-use admin;
+// 连接到 admin 数据库
+db = db.getSiblingDB("admin");
 
 // 创建 admin 用户
 db.createUser({
@@ -8,11 +8,11 @@ db.createUser({
   roles: [{ role: "userAdminAnyDatabase", db: "admin" }]
 });
 
-// 以 admin 用户身份重新登录
+// 使用 admin 用户身份进行认证
 db.auth("admin", "TheMilesLee710");
 
-// 创建 BeforeDomainChange 数据库并创建集合
-use BeforeDomainChange;
+// =============== BeforeDomainChange 数据库 ===============
+db = db.getSiblingDB("BeforeDomainChange");
 
 db.createCollection("China-Mobile-DNSPoisoning");
 db.createCollection("China-Mobile-GFWLocation");
@@ -24,8 +24,8 @@ db.createCollection("UCDavis-CompareGroup-DNSPoisoning");
 db.createCollection("UCDavis-CompareGroup-GFWLocation");
 db.createCollection("UCDavis-CompareGroup-IPBlocking");
 
-// 创建 AfterDomainChange 数据库并创建集合
-use AfterDomainChange;
+// =============== AfterDomainChange 数据库 ===============
+db = db.getSiblingDB("AfterDomainChange");
 
 db.createCollection("China-Mobile-DNSPoisoning");
 db.createCollection("China-Mobile-GFWLocation");
@@ -38,5 +38,7 @@ db.createCollection("UCDavis-Server-GFWLocation");
 db.createCollection("UCDavis-Server-IPBlocking");
 db.createCollection("UCDavis-Server-DNSPoisoning");
 
-// 确保所有内容已创建
-show dbs;
+// 打印所有数据库，确认创建完成
+print("已创建的数据库列表：");
+printjson(db.getMongo().getDBs());
+
